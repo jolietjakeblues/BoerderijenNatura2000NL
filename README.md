@@ -103,10 +103,6 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
   StikstofGelderland-kaart gebruikte een subset van 173 als stikstofgevoelig gemarkeerde gebieden
   uit die graph; deze opzet gebruikt vooralsnog de volledige landelijke PDOK-laag zonder die filter).
 - De resterende ~145 Natura 2000-gebieden landsdekkend toevoegen.
-- Losse `gebied_*.json`/`D_*.json`-tussenbestanden en bouwscripts zijn nu nog scratchpad-only
-  (niet in deze repo) — overwegen om het bouwproces (RCE-query → afstand/point-in-polygon →
-  BAG-check → provincie → HTML) als herbruikbaar script in de repo zelf op te nemen in plaats van
-  telkens opnieuw te genereren.
 - **Download-knop (CSV)** per gebiedspagina: monumentenlijst (nr, adres, provincie, afstand, functie,
   actieve bedrijfsindicatie) exporteren.
 - **Klikbare popup voor een monument** in plaats van alleen hover — belangrijk voor mobiel/touch.
@@ -114,23 +110,30 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
 
 ### Stabiliteit / veiligheid (niet alleen features)
 
-- **Sanity-check op de handgeschreven bbox-regex** waarmee rijksmonumenten per gebied bij RCE worden
-  opgehaald: deze is per batch met de hand geschreven en dus foutgevoelig (tijdens de opbouw van dit
-  project zelf een keer verkeerd geschreven bij Rijntakken, wat een monument stilzwijgend had kunnen
-  laten wegvallen). Regex idealiter automatisch afleiden uit de werkelijke gebieds-bbox, met een
-  controlestap tegen een ruimere marge.
-- ~~**BAG-fouten onderscheiden van een bevestigde NEE**~~ — **opgelost.** Elk monument heeft nu een
-  `bag`-status (`ok` / `geen_adres` / `geen_match_in_bbox` / `fout`) naast `ja` (industrie). Alleen
-  `bag === 'ok'` telt als betrouwbaar gecontroleerd; de overige gevallen tonen apart als "BAG niet te
-  controleren" (stat-blokje, gestippelde grijze rand op de kaart, aparte tooltip-tekst) in plaats van
-  stil als NEE mee te tellen. Nog niet gedaan: retry/backoff bij een mislukte fetch (zie hieronder) —
-  dat kan het aantal "niet te controleren" gevallen nog verder omlaag brengen.
-- **Retry/backoff voor de BAG-WFS-calls**: nu geen enkele retry bij een mislukte fetch in een batch.
-- **CQL_FILTER wordt door de gebruikte PDOK-WFS-endpoints (natura2000, bag:verblijfsobject)
-  stilzwijgend genegeerd** — je krijgt dan ongefilterde data terug zonder foutmelding. Ontdekt tijdens
-  de opbouw van dit project; alleen BBOX-filters bleken betrouwbaar te werken op deze endpoints.
-- **Peildatum staat hardcoded** in elk bouwscript; zou automatisch afgeleid moeten worden uit het
-  moment van genereren in plaats van handmatig bijgewerkt te worden.
+- ~~**Bouwpijplijn van scratchpad naar de repo**~~ — **opgelost.** Zie [`scripts/`](scripts/README.md):
+  herbruikbare, dependency-loze Node-scripts voor referentiedata ophalen, een gebied voorbereiden,
+  monumenten classificeren, verrijken (BAG + provincie) en de HTML genereren. Twee stappen blijven
+  handmatig (de RCE CHO-query via de MCP-tool, zie `scripts/README.md`) — de rest is volledig
+  geautomatiseerd en getest.
+- ~~**Sanity-check op de handgeschreven bbox-regex**~~ — **opgelost.** `scripts/lib/bbox-regex.mjs`
+  leidt de REGEX-bboxfilter nu mechanisch af uit de echte gebieds-bbox (met 0.15° marge), in plaats van
+  'm met de hand te typen — inclusief een zelftest (`node scripts/lib/bbox-regex.mjs`) die precies de
+  foutklasse afdekt die bij Rijntakken misging. Bijvangst tijdens het herbouwen: dezelfde
+  Natura2000-WFS bleek zonder waarschuwing ook RD i.p.v. WGS84 te kunnen teruggeven (zie
+  `scripts/README.md`) — ook daar is nu een harde controle tegen ingebouwd.
+- ~~**Retry/backoff voor de BAG-WFS-calls**~~ — **opgelost.** `scripts/lib/bag.mjs` doet 2 automatische
+  retries met oplopende wachttijd per monument.
+- ~~**CQL_FILTER-valkuil documenteren**~~ — **opgelost.** Zie `scripts/README.md`, sectie
+  "Bekende valkuilen".
+- ~~**Migreer de 17 bestaande gebieden naar de nieuwe pijplijn**~~ — **opgelost.** Alle 17
+  `data/gebieden/<slug>/data.json`-bestanden staan nu in de repo; `gebieden/*.html` en `index.html`
+  worden voortaan met `scripts/06-build-gebied-html.mjs` resp. `scripts/07-build-landing-html.mjs`
+  gegenereerd. Gecontroleerd dat alle cijfers (n, ja, onbekend, per-provincie) exact overeenkomen met
+  de eerder gepubliceerde versie. Rijntakken had als enige nog een afwijkend databundel-schema
+  (`gld`/`ovij` i.p.v. het generieke `provCounts`) en een losstaande titel/badge-opmaak; genormaliseerd
+  naar hetzelfde schema en dezelfde generieke sjabloon als de andere 16 gebieden.
+- ~~**Peildatum staat hardcoded**~~ — **opgelost.** De pijplijn (`scripts/05-build-gebied-data.mjs`)
+  leidt 'm nu automatisch af uit het moment van genereren.
 
 ### Geloofwaardigheid / interpretatie (uit review)
 
