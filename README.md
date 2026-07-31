@@ -37,7 +37,7 @@ toe 11 verwerkt:
 | **Totaal (11 gebieden)** | | **419** | **74** |
 
 Let op: de totaaltelling is een **som van per-gebied cijfers**, geen aantal unieke monumenten
-landelijk — een monument dat dicht bij meerdere Natura 2000-gebieden ligt (bv. tussen Bekendelle en
+landelijk;een monument dat dicht bij meerdere Natura 2000-gebieden ligt (bv. tussen Bekendelle en
 Korenburgerveen) telt terecht in beide gebiedspagina's mee.
 
 **Resterend: 151 gebieden** (147 landgebieden + 4 mariene gebieden die waarschijnlijk buiten scope
@@ -48,14 +48,14 @@ IJssel, Nijmegen-Mook, Gelderse Vallei) met bewust een paar provinciegrensgevall
 ## Methode per gebied
 
 1. **Monumenten**: RCE CHO-endpoint (linked data), rijksmonumenten met oorspronkelijke functie
-   "boerderij" (labels als "Boerderij (M)", "Boerderij(M1)" — coderingen tussen haakjes worden
+   "boerderij" (labels als "Boerderij (M)", "Boerderij(M1)";coderingen tussen haakjes worden
    afgeknipt), met puntgeometrie.
 2. **Natura 2000-geometrie**: officiële landelijke WFS (`service.pdok.nl/rvo/natura2000`).
 3. **Selectie**: een monument valt in de pilot-set van een gebied als het **binnen** de
    gebiedsgeometrie ligt (echte point-in-polygon-toets, inclusief gaten in de polygoon) **of**
    binnen **5 km** hemelsbreed van de daadwerkelijke gebiedsrand (niet van een bounding box).
 4. **Provincie**: apart bepaald via point-in-polygon tegen de PDOK-bestuurlijke-grenzenlaag
-   (`bestuurlijkegebieden:Provinciegebied`) — onafhankelijk van het Natura 2000-gebied en van RCE.
+   (`bestuurlijkegebieden:Provinciegebied`);onafhankelijk van het Natura 2000-gebied en van RCE.
 5. **Actieve bedrijfsindicatie**: adres per monument opgehaald via RCE (BAG-relatie), daarna
    gebruiksdoel opgezocht in de open PDOK BAG-WFS (`bag:verblijfsobject`), gematcht op postcode en
    huisnummer. Industriefunctie op het adres = actieve bedrijfsindicatie. Monumenten met uitsluitend
@@ -69,7 +69,7 @@ IJssel, Nijmegen-Mook, Gelderse Vallei) met bewust een paar provinciegrensgevall
 
 Voor nu wordt alléén de klasse **"erin" + "≤ 5 km"** meegenomen (zie het TODO hieronder voor
 uitbreiding). Dat betekent dat een gebied als De Bruuk als "0 boerderijen" verschijnt, terwijl de
-dichtstbijzijnde boerderij daar in werkelijkheid op 5,6 km ligt — net buiten de huidige grens, niet
+dichtstbijzijnde boerderij daar in werkelijkheid op 5,6 km ligt;net buiten de huidige grens, niet
 omdat er niets in de buurt is.
 
 ### Waarom geen BAG API-key
@@ -89,7 +89,7 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
   uit die graph; deze opzet gebruikt vooralsnog de volledige landelijke PDOK-laag zonder die filter).
 - De resterende ~151 Natura 2000-gebieden landsdekkend toevoegen.
 - Losse `gebied_*.json`/`D_*.json`-tussenbestanden en bouwscripts zijn nu nog scratchpad-only
-  (niet in deze repo) — overwegen om het bouwproces (RCE-query → afstand/point-in-polygon →
+  (niet in deze repo);overwegen om het bouwproces (RCE-query → afstand/point-in-polygon →
   BAG-check → provincie → HTML) als herbruikbaar script in de repo zelf op te nemen in plaats van
   telkens opnieuw te genereren.
 
