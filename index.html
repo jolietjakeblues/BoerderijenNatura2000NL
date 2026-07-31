@@ -19,10 +19,11 @@
   header{padding:28px 0 18px;border-bottom:2px solid var(--ink)}
   h1{font-family:Palatino,"Palatino Linotype",Georgia,serif;font-size:30px;line-height:1.15;font-weight:700;margin-top:6px}
   header p{margin-top:10px;font-size:14px;color:var(--ink-soft);max-width:64ch}
-  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:16px 0}
+  .stats{display:grid;grid-template-columns:repeat(4,1fr);gap:8px;margin:16px 0}
   .stat{background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:12px}
   .stat .num{font-family:Palatino,Georgia,serif;font-size:26px;font-weight:700;line-height:1.05}
   .stat.alert .num{color:var(--alert)}
+  .stat.neutral .num{color:var(--ink-soft)}
   .stat .lbl{font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-soft);margin-top:3px}
   .card{background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:14px;margin:14px 0}
   .card h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue-mid);margin-bottom:8px}
@@ -47,8 +48,10 @@
   <header>
     <div class="eyebrow">RCE &times; Kadaster &times; Natura 2000 &middot; linked data federatie</div>
     <h1>Rijksmonumentale boerderijen &amp; Natura 2000</h1>
-    <p>Landsdekkend overzicht van rijksmonumentale boerderijen binnen de invloedssfeer van
-    stikstofgevoelige Natura 2000-gebieden. Opgebouwd gebied voor gebied &mdash; niet in &eacute;&eacute;n keer
+    <p>Landsdekkend overzicht van rijksmonumentale boerderijen binnen 5&nbsp;km van een Natura
+    2000-gebied. Vijf kilometer is een gekozen selectievenster, geen ecologische
+    invloedssfeer &mdash; en dit gebruikt vooralsnog alle Natura 2000-gebieden, niet alleen de als
+    stikstofgevoelig gemarkeerde subset (zie Methode). Opgebouwd gebied voor gebied &mdash; niet in &eacute;&eacute;n keer
     alle rijksmonumentale boerderijen in Nederland, maar per Natura 2000-gebied, zodat elk gebied
     apart te controleren en te verifi&euml;ren is voordat het volgende wordt toegevoegd. Provincie is
     hierbij een weergavelaag, geen zoekgrens: een gebied dat over een provinciegrens heen ligt (zoals
@@ -88,13 +91,14 @@
   </footer>
 </div>
 <script>
-const TOTAAL = {"gebieden":17,"n":532,"ja":87};
+const TOTAAL = {"gebieden":17,"n":532,"ja":87,"onbekend":5};
 const $ = id => document.getElementById(id);
 const fmt = n => n.toLocaleString('nl-NL');
 $('stats').innerHTML = `
   <div class="stat"><div class="num">${fmt(TOTAAL.gebieden)}</div><div class="lbl">natura 2000-gebieden verwerkt</div></div>
   <div class="stat"><div class="num">${fmt(TOTAAL.n)}</div><div class="lbl">rijksmonumentale boerderijen</div></div>
-  <div class="stat alert"><div class="num">${fmt(TOTAAL.ja)}</div><div class="lbl">actieve bedrijfsindicatie</div></div>`;
+  <div class="stat alert"><div class="num">${fmt(TOTAAL.ja)}</div><div class="lbl">actieve bedrijfsindicatie</div></div>
+  <div class="stat neutral"><div class="num">${fmt(TOTAAL.onbekend)}</div><div class="lbl">BAG niet te controleren</div></div>`;
 $('gebiedenGrid').innerHTML = `
       <a class="gcard" href="gebieden/rijntakken.html">
         <div class="gcard-top">

@@ -1,7 +1,8 @@
 # BoerderijenNatura2000NL
 
-Landsdekkend overzicht van rijksmonumentale boerderijen binnen de invloedssfeer van Natura
-2000-gebieden. Opvolger van [StikstofGelderland](https://github.com/jolietjakeblues/StikstofGelderland),
+Landsdekkend overzicht van rijksmonumentale boerderijen binnen 5 km van een Natura 2000-gebied
+(een gekozen selectievenster, geen ecologische invloedssfeer). Opvolger van
+[StikstofGelderland](https://github.com/jolietjakeblues/StikstofGelderland),
 maar dan **gebied-primair in plaats van provincie-primair**: per Natura 2000-gebied verwerkt en
 gepubliceerd, in plaats van in één keer alle rijksmonumentale boerderijen van een hele provincie.
 
@@ -21,30 +22,31 @@ Nederland telt 162 Natura 2000-gebieden (bron: PDOK/RVO, waarvan 4 mariene gebie
 Exclusieve Economische Zone op de Noordzee, buiten scope voor dit project). Hiervan zijn er tot nu
 toe 17 verwerkt:
 
-| Gebied | Provincie(s) | Boerderijen | Actieve bedrijfsindicatie |
-|---|---|---:|---:|
-| [Rijntakken – IJssel-traject](gebieden/rijntakken.html) | Gelderland / Overijssel | 241 | 49 |
-| [Landgoederen Brummen](gebieden/landgoederen-brummen.html) | Gelderland | 59 | 10 |
-| [Willinks Weust](gebieden/willinks-weust.html) | Gelderland | 21 | 3 |
-| [Bekendelle](gebieden/bekendelle.html) | Gelderland | 25 | 2 |
-| [Korenburgerveen](gebieden/korenburgerveen.html) | Gelderland | 24 | 3 |
-| [Stelkampsveld](gebieden/stelkampsveld.html) | Gelderland | 25 | 4 |
-| [Wooldse Veen](gebieden/wooldse-veen.html) | Gelderland | 10 | 1 |
-| [Sint Jansberg](gebieden/sint-jansberg.html) | Limburg / Noord-Brabant | 4 | 1 |
-| [Zeldersche Driessen](gebieden/zeldersche-driessen.html) | Limburg / Noord-Brabant | 4 | 1 |
-| [Binnenveld](gebieden/binnenveld.html) | Gelderland / Utrecht | 6 | 0 |
-| [De Bruuk](gebieden/de-bruuk.html) | Gelderland | 0 | 0 |
-| [Lieftinghsbroek](gebieden/lieftinghsbroek.html) | Groningen | 14 | 2 |
-| [Norgerholt](gebieden/norgerholt.html) | Drenthe | 44 | 3 |
-| [Witterveld](gebieden/witterveld.html) | Drenthe | 8 | 1 |
-| [Elperstroomgebied](gebieden/elperstroomgebied.html) | Drenthe | 33 | 4 |
-| [Bakkeveense Duinen](gebieden/bakkeveense-duinen.html) | Fryslân | 6 | 1 |
-| [Drouwenerzand](gebieden/drouwenerzand.html) | Drenthe | 8 | 2 |
-| **Totaal (17 gebieden)** | | **532** | **87** |
+| Gebied | Provincie(s) | Boerderijen | Actieve bedrijfsindicatie | BAG niet te controleren |
+|---|---|---:|---:|---:|
+| [Rijntakken – IJssel-traject](gebieden/rijntakken.html) | Gelderland / Overijssel | 241 | 49 | 3 |
+| [Landgoederen Brummen](gebieden/landgoederen-brummen.html) | Gelderland | 59 | 10 | 0 |
+| [Willinks Weust](gebieden/willinks-weust.html) | Gelderland | 21 | 3 | 0 |
+| [Bekendelle](gebieden/bekendelle.html) | Gelderland | 25 | 2 | 0 |
+| [Korenburgerveen](gebieden/korenburgerveen.html) | Gelderland | 24 | 3 | 0 |
+| [Stelkampsveld](gebieden/stelkampsveld.html) | Gelderland | 25 | 4 | 0 |
+| [Wooldse Veen](gebieden/wooldse-veen.html) | Gelderland | 10 | 1 | 0 |
+| [Sint Jansberg](gebieden/sint-jansberg.html) | Limburg / Noord-Brabant | 4 | 1 | 0 |
+| [Zeldersche Driessen](gebieden/zeldersche-driessen.html) | Limburg / Noord-Brabant | 4 | 1 | 0 |
+| [Binnenveld](gebieden/binnenveld.html) | Gelderland / Utrecht | 6 | 0 | 1 |
+| [De Bruuk](gebieden/de-bruuk.html) | Gelderland | 0 | 0 | 0 |
+| [Lieftinghsbroek](gebieden/lieftinghsbroek.html) | Groningen | 14 | 2 | 0 |
+| [Norgerholt](gebieden/norgerholt.html) | Drenthe | 44 | 3 | 0 |
+| [Witterveld](gebieden/witterveld.html) | Drenthe | 8 | 1 | 0 |
+| [Elperstroomgebied](gebieden/elperstroomgebied.html) | Drenthe | 33 | 4 | 1 |
+| [Bakkeveense Duinen](gebieden/bakkeveense-duinen.html) | Fryslân | 6 | 1 | 0 |
+| [Drouwenerzand](gebieden/drouwenerzand.html) | Drenthe | 8 | 2 | 0 |
+| **Totaal (17 gebieden)** | | **532** | **87** | **5** |
 
 Let op: de totaaltelling is een **som van per-gebied cijfers**, geen aantal unieke monumenten
 landelijk — een monument dat dicht bij meerdere Natura 2000-gebieden ligt (bv. tussen Bekendelle en
-Korenburgerveen) telt terecht in beide gebiedspagina's mee.
+Korenburgerveen) telt terecht in beide gebiedspagina's mee. De kolom "BAG niet te controleren" is
+géén bevestigde NEE — zie de toelichting bij taak 10 hieronder.
 
 **Resterend: 145 gebieden** (141 landgebieden + 4 mariene gebieden die waarschijnlijk buiten scope
 blijven). Nog geen vaste volgorde vastgesteld; tot nu toe is gewerkt vanuit Gelderland (Achterhoek,
@@ -70,7 +72,10 @@ bewust nog niet zijn opgepakt.
    gebruiksdoel opgezocht in de open PDOK BAG-WFS (`bag:verblijfsobject`), gematcht op postcode en
    huisnummer. Industriefunctie op het adres = actieve bedrijfsindicatie. Monumenten met uitsluitend
    woonfunctie (geen industrie, geen logies/bijeenkomst) tellen **niet** mee als actief
-   (conservatieve keuze).
+   (conservatieve keuze). Monumenten zonder BAG-adres in RCE, of zonder match in de BAG-zoekbox,
+   krijgen een aparte status **"BAG niet te controleren"** — deze tellen niet mee als actief, maar
+   worden nadrukkelijk niet als bevestigde NEE geteld (op de kaart een gestippelde grijze rand
+   i.p.v. de blauwe rand van een bevestigde actieve indicatie).
 6. **Gebiedsbeschrijving**: korte, zelfgeschreven samenvatting (type natuurgebied, ligging,
    oppervlakte, beschermingsreden) op basis van [natura2000.nl](https://www.natura2000.nl/gebieden),
    met bronvermelding per gebiedspagina.
@@ -114,15 +119,56 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
   project zelf een keer verkeerd geschreven bij Rijntakken, wat een monument stilzwijgend had kunnen
   laten wegvallen). Regex idealiter automatisch afleiden uit de werkelijke gebieds-bbox, met een
   controlestap tegen een ruimere marge.
-- **BAG-fouten onderscheiden van een bevestigde NEE**: een mislukte BAG-WFS-call of een adres dat niet
-  binnen de 200 m-zoekbox matcht, resulteert nu in dezelfde `industrie=false`-status als een echt
-  gecontroleerde NEE. Dit kan de actieve-bedrijfsindicatie stil ondertellen zonder dat dat zichtbaar is.
+- ~~**BAG-fouten onderscheiden van een bevestigde NEE**~~ — **opgelost.** Elk monument heeft nu een
+  `bag`-status (`ok` / `geen_adres` / `geen_match_in_bbox` / `fout`) naast `ja` (industrie). Alleen
+  `bag === 'ok'` telt als betrouwbaar gecontroleerd; de overige gevallen tonen apart als "BAG niet te
+  controleren" (stat-blokje, gestippelde grijze rand op de kaart, aparte tooltip-tekst) in plaats van
+  stil als NEE mee te tellen. Nog niet gedaan: retry/backoff bij een mislukte fetch (zie hieronder) —
+  dat kan het aantal "niet te controleren" gevallen nog verder omlaag brengen.
 - **Retry/backoff voor de BAG-WFS-calls**: nu geen enkele retry bij een mislukte fetch in een batch.
 - **CQL_FILTER wordt door de gebruikte PDOK-WFS-endpoints (natura2000, bag:verblijfsobject)
   stilzwijgend genegeerd** — je krijgt dan ongefilterde data terug zonder foutmelding. Ontdekt tijdens
   de opbouw van dit project; alleen BBOX-filters bleken betrouwbaar te werken op deze endpoints.
 - **Peildatum staat hardcoded** in elk bouwscript; zou automatisch afgeleid moeten worden uit het
   moment van genereren in plaats van handmatig bijgewerkt te worden.
+
+### Geloofwaardigheid / interpretatie (uit review)
+
+- **De term "actieve bedrijfsindicatie" is kwetsbaar.** Een BAG-industriefunctie bewijst geen actief
+  agrarisch bedrijf, laat staan stikstofuitstoot. De kanttekeningen erkennen dit al, maar de
+  opvallende totaalcijfers kunnen los daarvan verkeerd worden gelezen. Op te lossen in samenhang met
+  de laatste twee punten hieronder, niet als losse woordwijziging.
+- ~~**Inconsistentie "stikstofgevoelig" vs. volledige PDOK-laag**~~ — **gecorrigeerd.** De
+  landingspagina claimde "stikstofgevoelige Natura 2000-gebieden" terwijl de methode expliciet zegt
+  dat de volledige PDOK-laag zonder die filter wordt gebruikt. Tekst aangepast.
+- ~~**"5 km" werd als ecologische invloedssfeer gepresenteerd**~~ — **gecorrigeerd.** Vijf kilometer
+  is een gekozen selectievenster, geen vastgestelde ecologische invloedssfeer; de tekst benoemt dit nu
+  expliciet.
+
+**Aanvullende, waardevolle toevoegingen uit dezelfde review** (met de door de reviewer aangemerkte
+top 3 vetgedrukt):
+
+1. **Explicietere onzekerheidsstatus per monument** — verder dan ok/geen_adres/geen_match/fout:
+   bv. aanwijzing gevonden / geen aanwijzing gevonden / adres niet eenduidig gekoppeld / BAG-bevraging
+   mislukt / handmatig gecontroleerd. Voorkomt dat "onbekend" als "nee" gelezen wordt.
+2. **"Waarom staat dit punt hier?"-detailweergave per monument** — afstand tot gebied/gebiedsrand,
+   binnen/buiten, gebruikte RCE- en BAG-object-ID's, gevonden gebruiksdoelen, raadpleegdatum,
+   toewijzingswijze, link naar brondata.
+3. **Datakwaliteitsdashboard per gebied** — aantal geselecteerd, adressen succesvol gekoppeld,
+   adressen ambigu, mislukte BAG-bevragingen, handmatig gecontroleerd, peildatum brondata.
+4. Normaliseren voor vergelijking tussen gebieden (per 100 km², per km gebiedsrand, aandeel actief,
+   verdeling over afstandsklassen) — nadrukkelijk als beschrijvende statistiek, niet als stikstofmaat.
+5. Eén landelijke, permanente pagina per monument (voorkomt uiteenlopende info over gebiedspagina's
+   heen bij overlappende monumenten).
+6. Wijzigingsgeschiedenis/snapshots per peildatum (wat veranderde sinds de vorige versie).
+7. Correctie-/feedbackknop ("Meld een mogelijke fout") met changelog.
+8. Visuele scheiding tussen brongegevens, ruimtelijk afgeleide data en indicatieve classificatie
+   (kleurcodering), zodat RCE-feiten en zelf afgeleide indicaties niet even zeker overkomen.
+9. Deelbare kaartweergaven via URL-parameters (`?gebied=…&afstand=…&bedrijfsindicatie=…`).
+10. Toegankelijkheid buiten de kaart: volwaardige tabelweergave, kleurenblind-vriendelijke symbolen.
+11. Steekproefsgewijze validatie (bv. 10 willekeurige positieve/negatieve classificaties handmatig
+    controleren, resultaat publiceren).
+12. Compacte "wat kun je hiermee wel/niet zeggen"-kaart prominent bij de opening.
 
 ## Kanttekeningen
 
