@@ -15,11 +15,11 @@ gebied "toebehoort", en kan elk gebied apart geverifieerd worden voordat het vol
 toegevoegd. Provincie is in deze opzet een **weergavelaag** (achteraf bepaald via een
 point-in-polygon-toets tegen de officiële PDOK-provinciegrenzen), geen zoekgrens.
 
-## Status: 11 van de 162 Natura 2000-gebieden verwerkt
+## Status: 17 van de 162 Natura 2000-gebieden verwerkt
 
 Nederland telt 162 Natura 2000-gebieden (bron: PDOK/RVO, waarvan 4 mariene gebieden in de
 Exclusieve Economische Zone op de Noordzee, buiten scope voor dit project). Hiervan zijn er tot nu
-toe 11 verwerkt:
+toe 17 verwerkt:
 
 | Gebied | Provincie(s) | Boerderijen | Actieve bedrijfsindicatie |
 |---|---|---:|---:|
@@ -34,16 +34,26 @@ toe 11 verwerkt:
 | [Zeldersche Driessen](gebieden/zeldersche-driessen.html) | Limburg / Noord-Brabant | 4 | 1 |
 | [Binnenveld](gebieden/binnenveld.html) | Gelderland / Utrecht | 6 | 0 |
 | [De Bruuk](gebieden/de-bruuk.html) | Gelderland | 0 | 0 |
-| **Totaal (11 gebieden)** | | **419** | **74** |
+| [Lieftinghsbroek](gebieden/lieftinghsbroek.html) | Groningen | 14 | 2 |
+| [Norgerholt](gebieden/norgerholt.html) | Drenthe | 44 | 3 |
+| [Witterveld](gebieden/witterveld.html) | Drenthe | 8 | 1 |
+| [Elperstroomgebied](gebieden/elperstroomgebied.html) | Drenthe | 33 | 4 |
+| [Bakkeveense Duinen](gebieden/bakkeveense-duinen.html) | Fryslân | 6 | 1 |
+| [Drouwenerzand](gebieden/drouwenerzand.html) | Drenthe | 8 | 2 |
+| **Totaal (17 gebieden)** | | **532** | **87** |
 
 Let op: de totaaltelling is een **som van per-gebied cijfers**, geen aantal unieke monumenten
-landelijk;een monument dat dicht bij meerdere Natura 2000-gebieden ligt (bv. tussen Bekendelle en
+landelijk — een monument dat dicht bij meerdere Natura 2000-gebieden ligt (bv. tussen Bekendelle en
 Korenburgerveen) telt terecht in beide gebiedspagina's mee.
 
-**Resterend: 151 gebieden** (147 landgebieden + 4 mariene gebieden die waarschijnlijk buiten scope
+**Resterend: 145 gebieden** (141 landgebieden + 4 mariene gebieden die waarschijnlijk buiten scope
 blijven). Nog geen vaste volgorde vastgesteld; tot nu toe is gewerkt vanuit Gelderland (Achterhoek,
-IJssel, Nijmegen-Mook, Gelderse Vallei) met bewust een paar provinciegrensgevallen erbij
-(Gelderland/Overijssel, Limburg/Noord-Brabant, Gelderland/Utrecht) om de aanpak te valideren.
+IJssel, Nijmegen-Mook, Gelderse Vallei), met bewust een paar provinciegrensgevallen erbij
+(Gelderland/Overijssel, Limburg/Noord-Brabant, Gelderland/Utrecht), en daarna uitgebreid naar
+Groningen, Drenthe en Fryslân om de aanpak ook buiten het zuidoosten te valideren. Nog niet
+aangeraakt: Utrecht, Noord-Holland, Zuid-Holland, Zeeland, Noord-Brabant en Limburg als hoofdgebied
+(alleen als grensgeval bijgekomen), en de grote gebieden (Veluwe, Waddenzee) die vanwege hun omvang
+bewust nog niet zijn opgepakt.
 
 ## Methode per gebied
 
@@ -87,11 +97,15 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
 - Afstemmen op de **"stikstofgevoelig"-markering** uit de RCE natura2000-graph (de oude
   StikstofGelderland-kaart gebruikte een subset van 173 als stikstofgevoelig gemarkeerde gebieden
   uit die graph; deze opzet gebruikt vooralsnog de volledige landelijke PDOK-laag zonder die filter).
-- De resterende ~151 Natura 2000-gebieden landsdekkend toevoegen.
+- De resterende ~145 Natura 2000-gebieden landsdekkend toevoegen.
 - Losse `gebied_*.json`/`D_*.json`-tussenbestanden en bouwscripts zijn nu nog scratchpad-only
-  (niet in deze repo);overwegen om het bouwproces (RCE-query → afstand/point-in-polygon →
+  (niet in deze repo) — overwegen om het bouwproces (RCE-query → afstand/point-in-polygon →
   BAG-check → provincie → HTML) als herbruikbaar script in de repo zelf op te nemen in plaats van
   telkens opnieuw te genereren.
+- **Download-knop (CSV)** per gebiedspagina: monumentenlijst (nr, adres, provincie, afstand, functie,
+  actieve bedrijfsindicatie) exporteren.
+- **Klikbare popup voor een monument** in plaats van alleen hover — belangrijk voor mobiel/touch.
+- **Klikbare popup voor het Natura 2000-gebied zelf** op de kaart, met de gebiedsbeschrijving.
 
 ## Kanttekeningen
 

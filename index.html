@@ -69,14 +69,15 @@
     actieve-bedrijfsindicatie toevoegen via BAG-gebruiksdoel (industriefunctie op het adres).</p>
     <p><b>Status.</b> Eerste gebied (Rijntakken, IJssel-traject) is verwerkt als pilot om de gebied-primaire
     aanpak te valideren bij een provinciegrens; daarna vijf Achterhoekse gebieden (Landgoederen Brummen,
-    Willinks Weust, Bekendelle, Korenburgerveen, Stelkampsveld) om de aanpak op kleinere, enkelvoudige
-    gebieden te testen; en vervolgens vijf gebieden rond Nijmegen, Winterswijk en de Gelderse Vallei
-    (Wooldse Veen, Sint Jansberg, Zeldersche Driessen, Binnenveld, De Bruuk); waaronder twee nieuwe
-    provinciegrensgevallen (Limburg/Noord-Brabant en Gelderland/Utrecht) en één gebied zonder rijksmonumentale
-    boerderijen in de buurt, om te bevestigen dat de aanpak ook dat eerlijk laat zien. Nog te doen: het
-    volledige afstands-bucketschema (erin/250&nbsp;m/1&nbsp;km/5&nbsp;km/25&nbsp;km/&gt;25&nbsp;km),
-    afstemmen op de "stikstofgevoelig"-markering uit de RCE-graph, en de overige Natura 2000-gebieden
-    landsdekkend toevoegen.</p>
+    Willinks Weust, Bekendelle, Korenburgerveen, Stelkampsveld); vervolgens vijf gebieden rond Nijmegen,
+    Winterswijk en de Gelderse Vallei (Wooldse Veen, Sint Jansberg, Zeldersche Driessen, Binnenveld,
+    De Bruuk) — waaronder twee provinciegrensgevallen (Limburg/Noord-Brabant en Gelderland/Utrecht) en
+    één gebied zonder rijksmonumentale boerderijen in de buurt; en daarna zes gebieden in Groningen,
+    Drenthe en Friesland (Lieftinghsbroek, Norgerholt, Witterveld, Elperstroomgebied, Bakkeveense Duinen,
+    Drouwenerzand) om drie nieuwe provincies toe te voegen. Nog te doen: het volledige
+    afstands-bucketschema (erin/250&nbsp;m/1&nbsp;km/5&nbsp;km/25&nbsp;km/&gt;25&nbsp;km), afstemmen op
+    de "stikstofgevoelig"-markering uit de RCE-graph, en de overige Natura 2000-gebieden landsdekkend
+    toevoegen.</p>
     <p><b>Let op dubbeltelling in de totalen.</b> Een monument dat dicht bij meerdere Natura 2000-gebieden ligt
     (bijvoorbeeld tussen Bekendelle en Korenburgerveen) telt in beide gebiedspagina's mee &mdash; terecht, want
     het is voor beide gebieden relevant. De totalen hierboven zijn dus een som van per-gebied cijfers, geen
@@ -87,7 +88,7 @@
   </footer>
 </div>
 <script>
-const TOTAAL = {"gebieden":11,"n":419,"ja":74};
+const TOTAAL = {"gebieden":17,"n":532,"ja":87};
 const $ = id => document.getElementById(id);
 const fmt = n => n.toLocaleString('nl-NL');
 $('stats').innerHTML = `
@@ -224,6 +225,78 @@ $('gebiedenGrid').innerHTML = `
         <div class="gcard-stats">
           <span><b>0</b> boerderijen</span>
           <span><b>0</b> actieve indicatie</span>
+        </div>
+      </a>
+
+      <a class="gcard" href="gebieden/lieftinghsbroek.html">
+        <div class="gcard-top">
+          <span class="gcard-status">Verwerkt</span>
+        </div>
+        <h3>Lieftinghsbroek</h3>
+        <p class="gcard-sub">Westerwolde &middot; Groningen</p>
+        <div class="gcard-stats">
+          <span><b>14</b> boerderijen</span>
+          <span><b>2</b> actieve indicatie</span>
+        </div>
+      </a>
+
+      <a class="gcard" href="gebieden/norgerholt.html">
+        <div class="gcard-top">
+          <span class="gcard-status">Verwerkt</span>
+        </div>
+        <h3>Norgerholt</h3>
+        <p class="gcard-sub">Norg &middot; Drenthe</p>
+        <div class="gcard-stats">
+          <span><b>44</b> boerderijen</span>
+          <span><b>3</b> actieve indicatie</span>
+        </div>
+      </a>
+
+      <a class="gcard" href="gebieden/witterveld.html">
+        <div class="gcard-top">
+          <span class="gcard-status">Verwerkt</span>
+        </div>
+        <h3>Witterveld</h3>
+        <p class="gcard-sub">Assen &middot; Drenthe</p>
+        <div class="gcard-stats">
+          <span><b>8</b> boerderijen</span>
+          <span><b>1</b> actieve indicatie</span>
+        </div>
+      </a>
+
+      <a class="gcard" href="gebieden/elperstroomgebied.html">
+        <div class="gcard-top">
+          <span class="gcard-status">Verwerkt</span>
+        </div>
+        <h3>Elperstroomgebied</h3>
+        <p class="gcard-sub">Westerbork-Orvelte &middot; Drenthe</p>
+        <div class="gcard-stats">
+          <span><b>33</b> boerderijen</span>
+          <span><b>4</b> actieve indicatie</span>
+        </div>
+      </a>
+
+      <a class="gcard" href="gebieden/bakkeveense-duinen.html">
+        <div class="gcard-top">
+          <span class="gcard-status">Verwerkt</span>
+        </div>
+        <h3>Bakkeveense Duinen</h3>
+        <p class="gcard-sub">Opsterland &middot; Fryslân</p>
+        <div class="gcard-stats">
+          <span><b>6</b> boerderijen</span>
+          <span><b>1</b> actieve indicatie</span>
+        </div>
+      </a>
+
+      <a class="gcard" href="gebieden/drouwenerzand.html">
+        <div class="gcard-top">
+          <span class="gcard-status">Verwerkt</span>
+        </div>
+        <h3>Drouwenerzand</h3>
+        <p class="gcard-sub">Borger-Odoorn &middot; Drenthe</p>
+        <div class="gcard-stats">
+          <span><b>8</b> boerderijen</span>
+          <span><b>2</b> actieve indicatie</span>
         </div>
       </a>
       <div class="gcard placeholder">volgende gebieden<br>volgen hier</div>`;

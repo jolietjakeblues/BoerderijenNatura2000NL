@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Norgerholt &middot; Boerderij-rijksmonumenten &amp; Natura 2000</title>
+<style>
+  :root{
+    --paper:#F4F7F8; --panel:#FFFFFF; --ink:#16324F; --ink-soft:#4A6579;
+    --blue-mid:#3E6C93; --alert:#D1401F; --line:#C9D6DE;
+    --n2k:#5E7D46;
+    --k0:#7A1607; --k1:#D1401F; --k2:#E0703C; --k3:#E5B08E; --k4:#B7C7D2; --k5:#B7C7D2;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{background:var(--paper);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    line-height:1.5;padding:0 0 48px}
+  .wrap{max-width:760px;margin:0 auto;padding:0 16px}
+  .eyebrow{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--blue-mid);font-weight:600}
+  header{padding:18px 0 18px;border-bottom:2px solid var(--ink)}
+  h1{font-family:Palatino,"Palatino Linotype",Georgia,serif;font-size:27px;line-height:1.18;font-weight:700;margin-top:6px}
+  header p{margin-top:8px;font-size:14px;color:var(--ink-soft);max-width:58ch}
+  .stats{display:grid;grid-template-columns:repeat(2,1fr);gap:8px;margin:16px 0}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:10px}
+  .stat .num{font-family:Palatino,Georgia,serif;font-size:20px;font-weight:700;line-height:1.05}
+  .stat.alert .num{color:var(--alert)}
+  .stat .lbl{font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-soft);margin-top:3px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:14px;margin:14px 0}
+  .card h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue-mid);margin-bottom:8px}
+  #map{width:100%;display:block;cursor:crosshair}
+  .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:11px;color:var(--ink-soft);margin-top:8px}
+  .legend span{display:inline-flex;align-items:center;gap:5px}
+  .sw{width:9px;height:9px;border-radius:50%}
+  .sq{width:11px;height:11px;border-radius:2px}
+  .chips{display:flex;gap:8px;margin:10px 0 2px;flex-wrap:wrap}
+  .chip{padding:7px 12px;border:1.5px solid var(--ink);background:var(--panel);color:var(--ink);
+    font-size:12px;font-weight:600;cursor:pointer;border-radius:2px}
+  .chip.on{background:var(--ink);color:#fff}
+  .chip:focus-visible{outline:3px solid var(--alert);outline-offset:2px}
+  footer{margin-top:22px;font-size:12px;color:var(--ink-soft);border-top:1px solid var(--line);padding-top:14px}
+  footer p{margin-bottom:8px}
+  .tip{position:fixed;pointer-events:none;background:var(--ink);color:#fff;font-size:12px;
+    padding:5px 8px;border-radius:2px;display:none;z-index:9;max-width:260px}
+  @media (max-width:480px){ h1{font-size:21px} .stats{grid-template-columns:repeat(3,1fr)} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p style="font-size:13px;margin-top:14px"><a href="../index.html" style="color:var(--blue-mid)">&larr; terug naar overzicht alle Natura 2000-gebieden</a></p>
+  <header>
+    <div class="eyebrow">RCE &times; Kadaster &times; Natura 2000</div>
+    <h1>Norgerholt</h1>
+    <p>Oud eiken-hulstbos (circa 26 hectare) op een zandrug tussen twee beken, ten noorden van Norg in Drenthe. Bekend om een unieke, alleen hier voorkomende ondersoort van de bosmuur en een ongestoorde bodemopbouw. <a href="https://www.natura2000.nl/gebieden/drenthe/norgerholt" style="color:var(--blue-mid)" target="_blank" rel="noopener">Bron: natura2000.nl &rarr;</a></p>
+    <p>Rijksmonumentale boerderijen binnen dit Natura 2000-gebied of binnen 5&nbsp;km
+    van de gebiedsrand, met een actieve-bedrijfsindicatie op basis van BAG-gebruiksdoel.</p>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="card">
+    <h2>Kaart &middot; elk punt is een boerderij-monument</h2>
+    <div class="chips">
+      <button class="chip on" id="fAll">Alle 44</button>
+      <button class="chip" id="fJa">Alleen actieve bedrijfsindicatie</button>
+    </div>
+    <canvas id="map" aria-label="Kaart van het Natura 2000-gebied Norgerholt met boerderij-monumenten"></canvas>
+    <div class="legend">
+      <span><i class="sq" style="background:rgba(94,125,70,.3);border:1px solid var(--n2k)"></i>Natura 2000</span>
+      <span><i class="sw" style="background:var(--k0)"></i>erin</span>
+      <span><i class="sw" style="background:var(--k1)"></i>&lt;250 m</span>
+      <span><i class="sw" style="background:var(--k2)"></i>&lt;1 km</span>
+      <span><i class="sw" style="background:var(--k3)"></i>&lt;5 km</span>
+    </div>
+    <p style="font-size:12px;color:var(--ink-soft);margin-top:8px">Tik of beweeg over een punt voor details.
+    Omrande punten hebben een industriefunctie in de BAG &mdash; actieve bedrijfsindicatie.</p>
+  </div>
+
+  <footer>
+    <p><b>Methodiek.</b> Monumenten: RCE CHO-endpoint, rijksmonumenten met oorspronkelijke functie
+    Boerderij (M/M1), binnen 5&nbsp;km van of daadwerkelijk binnen het Natura 2000-gebied. Natura 2000-geometrie:
+    officiële landelijke WFS (service.pdok.nl/rvo/natura2000). Afstand: monumentpunt tot de daadwerkelijke
+    gebiedsrand. Provincie: point-in-polygon tegen de PDOK-bestuurlijke grenzen. Bedrijfsindicatie:
+    BAG-gebruiksdoel (open WFS bag:verblijfsobject), gematcht op postcode en huisnummer; industriefunctie
+    op een boerderijadres geldt als actieve bedrijfsindicatie. Monumenten met uitsluitend woonfunctie zijn
+    conservatief niet als actieve bedrijfsindicatie geteld. Peildatum 31 juli 2026.</p>
+    <p><b>Kanttekeningen.</b> Dit is een blootstellingskaart: er is g&eacute;&eacute;n emissiedata (AERIUS/RAV)
+    verwerkt. De industriefunctie-vlag is een indicatie, geen bewijs.</p>
+  </footer>
+</div>
+<div class="tip" id="tip"></div>
+<script id="data" type="application/json">{"gebied":"Norgerholt","peildatum":"2026-07-31","n":44,"ja":3,"provCounts":{"Drenthe":44},"provJaCounts":{"Drenthe":3},"bbox":[6.371599869725382,53.006536925140395,6.516685591875867,53.10782329535156],"n2000":[{"naam":"Norgerholt","rings":[[[6.450009299004396,53.05931971760019],[6.449999851870171,53.05932586209426],[6.449975385333927,53.05941084426308],[6.449841869990071,53.059769626159515],[6.449834859061351,53.05978846783467],[6.449128302014682,53.059960013293015],[6.449082089724619,53.05999555215327],[6.4489979661347006,53.059987973212664],[6.448729738471774,53.059894306554504],[6.448501477852421,53.059786244155674],[6.448401792225961,53.05971298806832],[6.448330296215958,53.0596580178724],[6.448315721117944,53.05962444710547],[6.448297722771725,53.059584166688154],[6.4482721283040245,53.05945240108529],[6.448264477893615,53.05936821894352],[6.448262748957072,53.05924017432188],[6.448247695397626,53.05923927790071],[6.448245650535915,53.059190316916],[6.447458529589383,53.05916417987276],[6.4474587190596475,53.059150737741746],[6.447465554864769,53.05897607621305],[6.447505095908923,53.05796462642124],[6.447686725024553,53.057200412263384],[6.447701183867404,53.05720349418722],[6.447796831760153,53.057222426302026],[6.448105875083204,53.057283595122136],[6.448171056347728,53.05719276062772],[6.448292053346679,53.05702414051884],[6.448670149058557,53.05705561121239],[6.449614323472165,53.057171361301016],[6.449763153092054,53.05717678010223],[6.449767902008792,53.05717682601108],[6.449823761071191,53.05717736534924],[6.449960554870778,53.05644317624629],[6.449850218490824,53.05635241729127],[6.449846985735143,53.05632544823129],[6.449723150441331,53.056247893606894],[6.449597124180166,53.05614422595651],[6.449631002600724,53.05589225882506],[6.4496324042619975,53.055879374769574],[6.44964721215478,53.05574330998822],[6.449627081876825,53.05572561778461],[6.449083125557995,53.055247661297386],[6.44905304520718,53.05520023589551],[6.449003030358045,53.05514694739779],[6.4491618904759065,53.05513471166985],[6.449242476967852,53.0551284931486],[6.449343574746588,53.0551233587669],[6.449410658423565,53.05511995147341],[6.449493027784491,53.05511576771918],[6.449680926043908,53.05510778486921],[6.449953972304133,53.05510171650153],[6.450589375123159,53.05497894114454],[6.450671924809284,53.054965201237664],[6.45072909883982,53.05495194289078],[6.4510401874487115,53.05488169890865],[6.451480407820113,53.05478670415665],[6.451707314765786,53.054703959720484],[6.451762411527188,53.05468386790721],[6.451808117867306,53.054660317948645],[6.451900088075554,53.05462465216286],[6.452224769039677,53.054471604895376],[6.452553332911128,53.05433709763427],[6.4526547155413265,53.054309307875016],[6.452787212059,53.05427298943853],[6.452994877557193,53.054242389211105],[6.453161033545399,53.05421790622176],[6.453181310509048,53.05421480225227],[6.453416812051721,53.05417875635641],[6.453443732564897,53.054174636074315],[6.45353433030756,53.05416694330596],[6.4537164996267045,53.05405623971755],[6.45381030642666,53.05394708813986],[6.453925820513041,53.053802486445946],[6.454037362696557,53.053640604491754],[6.454115705135062,53.05351412757456],[6.4541213989040065,53.05350492837047],[6.454128007807666,53.05348890191098],[6.454571842509942,53.05355841682326],[6.454712467775912,53.05351503837876],[6.454991578752146,53.053473792480865],[6.455225743858745,53.05346271633268],[6.455468950323394,53.05345886160422],[6.455429015083729,53.053682761888076],[6.455401838572114,53.05369592191646],[6.4553621454045125,53.05375918299136],[6.455575907206802,53.05380894839782],[6.455767224030467,53.053837009677316],[6.455846282543725,53.05384866047194],[6.456518248391859,53.05394712873892],[6.456542631978246,53.05395308832366],[6.456341744297231,53.05438849066997],[6.455931306582617,53.05431127633123],[6.4559345024582715,53.0543370845121],[6.45591650816893,53.05445800467211],[6.455839274996729,53.05452047776848],[6.455757776384505,53.054646456453156],[6.4557065607567035,53.05475306981132],[6.455679343689086,53.05489709973243],[6.455648973794636,53.05521639809542],[6.455803439750936,53.05526163654393],[6.455794513023648,53.055325185588714],[6.455790568306997,53.05535442752593],[6.455740493542846,53.055507085631604],[6.45541572502259,53.056042445560784],[6.455310572799222,53.056145044940216],[6.455187785358149,53.05623151592826],[6.455187369768,53.056234147341634],[6.455005887183437,53.05622343870917],[6.454958999101261,53.05654896629172],[6.454897002845321,53.056936548599346],[6.454885917357056,53.056986191039044],[6.454868979109342,53.05710890962178],[6.455029837901385,53.05711767713483],[6.455029434059953,53.057119998401745],[6.4550578416998645,53.05716889847291],[6.455077289737432,53.0572732705518],[6.455184292840455,53.05756831352475],[6.4552589660170145,53.057790069188165],[6.455261465278916,53.057891707744034],[6.455249518054476,53.058129714090576],[6.455226976516218,53.05835732750819],[6.455219738921687,53.058431878132225],[6.455198681663668,53.05846629177538],[6.455054635756469,53.05854171708255],[6.455031483519154,53.0585952829097],[6.455031668575542,53.05859552929079],[6.4550313704857905,53.05859553913957],[6.454961521043342,53.05850527109333],[6.454953685604469,53.05848337576925],[6.454719918438476,53.05842101038616],[6.454753708092307,53.05849453452009],[6.4548293257566876,53.058594772271036],[6.454841179837635,53.05861048397301],[6.454935860038851,53.058711456571054],[6.454999668024684,53.05878762811349],[6.455065641529364,53.058866262419315],[6.455078365611999,53.05888131480153],[6.455205092023218,53.05899251746384],[6.454709752328235,53.059132297257015],[6.4545350290929315,53.0592080512314],[6.454453549093845,53.05923172885989],[6.454381486666191,53.05925555521813],[6.454263114899171,53.05929480483459],[6.454132039233887,53.059350672494276],[6.454076195937181,53.05936710633656],[6.453877969647907,53.059428972342744],[6.453702011411706,53.05945806112769],[6.453510220808872,53.05947830583192],[6.453446072484225,53.05948731039674],[6.453404048159478,53.05948893300652],[6.453259631494932,53.05950010652033],[6.453194567068444,53.05952351035933],[6.4531874257964,53.059525858372254],[6.453145394433238,53.059532666260964],[6.452872941795866,53.059608064117256],[6.452849711771144,53.059609528180175],[6.452722339482799,53.059640678524],[6.452642562263725,53.059660080966914],[6.4524987134772855,53.05965794733751],[6.452371688981534,53.05968522994353],[6.45229394948014,53.05970245452224],[6.452161711967382,53.0596994092597],[6.4519644713146995,53.059685796872316],[6.451906938881994,53.059687654868604],[6.451870313474242,53.0596966087623],[6.451813798216542,53.05974154693085],[6.451675038748713,53.05968055201141],[6.451191625358554,53.059603970315095],[6.45088203907392,53.059560712962934],[6.450652792635268,53.059518847490985],[6.4500468377366085,53.05921885493281],[6.450009299004396,53.05931971760019]]]}],"mons":[{"nr":"30797","wpl":"Norg","straat":"Steeg","huisnr":"6","prov":"Drenthe","k":2,"d":899,"lon":6.464128189723673,"lat":53.06502763769263,"ja":false},{"nr":"30784","wpl":"Norg","straat":"Brink","huisnr":"13","prov":"Drenthe","k":2,"d":814,"lon":6.459391867364639,"lat":53.065950856539764,"ja":false},{"nr":"30786","wpl":"Norg","straat":"Brink","huisnr":"21","prov":"Drenthe","k":2,"d":880,"lon":6.461302653775789,"lat":53.0659966303572,"ja":false},{"nr":"30813","wpl":"Zuidvelde","straat":"Asserstraat","huisnr":"93","prov":"Drenthe","k":3,"d":1018,"lon":6.458549571683269,"lat":53.04450713555267,"ja":false},{"nr":"30806","wpl":"Westervelde","straat":"Hoofdweg","huisnr":"6","prov":"Drenthe","k":2,"d":504,"lon":6.442469499638507,"lat":53.052890850296066,"ja":false},{"nr":"30809","wpl":"Zuidvelde","straat":"Asserstraat","huisnr":"76","prov":"Drenthe","k":3,"d":1018,"lon":6.4572638988463,"lat":53.04437485360496,"ja":false},{"nr":"30790","wpl":"Norg","straat":"Esweg","huisnr":"25","prov":"Drenthe","k":2,"d":956,"lon":6.464881324196188,"lat":53.06531741912737,"ja":false},{"nr":"30812","wpl":"Zuidvelde","straat":"Asserstraat","huisnr":"87 A","prov":"Drenthe","k":2,"d":878,"lon":6.457343395465754,"lat":53.04565071059083,"ja":false},{"nr":"30799","wpl":"Norg","straat":"Steeg","huisnr":"10","prov":"Drenthe","k":2,"d":892,"lon":6.464626401516497,"lat":53.06466368621599,"ja":false},{"nr":"30787","wpl":"Norg","straat":"Esweg","huisnr":"10","prov":"Drenthe","k":2,"d":882,"lon":6.464773643385457,"lat":53.06444712862451,"ja":false},{"nr":"30798","wpl":"Norg","straat":"Steeg","huisnr":"8","prov":"Drenthe","k":2,"d":900,"lon":6.464364164026774,"lat":53.06491767389885,"ja":false},{"nr":"46802","wpl":"Norg","straat":"Esweg","huisnr":"14","prov":"Drenthe","k":2,"d":938,"lon":6.465302055790465,"lat":53.064837335563034,"ja":false},{"nr":"46800","wpl":"Norg","straat":"Brinkstraat","huisnr":"1","prov":"Drenthe","k":2,"d":717,"lon":6.458004984605172,"lat":53.06537015224775,"ja":false},{"nr":"30802","wpl":"Westervelde","straat":"Hoofdweg","huisnr":"2 A","prov":"Drenthe","k":2,"d":392,"lon":6.443656241909678,"lat":53.05371661105146,"ja":false},{"nr":"30788","wpl":"Norg","straat":"Esweg","huisnr":"12","prov":"Drenthe","k":2,"d":912,"lon":6.465117494930048,"lat":53.06461433076329,"ja":false},{"nr":"46801","wpl":"Norg","straat":"Eerste Laan","huisnr":"1","prov":"Drenthe","k":3,"d":1150,"lon":6.466616767637508,"lat":53.06671268955658,"ja":false},{"nr":"30811","wpl":"Zuidvelde","straat":"Asserstraat","huisnr":"85","prov":"Drenthe","k":2,"d":810,"lon":6.457923630473321,"lat":53.04633704523387,"ja":false},{"nr":"30807","wpl":"Westervelde","straat":"Hoofdweg","huisnr":"8","prov":"Drenthe","k":2,"d":557,"lon":6.442203832582546,"lat":53.05225560943357,"ja":false},{"nr":"30794","wpl":"Norg","straat":"Steeg","huisnr":"1","prov":"Drenthe","k":2,"d":903,"lon":6.463543244432373,"lat":53.06536585720968,"ja":false},{"nr":"469375","wpl":"Zuidvelde","straat":"Asserstraat","huisnr":"89","prov":"Drenthe","k":2,"d":913,"lon":6.457302260864879,"lat":53.04532710399498,"ja":false},{"nr":"30793","wpl":"Norg","straat":"Esweg","huisnr":"33","prov":"Drenthe","k":3,"d":1008,"lon":6.464660507618416,"lat":53.066038341968,"ja":false},{"nr":"46803","wpl":"Peest","straat":"Schaapdijk","huisnr":"3","prov":"Drenthe","k":3,"d":2821,"lon":6.497965995320902,"lat":53.05867928644081,"ja":false},{"nr":"30796","wpl":"Norg","straat":"Steeg","huisnr":"4","prov":"Drenthe","k":2,"d":894,"lon":6.463861714815967,"lat":53.06511091534119,"ja":false},{"nr":"469374","wpl":"Huis ter Heide","straat":"Asserstraat","huisnr":"136","prov":"Drenthe","k":3,"d":3983,"lon":6.48236646214079,"lat":53.021536925140396,"ja":true},{"nr":"30789","wpl":"Norg","straat":"Esweg","huisnr":"18","prov":"Drenthe","k":3,"d":1017,"lon":6.465061006314656,"lat":53.06594486898906,"ja":false},{"nr":"30804","wpl":"Westervelde","straat":"Hoofdweg","huisnr":"5","prov":"Drenthe","k":2,"d":413,"lon":6.444288964033283,"lat":53.05274944625617,"ja":false},{"nr":"30803","wpl":"Westervelde","straat":"Hoofdweg","huisnr":"3","prov":"Drenthe","k":2,"d":372,"lon":6.44450511013623,"lat":53.05318741523302,"ja":false},{"nr":"30792","wpl":"Norg","straat":"Esweg","huisnr":"29","prov":"Drenthe","k":2,"d":979,"lon":6.464994304898729,"lat":53.0655235440562,"ja":false},{"nr":"30814","wpl":"Zuidvelde","straat":"Brink","huisnr":"1","prov":"Drenthe","k":2,"d":979,"lon":6.456884240656968,"lat":53.044701770946155,"ja":false},{"nr":"30815","wpl":"Zuidvelde","straat":"Brink","huisnr":"2","prov":"Drenthe","k":3,"d":1000,"lon":6.455745443103458,"lat":53.04447829213441,"ja":false},{"nr":"30810","wpl":"Zuidvelde","straat":"Asserstraat","huisnr":"78","prov":"Drenthe","k":3,"d":1080,"lon":6.458370960284467,"lat":53.04391561034976,"ja":false},{"nr":"30795","wpl":"Norg","straat":"Steeg","huisnr":"1","prov":"Drenthe","k":2,"d":904,"lon":6.463602684531642,"lat":53.065356335881035,"ja":false},{"nr":"469391","wpl":"Langelo","straat":"Hoofdweg","huisnr":"15","prov":"Drenthe","k":3,"d":3665,"lon":6.444978147774846,"lat":53.09282329535156,"ja":false},{"nr":"479152","wpl":"Veenhuizen","straat":"Generaal van den Boschweg","huisnr":"48","prov":"Drenthe","k":3,"d":4412,"lon":6.388787532424177,"lat":53.038983115414226,"ja":false},{"nr":"479147","wpl":"Veenhuizen","straat":"Generaal van den Boschweg","huisnr":"46","prov":"Drenthe","k":3,"d":4466,"lon":6.388252144464769,"lat":53.03852874914669,"ja":true},{"nr":"469381","wpl":"Westervelde","straat":"Hoofdweg","huisnr":"13","prov":"Drenthe","k":2,"d":570,"lon":6.444093023997833,"lat":53.05096235549321,"ja":false},{"nr":"479145","wpl":"Veenhuizen","straat":"Esweg","huisnr":"5","prov":"Drenthe","k":3,"d":4227,"lon":6.404103533997593,"lat":53.028437799465124,"ja":false},{"nr":"479154","wpl":"Veenhuizen","straat":"Generaal van den Boschweg","huisnr":"20","prov":"Drenthe","k":3,"d":4692,"lon":6.386599869725382,"lat":53.03591898770393,"ja":false},{"nr":"469394","wpl":"Peest","straat":"Hoofdweg","huisnr":"23","prov":"Drenthe","k":3,"d":3110,"lon":6.501685591875868,"lat":53.06063077558499,"ja":false},{"nr":"469386","wpl":"Norg","straat":"Peesterstraat","huisnr":"8","prov":"Drenthe","k":3,"d":1092,"lon":6.465645982987216,"lat":53.06653316854724,"ja":false},{"nr":"479194","wpl":"Veenhuizen","straat":"Hospitaallaan","huisnr":"48","prov":"Drenthe","k":3,"d":3743,"lon":6.395069730164354,"lat":53.04576867381446,"ja":false},{"nr":"479221","wpl":"Veenhuizen","straat":"Kerklaan","huisnr":"56","prov":"Drenthe","k":3,"d":3781,"lon":6.400766045022364,"lat":53.03745281882058,"ja":false},{"nr":"479368","wpl":"Veenhuizen","straat":"Stoomweg","huisnr":"3","prov":"Drenthe","k":3,"d":3963,"lon":6.38963749417221,"lat":53.05010992321544,"ja":false},{"nr":"469378","wpl":"Westervelde","straat":"Hoofdweg","huisnr":"7","prov":"Drenthe","k":2,"d":461,"lon":6.443393839777782,"lat":53.052739378251054,"ja":true}]}</script>
+<script>
+const D = JSON.parse(document.getElementById('data').textContent);
+const $ = id => document.getElementById(id);
+const fmt = n => n.toLocaleString('nl-NL');
+const KC = ['#7A1607','#D1401F','#E0703C','#E5B08E','#B7C7D2','#B7C7D2'];
+const KN = ['erin','<250 m','<1 km','<5 km','<25 km','\u226525 km'];
+let filterJa = false;
+
+$('stats').innerHTML = `
+  <div class="stat"><div class="num">${fmt(D.n)}</div><div class="lbl">rijksmonumentale boerderijen</div></div>
+  <div class="stat alert"><div class="num">${fmt(D.ja)}</div><div class="lbl">actieve bedrijfsindicatie</div></div>`;
+
+const canvas = $('map'), ctx = canvas.getContext('2d');
+let proj = null;
+function drawMap(){
+  const w = canvas.clientWidth, h = Math.min(Math.round(w*0.9), 520);
+  const dpr = window.devicePixelRatio||1;
+  canvas.width=w*dpr; canvas.height=h*dpr; canvas.style.height=h+'px';
+  ctx.setTransform(dpr,0,0,dpr,0,0);
+  ctx.clearRect(0,0,w,h);
+  const [x0,y0,x1,y1] = D.bbox;
+  const latC = Math.cos((y0+y1)/2*Math.PI/180);
+  const spanX=(x1-x0)*latC, spanY=y1-y0, pad=10;
+  const s = Math.min((w-2*pad)/spanX,(h-2*pad)/spanY);
+  const ox=(w-spanX*s)/2, oy=(h-spanY*s)/2;
+  proj = ([x,y])=>[ox+(x-x0)*latC*s, h-oy-(y-y0)*s];
+  ctx.fillStyle='rgba(94,125,70,0.28)'; ctx.strokeStyle='#5E7D46'; ctx.lineWidth=1;
+  D.n2000.forEach(g=>g.rings.forEach(r=>{
+    ctx.beginPath();
+    r.forEach((p,i)=>{const [px,py]=proj(p); i?ctx.lineTo(px,py):ctx.moveTo(px,py);});
+    ctx.closePath(); ctx.fill(); ctx.stroke();
+  }));
+  [...D.mons].sort((a,b)=>b.k-a.k).forEach(m=>{
+    if(filterJa && !m.ja) return;
+    const [px,py]=proj([m.lon,m.lat]);
+    ctx.fillStyle = KC[m.k];
+    const r = m.k<=1 ? 3.6 : m.k===2 ? 3.1 : 2.6;
+    ctx.beginPath(); ctx.arc(px,py,r,0,7); ctx.fill();
+    if(m.ja){ ctx.strokeStyle='#16324F'; ctx.lineWidth=1.2; ctx.stroke(); }
+  });
+}
+const tip=$('tip');
+canvas.addEventListener('pointermove',e=>{
+  if(!proj) return;
+  const r=canvas.getBoundingClientRect();
+  const mx=e.clientX-r.left, my=e.clientY-r.top;
+  let best=null,bd=90;
+  D.mons.forEach(m=>{
+    if(filterJa && !m.ja) return;
+    const [px,py]=proj([m.lon,m.lat]), d=(px-mx)**2+(py-my)**2;
+    if(d<bd){bd=d;best=m;}
+  });
+  if(best){
+    tip.style.display='block';
+    tip.style.left=Math.min(e.clientX+12, innerWidth-260)+'px'; tip.style.top=(e.clientY-10)+'px';
+    tip.textContent = `rm ${best.nr} \u00b7 ${best.straat||''} ${best.huisnr||''}, ${best.wpl||''} \u00b7 ${best.prov} \u00b7 ${KN[best.k]} van Norgerholt`+
+      (best.d>0 ? ` (${fmt(best.d)} m)` : '') + (best.ja ? ' \u00b7 actieve bedrijfsindicatie' : '');
+  } else tip.style.display='none';
+});
+canvas.addEventListener('pointerleave',()=>tip.style.display='none');
+if($('fAll')){
+  $('fAll').onclick=()=>{filterJa=false;$('fAll').classList.add('on');$('fJa').classList.remove('on');drawMap();};
+  $('fJa').onclick=()=>{filterJa=true;$('fJa').classList.add('on');$('fAll').classList.remove('on');drawMap();};
+}
+drawMap();
+window.addEventListener('resize',drawMap);
+</script>
+</body>
+</html>
