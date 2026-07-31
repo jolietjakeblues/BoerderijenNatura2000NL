@@ -68,16 +68,22 @@
     onafhankelijk bepalen via een point-in-polygon-toets tegen de PDOK-bestuurlijke grenzen, en een
     actieve-bedrijfsindicatie toevoegen via BAG-gebruiksdoel (industriefunctie op het adres).</p>
     <p><b>Status.</b> Eerste gebied (Rijntakken, IJssel-traject) is verwerkt als pilot om de gebied-primaire
-    aanpak te valideren bij een provinciegrens. Nog te doen: het volledige afstands-bucketschema
+    aanpak te valideren bij een provinciegrens; daarna vijf Achterhoekse gebieden (Landgoederen Brummen,
+    Willinks Weust, Bekendelle, Korenburgerveen, Stelkampsveld) om de aanpak op kleinere, enkelvoudige
+    gebieden te testen. Nog te doen: het volledige afstands-bucketschema
     (erin/250&nbsp;m/1&nbsp;km/5&nbsp;km/25&nbsp;km/&gt;25&nbsp;km), afstemmen op de "stikstofgevoelig"-markering
     uit de RCE-graph, en de overige Natura 2000-gebieden landsdekkend toevoegen.</p>
+    <p><b>Let op dubbeltelling in de totalen.</b> Een monument dat dicht bij meerdere Natura 2000-gebieden ligt
+    (bijvoorbeeld tussen Bekendelle en Korenburgerveen) telt in beide gebiedspagina's mee &mdash; terecht, want
+    het is voor beide gebieden relevant. De totalen hierboven zijn dus een som van per-gebied cijfers, geen
+    aantal unieke monumenten landelijk.</p>
     <p><b>Kanttekeningen.</b> Dit zijn blootstellingskaarten: er is g&eacute;&eacute;n emissiedata (AERIUS/RAV)
     verwerkt. De oorspronkelijke functie zegt niet dat er nu een agrarisch bedrijf gevestigd is; de
     industriefunctie-vlag is een indicatie, geen bewijs.</p>
   </footer>
 </div>
 <script>
-const TOTAAL = {"gebieden":1,"n":241,"ja":49};
+const TOTAAL = {"gebieden":6,"n":395,"ja":71};
 const $ = id => document.getElementById(id);
 const fmt = n => n.toLocaleString('nl-NL');
 $('stats').innerHTML = `
@@ -94,6 +100,66 @@ $('gebiedenGrid').innerHTML = `
         <div class="gcard-stats">
           <span><b>241</b> boerderijen</span>
           <span><b>49</b> actieve indicatie</span>
+        </div>
+      </a>
+
+      <a class="gcard" href="gebieden/landgoederen-brummen.html">
+        <div class="gcard-top">
+          <span class="gcard-status">Verwerkt</span>
+        </div>
+        <h3>Landgoederen Brummen</h3>
+        <p class="gcard-sub">Achterhoek &middot; Gelderland</p>
+        <div class="gcard-stats">
+          <span><b>59</b> boerderijen</span>
+          <span><b>10</b> actieve indicatie</span>
+        </div>
+      </a>
+
+      <a class="gcard" href="gebieden/willinks-weust.html">
+        <div class="gcard-top">
+          <span class="gcard-status">Verwerkt</span>
+        </div>
+        <h3>Willinks Weust</h3>
+        <p class="gcard-sub">Achterhoek &middot; Gelderland</p>
+        <div class="gcard-stats">
+          <span><b>21</b> boerderijen</span>
+          <span><b>3</b> actieve indicatie</span>
+        </div>
+      </a>
+
+      <a class="gcard" href="gebieden/bekendelle.html">
+        <div class="gcard-top">
+          <span class="gcard-status">Verwerkt</span>
+        </div>
+        <h3>Bekendelle</h3>
+        <p class="gcard-sub">Achterhoek &middot; Gelderland</p>
+        <div class="gcard-stats">
+          <span><b>25</b> boerderijen</span>
+          <span><b>2</b> actieve indicatie</span>
+        </div>
+      </a>
+
+      <a class="gcard" href="gebieden/korenburgerveen.html">
+        <div class="gcard-top">
+          <span class="gcard-status">Verwerkt</span>
+        </div>
+        <h3>Korenburgerveen</h3>
+        <p class="gcard-sub">Achterhoek &middot; Gelderland</p>
+        <div class="gcard-stats">
+          <span><b>24</b> boerderijen</span>
+          <span><b>3</b> actieve indicatie</span>
+        </div>
+      </a>
+
+      <a class="gcard" href="gebieden/stelkampsveld.html">
+        <div class="gcard-top">
+          <span class="gcard-status">Verwerkt</span>
+        </div>
+        <h3>Stelkampsveld</h3>
+        <p class="gcard-sub">Achterhoek &middot; Gelderland</p>
+        <div class="gcard-stats">
+          <span><b>25</b> boerderijen</span>
+          <span><b>4</b> actieve indicatie</span>
         </div>
       </a>
       <div class="gcard placeholder">volgende gebieden<br>volgen hier</div>`;
