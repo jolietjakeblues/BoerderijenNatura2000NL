@@ -107,6 +107,23 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
 - **Klikbare popup voor een monument** in plaats van alleen hover — belangrijk voor mobiel/touch.
 - **Klikbare popup voor het Natura 2000-gebied zelf** op de kaart, met de gebiedsbeschrijving.
 
+### Stabiliteit / veiligheid (niet alleen features)
+
+- **Sanity-check op de handgeschreven bbox-regex** waarmee rijksmonumenten per gebied bij RCE worden
+  opgehaald: deze is per batch met de hand geschreven en dus foutgevoelig (tijdens de opbouw van dit
+  project zelf een keer verkeerd geschreven bij Rijntakken, wat een monument stilzwijgend had kunnen
+  laten wegvallen). Regex idealiter automatisch afleiden uit de werkelijke gebieds-bbox, met een
+  controlestap tegen een ruimere marge.
+- **BAG-fouten onderscheiden van een bevestigde NEE**: een mislukte BAG-WFS-call of een adres dat niet
+  binnen de 200 m-zoekbox matcht, resulteert nu in dezelfde `industrie=false`-status als een echt
+  gecontroleerde NEE. Dit kan de actieve-bedrijfsindicatie stil ondertellen zonder dat dat zichtbaar is.
+- **Retry/backoff voor de BAG-WFS-calls**: nu geen enkele retry bij een mislukte fetch in een batch.
+- **CQL_FILTER wordt door de gebruikte PDOK-WFS-endpoints (natura2000, bag:verblijfsobject)
+  stilzwijgend genegeerd** — je krijgt dan ongefilterde data terug zonder foutmelding. Ontdekt tijdens
+  de opbouw van dit project; alleen BBOX-filters bleken betrouwbaar te werken op deze endpoints.
+- **Peildatum staat hardcoded** in elk bouwscript; zou automatisch afgeleid moeten worden uit het
+  moment van genereren in plaats van handmatig bijgewerkt te worden.
+
 ## Kanttekeningen
 
 Dit zijn blootstellingskaarten: er is géén emissiedata (AERIUS/RAV) verwerkt en afstand tot een
