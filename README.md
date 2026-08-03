@@ -116,13 +116,14 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
 - **Volledig afstands-bucketschema** invoeren: erin / < 250 m / < 1 km / < 5 km / < 25 km / ≥ 25 km
   (nu alleen erin + ≤ 5 km). Bewust uitgesteld tot na de landsdekkende opbouw van de eerste ronde
   gebieden.
-- Afstemmen op de **"stikstofgevoelig"-markering** uit de RCE natura2000-graph (de oude
-  StikstofGelderland-kaart gebruikte een subset van 173 als stikstofgevoelig gemarkeerde gebieden
-  uit die graph; deze opzet gebruikt vooralsnog de volledige landelijke PDOK-laag zonder die filter).
-- De resterende ~145 Natura 2000-gebieden landsdekkend toevoegen.
+- ~~Afstemmen op de **"stikstofgevoelig"-markering** uit de RCE natura2000-graph~~ — **opgelost.**
+  De richtlijn-status (zie Methode, punt 7) haalt deze vlag nu per gebied op en toont 'm; de opzet
+  filtert er nog steeds niet op (gebruikt de volledige landelijke PDOK-laag), maar de vlag zelf staat
+  nu zichtbaar op elke gebiedspagina in plaats van ontbrekend.
+- De resterende ~137 Natura 2000-gebieden landsdekkend toevoegen.
 - **Download-knop (CSV)** per gebiedspagina: monumentenlijst (nr, adres, provincie, afstand, functie,
   actieve bedrijfsindicatie) exporteren.
-- **Klikbare popup voor een monument** in plaats van alleen hover — belangrijk voor mobiel/touch.
+- ~~**Klikbare popup voor een monument**~~ — **opgelost.** Zie Geloofwaardigheid/interpretatie, punt 2.
 - **Klikbare popup voor het Natura 2000-gebied zelf** op de kaart, met de gebiedsbeschrijving.
 
 ### Stabiliteit / veiligheid (niet alleen features)
@@ -168,14 +169,18 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
 **Aanvullende, waardevolle toevoegingen uit dezelfde review** (met de door de reviewer aangemerkte
 top 3 vetgedrukt):
 
-1. **Explicietere onzekerheidsstatus per monument** — verder dan ok/geen_adres/geen_match/fout:
-   bv. aanwijzing gevonden / geen aanwijzing gevonden / adres niet eenduidig gekoppeld / BAG-bevraging
-   mislukt / handmatig gecontroleerd. Voorkomt dat "onbekend" als "nee" gelezen wordt.
-2. **"Waarom staat dit punt hier?"-detailweergave per monument** — afstand tot gebied/gebiedsrand,
-   binnen/buiten, gebruikte RCE- en BAG-object-ID's, gevonden gebruiksdoelen, raadpleegdatum,
-   toewijzingswijze, link naar brondata.
-3. **Datakwaliteitsdashboard per gebied** — aantal geselecteerd, adressen succesvol gekoppeld,
-   adressen ambigu, mislukte BAG-bevragingen, handmatig gecontroleerd, peildatum brondata.
+1. ~~**Explicietere onzekerheidsstatus per monument**~~ — **opgelost.** Elk monument krijgt nu een
+   status uit `actief` (eenduidig) / `actief_onzeker` (industriefunctie gevonden, maar niet bij alle
+   adressen van dit monument eensluidend) / `niet_actief` (bevestigd) / `geen_adres` / `geen_match` /
+   `bag_mislukt`. Op de kaart: een dubbele donkerblauwe rand voor `actief_onzeker`, zichtbaar naast de
+   bestaande effen/gestippelde randen.
+2. ~~**"Waarom staat dit punt hier?"-detailweergave per monument**~~ — **opgelost.** Klik op een punt
+   op de kaart toont een detailpaneel: rijksmonumentnummer met link naar de RCE-bron, oorspronkelijke
+   functie, afstand tot de gebiedsrand (of "binnen het gebied"), provincie, onzekerheidsstatus, elk
+   bekend adres met het daarbij gevonden BAG-gebruiksdoel, en de peildatum.
+3. ~~**Datakwaliteitsdashboard per gebied**~~ — **opgelost.** Nieuwe kaart op elke gebiedspagina:
+   aantal eenduidig actief / actief maar onzeker / bevestigd niet-actief / geen adres bekend / geen
+   BAG-match / BAG-bevraging mislukt / monumenten met meerdere adressen.
 4. Normaliseren voor vergelijking tussen gebieden (per 100 km², per km gebiedsrand, aandeel actief,
    verdeling over afstandsklassen) — nadrukkelijk als beschrijvende statistiek, niet als stikstofmaat.
 5. Eén landelijke, permanente pagina per monument (voorkomt uiteenlopende info over gebiedspagina's

@@ -32,19 +32,42 @@ const verrijkt = fs.existsSync(path.join(dir, 'monumenten-verrijkt.json'))
   ? JSON.parse(fs.readFileSync(path.join(dir, 'monumenten-verrijkt.json'), 'utf-8'))
   : [];
 
+// Onzekerheidsstatus per monument: verder dan de simpele ja/bag-tweedeling.
+// Meerdere BAG-adressen bij één monument komen vaak voor (bv. hoofdgebouw +
+// bijgebouw) en zijn meestal eensluidend -- maar niet altijd: soms wijst het
+// ene gematchte adres wel industriefunctie aan en het andere niet. Dat laatste
+// is een echte onzekerheid die tot nu toe stilzwijgend werd weggemiddeld tot
+// "ja" (ja = industrie bij minstens één adres); nu expliciet zichtbaar.
+function bepaalStatus(m) {
+  if (m.bagStatus === 'fout') return 'bag_mislukt';
+  if (m.bagStatus === 'geen_adres') return 'geen_adres';
+  if (m.bagStatus === 'geen_match_in_bbox') return 'geen_match';
+  const gebruiksdoelen = (m.matched || []).map(x => (x.gebruiksdoel || '').toLowerCase().includes('industriefunctie'));
+  const eenduidig = new Set(gebruiksdoelen).size <= 1;
+  if (m.industrie) return eenduidig ? 'actief' : 'actief_onzeker';
+  return 'niet_actief';
+}
+
 const outMons = verrijkt.map(m => {
   const addr0 = (m.addressen && m.addressen[0]) || {};
   return {
     nr: m.rmnr,
+    rm: m.rm || null,
+    functie: m.functie || null,
     wpl: addr0.woonplaats || null,
     straat: addr0.straat || null,
     huisnr: addr0.huisnr || null,
     prov: m.provincie,
     k: bucket(m.distM, m.erin),
     d: m.erin ? 0 : m.distM,
+    erin: m.erin === true,
+    afstandTotRand: m.distM,
     lon: m.lon, lat: m.lat,
     ja: m.industrie === true,
-    bag: m.bagStatus || 'onbekend'
+    bag: m.bagStatus || 'onbekend',
+    status: bepaalStatus(m),
+    addressen: m.addressen || [],
+    matched: m.matched || []
   };
 });
 
@@ -58,6 +81,16 @@ const provJaCounts = {};
 outMons.forEach(m => { if (m.ja) provJaCounts[m.prov] = (provJaCounts[m.prov] || 0) + 1; });
 const onbekend = outMons.filter(m => m.bag !== 'ok').length;
 
+const datakwaliteit = {
+  actief: outMons.filter(m => m.status === 'actief').length,
+  actiefOnzeker: outMons.filter(m => m.status === 'actief_onzeker').length,
+  nietActief: outMons.filter(m => m.status === 'niet_actief').length,
+  geenAdres: outMons.filter(m => m.status === 'geen_adres').length,
+  geenMatch: outMons.filter(m => m.status === 'geen_match').length,
+  bagMislukt: outMons.filter(m => m.status === 'bag_mislukt').length,
+  meerdereAdressen: outMons.filter(m => m.addressen.length > 1).length
+};
+
 const D = {
   gebied: naam,
   peildatum: new Date().toISOString().slice(0, 10),
@@ -65,6 +98,7 @@ const D = {
   ja: outMons.filter(m => m.ja).length,
   onbekend,
   provCounts, provJaCounts,
+  datakwaliteit,
   bbox,
   n2000: [{ naam, rings }],
   mons: outMons

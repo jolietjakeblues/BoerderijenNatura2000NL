@@ -33,6 +33,21 @@ const statBlocks = multiProv
 
 const gridCols = multiProv ? (3 + provs.length * 2) : 3;
 
+const dk = Dobj.datakwaliteit;
+const datakwaliteitCard = dk ? `
+  <div class="card">
+    <h2>Datakwaliteit &middot; peildatum ${Dobj.peildatum}</h2>
+    <div class="dk-grid">
+      <div class="dk-item"><b>${dk.actief}</b><span>actief, eenduidig</span></div>
+      <div class="dk-item"><b>${dk.actiefOnzeker}</b><span>actief, adres niet eenduidig</span></div>
+      <div class="dk-item"><b>${dk.nietActief}</b><span>niet actief (bevestigd)</span></div>
+      <div class="dk-item"><b>${dk.geenAdres}</b><span>geen adres bekend in RCE</span></div>
+      <div class="dk-item"><b>${dk.geenMatch}</b><span>geen match in BAG</span></div>
+      <div class="dk-item"><b>${dk.bagMislukt}</b><span>BAG-bevraging mislukt</span></div>
+      <div class="dk-item"><b>${dk.meerdereAdressen}</b><span>monumenten met meerdere adressen</span></div>
+    </div>
+  </div>` : '';
+
 const head = `<!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -67,6 +82,15 @@ const head = `<!DOCTYPE html>
     text-transform:uppercase;padding:2px 8px;background:var(--n2k-bg);color:var(--n2k-text);border-radius:8px}
   .richtlijn-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:8px}
   .richtlijn-meta{font-size:12px;color:var(--ink-soft)}
+  .dk-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px}
+  .dk-item{background:var(--paper);border:1px solid var(--line);border-radius:2px;padding:8px 10px}
+  .dk-item b{font-family:Palatino,Georgia,serif;font-size:18px;display:block}
+  .dk-item span{font-size:11px;color:var(--ink-soft)}
+  .detail{display:none;font-size:12px;color:var(--ink)}
+  .detail.on{display:block}
+  .detail dl{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;margin-top:6px}
+  .detail dt{color:var(--ink-soft)}
+  .detail dd{margin:0}
   .card h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue-mid);margin-bottom:8px}
   #map{width:100%;display:block;cursor:crosshair}
   .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:11px;color:var(--ink-soft);margin-top:8px}
@@ -104,14 +128,14 @@ const head = `<!DOCTYPE html>
   <div class="stats" id="stats"></div>
 
   <div class="card">
-    <h2>Kaart &middot; elk punt is een boerderij-monument</h2>
+    <h2>Kaart &middot; elk punt is een rijksmonumenmtale boerderij</h2>
     ${Dobj.n === 0
       ? `<p style="font-size:13px;color:var(--ink-soft);margin-bottom:8px">Geen rijksmonumentale boerderijen gevonden binnen of tot 5&nbsp;km van dit gebied.</p>`
       : `<div class="chips">
       <button class="chip on" id="fAll">Alle __D_N__</button>
       <button class="chip" id="fJa">Alleen actieve bedrijfsindicatie</button>
     </div>`}
-    <canvas id="map" aria-label="Kaart van het Natura 2000-gebied ${Dobj.gebied} met boerderij-monumenten"></canvas>
+    <canvas id="map" aria-label="Kaart van het Natura 2000-gebied ${Dobj.gebied} met rijksmonumenmtale boerderijen"></canvas>
     <div class="legend">
       <span><i class="sq" style="background:rgba(94,125,70,.3);border:1px solid var(--n2k)"></i>Natura 2000</span>
       <span><i class="sw" style="background:var(--k0)"></i>erin</span>
@@ -119,12 +143,16 @@ const head = `<!DOCTYPE html>
       <span><i class="sw" style="background:var(--k2)"></i>&lt;1 km</span>
       <span><i class="sw" style="background:var(--k3)"></i>&lt;5 km</span>
     </div>
-    <p style="font-size:12px;color:var(--ink-soft);margin-top:8px">Tik of beweeg over een punt voor details.
-    Omrande punten (donkerblauw) hebben een industriefunctie in de BAG &mdash; actieve bedrijfsindicatie.
-    Punten met een gestippelde grijze rand konden niet in de BAG worden gecontroleerd (geen adres bekend
-    of geen match gevonden) &mdash; deze tellen niet mee als actief, maar zijn ook niet bevestigd als
-    inactief.</p>
+    <p style="font-size:12px;color:var(--ink-soft);margin-top:8px">Klik op een punt voor details ("waarom staat
+    dit punt hier?"), beweeg eroverheen voor een korte hint. Omrande punten (donkerblauw, effen) hebben een
+    eenduidige industriefunctie in de BAG &mdash; actieve bedrijfsindicatie. Een dubbele donkerblauwe rand
+    betekent: wel industriefunctie gevonden, maar niet bij alle adressen van dit monument eenduidig (zie klik-detail).
+    Een gestippelde grijze rand: kon niet in de BAG worden gecontroleerd (geen adres bekend of geen match
+    gevonden) &mdash; telt niet mee als actief, maar is ook niet bevestigd als inactief.</p>
+    <div class="detail" id="detail"></div>
   </div>
+
+  ${datakwaliteitCard}
 
   <footer>
     <p><b>Methodiek.</b> Monumenten: RCE CHO-endpoint, rijksmonumenten met oorspronkelijke functie
@@ -181,7 +209,8 @@ function drawMap(){
     ctx.fillStyle = KC[m.k];
     const r = m.k<=1 ? 3.6 : m.k===2 ? 3.1 : 2.6;
     ctx.beginPath(); ctx.arc(px,py,r,0,7); ctx.fill();
-    if(m.ja){ ctx.strokeStyle='#16324F'; ctx.lineWidth=1.2; ctx.stroke(); }
+    if(m.status==='actief_onzeker'){ ctx.strokeStyle='#16324F'; ctx.lineWidth=1.2; ctx.stroke(); ctx.beginPath(); ctx.arc(px,py,r+2.2,0,7); ctx.stroke(); }
+    else if(m.ja){ ctx.strokeStyle='#16324F'; ctx.lineWidth=1.2; ctx.stroke(); }
     else if(m.bag!=='ok'){ ctx.setLineDash([1.5,1.5]); ctx.strokeStyle='#8A8A8A'; ctx.lineWidth=1; ctx.stroke(); ctx.setLineDash([]); }
   });
 }
@@ -204,6 +233,44 @@ canvas.addEventListener('pointermove',e=>{
   } else tip.style.display='none';
 });
 canvas.addEventListener('pointerleave',()=>tip.style.display='none');
+const STATUS_LABEL = {
+  actief: 'Actieve bedrijfsindicatie (eenduidig)',
+  actief_onzeker: 'Actieve bedrijfsindicatie, maar adres niet eenduidig',
+  niet_actief: 'Geen actieve bedrijfsindicatie (bevestigd)',
+  geen_adres: 'BAG niet te controleren \\u2014 geen adres bekend in RCE',
+  geen_match: 'BAG niet te controleren \\u2014 geen match gevonden',
+  bag_mislukt: 'BAG niet te controleren \\u2014 bevraging mislukt'
+};
+const detail = $('detail');
+function vindDichtstbijzijnde(e){
+  const r=canvas.getBoundingClientRect();
+  const mx=e.clientX-r.left, my=e.clientY-r.top;
+  let best=null,bd=90;
+  D.mons.forEach(m=>{
+    if(filterJa && !m.ja) return;
+    const [px,py]=proj([m.lon,m.lat]), d=(px-mx)**2+(py-my)**2;
+    if(d<bd){bd=d;best=m;}
+  });
+  return best;
+}
+canvas.addEventListener('click',e=>{
+  if(!proj) return;
+  const m = vindDichtstbijzijnde(e);
+  if(!m){ detail.classList.remove('on'); return; }
+  const adressenHtml = (m.addressen||[]).map((a,i)=>{
+    const match = (m.matched||[]).find(x=>x.straat===a.straat && String(x.huisnummer)===String(parseInt(a.huisnr,10)));
+    return \`<dt>adres \${i+1}</dt><dd>\${a.straat} \${a.huisnr}, \${a.postcode} \${a.woonplaats}\${match ? ' \\u2014 gebruiksdoel: '+match.gebruiksdoel : ' \\u2014 geen BAG-match'}</dd>\`;
+  }).join('');
+  detail.innerHTML = \`<dl>
+    <dt>rijksmonumentnummer</dt><dd>\${m.nr}\${m.rm ? \` (<a href="\${m.rm}" target="_blank" rel="noopener" style="color:var(--blue-mid)">RCE-bron &rarr;</a>)\` : ''}</dd>
+    <dt>oorspronkelijke functie</dt><dd>\${m.functie||'onbekend'}</dd>
+    <dt>ligging</dt><dd>\${m.erin ? 'binnen het Natura 2000-gebied' : \`\${fmt(m.afstandTotRand)} m van de gebiedsrand\`} \\u00b7 \${KN[m.k]}-klasse \\u00b7 \${m.prov}</dd>
+    <dt>status</dt><dd>\${STATUS_LABEL[m.status]||m.status}</dd>
+    \${adressenHtml}
+    <dt>peildatum</dt><dd>${Dobj.peildatum}</dd>
+  </dl>\`;
+  detail.classList.add('on');
+});
 if($('fAll')){
   $('fAll').onclick=()=>{filterJa=false;$('fAll').classList.add('on');$('fJa').classList.remove('on');drawMap();};
   $('fJa').onclick=()=>{filterJa=true;$('fJa').classList.add('on');$('fAll').classList.remove('on');drawMap();};

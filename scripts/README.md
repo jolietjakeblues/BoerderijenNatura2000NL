@@ -96,6 +96,16 @@ op `false` — dus nooit aannemen dat dit overal `true` is.
 
 ## Bekende valkuilen (waarom sommige dingen zijn zoals ze zijn)
 
+- **Cross-graph dubbeltelling zonder `SELECT DISTINCT`**: het RCE CHO-endpoint
+  slaat sommige triples dubbel op in twee named graphs tegelijk (bevestigd:
+  `?rm ceo:rijksmonumentnummer "<nr>"` staat zowel in `graph/instanties-rce`
+  als in `graph/punten`). Een query zonder `GRAPH`-clausule matcht dan in
+  beide graphs, en zonder `DISTINCT` komt elke rij dubbel terug. Alle
+  query-templates in dit project (`rce-monumenten-query.sparql`,
+  `rce-functie-query.sparql`, `rce-adres-query.sparql`) gebruiken daarom
+  bewust `SELECT DISTINCT` — nooit weglaten bij een nieuwe handmatige query,
+  ook niet als die alleen een paar velden opvraagt.
+
 - **CQL_FILTER wordt door de gebruikte PDOK-WFS-endpoints
   (`natura2000:natura2000`, `bag:verblijfsobject`) stilzwijgend genegeerd** —
   je krijgt dan alle features terug in plaats van een foutmelding. Alleen
