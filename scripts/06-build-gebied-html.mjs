@@ -128,14 +128,14 @@ const head = `<!DOCTYPE html>
   <div class="stats" id="stats"></div>
 
   <div class="card">
-    <h2>Kaart &middot; elk punt is een rijksmonumenmtale boerderij</h2>
+    <h2>Kaart &middot; elk punt is een rijksmonumentale boerderij</h2>
     ${Dobj.n === 0
       ? `<p style="font-size:13px;color:var(--ink-soft);margin-bottom:8px">Geen rijksmonumentale boerderijen gevonden binnen of tot 5&nbsp;km van dit gebied.</p>`
       : `<div class="chips">
       <button class="chip on" id="fAll">Alle __D_N__</button>
       <button class="chip" id="fJa">Alleen actieve bedrijfsindicatie</button>
     </div>`}
-    <canvas id="map" aria-label="Kaart van het Natura 2000-gebied ${Dobj.gebied} met rijksmonumenmtale boerderijen"></canvas>
+    <canvas id="map" aria-label="Kaart van het Natura 2000-gebied ${Dobj.gebied} met rijksmonumentale boerderijen"></canvas>
     <div class="legend">
       <span><i class="sq" style="background:rgba(94,125,70,.3);border:1px solid var(--n2k)"></i>Natura 2000</span>
       <span><i class="sw" style="background:var(--k0)"></i>erin</span>
