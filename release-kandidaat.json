@@ -1,0 +1,236 @@
+{
+ "versielabel": null,
+ "gegenereerdOp": "2026-08-03T12:40:00.852Z",
+ "commit": "9bd9defa0c4e8db17f6ab12eb617ddd6b08a2977",
+ "toelichting": "Dit bestand is een voorbereide kandidaat voor een dataset-release, geen gepubliceerde release zelf. Het legt het commit en de per-gebied aantallen/checksums vast op het moment van genereren; git tag en GitHub Release blijven een handmatige stap van de repo-eigenaar.",
+ "totaalGebieden": 25,
+ "totaalMonumenten": 1130,
+ "totaalMetIndicatie": 179,
+ "gebieden": [
+  {
+   "slug": "bakkeveense-duinen",
+   "naam": "Bakkeveense Duinen",
+   "peildatum": "2026-08-03",
+   "n": 6,
+   "ja": 1,
+   "onbekend": 0,
+   "sha256DataJson": "241e301e4e771e43bf39cffbbe4d6297f9018bf5f1183a0d8df48a7c2f0b194d"
+  },
+  {
+   "slug": "bekendelle",
+   "naam": "Bekendelle",
+   "peildatum": "2026-08-03",
+   "n": 25,
+   "ja": 2,
+   "onbekend": 0,
+   "sha256DataJson": "254ccb8decb3c4eb1f88f67729f474ed4dbe79176a1cb369e946f8c020ae44fd"
+  },
+  {
+   "slug": "binnenveld",
+   "naam": "Binnenveld",
+   "peildatum": "2026-08-03",
+   "n": 6,
+   "ja": 0,
+   "onbekend": 1,
+   "sha256DataJson": "12002d071a18ab6f0e70b0adfbef80b5671039a58253aaeae075325c722d01a1"
+  },
+  {
+   "slug": "de-bruuk",
+   "naam": "De Bruuk",
+   "peildatum": "2026-08-03",
+   "n": 0,
+   "ja": 0,
+   "onbekend": 0,
+   "sha256DataJson": "0d313e15df18875bf7b8f19f5568651e721f30c40230b09b829c3e78842d314a"
+  },
+  {
+   "slug": "drouwenerzand",
+   "naam": "Drouwenerzand",
+   "peildatum": "2026-08-03",
+   "n": 8,
+   "ja": 2,
+   "onbekend": 0,
+   "sha256DataJson": "dab2d49dfeed7532f5e20e2e1da123a7eff00f8b84106e3feef04b13ea341a26"
+  },
+  {
+   "slug": "elperstroomgebied",
+   "naam": "Elperstroomgebied",
+   "peildatum": "2026-08-03",
+   "n": 33,
+   "ja": 4,
+   "onbekend": 1,
+   "sha256DataJson": "0425e1f8abd390d2d13b916fd0af691e4dbe6a9625bdf5847ff914663a531de8"
+  },
+  {
+   "slug": "geleenbeekdal",
+   "naam": "Geleenbeekdal",
+   "peildatum": "2026-08-03",
+   "n": 296,
+   "ja": 50,
+   "onbekend": 4,
+   "sha256DataJson": "22e01d9fbf4e463cfb45d51ee49342d1e4c68ccdce627ac55a34549a7ba95fd6"
+  },
+  {
+   "slug": "kolland-overlangbroek",
+   "naam": "Kolland & Overlangbroek",
+   "peildatum": "2026-08-03",
+   "n": 100,
+   "ja": 17,
+   "onbekend": 1,
+   "sha256DataJson": "128f00d723988e5794c5e162f016e4fcb85669e2265082789e82c4b62466f36c"
+  },
+  {
+   "slug": "korenburgerveen",
+   "naam": "Korenburgerveen",
+   "peildatum": "2026-08-03",
+   "n": 24,
+   "ja": 3,
+   "onbekend": 0,
+   "sha256DataJson": "d61c05d622d19ad76f13c1d0ec596f97ce15d4cf5634a5058ac7179fbed98e2e"
+  },
+  {
+   "slug": "landgoederen-brummen",
+   "naam": "Landgoederen Brummen",
+   "peildatum": "2026-08-03",
+   "n": 59,
+   "ja": 10,
+   "onbekend": 0,
+   "sha256DataJson": "a0712ae7e4e5e71ebdb776f4a8ac34cae24ccc0f2e592533f913e664977d299b"
+  },
+  {
+   "slug": "leudal",
+   "naam": "Leudal",
+   "peildatum": "2026-08-03",
+   "n": 22,
+   "ja": 4,
+   "onbekend": 0,
+   "sha256DataJson": "abe99409d28ee052aabafea39c328c874312efd0112f4f0446c43e4c0dc62d17"
+  },
+  {
+   "slug": "lieftinghsbroek",
+   "naam": "Lieftinghsbroek",
+   "peildatum": "2026-08-03",
+   "n": 14,
+   "ja": 2,
+   "onbekend": 0,
+   "sha256DataJson": "96bc163804eab9a96f6c24cd9e45b2f7e12e2eed0cd3f1b7650967f429175685"
+  },
+  {
+   "slug": "norgerholt",
+   "naam": "Norgerholt",
+   "peildatum": "2026-08-03",
+   "n": 44,
+   "ja": 3,
+   "onbekend": 0,
+   "sha256DataJson": "5fca33bff8d85fc3dfdc5a2d630ab2648f23e50616b46c26502bdb83c38d3367"
+  },
+  {
+   "slug": "regte-heide-riels-laag",
+   "naam": "Regte Heide & Riels Laag",
+   "peildatum": "2026-08-03",
+   "n": 16,
+   "ja": 1,
+   "onbekend": 1,
+   "sha256DataJson": "ee84e21c75399705a55f7bb5cab250c7869f00dc122ab1fd30dfc5703a128b9c"
+  },
+  {
+   "slug": "rijntakken",
+   "naam": "Rijntakken – IJssel-traject",
+   "peildatum": "2026-08-03",
+   "n": 241,
+   "ja": 49,
+   "onbekend": 3,
+   "sha256DataJson": "598bf1551b655ea7eb8c19f2b9a9405e4bbf5def362872698d60b272cbbee577"
+  },
+  {
+   "slug": "roerdal",
+   "naam": "Roerdal",
+   "peildatum": "2026-08-03",
+   "n": 31,
+   "ja": 4,
+   "onbekend": 0,
+   "sha256DataJson": "8d1e169dfbff70c6fd64240fe4178acd0736121099a19b3b87bf1a934b9257cc"
+  },
+  {
+   "slug": "sint-jansberg",
+   "naam": "Sint Jansberg",
+   "peildatum": "2026-08-03",
+   "n": 4,
+   "ja": 1,
+   "onbekend": 0,
+   "sha256DataJson": "5171aa2a248fb8c4af6cc729d1200a16dd12a7a2904a50ee4667885ebf865f81"
+  },
+  {
+   "slug": "stelkampsveld",
+   "naam": "Stelkampsveld",
+   "peildatum": "2026-08-03",
+   "n": 25,
+   "ja": 4,
+   "onbekend": 0,
+   "sha256DataJson": "1f83aa00af47825bf765fd571ff2df1a892f27249fa065a0ab2cef9ff6ad031d"
+  },
+  {
+   "slug": "swalmdal",
+   "naam": "Swalmdal",
+   "peildatum": "2026-08-03",
+   "n": 22,
+   "ja": 4,
+   "onbekend": 1,
+   "sha256DataJson": "4ec167a84330c2c13966f276f0597741af753ac172a2ecf851c9b867a1983db1"
+  },
+  {
+   "slug": "vlijmens-ven",
+   "naam": "Vlijmens Ven, Moerputten & Bossche Broek",
+   "peildatum": "2026-08-03",
+   "n": 47,
+   "ja": 6,
+   "onbekend": 0,
+   "sha256DataJson": "0cf600b4820efda1e592af0df596589957fa353bdb7e9f385ace9428b2a92142"
+  },
+  {
+   "slug": "willinks-weust",
+   "naam": "Willinks Weust",
+   "peildatum": "2026-08-03",
+   "n": 21,
+   "ja": 3,
+   "onbekend": 0,
+   "sha256DataJson": "90878bd8782c7156c0bc580082ea23007b834c5333335ab5fd43de8323a12fee"
+  },
+  {
+   "slug": "witterveld",
+   "naam": "Witterveld",
+   "peildatum": "2026-08-03",
+   "n": 8,
+   "ja": 1,
+   "onbekend": 0,
+   "sha256DataJson": "32367f0455506234b7d19c1a5976100dae8a28cbe68e7bd1e7c47b4565ba9b53"
+  },
+  {
+   "slug": "wooldse-veen",
+   "naam": "Wooldse Veen",
+   "peildatum": "2026-08-03",
+   "n": 10,
+   "ja": 1,
+   "onbekend": 0,
+   "sha256DataJson": "7e1f70149f4d412aba62f74bfde374746ec4600663fdea2711afdb0e06124f1c"
+  },
+  {
+   "slug": "zeldersche-driessen",
+   "naam": "Zeldersche Driessen",
+   "peildatum": "2026-08-03",
+   "n": 4,
+   "ja": 1,
+   "onbekend": 0,
+   "sha256DataJson": "edc191a9419f27b028f2c3b2f26fd59b6bdb3456dfab8b9665829d646852c43d"
+  },
+  {
+   "slug": "zouweboezem",
+   "naam": "Zouweboezem",
+   "peildatum": "2026-08-03",
+   "n": 64,
+   "ja": 6,
+   "onbekend": 0,
+   "sha256DataJson": "1acbea4e4bde216795a2cc3ea76182376450a04c57ab4e46259f95ca09c2aad6"
+  }
+ ]
+}

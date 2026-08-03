@@ -1,0 +1,124 @@
+{
+ "slug": "rijntakken",
+ "gegenereerdOp": "2026-08-03T12:13:26.889Z",
+ "scriptsCommitOpGenereermoment": "9bd9defa0c4e8db17f6ab12eb617ddd6b08a2977",
+ "toelichting": "Dit manifest legt vast welke brondata tot data.json in dit gebied hebben geleid: SHA-256 van elk tussenliggend artefact zoals dat nu in de repository staat, en het git-commit waarin dat artefact voor het eerst is toegevoegd (als benadering van het moment van ophalen). Het legt NIET met terugwerkende kracht vast: het exacte tijdstip van de live SPARQL/WFS-aanroep zelf, het aantal retries tijdens de oorspronkelijke BAG-bevraging, en de precieze scriptversie die destijds actief was -- alleen het scripts/-commit op het moment van genereren van dit manifest wordt vastgelegd, niet noodzakelijk de commit die de oorspronkelijke data.json produceerde.",
+ "artefacten": [
+  {
+   "bestand": "geometrie.json",
+   "aanwezig": false,
+   "bron": "afgeleid (geen eigen aanroep)",
+   "endpoint": null,
+   "handmatigeStap": false,
+   "toelichting": "Polygonen + bbox voor dit gebied, gefilterd uit het landelijke data/raw/natura2000-nationaal.json (PDOK Natura2000-WFS, éénmalig landelijk opgehaald).",
+   "sha256": null,
+   "eersteCommit": null
+  },
+  {
+   "bestand": "rce-monumenten-query.sparql",
+   "aanwezig": false,
+   "bron": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint)",
+   "endpoint": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint)",
+   "handmatigeStap": false,
+   "toelichting": "Kant-en-klare SPARQL-query, automatisch samengesteld door 02-prepare-gebied.mjs. Geen expliciete GRAPH-clausule (standaard-graph-unie); SELECT DISTINCT voorkomt cross-graph-dubbeltelling.",
+   "sha256": null,
+   "eersteCommit": null
+  },
+  {
+   "bestand": "monumenten-raw.txt",
+   "aanwezig": false,
+   "bron": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint) (queryresultaat)",
+   "endpoint": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint)",
+   "handmatigeStap": true,
+   "toelichting": "Resultaat van rce-monumenten-query.sparql, handmatig uitgevoerd via de rce-cho MCP-tool (query_sparql) en als tabel opgeslagen.",
+   "sha256": null,
+   "eersteCommit": null
+  },
+  {
+   "bestand": "monumenten-geclassificeerd.json",
+   "aanwezig": false,
+   "bron": "afgeleid (geen eigen aanroep)",
+   "endpoint": null,
+   "handmatigeStap": false,
+   "toelichting": "Point-in-polygon + afstandsberekening (lib/geo.mjs) op monumenten-raw.txt tegen geometrie.json, lokaal berekend.",
+   "sha256": null,
+   "eersteCommit": null
+  },
+  {
+   "bestand": "rce-functie-query.sparql",
+   "aanwezig": false,
+   "bron": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint)",
+   "endpoint": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint)",
+   "handmatigeStap": false,
+   "toelichting": "Kant-en-klare SPARQL-query, automatisch samengesteld door 03-classify-monumenten.mjs. Zelfde GRAPH/DISTINCT-kanttekening als hierboven.",
+   "sha256": null,
+   "eersteCommit": null
+  },
+  {
+   "bestand": "functie-raw.txt",
+   "aanwezig": false,
+   "bron": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint) (queryresultaat)",
+   "endpoint": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint)",
+   "handmatigeStap": true,
+   "toelichting": "Resultaat van rce-functie-query.sparql, handmatig uitgevoerd via de rce-cho MCP-tool.",
+   "sha256": null,
+   "eersteCommit": null
+  },
+  {
+   "bestand": "rce-adres-query.sparql",
+   "aanwezig": false,
+   "bron": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint)",
+   "endpoint": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint)",
+   "handmatigeStap": false,
+   "toelichting": "Kant-en-klare SPARQL-query, automatisch samengesteld door 03-classify-monumenten.mjs. Zelfde GRAAG/DISTINCT-kanttekening als hierboven.",
+   "sha256": null,
+   "eersteCommit": null
+  },
+  {
+   "bestand": "adres-raw.txt",
+   "aanwezig": false,
+   "bron": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint) (queryresultaat)",
+   "endpoint": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint)",
+   "handmatigeStap": true,
+   "toelichting": "Resultaat van rce-adres-query.sparql, handmatig uitgevoerd via de rce-cho MCP-tool.",
+   "sha256": null,
+   "eersteCommit": null
+  },
+  {
+   "bestand": "richtlijn-raw.txt",
+   "aanwezig": true,
+   "bron": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint) -- graph/natura2000 (queryresultaat)",
+   "endpoint": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint)",
+   "handmatigeStap": true,
+   "toelichting": "Richtlijnstatus/sitecode/stikstofgevoelig, handmatige query op het losse named graph <https://linkeddata.cultureelerfgoed.nl/graph/natura2000> via de rce-cho MCP-tool (zie scripts/README.md), verwerkt door 08-verrijk-richtlijn.mjs.",
+   "sha256": "3f00638d834368e5cfd654bd8a0486d66785e384b2af889474b280c669c0cbec",
+   "eersteCommit": {
+    "commit": "8fe9582fd43bdb311f2d4357db3ff4c4265740fd",
+    "datum": "2026-08-03T11:48:32+02:00"
+   }
+  },
+  {
+   "bestand": "monumenten-verrijkt.json",
+   "aanwezig": false,
+   "bron": "PDOK BAG-WFS (service.pdok.nl/lv/bag/wfs/v2_0) + PDOK bestuurlijkegebieden-WFS (service.pdok.nl/kadaster/bestuurlijkegebieden/wfs/v1_0)",
+   "endpoint": "service.pdok.nl/lv/bag/wfs/v2_0 ; service.pdok.nl/kadaster/bestuurlijkegebieden/wfs/v1_0",
+   "handmatigeStap": false,
+   "toelichting": "Automatisch door 04-verrijk-monumenten.mjs: BAG-gebruiksdoel per adres (lib/bag.mjs, met retry/backoff -- retry-aantallen zelf niet persistent gelogd) en provincie via point-in-polygon (lib/provincie.mjs) tegen het landelijke data/raw/provincies.json (éénmalig landelijk opgehaald).",
+   "sha256": null,
+   "eersteCommit": null
+  },
+  {
+   "bestand": "data.json",
+   "aanwezig": true,
+   "bron": "afgeleid (geen eigen aanroep)",
+   "endpoint": null,
+   "handmatigeStap": false,
+   "toelichting": "Eindbundel voor de gebiedspagina, gebouwd door 05-build-gebied-data.mjs (en eventueel 08-verrijk-richtlijn.mjs) uit monumenten-verrijkt.json.",
+   "sha256": "598bf1551b655ea7eb8c19f2b9a9405e4bbf5def362872698d60b272cbbee577",
+   "eersteCommit": {
+    "commit": "fbb07dfe6a000511bcb968e4f458966598bf6cc7",
+    "datum": "2026-07-31T18:34:21+02:00"
+   }
+  }
+ ]
+}

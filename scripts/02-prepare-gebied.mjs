@@ -52,12 +52,24 @@ const outDir = path.join(GEBIEDEN_DIR, slug);
 fs.mkdirSync(outDir, { recursive: true });
 fs.writeFileSync(path.join(outDir, 'geometrie.json'), JSON.stringify({ naam, slug, polys, bbox: bboxTight }));
 
+// Sluit monumenten uit die RCE zelf niet meer als rijksmonument classificeert
+// (ceo:heeftJuridischeStatus -> SKOS-concept met prefLabel "geen rijksmonument",
+// naast de actieve waarde "rijksmonument" -- vastgesteld doordat 2 van de 38
+// live-geverifieerde monumenten uit de handmatige steekproef (rmnr 28340 en
+// 513954) een HTTP 404 gaven op het officiële Monumentenregister; RCE's eigen
+// data bevestigde dat dit geen toevallige serverfout was maar een echte
+// afgevoerde status. Vrijwel elk Rijksmonument-record heeft dit veld (67494
+// van 67496 landelijk); OPTIONAL + "niet gebonden OF niet geen-rijksmonument"
+// voorkomt dat de zeldzame ontbrekende gevallen stilzwijgend wegvallen.
+const GEEN_RIJKSMONUMENT = 'https://data.cultureelerfgoed.nl/term/id/rn/2/3e79bb7c-b459-4998-a9ed-78d91d069227';
 const query = `PREFIX ceo: <https://linkeddata.cultureelerfgoed.nl/def/ceo#>
 PREFIX geo: <http://www.opengis.net/ont/geosparql#>
 PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
 SELECT DISTINCT ?rm ?rmnr ?wkt WHERE {
   ?rm a ceo:Rijksmonument ;
       ceo:rijksmonumentnummer ?rmnr .
+  OPTIONAL { ?rm ceo:heeftJuridischeStatus ?status }
+  FILTER(!BOUND(?status) || ?status != <${GEEN_RIJKSMONUMENT}>)
   ?rm ceo:heeftOorspronkelijkeFunctie ?fObj .
   ?fObj ceo:heeftFunctieNaam ?fC .
   ?fC skos:prefLabel ?fNaam .

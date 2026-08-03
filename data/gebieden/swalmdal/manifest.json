@@ -1,0 +1,151 @@
+{
+ "slug": "swalmdal",
+ "gegenereerdOp": "2026-08-03T12:32:41.732Z",
+ "scriptsCommitOpGenereermoment": "9bd9defa0c4e8db17f6ab12eb617ddd6b08a2977",
+ "toelichting": "Dit manifest legt vast welke brondata tot data.json in dit gebied hebben geleid: SHA-256 van elk tussenliggend artefact zoals dat nu in de repository staat, en het git-commit waarin dat artefact voor het eerst is toegevoegd (als benadering van het moment van ophalen). Het legt NIET met terugwerkende kracht vast: het exacte tijdstip van de live SPARQL/WFS-aanroep zelf, het aantal retries tijdens de oorspronkelijke BAG-bevraging, en de precieze scriptversie die destijds actief was -- alleen het scripts/-commit op het moment van genereren van dit manifest wordt vastgelegd, niet noodzakelijk de commit die de oorspronkelijke data.json produceerde.",
+ "artefacten": [
+  {
+   "bestand": "geometrie.json",
+   "aanwezig": true,
+   "bron": "afgeleid (geen eigen aanroep)",
+   "endpoint": null,
+   "handmatigeStap": false,
+   "toelichting": "Polygonen + bbox voor dit gebied, gefilterd uit het landelijke data/raw/natura2000-nationaal.json (PDOK Natura2000-WFS, éénmalig landelijk opgehaald).",
+   "sha256": "3c77dd6312ef777cb672d5c06c05b5a5e60d3b0fe191386a0d26bc057708da88",
+   "eersteCommit": {
+    "commit": "a5004dccca459c5e4f4bac1e805b26eb97ecb613",
+    "datum": "2026-08-03T10:48:22+02:00"
+   }
+  },
+  {
+   "bestand": "rce-monumenten-query.sparql",
+   "aanwezig": true,
+   "bron": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint)",
+   "endpoint": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint)",
+   "handmatigeStap": false,
+   "toelichting": "Kant-en-klare SPARQL-query, automatisch samengesteld door 02-prepare-gebied.mjs. Geen expliciete GRAPH-clausule (standaard-graph-unie); SELECT DISTINCT voorkomt cross-graph-dubbeltelling.",
+   "sha256": "0b74798cda0fa25a1d28c1137acdc83e4bf96d765107b6860fd65d336d1b8f4f",
+   "eersteCommit": {
+    "commit": "a5004dccca459c5e4f4bac1e805b26eb97ecb613",
+    "datum": "2026-08-03T10:48:22+02:00"
+   }
+  },
+  {
+   "bestand": "monumenten-raw.txt",
+   "aanwezig": true,
+   "bron": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint) (queryresultaat)",
+   "endpoint": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint)",
+   "handmatigeStap": true,
+   "toelichting": "Resultaat van rce-monumenten-query.sparql, handmatig uitgevoerd via de rce-cho MCP-tool (query_sparql) en als tabel opgeslagen.",
+   "sha256": "cc296fc2d3d074d8c8372d1181e37b25d72d25b3195089c87136b23701b9668d",
+   "eersteCommit": {
+    "commit": "a5004dccca459c5e4f4bac1e805b26eb97ecb613",
+    "datum": "2026-08-03T10:48:22+02:00"
+   }
+  },
+  {
+   "bestand": "monumenten-geclassificeerd.json",
+   "aanwezig": true,
+   "bron": "afgeleid (geen eigen aanroep)",
+   "endpoint": null,
+   "handmatigeStap": false,
+   "toelichting": "Point-in-polygon + afstandsberekening (lib/geo.mjs) op monumenten-raw.txt tegen geometrie.json, lokaal berekend.",
+   "sha256": "3e38cf2c535c53a319a51033d4b15dbda192bdbb7f26f34eb566edfc0944b523",
+   "eersteCommit": {
+    "commit": "a5004dccca459c5e4f4bac1e805b26eb97ecb613",
+    "datum": "2026-08-03T10:48:22+02:00"
+   }
+  },
+  {
+   "bestand": "rce-functie-query.sparql",
+   "aanwezig": true,
+   "bron": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint)",
+   "endpoint": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint)",
+   "handmatigeStap": false,
+   "toelichting": "Kant-en-klare SPARQL-query, automatisch samengesteld door 03-classify-monumenten.mjs. Zelfde GRAPH/DISTINCT-kanttekening als hierboven.",
+   "sha256": "e82fc32583edff3ba810090c57c10a4eea0fe9fee086de6c62492b86c84a9d7c",
+   "eersteCommit": {
+    "commit": "a5004dccca459c5e4f4bac1e805b26eb97ecb613",
+    "datum": "2026-08-03T10:48:22+02:00"
+   }
+  },
+  {
+   "bestand": "functie-raw.txt",
+   "aanwezig": true,
+   "bron": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint) (queryresultaat)",
+   "endpoint": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint)",
+   "handmatigeStap": true,
+   "toelichting": "Resultaat van rce-functie-query.sparql, handmatig uitgevoerd via de rce-cho MCP-tool.",
+   "sha256": "7259bd5b16595aedb8a0d2cdb3695a4b3f867b116cac9255b78c87c8843ddb2b",
+   "eersteCommit": {
+    "commit": "a5004dccca459c5e4f4bac1e805b26eb97ecb613",
+    "datum": "2026-08-03T10:48:22+02:00"
+   }
+  },
+  {
+   "bestand": "rce-adres-query.sparql",
+   "aanwezig": true,
+   "bron": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint)",
+   "endpoint": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint)",
+   "handmatigeStap": false,
+   "toelichting": "Kant-en-klare SPARQL-query, automatisch samengesteld door 03-classify-monumenten.mjs. Zelfde GRAAG/DISTINCT-kanttekening als hierboven.",
+   "sha256": "cad36be27e946b4a25c811e6eacb273bbe3a8e37a54ca544e70b25ba348bfc20",
+   "eersteCommit": {
+    "commit": "a5004dccca459c5e4f4bac1e805b26eb97ecb613",
+    "datum": "2026-08-03T10:48:22+02:00"
+   }
+  },
+  {
+   "bestand": "adres-raw.txt",
+   "aanwezig": true,
+   "bron": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint) (queryresultaat)",
+   "endpoint": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint)",
+   "handmatigeStap": true,
+   "toelichting": "Resultaat van rce-adres-query.sparql, handmatig uitgevoerd via de rce-cho MCP-tool.",
+   "sha256": "f29a097f169abc8b98ccc5d45710ebb20b9d802f3e7c0856b5391d7c2603e9c3",
+   "eersteCommit": {
+    "commit": "a5004dccca459c5e4f4bac1e805b26eb97ecb613",
+    "datum": "2026-08-03T10:48:22+02:00"
+   }
+  },
+  {
+   "bestand": "richtlijn-raw.txt",
+   "aanwezig": true,
+   "bron": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint) -- graph/natura2000 (queryresultaat)",
+   "endpoint": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint)",
+   "handmatigeStap": true,
+   "toelichting": "Richtlijnstatus/sitecode/stikstofgevoelig, handmatige query op het losse named graph <https://linkeddata.cultureelerfgoed.nl/graph/natura2000> via de rce-cho MCP-tool (zie scripts/README.md), verwerkt door 08-verrijk-richtlijn.mjs.",
+   "sha256": "312e26ebdd4a77cb27a11c87fd2ed34d7847648765ecaff7a0f7f47343d01ee5",
+   "eersteCommit": {
+    "commit": "8fe9582fd43bdb311f2d4357db3ff4c4265740fd",
+    "datum": "2026-08-03T11:48:32+02:00"
+   }
+  },
+  {
+   "bestand": "monumenten-verrijkt.json",
+   "aanwezig": true,
+   "bron": "PDOK BAG-WFS (service.pdok.nl/lv/bag/wfs/v2_0) + PDOK bestuurlijkegebieden-WFS (service.pdok.nl/kadaster/bestuurlijkegebieden/wfs/v1_0)",
+   "endpoint": "service.pdok.nl/lv/bag/wfs/v2_0 ; service.pdok.nl/kadaster/bestuurlijkegebieden/wfs/v1_0",
+   "handmatigeStap": false,
+   "toelichting": "Automatisch door 04-verrijk-monumenten.mjs: BAG-gebruiksdoel per adres (lib/bag.mjs, met retry/backoff -- retry-aantallen zelf niet persistent gelogd) en provincie via point-in-polygon (lib/provincie.mjs) tegen het landelijke data/raw/provincies.json (éénmalig landelijk opgehaald).",
+   "sha256": "ad7b32d0aeb2bf2276c0492658779e0a62a5f992d28907b3b9bf8db21b0010b6",
+   "eersteCommit": {
+    "commit": "a5004dccca459c5e4f4bac1e805b26eb97ecb613",
+    "datum": "2026-08-03T10:48:22+02:00"
+   }
+  },
+  {
+   "bestand": "data.json",
+   "aanwezig": true,
+   "bron": "afgeleid (geen eigen aanroep)",
+   "endpoint": null,
+   "handmatigeStap": false,
+   "toelichting": "Eindbundel voor de gebiedspagina, gebouwd door 05-build-gebied-data.mjs (en eventueel 08-verrijk-richtlijn.mjs) uit monumenten-verrijkt.json.",
+   "sha256": "4ec167a84330c2c13966f276f0597741af753ac172a2ecf851c9b867a1983db1",
+   "eersteCommit": {
+    "commit": "a5004dccca459c5e4f4bac1e805b26eb97ecb613",
+    "datum": "2026-08-03T10:48:22+02:00"
+   }
+  }
+ ]
+}

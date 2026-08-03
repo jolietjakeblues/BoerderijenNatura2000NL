@@ -14,6 +14,7 @@
 // Gebruik: node scripts/validate.mjs
 import fs from 'fs';
 import path from 'path';
+import crypto from 'crypto';
 import { fileURLToPath } from 'url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
@@ -181,6 +182,30 @@ for (const slug of slugsMetData) {
   }
 
   if (!fs.existsSync(path.join(HTML_DIR, `${slug}.html`))) fout(`${slug}: gebieden/${slug}.html ontbreekt`);
+
+  // Herkomst-manifest (scripts/09-bouw-manifest.mjs): moet bestaan en de
+  // vastgelegde SHA-256's moeten kloppen met de huidige bestandsinhoud --
+  // anders is het manifest stilzwijgend achterhaald geraakt na een latere
+  // wijziging aan de brondata.
+  const manifestPath = path.join(GEBIEDEN_DIR, slug, 'manifest.json');
+  if (!fs.existsSync(manifestPath)) {
+    fout(`${slug}: manifest.json ontbreekt (draai scripts/09-bouw-manifest.mjs ${slug})`);
+  } else {
+    try {
+      const manifest = JSON.parse(fs.readFileSync(manifestPath, 'utf-8'));
+      for (const art of manifest.artefacten || []) {
+        if (!art.aanwezig) continue;
+        const artPath = path.join(GEBIEDEN_DIR, slug, art.bestand);
+        if (!fs.existsSync(artPath)) { fout(`${slug}: manifest.json noemt ${art.bestand} als aanwezig, maar het bestand ontbreekt`); continue; }
+        const actueel = crypto.createHash('sha256').update(fs.readFileSync(artPath)).digest('hex');
+        if (actueel !== art.sha256) {
+          fout(`${slug}: manifest.json is achterhaald voor ${art.bestand} (sha256 komt niet overeen met de huidige inhoud -- draai scripts/09-bouw-manifest.mjs ${slug} opnieuw)`);
+        }
+      }
+    } catch (e) {
+      fout(`${slug}: manifest.json is geen geldige JSON (${e.message})`);
+    }
+  }
 }
 
 // Verweesde HTML: een gebieden/<slug>.html zonder bijbehorende data/gebieden/<slug>/data.json.

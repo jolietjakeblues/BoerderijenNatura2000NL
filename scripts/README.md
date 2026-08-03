@@ -29,6 +29,7 @@ node scripts/06-build-gebied-html.mjs <slug>
 node scripts/07-build-landing-html.mjs
 # -- optioneel, handmatige stap, zie hieronder --
 node scripts/08-verrijk-richtlijn.mjs <slug>
+node scripts/09-bouw-manifest.mjs <slug>
 ```
 
 `node scripts/list-gebieden.mjs` toont de exacte schrijfwijze van alle 162
@@ -65,12 +66,33 @@ provincie-toewijzing, HTML genereren) zijn volledig automatisch.
 
 `node scripts/validate.mjs` controleert alle `data/gebieden/*/data.json`:
 verplichte velden, telinvarianten (n/ja/onbekend/provCounts/datakwaliteit
-moeten optellen tot wat er echt in `mons[]` staat), en dat elke gebied ook
-een gepubliceerde HTML-pagina heeft. `.github/workflows/validate.yml` draait
-dit bij elke push/PR naar `main`, samen met de bbox-regex-zelftest en een
-volledige herbouw van alle HTML uit de huidige data.json's -- als die
-herbouw een verschil oplevert met wat gecommit is, faalt de workflow (data
-en HTML mogen niet uit elkaar lopen zonder dat iemand het merkt).
+moeten optellen tot wat er echt in `mons[]` staat), dat elke gebied ook een
+gepubliceerde HTML-pagina heeft, en dat elk gebied een actueel
+`manifest.json` heeft (zie hieronder) -- als de vastgelegde SHA-256's niet
+meer kloppen met de huidige bestandsinhoud, faalt de validatie.
+`.github/workflows/validate.yml` draait dit bij elke push/PR naar `main`,
+samen met de bbox-regex-zelftest en een volledige herbouw van alle HTML uit
+de huidige data.json's -- als die herbouw een verschil oplevert met wat
+gecommit is, faalt de workflow (data en HTML mogen niet uit elkaar lopen
+zonder dat iemand het merkt).
+
+## Herkomst-manifest (`manifest.json`)
+
+`node scripts/09-bouw-manifest.mjs <slug>` bouwt `data/gebieden/<slug>/manifest.json`:
+per tussenliggend artefact (SPARQL-query, queryresultaat, afgeleid bestand)
+de bron/endpoint, of het een handmatige MCP-tool-stap was, een SHA-256 van de
+huidige inhoud, en het git-commit waarin dat artefact voor het eerst is
+toegevoegd (als benadering van het ophaalmoment). Draai dit opnieuw na elke
+wijziging aan de brondata van een gebied (`validate.mjs` signaleert een
+verouderd manifest).
+
+**Grenzen van dit manifest** (bewust niet met terugwerkende kracht op te
+lossen): het legt niet het exacte tijdstip van de live SPARQL/WFS-aanroep
+zelf vast, niet het aantal retries tijdens de oorspronkelijke BAG-bevraging
+(`lib/bag.mjs` voert retries uit maar bewaart alleen het eindresultaat), en
+het `scripts/`-commit dat wordt vastgelegd is dat van het moment van
+manifest-generatie, niet noodzakelijk het commit dat de oorspronkelijke
+`data.json` produceerde.
 
 ## Richtlijn-status (Vogelrichtlijn / Habitatrichtlijn)
 
@@ -147,6 +169,28 @@ op `false` - dus nooit aannemen dat dit overal `true` is.
   bestaat om dit mechanisch onmogelijk te maken: de regex wordt berekend uit
   de echte bbox-getallen (met een marge van 0.15 graad, ruim boven de
   5&nbsp;km-selectiegrens), nooit met de hand getypt.
+- **Een monument in RCE's Rijksmonument-class is niet per se nog een actief
+  rijksmonument.** `ceo:heeftJuridischeStatus` kent (naast `rijksmonument`)
+  ook de waarde `geen rijksmonument` (SKOS-concept
+  `https://data.cultureelerfgoed.nl/term/id/rn/2/3e79bb7c-b459-4998-a9ed-78d91d069227`),
+  bijvoorbeeld na sloop of een statuswijziging. Ontdekt doordat 2 van de 38
+  live-geverifieerde monumenten uit de handmatige steekproef een HTTP 404 gaven
+  op het officiële Monumentenregister (zie `KWALITEITSCONTROLE.md`) - een
+  daaropvolgende controle van alle op dat moment gepubliceerde monumenten
+  vond 42 gevallen (~4%) met deze status, die de pijplijn tot dan toe niet
+  filterde. `scripts/02-prepare-gebied.mjs` sluit deze status nu uit bij de
+  bron (met `OPTIONAL`/`BOUND`, omdat een klein deel van alle Rijksmonument-
+  records dit veld helemaal mist - vrijwel altijd aanwezig, 67494 van 67496
+  landelijk, maar niet aannemen dat het overal gegarandeerd is).
+
+## Dataset-release-kandidaat
+
+`node scripts/10-bouw-release-kandidaat.mjs [versielabel]` schrijft
+`release-kandidaat.json` (repo-root): per gebied naam/peildatum/aantallen en
+een SHA-256 van `data.json`, plus een totaaltelling en het huidige commit.
+Dit script tagt of publiceert zelf niets - het is alleen een voorbereid
+overzicht dat als basis kan dienen voor een handmatige `git tag` + GitHub
+Release, een keuze die bij de repo-eigenaar blijft.
 
 ## Status
 

@@ -286,7 +286,10 @@ canvas.addEventListener('click',e=>{
   const m = vindDichtstbijzijnde(e);
   if(!m){ detail.classList.remove('on'); return; }
   const adressenHtml = (m.addressen||[]).map((a,i)=>{
-    const match = (m.matched||[]).find(x=>x.straat===a.straat && String(x.huisnummer)===String(parseInt(a.huisnr,10)));
+    const huisnrMatch = String(a.huisnr||'').trim().match(/^(\\d+)\\s*([A-Za-z]?)$/);
+    const nr = huisnrMatch ? huisnrMatch[1] : null;
+    const letter = huisnrMatch ? huisnrMatch[2].toUpperCase() : '';
+    const match = (m.matched||[]).find(x=>x.straat===a.straat && String(x.huisnummer)===nr && String(x.huisletter||'').toUpperCase()===letter);
     return \`<dt>adres \${i+1}</dt><dd>\${a.straat} \${a.huisnr}, \${a.postcode} \${a.woonplaats}\${match ? ' \\u2014 gebruiksdoel: '+match.gebruiksdoel : ' \\u2014 geen BAG-match'}</dd>\`;
   }).join('');
   detail.innerHTML = \`<dl>

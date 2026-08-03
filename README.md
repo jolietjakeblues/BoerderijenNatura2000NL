@@ -41,20 +41,23 @@ toe 25 verwerkt:
 | [Elperstroomgebied](gebieden/elperstroomgebied.html) | Drenthe | 33 | 4 | 1 |
 | [Bakkeveense Duinen](gebieden/bakkeveense-duinen.html) | Fryslân | 6 | 1 | 0 |
 | [Drouwenerzand](gebieden/drouwenerzand.html) | Drenthe | 8 | 2 | 0 |
-| [Kolland & Overlangbroek](gebieden/kolland-overlangbroek.html) | Gelderland / Utrecht | 107 | 17 | 2 |
-| [Zouweboezem](gebieden/zouweboezem.html) | Utrecht / Zuid-Holland | 65 | 6 | 0 |
+| [Kolland & Overlangbroek](gebieden/kolland-overlangbroek.html) | Gelderland / Utrecht | 100 | 17 | 1 |
+| [Zouweboezem](gebieden/zouweboezem.html) | Utrecht / Zuid-Holland | 64 | 6 | 0 |
 | [Regte Heide & Riels Laag](gebieden/regte-heide-riels-laag.html) | Noord-Brabant | 16 | 1 | 1 |
-| [Vlijmens Ven, Moerputten & Bossche Broek](gebieden/vlijmens-ven.html) | Noord-Brabant | 54 | 6 | 0 |
-| [Leudal](gebieden/leudal.html) | Limburg | 24 | 4 | 0 |
-| [Swalmdal](gebieden/swalmdal.html) | Limburg | 24 | 4 | 1 |
-| [Roerdal](gebieden/roerdal.html) | Limburg | 34 | 4 | 0 |
-| [Geleenbeekdal](gebieden/geleenbeekdal.html) | Limburg | 303 | 52 | 4 |
-| **Totaal (25 gebieden)** | | **1159** | **181** | **13** |
+| [Vlijmens Ven, Moerputten & Bossche Broek](gebieden/vlijmens-ven.html) | Noord-Brabant | 47 | 6 | 0 |
+| [Leudal](gebieden/leudal.html) | Limburg | 22 | 4 | 0 |
+| [Swalmdal](gebieden/swalmdal.html) | Limburg | 22 | 4 | 1 |
+| [Roerdal](gebieden/roerdal.html) | Limburg | 31 | 4 | 0 |
+| [Geleenbeekdal](gebieden/geleenbeekdal.html) | Limburg | 296 | 50 | 4 |
+| **Totaal (25 gebieden)** | | **1130** | **179** | **12** |
 
 Let op: de totaaltelling is een **som van per-gebied cijfers**, geen aantal unieke monumenten
 landelijk - een monument dat dicht bij meerdere Natura 2000-gebieden ligt (bv. tussen Bekendelle en
 Korenburgerveen) telt terecht in beide gebiedspagina's mee. De kolom "BAG niet te controleren" is
-géén bevestigde NEE - zie de toelichting bij taak 10 hieronder.
+géén bevestigde NEE - zie de toelichting bij taak 10 hieronder. Deze aantallen zijn lager dan een
+eerdere versie van deze tabel: 42 monumenten die RCE zelf niet meer als rijksmonument classificeert
+(`heeftJuridischeStatus` = "geen rijksmonument") zijn verwijderd - zie
+[KWALITEITSCONTROLE.md](KWALITEITSCONTROLE.md) voor de vondst en de aanpak.
 
 **Resterend: 137 gebieden** (133 landgebieden + 4 mariene gebieden die waarschijnlijk buiten scope
 blijven). Nog geen vaste volgorde vastgesteld; gewerkt vanuit Gelderland (Achterhoek, IJssel,
@@ -157,6 +160,13 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
   (`.github/workflows/validate.yml`) draait bij elke push/PR: de bbox-regex-zelftest, schema- en
   telinvariant-validatie over alle `data.json`-bestanden (`scripts/validate.mjs`), en herbouwt alle
   HTML uit de huidige data om te controleren dat data en gepubliceerde pagina's niet uit elkaar lopen.
+- ~~**Herkomst-manifest per gebied ontbreekt**~~ - **opgelost.** `scripts/09-bouw-manifest.mjs <slug>`
+  legt per tussenliggend artefact (SPARQL-query, queryresultaat, afgeleid bestand) de bron/endpoint,
+  of het een handmatige stap was, een SHA-256 en het git-commit van eerste toevoeging vast in
+  `data/gebieden/<slug>/manifest.json`; `validate.mjs` faalt als een manifest achterhaald is geraakt.
+  Zie `scripts/README.md` voor de expliciete grenzen (geen retroactief queryttijdstip of retry-historie).
+  Daarnaast bereidt `scripts/10-bouw-release-kandidaat.mjs` een dataset-release-overzicht voor
+  (`release-kandidaat.json`, niet zelf getagd of gepubliceerd - dat blijft aan de repo-eigenaar).
 
 ### Geloofwaardigheid / interpretatie (uit review)
 
@@ -171,6 +181,13 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
 - ~~**"5 km" werd als ecologische invloedssfeer gepresenteerd**~~ - **gecorrigeerd.** Vijf kilometer
   is een gekozen selectievenster, geen vastgestelde ecologische invloedssfeer; de tekst benoemt dit nu
   expliciet.
+- ~~**Pijplijn controleerde niet of een monument nog wél een rijksmonument is**~~ - **opgelost.**
+  Gevonden tijdens de handmatige steekproefcontrole (zie [KWALITEITSCONTROLE.md](KWALITEITSCONTROLE.md)):
+  RCE's eigen `heeftJuridischeStatus`-veld kent naast `rijksmonument` ook `geen rijksmonument`
+  (bv. na sloop), en dit werd nergens gecontroleerd. Bij de op dat moment 25 gepubliceerde gebieden
+  bleken 42 van de 1026 unieke monumenten (~4%) deze afgevoerde status te hebben.
+  `scripts/02-prepare-gebied.mjs` sluit deze status nu uit bij de bron; de 42 al-gepubliceerde
+  gevallen zijn verwijderd uit de 8 betrokken gebieden (zie de bijgewerkte aantallen hierboven).
 
 **Aanvullende, waardevolle toevoegingen uit dezelfde review** (met de door de reviewer aangemerkte
 top 3 vetgedrukt):
@@ -201,8 +218,10 @@ top 3 vetgedrukt):
     uitklapbare, toetsenbord- en schermlezer-toegankelijke lijst (rm-nr, plaats, afstand, status) als
     alternatief voor de canvas-kaart. Nog niet gedaan: kleurenblind-vriendelijke symbolen op de kaart
     zelf, en de canvas-punten blijven zelf niet direct focusbaar.
-11. Steekproefsgewijze validatie (bv. 10 willekeurige positieve/negatieve classificaties handmatig
-    controleren, resultaat publiceren).
+11. ~~Steekproefsgewijze validatie~~ — **opgelost.** Een steekproef van 95 monumenten is
+    structureel gecontroleerd en een deelsteekproef van 38 daarvan handmatig geverifieerd
+    tegen het officiële Rijksmonumentenregister. Geaggregeerde resultaten en fouttypen:
+    zie [KWALITEITSCONTROLE.md](KWALITEITSCONTROLE.md).
 12. Compacte "wat kun je hiermee wel/niet zeggen"-kaart prominent bij de opening.
 
 ## Kanttekeningen

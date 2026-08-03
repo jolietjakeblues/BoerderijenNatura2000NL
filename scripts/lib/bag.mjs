@@ -63,7 +63,7 @@ export async function checkMonumentBag(monument) {
         (p.huisletter || '').toUpperCase() === target.letter
       );
       cand.forEach(c => {
-        result.matched.push({ straat: c.openbare_ruimte, huisnummer: c.huisnummer, postcode: c.postcode, gebruiksdoel: c.gebruiksdoel });
+        result.matched.push({ straat: c.openbare_ruimte, huisnummer: c.huisnummer, huisletter: c.huisletter || '', postcode: c.postcode, gebruiksdoel: c.gebruiksdoel });
         const gd = (c.gebruiksdoel || '').toLowerCase();
         if (gd.includes('industriefunctie')) result.industrie = true;
         if (gd.includes('logiesfunctie') || gd.includes('bijeenkomstfunctie')) result.logiesOfBijeenkomst = true;
