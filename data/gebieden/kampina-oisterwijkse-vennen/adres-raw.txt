@@ -1,0 +1,74 @@
+Gevonden: 70 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10948 | Brembos | 1 | 5688LC | Oirschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11070 | Gestelseweg | 1 | 5296KP | Esch
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12831 | Raadhuisplein | 3 a | 5298CD | Liempde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12831 | Raadhuisplein | 3 | 5298CD | Liempde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13284 | Rosenhofstraat | 24 | 5298TB | Liempde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16086 | Kapelstraat | 22 | 5298CV | Liempde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16098 | Holleneind | 4 | 5076NH | Haaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17133 | Torenpad | 7 | 5056SE | Berkel-Enschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18756 | Parkstraat | 17 | 5298CE | Liempde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19536 | Pallande | 8 | 5688NH | Oirschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19594 | Boterwijksestraat | 10 | 5688HX | Oirschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19970 | Oude Dijk | 19 | 5298BA | Liempde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19970 | Oude Dijk | 21 | 5298BA | Liempde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20029 | Tempeliersweg | 1 | 5076AG | Haaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20120 | Waalwijkseweg | 6 | 5071RK | Udenhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21659 | Barrierweg | 60 | 5298LT | Liempde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21702 | Fluterd | 1 | 5688HV | Oirschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23270 | Holleneind | 23 A | 5076NG | Haaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23767 | Hedel | 6 | 5688LD | Oirschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24536 | Boterwijksestraat | 20 | 5688HX | Oirschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25816 | Molenstraat | 13 | 5268KD | Helvoirt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27298 | Kapelstraat | 26 | 5298CV | Liempde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29732 | De Fransman | 6 | 5688NG | Oirschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30048 | Broekstraat | 6 | 5018TD | Tilburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31761 | Kapelstraat | 28 | 5298CV | Liempde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34532 | Boterwijksestraat | 3 | 5688HX | Oirschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34817 | Donkhorst | 3 | 5066PN | Moergestel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35236 | Esschebaan | 25 | 5282JK | Boxtel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35236 | Esschebaan | 27 | 5282JK | Boxtel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36044 | Oud Lovenstraat | 2 | 5015AH | Tilburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37523 | Heuvelstraat | 33 | 5066PB | Moergestel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37879 | Dorpsstraat | 41 | 5298CA | Liempde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38392 | Eindhovenseweg | 16 | 5281RA | Boxtel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39996 | Kampsesteeg | 10 | 5688KJ | Oirschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40665 | Pandgat | 19 | 5688KK | Oirschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40965 | Barrierweg | 4 | 5298AC | Liempde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41684 | Molenstraat | 12 | 5268KE | Helvoirt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41745 | Lennisheuvel | 93 | 5281LD | Boxtel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41903 | Lennisheuvel | 60 | 5281LG | Boxtel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42481 | Oirschotseweg | 10 | 5066CJ | Moergestel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42748 | Molenstraat | 16 | 5268KE | Helvoirt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43140 | Hedel | 7 | 5688LD | Oirschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43502 | Mon Plaisir | 17 | 5291PA | Gemonde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48757 | Kerkhovensestraat | 29 | 5061PJ | Oisterwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49284 | Eindhovenseweg | 41 | 5283RA | Boxtel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50343 | Raadhuisplein | 4 | 5298CD | Liempde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51169 | Baaneind | 12 | 5059AS | Heukelom
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51201 | Spoordonkseweg | 65 | 5688KC | Oirschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52434 | Heesterbos | 2 | 5298CH | Liempde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52496 | Pastoor Jansenstraat | 24 | 5076TJ | Haaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53887 | Heerenbeek | 6 | 5688MN | Oirschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54303 | Liempdsedijk | 3 | 5688MP | Oirschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54625 | Boxtelseweg | 42 a | 5298VC | Liempde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54625 | Boxtelseweg | 42 b | 5298VC | Liempde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54625 | Boxtelseweg | 42 | 5298VC | Liempde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57589 | Kleinhoekje | 5 | 5298CG | Liempde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60436 | Parkstraat | 26 | 5298CE | Liempde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61765 | Hild | 3 | 5066CL | Moergestel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66199 | Brabantsehoek | 34 | 5074NJ | Biezenmortel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69786 | Oude Hilvarenbeekseweg | 38 | 5022EN | Tilburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70304 | Beukenhorst | 3 | 5262LG | Vught
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70304 | Beukenhorst | 3 A | 5262LG | Vught
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71291 | 't Zwaantje | 2 | 5056ED | Berkel-Enschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71291 | Kerkstraat | 1 | 5056AA | Berkel-Enschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72671 | Sint Josephstraat | 51 | 5017GD | Tilburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73223 | Heikant | 8 | 5066CR | Moergestel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73224 | Heikant | 8 | 5066CR | Moergestel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74025 | De Kraan | 1 | 5056EA | Berkel-Enschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77736 | Raadhuisstraat | 26 | 5056HD | Berkel-Enschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/79822 | Nachtegaallaan | 5 | 5074MD | Biezenmortel

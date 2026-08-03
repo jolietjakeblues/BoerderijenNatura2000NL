@@ -1,0 +1,58 @@
+Gevonden: 54 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10062 | Vaartweg | 6 | 5109RC | 's Gravenmoer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10063 | Vrouwkensvaartsestraat | 11 | 5165NN | Waspik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10064 | Benedenkerkstraat | 85 | 5165CB | Waspik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11928 | Raadhuisstraat | 21 | 4266EA | Eethen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11928 | Raadhuisstraat | 21 a | 4266EA | Eethen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12719 | Kerkstraat | 41 | 4944XB | Raamsdonk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14266 | Benedenkerkstraat | 73 | 5165CB | Waspik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15251 | Vrouwkensvaartsestraat | 14 | 5165NP | Waspik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18178 | Willem van Gentsvaart | 28 | 5161AV | Sprang-Capelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19048 | 't Vaartje | 112 | 5165ND | Waspik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20229 | Lange Broekstraat | 29 | 4944XH | Raamsdonk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20319 | Gemeentenweg | 39 | 5106NK | Dongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20465 | Molenstraat | 40 | 4944AD | Raamsdonk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21493 | Vrouwkensvaartsestraat | 20 | 5165NP | Waspik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21931 | Vrouwkensvaartsestraat | 25 | 5165NN | Waspik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22734 | Hogevaart | 77 | 5161PL | Sprang-Capelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28715 | Klein Dongenseweg | 44 | 5106AC | Dongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29787 | Nieuwevaart | 22 | 5161AR | Sprang-Capelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30678 | Hoofdstraat | 16 | 5109AC | 's Gravenmoer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30678 | Hoofdstraat | 16 A | 5109AC | 's Gravenmoer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32828 | Vaartweg | 6 A | 5106ND | Dongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32828 | Vaartweg | 6 | 5106ND | Dongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39324 | Molenstraat | 45 | 4944AB | Raamsdonk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41732 | 't Vaartje | 5 | 5165NA | Waspik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41732 | 't Vaartje | 7 | 5165NA | Waspik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44650 | Kasteellaan | 3 | 4268GM | Meeuwen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46367 | Binnen | 31 | 4271BV | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48093 | Schansstraat | 12 | 4944AH | Raamsdonk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49524 | Waspikse Weg | 15 | 5109RE | 's Gravenmoer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50264 | Raadhuisstraat | 135 | 5161BG | Sprang-Capelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51538 | Kerkstraat | 3 | 5165CE | Waspik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51823 | Hoofdstraat | 50 | 5109AD | 's Gravenmoer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52459 | Benedenkerkstraat | 103 | 5165CB | Waspik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52516 | Hoofdstraat | 72 | 5109AD | 's Gravenmoer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53024 | Hoofdstraat | 20 | 5109AC | 's Gravenmoer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54153 | Vrouwkensvaartsestraat | 28 | 5165NP | Waspik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54262 | Eindsestraat | 12 | 4267GX | Drongelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54346 | Hoofdstraat | 5 | 5109AA | 's Gravenmoer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55393 | Vaartweg | 2 | 5109RC | 's Gravenmoer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55474 | Korte Broekstraat | 3 | 4944XM | Raamsdonk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55920 | Binnen | 3 A | 4271BV | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56188 | Benedenkerkstraat | 92 | 5165CD | Waspik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57637 | Molenstraat | 50 | 4944AD | Raamsdonk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57907 | 't Vaartje | 14 | 5165NB | Waspik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58133 | Van der Duinstraat | 10 | 5161BP | Sprang-Capelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60404 | Waspiksedijk | 37 | 5161NS | Sprang-Capelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61317 | Kerkstraat | 137 | 5161EC | Sprang-Capelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61959 | Winterdijk | 15 | 5161PH | Sprang-Capelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61959 | Winterdijk | 16 | 5161PH | Sprang-Capelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62184 | Hoofdstraat | 65 | 5109AB | 's Gravenmoer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62256 | Korte Broekstraat | 5 | 4944XM | Raamsdonk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66871 | Vaartweg | 57 | 5109RB | 's Gravenmoer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67735 | Julianalaan | 15 | 5161BA | Sprang-Capelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69714 | Schansstraat | 32 | 4944AH | Raamsdonk

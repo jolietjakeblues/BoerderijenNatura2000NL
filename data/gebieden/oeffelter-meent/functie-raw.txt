@@ -1,0 +1,16 @@
+Gevonden: 12 resultaat/resultaten
+
+rm | rmnr | fNaam
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14413 | 518547 | Hekpijler
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14413 | 518547 | Tuin
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14413 | 518547 | Boomgaard
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14413 | 518547 | Boerderij(M1)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34018 | 11627 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34822 | 508163 | Opslag
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34822 | 508163 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42806 | 31224 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51664 | 16100 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55061 | 31229 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67742 | 526595 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71363 | 518524 | Boerderij(M1)

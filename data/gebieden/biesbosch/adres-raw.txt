@@ -1,0 +1,100 @@
+Gevonden: 96 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10851 | Bovenkerkseweg | 78 | 3381KC | Giessenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10851 | Bovenkerkseweg | 76 | 3381KC | Giessenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10932 | Bovenkerkseweg | 30 | 3381KB | Giessenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11212 | Oudkerkseweg | 9 | 3381KP | Giessenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12097 | Peursumseweg | 99 | 3381KV | Giessenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12347 | Korn | 39 | 4271BN | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12347 | Korn | 41 | 4271BN | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12719 | Kerkstraat | 41 | 4944XB | Raamsdonk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18110 | Dussen Dijk | 29 | 4271XL | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18253 | Bovenkerkseweg | 20 | 3381KB | Giessenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18253 | Bovenkerkseweg | 18 | 3381KB | Giessenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18808 | Binnendamseweg | 62 | 3381GC | Giessenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19419 | Visserskade | 44 | 4273GL | Hank
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19885 | Peursumseweg | 95 | 3381KV | Giessenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19885 | Peursumseweg | 97 | 3381KV | Giessenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20229 | Lange Broekstraat | 29 | 4944XH | Raamsdonk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20465 | Molenstraat | 40 | 4944AD | Raamsdonk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21123 | Uppelse Hoek | 26 | 4286EM | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21232 | Gaete | 19 | 4926RN | Lage Zwaluwe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21820 | Provincialeweg Zuid | 60 | 4286LM | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22519 | Uppelse Hoek | 15 | 4286EM | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24118 | Oudkerkseweg | 10 | 3381KR | Giessenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25038 | Zuid Voorstraat | 18 | 3295BW | 's-Gravendeel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25055 | Binnendamseweg | 96 | 3381GD | Giessenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25172 | Oudkerkseweg | 2 | 3381KR | Giessenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25172 | Oudkerkseweg | 2 A | 3381KR | Giessenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25592 | Streeplandsedijk | 2 | 4926PK | Lage Zwaluwe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29266 | Provincialeweg Zuid | 65 | 4286LK | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29934 | Kooilandsedijk | 33 | 3291LG | Strijen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31090 | Peursumseweg | 103 | 3381KV | Giessenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31090 | Peursumseweg | 105 | 3381KV | Giessenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31090 | Peursumseweg | 105 A | 3381KV | Giessenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31191 | Bovenkerkseweg | 92 | 3381KC | Giessenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31191 | Bovenkerkseweg | 96 | 3381KC | Giessenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31618 | Muilkerk | 28 | 4271BL | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32530 | Korn | 50 | 4271BR | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34231 | Kerkstraat | 52 | 4273CC | Hank
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34577 | Binnendams | 6 | 3373AD | Hardinxveld-Giessendam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35978 | Provincialeweg Noord | 18 | 4286EA | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36179 | Rijkestraat | 26 | 3295BS | 's-Gravendeel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36179 | Rijkestraat | 28 | 3295BS | 's-Gravendeel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36637 | Zandwijk | 6 | 4286LD | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37058 | Schrepel | 4 | 4765DL | Zevenbergschen Hoek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37058 | Bloemendaalse Zeedijk | 2 a 1 | 4765BP | Zevenbergschen Hoek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37058 | Bloemendaalse Zeedijk | 2 a 2 | 4765BP | Zevenbergschen Hoek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37058 | Bloemendaalse Zeedijk | 2 a 3 | 4765BP | Zevenbergschen Hoek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37058 | Bloemendaalse Zeedijk | 2 | 4765BP | Zevenbergschen Hoek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37402 | Provincialeweg Zuid | 36 | 4286LL | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37459 | Zuid-Kavelsedijk | 3 | 3291LX | Strijen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38943 | Binnendams | 28 | 3373AD | Hardinxveld-Giessendam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38943 | Binnendams | 26 | 3373AD | Hardinxveld-Giessendam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39324 | Molenstraat | 45 | 4944AB | Raamsdonk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40609 | Parallelweg | 8 | 3364AL | Sliedrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40609 | Parallelweg | 8 a | 3364AL | Sliedrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41186 | Korn | 42 | 4271BR | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41494 | Korn | 60 | 4271BR | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41494 | Korn | 62 | 4271BR | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41574 | Korn | 12 | 4271BP | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43222 | Hoek | 47 | 4271BH | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44360 | Provincialeweg Noord | 22 | 4286EA | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45445 | Korn | 26 | 4271BP | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46472 | Uppelse Hoek | 17 | 4286EM | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46800 | Binnendams | 14 | 3373AD | Hardinxveld-Giessendam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48093 | Schansstraat | 12 | 4944AH | Raamsdonk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49017 | Noord Voorstraat | 23 | 3295BL | 's-Gravendeel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49979 | Voogdwerfschesteeg | 2 | 4273LG | Hank
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51050 | Provincialeweg Zuid | 51 | 4286LJ | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51083 | Kerkstraat | 28 | 4286BB | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51417 | Bovenkerkseweg | 26 | 3381KB | Giessenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51417 | Bovenkerkseweg | 24 | 3381KB | Giessenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52443 | Provincialeweg Zuid | 15 | 4286LJ | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52573 | Woudrichemseweg | 38 | 4286LB | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52831 | Langestraat | 21 | 3295BJ | 's-Gravendeel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52956 | Jachtlaan | 44 | 4273LE | Hank
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54014 | Oudkerkseweg | 8 | 3381KR | Giessenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54685 | Voorstraat | 24 | 4286AL | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55474 | Korte Broekstraat | 3 | 4944XM | Raamsdonk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57623 | Binnendams | 4 | 3373AD | Hardinxveld-Giessendam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57637 | Molenstraat | 50 | 4944AD | Raamsdonk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58962 | Altena's Laantje | 3 | 4286BD | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59050 | Korte Broekstraat | 9 | 4944XM | Raamsdonk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59051 | Schaweg | 13 | 3293LA | Mookhoek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59306 | Muilkerk | 24 | 4271BL | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60593 | Binnendams | 16 | 3373AD | Hardinxveld-Giessendam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62038 | Provincialeweg Noord | 19 a | 4286EA | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62038 | Provincialeweg Noord | 19 d | 4286EA | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62038 | Provincialeweg Noord | 19 b | 4286EA | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62038 | Provincialeweg Noord | 19 c | 4286EA | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62038 | Provincialeweg Noord | 19 | 4286EA | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62256 | Korte Broekstraat | 5 | 4944XM | Raamsdonk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69714 | Schansstraat | 32 | 4944AH | Raamsdonk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70087 | Dordwijklaan | 6 | 3319AD | Dordrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70087 | Dordwijklaan | 6 C | 3319AD | Dordrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70087 | Dordwijklaan | 6 D | 3319AD | Dordrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70087 | Dordwijklaan | 6 E | 3319AD | Dordrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78993 | Noorder Elsweg | 12 | 3329KH | Dordrecht

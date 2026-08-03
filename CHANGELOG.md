@@ -6,6 +6,16 @@ precieze wijzigingen per gebied: `git log`. Entries staan in omgekeerd-chronolog
 volgorde; een latere entry kan dus een eerdere entry corrigeren of vervangen. Waar dat
 kan verwarren, is dat expliciet benoemd.
 
+## Uitbreiding naar Noord-Brabant (13 nieuwe gebieden)
+
+53 naar 66 verwerkte gebieden: heel Noord-Brabant, zuid naar noord (derde ronde na
+Gelderland/validatieprovincies en Limburg/Zeeland). Nieuwe totalen: 3684 boerderijen,
+570 met BAG-industriefunctie-indicatie, 43 niet te controleren (was 3147/512/38). Zie
+README.md voor de volledige lijst per gebied. Gebouwd met
+`scripts/bouw-gebied-compleet.mjs`, dezelfde volledig geautomatiseerde pijplijn als de
+vorige ronde. Groote Peel leverde 0 monumenten op binnen de 5&nbsp;km-grens (zelfde
+precedent als De Bruuk).
+
 ## Unittests voor geo.mjs, en het herkomst-manifest 15x sneller
 
 Naar aanleiding van een eigen kritische zelfreflectie ("wat mis je aan wat je

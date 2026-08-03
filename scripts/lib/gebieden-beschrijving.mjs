@@ -267,5 +267,70 @@ export const GEBIEDEN_BESCHRIJVING = {
     ligging: 'Tussen Goeree-Overflakkee en Schouwen-Duiveland',
     tekst: 'Grootste zoutwatermeer van Europa (circa 13.750 hectare), ontstaan na afsluiting door de Deltawerken in 1971, met eilandjes, duinvalleien en schorren. Van groot belang voor overwinterende viseters als fuut en middelste zaagbek, en met de harlekijnorchis in de duinvalleien een van de vijf grootste Nederlandse groeiplaatsen van deze soort.',
     bron: 'https://www.natura2000.nl/gebieden/zeeland/grevelingen'
+  },
+  'leenderbos-groote-heide-de-plateaux': {
+    ligging: 'Bergeijk/Cranendonck/Eersel/Eindhoven/Heeze-Leende/Valkenswaard/Veldhoven/Waalre',
+    tekst: 'Samengesteld heide-, ven- en bosgebied (circa 4.390 hectare) over acht Kempense gemeenten. Beschermd vanwege droge en natte heide, vennen en beekdalen, met nachtzwaluw, boompieper en de enige Noord-Brabantse populatie beekprik.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-brabant/leenderbos-groote-heide-de-plateaux'
+  },
+  'groote-peel': {
+    ligging: 'Asten/Peel en Maas/Nederweert, grens Noord-Brabant/Limburg',
+    tekst: 'Hoogveenrestant (circa 1.348 hectare) op de grens van Noord-Brabant en Limburg, met heide, vennen en veenputten - een restant van een ooit uitgestrekt hoogveenlandschap. Bekend om duizenden overwinterende ganzen, een grote kokmeeuwenkolonie en doortrekkende kraanvogels.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-brabant/groote-peel'
+  },
+  'strabrechtse-heide-beuven': {
+    ligging: 'Heeze-Leende/Someren',
+    tekst: 'Heide- en vennengebied (circa 1.843 hectare) ten zuidoosten van Geldrop, met droge heide, stuifzand en het Beuven - met ruim 60 hectare het grootste heideven van Nederland. Beschermd vanwege broedende roerdompen, het pimpernelblauwtje en de grootste aaneengesloten open heide van Noord-Brabant.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-brabant/strabrechtse-heide-beuven'
+  },
+  'brabantse-wal': {
+    ligging: 'Bergen op Zoom/Roosendaal/Woensdrecht',
+    tekst: 'Overgangslandschap (circa 4.874 hectare) van zandgronden naar kleigronden, aan de westrand van het Zuid-Nederlandse dekzandgebied. Het Groote Meer en Kleine Meer horen tot de grootste vennen van Nederland; het gebied sluit aan op de Belgische Kalmthoutse Heide en herbergt meer dan vijftig broedparen nachtzwaluw.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-brabant/brabantse-wal'
+  },
+  'kempenland-west': {
+    ligging: 'Bladel/Eersel/Hilvarenbeek/Oirschot/Reusel-De Mierden',
+    tekst: 'Restanten van een vroeger uitgestrekt heidelandschap (circa 1.882 hectare) rond de beken Reusel, Groote Beerze en Kleine Beerze. Herbergt de grootste Nederlandse populatie van de drijvende waterweegbree.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-brabant/kempenland-west'
+  },
+  'markiezaat': {
+    ligging: 'Bergen op Zoom/Reimerswaal/Woensdrecht',
+    tekst: 'Brak tot zoet meer (circa 1.832 hectare) op de grens van Noord-Brabant en Zeeland, ontstaan uit voormalige kreken en schorren die geleidelijk verzoeten. Broedplaats van lepelaars sinds 1995, en belangrijk rustgebied voor futen en eendensoorten die bij hoogwater uitwijken vanuit de Oosterschelde.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-brabant/markiezaat'
+  },
+  'ulvenhoutse-bos': {
+    ligging: 'Breda',
+    tekst: 'Beuken-zomereikenbos (circa 112 hectare) ten zuidoosten van Breda, op een voormalige overstromingsvlakte met kwelwater door een slecht doorlatende kleilaag. Beschermd vanwege een zeldzame, soortenrijke ondergroei met bijzondere mossen en varens, en broedende spechten in het oude bos.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-brabant/ulvenhoutse-bos'
+  },
+  'kampina-oisterwijkse-vennen': {
+    ligging: 'Boxtel/Oirschot/Oisterwijk',
+    tekst: 'Vennengebied (circa 2.278 hectare) op een golvend dekzandlandschap met paraboolduinen, met meer dan honderd vennen, heide en elzenbroekbos. Beschermd vanwege een grote variatie aan vengemeenschappen en broedende wulpen, tureluurs en blauwborsten.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-brabant/kampina-en-oisterwijkse-vennen'
+  },
+  'loonse-drunense-duinen-leemkuilen': {
+    ligging: 'Haaren/Heusden/Loon op Zand/Tilburg/Waalwijk',
+    tekst: 'Drie samengevoegde deelgebieden (circa 3.975 hectare): actief stuifzand (ruim 1.000 hectare, een van de grootste van Europa), het beekdal De Brand, en de voormalige kleiputten de Leemkuilen. Beschermd vanwege kamsalamander en boomkikker, en broedende kleine vliegenvanger en spechten in de omringende bossen.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-brabant/loonse-en-drunense-duinen-leemkuilen'
+  },
+  'langstraat': {
+    ligging: 'Sprang-Capelle, gemeente Waalwijk',
+    tekst: 'Hersteld stroken-landschap (circa 506 hectare) bij Sprang-Capelle, met kwelsloten, blauwgraslanden en veenmoeras rond een oude eendenkooi. De kwelsloten herbergen zeldzame kranswiergemeenschappen, en het gebied heeft de grootste Nederlandse populatie van de zegge Carex flava, die in Nederland verder nog maar op enkele plekken voorkomt.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-brabant/langstraat'
+  },
+  'oeffelter-meent': {
+    ligging: 'Land van Cuijk, ten zuiden van de Maas',
+    tekst: 'Reliëfrijk, soortenrijk graslandgebied (circa 101 hectare) op oude rivierterrassen ten zuiden van de Maas bij Oeffelt, afgewisseld met meidoorn- en sleedoornhagen. Beschermd vanwege een zeldzaam, voedselarm type beekdalgrasland (Sedo-Thymetum) met pioniersoorten op zand-grindbodem, en broedende steenuilen en dassen.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-brabant/oeffelter-meent'
+  },
+  'biesbosch': {
+    ligging: 'Altena/Dordrecht/Drimmelen/Geertruidenberg/Moerdijk',
+    tekst: 'Zoetwatergetijdengebied (circa 9.640 hectare) op de grens van Noord-Brabant en Zuid-Holland, met wilgenvloedbos, rietland en grienden. Sinds 1988 succesvol geherintroduceerde bevers, broedende blauwborsten, en zeldzame epifytische mossen die wereldwijd maar op twee andere plekken voorkomen.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-brabant/biesbosch'
+  },
+  'loevestein-pompveld-kornsche-boezem': {
+    ligging: 'Altena/Zaltbommel, grens Gelderland/Noord-Brabant',
+    tekst: 'Drie deelgebieden (samen circa 750 hectare) rond de Merwede, met binnendijks moeras, grienden en vochtige graslanden, en buitendijks stroomdalgrasland langs de rivier. Beschermd vanwege een grote populatie grote modderkruiper en de meest westelijke rivierengebied-populatie kamsalamander.',
+    bron: 'https://www.natura2000.nl/gebieden/gelderland/loevestein-pompveld-kornsche-boezem'
   }
 };

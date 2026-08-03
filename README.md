@@ -18,11 +18,11 @@ gebied "toebehoort", en kan elk gebied apart geverifieerd worden voordat het vol
 toegevoegd. Provincie is in deze opzet een **weergavelaag** (achteraf bepaald via een
 point-in-polygon-toets tegen de officiële PDOK-provinciegrenzen), geen zoekgrens.
 
-## Status: 53 van de 162 Natura 2000-gebieden verwerkt
+## Status: 66 van de 162 Natura 2000-gebieden verwerkt
 
 Nederland telt 162 Natura 2000-gebieden (bron: PDOK/RVO, waarvan 4 mariene gebieden in de
 Exclusieve Economische Zone op de Noordzee, buiten scope voor dit project). Hiervan zijn er tot nu
-toe 53 verwerkt:
+toe 66 verwerkt:
 
 ### Eerste ronde (Gelderland/Achterhoek/IJssel en validatieprovincies)
 
@@ -87,22 +87,41 @@ toe 53 verwerkt:
 | [Kop van Schouwen](gebieden/kop-van-schouwen.html) | Zeeland | 12 | 1 | 0 |
 | [Grevelingen](gebieden/grevelingen.html) | Zeeland / Zuid-Holland | 24 | 9 | 0 |
 
-**Totaal (53 gebieden): 3147 | 512 | 38**
+### Derde ronde: Noord-Brabant, zuid naar noord
+
+| Gebied | Provincie(s) | Boerderijen | BAG-industriefunctie-indicatie | BAG niet te controleren |
+|---|---|---:|---:|---:|
+| [Leenderbos, Groote Heide & De Plateaux](gebieden/leenderbos-groote-heide-de-plateaux.html) | Noord-Brabant | 53 | 3 | 1 |
+| [Groote Peel](gebieden/groote-peel.html) | n.v.t. | 0 | 0 | 0 |
+| [Strabrechtse Heide & Beuven](gebieden/strabrechtse-heide-beuven.html) | Noord-Brabant | 18 | 0 | 1 |
+| [Brabantse Wal](gebieden/brabantse-wal.html) | Noord-Brabant | 15 | 1 | 0 |
+| [Kempenland-West](gebieden/kempenland-west.html) | Noord-Brabant | 63 | 2 | 0 |
+| [Markiezaat](gebieden/markiezaat.html) | Noord-Brabant / Zeeland | 8 | 2 | 0 |
+| [Ulvenhoutse Bos](gebieden/ulvenhoutse-bos.html) | Noord-Brabant | 46 | 6 | 0 |
+| [Kampina & Oisterwijkse Vennen](gebieden/kampina-oisterwijkse-vennen.html) | Noord-Brabant | 64 | 5 | 2 |
+| [Loonse en Drunense Duinen & Leemkuilen](gebieden/loonse-drunense-duinen-leemkuilen.html) | Noord-Brabant | 46 | 6 | 1 |
+| [Langstraat](gebieden/langstraat.html) | Noord-Brabant | 49 | 5 | 0 |
+| [Oeffelter Meent](gebieden/oeffelter-meent.html) | Noord-Brabant / Limburg | 8 | 2 | 0 |
+| [Biesbosch](gebieden/biesbosch.html) | Zuid-Holland / Noord-Brabant | 72 | 11 | 0 |
+| [Loevestein, Pompveld & Kornsche Boezem](gebieden/loevestein-pompveld-kornsche-boezem.html) | Gelderland / Noord-Brabant / Zuid-Holland | 95 | 15 | 0 |
+
+**Totaal (66 gebieden): 3684 | 570 | 43**
 
 Let op: de totaaltelling is een **som van per-gebied cijfers**, geen aantal unieke monumenten
 landelijk - een monument dat dicht bij meerdere Natura 2000-gebieden ligt (bv. tussen Bekendelle en
 Korenburgerveen) telt terecht in beide gebiedspagina's mee. De kolom "BAG niet te controleren" is
 géén bevestigde NEE - zie Methode, punt 5.
 
-**Resterend: 109 gebieden** (105 landgebieden + 4 mariene gebieden die waarschijnlijk buiten scope
+**Resterend: 96 gebieden** (92 landgebieden + 4 mariene gebieden die waarschijnlijk buiten scope
 blijven). Eerste ronde gewerkt vanuit Gelderland (Achterhoek, IJssel, Nijmegen-Mook, Gelderse
 Vallei), met bewust een paar provinciegrensgevallen erbij, uitgebreid naar Groningen, Drenthe en
 Fryslân om de aanpak ook buiten het zuidoosten te valideren, en vervolgens naar Utrecht,
 Zuid-Holland, Noord-Brabant en Zuid-Limburg. Tweede ronde: heel Limburg en Zeeland, zuid naar
 noord (inclusief enkele grote wateren als Oosterschelde/Westerschelde/Grevelingen, die dankzij de
-5&nbsp;km-marge rond hun oevers nog altijd relevante aantallen opleverden). Nog niet aangeraakt:
-Noord-Brabant (volgende ronde), Noord-Holland en Noord-Limburg als hoofdgebied, en de grote
-gebieden (Veluwe, Waddenzee) die vanwege hun omvang bewust nog niet zijn opgepakt.
+5&nbsp;km-marge rond hun oevers nog altijd relevante aantallen opleverden). Derde ronde: heel
+Noord-Brabant, zuid naar noord. Nog niet aangeraakt: Noord-Holland en Noord-Limburg als
+hoofdgebied, en de grote gebieden (Veluwe, Waddenzee) die vanwege hun omvang bewust nog niet zijn
+opgepakt.
 
 ## Methode per gebied
 
@@ -155,7 +174,7 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
 - **Volledig afstands-bucketschema** invoeren: erin / < 250 m / < 1 km / < 5 km / < 25 km / ≥ 25 km
   (nu alleen erin + ≤ 5 km). Bewust uitgesteld tot na de landsdekkende opbouw van de eerste ronde
   gebieden.
-- De resterende ~109 Natura 2000-gebieden landsdekkend toevoegen (volgende ronde: Noord-Brabant).
+- De resterende ~96 Natura 2000-gebieden landsdekkend toevoegen.
 - **Download-knop (CSV)** per gebiedspagina: monumentenlijst (nr, adres, provincie, afstand, functie,
   status) exporteren.
 - **Klikbare popup voor het Natura 2000-gebied zelf** op de kaart, met de gebiedsbeschrijving.

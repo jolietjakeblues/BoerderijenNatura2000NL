@@ -1,0 +1,61 @@
+Gevonden: 57 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10996 | Zandoerle | 26 | 5507RK | Veldhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11345 | 't Hofke | 13 | 5641AH | Eindhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11828 | Berkt | 50 | 5507LM | Veldhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12358 | Riel | 14 | 5647LB | Eindhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12716 | Hoef | 14 | 5525KM | Duizel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12915 | Westerhovenseweg | 2 | 5551AD | Valkenswaard
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15598 | Postelseweg | 197 | 5521RD | Eersel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15642 | Zandoerle | 15 | 5507RJ | Veldhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15731 | Loon | 2 | 5581VH | Waalre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16312 | Dorpsstraat | 128 | 5556VL | Valkenswaard
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16532 | Walikerplein | 3 | 5561TG | Riethoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17742 | Heuvelstraat | 1 A | 5581VP | Waalre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18263 | Strijperstraat | 44 | 5595GD | Leende
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18280 | Dorpsstraat | 44 | 6027PH | Soerendonk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19867 | Dorpstraat | 50 | 5575AE | Luyksgestel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21223 | Zandoerle | 36 | 5507RK | Veldhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21523 | Markt | 2 | 5521AL | Eersel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22305 | Strabrecht | 32 | 5591BP | Heeze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23541 | Strijperstraat | 38 | 5595GD | Leende
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24114 | Oostrikkerstraat | 26 | 5595AE | Leende
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24217 | Vilderstraat | 1 | 5507LJ | Veldhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26541 | Mackenziestraat | 4 | 5665EA | Geldrop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28927 | Zaalstraat | 6 | 5595GH | Leende
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32072 | Walikerplein | 1 | 5561TG | Riethoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32105 | Wolverstraat | 44 | 5525AS | Duizel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33534 | Loon | 9 | 5581VH | Waalre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34369 | Hemelrijken | 6 | 5502HM | Veldhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34579 | Hees | 40 | 5521NV | Eersel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34760 | Kerkhof | 13 a | 5591TD | Heeze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34760 | Kerkhof | 13 | 5591TD | Heeze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35782 | Dorpsstraat | 112 | 5556VL | Valkenswaard
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36169 | Loo | 56 | 5571KR | Bergeijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36169 | Loo | 54 | 5571KR | Bergeijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36623 | Zandoerle | 30 | 5507RK | Veldhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38161 | Schafterdijk | 40 | 5556VK | Valkenswaard
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39328 | Riel | 13 | 5647LB | Eindhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40925 | Loon | 1 | 5581VH | Waalre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41802 | Riel | 2 | 5647LB | Eindhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42576 | Zaalstraat | 1 | 5595GH | Leende
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43198 | Paddevenweg | 2 | 5507RG | Veldhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45302 | Dommelseweg | 5 | 5581VA | Waalre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45939 | Walikerplein | 2 | 5561TG | Riethoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47125 | Postelseweg | 25 | 5521RA | Eersel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47740 | Klein-Schoot | 24 | 6023RB | Budel-Schoot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48437 | Riesten | 2 | 5595GP | Leende
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54266 | Zandoerle | 34 | 5507RK | Veldhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54673 | Strabrecht | 46 | 5591BP | Heeze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55794 | Stevert | 22 | 5524KC | Steensel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59307 | Loon | 3 | 5581VH | Waalre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61266 | Hertstraat | 28 | 5521RK | Eersel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61388 | Loon | 7 | 5581VH | Waalre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61908 | Strijperstraat | 42 | 5595GD | Leende
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74638 | Achterste Brug | 14 | 5556WC | Valkenswaard
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75037 | Kapelstraat | 29 a | 5591HC | Heeze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75037 | Kapelstraat | 29 b | 5591HC | Heeze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75037 | Kapelstraat | 29 c | 5591HC | Heeze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75037 | Kapelstraat | 29 | 5591HC | Heeze

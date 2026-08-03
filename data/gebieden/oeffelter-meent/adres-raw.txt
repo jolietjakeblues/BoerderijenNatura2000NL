@@ -1,0 +1,13 @@
+Gevonden: 9 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14413 | Dorpsstraat | 36 | 5835AH | Beugen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34018 | Van den Boschweg | 3 | 5435XG | Sint Agatha
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34822 | St.Janstraat | 22 | 6595AC | Ottersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42806 | Dorpsstraat | 4 | 5441AC | Oeffelt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51664 | Zelder | 1 | 6599EG | Ven-Zelderheide
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55061 | Urlingsestraat | 23 | 5441XJ | Oeffelt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55061 | Urlingsestraat | 25 | 5441XJ | Oeffelt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67742 | Hoofdstraat | 42 | 6598AE | Heijen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71363 | Dorpsstraat | 45 | 5835AG | Beugen

@@ -1,0 +1,55 @@
+Gevonden: 51 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11625 | Schoorstraat | 17 | 5071RA | Udenhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12409 | Loonse Baan | 1 | 5268KT | Helvoirt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13007 | Haarsteegsestraat | 43 | 5254JN | Haarsteeg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15600 | Cromvoirtseweg | 2 | 5268LJ | Helvoirt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16098 | Holleneind | 4 | 5076NH | Haaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17133 | Torenpad | 7 | 5056SE | Berkel-Enschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17757 | Groenstraat | 84 | 5071ED | Udenhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20029 | Tempeliersweg | 1 | 5076AG | Haaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20120 | Waalwijkseweg | 6 | 5071RK | Udenhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21778 | Giersbergen | 2 A | 5151RG | Drunen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22734 | Hogevaart | 77 | 5161PL | Sprang-Capelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23270 | Holleneind | 23 A | 5076NG | Haaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25816 | Molenstraat | 13 | 5268KD | Helvoirt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27040 | Heusdenseweg | 17 | 5154EJ | Elshout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27893 | Fellenoord | 4 | 5151RE | Drunen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29153 | Moerstraat | 7 | 5011XC | Tilburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31526 | St.-Lambertusstraat | 89 | 5266AD | Cromvoirt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35152 | Groenstraat | 92 | 5071ED | Udenhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36044 | Oud Lovenstraat | 2 | 5015AH | Tilburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40106 | Pepereind | 9 | 5266AJ | Cromvoirt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41684 | Molenstraat | 12 | 5268KE | Helvoirt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42748 | Molenstraat | 16 | 5268KE | Helvoirt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43644 | Slimstraat | 68 | 5071EM | Udenhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43812 | Grotestraat | 47 | 5151JC | Drunen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48757 | Kerkhovensestraat | 29 | 5061PJ | Oisterwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49254 | Groenstraat | 90 | 5071ED | Udenhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49330 | Helvoirtsestraat | 10 | 5268BB | Helvoirt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50264 | Raadhuisstraat | 135 | 5161BG | Sprang-Capelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50290 | Groenstraat | 131 | 5071PC | Udenhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51169 | Baaneind | 12 | 5059AS | Heukelom
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52496 | Pastoor Jansenstraat | 24 | 5076TJ | Haaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52736 | Haarsteegsestraat | 76 | 5254JS | Haarsteeg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52736 | Haarsteegsestraat | 76 A | 5254JS | Haarsteeg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53483 | Meliestraat | 44 | 5251EJ | Vlijmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53483 | Meliestraat | 46 | 5251EJ | Vlijmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53831 | Nassau Dwarsstraat | 5 | 5251KJ | Vlijmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54431 | Kleinestraat | 19 | 5151AC | Drunen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54431 | Kleinestraat | 21 | 5151AC | Drunen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56803 | Rugdijk | 5 | 5011XA | Tilburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58133 | Van der Duinstraat | 10 | 5161BP | Sprang-Capelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61317 | Kerkstraat | 137 | 5161EC | Sprang-Capelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61959 | Winterdijk | 15 | 5161PH | Sprang-Capelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61959 | Winterdijk | 16 | 5161PH | Sprang-Capelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66199 | Brabantsehoek | 34 | 5074NJ | Biezenmortel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66202 | Groenstraat | 86 | 5071ED | Udenhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67735 | Julianalaan | 15 | 5161BA | Sprang-Capelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71291 | 't Zwaantje | 2 | 5056ED | Berkel-Enschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71291 | Kerkstraat | 1 | 5056AA | Berkel-Enschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74025 | De Kraan | 1 | 5056EA | Berkel-Enschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77736 | Raadhuisstraat | 26 | 5056HD | Berkel-Enschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/79822 | Nachtegaallaan | 5 | 5074MD | Biezenmortel

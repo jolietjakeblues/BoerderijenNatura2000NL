@@ -1,0 +1,116 @@
+Gevonden: 112 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10590 | Waaldijk | 147 | 4171CC | Herwijnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10677 | Hoge Maasdijk | 4 | 4281NG | Andel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11355 | Zuiderlingedijk | 133 | 4211BC | Spijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11355 | Zuiderlingedijk | 131 | 4211BC | Spijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11928 | Raadhuisstraat | 21 | 4266EA | Eethen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11928 | Raadhuisstraat | 21 a | 4266EA | Eethen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12347 | Korn | 39 | 4271BN | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12347 | Korn | 41 | 4271BN | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12425 | Burgemeester van der Schansstraat | 21 | 4281LG | Andel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12989 | Zuiderlingedijk | 79 | 4211BA | Spijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13218 | Grotestraat | 40 | 4264RM | Veen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13280 | Waaldijk | 189 | 4171CD | Herwijnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13672 | Broeksestraat | 75 | 4269VE | Babyloniënbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13731 | Maasdijk | 27 | 4283GB | Giessen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15050 | Hoge Maasdijk | 51 | 4281NE | Andel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15050 | Hoge Maasdijk | 53 | 4281NE | Andel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15797 | Hoge Maasdijk | 8 | 4281NG | Andel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15797 | Koningin Emmastraat | 4 | 4281NS | Andel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17352 | Katerdam | 1 | 4171BE | Herwijnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18110 | Dussen Dijk | 29 | 4271XL | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19205 | Meerhoek | 22 | 4265HC | Genderen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19205 | Meerhoek | 22 A | 4265HC | Genderen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19419 | Visserskade | 44 | 4273GL | Hank
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19655 | Schoolstraat | 18 | 4241XA | Arkel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20569 | Maasdijk | 87 | 5308JC | Aalst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21123 | Uppelse Hoek | 26 | 4286EM | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21344 | Maasdijk | 89 | 5308JC | Aalst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21541 | Molenstraat | 1 | 5305CG | Zuilichem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21820 | Provincialeweg Zuid | 60 | 4286LM | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22185 | Maasdijk | 219 | 4261AJ | Wijk en Aalburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22428 | Maasdijk | 369 | 4264AP | Veen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22519 | Uppelse Hoek | 15 | 4286EM | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23910 | Maasdijk | 114 | 5308JE | Aalst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24799 | Hillsestraat | 4 | 4269VG | Babyloniënbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26606 | Hillsestraat | 6 | 4269VG | Babyloniënbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26606 | Hillsestraat | 8 | 4269VG | Babyloniënbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29266 | Provincialeweg Zuid | 65 | 4286LK | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29897 | Veldstraat | 36 | 4261TC | Wijk en Aalburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31618 | Muilkerk | 28 | 4271BL | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32207 | Burgemeester van der Schansstraat | 80 | 4281LK | Andel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32393 | Hoge Maasdijk | 62 | 4281NH | Andel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32407 | Hillsestraat | 2 | 4269VG | Babyloniënbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32530 | Korn | 50 | 4271BR | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32753 | Waaldijk | 185 | 4171CD | Herwijnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32753 | Waaldijk | 187 | 4171CD | Herwijnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33083 | Witboomstraat | 28 | 4264RW | Veen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34231 | Kerkstraat | 52 | 4273CC | Hank
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34658 | Meidijk | 2 | 5305VJ | Zuilichem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35978 | Provincialeweg Noord | 18 | 4286EA | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36047 | Hoefweg | 18 | 4281NK | Andel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36637 | Zandwijk | 6 | 4286LD | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36993 | Zuiderlingedijk | 135 | 4211BC | Spijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37402 | Provincialeweg Zuid | 36 | 4286LL | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37585 | Julianastraat | 14 | 4281NR | Andel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41186 | Korn | 42 | 4271BR | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41337 | Almweg | 7 | 4286LG | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41494 | Korn | 60 | 4271BR | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41494 | Korn | 62 | 4271BR | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41574 | Korn | 12 | 4271BP | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41747 | Burgemeester van der Schansstraat | 19 | 4281LG | Andel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42464 | Landpoortstraat | 18 | 4285AS | Woudrichem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43222 | Hoek | 47 | 4271BH | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43693 | Broeksestraat | 77 | 4269VE | Babyloniënbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44360 | Provincialeweg Noord | 22 | 4286EA | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44650 | Kasteellaan | 3 | 4268GM | Meeuwen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44865 | Hoofdgraaf | 7 | 4281NM | Andel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45445 | Korn | 26 | 4271BP | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46088 | Burgemeester van der Schansstraat | 9 | 4281LG | Andel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46367 | Binnen | 31 | 4271BV | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46472 | Uppelse Hoek | 17 | 4286EM | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47850 | Langstraat | 15 | 4288JK | Uitwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47982 | Zuiderlingedijk | 51 | 4211BA | Spijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49099 | Maasdijk | 51 | 4284VC | Rijswijk (NB)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49201 | Almweg | 9 | 4286LG | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49426 | Burgemeester van der Schansstraat | 40 | 4281LJ | Andel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49979 | Voogdwerfschesteeg | 2 | 4273LG | Hank
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50437 | Zuiderlingedijk | 89 | 4211BB | Spijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50691 | Maasdijk | 77 | 5308JB | Aalst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50691 | Maasdijk | 79 | 5308JB | Aalst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51050 | Provincialeweg Zuid | 51 | 4286LJ | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51083 | Kerkstraat | 28 | 4286BB | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51314 | Meerhoek | 25 | 4265HB | Genderen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51314 | Meerhoek | 27 | 4265HB | Genderen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52228 | Vissersdijk | 8 | 4285AN | Woudrichem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52392 | Maasdijk | 23 | 4284VA | Rijswijk (NB)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52443 | Provincialeweg Zuid | 15 | 4286LJ | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52573 | Woudrichemseweg | 38 | 4286LB | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52956 | Jachtlaan | 44 | 4273LE | Hank
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53197 | Zuiderlingedijk | 39 | 4161BM | Heukelum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53386 | Kerkeind | 24 | 4241XC | Arkel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53386 | Kerkeind | 23 | 4241XC | Arkel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53386 | Kerkeind | 23 A | 4241XC | Arkel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54175 | Hillsestraat | 46 | 4269VH | Babyloniënbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54262 | Eindsestraat | 12 | 4267GX | Drongelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54685 | Voorstraat | 24 | 4286AL | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55057 | Kammetweg | 2 | 4281KK | Andel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55255 | Kerkeind | 20 | 4241XB | Arkel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55456 | Zuiderlingedijk | 141 | 4211BD | Spijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55920 | Binnen | 3 A | 4271BV | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58962 | Altena's Laantje | 3 | 4286BD | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59088 | Waaldijk | 94 | 4171CG | Herwijnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59306 | Muilkerk | 24 | 4271BL | Dussen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60433 | Maasdijk | 62 | 5308JD | Aalst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61501 | Flegelstraat | 1 | 5306AW | Brakel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62038 | Provincialeweg Noord | 19 a | 4286EA | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62038 | Provincialeweg Noord | 19 d | 4286EA | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62038 | Provincialeweg Noord | 19 b | 4286EA | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62038 | Provincialeweg Noord | 19 c | 4286EA | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62038 | Provincialeweg Noord | 19 | 4286EA | Almkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74871 | Eng | 2 | 4288JT | Uitwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74872 | Eng | 2 | 4288JT | Uitwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74873 | Eng | 2 | 4288JT | Uitwijk

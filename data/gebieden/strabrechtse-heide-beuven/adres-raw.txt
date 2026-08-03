@@ -1,0 +1,25 @@
+Gevonden: 21 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12358 | Riel | 14 | 5647LB | Eindhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18375 | Broekstraat | 63 | 5731RA | Mierlo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22305 | Strabrecht | 32 | 5591BP | Heeze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24114 | Oostrikkerstraat | 26 | 5595AE | Leende
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24288 | Kasteelweg | 12 | 5731PK | Mierlo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25284 | Laan Ten Boomen | 30 | 5715AB | Lierop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26541 | Mackenziestraat | 4 | 5665EA | Geldrop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34550 | De Hoof | 8 | 5712LM | Someren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34760 | Kerkhof | 13 a | 5591TD | Heeze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34760 | Kerkhof | 13 | 5591TD | Heeze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39265 | Laan Ten Boomen | 38 | 5715AB | Lierop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39328 | Riel | 13 | 5647LB | Eindhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40077 | Boomen | 14 | 5715AC | Lierop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40659 | Laan Ten Boomen | 31 | 5715AA | Lierop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41802 | Riel | 2 | 5647LB | Eindhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46107 | Laan Ten Boomen | 37 | 5715AA | Lierop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54673 | Strabrecht | 46 | 5591BP | Heeze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75037 | Kapelstraat | 29 a | 5591HC | Heeze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75037 | Kapelstraat | 29 b | 5591HC | Heeze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75037 | Kapelstraat | 29 c | 5591HC | Heeze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75037 | Kapelstraat | 29 | 5591HC | Heeze

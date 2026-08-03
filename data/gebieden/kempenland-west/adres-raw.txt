@@ -1,0 +1,78 @@
+Gevonden: 74 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10862 | Voldijnseweg | 2 a | 5091KK | Oost West en Middelbeers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10862 | Voldijnseweg | 2 | 5091KK | Oost West en Middelbeers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10996 | Zandoerle | 26 | 5507RK | Veldhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11578 | Grote Voort | 1 | 5081HE | Hilvarenbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11578 | Grote Voort | 1 B | 5081HE | Hilvarenbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11828 | Berkt | 50 | 5507LM | Veldhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12269 | Gorp | 5 A | 5081NB | Hilvarenbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12269 | Gorp | 5 | 5081NB | Hilvarenbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12361 | Hoofdstraat | 59 | 5528AH | Hoogeloon
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12716 | Hoef | 14 | 5525KM | Duizel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14326 | Julianastraat | 29 | 5087BA | Diessen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15328 | Gijselstraat | 4 | 5087TE | Diessen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15642 | Zandoerle | 15 | 5507RJ | Veldhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16738 | Voldijnseweg | 18 | 5091KK | Oost West en Middelbeers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16968 | De Luther | 15 | 5095AC | Hooge Mierde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16968 | De Luther | 13 A | 5095AC | Hooge Mierde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19594 | Boterwijksestraat | 10 | 5688HX | Oirschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21223 | Zandoerle | 36 | 5507RK | Veldhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21523 | Markt | 2 | 5521AL | Eersel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21702 | Fluterd | 1 | 5688HV | Oirschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22196 | Prins Hendriklaan | 1 | 5095NA | Hooge Mierde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22196 | Prins Hendriklaan | 3 | 5095NA | Hooge Mierde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23425 | Gijselstraat | 5 | 5087TE | Diessen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24217 | Vilderstraat | 1 | 5507LJ | Veldhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24274 | Beekseweg | 24 | 5087KB | Diessen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24458 | Hoofdstraat | 42 | 5528AK | Hoogeloon
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24536 | Boterwijksestraat | 20 | 5688HX | Oirschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27200 | Gorp aan de Ley | 1 | 5081NZ | Hilvarenbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29749 | Zwanenburg | 1 | 5688GT | Oirschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30736 | Maaskant | 5 | 5512BA | Vessem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31502 | Beerseweg | 2 | 5087TP | Diessen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31834 | Gorp | 6 | 5081NB | Hilvarenbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32105 | Wolverstraat | 44 | 5525AS | Duizel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32402 | Jan Smuldersstraat | 4 | 5512AZ | Vessem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33439 | Kerkstraat | 7 | 5091BE | Oost West en Middelbeers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34532 | Boterwijksestraat | 3 | 5688HX | Oirschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34579 | Hees | 40 | 5521NV | Eersel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34817 | Donkhorst | 3 | 5066PN | Moergestel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36623 | Zandoerle | 30 | 5507RK | Veldhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37523 | Heuvelstraat | 33 | 5066PB | Moergestel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38761 | Roovert | 1 | 5081NA | Hilvarenbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38761 | Roovert | 1 A | 5081NA | Hilvarenbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38889 | Rijkesluisstraat | 20 | 5688ED | Oirschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39873 | Beerseweg | 1 | 5087TP | Diessen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39996 | Kampsesteeg | 10 | 5688KJ | Oirschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40453 | Rijkesluisstraat | 56 | 5688ED | Oirschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42146 | Wellenseind | 6 | 5094EG | Lage Mierde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42481 | Oirschotseweg | 10 | 5066CJ | Moergestel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43198 | Paddevenweg | 2 | 5507RG | Veldhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47125 | Postelseweg | 25 | 5521RA | Eersel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47279 | Beukenhaag | 1 a | 5091DA | Oost West en Middelbeers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47279 | Kerkstraat | 3 | 5091BE | Oost West en Middelbeers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48578 | Baarschotsestraat | 46 | 5087KW | Diessen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48578 | Baarschotsestraat | 48 | 5087KW | Diessen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48906 | Roovert | 3 | 5081NA | Hilvarenbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48906 | Roovert | 2 | 5081NA | Hilvarenbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48906 | Roovert | 2 A | 5081NA | Hilvarenbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48906 | Roovert | 3 A | 5081NA | Hilvarenbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51201 | Spoordonkseweg | 65 | 5688KC | Oirschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54266 | Zandoerle | 34 | 5507RK | Veldhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54656 | Jan Smuldersstraat | 6 | 5512AZ | Vessem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57821 | Rijkesluisstraat | 54 | 5688ED | Oirschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58668 | Neterselseweg | 15 | 5531PH | Bladel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59441 | De Hoef | 2 | 5528CA | Hoogeloon
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61266 | Hertstraat | 28 | 5521RK | Eersel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61765 | Hild | 3 | 5066CL | Moergestel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70606 | Hemelrijken | 1 | 5688GX | Oirschot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74258 | Akkerweg | 4 | 5531NT | Bladel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74425 | Dr. J. v.d. Mortellaan | 1 | 5091JJ | Oost West en Middelbeers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74426 | Dr. J. v.d. Mortellaan | 2 | 5091JJ | Oost West en Middelbeers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74427 | Dr. J. v.d. Mortellaan | 4 | 5091JJ | Oost West en Middelbeers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74428 | Dr. J. v.d. Mortellaan | 5 | 5091JJ | Oost West en Middelbeers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77933 | Spaaneindsestraat | 21 | 5085NN | Esbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78713 | Latestraat | 11 | 5534AM | Netersel

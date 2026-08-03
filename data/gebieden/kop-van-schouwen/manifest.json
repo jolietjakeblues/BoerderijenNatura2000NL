@@ -1,7 +1,7 @@
 {
  "slug": "kop-van-schouwen",
- "gegenereerdOp": "2026-08-03T19:28:26.863Z",
- "scriptsCommitOpGenereermoment": "e390a020c41e83fd7db22577e37ff91012e9a450",
+ "gegenereerdOp": "2026-08-03T20:00:59.969Z",
+ "scriptsCommitOpGenereermoment": "11a4da2557003c9927ad1a7264fa18263806b2af",
  "toelichting": "Dit manifest legt vast welke brondata tot data.json in dit gebied hebben geleid: SHA-256 van elk tussenliggend artefact zoals dat nu in de repository staat, en het git-commit waarin dat artefact voor het eerst is toegevoegd (als benadering van het moment van ophalen). Het legt NIET met terugwerkende kracht vast: het exacte tijdstip van de live SPARQL/WFS-aanroep zelf, het aantal retries tijdens de oorspronkelijke BAG-bevraging, en de precieze scriptversie die destijds actief was -- alleen het scripts/-commit op het moment van genereren van dit manifest wordt vastgelegd, niet noodzakelijk de commit die de oorspronkelijke data.json produceerde.",
  "artefacten": [
   {

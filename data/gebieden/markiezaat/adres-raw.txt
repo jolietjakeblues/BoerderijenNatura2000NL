@@ -1,0 +1,12 @@
+Gevonden: 8 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17726 | Kruisberg | 2 | 4661RK | Halsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33696 | Hoofdweg | 6 | 4411AR | Rilland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42807 | Hildernisse | 1 | 4617RB | Bergen op Zoom
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48499 | Mosselhoekseweg | 6 | 4691RL | Tholen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49003 | Kruisberg | 3 | 4661RK | Halsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58824 | Binnenweg | 33 | 4631LN | Hoogerheide
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77530 | Kruisberg | 1 | 4661RK | Halsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77531 | Kruisberg | 1 | 4661RK | Halsteren

@@ -1,0 +1,57 @@
+Gevonden: 53 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14486 | Dr. Batenburglaan | 194 | 4837BS | Breda
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22284 | Markdal | 3 A | 4851EH | Ulvenhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22284 | Dorpstraat | 2 | 4851CM | Ulvenhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23321 | Overaseweg | 204 | 4836BD | Breda
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25291 | Kloosterstraat | 29 | 4861PA | Chaam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25922 | Strijbeekseweg | 23 | 4851SK | Ulvenhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30633 | Overaseweg | 186 | 4836BD | Breda
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32347 | Klein Wolfslaar | 13 | 4854PJ | Bavel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34810 | Overaseweg | 188 | 4836BD | Breda
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36080 | Blauwe Keiweg | 2 | 4818CH | Breda
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36850 | Seminarieweg | 28 | 4854PB | Bavel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37591 | Cauwelaerseweg | 2 | 4858RH | Ulvenhout AC
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37640 | Bolbergseweg | 7 | 4854NG | Bavel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39568 | Galderseweg | 79 | 4836AD | Breda
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39942 | Dorstseweg | 10 | 4854NB | Bavel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40390 | Liesbosstraat | 45 | 4813BC | Breda
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40390 | Liesbosstraat | 43 | 4813BC | Breda
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40803 | Tiendweg | 1 | 4854NL | Bavel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44537 | Galderseweg | 75 | 4836AD | Breda
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45336 | Reeptiend | 50 | 4836AV | Breda
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46202 | Galderseweg | 13 | 4855AD | Galder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50021 | Daesdonckseweg | 5 | 4855AA | Galder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50519 | Seminarieweg | 27 | 4854PA | Bavel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51336 | Dorpstraat | 92 | 4851CN | Ulvenhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51336 | Dorpstraat | 92 A | 4851CN | Ulvenhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51336 | Dorpstraat | 90 | 4851CN | Ulvenhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51419 | Bolbergseweg | 14 | 4854NG | Bavel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52268 | Oud Haamstede | 9 | 4851PE | Ulvenhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54410 | Cauwelaerseweg | 5 | 4858RG | Ulvenhout AC
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55984 | Mastbosstraat | 157 | 4812PB | Breda
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55984 | Mastbosstraat | 159 | 4812PB | Breda
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57805 | Galderseweg | 115 | 4855AJ | Galder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57938 | Overaseweg | 210 | 4836BD | Breda
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58856 | Dorstseweg | 4 A | 4854NB | Bavel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58856 | Dorstseweg | 4 B | 4854NB | Bavel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59370 | Torenstraat | 27 | 4811XV | Breda
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60170 | Moleneind | 25 | 4847CH | Teteringen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60408 | Dorstseweg | 31 | 4854NA | Bavel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66246 | Luchtenburgseweg | 1 | 4858RJ | Ulvenhout AC
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69265 | Woeststraat | 1 | 4861TE | Chaam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72700 | Oude Beekhoek | 2 | 4851SP | Ulvenhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72702 | Oude Beekhoek | 2 | 4851SP | Ulvenhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72703 | Oude Beekhoek | 2 | 4851SP | Ulvenhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72719 | Seminarieweg | 32 | 4854PB | Bavel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72719 | Seminarieweg | 30 | 4854PB | Bavel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73293 | Chaamseweg | 38 | 4858RK | Ulvenhout AC
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73295 | Hondsdonkseweg | 7 | 4858RM | Ulvenhout AC
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73296 | Hondsdonkseweg | 7 | 4858RM | Ulvenhout AC
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73298 | Chaamseweg | 34 | 4858RK | Ulvenhout AC
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75501 | Lijndonkseweg | 12 | 4854NK | Bavel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78923 | Galderseweg | 85 | 4836AD | Breda
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/79047 | Strijbeekseweg | 12 | 4851SL | Ulvenhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/79048 | Strijbeekseweg | 12 | 4851SL | Ulvenhout

@@ -1,0 +1,20 @@
+Gevonden: 16 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17726 | Kruisberg | 2 | 4661RK | Halsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27858 | Waterstraat | 4 | 4724BG | Wouw
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32073 | Schoeliebergseweg | 6 | 4635RL | Huijbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42807 | Hildernisse | 1 | 4617RB | Bergen op Zoom
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49003 | Kruisberg | 3 | 4661RK | Halsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51643 | Staartsestraat | 45 | 4635RB | Huijbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51929 | Plantagebaan | 244 | 4725AG | Wouwse Plantage
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51929 | Plantagebaan | 246 | 4725AG | Wouwse Plantage
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55067 | Huijbergseweg | 38 | 4708SH | Roosendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58824 | Binnenweg | 33 | 4631LN | Hoogerheide
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65818 | Bergsestraat | 54 | 4635RD | Huijbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69000 | Vijverstraat | 6 | 4635RA | Huijbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77530 | Kruisberg | 1 | 4661RK | Halsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77531 | Kruisberg | 1 | 4661RK | Halsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77680 | Plantage Centrum | 4 | 4725SR | Wouwse Plantage
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77681 | Plantage Centrum | 2 | 4725SR | Wouwse Plantage

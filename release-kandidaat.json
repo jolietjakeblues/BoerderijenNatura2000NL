@@ -1,11 +1,11 @@
 {
  "versielabel": null,
- "gegenereerdOp": "2026-08-03T17:49:40.425Z",
- "commit": "833235a87315008182c2495d52ccb0ccfb426536",
+ "gegenereerdOp": "2026-08-03T20:01:27.695Z",
+ "commit": "11a4da2557003c9927ad1a7264fa18263806b2af",
  "toelichting": "Dit bestand is een voorbereide kandidaat voor een dataset-release, geen gepubliceerde release zelf. Het legt het commit en de per-gebied aantallen/checksums vast op het moment van genereren; git tag en GitHub Release blijven een handmatige stap van de repo-eigenaar.",
- "totaalGebieden": 53,
- "totaalMonumenten": 3147,
- "totaalMetIndicatie": 512,
+ "totaalGebieden": 66,
+ "totaalMonumenten": 3684,
+ "totaalMetIndicatie": 570,
  "gebieden": [
   {
    "slug": "abdij-lilbosch-mariahoop",
@@ -44,6 +44,15 @@
    "sha256DataJson": "258630148a456bb3b52ef79d3bc7762e6d9dc7cb5aade53e30026664f40c96a4"
   },
   {
+   "slug": "biesbosch",
+   "naam": "Biesbosch",
+   "peildatum": "2026-08-03",
+   "n": 72,
+   "ja": 11,
+   "onbekend": 0,
+   "sha256DataJson": "87eba96a929b5f3372c10135c29262cf6ef1328fcdf4bd4fa7f0d7f2c45c69ef"
+  },
+  {
    "slug": "binnenveld",
    "naam": "Binnenveld",
    "peildatum": "2026-08-03",
@@ -60,6 +69,15 @@
    "ja": 1,
    "onbekend": 1,
    "sha256DataJson": "023dcfd584fd77157ed0a478b3d4fb19453a6ba5fc062a3a5e01349a328c0c6a"
+  },
+  {
+   "slug": "brabantse-wal",
+   "naam": "Brabantse Wal",
+   "peildatum": "2026-08-03",
+   "n": 15,
+   "ja": 1,
+   "onbekend": 0,
+   "sha256DataJson": "e69aaa6870e83ac578a978508d15bbce3677f36a5c3fc7287454674e9e0ceab0"
   },
   {
    "slug": "brunssummerheide",
@@ -170,6 +188,33 @@
    "sha256DataJson": "da896d23a978c803bf64baadd965214aa6ec9056f086ef8b5b6cbf7107664db5"
   },
   {
+   "slug": "groote-peel",
+   "naam": "Groote Peel",
+   "peildatum": "2026-08-03",
+   "n": 0,
+   "ja": 0,
+   "onbekend": 0,
+   "sha256DataJson": "bdd8aad34da3a877b30540e495af2b736502caaa21a033ec2d09f3061f5ccf37"
+  },
+  {
+   "slug": "kampina-oisterwijkse-vennen",
+   "naam": "Kampina & Oisterwijkse Vennen",
+   "peildatum": "2026-08-03",
+   "n": 64,
+   "ja": 5,
+   "onbekend": 2,
+   "sha256DataJson": "ab43b2a4a9657f67469be1237f2f16ef1155a4f83f1d6f2f776d6d7c35dfbc69"
+  },
+  {
+   "slug": "kempenland-west",
+   "naam": "Kempenland-West",
+   "peildatum": "2026-08-03",
+   "n": 63,
+   "ja": 2,
+   "onbekend": 0,
+   "sha256DataJson": "75ef8919edd4e06c27a99dab4a2ef16c878abd68237543a6e9547099f05f22d8"
+  },
+  {
    "slug": "kolland-overlangbroek",
    "naam": "Kolland & Overlangbroek",
    "peildatum": "2026-08-03",
@@ -215,6 +260,24 @@
    "sha256DataJson": "95e79ed4becefb0091f2ebcea39843e8c50b89260ad52ecab164eddf8e9879b1"
   },
   {
+   "slug": "langstraat",
+   "naam": "Langstraat",
+   "peildatum": "2026-08-03",
+   "n": 49,
+   "ja": 5,
+   "onbekend": 0,
+   "sha256DataJson": "2601aeef9f4e3383f9b1d055861e2b7fda315832ee5a216481ddb990847d9692"
+  },
+  {
+   "slug": "leenderbos-groote-heide-de-plateaux",
+   "naam": "Leenderbos, Groote Heide & De Plateaux",
+   "peildatum": "2026-08-03",
+   "n": 53,
+   "ja": 3,
+   "onbekend": 1,
+   "sha256DataJson": "3b2306b4048f048752b0f58badf2bfed918b0155e436251418f262f9d6899983"
+  },
+  {
    "slug": "leudal",
    "naam": "Leudal",
    "peildatum": "2026-08-03",
@@ -233,6 +296,24 @@
    "sha256DataJson": "0d346d7f293cf06c5cde980c4b9861489d3809a8437546894287b63ed88c7bf7"
   },
   {
+   "slug": "loevestein-pompveld-kornsche-boezem",
+   "naam": "Loevestein, Pompveld & Kornsche Boezem",
+   "peildatum": "2026-08-03",
+   "n": 95,
+   "ja": 15,
+   "onbekend": 0,
+   "sha256DataJson": "1908c53044fc6ea6e98e4f46f6e91ddadfe63321ee40a5bc46a455d1918a0dc4"
+  },
+  {
+   "slug": "loonse-drunense-duinen-leemkuilen",
+   "naam": "Loonse en Drunense Duinen & Leemkuilen",
+   "peildatum": "2026-08-03",
+   "n": 46,
+   "ja": 6,
+   "onbekend": 1,
+   "sha256DataJson": "370f282581e2766e85a9d1c44e237297e731c0bad581249cbbe10307dea34f12"
+  },
+  {
    "slug": "maasduinen",
    "naam": "Maasduinen",
    "peildatum": "2026-08-03",
@@ -249,6 +330,15 @@
    "ja": 6,
    "onbekend": 0,
    "sha256DataJson": "e2314f7e4f5416098fe65da539f43f64454502233585ad23bfabd3433fd3e363"
+  },
+  {
+   "slug": "markiezaat",
+   "naam": "Markiezaat",
+   "peildatum": "2026-08-03",
+   "n": 8,
+   "ja": 2,
+   "onbekend": 0,
+   "sha256DataJson": "649609ac2dffd575e66120b72dc934060554872c14a7f4703b5edecafa136e2a"
   },
   {
    "slug": "meinweg",
@@ -276,6 +366,15 @@
    "ja": 3,
    "onbekend": 0,
    "sha256DataJson": "25079e8f270089812aa64326effb95b23b076340694330624fc200b48abeea15"
+  },
+  {
+   "slug": "oeffelter-meent",
+   "naam": "Oeffelter Meent",
+   "peildatum": "2026-08-03",
+   "n": 8,
+   "ja": 2,
+   "onbekend": 0,
+   "sha256DataJson": "8ed832b7a3d119f599a0715156203914e220dd05c7c2a8486a87eca6c054bfdd"
   },
   {
    "slug": "oosterschelde",
@@ -359,6 +458,15 @@
    "sha256DataJson": "5597177f72082b26d70f91164acaf716c9d1c3a3ba9625d17509f243b36d0960"
   },
   {
+   "slug": "strabrechtse-heide-beuven",
+   "naam": "Strabrechtse Heide & Beuven",
+   "peildatum": "2026-08-03",
+   "n": 18,
+   "ja": 0,
+   "onbekend": 1,
+   "sha256DataJson": "0e1aa70b337c2f14946f348ee0373dabac17ae4206dd6cc238dfe905c36c619e"
+  },
+  {
    "slug": "swalmdal",
    "naam": "Swalmdal",
    "peildatum": "2026-08-03",
@@ -366,6 +474,15 @@
    "ja": 4,
    "onbekend": 1,
    "sha256DataJson": "2218f615b64458dc1454ab53ee4e014ee6e8b60b9906003862384bf29bb893a7"
+  },
+  {
+   "slug": "ulvenhoutse-bos",
+   "naam": "Ulvenhoutse Bos",
+   "peildatum": "2026-08-03",
+   "n": 46,
+   "ja": 6,
+   "onbekend": 0,
+   "sha256DataJson": "3bb709240f5883bd2b75c88c01787e57e22a224b049b5252fd18fc643afbf218"
   },
   {
    "slug": "veerse-meer",
