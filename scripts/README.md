@@ -225,8 +225,11 @@ Release, een keuze die bij de repo-eigenaar blijft.
 
 ## Status
 
-Alle 25 gebieden (inclusief de oorspronkelijke 17) staan in
-`data/gebieden/<slug>/data.json` en worden volledig via deze pijplijn
-onderhouden; er is geen aparte, oudere aanpak meer. `scripts/07-build-landing-html.mjs`
-genereert `index.html` puur uit `data/gebieden/*/data.json` en kan op elk
-moment veilig opnieuw gedraaid worden.
+Alle 53 gebieden staan in `data/gebieden/<slug>/data.json` en worden volledig
+via deze pijplijn onderhouden; er is geen aparte, oudere aanpak meer.
+`scripts/07-build-landing-html.mjs` genereert `index.html` puur uit
+`data/gebieden/*/data.json` en kan op elk moment veilig opnieuw gedraaid
+worden. De eerste 25 (Gelderland/validatieprovincies) zijn destijds via de
+rce-cho MCP-tool opgebouwd; de 28 daarna (heel Limburg en Zeeland) via de
+directe HTTP-route (`scripts/bouw-gebied-compleet.mjs`) - qua resultaat
+identiek, alleen de manier van ophalen verschilt (zie hierboven).

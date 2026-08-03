@@ -1,7 +1,7 @@
 {
  "slug": "swalmdal",
- "gegenereerdOp": "2026-08-03T15:29:23.652Z",
- "scriptsCommitOpGenereermoment": "c093a3024b83189152baf23a0931a04e4fcb93e9",
+ "gegenereerdOp": "2026-08-03T17:54:04.995Z",
+ "scriptsCommitOpGenereermoment": "833235a87315008182c2495d52ccb0ccfb426536",
  "toelichting": "Dit manifest legt vast welke brondata tot data.json in dit gebied hebben geleid: SHA-256 van elk tussenliggend artefact zoals dat nu in de repository staat, en het git-commit waarin dat artefact voor het eerst is toegevoegd (als benadering van het moment van ophalen). Het legt NIET met terugwerkende kracht vast: het exacte tijdstip van de live SPARQL/WFS-aanroep zelf, het aantal retries tijdens de oorspronkelijke BAG-bevraging, en de precieze scriptversie die destijds actief was -- alleen het scripts/-commit op het moment van genereren van dit manifest wordt vastgelegd, niet noodzakelijk de commit die de oorspronkelijke data.json produceerde.",
  "artefacten": [
   {
@@ -35,8 +35,8 @@
    "aanwezig": true,
    "bron": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint) (queryresultaat)",
    "endpoint": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint)",
-   "handmatigeStap": true,
-   "toelichting": "Resultaat van rce-monumenten-query.sparql, handmatig uitgevoerd via de rce-cho MCP-tool (query_sparql) en als tabel opgeslagen.",
+   "handmatigeStap": false,
+   "toelichting": "Resultaat van rce-monumenten-query.sparql. Sinds augustus 2026 automatisch opgehaald via directe HTTP-POST naar het endpoint (scripts/lib/rce-direct.mjs, zie scripts/README.md); gebieden van vóór die datum zijn destijds handmatig via de rce-cho MCP-tool opgehaald (inhoudelijk gelijkwaardig, dezelfde query-templates).",
    "sha256": "cc296fc2d3d074d8c8372d1181e37b25d72d25b3195089c87136b23701b9668d",
    "eersteCommit": {
     "commit": "a5004dccca459c5e4f4bac1e805b26eb97ecb613",
@@ -74,8 +74,8 @@
    "aanwezig": true,
    "bron": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint) (queryresultaat)",
    "endpoint": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint)",
-   "handmatigeStap": true,
-   "toelichting": "Resultaat van rce-functie-query.sparql, handmatig uitgevoerd via de rce-cho MCP-tool.",
+   "handmatigeStap": false,
+   "toelichting": "Resultaat van rce-functie-query.sparql. Zie de toelichting bij monumenten-raw.txt (directe HTTP-POST sinds augustus 2026, daarvoor handmatig via de rce-cho MCP-tool).",
    "sha256": "7259bd5b16595aedb8a0d2cdb3695a4b3f867b116cac9255b78c87c8843ddb2b",
    "eersteCommit": {
     "commit": "a5004dccca459c5e4f4bac1e805b26eb97ecb613",
@@ -100,8 +100,8 @@
    "aanwezig": true,
    "bron": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint) (queryresultaat)",
    "endpoint": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint)",
-   "handmatigeStap": true,
-   "toelichting": "Resultaat van rce-adres-query.sparql, handmatig uitgevoerd via de rce-cho MCP-tool.",
+   "handmatigeStap": false,
+   "toelichting": "Resultaat van rce-adres-query.sparql. Zie de toelichting bij monumenten-raw.txt (directe HTTP-POST sinds augustus 2026, daarvoor handmatig via de rce-cho MCP-tool).",
    "sha256": "f29a097f169abc8b98ccc5d45710ebb20b9d802f3e7c0856b5391d7c2603e9c3",
    "eersteCommit": {
     "commit": "a5004dccca459c5e4f4bac1e805b26eb97ecb613",
@@ -113,8 +113,8 @@
    "aanwezig": true,
    "bron": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint) -- graph/natura2000 (queryresultaat)",
    "endpoint": "linkeddata.cultureelerfgoed.nl (RCE CHO SPARQL-endpoint)",
-   "handmatigeStap": true,
-   "toelichting": "Richtlijnstatus/sitecode/stikstofgevoelig, handmatige query op het losse named graph <https://linkeddata.cultureelerfgoed.nl/graph/natura2000> via de rce-cho MCP-tool (zie scripts/README.md), verwerkt door 08-verrijk-richtlijn.mjs.",
+   "handmatigeStap": false,
+   "toelichting": "Richtlijnstatus/sitecode/stikstofgevoelig, query op het losse named graph <https://linkeddata.cultureelerfgoed.nl/graph/natura2000>. Sinds augustus 2026 automatisch (scripts/08b-fetch-richtlijn-direct.mjs), daarvoor handmatig via de rce-cho MCP-tool; zie scripts/README.md. Verwerkt door 08-verrijk-richtlijn.mjs.",
    "sha256": "312e26ebdd4a77cb27a11c87fd2ed34d7847648765ecaff7a0f7f47343d01ee5",
    "eersteCommit": {
     "commit": "8fe9582fd43bdb311f2d4357db3ff4c4265740fd",

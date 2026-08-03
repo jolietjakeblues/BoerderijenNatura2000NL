@@ -6,6 +6,27 @@ precieze wijzigingen per gebied: `git log`. Entries staan in omgekeerd-chronolog
 volgorde; een latere entry kan dus een eerdere entry corrigeren of vervangen. Waar dat
 kan verwarren, is dat expliciet benoemd.
 
+## Uitbreiding naar Limburg en Zeeland (28 nieuwe gebieden), en een grote pijplijnvereenvoudiging
+
+25 naar 53 verwerkte gebieden: heel Limburg en heel Zeeland, zuid naar noord. Nieuwe
+totalen: 3147 boerderijen, 512 met BAG-industriefunctie-indicatie, 38 niet te
+controleren (was 1130/179/12). Zie README.md voor de volledige lijst per gebied.
+
+**Bijvangst: het RCE CHO SPARQL-endpoint bleek direct bevraagbaar.**
+`scripts/README.md` documenteerde tot dan toe dat er "geen publiek, sleutelloos
+SPARQL-endpoint gevonden" was voor RCE CHO, en dat drie stappen daarom de rce-cho
+MCP-tool nodig hadden. Bij het opzetten van deze batch bleek
+`https://api.linkeddata.cultureelerfgoed.nl/datasets/rce/cho/sparql` gewoon te
+reageren op een POST met `Content-Type: application/sparql-query`, zonder API-key.
+Valkuil onderweg: backslashes in een regex-filter (de bbox-filter) moeten in de
+querytekst verdubbeld worden om als geldige SPARQL-stringliteral-escape te parseren
+(`\(` is geen geldig SPARQL ECHAR, `\\(` wel). Vastgelegd in het nieuwe
+`scripts/lib/rce-direct.mjs`. Alle drie voormalig handmatige stappen (monumenten-,
+functie/adres- en richtlijn-query) draaien hierdoor nu volledig automatisch, gebundeld
+in het nieuwe `scripts/bouw-gebied-compleet.mjs` (één commando van Natura2000-naam tot
+gepubliceerde HTML). De eerste 25 gebieden zijn destijds nog wel via de MCP-tool
+gebouwd, wat inhoudelijk gelijkwaardig is; alleen de ophaalmethode verschilt.
+
 ## Detailpaneel toonde soms "geen BAG-match" terwijl er wel een match was
 
 Gevonden via een externe review (rmnr 37890, Geleenbeekdal): het detailpaneel op de
