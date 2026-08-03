@@ -160,7 +160,7 @@ const head = `<!DOCTYPE html>
       <span><i class="sw" style="background:var(--k3)"></i>&lt;5 km</span>
     </div>
     <p style="font-size:12px;color:var(--ink-soft);margin-top:8px">Klik op een punt voor details ("waarom staat
-    dit punt hier?"), beweeg eroverheen voor een korte hint. Omrande punten (donkerblauw, effen) hebben een
+    dit punt hier?"), beweeg eroverheen voor een korte hint. Bij omrande punten (donkerblauw, effen) hebben een
     eenduidige industriefunctie in de BAG aangetroffen. Een dubbele donkerblauwe rand betekent: wel
     industriefunctie gevonden, maar niet bij alle adressen van dit monument eenduidig (zie klik-detail).
     Een gestippelde grijze rand: kon niet in de BAG worden gecontroleerd (geen adres bekend of geen match
