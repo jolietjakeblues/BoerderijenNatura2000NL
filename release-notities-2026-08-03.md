@@ -1,10 +1,3 @@
-<!--
-  Concepttekst voor de eerste GitHub Release. Dit bestand tagt of publiceert
-  niets zelf; kopieer de tekst hieronder naar "Create a new release" op GitHub,
-  of gebruik 'm met gh release create (commando's onderaan). Verwijder dit
-  bestand na gebruik, of laat het staan als draft-geschiedenis - dat is aan jou.
--->
-
 # Dataset-release 2026-08-03
 
 Eerste gemarkeerde release van de dataset, na afronding van de methodologische
