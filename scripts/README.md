@@ -9,6 +9,12 @@ Tot juli 2026 leefde deze pijplijn alleen als losse, ad-hoc scripts in een
 sessie-scratchpad: niet reproduceerbaar, niet controleerbaar, en gevoelig voor
 handmatige fouten (zie hieronder). Dit is de duurzame versie in de repo zelf.
 
+**Reproduceerbaarheidsstatus**: controleerbaar en grotendeels reproduceerbaar,
+niet volledig automatisch reproduceerbaar. Drie stappen vereisen de `rce-cho`
+MCP-tool en handmatig opslaan van tabelresultaten (zie hieronder); de ruwe
+resultaten staan wel in de repo, dus de afgeleide data is auditeerbaar, maar
+iemand zonder diezelfde tool kan de RCE-extractie niet automatisch herhalen.
+
 ## Volgorde
 
 ```
@@ -54,6 +60,17 @@ MCP-tool (`query_sparql`) uitgevoerd worden, niet vanuit een los script:
 
 Alle overige stappen (geometrie ophalen, classificatie, BAG-check,
 provincie-toewijzing, HTML genereren) zijn volledig automatisch.
+
+## Validatie en CI
+
+`node scripts/validate.mjs` controleert alle `data/gebieden/*/data.json`:
+verplichte velden, telinvarianten (n/ja/onbekend/provCounts/datakwaliteit
+moeten optellen tot wat er echt in `mons[]` staat), en dat elke gebied ook
+een gepubliceerde HTML-pagina heeft. `.github/workflows/validate.yml` draait
+dit bij elke push/PR naar `main`, samen met de bbox-regex-zelftest en een
+volledige herbouw van alle HTML uit de huidige data.json's -- als die
+herbouw een verschil oplevert met wat gecommit is, faalt de workflow (data
+en HTML mogen niet uit elkaar lopen zonder dat iemand het merkt).
 
 ## Richtlijn-status (Vogelrichtlijn / Habitatrichtlijn)
 
@@ -131,13 +148,10 @@ op `false` - dus nooit aannemen dat dit overal `true` is.
   de echte bbox-getallen (met een marge van 0.15 graad, ruim boven de
   5&nbsp;km-selectiegrens), nooit met de hand getypt.
 
-## Nog niet gedaan
+## Status
 
-De 17 gebieden die vóór deze pijplijn in de repo bestonden (zie hoofd-README)
-zijn nog niet ge-migreerd naar dit `data/gebieden/<slug>/data.json`-formaat;
-`index.html` wordt voor die 17 dus nog met de oude, losse aanpak onderhouden.
-`scripts/07-build-landing-html.mjs` genereert de landingspagina puur uit
-`data/gebieden/*/data.json` en zal dus pas de volledige (huidige) lijst tonen
-zodra die migratie is gedaan - draai dit script niet blind, want met een
-onvolledige `data/gebieden/`-map overschrijft het de huidige, complete
-`index.html` met een onvolledige versie.
+Alle 25 gebieden (inclusief de oorspronkelijke 17) staan in
+`data/gebieden/<slug>/data.json` en worden volledig via deze pijplijn
+onderhouden; er is geen aparte, oudere aanpak meer. `scripts/07-build-landing-html.mjs`
+genereert `index.html` puur uit `data/gebieden/*/data.json` en kan op elk
+moment veilig opnieuw gedraaid worden.

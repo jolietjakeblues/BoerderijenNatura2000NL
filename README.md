@@ -76,15 +76,16 @@ opgepakt.
    gebiedsgeometrie ligt (echte point-in-polygon-toets, inclusief gaten in de polygoon) **of**
    binnen **5 km** hemelsbreed van de daadwerkelijke gebiedsrand (niet van een bounding box).
 4. **Provincie**: apart bepaald via point-in-polygon tegen de PDOK-bestuurlijke-grenzenlaag
-   (`bestuurlijkegebieden:Provinciegebied`);onafhankelijk van het Natura 2000-gebied en van RCE.
-5. **Actieve bedrijfsindicatie**: adres per monument opgehaald via RCE (BAG-relatie), daarna
+   (`bestuurlijkegebieden:Provinciegebied`); onafhankelijk van het Natura 2000-gebied en van RCE.
+5. **BAG-industriefunctie-indicatie**: adres per monument opgehaald via RCE (BAG-relatie), daarna
    gebruiksdoel opgezocht in de open PDOK BAG-WFS (`bag:verblijfsobject`), gematcht op postcode en
-   huisnummer. Industriefunctie op het adres = actieve bedrijfsindicatie. Monumenten met uitsluitend
-   woonfunctie (geen industrie, geen logies/bijeenkomst) tellen **niet** mee als actief
-   (conservatieve keuze). Monumenten zonder BAG-adres in RCE, of zonder match in de BAG-zoekbox,
-   krijgen een aparte status **"BAG niet te controleren"** - deze tellen niet mee als actief, maar
-   worden nadrukkelijk niet als bevestigde NEE geteld (op de kaart een gestippelde grijze rand
-   i.p.v. de blauwe rand van een bevestigde actieve indicatie).
+   huisnummer. Industriefunctie op het adres = BAG-industriefunctie-indicatie (een aanwijzing, geen
+   bewijs van actieve bedrijfsvoering). Monumenten met uitsluitend woonfunctie (geen industrie, geen
+   logies/bijeenkomst) tellen **niet** mee (conservatieve keuze) - dat betekent een afwezige
+   industriefunctie-aanwijzing, geen bevestiging van inactiviteit. Monumenten zonder BAG-adres in RCE,
+   of zonder match in de BAG-zoekbox, krijgen een aparte status **"BAG niet te controleren"** - deze
+   tellen niet mee, maar zijn nadrukkelijk geen bevestigde afwezigheid van bedrijfsvoering (op de kaart
+   een gestippelde grijze rand i.p.v. de blauwe rand van een gevonden industriefunctie).
 6. **Gebiedsbeschrijving**: korte, zelfgeschreven samenvatting (type natuurgebied, ligging,
    oppervlakte, beschermingsreden) op basis van [natura2000.nl](https://www.natura2000.nl/gebieden),
    met bronvermelding per gebiedspagina.
@@ -122,7 +123,7 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
   nu zichtbaar op elke gebiedspagina in plaats van ontbrekend.
 - De resterende ~137 Natura 2000-gebieden landsdekkend toevoegen.
 - **Download-knop (CSV)** per gebiedspagina: monumentenlijst (nr, adres, provincie, afstand, functie,
-  actieve bedrijfsindicatie) exporteren.
+  status) exporteren.
 - ~~**Klikbare popup voor een monument**~~ - **opgelost.** Zie Geloofwaardigheid/interpretatie, punt 2.
 - **Klikbare popup voor het Natura 2000-gebied zelf** op de kaart, met de gebiedsbeschrijving.
 
@@ -152,13 +153,18 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
   naar hetzelfde schema en dezelfde generieke sjabloon als de andere 16 gebieden.
 - ~~**Peildatum staat hardcoded**~~ - **opgelost.** De pijplijn (`scripts/05-build-gebied-data.mjs`)
   leidt 'm nu automatisch af uit het moment van genereren.
+- ~~**"Getest" is niet hetzelfde als automatisch bewaakt**~~ - **opgelost.** CI-workflow
+  (`.github/workflows/validate.yml`) draait bij elke push/PR: de bbox-regex-zelftest, schema- en
+  telinvariant-validatie over alle `data.json`-bestanden (`scripts/validate.mjs`), en herbouwt alle
+  HTML uit de huidige data om te controleren dat data en gepubliceerde pagina's niet uit elkaar lopen.
 
 ### Geloofwaardigheid / interpretatie (uit review)
 
-- **De term "actieve bedrijfsindicatie" is kwetsbaar.** Een BAG-industriefunctie bewijst geen actief
-  agrarisch bedrijf, laat staan stikstofuitstoot. De kanttekeningen erkennen dit al, maar de
-  opvallende totaalcijfers kunnen los daarvan verkeerd worden gelezen. Op te lossen in samenhang met
-  de laatste twee punten hieronder, niet als losse woordwijziging.
+- ~~**De term "actieve bedrijfsindicatie" is kwetsbaar.**~~ - **opgelost.** Overal hernoemd naar
+  **BAG-industriefunctie-indicatie**, en de onzekerheidsstatus per monument (zie hierboven) heet nu
+  `industrie_aangetroffen` / `industrie_deels_aangetroffen` / `geen_industrie_aangetroffen` in plaats
+  van `actief`/`niet_actief` - vooral dat laatste suggereerde een bevestiging die de BAG niet levert.
+  De BAG bevestigt een gebruiksdoel van een verblijfsobject, geen actieve of inactieve bedrijfsvoering.
 - ~~**Inconsistentie "stikstofgevoelig" vs. volledige PDOK-laag**~~ - **gecorrigeerd.** De
   landingspagina claimde "stikstofgevoelige Natura 2000-gebieden" terwijl de methode expliciet zegt
   dat de volledige PDOK-laag zonder die filter wordt gebruikt. Tekst aangepast.
@@ -170,10 +176,11 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
 top 3 vetgedrukt):
 
 1. ~~**Explicietere onzekerheidsstatus per monument**~~ - **opgelost.** Elk monument krijgt nu een
-   status uit `actief` (eenduidig) / `actief_onzeker` (industriefunctie gevonden, maar niet bij alle
-   adressen van dit monument eensluidend) / `niet_actief` (bevestigd) / `geen_adres` / `geen_match` /
-   `bag_mislukt`. Op de kaart: een dubbele donkerblauwe rand voor `actief_onzeker`, zichtbaar naast de
-   bestaande effen/gestippelde randen.
+   status uit `industrie_aangetroffen` (eenduidig) / `industrie_deels_aangetroffen` (industriefunctie
+   gevonden, maar niet bij alle adressen van dit monument eensluidend) / `geen_industrie_aangetroffen` /
+   `geen_adres` / `geen_match` / `bag_mislukt` - bewust géén "actief"/"niet actief"-taal, want de BAG
+   bevestigt een gebruiksdoel, geen bedrijfsvoering. Op de kaart: een dubbele donkerblauwe rand voor
+   `industrie_deels_aangetroffen`, zichtbaar naast de bestaande effen/gestippelde randen.
 2. ~~**"Waarom staat dit punt hier?"-detailweergave per monument**~~ - **opgelost.** Klik op een punt
    op de kaart toont een detailpaneel: rijksmonumentnummer met link naar de RCE-bron, oorspronkelijke
    functie, afstand tot de gebiedsrand (of "binnen het gebied"), provincie, onzekerheidsstatus, elk
@@ -190,7 +197,10 @@ top 3 vetgedrukt):
 8. Visuele scheiding tussen brongegevens, ruimtelijk afgeleide data en indicatieve classificatie
    (kleurcodering), zodat RCE-feiten en zelf afgeleide indicaties niet even zeker overkomen.
 9. Deelbare kaartweergaven via URL-parameters (`?gebied=…&afstand=…&bedrijfsindicatie=…`).
-10. Toegankelijkheid buiten de kaart: volwaardige tabelweergave, kleurenblind-vriendelijke symbolen.
+10. ~~Toegankelijkheid buiten de kaart~~ — **gedeeltelijk opgelost.** Elke gebiedspagina heeft nu een
+    uitklapbare, toetsenbord- en schermlezer-toegankelijke lijst (rm-nr, plaats, afstand, status) als
+    alternatief voor de canvas-kaart. Nog niet gedaan: kleurenblind-vriendelijke symbolen op de kaart
+    zelf, en de canvas-punten blijven zelf niet direct focusbaar.
 11. Steekproefsgewijze validatie (bv. 10 willekeurige positieve/negatieve classificaties handmatig
     controleren, resultaat publiceren).
 12. Compacte "wat kun je hiermee wel/niet zeggen"-kaart prominent bij de opening.
@@ -199,5 +209,13 @@ top 3 vetgedrukt):
 
 Dit zijn blootstellingskaarten: er is géén emissiedata (AERIUS/RAV) verwerkt en afstand tot een
 Natura 2000-gebied zegt niets over daadwerkelijke stikstofdepositie. De oorspronkelijke functie van
-een rijksmonument zegt niet dat er nu nog een agrarisch bedrijf gevestigd is; de
-industriefunctie-vlag uit de BAG is een indicatie, geen bewijs.
+een rijksmonument zegt niet dat er nu nog een agrarisch bedrijf gevestigd is; de industriefunctie-vlag
+uit de BAG is een aanwijzing, geen bewijs van actieve bedrijfsvoering of stikstofuitstoot. Geen van de
+statuscategorieën (industriefunctie aangetroffen / bij een deel van de adressen / geen industriefunctie
+aangetroffen) is een uitspraak over daadwerkelijke bedrijfsvoering.
+
+## Licentie & bronvermelding
+
+Broncode: MIT, zie [LICENSE](LICENSE). Gepubliceerde datasets (`data/gebieden/*/data.json`
+en tussenproducten): CC BY 4.0, zie [DATA_LICENSE.md](DATA_LICENSE.md) voor bronvermelding
+en de onderliggende voorwaarden van RCE en PDOK.

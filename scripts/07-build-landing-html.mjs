@@ -67,7 +67,7 @@ function gcard(g) {
         <p class="gcard-sub">${[g.ligging, g.provincies.join(' / ')].filter(Boolean).join(' &middot; ')}</p>
         <div class="gcard-stats">
           <span><b>${g.n}</b> boerderijen</span>
-          <span><b>${g.ja}</b> actieve indicatie</span>
+          <span><b>${g.ja}</b> industriefunctie-indicatie</span>
         </div>
       </a>`;
 }
@@ -171,7 +171,7 @@ const html = `<!DOCTYPE html>
   <div class="stats">
     <div class="stat"><div class="num">${totaal.gebieden}</div><div class="lbl">natura 2000-gebieden verwerkt</div></div>
     <div class="stat"><div class="num">${totaal.n}</div><div class="lbl">rijksmonumentale boerderijen</div></div>
-    <div class="stat alert"><div class="num">${totaal.ja}</div><div class="lbl">actieve bedrijfsindicatie</div></div>
+    <div class="stat alert"><div class="num">${totaal.ja}</div><div class="lbl">BAG-industriefunctie-indicatie</div></div>
     <div class="stat neutral"><div class="num">${totaal.onbekend}</div><div class="lbl">BAG niet te controleren</div></div>
   </div>
 
@@ -185,7 +185,8 @@ ${provincieSections}
     <p><b>Methode.</b> Per Natura 2000-gebied: rijksmonumenten met oorspronkelijke functie boerderij ophalen
     (RCE CHO), de daadwerkelijke afstand tot de gebiedsrand berekenen (geen bounding box), provincie
     onafhankelijk bepalen via een point-in-polygon-toets tegen de PDOK-bestuurlijke grenzen, en een
-    actieve-bedrijfsindicatie toevoegen via BAG-gebruiksdoel (industriefunctie op het adres).</p>
+    een BAG-industriefunctie-indicatie toevoegen via BAG-gebruiksdoel (industriefunctie op het adres
+    is een aanwijzing, geen bewijs van actieve bedrijfsvoering).</p>
     <p><b>Let op dubbeltelling in de totalen.</b> Een monument dat dicht bij meerdere Natura 2000-gebieden
     ligt telt in elke relevante gebiedspagina mee &mdash; terecht, want het is voor elk van die gebieden
     relevant. De totalen hierboven zijn dus een som van per-gebied cijfers, geen aantal unieke monumenten

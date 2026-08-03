@@ -1,0 +1,39 @@
+name: Valideer data en gegenereerde pagina's
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Zelftest bbox-regex.mjs
+        run: node scripts/lib/bbox-regex.mjs
+
+      - name: Valideer data.json-bestanden (schema en telinvarianten)
+        run: node scripts/validate.mjs
+
+      - name: Herbouw alle gebiedspagina's en de landingspagina uit de huidige data
+        run: |
+          for dir in data/gebieden/*/; do
+            slug=$(basename "$dir")
+            node scripts/06-build-gebied-html.mjs "$slug"
+          done
+          node scripts/07-build-landing-html.mjs
+
+      - name: Controleer dat herbouwen geen verschil oplevert (data en HTML mogen niet uit elkaar lopen)
+        run: |
+          if ! git diff --quiet -- gebieden/ index.html; then
+            echo "::error::Opnieuw genereren van de HTML uit data/gebieden/*/data.json geeft een ander resultaat dan wat gecommit is."
+            git diff --stat -- gebieden/ index.html
+            exit 1
+          fi

@@ -32,20 +32,24 @@ const verrijkt = fs.existsSync(path.join(dir, 'monumenten-verrijkt.json'))
   ? JSON.parse(fs.readFileSync(path.join(dir, 'monumenten-verrijkt.json'), 'utf-8'))
   : [];
 
-// Onzekerheidsstatus per monument: verder dan de simpele ja/bag-tweedeling.
-// Meerdere BAG-adressen bij één monument komen vaak voor (bv. hoofdgebouw +
-// bijgebouw) en zijn meestal eensluidend -- maar niet altijd: soms wijst het
-// ene gematchte adres wel industriefunctie aan en het andere niet. Dat laatste
-// is een echte onzekerheid die tot nu toe stilzwijgend werd weggemiddeld tot
-// "ja" (ja = industrie bij minstens één adres); nu expliciet zichtbaar.
+// Statuscategorie per monument: verder dan de simpele ja/bag-tweedeling, en
+// bewust géén claim over actieve bedrijfsvoering. De BAG bevestigt alleen een
+// gebruiksdoel van een verblijfsobject, geen actieve of inactieve agrarische
+// bedrijfsvoering -- een industriefunctie is een aanwijzing, het ontbreken
+// ervan is geen bewijs van inactiviteit. Meerdere BAG-adressen bij één
+// monument komen vaak voor (bv. hoofdgebouw + bijgebouw) en zijn meestal
+// eensluidend -- maar niet altijd: soms wijst het ene gematchte adres wel
+// industriefunctie aan en het andere niet. Dat laatste is een echte
+// onzekerheid die tot nu toe stilzwijgend werd weggemiddeld; nu expliciet
+// zichtbaar.
 function bepaalStatus(m) {
   if (m.bagStatus === 'fout') return 'bag_mislukt';
   if (m.bagStatus === 'geen_adres') return 'geen_adres';
   if (m.bagStatus === 'geen_match_in_bbox') return 'geen_match';
   const gebruiksdoelen = (m.matched || []).map(x => (x.gebruiksdoel || '').toLowerCase().includes('industriefunctie'));
   const eenduidig = new Set(gebruiksdoelen).size <= 1;
-  if (m.industrie) return eenduidig ? 'actief' : 'actief_onzeker';
-  return 'niet_actief';
+  if (m.industrie) return eenduidig ? 'industrie_aangetroffen' : 'industrie_deels_aangetroffen';
+  return 'geen_industrie_aangetroffen';
 }
 
 const outMons = verrijkt.map(m => {
@@ -82,9 +86,9 @@ outMons.forEach(m => { if (m.ja) provJaCounts[m.prov] = (provJaCounts[m.prov] ||
 const onbekend = outMons.filter(m => m.bag !== 'ok').length;
 
 const datakwaliteit = {
-  actief: outMons.filter(m => m.status === 'actief').length,
-  actiefOnzeker: outMons.filter(m => m.status === 'actief_onzeker').length,
-  nietActief: outMons.filter(m => m.status === 'niet_actief').length,
+  industrieAangetroffen: outMons.filter(m => m.status === 'industrie_aangetroffen').length,
+  industrieDeelsAangetroffen: outMons.filter(m => m.status === 'industrie_deels_aangetroffen').length,
+  geenIndustrieAangetroffen: outMons.filter(m => m.status === 'geen_industrie_aangetroffen').length,
   geenAdres: outMons.filter(m => m.status === 'geen_adres').length,
   geenMatch: outMons.filter(m => m.status === 'geen_match').length,
   bagMislukt: outMons.filter(m => m.status === 'bag_mislukt').length,

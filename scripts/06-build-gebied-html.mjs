@@ -23,24 +23,34 @@ const statBlocks = multiProv
   ? `
   <div class="stat"><div class="num">\${fmt(D.n)}</div><div class="lbl">rijksmonumentale boerderijen</div></div>
   ${provs.map(p => `<div class="stat"><div class="num">\${fmt(D.provCounts['${p}'])}</div><div class="lbl">${p}</div></div>`).join('\n  ')}
-  <div class="stat alert"><div class="num">\${fmt(D.ja)}</div><div class="lbl">actieve bedrijfsindicatie</div></div>
-  ${provs.map(p => `<div class="stat alert"><div class="num">\${fmt(D.provJaCounts['${p}']||0)}</div><div class="lbl">${p} actief</div></div>`).join('\n  ')}
+  <div class="stat alert"><div class="num">\${fmt(D.ja)}</div><div class="lbl">BAG-industriefunctie-indicatie</div></div>
+  ${provs.map(p => `<div class="stat alert"><div class="num">\${fmt(D.provJaCounts['${p}']||0)}</div><div class="lbl">${p} industriefunctie</div></div>`).join('\n  ')}
   <div class="stat neutral"><div class="num">\${fmt(D.onbekend)}</div><div class="lbl">BAG niet te controleren</div></div>`
   : `
   <div class="stat"><div class="num">\${fmt(D.n)}</div><div class="lbl">rijksmonumentale boerderijen</div></div>
-  <div class="stat alert"><div class="num">\${fmt(D.ja)}</div><div class="lbl">actieve bedrijfsindicatie</div></div>
+  <div class="stat alert"><div class="num">\${fmt(D.ja)}</div><div class="lbl">BAG-industriefunctie-indicatie</div></div>
   <div class="stat neutral"><div class="num">\${fmt(D.onbekend)}</div><div class="lbl">BAG niet te controleren</div></div>`;
 
 const gridCols = multiProv ? (3 + provs.length * 2) : 3;
+
+const fmtNL = n => n.toLocaleString('nl-NL');
+const STATUS_LABEL_STATIC = {
+  industrie_aangetroffen: 'Industriefunctie aangetroffen (eenduidig)',
+  industrie_deels_aangetroffen: 'Industriefunctie aangetroffen bij een deel van de adressen',
+  geen_industrie_aangetroffen: 'Geen industriefunctie aangetroffen',
+  geen_adres: 'BAG niet te controleren — geen adres bekend in RCE',
+  geen_match: 'BAG niet te controleren — geen match gevonden',
+  bag_mislukt: 'BAG niet te controleren — bevraging mislukt'
+};
 
 const dk = Dobj.datakwaliteit;
 const datakwaliteitCard = dk ? `
   <div class="card">
     <h2>Datakwaliteit &middot; peildatum ${Dobj.peildatum}</h2>
     <div class="dk-grid">
-      <div class="dk-item"><b>${dk.actief}</b><span>actief, eenduidig</span></div>
-      <div class="dk-item"><b>${dk.actiefOnzeker}</b><span>actief, adres niet eenduidig</span></div>
-      <div class="dk-item"><b>${dk.nietActief}</b><span>niet actief (bevestigd)</span></div>
+      <div class="dk-item"><b>${dk.industrieAangetroffen}</b><span>industriefunctie aangetroffen</span></div>
+      <div class="dk-item"><b>${dk.industrieDeelsAangetroffen}</b><span>industriefunctie bij deel van adressen</span></div>
+      <div class="dk-item"><b>${dk.geenIndustrieAangetroffen}</b><span>geen industriefunctie aangetroffen</span></div>
       <div class="dk-item"><b>${dk.geenAdres}</b><span>geen adres bekend in RCE</span></div>
       <div class="dk-item"><b>${dk.geenMatch}</b><span>geen match in BAG</span></div>
       <div class="dk-item"><b>${dk.bagMislukt}</b><span>BAG-bevraging mislukt</span></div>
@@ -91,6 +101,11 @@ const head = `<!DOCTYPE html>
   .detail dl{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;margin-top:6px}
   .detail dt{color:var(--ink-soft)}
   .detail dd{margin:0}
+  .mon-list{margin-top:12px;font-size:12px}
+  .mon-list summary{cursor:pointer;color:var(--blue-mid);font-weight:600}
+  .mon-list table{width:100%;border-collapse:collapse;margin-top:8px;font-size:12px}
+  .mon-list th,.mon-list td{text-align:left;padding:4px 8px;border-bottom:1px solid var(--line)}
+  .mon-list th{color:var(--ink-soft);font-size:10px;letter-spacing:.04em;text-transform:uppercase}
   .card h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue-mid);margin-bottom:8px}
   #map{width:100%;display:block;cursor:crosshair}
   .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:11px;color:var(--ink-soft);margin-top:8px}
@@ -122,7 +137,8 @@ const head = `<!DOCTYPE html>
     <p>${meta.tekst} <a href="${meta.bron}" style="color:var(--blue-mid)" target="_blank" rel="noopener">Bron: natura2000.nl &rarr;</a>${Dobj.richtlijn ? ` &middot; <a href="${Dobj.richtlijn.rceUris[0]}" style="color:var(--blue-mid)" target="_blank" rel="noopener">RCE linked data${Dobj.richtlijn.rceUris.length > 1 ? ' (1 van ' + Dobj.richtlijn.rceUris.length + ' richtlijndelen)' : ''} &rarr;</a>` : ''}${Dobj.richtlijn?.wikidata ? ` &middot; <a href="${Dobj.richtlijn.wikidata}" style="color:var(--blue-mid)" target="_blank" rel="noopener">Wikidata &rarr;</a>` : ''}</p>
     <p>Rijksmonumentale boerderijen binnen dit Natura 2000-gebied of binnen 5&nbsp;km
     van de gebiedsrand (een gekozen selectievenster, geen ecologische invloedssfeer), met een
-    actieve-bedrijfsindicatie op basis van BAG-gebruiksdoel.</p>
+    BAG-industriefunctie-indicatie op basis van BAG-gebruiksdoel (een aanwijzing, geen bewijs van
+    actieve bedrijfsvoering).</p>
   </header>
 
   <div class="stats" id="stats"></div>
@@ -132,8 +148,8 @@ const head = `<!DOCTYPE html>
     ${Dobj.n === 0
       ? `<p style="font-size:13px;color:var(--ink-soft);margin-bottom:8px">Geen rijksmonumentale boerderijen gevonden binnen of tot 5&nbsp;km van dit gebied.</p>`
       : `<div class="chips">
-      <button class="chip on" id="fAll">Alle __D_N__</button>
-      <button class="chip" id="fJa">Alleen actieve bedrijfsindicatie</button>
+      <button class="chip on" id="fAll" aria-pressed="true">Alle __D_N__</button>
+      <button class="chip" id="fJa" aria-pressed="false">Alleen BAG-industriefunctie-indicatie</button>
     </div>`}
     <canvas id="map" aria-label="Kaart van het Natura 2000-gebied ${Dobj.gebied} met rijksmonumentale boerderijen"></canvas>
     <div class="legend">
@@ -145,11 +161,21 @@ const head = `<!DOCTYPE html>
     </div>
     <p style="font-size:12px;color:var(--ink-soft);margin-top:8px">Klik op een punt voor details ("waarom staat
     dit punt hier?"), beweeg eroverheen voor een korte hint. Omrande punten (donkerblauw, effen) hebben een
-    eenduidige industriefunctie in de BAG &mdash; actieve bedrijfsindicatie. Een dubbele donkerblauwe rand
-    betekent: wel industriefunctie gevonden, maar niet bij alle adressen van dit monument eenduidig (zie klik-detail).
+    eenduidige industriefunctie in de BAG aangetroffen. Een dubbele donkerblauwe rand betekent: wel
+    industriefunctie gevonden, maar niet bij alle adressen van dit monument eenduidig (zie klik-detail).
     Een gestippelde grijze rand: kon niet in de BAG worden gecontroleerd (geen adres bekend of geen match
-    gevonden) &mdash; telt niet mee als actief, maar is ook niet bevestigd als inactief.</p>
+    gevonden) &mdash; dit is geen bevestiging van afwezige bedrijfsvoering, alleen een niet-gevonden
+    industriefunctie.</p>
     <div class="detail" id="detail"></div>
+    ${Dobj.n > 0 ? `<details class="mon-list">
+      <summary>Lijst van alle ${Dobj.n} monumenten (toetsenbord- en schermlezer-toegankelijk)</summary>
+      <table>
+        <thead><tr><th>Rm-nr</th><th>Plaats</th><th>Afstand</th><th>Status</th></tr></thead>
+        <tbody>
+          ${Dobj.mons.map(m => `<tr><td>${m.nr}</td><td>${m.wpl || '-'}</td><td>${m.erin ? 'binnen gebied' : fmtNL(m.afstandTotRand) + ' m'}</td><td>${STATUS_LABEL_STATIC[m.status] || m.status}</td></tr>`).join('\n          ')}
+        </tbody>
+      </table>
+    </details>` : ''}
   </div>
 
   ${datakwaliteitCard}
@@ -158,15 +184,17 @@ const head = `<!DOCTYPE html>
     <p><b>Methodiek.</b> Monumenten: RCE CHO-endpoint, rijksmonumenten met oorspronkelijke functie
     Boerderij (M/M1), binnen 5&nbsp;km van of daadwerkelijk binnen het Natura 2000-gebied. Natura 2000-geometrie:
     officiële landelijke WFS (service.pdok.nl/rvo/natura2000). Afstand: monumentpunt tot de daadwerkelijke
-    gebiedsrand. Provincie: point-in-polygon tegen de PDOK-bestuurlijke grenzen. Bedrijfsindicatie:
+    gebiedsrand. Provincie: point-in-polygon tegen de PDOK-bestuurlijke grenzen. BAG-industriefunctie-indicatie:
     BAG-gebruiksdoel (open WFS bag:verblijfsobject), gematcht op postcode en huisnummer; industriefunctie
-    op een boerderijadres geldt als actieve bedrijfsindicatie. Monumenten met uitsluitend woonfunctie zijn
-    conservatief niet als actieve bedrijfsindicatie geteld. Monumenten zonder BAG-adres in RCE of zonder
-    match in de BAG-zoekbox staan apart als "BAG niet te controleren" &mdash; deze tellen niet mee als
-    actief, maar zijn nadrukkelijk geen bevestigde inactieve gevallen. Peildatum ${Dobj.peildatum}.</p>
+    op een boerderijadres geldt als BAG-industriefunctie-indicatie &mdash; een aanwijzing, geen bewijs van
+    actieve agrarische bedrijfsvoering. Monumenten met uitsluitend woonfunctie zijn conservatief niet als
+    zodanig geteld; dat betekent een afwezige industriefunctie-aanwijzing, geen bevestiging dat er geen
+    bedrijf is. Monumenten zonder BAG-adres in RCE of zonder match in de BAG-zoekbox staan apart als
+    "BAG niet te controleren". Peildatum ${Dobj.peildatum}.</p>
     <p><b>Kanttekeningen.</b> Dit is een blootstellingskaart: er is g&eacute;&eacute;n emissiedata (AERIUS/RAV)
     verwerkt. De industriefunctie-vlag is een indicatie, geen bewijs van actieve bedrijfsvoering of
-    stikstofuitstoot.</p>
+    stikstofuitstoot. Geen van de statuscategorie&euml;n op deze pagina is een uitspraak over daadwerkelijke
+    bedrijfsvoering &mdash; alleen over wat wel of niet in de BAG is aangetroffen.</p>
   </footer>
 </div>
 <div class="tip" id="tip"></div>
@@ -209,7 +237,7 @@ function drawMap(){
     ctx.fillStyle = KC[m.k];
     const r = m.k<=1 ? 3.6 : m.k===2 ? 3.1 : 2.6;
     ctx.beginPath(); ctx.arc(px,py,r,0,7); ctx.fill();
-    if(m.status==='actief_onzeker'){ ctx.strokeStyle='#16324F'; ctx.lineWidth=1.2; ctx.stroke(); ctx.beginPath(); ctx.arc(px,py,r+2.2,0,7); ctx.stroke(); }
+    if(m.status==='industrie_deels_aangetroffen'){ ctx.strokeStyle='#16324F'; ctx.lineWidth=1.2; ctx.stroke(); ctx.beginPath(); ctx.arc(px,py,r+2.2,0,7); ctx.stroke(); }
     else if(m.ja){ ctx.strokeStyle='#16324F'; ctx.lineWidth=1.2; ctx.stroke(); }
     else if(m.bag!=='ok'){ ctx.setLineDash([1.5,1.5]); ctx.strokeStyle='#8A8A8A'; ctx.lineWidth=1; ctx.stroke(); ctx.setLineDash([]); }
   });
@@ -229,14 +257,14 @@ canvas.addEventListener('pointermove',e=>{
     tip.style.display='block';
     tip.style.left=Math.min(e.clientX+12, innerWidth-260)+'px'; tip.style.top=(e.clientY-10)+'px';
     tip.textContent = \`rm \${best.nr} \\u00b7 \${best.straat||''} \${best.huisnr||''}, \${best.wpl||''} \\u00b7 \${best.prov} \\u00b7 \${KN[best.k]} van ${Dobj.gebied}\`+
-      (best.d>0 ? \` (\${fmt(best.d)} m)\` : '') + (best.ja ? ' \\u00b7 actieve bedrijfsindicatie' : (best.bag!=='ok' ? ' \\u00b7 BAG niet te controleren' : ''));
+      (best.d>0 ? \` (\${fmt(best.d)} m)\` : '') + (best.ja ? ' \\u00b7 BAG-industriefunctie-indicatie' : (best.bag!=='ok' ? ' \\u00b7 BAG niet te controleren' : ''));
   } else tip.style.display='none';
 });
 canvas.addEventListener('pointerleave',()=>tip.style.display='none');
 const STATUS_LABEL = {
-  actief: 'Actieve bedrijfsindicatie (eenduidig)',
-  actief_onzeker: 'Actieve bedrijfsindicatie, maar adres niet eenduidig',
-  niet_actief: 'Geen actieve bedrijfsindicatie (bevestigd)',
+  industrie_aangetroffen: 'Industriefunctie aangetroffen (eenduidig)',
+  industrie_deels_aangetroffen: 'Industriefunctie aangetroffen bij een deel van de adressen',
+  geen_industrie_aangetroffen: 'Geen industriefunctie aangetroffen',
   geen_adres: 'BAG niet te controleren \\u2014 geen adres bekend in RCE',
   geen_match: 'BAG niet te controleren \\u2014 geen match gevonden',
   bag_mislukt: 'BAG niet te controleren \\u2014 bevraging mislukt'
@@ -272,8 +300,8 @@ canvas.addEventListener('click',e=>{
   detail.classList.add('on');
 });
 if($('fAll')){
-  $('fAll').onclick=()=>{filterJa=false;$('fAll').classList.add('on');$('fJa').classList.remove('on');drawMap();};
-  $('fJa').onclick=()=>{filterJa=true;$('fJa').classList.add('on');$('fAll').classList.remove('on');drawMap();};
+  $('fAll').onclick=()=>{filterJa=false;$('fAll').classList.add('on');$('fAll').setAttribute('aria-pressed','true');$('fJa').classList.remove('on');$('fJa').setAttribute('aria-pressed','false');drawMap();};
+  $('fJa').onclick=()=>{filterJa=true;$('fJa').classList.add('on');$('fJa').setAttribute('aria-pressed','true');$('fAll').classList.remove('on');$('fAll').setAttribute('aria-pressed','false');drawMap();};
 }
 drawMap();
 window.addEventListener('resize',drawMap);
