@@ -1,0 +1,229 @@
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10173 | Lekbandijk | 25 | 4119RA | Ravenswaaij
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10495 | Langbroekerdijk A | 30 | 3947BJ | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11123 | Zuylesteinseweg | 18 | 3958BA | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11726 | Langbroekerdijk B | 8 | 3947BB | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12720 | Langbroekerdijk A | 80 | 3947BK | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12720 | Langbroekerdijk A | 78 | 3947BK | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13470 | Darthuizerweg | 12 | 3956NK | Leersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14016 | Langbroekerdijk A | 32 | 3947BJ | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14038 | Rijnbandijk | 62 | 4023AK | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14756 | Bovenwijkerweg | 1 | 3947NJ | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14756 | Bovenwijkerweg | 1 A | 3947NJ | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15046 | Nederstraat | 19 | 3958CS | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15046 | Nederstraat | 21 | 3958CS | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15334 | Burg H vd Boschstraat | 30 | 3958CD | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15334 | Burg H vd Boschstraat | 32 | 3958CD | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16107 | Kerkstraat | 2 | 4023AP | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16342 | Rijnbandijk | 219 | 4023AJ | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16342 | Rijnbandijk | 221 | 4023AJ | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16518 | Lekbandijk | 87 | 4119RB | Ravenswaaij
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16524 | Rijnbandijk | 70 | 4023AK | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17343 | Rijnbandijk | 223 | 4023AJ | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17717 | Gasthuisstraat | 22 | 3958BL | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19183 | Langbroekerdijk A | 6 | 3947BH | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19649 | Zandvoort | 1 | 3958CT | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19661 | Langbroekerdijk B | 38 | 3947BB | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19985 | Langbroekerdijk A | 10 | 3947BH | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21833 | Hof | 4 | 3958CH | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21833 | Burg H vd Boschstraat | 48 | 3958CD | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22711 | Drostestraat | 31 | 3958BK | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22950 | Donkerstraat | 27 | 3958BH | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24433 | Lekbandijk | 19 | 4023CA | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24623 | Rijksstraatweg | 129 | 3956CL | Leersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24716 | Langbroekerdijk A | 13 | 3947BC | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25017 | Garststraat | 58 | 4021AD | Maurik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26209 | Langbroekerdijk A | 47 | 3947BD | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26209 | Langbroekerdijk A | 47 A | 3947BD | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26573 | Bremweg | 10 | 3956NL | Leersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27205 | De Opslag | 2 | 3921AR | Elst Ut
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28199 | Van de Geerstraat | 3 | 4021BX | Maurik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28827 | Burg H vd Boschstraat | 39 | 3958CA | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28946 | Boerenbuurt | 1 | 3956RL | Leersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30193 | De Heuvel | 52 | 4023AC | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30454 | Middelweg | 16 | 4023AR | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31115 | Rijksstraatweg | 22 | 3921AJ | Elst Ut
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31465 | Lekbandijk | 27 | 4119RA | Ravenswaaij
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33171 | De Brink | 5 | 3945BE | Cothen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33293 | Langbroekerdijk A | 38 | 3947BJ | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33838 | Lekdijk | 2 | 3958ND | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34287 | Rijnbandijk | 60 | 4023AK | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34679 | Lekbandijk | 3 | 4023CA | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35412 | Boerenbuurt | 3 | 3956RL | Leersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36129 | Wilhelminaweg | 4 | 3947BL | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36729 | Nederstraat | 9 | 3958CS | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36729 | Nederstraat | 11 | 3958CS | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36735 | Lekbandijk | 45 | 4119RA | Ravenswaaij
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38923 | Kersweg | 28 | 3958BC | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39117 | Roekenes | 3 | 3956RP | Leersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39117 | Roekenes | 5 | 3956RP | Leersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39599 | Boerenbuurt | 32 | 3956RM | Leersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39690 | Wijkerweg | 1 | 3947NH | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40219 | Rijksstraatweg | 3 | 3956CH | Leersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40443 | Dorpsstraat | 34 | 3945BL | Cothen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40560 | Langbroekerdijk B | 24 | 3947BB | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40753 | Langbroekerdijk A | 27 | 3947BC | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40881 | Lekbandijk | 83 | 4119RB | Ravenswaaij
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41157 | Burg H vd Boschstraat | 92 | 3958CE | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42186 | Overstraat | 36 | 3958BV | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42186 | Overstraat | 38 | 3958BV | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42517 | Langbroekerdijk B | 9 | 3947BA | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42639 | Bremweg | 14 | 3956NL | Leersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42743 | Lekbandijk | 31 | 4119RA | Ravenswaaij
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42854 | Langbroekerdijk A | 4 | 3947BH | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43197 | Kerkweg | 18 | 3956RT | Leersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43338 | Burg H vd Boschstraat | 55 | 3958CB | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43407 | Overstraat | 39 | 3958BS | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43796 | Rijksstraatweg | 4 | 3958ES | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43796 | Rijksstraatweg | 6 | 3958ES | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45820 | Langbroekerdijk B | 12 | 3947BB | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46095 | Rijnbandijk | 50 | 4023AK | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47195 | Langbroekerdijk A | 68 a | 3947BK | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47195 | Langbroekerdijk A | 68 | 3947BK | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47558 | Donkerstraat | 22 | 3958BJ | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48006 | Donkerstraat | 14 | 4119LZ | Ravenswaaij
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48251 | Rijnbandijk | 243 | 4023AJ | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48456 | De Heuvel | 2 | 4023AB | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48456 | De Heuvel | 4 | 4023AB | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48762 | Burg H vd Boschstraat | 105 | 3958CC | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48762 | Burg H vd Boschstraat | 105 A | 3958CC | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49203 | Langbroekerdijk B | 26 | 3947BB | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50166 | Rijnbandijk | 5 | 4024BM | Eck en Wiel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51997 | Langbroekerdijk B | 1 B | 3947BA | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52281 | Rijnbandijk | 245 | 4023AJ | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52281 | Rijnbandijk | 245 A | 4023AJ | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52731 | Langbroekerdijk A | 83 | 3947BE | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54610 | Bovenhaarweg | 12 | 3956KK | Leersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54839 | Langbroekerdijk B | 7 | 3947BA | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54988 | Lekdijk | 5 | 3958ND | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55023 | Langbroekerdijk B | 4 | 3947BB | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55041 | Langbroekerdijk B | 16 | 3947BB | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55093 | Langbroekerdijk B | 14 | 3947BB | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55161 | Prinses Margrietstraat | 2 | 4023AD | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55179 | Garststraat | 15 | 4021AB | Maurik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55179 | Garststraat | 17 | 4021AB | Maurik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55671 | Veerweg | 3 | 4024BP | Eck en Wiel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57091 | Lekbandijk | 77 | 4119RB | Ravenswaaij
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57091 | Lekbandijk | 79 | 4119RB | Ravenswaaij
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57405 | Wijkerweg | 2 | 3947NH | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57405 | Langbroekerdijk B | 1 | 3947BA | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58014 | Roekenes | 1 | 3956RP | Leersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58102 | Langbroekerdijk A | 49 | 3947BD | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58406 | Lekbandijk | 47 | 4119RA | Ravenswaaij
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58685 | Rijnbandijk | 241 | 4023AJ | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59564 | Gasthuisstraat | 2 | 3958BL | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59606 | Zandbergseweg | 6 | 4023CC | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60463 | Langbroekerdijk A | 50 | 3947BJ | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60471 | Rijnsteeg | 1 | 3958NC | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60979 | Langbroekerdijk A | 17 | 3947BC | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61523 | Rijnbandijk | 62 | 4023AK | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61628 | Langbroekerdijk A | 42 | 3947BJ | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61655 | Rijksstraatweg | 20 A | 3921AJ | Elst Ut
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68270 | Zuylesteinseweg | 18 | 3958BA | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68271 | Zuylesteinseweg | 18 | 3958BA | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78907 | De Brink | 6 A | 3945BE | Cothen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78907 | De Brink | 6 B | 3945BE | Cothen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10369 | Lekdijk West | 48 | 3411MX | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10369 | Lekdijk West | 47 | 3411MX | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10369 | Lekdijk West | 47 A | 3411MX | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11062 | Lopikerweg West | 6 | 3411AL | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11482 | Dorp | 128 | 3405BG | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12166 | Hoogeind | 19 | 4143LW | Leerdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12886 | Lakerveld | 189 | 4128LH | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13061 | Lopikerweg oost | 107 A | 3411LW | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13061 | Lopikerweg oost | 107 | 3411LW | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13210 | Benedendamsestraat | 9 | 4233EN | Ameide
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14948 | Lopikerweg Oost | 146 | 3412KG | Lopikerkapel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14948 | Lopikerweg Oost | 147 | 3412KC | Lopikerkapel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14948 | Lopikerweg Oost | 148 | 3412KG | Lopikerkapel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16871 | Dorp | 65 | 3405BA | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16871 | Dorp | 67 | 3405BA | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17314 | Hei- en Boeicopseweg | 134 | 4126RM | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17314 | Hei- en Boeicopseweg | 136 | 4126RM | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17314 | Hei- en Boeicopseweg | 138 | 4126RM | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18211 | Dorp | 119 | 3405BB | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19115 | Smalzijde | 23 | 4243JP | Nieuwland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19532 | Lopikerweg oost | 101 B | 3411LW | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19532 | Laanwijk | 2 | 3411LT | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19532 | Laanwijk | 1 | 3411LT | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19532 | Lopikerweg Oost | 102 | 3411LW | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20069 | Noordzijde | 120 | 4225PM | Noordeloos
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21151 | Lopikerweg Oost | 129 A | 3412KC | Lopikerkapel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21339 | Achthoven | 45 | 4128LW | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21741 | Dorp | 183 | 3405BC | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21910 | Dorpsweg | 2 | 4245KP | Leerbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22092 | Lopikerweg West | 33 | 3411AN | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23319 | Lakerveld | 145 | 4128LH | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23604 | Lopikerweg west | 59 A | 3411AP | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23604 | Lopikerweg West | 60 | 3411AP | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23930 | Lopikerweg oost | 130 B | 3412KG | Lopikerkapel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23930 | Lopikerweg Oost | 130 | 3412KG | Lopikerkapel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24002 | Benedendamsestraat | 11 | 4233EN | Ameide
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25777 | Noordzijde | 53 | 4225PJ | Noordeloos
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26304 | Lopikerweg Oost | 197 | 3412KE | Lopikerkapel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26376 | Hei- en Boeicopseweg | 104 | 4126RL | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26376 | Hei- en Boeicopseweg | 106 | 4126RL | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26376 | Hei- en Boeicopseweg | 108 | 4126RL | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26925 | Kortenhoevenseweg | 43 C | 4128CM | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26925 | Kortenhoevenseweg | 43 A | 4128CM | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26925 | Kortenhoevenseweg | 43 E | 4128CM | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26925 | Kortenhoevenseweg | 43 B | 4128CM | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26925 | Kortenhoevenseweg | 43 D | 4128CM | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26925 | Kortenhoevenseweg | 41 | 4128CM | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26925 | Kortenhoevenseweg | 43 | 4128CM | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28018 | Recht van Ter Leede | 2 | 4245KB | Leerbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28018 | Recht van Ter Leede | 4 | 4245KB | Leerbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28018 | Recht van Ter Leede | 2 A | 4245KB | Leerbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28018 | Recht van Ter Leede | 2 B | 4245KB | Leerbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28018 | Recht van Ter Leede | 3 | 4245KB | Leerbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28102 | Smalzijde | 24 | 4243JP | Nieuwland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28533 | Cabauwsekade | 22 | 3411EB | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29687 | Hei- en Boeicopseweg | 143 | 4126RH | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29887 | Lopikerweg Oost | 88 | 3411JH | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32710 | Zouwendijk | 117 | 4231CD | Meerkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36382 | Zouwendijk | 79 a | 4231CB | Meerkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36382 | Zouwendijk | 79 | 4231CB | Meerkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36813 | Noordzijde | 118 | 4225PM | Noordeloos
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38110 | Dorp | 122 | 3405BG | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38557 | Hei- en Boeicopseweg | 121 | 4126RG | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38557 | Hei- en Boeicopseweg | 123 | 4126RG | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40597 | Kapelsepad | 42 | 3412KM | Lopikerkapel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40942 | Lekdijk Oost | 5 | 3411MN | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45048 | De Laak | 27 | 4128CA | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45406 | Hei- en Boeicopseweg | 70 | 4126RK | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45900 | Lopikerweg West | 56 | 3411AP | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46243 | Botersloot | 70 | 4225PS | Noordeloos
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49428 | Achthoven | 40 | 4128LW | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49428 | Achthoven | 41 | 4128LW | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49579 | Prinsengracht | 26 | 4233EW | Ameide
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50400 | Noordzijde | 95 | 4225PL | Noordeloos
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50400 | Noordzijde | 95 A | 4225PL | Noordeloos
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51717 | Lekdijk west | 26 A | 3411MV | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51717 | Lekdijk West | 26 | 3411MV | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52180 | Lekdijk Oost | 4 | 3411MN | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54293 | Lekdijk West | 28 | 3411MV | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55790 | Hei- en Boeicopseweg | 80 | 4126RK | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55790 | Hei- en Boeicopseweg | 82 | 4126RK | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55873 | Lekdijk | 14 | 4235VK | Tienhoven aan de Lek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55873 | Lekdijk | 13 | 4235VK | Tienhoven aan de Lek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56232 | Bazeldijk | 69 | 4221XZ | Hoogblokland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57522 | Noordzijde | 54 | 4225PJ | Noordeloos
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57522 | Noordzijde | 55 | 4225PJ | Noordeloos
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57761 | Hei- en Boeicopseweg | 168 | 4126RM | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57839 | Noordzijde | 58 | 4225PJ | Noordeloos
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57839 | Noordzijde | 59 | 4225PJ | Noordeloos
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58407 | Cabauwsekade | 18 | 3411EB | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58407 | Cabauwsekade | 17 C | 3411EA | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59440 | Lopikerweg west | 37 A | 3411AN | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59440 | Lopikerweg West | 37 | 3411AN | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60368 | Hei- en Boeicopseweg | 163 | 4126RH | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60627 | Cabauwsekade | 14 | 3411EA | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60627 | Cabauwsekade | 15 | 3411EA | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60657 | Botersloot | 1 | 4225PR | Noordeloos
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61270 | Hei- en Boeicopseweg | 92 | 4126RL | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61270 | Hei- en Boeicopseweg | 94 | 4126RL | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61282 | Lekdijk west | 38 | 3411MV | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61357 | Lopikerweg Oost | 122 | 3411LZ | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61357 | Lopikerweg Oost | 122 A | 3411LZ | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75958 | Helsdingse Achterweg | 22 | 4133NC | Vianen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75964 | Hogewaard | 2 | 4235VS | Tienhoven aan de Lek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75964 | Hogewaard | 4 | 4235VS | Tienhoven aan de Lek

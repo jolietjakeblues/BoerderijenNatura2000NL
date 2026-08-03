@@ -87,5 +87,45 @@ export const GEBIEDEN_BESCHRIJVING = {
     ligging: 'Borger-Odoorn',
     tekst: 'Actief stuifzandlandschap met heide en jeneverbesstruweel (circa 222 hectare) op de oostflank van de Hondsrug, tussen Drouwen en Gasselte in Drenthe. Beschermd vanwege pionierbegroeiing met rendiermos en heidevogels als nachtzwaluw en tapuit.',
     bron: 'https://www.natura2000.nl/gebieden/drenthe/drouwenerzand'
+  },
+  'kolland-overlangbroek': {
+    ligging: 'Wijk bij Duurstede-Utrechtse Heuvelrug',
+    tekst: 'Kleinschalig cultuurlandschap (circa 107 hectare) in het stroomgebied van de Kromme Rijn, tussen Wijk bij Duurstede en de Utrechtse Heuvelrug, op de grens van Gelderland en Utrecht. Beschermd vanwege actief beheerd essenhakhoutbos op voedselrijke kleigrond — internationaal een zeldzaam bostype — met een rijke mos-, korstmos- en paddenstoelenflora en de nachtegaal als kenmerkende broedvogel.',
+    bron: 'https://www.natura2000.nl/gebieden/utrecht/kolland-overlangbroek'
+  },
+  'zouweboezem': {
+    ligging: 'Ameide-Meerkerk',
+    tekst: '14e-eeuws boezemgebied (circa 257 hectare) tussen Ameide en Meerkerk in het Groene Hart, op de grens van Utrecht en Zuid-Holland. Bekend om de grootste kolonie purperreigers van Nederland en Noordwest-Europa, gevoed door een grote populatie grote modderkruiper, en om resterende blauwgraslanden in het rietmoeras.',
+    bron: 'https://www.natura2000.nl/gebieden/utrecht/zouweboezem'
+  },
+  'regte-heide-riels-laag': {
+    ligging: 'Goirle',
+    tekst: 'Heide-, ven- en bosgebied (circa 538 hectare) tussen de beken Lei en Roppelsche Leij bij Goirle in Noord-Brabant. Bevat een vrijwel complete gradiënt van droge heide tot beek, met heischraalgrasland en zwakgebufferd water; kenmerkende soorten zijn heideblauwtje, gentiaanblauwtje en broedvogels als wulp en roodborsttapuit.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-brabant/regte-heide-riels-laag'
+  },
+  'vlijmens-ven': {
+    ligging: "'s-Hertogenbosch",
+    tekst: 'Samengesteld gebied (circa 897 hectare) ten zuidwesten van \'s-Hertogenbosch in Noord-Brabant, bestaand uit een kwelgebied (Vlijmens Ven), een voormalig veenmoeras (Moerputten) en moeras langs de Dommel (Bossche Broek). Beschermd vanwege kranswierwater, blauwgrasland met grote pimpernel en de heruitgezette vlindersoorten pimpernelblauwtje en donker pimpernelblauwtje.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-brabant/vlijmens-ven-moerputten-bossche-broek'
+  },
+  'leudal': {
+    ligging: 'Roermond',
+    tekst: 'Bosgebied met beekdalen (circa 340 hectare) in Midden-Limburg, ten noordwesten van Roermond, tussen vijf kerkdorpen. Beschermd vanwege vochtige alluviale bossen (elzenbroek- en essenbos) met kwelwater van uiteenlopende herkomst, en als refugium voor oude-loofbosvogels zoals kleine bonte specht en nachtegaal.',
+    bron: 'https://www.natura2000.nl/gebieden/limburg/leudal'
+  },
+  'swalmdal': {
+    ligging: 'Roermond-Beesel',
+    tekst: 'Meanderend beekdal (circa 123 hectare) tussen Roermond en Beesel in Midden-Limburg, diep ingesneden in het Maasterrassenlandschap. Beschermd vanwege kwelgevoede elzenbroekbossen en waterranonkelbegroeiing, met de zeggekorfslak en de in 2006 herontdekte gaffellibel als kenmerkende soorten.',
+    bron: 'https://www.natura2000.nl/gebieden/limburg/swalmdal'
+  },
+  'roerdal': {
+    ligging: 'Roermond',
+    tekst: 'Rivierdal (circa 834 hectare) langs het Nederlandse traject van de Roer, die bij Roermond in de Maas uitmondt — een van de weinige Natura 2000-gebieden met natuurlijke meandervorming. Beschermd vanwege waterranonkelbegroeiing en elzenbroekbos in oude meanders, drie priksoorten en de grootste Nederlandse populatie gaffellibel.',
+    bron: 'https://www.natura2000.nl/gebieden/limburg/roerdal'
+  },
+  'geleenbeekdal': {
+    ligging: 'Sittard-Geleen',
+    tekst: 'Beekdal (circa 253 hectare) langs de Geleenbeek, verspreid over Beekdaelen, Heerlen en Voerendaal in Zuid-Limburg. Beschermd vanwege vochtige alluviale bossen, het Imstenraderbos (beuken-eikenbos) en alkalisch laagveen met het Kathagerbroek als kerngebied; herbergt een van de grootste Nederlandse populaties zeggekorfslak.',
+    bron: 'https://www.natura2000.nl/gebieden/limburg/geleenbeekdal'
   }
 };

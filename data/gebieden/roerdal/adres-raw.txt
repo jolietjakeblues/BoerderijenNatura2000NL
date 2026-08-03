@@ -1,0 +1,54 @@
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17773|Pastoor Pinckersstraat|26|6071NW|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28031|Dorpsstraat|54|6082AR|Buggenum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30229|Pastoor Pinckersstraat|30|6071NW|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42050|Pastoor Pinckersstraat|28|6071NW|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44761|Boonstraat|20|6082AV|Buggenum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45777|Dorpsstraat|64 b|6082AR|Buggenum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45777|Dorpsstraat|62 A|6082AR|Buggenum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45777|Dorpsstraat|62 B|6082AR|Buggenum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45777|Dorpsstraat|64 A|6082AR|Buggenum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45777|Dorpsstraat|62|6082AR|Buggenum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45777|Dorpsstraat|64|6082AR|Buggenum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46183|Eindweg|8|6071NX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50970|Beeckerhof|8 A|6071BX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50970|Beeckerhof|8 B|6071BX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50970|Beeckerhof|8 C|6071BX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50970|Beeckerhof|8 D|6071BX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50970|Beeckerhof|8 E|6071BX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50970|Beeckerhof|8|6071BX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50970|Beeckerhof|10|6071BX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50970|Beeckerhof|12|6071BX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50970|Beeckerhof|14|6071BX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51392|Eindweg|12|6071NX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51392|Eindweg|12 A|6071NX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54156|Posthuisweg|12|6085AG|Horn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54365|Eindweg|20|6071NX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55403|Eind|4|6071PC|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55403|Eind|4 A|6071PC|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61295|De Weerd|94|6041TL|Roermond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61984|Dorpsstraat|40|6082AP|Buggenum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12418|Beekweg|1|6042JJ|Roermond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23628|Paredisstraat|8|6041JW|Roermond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23628|Paredisstraat|10|6041JW|Roermond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25362|Graeterweg|21|6071ND|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49134|Steegstraat|7 B|6041EA|Roermond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24459|Steegstraat|82|6075AD|Herkenbosch
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26174|Heinsbergerweg|3|6074AC|Melick
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29307|Offerkamp|1|6049AV|Herten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29307|Offerkamp|3|6049AV|Herten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36855|Huysdijk|10|6065AX|Montfort
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38455|Leropperweg|32|6077NX|Sint Odiliënberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43122|Hammerstraat|21|6075AJ|Herkenbosch
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43229|Straat|11|6042KV|Roermond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43229|Straat|13|6042KV|Roermond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47052|Leropperweg|19|6077NW|Sint Odiliënberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48493|Kasteellaan|1|6075EZ|Herkenbosch
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49196|Merumerbroekweg|2|6049CX|Herten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49196|Hoofdstraat|40|6049EB|Herten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56148|Kloosterweg|95|6044XX|Roermond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57515|Heinsbergerweg|9|6074AC|Melick
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68927|Frymerson|1|6077NS|Sint Odiliënberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73893|Weerd|6|6067BJ|Linne
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74116|Dorpsstraat|1|6097AL|Heel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78917|Pannenhof|1|6099NE|Beegden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78917|Pannenhof|3|6099NE|Beegden

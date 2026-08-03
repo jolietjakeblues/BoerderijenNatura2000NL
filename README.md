@@ -16,11 +16,11 @@ gebied "toebehoort", en kan elk gebied apart geverifieerd worden voordat het vol
 toegevoegd. Provincie is in deze opzet een **weergavelaag** (achteraf bepaald via een
 point-in-polygon-toets tegen de officiële PDOK-provinciegrenzen), geen zoekgrens.
 
-## Status: 17 van de 162 Natura 2000-gebieden verwerkt
+## Status: 25 van de 162 Natura 2000-gebieden verwerkt
 
 Nederland telt 162 Natura 2000-gebieden (bron: PDOK/RVO, waarvan 4 mariene gebieden in de
 Exclusieve Economische Zone op de Noordzee, buiten scope voor dit project). Hiervan zijn er tot nu
-toe 17 verwerkt:
+toe 25 verwerkt:
 
 | Gebied | Provincie(s) | Boerderijen | Actieve bedrijfsindicatie | BAG niet te controleren |
 |---|---|---:|---:|---:|
@@ -41,21 +41,30 @@ toe 17 verwerkt:
 | [Elperstroomgebied](gebieden/elperstroomgebied.html) | Drenthe | 33 | 4 | 1 |
 | [Bakkeveense Duinen](gebieden/bakkeveense-duinen.html) | Fryslân | 6 | 1 | 0 |
 | [Drouwenerzand](gebieden/drouwenerzand.html) | Drenthe | 8 | 2 | 0 |
-| **Totaal (17 gebieden)** | | **532** | **87** | **5** |
+| [Kolland & Overlangbroek](gebieden/kolland-overlangbroek.html) | Gelderland / Utrecht | 107 | 17 | 2 |
+| [Zouweboezem](gebieden/zouweboezem.html) | Utrecht / Zuid-Holland | 65 | 6 | 0 |
+| [Regte Heide & Riels Laag](gebieden/regte-heide-riels-laag.html) | Noord-Brabant | 16 | 1 | 1 |
+| [Vlijmens Ven, Moerputten & Bossche Broek](gebieden/vlijmens-ven.html) | Noord-Brabant | 54 | 6 | 0 |
+| [Leudal](gebieden/leudal.html) | Limburg | 24 | 4 | 0 |
+| [Swalmdal](gebieden/swalmdal.html) | Limburg | 24 | 4 | 1 |
+| [Roerdal](gebieden/roerdal.html) | Limburg | 34 | 4 | 0 |
+| [Geleenbeekdal](gebieden/geleenbeekdal.html) | Limburg | 303 | 52 | 4 |
+| **Totaal (25 gebieden)** | | **1159** | **181** | **13** |
 
 Let op: de totaaltelling is een **som van per-gebied cijfers**, geen aantal unieke monumenten
 landelijk — een monument dat dicht bij meerdere Natura 2000-gebieden ligt (bv. tussen Bekendelle en
 Korenburgerveen) telt terecht in beide gebiedspagina's mee. De kolom "BAG niet te controleren" is
 géén bevestigde NEE — zie de toelichting bij taak 10 hieronder.
 
-**Resterend: 145 gebieden** (141 landgebieden + 4 mariene gebieden die waarschijnlijk buiten scope
-blijven). Nog geen vaste volgorde vastgesteld; tot nu toe is gewerkt vanuit Gelderland (Achterhoek,
-IJssel, Nijmegen-Mook, Gelderse Vallei), met bewust een paar provinciegrensgevallen erbij
-(Gelderland/Overijssel, Limburg/Noord-Brabant, Gelderland/Utrecht), en daarna uitgebreid naar
-Groningen, Drenthe en Fryslân om de aanpak ook buiten het zuidoosten te valideren. Nog niet
-aangeraakt: Utrecht, Noord-Holland, Zuid-Holland, Zeeland, Noord-Brabant en Limburg als hoofdgebied
-(alleen als grensgeval bijgekomen), en de grote gebieden (Veluwe, Waddenzee) die vanwege hun omvang
-bewust nog niet zijn opgepakt.
+**Resterend: 137 gebieden** (133 landgebieden + 4 mariene gebieden die waarschijnlijk buiten scope
+blijven). Nog geen vaste volgorde vastgesteld; gewerkt vanuit Gelderland (Achterhoek, IJssel,
+Nijmegen-Mook, Gelderse Vallei), met bewust een paar provinciegrensgevallen erbij
+(Gelderland/Overijssel, Limburg/Noord-Brabant, Gelderland/Utrecht), uitgebreid naar Groningen,
+Drenthe en Fryslân om de aanpak ook buiten het zuidoosten te valideren, en vervolgens naar Utrecht,
+Zuid-Holland, Noord-Brabant en Zuid-Limburg (met opnieuw twee provinciegrensgevallen: Kolland &
+Overlangbroek en Zouweboezem). Nog niet aangeraakt: Noord-Holland, Zeeland en Noord-Limburg als
+hoofdgebied, en de grote gebieden (Veluwe, Waddenzee) die vanwege hun omvang bewust nog niet zijn
+opgepakt.
 
 ## Methode per gebied
 

@@ -1,0 +1,51 @@
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17773|Pastoor Pinckersstraat|26|6071NW|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27154|Burgemeester Peetersstr|41|6083AK|Nunhem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27154|Burgemeester Peetersstr|43|6083AK|Nunhem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28031|Dorpsstraat|54|6082AR|Buggenum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29005|Baxhoeverweg|4|6071PL|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29005|Baxhoeverweg|6|6071PL|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29005|Baxhoeverweg|8|6071PL|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29005|Baxhoeverweg|10|6071PL|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29005|Baxhoeverweg|12|6071PL|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30229|Pastoor Pinckersstraat|30|6071NW|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42050|Pastoor Pinckersstraat|28|6071NW|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44761|Boonstraat|20|6082AV|Buggenum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45777|Dorpsstraat|64 b|6082AR|Buggenum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45777|Dorpsstraat|62 A|6082AR|Buggenum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45777|Dorpsstraat|62 B|6082AR|Buggenum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45777|Dorpsstraat|64 A|6082AR|Buggenum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45777|Dorpsstraat|62|6082AR|Buggenum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45777|Dorpsstraat|64|6082AR|Buggenum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46183|Eindweg|8|6071NX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50970|Beeckerhof|8 A|6071BX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50970|Beeckerhof|8 B|6071BX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50970|Beeckerhof|8 C|6071BX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50970|Beeckerhof|8 D|6071BX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50970|Beeckerhof|8 E|6071BX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50970|Beeckerhof|8|6071BX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50970|Beeckerhof|10|6071BX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50970|Beeckerhof|12|6071BX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50970|Beeckerhof|14|6071BX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51392|Eindweg|12|6071NX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51392|Eindweg|12 A|6071NX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54365|Eindweg|20|6071NX|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55403|Eind|4|6071PC|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55403|Eind|4 A|6071PC|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58844|Burgemeester Janssenstraat|41 a|5954BP|Beesel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60494|Middelhoven|5|6071PE|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60494|Middelhoven|5 A|6071PE|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60494|Middelhoven|5 B|6071PE|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60494|Middelhoven|5 C|6071PE|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60494|Middelhoven|5 D|6071PE|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61295|De Weerd|94|6041TL|Roermond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61984|Dorpsstraat|40|6082AP|Buggenum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11808|Waterloseweg|6 a|5954NX|Beesel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11808|Waterloseweg|6 b|5954NX|Beesel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11808|Waterloseweg|6 c|5954NX|Beesel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11808|Waterloseweg|6|5954NX|Beesel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12418|Beekweg|1|6042JJ|Roermond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16897|Bergerhofweg|15|5953NR|Reuver
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23628|Paredisstraat|8|6041JW|Roermond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23628|Paredisstraat|10|6041JW|Roermond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25362|Graeterweg|21|6071ND|Swalmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49134|Steegstraat|7 B|6041EA|Roermond

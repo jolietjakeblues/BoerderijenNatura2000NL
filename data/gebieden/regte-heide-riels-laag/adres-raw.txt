@@ -1,0 +1,89 @@
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12269 | Gorp | 5 A | 5081NB | Hilvarenbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12269 | Gorp | 5 | 5081NB | Hilvarenbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23095 | Oude Tilburgsebaan | 4 | 5131RM | Alphen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27200 | Gorp aan de Ley | 1 | 5081NZ | Hilvarenbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28605 | Brakel | 3 | 5133NG | Riel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31834 | Gorp | 6 | 5081NB | Hilvarenbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38761 | Roovert | 1 | 5081NA | Hilvarenbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38761 | Roovert | 1 A | 5081NA | Hilvarenbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40562 | Hoogeindseweg | 5 | 5051EA | Goirle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48906 | Roovert | 3 | 5081NA | Hilvarenbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48906 | Roovert | 2 | 5081NA | Hilvarenbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48906 | Roovert | 2 A | 5081NA | Hilvarenbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48906 | Roovert | 3 A | 5081NA | Hilvarenbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54419 | Bokhamerstraat | 13 | 5042GD | Tilburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69786 | Oude Hilvarenbeekseweg | 38 | 5022EN | Tilburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73430 | Goorstraat | 6 | 5051DH | Goirle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/76573 | Goorstraat | 4 | 5131RG | Alphen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/76575 | Goorstraat | 1 b | 5131RG | Alphen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/76576 | Goorstraat | 4 | 5131RG | Alphen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/76576 | Goorstraat | 5 | 5131RG | Alphen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78256 | Oosterwijksestraat | 12 | 5131NM | Alphen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78258 | Oosterwijksestraat | 12 | 5131NM | Alphen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10150 | Paterstraat | 63 | 5275AH | Den Dungen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12409 | Loonse Baan | 1 | 5268KT | Helvoirt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13007 | Haarsteegsestraat | 43 | 5254JN | Haarsteeg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14803 | Haanwijk | 5 | 5271VG | Sint-Michielsgestel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15600 | Cromvoirtseweg | 2 | 5268LJ | Helvoirt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19403 | Grinsel | 69 | 5275JN | Den Dungen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20840 | Paterstraat | 38 | 5275AJ | Den Dungen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20840 | Paterstraat | 40 | 5275AJ | Den Dungen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20883 | Bosscheweg | 20 | 5275HB | Den Dungen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21186 | Poeldonksedijk | 23 | 5275HK | Den Dungen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21778 | Giersbergen | 2 A | 5151RG | Drunen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22046 | Grinsel | 77 | 5275JN | Den Dungen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22046 | Grinsel | 79 | 5275JN | Den Dungen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23278 | Molenrijnselaan | 48 | 5262TN | Vught
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25816 | Molenstraat | 13 | 5268KD | Helvoirt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26757 | Bosscheweg | 42 | 5275HC | Den Dungen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27040 | Heusdenseweg | 17 | 5154EJ | Elshout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27852 | Biezenmortelsestraat | 20 | 5074RB | Biezenmortel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27879 | Halderse Akkers | 4 | 5271VP | Sint-Michielsgestel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27879 | Halderse Akkers | 4 A | 5271VP | Sint-Michielsgestel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27893 | Fellenoord | 4 | 5151RE | Drunen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31526 | St.-Lambertusstraat | 89 | 5266AD | Cromvoirt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31909 | Woudseweg | 25 | 5275JH | Den Dungen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32646 | Heikantstraat | 39 | 5261XM | Vught
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33492 | Hemelrijkstraat | 33 | 5271TX | Sint-Michielsgestel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33492 | Hemelrijkstraat | 33 A | 5271TX | Sint-Michielsgestel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34863 | Gravin Helenastraat | 3 | 5221CB | 's-Hertogenbosch
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36644 | Flaas | 2 | 5275HH | Den Dungen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37678 | Sint Janskerkhof | 8 | 5211LA | 's-Hertogenbosch
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37678 | Sint Janskerkhof | 8 A | 5211LA | 's-Hertogenbosch
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38173 | Grinsel | 71 | 5275JN | Den Dungen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40106 | Pepereind | 9 | 5266AJ | Cromvoirt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41684 | Molenstraat | 12 | 5268KE | Helvoirt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42748 | Molenstraat | 16 | 5268KE | Helvoirt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42977 | Poeldonksedijk | 2 | 5275HK | Den Dungen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43405 | Hooidonksestraat | 3 A | 5275HV | Den Dungen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43405 | Hooidonksestraat | 3 B | 5275HV | Den Dungen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43812 | Grotestraat | 47 | 5151JC | Drunen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44042 | Paterstraat | 37 A | 5275AG | Den Dungen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44042 | Paterstraat | 39 | 5275AG | Den Dungen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48811 | Bosscheweg | 24 | 5275HB | Den Dungen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49330 | Helvoirtsestraat | 10 | 5268BB | Helvoirt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49718 | Bosscheweg | 30 | 5275HB | Den Dungen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51062 | St.Jacobusstraat | 7 A | 5271XJ | Sint-Michielsgestel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51062 | St.Jacobusstraat | 7 | 5271XJ | Sint-Michielsgestel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51266 | Rijndonksestraat | 8 | 5275HJ | Den Dungen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52736 | Haarsteegsestraat | 76 | 5254JS | Haarsteeg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52736 | Haarsteegsestraat | 76 A | 5254JS | Haarsteeg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53483 | Meliestraat | 44 | 5251EJ | Vlijmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53483 | Meliestraat | 46 | 5251EJ | Vlijmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53831 | Nassau Dwarsstraat | 5 | 5251KJ | Vlijmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54431 | Kleinestraat | 19 | 5151AC | Drunen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54431 | Kleinestraat | 21 | 5151AC | Drunen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60932 | Deutersestraat | 4 | 5223GV | 's-Hertogenbosch
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61367 | Beemdweg | 1 | 5275HZ | Den Dungen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65707 | Bleijendijk | 5 | 5261NL | Vught
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68250 | Venstraat | 2 | 5271TV | Sint-Michielsgestel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70304 | Beukenhorst | 3 | 5262LG | Vught
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70304 | Beukenhorst | 3 A | 5262LG | Vught
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73082 | Haanwijk | 5 | 5271VG | Sint-Michielsgestel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75189 | Oud Herlaer | 1 | 5271TT | Sint-Michielsgestel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75191 | Oud Herlaer | 1 | 5271TT | Sint-Michielsgestel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77022 | Pleinsedijk | 1 | 5271SZ | Sint-Michielsgestel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77022 | Pleinsedijk | 1 A | 5271SZ | Sint-Michielsgestel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77263 | Wamberg | 16 | 5258SM | Berlicum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78385 | Sterrenbos | 2 | 5271TS | Sint-Michielsgestel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78386 | Sterrenbos | 2 | 5271TS | Sint-Michielsgestel
