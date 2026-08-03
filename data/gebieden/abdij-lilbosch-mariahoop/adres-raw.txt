@@ -1,0 +1,7 @@
+Gevonden: 3 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17616 | Ruijtersweg | 62 | 6101RB | Echt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35799 | Schrevenhofsweg | 20 | 6112AB | Sint Joost
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36855 | Huysdijk | 10 | 6065AX | Montfort

@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Abdij Lilbosch & voormalig Klooster Mariahoop &middot; Boerderij-rijksmonumenten &amp; Natura 2000</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+  :root{
+    --paper:#F4F7F8; --panel:#FFFFFF; --ink:#16324F; --ink-soft:#4A6579;
+    --blue-mid:#3E6C93; --alert:#D1401F; --line:#C9D6DE;
+    --n2k:#5E7D46; --n2k-bg:#E9F0E6; --n2k-text:#3B5230;
+    --k0:#7A1607; --k1:#D1401F; --k2:#E0703C; --k3:#E5B08E; --k4:#B7C7D2; --k5:#B7C7D2;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{background:var(--paper);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    line-height:1.5;padding:0 0 48px}
+  .wrap{max-width:760px;margin:0 auto;padding:0 16px}
+  .eyebrow{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--blue-mid);font-weight:600}
+  header{padding:18px 0 18px;border-bottom:2px solid var(--ink)}
+  h1{font-family:Palatino,"Palatino Linotype",Georgia,serif;font-size:27px;line-height:1.18;font-weight:700;margin-top:6px}
+  header p{margin-top:8px;font-size:14px;color:var(--ink-soft);
+    text-align:justify;-webkit-hyphens:auto;hyphens:auto}
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:16px 0}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:10px}
+  .stat .num{font-family:Palatino,Georgia,serif;font-size:20px;font-weight:700;line-height:1.05}
+  .stat.alert .num{color:var(--alert)}
+  .stat.neutral .num{color:var(--ink-soft)}
+  .stat .lbl{font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-soft);margin-top:3px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:14px;margin:14px 0}
+  .badge-richtlijn{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.04em;
+    text-transform:uppercase;padding:2px 8px;background:var(--n2k-bg);color:var(--n2k-text);border-radius:8px}
+  .richtlijn-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:8px}
+  .richtlijn-meta{font-size:12px;color:var(--ink-soft)}
+  .dk-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px}
+  .dk-item{background:var(--paper);border:1px solid var(--line);border-radius:2px;padding:8px 10px}
+  .dk-item b{font-family:Palatino,Georgia,serif;font-size:18px;display:block}
+  .dk-item span{font-size:11px;color:var(--ink-soft)}
+  .detail{display:none;font-size:12px;color:var(--ink)}
+  .detail.on{display:block}
+  .detail dl{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;margin-top:6px}
+  .detail dt{color:var(--ink-soft)}
+  .detail dd{margin:0}
+  .mon-list{margin-top:12px;font-size:12px}
+  .mon-list summary{cursor:pointer;color:var(--blue-mid);font-weight:600}
+  .mon-list table{width:100%;border-collapse:collapse;margin-top:8px;font-size:12px}
+  .mon-list th,.mon-list td{text-align:left;padding:4px 8px;border-bottom:1px solid var(--line)}
+  .mon-list th{color:var(--ink-soft);font-size:10px;letter-spacing:.04em;text-transform:uppercase}
+  .card h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue-mid);margin-bottom:8px}
+  #map{width:100%;height:480px;border:1px solid var(--line);border-radius:2px;background:var(--paper)}
+  .leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--ink);color:#fff}
+  .leaflet-popup-content{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:12px;margin:8px 10px}
+  .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:11px;color:var(--ink-soft);margin-top:8px}
+  .legend span{display:inline-flex;align-items:center;gap:5px}
+  .sw{width:9px;height:9px;border-radius:50%}
+  .sq{width:11px;height:11px;border-radius:2px}
+  .chips{display:flex;gap:8px;margin:10px 0 2px;flex-wrap:wrap}
+  .chip{padding:7px 12px;border:1.5px solid var(--ink);background:var(--panel);color:var(--ink);
+    font-size:12px;font-weight:600;cursor:pointer;border-radius:2px}
+  .chip.on{background:var(--ink);color:#fff}
+  .chip:focus-visible{outline:3px solid var(--alert);outline-offset:2px}
+  footer{margin-top:22px;font-size:12px;color:var(--ink-soft);border-top:1px solid var(--line);padding-top:14px}
+  footer p{margin-bottom:8px}
+  @media (max-width:480px){ h1{font-size:21px} .stats{grid-template-columns:repeat(3,1fr)} #map{height:360px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p style="font-size:13px;margin-top:14px"><a href="../index.html" style="color:var(--blue-mid)">&larr; terug naar overzicht alle Natura 2000-gebieden</a></p>
+  <header>
+    <div class="eyebrow">RCE &times; Kadaster &times; Natura 2000</div>
+    <h1>Abdij Lilbosch & voormalig Klooster Mariahoop</h1>
+    <div class="richtlijn-row">
+      <span class="badge-richtlijn">Habitatrichtlijn</span>
+      <span class="richtlijn-meta">Natura 2000-gebied nr. 151 &middot; sitecode NL2003002 &middot; stikstofgevoelig: nee</span>
+    </div>
+    <p>(nog geen beschrijving toegevoegd aan scripts/lib/gebieden-beschrijving.mjs) <a href="https://www.natura2000.nl/gebieden" style="color:var(--blue-mid)" target="_blank" rel="noopener">Bron: natura2000.nl &rarr;</a> &middot; <a href="https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/71ca4ecf-3457-45c5-a1a2-98556fd35f94" style="color:var(--blue-mid)" target="_blank" rel="noopener">RCE linked data &rarr;</a> &middot; <a href="http://www.wikidata.org/entity/Q13427923" style="color:var(--blue-mid)" target="_blank" rel="noopener">Wikidata &rarr;</a></p>
+    <p>Rijksmonumentale boerderijen binnen dit Natura 2000-gebied of binnen 5&nbsp;km
+    van de gebiedsrand (een gekozen selectievenster, geen ecologische invloedssfeer), met een
+    BAG-industriefunctie-indicatie op basis van BAG-gebruiksdoel (een aanwijzing, geen bewijs van
+    actieve bedrijfsvoering).</p>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="card">
+    <h2>Kaart &middot; elk punt is een rijksmonumentale boerderij</h2>
+    <div class="chips">
+      <button class="chip on" id="fAll" aria-pressed="true">Alle 3</button>
+      <button class="chip" id="fJa" aria-pressed="false">Alleen BAG-industriefunctie-indicatie</button>
+    </div>
+    <div id="map" aria-label="Kaart van het Natura 2000-gebied Abdij Lilbosch & voormalig Klooster Mariahoop met rijksmonumentale boerderijen, met een OpenStreetMap-ondergrond"></div>
+    <div class="legend">
+      <span><i class="sq" style="background:rgba(94,125,70,.3);border:1px solid var(--n2k)"></i>Natura 2000</span>
+      <span><i class="sw" style="background:var(--k0)"></i>erin</span>
+      <span><i class="sw" style="background:var(--k1)"></i>&lt;250 m</span>
+      <span><i class="sw" style="background:var(--k2)"></i>&lt;1 km</span>
+      <span><i class="sw" style="background:var(--k3)"></i>&lt;5 km</span>
+    </div>
+    <p style="font-size:12px;color:var(--ink-soft);margin-top:8px">Klik op een punt voor details ("waarom staat
+    dit punt hier?"), beweeg eroverheen voor een korte hint. Sleep om te verschuiven, scroll of gebruik de
+    +/&minus;-knoppen om in te zoomen op de werkelijke ligging. Bij omrande punten (donkerblauw, effen) is
+    eenduidig een industriefunctie in de BAG aangetroffen. Een dubbele donkerblauwe rand betekent: wel
+    industriefunctie gevonden, maar niet bij alle adressen van dit monument eenduidig (zie klik-detail).
+    Een gestippelde grijze rand: kon niet in de BAG worden gecontroleerd (geen adres bekend of geen match
+    gevonden). Op basis van de BAG-koppeling is hierover geen uitspraak mogelijk, dit is geen bevestiging
+    van afwezige bedrijfsvoering. Kaartondergrond: &copy; <a href="https://carto.com/attributions" target="_blank" rel="noopener" style="color:var(--blue-mid)">CARTO</a>
+    &amp; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener" style="color:var(--blue-mid)">OpenStreetMap</a>-auteurs.</p>
+    <div class="detail" id="detail"></div>
+    <details class="mon-list">
+      <summary>Lijst van alle 3 monumenten (toetsenbord- en schermlezer-toegankelijk)</summary>
+      <table>
+        <thead><tr><th>Rm-nr</th><th>Plaats</th><th>Afstand</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>14262</td><td>Echt</td><td>2.779 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>26520</td><td>Sint Joost</td><td>3.785 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>30068</td><td>Montfort</td><td>4.060 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+        </tbody>
+      </table>
+    </details>
+  </div>
+
+  
+  <div class="card">
+    <h2>Datakwaliteit &middot; peildatum 2026-08-03</h2>
+    <div class="dk-grid">
+      <div class="dk-item"><b>0</b><span>industriefunctie aangetroffen</span></div>
+      <div class="dk-item"><b>0</b><span>industriefunctie bij deel van adressen</span></div>
+      <div class="dk-item"><b>3</b><span>geen industriefunctie aangetroffen</span></div>
+      <div class="dk-item"><b>0</b><span>geen adres bekend in RCE</span></div>
+      <div class="dk-item"><b>0</b><span>geen match in BAG</span></div>
+      <div class="dk-item"><b>0</b><span>BAG-bevraging mislukt</span></div>
+      <div class="dk-item"><b>0</b><span>monumenten met meerdere adressen</span></div>
+    </div>
+  </div>
+
+  <footer>
+    <p><b>Methodiek.</b> Monumenten: RCE CHO-endpoint, rijksmonumenten met oorspronkelijke functie
+    Boerderij (M/M1), binnen 5&nbsp;km van of daadwerkelijk binnen het Natura 2000-gebied. Natura 2000-geometrie:
+    officiële landelijke WFS (service.pdok.nl/rvo/natura2000). Afstand: monumentpunt tot de daadwerkelijke
+    gebiedsrand. Provincie: point-in-polygon tegen de PDOK-bestuurlijke grenzen. BAG-industriefunctie-indicatie:
+    BAG-gebruiksdoel (open WFS bag:verblijfsobject), gematcht op postcode en huisnummer; industriefunctie
+    op een boerderijadres geldt als BAG-industriefunctie-indicatie: een aanwijzing, geen bewijs van
+    actieve agrarische bedrijfsvoering. Monumenten met uitsluitend woonfunctie zijn conservatief niet als
+    zodanig geteld; dat betekent een afwezige industriefunctie-aanwijzing, geen bevestiging dat er geen
+    bedrijf is. Monumenten zonder BAG-adres in RCE of zonder match in de BAG-zoekbox staan apart als
+    "BAG niet te controleren". Peildatum 2026-08-03.</p>
+    <p><b>Kanttekeningen.</b> Dit is een blootstellingskaart: er is g&eacute;&eacute;n emissiedata (AERIUS/RAV)
+    verwerkt. De industriefunctie-vlag is een indicatie, geen bewijs van actieve bedrijfsvoering of
+    stikstofuitstoot. Geen van de statuscategorie&euml;n op deze pagina is een uitspraak over daadwerkelijke
+    bedrijfsvoering, alleen over wat wel of niet in de BAG is aangetroffen.</p>
+  </footer>
+</div>
+<script id="data" type="application/json">{"gebied":"Abdij Lilbosch & voormalig Klooster Mariahoop","peildatum":"2026-08-03","n":3,"ja":0,"onbekend":0,"provCounts":{"Limburg":3},"provJaCounts":{},"datakwaliteit":{"industrieAangetroffen":0,"industrieDeelsAangetroffen":0,"geenIndustrieAangetroffen":3,"geenAdres":0,"geenMatch":0,"bagMislukt":0,"meerdereAdressen":0},"bbox":[5.859801889520752,51.067063601460795,5.9853391923988655,51.13883954660078],"n2000":[{"naam":"Abdij Lilbosch & voormalig Klooster Mariahoop","rings":[[[5.916062076898943,51.08355030681149],[5.916027888038319,51.08356394614535],[5.916365517433727,51.0839728064976],[5.9156120323144945,51.084206584103036],[5.915486263906606,51.084245642396006],[5.915192346112563,51.08434136492167],[5.9151172542275505,51.0843658636866],[5.914973199229323,51.0844047224204],[5.914765942085481,51.08422139420573],[5.914572912320523,51.08403406556507],[5.914475022233674,51.08393703652962],[5.9140972200082915,51.08354324077556],[5.914000340046061,51.083436656913996],[5.913893021315832,51.0833121407238],[5.913709828192222,51.08305264238378],[5.9132613193565255,51.08249643743966],[5.914577007449335,51.08209524337704],[5.914678770669518,51.082063601460796],[5.914704322088569,51.08209466423913],[5.91492976513902,51.082367241794124],[5.91500905615865,51.08245705069318],[5.91521880056307,51.08270216784869],[5.915721253586009,51.08329005805098],[5.915812771684114,51.08325902275551],[5.916062076898943,51.08355030681149]],[[5.966294683837536,51.08786918233773],[5.966686946496112,51.087924894698006],[5.966951164617561,51.087962426496425],[5.967075742812167,51.08798012058107],[5.967326512358198,51.08801573759066],[5.967681804424186,51.08806619856328],[5.968422510890829,51.088171398777106],[5.969627444394995,51.088342536319864],[5.970329799507428,51.08844231682286],[5.970339192398866,51.08844365390303],[5.97024802717513,51.08898621167809],[5.970243962827398,51.08901036932441],[5.9700977148412395,51.08988083067719],[5.97009399967239,51.08990304404372],[5.9700299305706634,51.09028449974639],[5.970012677572606,51.09038723072775],[5.969999061206034,51.09046830785249],[5.969986105988101,51.09054535369072],[5.969972832440853,51.0906243166787],[5.9699600391702115,51.090700519432296],[5.9699424500950595,51.09080513977663],[5.96992548789778,51.09090618025262],[5.969912071597633,51.09098605992725],[5.96989920787063,51.09106257584377],[5.969885814815534,51.091142269326234],[5.969872405691259,51.09122205008082],[5.969857686928941,51.09130966771463],[5.9698561871190945,51.091318602206684],[5.969798657904042,51.091623672499765],[5.969779189702995,51.09173551141821],[5.9697704445309325,51.09178583251514],[5.96975636954029,51.091839321129875],[5.96974674821375,51.09185753708259],[5.969730457148032,51.091888423241755],[5.969702058748178,51.0919421950236],[5.969659239115907,51.09198063030252],[5.969627059861289,51.09200952157118],[5.969588868095817,51.09204380944125],[5.96935065047511,51.091988912216436],[5.968750926882893,51.091850165243876],[5.968113589276817,51.091703514383134],[5.9678685700033105,51.091644144710806],[5.9671874259750854,51.09147068719586],[5.965532815613609,51.09105250085349],[5.965516295219124,51.09104751433736],[5.965492216713093,51.09104024634456],[5.9651519146309235,51.09093752469024],[5.965140886467429,51.090934778674054],[5.965046641717233,51.09091131416601],[5.964964940105328,51.09089097279789],[5.964915402265113,51.09087863856562],[5.965128678909225,51.0907122265263],[5.9651507820817935,51.090694979804034],[5.965198746503147,51.0905804836808],[5.96551747397525,51.08970893793047],[5.965716836039006,51.08916377158544],[5.965777550043545,51.08899633574396],[5.966182241062614,51.087879964154844],[5.9661914637696185,51.087854523348504],[5.966294683837536,51.08786918233773]]]}],"mons":[{"nr":"14262","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17616","functie":"Boerderij","wpl":"Echt","straat":"Ruijtersweg","huisnr":"62","prov":"Limburg","k":3,"d":2779,"erin":false,"afstandTotRand":2779,"lon":5.874801889520752,"lat":51.08876967482208,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Ruijtersweg","huisnr":"62","postcode":"6101RB","woonplaats":"Echt","gebruiksdoel":"woonfunctie"}],"matched":[{"huisnummer":62,"huisletter":"","postcode":"6101RB","gebruiksdoel":"woonfunctie"}]},{"nr":"26520","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35799","functie":"Boerderij","wpl":"Sint Joost","straat":"Schrevenhofsweg","huisnr":"20","prov":"Limburg","k":3,"d":3785,"erin":false,"afstandTotRand":3785,"lon":5.908919724110485,"lat":51.118194861528,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Schrevenhofsweg","huisnr":"20","postcode":"6112AB","woonplaats":"Sint Joost","gebruiksdoel":"woonfunctie"}],"matched":[{"huisnummer":20,"huisletter":"","postcode":"6112AB","gebruiksdoel":"woonfunctie"}]},{"nr":"30068","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36855","functie":"Boerderij","wpl":"Montfort","straat":"Huysdijk","huisnr":"10","prov":"Limburg","k":3,"d":4060,"erin":false,"afstandTotRand":4060,"lon":5.94006553272557,"lat":51.12383954660078,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Huysdijk","huisnr":"10","postcode":"6065AX","woonplaats":"Montfort","gebruiksdoel":"woonfunctie"}],"matched":[{"huisnummer":10,"huisletter":"","postcode":"6065AX","gebruiksdoel":"woonfunctie"}]}],"richtlijn":{"gebiedsnummer":"151","label":"Habitatrichtlijn","badge":"HR","heeftGroeveOnderdeel":false,"siteCodeVogelrichtlijn":null,"siteCodeHabitatrichtlijn":"NL2003002","stikstofgevoelig":false,"natura2000Status":"Natura 2000-besluit 2010","wikidata":"http://www.wikidata.org/entity/Q13427923","rceUris":["https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/71ca4ecf-3457-45c5-a1a2-98556fd35f94"]}}</script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const D = JSON.parse(document.getElementById('data').textContent);
+const $ = id => document.getElementById(id);
+const fmt = n => n.toLocaleString('nl-NL');
+const KC = ['#7A1607','#D1401F','#E0703C','#E5B08E','#B7C7D2','#B7C7D2'];
+const KN = ['erin','<250 m','<1 km','<5 km','<25 km','\u226525 km'];
+let filterJa = false;
+
+$('stats').innerHTML = `
+  <div class="stat"><div class="num">${fmt(D.n)}</div><div class="lbl">rijksmonumentale boerderijen</div></div>
+  <div class="stat alert"><div class="num">${fmt(D.ja)}</div><div class="lbl">BAG-industriefunctie-indicatie</div></div>
+  <div class="stat neutral"><div class="num">${fmt(D.onbekend)}</div><div class="lbl">BAG niet te controleren</div></div>`;
+
+const map = L.map('map', { scrollWheelZoom: false });
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &copy; OpenStreetMap contributors',
+  maxZoom: 19
+}).addTo(map);
+const [bx0,by0,bx1,by1] = D.bbox;
+map.fitBounds([[by0,bx0],[by1,bx1]], { padding: [10,10] });
+
+const n2000Layer = L.layerGroup().addTo(map);
+D.n2000.forEach(g => g.rings.forEach(ring => {
+  L.polygon(ring.map(([lon,lat]) => [lat,lon]), {
+    color: '#5E7D46', weight: 1, fillColor: '#5E7D46', fillOpacity: 0.28, interactive: false
+  }).addTo(n2000Layer);
+}));
+
+const STATUS_LABEL = {
+  industrie_aangetroffen: 'Industriefunctie aangetroffen (eenduidig)',
+  industrie_deels_aangetroffen: 'Industriefunctie aangetroffen bij een deel van de adressen',
+  geen_industrie_aangetroffen: 'Geen industriefunctie aangetroffen',
+  geen_adres: 'BAG niet te controleren \u2014 geen adres bekend in RCE',
+  geen_match: 'BAG niet te controleren \u2014 geen match gevonden',
+  bag_mislukt: 'BAG niet te controleren \u2014 bevraging mislukt'
+};
+const detail = $('detail');
+function toonDetail(m){
+  const adressenHtml = (m.addressen||[]).map((a,i)=>
+    `<dt>adres ${i+1}</dt><dd>${a.straat} ${a.huisnr}, ${a.postcode} ${a.woonplaats}${a.gebruiksdoel ? ', gebruiksdoel: '+a.gebruiksdoel : ', geen BAG-match'}</dd>`
+  ).join('');
+  detail.innerHTML = `<dl>
+    <dt>rijksmonumentnummer</dt><dd>${m.nr}${m.rm ? ` (<a href="${m.rm}" target="_blank" rel="noopener" style="color:var(--blue-mid)">RCE-bron &rarr;</a>)` : ''}</dd>
+    <dt>oorspronkelijke functie</dt><dd>${m.functie||'onbekend'}</dd>
+    <dt>ligging</dt><dd>${m.erin ? 'binnen het Natura 2000-gebied' : `${fmt(m.afstandTotRand)} m van de gebiedsrand`} \u00b7 ${KN[m.k]}-klasse \u00b7 ${m.prov}</dd>
+    <dt>status</dt><dd>${STATUS_LABEL[m.status]||m.status}</dd>
+    ${adressenHtml}
+    <dt>peildatum</dt><dd>2026-08-03</dd>
+  </dl>`;
+  detail.classList.add('on');
+}
+
+const monLayer = L.layerGroup().addTo(map);
+function renderMarkers(){
+  monLayer.clearLayers();
+  [...D.mons].sort((a,b)=>b.k-a.k).forEach(m=>{
+    if(filterJa && !m.ja) return;
+    const r = m.k<=1 ? 5 : m.k===2 ? 4.4 : 3.8;
+    const marker = L.circleMarker([m.lat,m.lon], { radius:r, fillColor:KC[m.k], fillOpacity:0.9, weight:1, color:KC[m.k] });
+    if(m.status==='industrie_deels_aangetroffen'){
+      marker.setStyle({color:'#16324F', weight:1.3});
+      L.circleMarker([m.lat,m.lon], { radius:r+2.2, fill:false, color:'#16324F', weight:1.3, interactive:false }).addTo(monLayer);
+    } else if(m.ja){
+      marker.setStyle({color:'#16324F', weight:1.3});
+    } else if(m.bag!=='ok'){
+      marker.setStyle({color:'#8A8A8A', weight:1, dashArray:'2,2'});
+    }
+    marker.bindTooltip(
+      `rm ${m.nr} \u00b7 ${m.straat||''} ${m.huisnr||''}, ${m.wpl||''} \u00b7 ${m.prov} \u00b7 ${KN[m.k]} van Abdij Lilbosch & voormalig Klooster Mariahoop`+
+      (m.d>0 ? ` (${fmt(m.d)} m)` : '') + (m.ja ? ' \u00b7 BAG-industriefunctie-indicatie' : (m.bag!=='ok' ? ' \u00b7 BAG niet te controleren' : ''))
+    );
+    marker.on('click', ()=>toonDetail(m));
+    marker.addTo(monLayer);
+  });
+}
+renderMarkers();
+
+if($('fAll')){
+  $('fAll').onclick=()=>{filterJa=false;$('fAll').classList.add('on');$('fAll').setAttribute('aria-pressed','true');$('fJa').classList.remove('on');$('fJa').setAttribute('aria-pressed','false');renderMarkers();};
+  $('fJa').onclick=()=>{filterJa=true;$('fJa').classList.add('on');$('fJa').setAttribute('aria-pressed','true');$('fAll').classList.remove('on');$('fAll').setAttribute('aria-pressed','false');renderMarkers();};
+}
+window.addEventListener('resize',()=>map.invalidateSize());
+</script>
+</body>
+</html>

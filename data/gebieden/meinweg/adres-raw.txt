@@ -1,0 +1,18 @@
+Gevonden: 14 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12418 | Beekweg | 1 | 6042JJ | Roermond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23628 | Paredisstraat | 8 | 6041JW | Roermond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23628 | Paredisstraat | 10 | 6041JW | Roermond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24459 | Steegstraat | 82 | 6075AD | Herkenbosch
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26174 | Heinsbergerweg | 3 | 6074AC | Melick
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38455 | Leropperweg | 32 | 6077NX | Sint Odiliënberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43122 | Hammerstraat | 21 | 6075AJ | Herkenbosch
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43229 | Straat | 11 | 6042KV | Roermond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43229 | Straat | 13 | 6042KV | Roermond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48493 | Kasteellaan | 1 | 6075EZ | Herkenbosch
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49134 | Steegstraat | 7 B | 6041EA | Roermond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56148 | Kloosterweg | 95 | 6044XX | Roermond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57515 | Heinsbergerweg | 9 | 6074AC | Melick
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68927 | Frymerson | 1 | 6077NS | Sint Odiliënberg
