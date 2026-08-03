@@ -43,7 +43,9 @@ const gebieden = slugs.map(slug => {
     provincies: provs,
     sectieProvincies: sectieProvincies.length ? sectieProvincies : ['Niet in te delen'],
     richtlijnBadge: D.richtlijn?.badge || null,
+    stikstofgevoelig: D.richtlijn?.stikstofgevoelig ?? null,
     n: D.n, ja: D.ja, onbekend: D.onbekend,
+    peildatum: D.peildatum,
     href: `gebieden/${slug}.html`
   };
 }).sort((a, b) => a.naam.localeCompare(b.naam));
@@ -57,8 +59,14 @@ const totaal = {
 
 function gcard(g) {
   const status = g.n === 0 ? 'Geen boerderijen gevonden' : null;
+  const stikstofAttr = g.stikstofgevoelig === true ? 'ja' : g.stikstofgevoelig === false ? 'nee' : '';
   return `
-      <a class="gcard" href="${g.href}">
+      <a class="gcard" href="${g.href}"
+        data-naam="${g.naam.toLowerCase()}"
+        data-richtlijn="${g.richtlijnBadge || ''}"
+        data-stikstof="${stikstofAttr}"
+        data-n="${g.n}"
+        data-peildatum="${g.peildatum || ''}">
         <div class="gcard-top">
           ${status ? `<span class="gcard-status">${status}</span>` : ''}
           ${g.richtlijnBadge ? `<span class="badge-richtlijn">${g.richtlijnBadge}</span>` : ''}
@@ -94,12 +102,16 @@ const jumpNav = provincieVolgorde.map(p =>
 const provincieSections = provincieVolgorde.map(p => {
   const lijst = provincieSecties.get(p);
   return `
-  <div class="card" id="prov-${provincieSlug(p)}">
-    <h2>${p} &middot; ${lijst.length} gebied${lijst.length === 1 ? '' : 'en'}</h2>
+  <div class="card prov-sectie" id="prov-${provincieSlug(p)}" data-provincie="${p}">
+    <h2>${p} &middot; <span class="sectie-teller">${lijst.length} van ${lijst.length}</span> gebied${lijst.length === 1 ? '' : 'en'}</h2>
     <div class="gebieden-grid">${lijst.map(gcard).join('\n')}
     </div>
   </div>`;
 }).join('\n');
+
+const richtlijnWaarden = [...new Set(gebieden.map(g => g.richtlijnBadge).filter(Boolean))].sort();
+const provincieOpties = provincieVolgorde.map(p => `<option value="${p}">${p}</option>`).join('\n      ');
+const richtlijnOpties = richtlijnWaarden.map(r => `<option value="${r}">${r}</option>`).join('\n      ');
 
 const html = `<!DOCTYPE html>
 <html lang="nl">
@@ -149,6 +161,11 @@ const html = `<!DOCTYPE html>
     background:var(--panel);color:var(--ink);text-decoration:none}
   .jumpnav a:hover{border-color:var(--ink)}
   .jumpnav-note{font-size:12px;color:var(--ink-soft);margin:-8px 0 4px}
+  .filterbar{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 18px}
+  .filterbar input,.filterbar select{font-size:13px;padding:6px 8px;border:1px solid var(--line);
+    border-radius:2px;background:var(--panel);color:var(--ink);font-family:inherit}
+  .filterbar input[type=search]{flex:1 1 200px;min-width:160px}
+  .filterbar select{flex:0 0 auto}
   footer{margin-top:22px;font-size:12px;color:var(--ink-soft);border-top:1px solid var(--line);padding-top:14px}
   footer p{margin-bottom:8px}
   @media (max-width:480px){ h1{font-size:24px} .stats{grid-template-columns:repeat(2,1fr)} }
@@ -180,6 +197,28 @@ const html = `<!DOCTYPE html>
   <p class="jumpnav-note">Provincie is een weergavelaag: een gebied dat over een provinciegrens
   heen ligt (bv. Rijntakken, Gelderland/Overijssel) staat in elke provincie waarin het (deels) ligt;
   het aantal gebieden per sectie telt dus niet op tot ${totaal.gebieden}.</p>
+
+  <div class="filterbar" id="filterbar">
+    <input type="search" id="fbZoek" placeholder="Zoek op gebiedsnaam&hellip;" aria-label="Zoek op gebiedsnaam">
+    <select id="fbProvincie" aria-label="Filter op provincie">
+      <option value="">Alle provincies</option>
+      ${provincieOpties}
+    </select>
+    <select id="fbRichtlijn" aria-label="Filter op richtlijn">
+      <option value="">VR/HR: alle</option>
+      ${richtlijnOpties}
+    </select>
+    <select id="fbStikstof" aria-label="Filter op stikstofgevoeligheid">
+      <option value="">Stikstofgevoelig: alle</option>
+      <option value="ja">Stikstofgevoelig: ja</option>
+      <option value="nee">Stikstofgevoelig: nee</option>
+    </select>
+    <select id="fbSorteer" aria-label="Sorteer gebieden binnen elke provincie">
+      <option value="naam">Sorteer: naam</option>
+      <option value="n">Sorteer: aantal boerderijen</option>
+      <option value="peildatum">Sorteer: peildatum</option>
+    </select>
+  </div>
 ${provincieSections}
 
   <footer>
@@ -197,6 +236,63 @@ ${provincieSections}
     industriefunctie-vlag is een indicatie, geen bewijs.</p>
   </footer>
 </div>
+<script>
+// Zoek/filter/sorteer op de landingspagina. Werkt volledig op wat de server
+// al rendert (elke provincie-sectie met al zijn gcards staat er hoe dan ook,
+// zie de HTML hierboven) -- zonder JavaScript blijft dus gewoon de volledige
+// indeling zichtbaar, deze laag verbergt/herordent alleen client-side.
+(function(){
+  const zoekEl = document.getElementById('fbZoek');
+  const provincieEl = document.getElementById('fbProvincie');
+  const richtlijnEl = document.getElementById('fbRichtlijn');
+  const stikstofEl = document.getElementById('fbStikstof');
+  const sorteerEl = document.getElementById('fbSorteer');
+  if (!zoekEl) return;
+
+  function toepassenFilters(){
+    const zoekterm = zoekEl.value.trim().toLowerCase();
+    const provincie = provincieEl.value;
+    const richtlijn = richtlijnEl.value;
+    const stikstof = stikstofEl.value;
+    document.querySelectorAll('.prov-sectie').forEach(sectie => {
+      if (provincie && sectie.dataset.provincie !== provincie) {
+        sectie.style.display = 'none';
+        return;
+      }
+      let zichtbaarAantal = 0;
+      const kaarten = sectie.querySelectorAll('.gcard');
+      kaarten.forEach(kaart => {
+        const matchZoek = !zoekterm || kaart.dataset.naam.includes(zoekterm);
+        const matchRichtlijn = !richtlijn || kaart.dataset.richtlijn === richtlijn;
+        const matchStikstof = !stikstof || kaart.dataset.stikstof === stikstof;
+        const zichtbaar = matchZoek && matchRichtlijn && matchStikstof;
+        kaart.style.display = zichtbaar ? '' : 'none';
+        if (zichtbaar) zichtbaarAantal++;
+      });
+      sectie.style.display = zichtbaarAantal > 0 ? '' : 'none';
+      const teller = sectie.querySelector('.sectie-teller');
+      if (teller) teller.textContent = zichtbaarAantal + ' van ' + kaarten.length;
+    });
+  }
+
+  function toepassenSortering(){
+    const sortKey = sorteerEl.value;
+    document.querySelectorAll('.gebieden-grid').forEach(grid => {
+      const kaarten = [...grid.querySelectorAll('.gcard')];
+      kaarten.sort((a, b) => {
+        if (sortKey === 'n') return Number(b.dataset.n) - Number(a.dataset.n);
+        if (sortKey === 'peildatum') return (b.dataset.peildatum||'').localeCompare(a.dataset.peildatum||'');
+        return a.dataset.naam.localeCompare(b.dataset.naam);
+      });
+      kaarten.forEach(k => grid.appendChild(k));
+    });
+  }
+
+  zoekEl.addEventListener('input', toepassenFilters);
+  [provincieEl, richtlijnEl, stikstofEl].forEach(el => el.addEventListener('change', toepassenFilters));
+  sorteerEl.addEventListener('change', toepassenSortering);
+})();
+</script>
 </body>
 </html>
 `;

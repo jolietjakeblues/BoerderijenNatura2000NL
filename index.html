@@ -46,6 +46,11 @@
     background:var(--panel);color:var(--ink);text-decoration:none}
   .jumpnav a:hover{border-color:var(--ink)}
   .jumpnav-note{font-size:12px;color:var(--ink-soft);margin:-8px 0 4px}
+  .filterbar{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0 18px}
+  .filterbar input,.filterbar select{font-size:13px;padding:6px 8px;border:1px solid var(--line);
+    border-radius:2px;background:var(--panel);color:var(--ink);font-family:inherit}
+  .filterbar input[type=search]{flex:1 1 200px;min-width:160px}
+  .filterbar select{flex:0 0 auto}
   footer{margin-top:22px;font-size:12px;color:var(--ink-soft);border-top:1px solid var(--line);padding-top:14px}
   footer p{margin-bottom:8px}
   @media (max-width:480px){ h1{font-size:24px} .stats{grid-template-columns:repeat(2,1fr)} }
@@ -87,10 +92,49 @@
   heen ligt (bv. Rijntakken, Gelderland/Overijssel) staat in elke provincie waarin het (deels) ligt;
   het aantal gebieden per sectie telt dus niet op tot 53.</p>
 
-  <div class="card" id="prov-drenthe">
-    <h2>Drenthe &middot; 4 gebieden</h2>
+  <div class="filterbar" id="filterbar">
+    <input type="search" id="fbZoek" placeholder="Zoek op gebiedsnaam&hellip;" aria-label="Zoek op gebiedsnaam">
+    <select id="fbProvincie" aria-label="Filter op provincie">
+      <option value="">Alle provincies</option>
+      <option value="Drenthe">Drenthe</option>
+      <option value="Fryslân">Fryslân</option>
+      <option value="Gelderland">Gelderland</option>
+      <option value="Groningen">Groningen</option>
+      <option value="Limburg">Limburg</option>
+      <option value="Noord-Brabant">Noord-Brabant</option>
+      <option value="Overijssel">Overijssel</option>
+      <option value="Utrecht">Utrecht</option>
+      <option value="Zeeland">Zeeland</option>
+      <option value="Zuid-Holland">Zuid-Holland</option>
+    </select>
+    <select id="fbRichtlijn" aria-label="Filter op richtlijn">
+      <option value="">VR/HR: alle</option>
+      <option value="HR">HR</option>
+      <option value="HR + groeve">HR + groeve</option>
+      <option value="VR">VR</option>
+      <option value="VR+HR">VR+HR</option>
+    </select>
+    <select id="fbStikstof" aria-label="Filter op stikstofgevoeligheid">
+      <option value="">Stikstofgevoelig: alle</option>
+      <option value="ja">Stikstofgevoelig: ja</option>
+      <option value="nee">Stikstofgevoelig: nee</option>
+    </select>
+    <select id="fbSorteer" aria-label="Sorteer gebieden binnen elke provincie">
+      <option value="naam">Sorteer: naam</option>
+      <option value="n">Sorteer: aantal boerderijen</option>
+      <option value="peildatum">Sorteer: peildatum</option>
+    </select>
+  </div>
+
+  <div class="card prov-sectie" id="prov-drenthe" data-provincie="Drenthe">
+    <h2>Drenthe &middot; <span class="sectie-teller">4 van 4</span> gebieden</h2>
     <div class="gebieden-grid">
-      <a class="gcard" href="gebieden/drouwenerzand.html">
+      <a class="gcard" href="gebieden/drouwenerzand.html"
+        data-naam="drouwenerzand"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="8"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -103,7 +147,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/elperstroomgebied.html">
+      <a class="gcard" href="gebieden/elperstroomgebied.html"
+        data-naam="elperstroomgebied"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="33"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -116,7 +165,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/norgerholt.html">
+      <a class="gcard" href="gebieden/norgerholt.html"
+        data-naam="norgerholt"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="44"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -129,7 +183,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/witterveld.html">
+      <a class="gcard" href="gebieden/witterveld.html"
+        data-naam="witterveld"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="8"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -144,10 +203,15 @@
     </div>
   </div>
 
-  <div class="card" id="prov-frysl-n">
-    <h2>Fryslân &middot; 1 gebied</h2>
+  <div class="card prov-sectie" id="prov-frysl-n" data-provincie="Fryslân">
+    <h2>Fryslân &middot; <span class="sectie-teller">1 van 1</span> gebied</h2>
     <div class="gebieden-grid">
-      <a class="gcard" href="gebieden/bakkeveense-duinen.html">
+      <a class="gcard" href="gebieden/bakkeveense-duinen.html"
+        data-naam="bakkeveense duinen"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="6"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -162,10 +226,15 @@
     </div>
   </div>
 
-  <div class="card" id="prov-gelderland">
-    <h2>Gelderland &middot; 10 gebieden</h2>
+  <div class="card prov-sectie" id="prov-gelderland" data-provincie="Gelderland">
+    <h2>Gelderland &middot; <span class="sectie-teller">10 van 10</span> gebieden</h2>
     <div class="gebieden-grid">
-      <a class="gcard" href="gebieden/bekendelle.html">
+      <a class="gcard" href="gebieden/bekendelle.html"
+        data-naam="bekendelle"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="25"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -178,7 +247,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/binnenveld.html">
+      <a class="gcard" href="gebieden/binnenveld.html"
+        data-naam="binnenveld"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="6"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -191,7 +265,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/de-bruuk.html">
+      <a class="gcard" href="gebieden/de-bruuk.html"
+        data-naam="de bruuk"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="0"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           <span class="gcard-status">Geen boerderijen gevonden</span>
           <span class="badge-richtlijn">HR</span>
@@ -204,7 +283,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/kolland-overlangbroek.html">
+      <a class="gcard" href="gebieden/kolland-overlangbroek.html"
+        data-naam="kolland & overlangbroek"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="100"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -217,7 +301,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/korenburgerveen.html">
+      <a class="gcard" href="gebieden/korenburgerveen.html"
+        data-naam="korenburgerveen"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="24"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -230,7 +319,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/landgoederen-brummen.html">
+      <a class="gcard" href="gebieden/landgoederen-brummen.html"
+        data-naam="landgoederen brummen"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="59"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -243,7 +337,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/rijntakken.html">
+      <a class="gcard" href="gebieden/rijntakken.html"
+        data-naam="rijntakken – ijssel-traject"
+        data-richtlijn="VR+HR"
+        data-stikstof="ja"
+        data-n="241"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">VR+HR</span>
@@ -256,7 +355,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/stelkampsveld.html">
+      <a class="gcard" href="gebieden/stelkampsveld.html"
+        data-naam="stelkampsveld"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="25"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -269,7 +373,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/willinks-weust.html">
+      <a class="gcard" href="gebieden/willinks-weust.html"
+        data-naam="willinks weust"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="21"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -282,7 +391,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/wooldse-veen.html">
+      <a class="gcard" href="gebieden/wooldse-veen.html"
+        data-naam="wooldse veen"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="10"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -297,10 +411,15 @@
     </div>
   </div>
 
-  <div class="card" id="prov-groningen">
-    <h2>Groningen &middot; 1 gebied</h2>
+  <div class="card prov-sectie" id="prov-groningen" data-provincie="Groningen">
+    <h2>Groningen &middot; <span class="sectie-teller">1 van 1</span> gebied</h2>
     <div class="gebieden-grid">
-      <a class="gcard" href="gebieden/lieftinghsbroek.html">
+      <a class="gcard" href="gebieden/lieftinghsbroek.html"
+        data-naam="lieftinghsbroek"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="14"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -315,10 +434,15 @@
     </div>
   </div>
 
-  <div class="card" id="prov-limburg">
-    <h2>Limburg &middot; 22 gebieden</h2>
+  <div class="card prov-sectie" id="prov-limburg" data-provincie="Limburg">
+    <h2>Limburg &middot; <span class="sectie-teller">22 van 22</span> gebieden</h2>
     <div class="gebieden-grid">
-      <a class="gcard" href="gebieden/abdij-lilbosch-mariahoop.html">
+      <a class="gcard" href="gebieden/abdij-lilbosch-mariahoop.html"
+        data-naam="abdij lilbosch & voormalig klooster mariahoop"
+        data-richtlijn="HR"
+        data-stikstof="nee"
+        data-n="3"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -331,7 +455,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/bemelerberg-schiepersberg.html">
+      <a class="gcard" href="gebieden/bemelerberg-schiepersberg.html"
+        data-naam="bemelerberg & schiepersberg"
+        data-richtlijn="HR + groeve"
+        data-stikstof="ja"
+        data-n="220"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR + groeve</span>
@@ -344,7 +473,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/boschhuizerbergen.html">
+      <a class="gcard" href="gebieden/boschhuizerbergen.html"
+        data-naam="boschhuizerbergen"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="12"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -357,7 +491,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/brunssummerheide.html">
+      <a class="gcard" href="gebieden/brunssummerheide.html"
+        data-naam="brunssummerheide"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="92"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -370,7 +509,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/bunder-elslooerbos.html">
+      <a class="gcard" href="gebieden/bunder-elslooerbos.html"
+        data-naam="bunder- en elslooërbos"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="77"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -383,7 +527,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/deurnsche-peel-mariapeel.html">
+      <a class="gcard" href="gebieden/deurnsche-peel-mariapeel.html"
+        data-naam="deurnsche peel & mariapeel"
+        data-richtlijn="VR+HR"
+        data-stikstof="ja"
+        data-n="8"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">VR+HR</span>
@@ -396,7 +545,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/geleenbeekdal.html">
+      <a class="gcard" href="gebieden/geleenbeekdal.html"
+        data-naam="geleenbeekdal"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="296"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -409,7 +563,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/geuldal.html">
+      <a class="gcard" href="gebieden/geuldal.html"
+        data-naam="geuldal"
+        data-richtlijn="HR + groeve"
+        data-stikstof="ja"
+        data-n="599"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR + groeve</span>
@@ -422,7 +581,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/grensmaas.html">
+      <a class="gcard" href="gebieden/grensmaas.html"
+        data-naam="grensmaas"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="143"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -435,7 +599,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/kunderberg.html">
+      <a class="gcard" href="gebieden/kunderberg.html"
+        data-naam="kunderberg"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="128"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -448,7 +617,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/leudal.html">
+      <a class="gcard" href="gebieden/leudal.html"
+        data-naam="leudal"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="22"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -461,7 +635,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/maasduinen.html">
+      <a class="gcard" href="gebieden/maasduinen.html"
+        data-naam="maasduinen"
+        data-richtlijn="VR+HR"
+        data-stikstof="ja"
+        data-n="24"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">VR+HR</span>
@@ -474,7 +653,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/meinweg.html">
+      <a class="gcard" href="gebieden/meinweg.html"
+        data-naam="meinweg"
+        data-richtlijn="VR+HR"
+        data-stikstof="ja"
+        data-n="13"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">VR+HR</span>
@@ -487,7 +671,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/noorbeemden-hoogbos.html">
+      <a class="gcard" href="gebieden/noorbeemden-hoogbos.html"
+        data-naam="noorbeemden & hoogbos"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="142"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -500,7 +689,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/roerdal.html">
+      <a class="gcard" href="gebieden/roerdal.html"
+        data-naam="roerdal"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="31"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -513,7 +707,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/sarsven-de-banen.html">
+      <a class="gcard" href="gebieden/sarsven-de-banen.html"
+        data-naam="sarsven en de banen"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="6"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -526,7 +725,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/savelsbos.html">
+      <a class="gcard" href="gebieden/savelsbos.html"
+        data-naam="savelsbos"
+        data-richtlijn="HR + groeve"
+        data-stikstof="ja"
+        data-n="235"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR + groeve</span>
@@ -539,7 +743,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/sint-jansberg.html">
+      <a class="gcard" href="gebieden/sint-jansberg.html"
+        data-naam="sint jansberg"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="4"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -552,7 +761,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/sint-pietersberg-jekerdal.html">
+      <a class="gcard" href="gebieden/sint-pietersberg-jekerdal.html"
+        data-naam="sint pietersberg & jekerdal"
+        data-richtlijn="HR + groeve"
+        data-stikstof="ja"
+        data-n="65"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR + groeve</span>
@@ -565,7 +779,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/swalmdal.html">
+      <a class="gcard" href="gebieden/swalmdal.html"
+        data-naam="swalmdal"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="22"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -578,7 +797,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/weerter-budelerbergen-ringselven.html">
+      <a class="gcard" href="gebieden/weerter-budelerbergen-ringselven.html"
+        data-naam="weerter- en budelerbergen & ringselven"
+        data-richtlijn="VR+HR"
+        data-stikstof="ja"
+        data-n="6"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">VR+HR</span>
@@ -591,7 +815,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/zeldersche-driessen.html">
+      <a class="gcard" href="gebieden/zeldersche-driessen.html"
+        data-naam="zeldersche driessen"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="4"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -606,10 +835,15 @@
     </div>
   </div>
 
-  <div class="card" id="prov-noord-brabant">
-    <h2>Noord-Brabant &middot; 10 gebieden</h2>
+  <div class="card prov-sectie" id="prov-noord-brabant" data-provincie="Noord-Brabant">
+    <h2>Noord-Brabant &middot; <span class="sectie-teller">10 van 10</span> gebieden</h2>
     <div class="gebieden-grid">
-      <a class="gcard" href="gebieden/boschhuizerbergen.html">
+      <a class="gcard" href="gebieden/boschhuizerbergen.html"
+        data-naam="boschhuizerbergen"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="12"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -622,7 +856,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/deurnsche-peel-mariapeel.html">
+      <a class="gcard" href="gebieden/deurnsche-peel-mariapeel.html"
+        data-naam="deurnsche peel & mariapeel"
+        data-richtlijn="VR+HR"
+        data-stikstof="ja"
+        data-n="8"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">VR+HR</span>
@@ -635,7 +874,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/maasduinen.html">
+      <a class="gcard" href="gebieden/maasduinen.html"
+        data-naam="maasduinen"
+        data-richtlijn="VR+HR"
+        data-stikstof="ja"
+        data-n="24"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">VR+HR</span>
@@ -648,7 +892,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/oosterschelde.html">
+      <a class="gcard" href="gebieden/oosterschelde.html"
+        data-naam="oosterschelde"
+        data-richtlijn="VR+HR"
+        data-stikstof="ja"
+        data-n="68"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">VR+HR</span>
@@ -661,7 +910,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/regte-heide-riels-laag.html">
+      <a class="gcard" href="gebieden/regte-heide-riels-laag.html"
+        data-naam="regte heide & riels laag"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="16"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -674,7 +928,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/sint-jansberg.html">
+      <a class="gcard" href="gebieden/sint-jansberg.html"
+        data-naam="sint jansberg"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="4"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -687,7 +946,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/vlijmens-ven.html">
+      <a class="gcard" href="gebieden/vlijmens-ven.html"
+        data-naam="vlijmens ven, moerputten & bossche broek"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="47"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -700,7 +964,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/weerter-budelerbergen-ringselven.html">
+      <a class="gcard" href="gebieden/weerter-budelerbergen-ringselven.html"
+        data-naam="weerter- en budelerbergen & ringselven"
+        data-richtlijn="VR+HR"
+        data-stikstof="ja"
+        data-n="6"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">VR+HR</span>
@@ -713,7 +982,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/zeldersche-driessen.html">
+      <a class="gcard" href="gebieden/zeldersche-driessen.html"
+        data-naam="zeldersche driessen"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="4"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -726,7 +1000,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/zoommeer.html">
+      <a class="gcard" href="gebieden/zoommeer.html"
+        data-naam="zoommeer"
+        data-richtlijn="VR"
+        data-stikstof="nee"
+        data-n="14"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">VR</span>
@@ -741,10 +1020,15 @@
     </div>
   </div>
 
-  <div class="card" id="prov-overijssel">
-    <h2>Overijssel &middot; 1 gebied</h2>
+  <div class="card prov-sectie" id="prov-overijssel" data-provincie="Overijssel">
+    <h2>Overijssel &middot; <span class="sectie-teller">1 van 1</span> gebied</h2>
     <div class="gebieden-grid">
-      <a class="gcard" href="gebieden/rijntakken.html">
+      <a class="gcard" href="gebieden/rijntakken.html"
+        data-naam="rijntakken – ijssel-traject"
+        data-richtlijn="VR+HR"
+        data-stikstof="ja"
+        data-n="241"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">VR+HR</span>
@@ -759,10 +1043,15 @@
     </div>
   </div>
 
-  <div class="card" id="prov-utrecht">
-    <h2>Utrecht &middot; 3 gebieden</h2>
+  <div class="card prov-sectie" id="prov-utrecht" data-provincie="Utrecht">
+    <h2>Utrecht &middot; <span class="sectie-teller">3 van 3</span> gebieden</h2>
     <div class="gebieden-grid">
-      <a class="gcard" href="gebieden/binnenveld.html">
+      <a class="gcard" href="gebieden/binnenveld.html"
+        data-naam="binnenveld"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="6"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -775,7 +1064,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/kolland-overlangbroek.html">
+      <a class="gcard" href="gebieden/kolland-overlangbroek.html"
+        data-naam="kolland & overlangbroek"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="100"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -788,7 +1082,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/zouweboezem.html">
+      <a class="gcard" href="gebieden/zouweboezem.html"
+        data-naam="zouweboezem"
+        data-richtlijn="VR+HR"
+        data-stikstof="ja"
+        data-n="64"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">VR+HR</span>
@@ -803,10 +1102,15 @@
     </div>
   </div>
 
-  <div class="card" id="prov-zeeland">
-    <h2>Zeeland &middot; 12 gebieden</h2>
+  <div class="card prov-sectie" id="prov-zeeland" data-provincie="Zeeland">
+    <h2>Zeeland &middot; <span class="sectie-teller">12 van 12</span> gebieden</h2>
     <div class="gebieden-grid">
-      <a class="gcard" href="gebieden/canisvliet.html">
+      <a class="gcard" href="gebieden/canisvliet.html"
+        data-naam="canisvliet"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="2"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -819,7 +1123,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/grevelingen.html">
+      <a class="gcard" href="gebieden/grevelingen.html"
+        data-naam="grevelingen"
+        data-richtlijn="VR+HR"
+        data-stikstof="ja"
+        data-n="24"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">VR+HR</span>
@@ -832,7 +1141,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/groote-gat.html">
+      <a class="gcard" href="gebieden/groote-gat.html"
+        data-naam="groote gat"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="2"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -845,7 +1159,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/kop-van-schouwen.html">
+      <a class="gcard" href="gebieden/kop-van-schouwen.html"
+        data-naam="kop van schouwen"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="12"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -858,7 +1177,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/manteling-van-walcheren.html">
+      <a class="gcard" href="gebieden/manteling-van-walcheren.html"
+        data-naam="manteling van walcheren"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="22"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -871,7 +1195,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/oosterschelde.html">
+      <a class="gcard" href="gebieden/oosterschelde.html"
+        data-naam="oosterschelde"
+        data-richtlijn="VR+HR"
+        data-stikstof="ja"
+        data-n="68"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">VR+HR</span>
@@ -884,7 +1213,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/veerse-meer.html">
+      <a class="gcard" href="gebieden/veerse-meer.html"
+        data-naam="veerse meer"
+        data-richtlijn="VR"
+        data-stikstof="nee"
+        data-n="18"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">VR</span>
@@ -897,7 +1231,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/vogelkreek.html">
+      <a class="gcard" href="gebieden/vogelkreek.html"
+        data-naam="vogelkreek"
+        data-richtlijn="HR"
+        data-stikstof="ja"
+        data-n="6"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">HR</span>
@@ -910,7 +1249,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/westerschelde-saeftinghe.html">
+      <a class="gcard" href="gebieden/westerschelde-saeftinghe.html"
+        data-naam="westerschelde & saeftinghe"
+        data-richtlijn="VR+HR"
+        data-stikstof="ja"
+        data-n="58"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">VR+HR</span>
@@ -923,7 +1267,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/yerseke-kapelse-moer.html">
+      <a class="gcard" href="gebieden/yerseke-kapelse-moer.html"
+        data-naam="yerseke en kapelse moer"
+        data-richtlijn="VR+HR"
+        data-stikstof="ja"
+        data-n="12"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">VR+HR</span>
@@ -936,7 +1285,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/zoommeer.html">
+      <a class="gcard" href="gebieden/zoommeer.html"
+        data-naam="zoommeer"
+        data-richtlijn="VR"
+        data-stikstof="nee"
+        data-n="14"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">VR</span>
@@ -949,7 +1303,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/zwin-kievittepolder.html">
+      <a class="gcard" href="gebieden/zwin-kievittepolder.html"
+        data-naam="zwin & kievittepolder"
+        data-richtlijn="VR+HR"
+        data-stikstof="ja"
+        data-n="6"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">VR+HR</span>
@@ -964,10 +1323,15 @@
     </div>
   </div>
 
-  <div class="card" id="prov-zuid-holland">
-    <h2>Zuid-Holland &middot; 3 gebieden</h2>
+  <div class="card prov-sectie" id="prov-zuid-holland" data-provincie="Zuid-Holland">
+    <h2>Zuid-Holland &middot; <span class="sectie-teller">3 van 3</span> gebieden</h2>
     <div class="gebieden-grid">
-      <a class="gcard" href="gebieden/grevelingen.html">
+      <a class="gcard" href="gebieden/grevelingen.html"
+        data-naam="grevelingen"
+        data-richtlijn="VR+HR"
+        data-stikstof="ja"
+        data-n="24"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">VR+HR</span>
@@ -980,7 +1344,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/oosterschelde.html">
+      <a class="gcard" href="gebieden/oosterschelde.html"
+        data-naam="oosterschelde"
+        data-richtlijn="VR+HR"
+        data-stikstof="ja"
+        data-n="68"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">VR+HR</span>
@@ -993,7 +1362,12 @@
         </div>
       </a>
 
-      <a class="gcard" href="gebieden/zouweboezem.html">
+      <a class="gcard" href="gebieden/zouweboezem.html"
+        data-naam="zouweboezem"
+        data-richtlijn="VR+HR"
+        data-stikstof="ja"
+        data-n="64"
+        data-peildatum="2026-08-03">
         <div class="gcard-top">
           
           <span class="badge-richtlijn">VR+HR</span>
@@ -1023,5 +1397,62 @@
     industriefunctie-vlag is een indicatie, geen bewijs.</p>
   </footer>
 </div>
+<script>
+// Zoek/filter/sorteer op de landingspagina. Werkt volledig op wat de server
+// al rendert (elke provincie-sectie met al zijn gcards staat er hoe dan ook,
+// zie de HTML hierboven) -- zonder JavaScript blijft dus gewoon de volledige
+// indeling zichtbaar, deze laag verbergt/herordent alleen client-side.
+(function(){
+  const zoekEl = document.getElementById('fbZoek');
+  const provincieEl = document.getElementById('fbProvincie');
+  const richtlijnEl = document.getElementById('fbRichtlijn');
+  const stikstofEl = document.getElementById('fbStikstof');
+  const sorteerEl = document.getElementById('fbSorteer');
+  if (!zoekEl) return;
+
+  function toepassenFilters(){
+    const zoekterm = zoekEl.value.trim().toLowerCase();
+    const provincie = provincieEl.value;
+    const richtlijn = richtlijnEl.value;
+    const stikstof = stikstofEl.value;
+    document.querySelectorAll('.prov-sectie').forEach(sectie => {
+      if (provincie && sectie.dataset.provincie !== provincie) {
+        sectie.style.display = 'none';
+        return;
+      }
+      let zichtbaarAantal = 0;
+      const kaarten = sectie.querySelectorAll('.gcard');
+      kaarten.forEach(kaart => {
+        const matchZoek = !zoekterm || kaart.dataset.naam.includes(zoekterm);
+        const matchRichtlijn = !richtlijn || kaart.dataset.richtlijn === richtlijn;
+        const matchStikstof = !stikstof || kaart.dataset.stikstof === stikstof;
+        const zichtbaar = matchZoek && matchRichtlijn && matchStikstof;
+        kaart.style.display = zichtbaar ? '' : 'none';
+        if (zichtbaar) zichtbaarAantal++;
+      });
+      sectie.style.display = zichtbaarAantal > 0 ? '' : 'none';
+      const teller = sectie.querySelector('.sectie-teller');
+      if (teller) teller.textContent = zichtbaarAantal + ' van ' + kaarten.length;
+    });
+  }
+
+  function toepassenSortering(){
+    const sortKey = sorteerEl.value;
+    document.querySelectorAll('.gebieden-grid').forEach(grid => {
+      const kaarten = [...grid.querySelectorAll('.gcard')];
+      kaarten.sort((a, b) => {
+        if (sortKey === 'n') return Number(b.dataset.n) - Number(a.dataset.n);
+        if (sortKey === 'peildatum') return (b.dataset.peildatum||'').localeCompare(a.dataset.peildatum||'');
+        return a.dataset.naam.localeCompare(b.dataset.naam);
+      });
+      kaarten.forEach(k => grid.appendChild(k));
+    });
+  }
+
+  zoekEl.addEventListener('input', toepassenFilters);
+  [provincieEl, richtlijnEl, stikstofEl].forEach(el => el.addEventListener('change', toepassenFilters));
+  sorteerEl.addEventListener('change', toepassenSortering);
+})();
+</script>
 </body>
 </html>
