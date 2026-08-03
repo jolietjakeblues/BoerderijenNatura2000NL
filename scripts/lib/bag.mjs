@@ -12,14 +12,10 @@
 //   'geen_match_in_bbox' -- wel adres(sen), maar geen match gevonden in de zoekbox
 //   'fout'               -- de WFS-aanvraag zelf faalde (netwerk/HTTP)
 
+import { normHuisnr } from './adres-match.mjs';
+
 const MAX_RETRIES = 2;
 const RETRY_DELAY_MS = 800;
-
-function normHuisnr(h) {
-  const m = String(h).trim().match(/^(\d+)\s*([A-Za-z]?)$/);
-  if (!m) return { nr: null, letter: '' };
-  return { nr: parseInt(m[1], 10), letter: m[2].toUpperCase() };
-}
 
 function sleep(ms) { return new Promise(resolve => setTimeout(resolve, ms)); }
 

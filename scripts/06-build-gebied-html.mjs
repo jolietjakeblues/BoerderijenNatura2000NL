@@ -240,13 +240,9 @@ const STATUS_LABEL = {
 };
 const detail = $('detail');
 function toonDetail(m){
-  const adressenHtml = (m.addressen||[]).map((a,i)=>{
-    const huisnrMatch = String(a.huisnr||'').trim().match(/^(\\d+)\\s*([A-Za-z]?)$/);
-    const nr = huisnrMatch ? huisnrMatch[1] : null;
-    const letter = huisnrMatch ? huisnrMatch[2].toUpperCase() : '';
-    const match = (m.matched||[]).find(x=>x.straat===a.straat && String(x.huisnummer)===nr && String(x.huisletter||'').toUpperCase()===letter);
-    return \`<dt>adres \${i+1}</dt><dd>\${a.straat} \${a.huisnr}, \${a.postcode} \${a.woonplaats}\${match ? ' \\u2014 gebruiksdoel: '+match.gebruiksdoel : ' \\u2014 geen BAG-match'}</dd>\`;
-  }).join('');
+  const adressenHtml = (m.addressen||[]).map((a,i)=>
+    \`<dt>adres \${i+1}</dt><dd>\${a.straat} \${a.huisnr}, \${a.postcode} \${a.woonplaats}\${a.gebruiksdoel ? ', gebruiksdoel: '+a.gebruiksdoel : ', geen BAG-match'}</dd>\`
+  ).join('');
   detail.innerHTML = \`<dl>
     <dt>rijksmonumentnummer</dt><dd>\${m.nr}\${m.rm ? \` (<a href="\${m.rm}" target="_blank" rel="noopener" style="color:var(--blue-mid)">RCE-bron &rarr;</a>)\` : ''}</dd>
     <dt>oorspronkelijke functie</dt><dd>\${m.functie||'onbekend'}</dd>

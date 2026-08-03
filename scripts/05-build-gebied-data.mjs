@@ -8,6 +8,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { bboxOfRings, flattenRings } from './lib/geo.mjs';
+import { matchGebruiksdoel } from './lib/adres-match.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const [, , slug, naam] = process.argv;
@@ -70,7 +71,7 @@ const outMons = verrijkt.map(m => {
     ja: m.industrie === true,
     bag: m.bagStatus || 'onbekend',
     status: bepaalStatus(m),
-    addressen: m.addressen || [],
+    addressen: (m.addressen || []).map(a => ({ ...a, gebruiksdoel: matchGebruiksdoel(a, m.matched) })),
     matched: m.matched || []
   };
 });
