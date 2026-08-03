@@ -214,11 +214,11 @@ top 3 vetgedrukt):
 8. Visuele scheiding tussen brongegevens, ruimtelijk afgeleide data en indicatieve classificatie
    (kleurcodering), zodat RCE-feiten en zelf afgeleide indicaties niet even zeker overkomen.
 9. Deelbare kaartweergaven via URL-parameters (`?gebied=…&afstand=…&bedrijfsindicatie=…`).
-10. ~~Toegankelijkheid buiten de kaart~~ — **gedeeltelijk opgelost.** Elke gebiedspagina heeft nu een
+10. ~~Toegankelijkheid buiten de kaart~~ - **gedeeltelijk opgelost.** Elke gebiedspagina heeft nu een
     uitklapbare, toetsenbord- en schermlezer-toegankelijke lijst (rm-nr, plaats, afstand, status) als
     alternatief voor de canvas-kaart. Nog niet gedaan: kleurenblind-vriendelijke symbolen op de kaart
     zelf, en de canvas-punten blijven zelf niet direct focusbaar.
-11. ~~Steekproefsgewijze validatie~~ — **opgelost.** Een steekproef van 95 monumenten is
+11. ~~Steekproefsgewijze validatie~~ - **opgelost.** Een steekproef van 95 monumenten is
     structureel gecontroleerd en een deelsteekproef van 38 daarvan handmatig geverifieerd
     tegen het officiële Rijksmonumentenregister. Geaggregeerde resultaten en fouttypen:
     zie [KWALITEITSCONTROLE.md](KWALITEITSCONTROLE.md).

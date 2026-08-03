@@ -38,9 +38,9 @@ const STATUS_LABEL_STATIC = {
   industrie_aangetroffen: 'Industriefunctie aangetroffen (eenduidig)',
   industrie_deels_aangetroffen: 'Industriefunctie aangetroffen bij een deel van de adressen',
   geen_industrie_aangetroffen: 'Geen industriefunctie aangetroffen',
-  geen_adres: 'BAG niet te controleren — geen adres bekend in RCE',
-  geen_match: 'BAG niet te controleren — geen match gevonden',
-  bag_mislukt: 'BAG niet te controleren — bevraging mislukt'
+  geen_adres: 'BAG niet te controleren - geen adres bekend in RCE',
+  geen_match: 'BAG niet te controleren - geen match gevonden',
+  bag_mislukt: 'BAG niet te controleren - bevraging mislukt'
 };
 
 const dk = Dobj.datakwaliteit;

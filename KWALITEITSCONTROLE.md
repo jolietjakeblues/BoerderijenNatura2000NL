@@ -27,7 +27,7 @@ gegevens.
      alle 13 `geen_match`-gevallen, 15 van de 42 `industrie_deels_aangetroffen`, en 5
      van elk van de 20 `industrie_aangetroffen`/`geen_industrie_aangetroffen`.
 
-## Resultaten — structurele audit (n=95)
+## Resultaten - structurele audit (n=95)
 
 | Categorie | Aantal |
 |---|---|
@@ -39,7 +39,7 @@ gegevens.
 
 Aanvullend gemarkeerd (niet exclusief): **41 van de 95** monumenten hebben meerdere
 RCE-adressen met onderling verschillende BAG-gebruiksdoelen (bv. het ene adres
-"woonfunctie", het andere "industriefunctie,woonfunctie") — dit is inherent aan
+"woonfunctie", het andere "industriefunctie,woonfunctie") - dit is inherent aan
 grotere boerderijcomplexen met meerdere huisnummers en geen fout op zich, maar wel
 relevant voor de interpretatie van de statuscategorie `industrie_deels_aangetroffen`.
 
@@ -53,12 +53,12 @@ post-hoc structurele controle op huisletter een mismatch te zien, terwijl de
 onderliggende koppeling correct was. Dit is gerepareerd (de huisletter wordt nu wel
 bewaard, zowel in de bouwstap als in de detailweergave op de gebiedspagina's). De
 **aggregate statusclassificatie** (`industrie_aangetroffen` / `_deels_` / `geen_...`)
-was door deze bug niet beïnvloed — alleen de per-adres weergave in het detailpaneel.
+was door deze bug niet beïnvloed - alleen de per-adres weergave in het detailpaneel.
 Een volledige herberekening van de al gepubliceerde 25 gebieden (nodig om de
 huisletter met terugwerkende kracht te vullen) is een aparte, grotere vervolgstap die
 nog niet is uitgevoerd.
 
-## Resultaten — live verificatie tegen het Rijksmonumentenregister (38 van de 95)
+## Resultaten - live verificatie tegen het Rijksmonumentenregister (38 van de 95)
 
 Van de 38 geselecteerde gevallen waren er **36 succesvol te verifiëren** en **2
 structureel onbereikbaar** bij het officiële register (beide HTTP 404). Een derde
@@ -68,7 +68,7 @@ geval gaf aanvankelijk HTTP 500, maar bleek bij een latere herhaling gewoon te l
 De 2 structureel onbereikbare gevallen (rmnr 28340, 513954) zijn **uitgezocht in
 plaats van afgedaan als toeval**: RCE's eigen linked data kent een
 `ceo:heeftJuridischeStatus`-veld met twee waarden, `rijksmonument` en **`geen
-rijksmonument`**. Beide 404-gevallen hebben de waarde `geen rijksmonument` — de 404
+rijksmonument`**. Beide 404-gevallen hebben de waarde `geen rijksmonument` - de 404
 op het officiële register is dus een terechte weergave van een echt afgevoerde
 status, geen toevallige serverfout. Zie de aparte sectie hieronder voor de
 vervolgstap: dit bleek geen incident maar een pijplijnhiaat.
@@ -121,7 +121,7 @@ systematisch verkeerde adressen aan monumenten toekent. De belangrijkste reële
 bevindingen zijn (1) een traceerbaarheidsbug (ontbrekende huisletter in opgeslagen
 matchresultaten) die de weergave voor multi-adrescomplexen kon vertroebelen, inmiddels
 gerepareerd voor nieuwe koppelingen, en (2) het hierboven beschreven ontbreken van een
-juridische-statuscontrole, dat 42 afgevoerde monumenten liet doorsijpelen — inmiddels
+juridische-statuscontrole, dat 42 afgevoerde monumenten liet doorsijpelen - inmiddels
 verholpen bij de bron én met terugwerkende kracht. De bekende beperking dat een deel
 van de monumenten geen BAG-match oplevert (`geen_match`) is, voor zover in deze
 steekproef gecontroleerd, geen extractiefout maar een grens van de BAG-zoekstap.
