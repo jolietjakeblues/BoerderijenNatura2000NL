@@ -20,7 +20,7 @@ jobs:
         run: node scripts/lib/bbox-regex.mjs
 
       - name: Unittests scripts/lib/ (gedrag van hulpfuncties, niet alleen gegenereerde diffs)
-        run: node --test scripts/lib/
+        run: node --test scripts/lib/*.test.mjs
 
       - name: Valideer data.json-bestanden (schema en telinvarianten)
         run: node scripts/validate.mjs

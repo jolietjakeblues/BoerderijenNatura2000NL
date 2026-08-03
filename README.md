@@ -153,6 +153,10 @@ uit de BAG is een aanwijzing, geen bewijs van actieve bedrijfsvoering of stiksto
 statuscategorieën (industriefunctie aangetroffen / bij een deel van de adressen / geen industriefunctie
 aangetroffen) is een uitspraak over daadwerkelijke bedrijfsvoering.
 
+Voor de kaartondergrond worden bij CARTO kaarttegels opgehaald; die dienst ontvangt daarbij technisch
+gezien onder andere het IP-adres van de bezoeker. De inhoudelijke monument- en gebiedsdata zelf worden
+statisch vanaf GitHub Pages geleverd, zonder een aparte aanroep naar een eigen server.
+
 ## Licentie & bronvermelding
 
 Broncode: MIT, zie [LICENSE](LICENSE). Gepubliceerde datasets (`data/gebieden/*/data.json`

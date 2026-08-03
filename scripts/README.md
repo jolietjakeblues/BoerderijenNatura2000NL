@@ -109,8 +109,29 @@ Zuid-Limburgse kalksteengroeven). `stikstofgevoelig` varieert echt tussen
 gebieden - vooral grote Vogelrichtlijn-only water-/moerasgebieden staan vaak
 op `false` - dus nooit aannemen dat dit overal `true` is.
 
-## lib/
+## lib/ en unittests
 
+Losse hulpfuncties met echt vertakkende logica (niet alleen I/O of DOM-opbouw) staan
+in `scripts/lib/` en hebben een bijbehorend `*.test.mjs`-bestand, getest met Node's
+ingebouwde testrunner (geen dependency nodig). Draai ze met:
+
+```
+node --test scripts/lib/*.test.mjs
+```
+
+`.github/workflows/validate.yml` draait dit bij elke push/PR, naast de
+schema-/telinvariant-validatie (`scripts/validate.mjs`) en de bbox-regex-zelftest.
+Waar `validate.mjs` controleert of de **gegenereerde data** consistent is, controleren
+deze unittests het **gedrag van de functies zelf** (zie ook `adres-match.mjs`
+hieronder) - een fout in de logica zou anders deterministisch naar alle gebieden
+worden weggeschreven zonder dat een diff-check dat opmerkt.
+
+- **adres-match.mjs** - koppelt één RCE-adres aan zijn BAG-gebruiksdoel, op
+  postcode + huisnummer + huisletter (nooit op straatnaam: RCE en BAG schrijven
+  dezelfde straat soms anders, bv. hoofdletters of afkortingen). Gebruikt door
+  `05-build-gebied-data.mjs` om dit één keer te berekenen en in `data.json` op te
+  slaan, in plaats van dat het detailpaneel op de gebiedspagina deze koppeling
+  clientside herhaalt (zie CHANGELOG.md voor de bug die dat veroorzaakte).
 - **geo.mjs** - point-in-polygon (incl. gaten), afstand-tot-polygoonrand,
   bbox-hulpfuncties. Gedeeld door classificatie en databundel-opbouw.
 - **bbox-regex.mjs** - leidt de SPARQL-REGEX-bboxfilter automatisch af uit een
