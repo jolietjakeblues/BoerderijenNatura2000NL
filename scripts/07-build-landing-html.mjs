@@ -56,11 +56,11 @@ const totaal = {
 };
 
 function gcard(g) {
-  const status = g.n === 0 ? 'Verwerkt · geen boerderijen gevonden' : 'Verwerkt';
+  const status = g.n === 0 ? 'Geen boerderijen gevonden' : null;
   return `
       <a class="gcard" href="${g.href}">
         <div class="gcard-top">
-          <span class="gcard-status">${status}</span>
+          ${status ? `<span class="gcard-status">${status}</span>` : ''}
           ${g.richtlijnBadge ? `<span class="badge-richtlijn">${g.richtlijnBadge}</span>` : ''}
         </div>
         <h3>${g.naam}</h3>
