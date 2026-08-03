@@ -67,31 +67,31 @@ Rijntakken heeft een apart Vogelrichtlijn-deel en een Vogel+Habitatrichtlijn-
 deel). `scripts/lib/richtlijn.mjs` aggregeert die delen tot één samenvatting
 per gebied (`VR` / `HR` / `VR+HR`, plus een aparte `HR groeve`-vlag voor de
 Zuid-Limburgse kalksteengroeven). `stikstofgevoelig` varieert echt tussen
-gebieden — vooral grote Vogelrichtlijn-only water-/moerasgebieden staan vaak
-op `false` — dus nooit aannemen dat dit overal `true` is.
+gebieden - vooral grote Vogelrichtlijn-only water-/moerasgebieden staan vaak
+op `false` - dus nooit aannemen dat dit overal `true` is.
 
 ## lib/
 
-- **geo.mjs** — point-in-polygon (incl. gaten), afstand-tot-polygoonrand,
+- **geo.mjs** - point-in-polygon (incl. gaten), afstand-tot-polygoonrand,
   bbox-hulpfuncties. Gedeeld door classificatie en databundel-opbouw.
-- **bbox-regex.mjs** — leidt de SPARQL-REGEX-bboxfilter automatisch af uit een
+- **bbox-regex.mjs** - leidt de SPARQL-REGEX-bboxfilter automatisch af uit een
   numeriek bereik, in plaats van 'm met de hand te typen. **Zie de kanttekening
-  hieronder** — dit bestaat vanwege een echte fout die tijdens de opbouw van
+  hieronder** - dit bestaat vanwege een echte fout die tijdens de opbouw van
   dit project is gemaakt. Zelftest: `node scripts/lib/bbox-regex.mjs`.
-- **bag.mjs** — BAG-praktijkcheck via de open PDOK BAG-WFS, met retry/backoff
+- **bag.mjs** - BAG-praktijkcheck via de open PDOK BAG-WFS, met retry/backoff
   (2 pogingen, oplopende wachttijd) en een expliciete `bagStatus` per monument
   (`ok` / `geen_adres` / `geen_match_in_bbox` / `fout`) zodat een mislukte
   opzoeking nooit stilzwijgend als "geen bedrijfsindicatie" telt.
-- **provincie.mjs** — provincie bepalen via point-in-polygon tegen de
+- **provincie.mjs** - provincie bepalen via point-in-polygon tegen de
   PDOK-bestuurlijke-grenzenlaag, onafhankelijk van RCE en van het
   Natura 2000-gebied zelf. Deze functie werkt per monumentpunt; voor een
   gebied zonder monumenten (bv. De Bruuk binnen de huidige 5&nbsp;km-grens,
   0 boerderijen) is er dan geen enkele provincie af te leiden. Voor de
   provincie-indeling op de landingspagina (`07-build-landing-html.mjs`)
   wordt in dat geval hetzelfde `findProvincie` hergebruikt op het bbox-midden
-  van het Natura 2000-gebied zelf — een gebied belandt zo alsnog in de juiste
+  van het Natura 2000-gebied zelf - een gebied belandt zo alsnog in de juiste
   sectie, zonder losse gebiedsuitzonderingen hard te coderen.
-- **gebieden-beschrijving.mjs** — korte, zelfgeschreven samenvatting per
+- **gebieden-beschrijving.mjs** - korte, zelfgeschreven samenvatting per
   gebied (natura2000.nl als bron, geen letterlijke overname).
 
 ## Bekende valkuilen (waarom sommige dingen zijn zoals ze zijn)
@@ -103,7 +103,7 @@ op `false` — dus nooit aannemen dat dit overal `true` is.
   beide graphs, en zonder `DISTINCT` komt elke rij dubbel terug. Alle
   query-templates in dit project (`rce-monumenten-query.sparql`,
   `rce-functie-query.sparql`, `rce-adres-query.sparql`) gebruiken daarom
-  bewust `SELECT DISTINCT` — nooit weglaten bij een nieuwe handmatige query,
+  bewust `SELECT DISTINCT` - nooit weglaten bij een nieuwe handmatige query,
   ook niet als die alleen een paar velden opvraagt.
 
 - **CQL_FILTER wordt door de gebruikte PDOK-WFS-endpoints
@@ -111,7 +111,7 @@ op `false` — dus nooit aannemen dat dit overal `true` is.
   je krijgt dan alle features terug in plaats van een foutmelding. Alleen
   `BBOX`-filters (en de aanpak hier: ongefilterd ophalen + zelf filteren in
   JS) bleken op deze endpoints betrouwbaar. Test dit opnieuw als je ooit
-  CQL_FILTER probeert te gebruiken op een van deze diensten — neem niet
+  CQL_FILTER probeert te gebruiken op een van deze diensten - neem niet
   klakkeloos aan dat het inmiddels wel werkt.
 - **Dezelfde WFS kan zonder waarschuwing RD (EPSG:28992) in plaats van WGS84
   teruggeven.** Bij het herbouwen van deze pijplijn in de repo (juli 2026)
@@ -138,6 +138,6 @@ zijn nog niet ge-migreerd naar dit `data/gebieden/<slug>/data.json`-formaat;
 `index.html` wordt voor die 17 dus nog met de oude, losse aanpak onderhouden.
 `scripts/07-build-landing-html.mjs` genereert de landingspagina puur uit
 `data/gebieden/*/data.json` en zal dus pas de volledige (huidige) lijst tonen
-zodra die migratie is gedaan — draai dit script niet blind, want met een
+zodra die migratie is gedaan - draai dit script niet blind, want met een
 onvolledige `data/gebieden/`-map overschrijft het de huidige, complete
 `index.html` met een onvolledige versie.

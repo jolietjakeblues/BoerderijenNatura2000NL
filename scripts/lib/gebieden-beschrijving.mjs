@@ -15,7 +15,7 @@ export const GEBIEDEN_BESCHRIJVING = {
   },
   'willinks-weust': {
     ligging: 'Achterhoek',
-    tekst: 'Klein kalkgraslandgebied (circa 52 hectare) ten oosten van Winterswijk, op het zogeheten Muschelkalk-eiland — het enige kalkhoudende gebied van dit type buiten Zuid-Limburg. Beschermd vanwege zeldzame blauwgraslanden, jeneverbesstruweel en eiken-haagbeukenbos, met bijzondere planten, paddenstoelen en amfibieën zoals de kamsalamander.',
+    tekst: 'Klein kalkgraslandgebied (circa 52 hectare) ten oosten van Winterswijk, op het zogeheten Muschelkalk-eiland - het enige kalkhoudende gebied van dit type buiten Zuid-Limburg. Beschermd vanwege zeldzame blauwgraslanden, jeneverbesstruweel en eiken-haagbeukenbos, met bijzondere planten, paddenstoelen en amfibieën zoals de kamsalamander.',
     bron: 'https://www.natura2000.nl/gebieden/gelderland/willinks-weust'
   },
   'bekendelle': {
@@ -40,7 +40,7 @@ export const GEBIEDEN_BESCHRIJVING = {
   },
   'zeldersche-driessen': {
     ligging: 'Gennep',
-    tekst: 'Rivierduinbos (circa 82 hectare) in een bocht van de Niers, ten oosten van Gennep in Noord-Limburg, met een strook stroomdalgrasland langs de oever — een van de weinige overgebleven stroomdalgraslanden in het Maasstroomgebied.',
+    tekst: 'Rivierduinbos (circa 82 hectare) in een bocht van de Niers, ten oosten van Gennep in Noord-Limburg, met een strook stroomdalgrasland langs de oever - een van de weinige overgebleven stroomdalgraslanden in het Maasstroomgebied.',
     bron: 'https://www.natura2000.nl/gebieden/limburg/zeldersche-driessen'
   },
   'binnenveld': {
@@ -60,7 +60,7 @@ export const GEBIEDEN_BESCHRIJVING = {
   },
   'lieftinghsbroek': {
     ligging: 'Westerwolde',
-    tekst: 'Loofbos (circa 20 hectare) op de flank van de Ruiten Aa, zo’n 2 km ten zuiden van Vlagtwedde in Groningen (gemeente Westerwolde). Beschermd vanwege oud eiken-beukenbos en eiken-haagbeukenbos met een kern ouder dan 1800 — het noordelijkste stukje oud loofbos van Zuid-Groningen.',
+    tekst: 'Loofbos (circa 20 hectare) op de flank van de Ruiten Aa, zo’n 2 km ten zuiden van Vlagtwedde in Groningen (gemeente Westerwolde). Beschermd vanwege oud eiken-beukenbos en eiken-haagbeukenbos met een kern ouder dan 1800 - het noordelijkste stukje oud loofbos van Zuid-Groningen.',
     bron: 'https://www.natura2000.nl/gebieden/groningen/lieftinghsbroek'
   },
   'norgerholt': {
@@ -90,7 +90,7 @@ export const GEBIEDEN_BESCHRIJVING = {
   },
   'kolland-overlangbroek': {
     ligging: 'Wijk bij Duurstede-Utrechtse Heuvelrug',
-    tekst: 'Kleinschalig cultuurlandschap (circa 107 hectare) in het stroomgebied van de Kromme Rijn, tussen Wijk bij Duurstede en de Utrechtse Heuvelrug, op de grens van Gelderland en Utrecht. Beschermd vanwege actief beheerd essenhakhoutbos op voedselrijke kleigrond — internationaal een zeldzaam bostype — met een rijke mos-, korstmos- en paddenstoelenflora en de nachtegaal als kenmerkende broedvogel.',
+    tekst: 'Kleinschalig cultuurlandschap (circa 107 hectare) in het stroomgebied van de Kromme Rijn, tussen Wijk bij Duurstede en de Utrechtse Heuvelrug, op de grens van Gelderland en Utrecht. Beschermd vanwege actief beheerd essenhakhoutbos op voedselrijke kleigrond - internationaal een zeldzaam bostype - met een rijke mos-, korstmos- en paddenstoelenflora en de nachtegaal als kenmerkende broedvogel.',
     bron: 'https://www.natura2000.nl/gebieden/utrecht/kolland-overlangbroek'
   },
   'zouweboezem': {
@@ -120,7 +120,7 @@ export const GEBIEDEN_BESCHRIJVING = {
   },
   'roerdal': {
     ligging: 'Roermond',
-    tekst: 'Rivierdal (circa 834 hectare) langs het Nederlandse traject van de Roer, die bij Roermond in de Maas uitmondt — een van de weinige Natura 2000-gebieden met natuurlijke meandervorming. Beschermd vanwege waterranonkelbegroeiing en elzenbroekbos in oude meanders, drie priksoorten en de grootste Nederlandse populatie gaffellibel.',
+    tekst: 'Rivierdal (circa 834 hectare) langs het Nederlandse traject van de Roer, die bij Roermond in de Maas uitmondt - een van de weinige Natura 2000-gebieden met natuurlijke meandervorming. Beschermd vanwege waterranonkelbegroeiing en elzenbroekbos in oude meanders, drie priksoorten en de grootste Nederlandse populatie gaffellibel.',
     bron: 'https://www.natura2000.nl/gebieden/limburg/roerdal'
   },
   'geleenbeekdal': {

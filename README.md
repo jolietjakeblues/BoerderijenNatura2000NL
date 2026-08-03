@@ -52,9 +52,9 @@ toe 25 verwerkt:
 | **Totaal (25 gebieden)** | | **1159** | **181** | **13** |
 
 Let op: de totaaltelling is een **som van per-gebied cijfers**, geen aantal unieke monumenten
-landelijk — een monument dat dicht bij meerdere Natura 2000-gebieden ligt (bv. tussen Bekendelle en
+landelijk - een monument dat dicht bij meerdere Natura 2000-gebieden ligt (bv. tussen Bekendelle en
 Korenburgerveen) telt terecht in beide gebiedspagina's mee. De kolom "BAG niet te controleren" is
-géén bevestigde NEE — zie de toelichting bij taak 10 hieronder.
+géén bevestigde NEE - zie de toelichting bij taak 10 hieronder.
 
 **Resterend: 137 gebieden** (133 landgebieden + 4 mariene gebieden die waarschijnlijk buiten scope
 blijven). Nog geen vaste volgorde vastgesteld; gewerkt vanuit Gelderland (Achterhoek, IJssel,
@@ -82,7 +82,7 @@ opgepakt.
    huisnummer. Industriefunctie op het adres = actieve bedrijfsindicatie. Monumenten met uitsluitend
    woonfunctie (geen industrie, geen logies/bijeenkomst) tellen **niet** mee als actief
    (conservatieve keuze). Monumenten zonder BAG-adres in RCE, of zonder match in de BAG-zoekbox,
-   krijgen een aparte status **"BAG niet te controleren"** — deze tellen niet mee als actief, maar
+   krijgen een aparte status **"BAG niet te controleren"** - deze tellen niet mee als actief, maar
    worden nadrukkelijk niet als bevestigde NEE geteld (op de kaart een gestippelde grijze rand
    i.p.v. de blauwe rand van een bevestigde actieve indicatie).
 6. **Gebiedsbeschrijving**: korte, zelfgeschreven samenvatting (type natuurgebied, ligging,
@@ -92,7 +92,7 @@ opgepakt.
    losse markering voor de Zuid-Limburgse Habitatrichtlijn-kalksteengroeven, opgehaald uit het losse
    RCE-graph `graph/natura2000` (naast de PDOK-WFS voor geometrie). Dit graph houdt ook een
    `stikstofgevoelig`-vlag en officiële EU-sitecodes per gebied bij, plus een Wikidata-kruisverwijzing
-   — beide getoond op de gebiedspagina met een link naar de RCE linked-data-bron zelf. De
+   - beide getoond op de gebiedspagina met een link naar de RCE linked-data-bron zelf. De
    `stikstofgevoelig`-vlag is een getoond kenmerk, geen selectiefilter (zie hieronder); hij varieert
    echt per gebied en staat bijvoorbeeld bij grote Vogelrichtlijn-only water-/moerasgebieden vaak op
    onwaar.
@@ -116,41 +116,41 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
 - **Volledig afstands-bucketschema** invoeren: erin / < 250 m / < 1 km / < 5 km / < 25 km / ≥ 25 km
   (nu alleen erin + ≤ 5 km). Bewust uitgesteld tot na de landsdekkende opbouw van de eerste ronde
   gebieden.
-- ~~Afstemmen op de **"stikstofgevoelig"-markering** uit de RCE natura2000-graph~~ — **opgelost.**
+- ~~Afstemmen op de **"stikstofgevoelig"-markering** uit de RCE natura2000-graph~~ - **opgelost.**
   De richtlijn-status (zie Methode, punt 7) haalt deze vlag nu per gebied op en toont 'm; de opzet
   filtert er nog steeds niet op (gebruikt de volledige landelijke PDOK-laag), maar de vlag zelf staat
   nu zichtbaar op elke gebiedspagina in plaats van ontbrekend.
 - De resterende ~137 Natura 2000-gebieden landsdekkend toevoegen.
 - **Download-knop (CSV)** per gebiedspagina: monumentenlijst (nr, adres, provincie, afstand, functie,
   actieve bedrijfsindicatie) exporteren.
-- ~~**Klikbare popup voor een monument**~~ — **opgelost.** Zie Geloofwaardigheid/interpretatie, punt 2.
+- ~~**Klikbare popup voor een monument**~~ - **opgelost.** Zie Geloofwaardigheid/interpretatie, punt 2.
 - **Klikbare popup voor het Natura 2000-gebied zelf** op de kaart, met de gebiedsbeschrijving.
 
 ### Stabiliteit / veiligheid (niet alleen features)
 
-- ~~**Bouwpijplijn van scratchpad naar de repo**~~ — **opgelost.** Zie [`scripts/`](scripts/README.md):
+- ~~**Bouwpijplijn van scratchpad naar de repo**~~ - **opgelost.** Zie [`scripts/`](scripts/README.md):
   herbruikbare, dependency-loze Node-scripts voor referentiedata ophalen, een gebied voorbereiden,
   monumenten classificeren, verrijken (BAG + provincie) en de HTML genereren. Twee stappen blijven
-  handmatig (de RCE CHO-query via de MCP-tool, zie `scripts/README.md`) — de rest is volledig
+  handmatig (de RCE CHO-query via de MCP-tool, zie `scripts/README.md`) - de rest is volledig
   geautomatiseerd en getest.
-- ~~**Sanity-check op de handgeschreven bbox-regex**~~ — **opgelost.** `scripts/lib/bbox-regex.mjs`
+- ~~**Sanity-check op de handgeschreven bbox-regex**~~ - **opgelost.** `scripts/lib/bbox-regex.mjs`
   leidt de REGEX-bboxfilter nu mechanisch af uit de echte gebieds-bbox (met 0.15° marge), in plaats van
-  'm met de hand te typen — inclusief een zelftest (`node scripts/lib/bbox-regex.mjs`) die precies de
+  'm met de hand te typen - inclusief een zelftest (`node scripts/lib/bbox-regex.mjs`) die precies de
   foutklasse afdekt die bij Rijntakken misging. Bijvangst tijdens het herbouwen: dezelfde
   Natura2000-WFS bleek zonder waarschuwing ook RD i.p.v. WGS84 te kunnen teruggeven (zie
-  `scripts/README.md`) — ook daar is nu een harde controle tegen ingebouwd.
-- ~~**Retry/backoff voor de BAG-WFS-calls**~~ — **opgelost.** `scripts/lib/bag.mjs` doet 2 automatische
+  `scripts/README.md`) - ook daar is nu een harde controle tegen ingebouwd.
+- ~~**Retry/backoff voor de BAG-WFS-calls**~~ - **opgelost.** `scripts/lib/bag.mjs` doet 2 automatische
   retries met oplopende wachttijd per monument.
-- ~~**CQL_FILTER-valkuil documenteren**~~ — **opgelost.** Zie `scripts/README.md`, sectie
+- ~~**CQL_FILTER-valkuil documenteren**~~ - **opgelost.** Zie `scripts/README.md`, sectie
   "Bekende valkuilen".
-- ~~**Migreer de 17 bestaande gebieden naar de nieuwe pijplijn**~~ — **opgelost.** Alle 17
+- ~~**Migreer de 17 bestaande gebieden naar de nieuwe pijplijn**~~ - **opgelost.** Alle 17
   `data/gebieden/<slug>/data.json`-bestanden staan nu in de repo; `gebieden/*.html` en `index.html`
   worden voortaan met `scripts/06-build-gebied-html.mjs` resp. `scripts/07-build-landing-html.mjs`
   gegenereerd. Gecontroleerd dat alle cijfers (n, ja, onbekend, per-provincie) exact overeenkomen met
   de eerder gepubliceerde versie. Rijntakken had als enige nog een afwijkend databundel-schema
   (`gld`/`ovij` i.p.v. het generieke `provCounts`) en een losstaande titel/badge-opmaak; genormaliseerd
   naar hetzelfde schema en dezelfde generieke sjabloon als de andere 16 gebieden.
-- ~~**Peildatum staat hardcoded**~~ — **opgelost.** De pijplijn (`scripts/05-build-gebied-data.mjs`)
+- ~~**Peildatum staat hardcoded**~~ - **opgelost.** De pijplijn (`scripts/05-build-gebied-data.mjs`)
   leidt 'm nu automatisch af uit het moment van genereren.
 
 ### Geloofwaardigheid / interpretatie (uit review)
@@ -159,30 +159,30 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
   agrarisch bedrijf, laat staan stikstofuitstoot. De kanttekeningen erkennen dit al, maar de
   opvallende totaalcijfers kunnen los daarvan verkeerd worden gelezen. Op te lossen in samenhang met
   de laatste twee punten hieronder, niet als losse woordwijziging.
-- ~~**Inconsistentie "stikstofgevoelig" vs. volledige PDOK-laag**~~ — **gecorrigeerd.** De
+- ~~**Inconsistentie "stikstofgevoelig" vs. volledige PDOK-laag**~~ - **gecorrigeerd.** De
   landingspagina claimde "stikstofgevoelige Natura 2000-gebieden" terwijl de methode expliciet zegt
   dat de volledige PDOK-laag zonder die filter wordt gebruikt. Tekst aangepast.
-- ~~**"5 km" werd als ecologische invloedssfeer gepresenteerd**~~ — **gecorrigeerd.** Vijf kilometer
+- ~~**"5 km" werd als ecologische invloedssfeer gepresenteerd**~~ - **gecorrigeerd.** Vijf kilometer
   is een gekozen selectievenster, geen vastgestelde ecologische invloedssfeer; de tekst benoemt dit nu
   expliciet.
 
 **Aanvullende, waardevolle toevoegingen uit dezelfde review** (met de door de reviewer aangemerkte
 top 3 vetgedrukt):
 
-1. ~~**Explicietere onzekerheidsstatus per monument**~~ — **opgelost.** Elk monument krijgt nu een
+1. ~~**Explicietere onzekerheidsstatus per monument**~~ - **opgelost.** Elk monument krijgt nu een
    status uit `actief` (eenduidig) / `actief_onzeker` (industriefunctie gevonden, maar niet bij alle
    adressen van dit monument eensluidend) / `niet_actief` (bevestigd) / `geen_adres` / `geen_match` /
    `bag_mislukt`. Op de kaart: een dubbele donkerblauwe rand voor `actief_onzeker`, zichtbaar naast de
    bestaande effen/gestippelde randen.
-2. ~~**"Waarom staat dit punt hier?"-detailweergave per monument**~~ — **opgelost.** Klik op een punt
+2. ~~**"Waarom staat dit punt hier?"-detailweergave per monument**~~ - **opgelost.** Klik op een punt
    op de kaart toont een detailpaneel: rijksmonumentnummer met link naar de RCE-bron, oorspronkelijke
    functie, afstand tot de gebiedsrand (of "binnen het gebied"), provincie, onzekerheidsstatus, elk
    bekend adres met het daarbij gevonden BAG-gebruiksdoel, en de peildatum.
-3. ~~**Datakwaliteitsdashboard per gebied**~~ — **opgelost.** Nieuwe kaart op elke gebiedspagina:
+3. ~~**Datakwaliteitsdashboard per gebied**~~ - **opgelost.** Nieuwe kaart op elke gebiedspagina:
    aantal eenduidig actief / actief maar onzeker / bevestigd niet-actief / geen adres bekend / geen
    BAG-match / BAG-bevraging mislukt / monumenten met meerdere adressen.
 4. Normaliseren voor vergelijking tussen gebieden (per 100 km², per km gebiedsrand, aandeel actief,
-   verdeling over afstandsklassen) — nadrukkelijk als beschrijvende statistiek, niet als stikstofmaat.
+   verdeling over afstandsklassen) - nadrukkelijk als beschrijvende statistiek, niet als stikstofmaat.
 5. Eén landelijke, permanente pagina per monument (voorkomt uiteenlopende info over gebiedspagina's
    heen bij overlappende monumenten).
 6. Wijzigingsgeschiedenis/snapshots per peildatum (wat veranderde sinds de vorige versie).
