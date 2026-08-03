@@ -56,21 +56,3 @@ Dit zijn blootstellingskaarten: er is géén emissiedata (AERIUS/RAV) verwerkt,
 en afstand tot een Natura 2000-gebied zegt niets over daadwerkelijke
 stikstofdepositie. Geen van de statuscategorieën op deze pagina's is een
 uitspraak over daadwerkelijke agrarische bedrijfsvoering.
-
----
-
-## Om te publiceren (handmatig, door de repo-eigenaar)
-
-Ná het committen van eventuele nog openstaande wijzigingen, en na het
-opnieuw draaien van `node scripts/10-bouw-release-kandidaat.mjs dataset-2026-08-03`
-zodat het commit-veld daarin klopt:
-
-```bash
-git tag -a dataset-2026-08-03 -m "Eerste dataset-release: 25 gebieden, 1.130 boerderijen"
-git push origin dataset-2026-08-03
-gh release create dataset-2026-08-03 --title "Dataset-release 2026-08-03" --notes-file release-notities-2026-08-03.md
-```
-
-(`--notes-file` neemt dit hele bestand over; verwijder de sectie "Om te
-publiceren" er handmatig uit als je 'm niet in de gepubliceerde release-tekst
-wilt.)
