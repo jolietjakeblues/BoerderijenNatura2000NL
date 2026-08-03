@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Zeldersche Driessen &middot; Boerderij-rijksmonumenten &amp; Natura 2000</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <style>
   :root{
     --paper:#F4F7F8; --panel:#FFFFFF; --ink:#16324F; --ink-soft:#4A6579;
@@ -47,7 +48,9 @@
   .mon-list th,.mon-list td{text-align:left;padding:4px 8px;border-bottom:1px solid var(--line)}
   .mon-list th{color:var(--ink-soft);font-size:10px;letter-spacing:.04em;text-transform:uppercase}
   .card h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue-mid);margin-bottom:8px}
-  #map{width:100%;display:block;cursor:crosshair}
+  #map{width:100%;height:480px;border:1px solid var(--line);border-radius:2px;background:var(--paper)}
+  .leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--ink);color:#fff}
+  .leaflet-popup-content{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:12px;margin:8px 10px}
   .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:11px;color:var(--ink-soft);margin-top:8px}
   .legend span{display:inline-flex;align-items:center;gap:5px}
   .sw{width:9px;height:9px;border-radius:50%}
@@ -59,9 +62,7 @@
   .chip:focus-visible{outline:3px solid var(--alert);outline-offset:2px}
   footer{margin-top:22px;font-size:12px;color:var(--ink-soft);border-top:1px solid var(--line);padding-top:14px}
   footer p{margin-bottom:8px}
-  .tip{position:fixed;pointer-events:none;background:var(--ink);color:#fff;font-size:12px;
-    padding:5px 8px;border-radius:2px;display:none;z-index:9;max-width:260px}
-  @media (max-width:480px){ h1{font-size:21px} .stats{grid-template-columns:repeat(3,1fr)} }
+  @media (max-width:480px){ h1{font-size:21px} .stats{grid-template-columns:repeat(3,1fr)} #map{height:360px} }
 </style>
 </head>
 <body>
@@ -89,7 +90,7 @@
       <button class="chip on" id="fAll" aria-pressed="true">Alle 4</button>
       <button class="chip" id="fJa" aria-pressed="false">Alleen BAG-industriefunctie-indicatie</button>
     </div>
-    <canvas id="map" aria-label="Kaart van het Natura 2000-gebied Zeldersche Driessen met rijksmonumentale boerderijen"></canvas>
+    <div id="map" aria-label="Kaart van het Natura 2000-gebied Zeldersche Driessen met rijksmonumentale boerderijen, met een OpenStreetMap-ondergrond"></div>
     <div class="legend">
       <span><i class="sq" style="background:rgba(94,125,70,.3);border:1px solid var(--n2k)"></i>Natura 2000</span>
       <span><i class="sw" style="background:var(--k0)"></i>erin</span>
@@ -98,11 +99,14 @@
       <span><i class="sw" style="background:var(--k3)"></i>&lt;5 km</span>
     </div>
     <p style="font-size:12px;color:var(--ink-soft);margin-top:8px">Klik op een punt voor details ("waarom staat
-    dit punt hier?"), beweeg eroverheen voor een korte hint. Bij omrande punten (donkerblauw, effen) is eenduidig een industriefunctie in de BAG aangetroffen. Een dubbele donkerblauwe rand betekent: wel
+    dit punt hier?"), beweeg eroverheen voor een korte hint. Sleep om te verschuiven, scroll of gebruik de
+    +/&minus;-knoppen om in te zoomen op de werkelijke ligging. Bij omrande punten (donkerblauw, effen) hebben een
+    eenduidige industriefunctie in de BAG aangetroffen. Een dubbele donkerblauwe rand betekent: wel
     industriefunctie gevonden, maar niet bij alle adressen van dit monument eenduidig (zie klik-detail).
     Een gestippelde grijze rand: kon niet in de BAG worden gecontroleerd (geen adres bekend of geen match
     gevonden) &mdash; dit is geen bevestiging van afwezige bedrijfsvoering, alleen een niet-gevonden
-    industriefunctie.</p>
+    industriefunctie. Kaartondergrond: &copy; <a href="https://carto.com/attributions" target="_blank" rel="noopener" style="color:var(--blue-mid)">CARTO</a>
+    &amp; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener" style="color:var(--blue-mid)">OpenStreetMap</a>-auteurs.</p>
     <div class="detail" id="detail"></div>
     <details class="mon-list">
       <summary>Lijst van alle 4 monumenten (toetsenbord- en schermlezer-toegankelijk)</summary>
@@ -149,8 +153,8 @@
     bedrijfsvoering &mdash; alleen over wat wel of niet in de BAG is aangetroffen.</p>
   </footer>
 </div>
-<div class="tip" id="tip"></div>
 <script id="data" type="application/json">{"gebied":"Zeldersche Driessen","peildatum":"2026-08-03","n":4,"ja":1,"onbekend":0,"provCounts":{"Limburg":3,"Noord-Brabant":1},"provJaCounts":{"Limburg":1},"bbox":[5.927621007020746,51.656867086419794,6.046649195958295,51.716898852992614],"n2000":[{"naam":"Zeldersche Driessen","rings":[[[6.019719032734883,51.69830216777754],[6.018591568591951,51.69884617115644],[6.018217659279704,51.69900296148298],[6.017857768274947,51.69915390706156],[6.017624734056497,51.699251645805525],[6.017362548854453,51.699194277922544],[6.016558017077898,51.699018236839656],[6.0166761033743335,51.69896274761007],[6.017178182489332,51.698726817471346],[6.017512911551038,51.69856434296009],[6.018081345447586,51.698288530137255],[6.018248506531479,51.69820111304829],[6.018165674194234,51.69815999195311],[6.018166784358278,51.69815941968221],[6.017841964064826,51.6980108888022],[6.017115612380168,51.69767883765193],[6.016288010111634,51.697294973008944],[6.016264846200343,51.697281455268374],[6.016049803713371,51.69718448492145],[6.014678518395234,51.69654841405263],[6.014673068799688,51.69655982297005],[6.014567737912623,51.69678022528225],[6.014101123291472,51.697756577033175],[6.01401595331411,51.698044448034636],[6.013994324112497,51.69803268072402],[6.013934811659298,51.6980002929065],[6.013930502734742,51.69802514639541],[6.013931787398951,51.69806867906025],[6.013788408945427,51.6980134825806],[6.013500957791347,51.6979044806685],[6.0134805127452235,51.69801600513772],[6.013408221308979,51.69836323029215],[6.013424008150862,51.6984534465011],[6.013507363086305,51.698701340936715],[6.013522934000076,51.69887327648655],[6.011610580182382,51.697991160377555],[6.01161127951238,51.697983980958426],[6.011646740616858,51.69780340815689],[6.011673418622183,51.69770853383748],[6.01170023140154,51.69762332165975],[6.011907017025794,51.69724282664093],[6.0120476499393645,51.697095592628315],[6.012104200233174,51.6969697086301],[6.012151870098712,51.69683710618941],[6.012330884210228,51.69655175761316],[6.012542127785327,51.696253794458045],[6.012568243947883,51.696178112021094],[6.012761089532884,51.69556977822134],[6.012864373687314,51.69535353855652],[6.013000278373484,51.69513786873141],[6.0130564637444,51.695038971208525],[6.013113884719549,51.6949187997461],[6.013219327907609,51.694675067892824],[6.013705010153219,51.693734610816186],[6.013791431085497,51.69360041153841],[6.013804574439215,51.693584982181314],[6.013872195947389,51.693526625086115],[6.013973961582428,51.69346421105532],[6.0140852189603615,51.693413350557044],[6.0143171560852755,51.69331737650201],[6.014857194709621,51.69310791322962],[6.015469517174871,51.69287040133179],[6.015826892794045,51.69273702323495],[6.01606212180969,51.692654566830456],[6.016164168657754,51.69261148230521],[6.016228817311962,51.692564735246535],[6.0162296096086365,51.69256388245494],[6.016270675764926,51.69253792982471],[6.016334386788373,51.69249418368506],[6.016373585100584,51.69246008468709],[6.016708802852916,51.69206338952779],[6.016927278440248,51.69185544806466],[6.017116651407702,51.691700075096676],[6.017239262923709,51.69164484398334],[6.0173847303952614,51.69159379623025],[6.0175985866443895,51.6915404385598],[6.017797044678617,51.69149876786763],[6.017956140627955,51.69147227780471],[6.0180808932208345,51.69146085520041],[6.018466345123666,51.691431368465246],[6.0187086177750135,51.69140879474859],[6.018950779318958,51.691378490825386],[6.019155549423492,51.69134258149475],[6.01945004349878,51.6912733245822],[6.020576988577875,51.6910178331233],[6.020973908010195,51.690934499313656],[6.021476488138883,51.69084478514583],[6.021711673358567,51.69080462933189],[6.022066589374936,51.69074933591851],[6.022072424981426,51.69074283778782],[6.022540661248739,51.69066305081554],[6.022836766153757,51.69060357798141],[6.022911833013359,51.69058545458017],[6.022950356638478,51.69057615332888],[6.022973512240561,51.690571894589176],[6.0229881480391345,51.69056702952309],[6.023041483184384,51.690554152102244],[6.023239630852706,51.690487346782355],[6.023276732147787,51.690472765079186],[6.0233041621926,51.69046198330384],[6.023399064764076,51.69043043682624],[6.023512310649052,51.690378264827395],[6.023798004220779,51.69025573804815],[6.02395673565942,51.69018766444476],[6.024218141702816,51.69008764704512],[6.024293695107683,51.69006073362019],[6.024577412341682,51.68996410052097],[6.0247412969158445,51.68991260986732],[6.0249829933466055,51.68984163098469],[6.025139571041751,51.689807909841285],[6.025297754050865,51.68977615186718],[6.025483792671444,51.68974817171286],[6.025632980883091,51.68973555977499],[6.025752662035126,51.68972821775825],[6.026158130634208,51.689703812712445],[6.026492470881191,51.68970392936789],[6.0270399405203925,51.689712534549145],[6.027427357054997,51.68972781911814],[6.027903120155717,51.68972328426574],[6.028355516767519,51.689715008473954],[6.028492334856931,51.68971425923541],[6.028615376786742,51.689727124132844],[6.028948979639686,51.68978523313146],[6.029494627602537,51.6898847129388],[6.0296712044378955,51.68992353466394],[6.029768303696932,51.68995303681965],[6.029806784878104,51.68996612807235],[6.029929006274201,51.69003119188494],[6.030067158685764,51.690123233190285],[6.0302338992170625,51.6902576520395],[6.0303332905536,51.69035764518788],[6.030459928285921,51.6905154838985],[6.030523312079098,51.69060555337234],[6.030580556891741,51.69068689252594],[6.030742856001947,51.690940695576835],[6.030820858962645,51.69111900965371],[6.030988865836564,51.69144459109634],[6.031150726521375,51.69167984414377],[6.031470363424241,51.69200673565871],[6.0314954690284495,51.69203519698313],[6.031552498071274,51.69210834811432],[6.031613173135913,51.69222014869016],[6.031619836680175,51.69224219913825],[6.031644541266917,51.69235516573238],[6.031644860430745,51.69236122238298],[6.0316465379530655,51.692392468778834],[6.031649195958296,51.69244187421325],[6.031636355055218,51.69252466910452],[6.0303075079096615,51.692691173226116],[6.030219484010645,51.693182601437165],[6.030081307687414,51.69426867850104],[6.0301523171929485,51.69480831544983],[6.030210068124331,51.69534218785393],[6.030214217958232,51.69548226342443],[6.03018773204098,51.69562871842132],[6.0297927878249675,51.69671278955418],[6.0291014499244096,51.697002339909794],[6.029160027180447,51.69725763308087],[6.0285636785622,51.697307047838535],[6.028717867163965,51.696688621946976],[6.028717983485924,51.69668815479474],[6.028739452436291,51.69660204112122],[6.0287520091026385,51.69655167230638],[6.024117777845961,51.69629713067285],[6.020935689337291,51.696386756100146],[6.019721254888161,51.696692401788816],[6.019727662404853,51.69671843896588],[6.019900670761921,51.69742142099789],[6.02006432121193,51.69808636181747],[6.020007608713118,51.69811380163031],[6.019958753877307,51.698137438079236],[6.019962859864365,51.698299166112086],[6.019927729184693,51.69834036605838],[6.019881410151797,51.6983716777237],[6.019866153399147,51.69838199110721],[6.019830448852341,51.69838218398886],[6.01981375425864,51.69836851064439],[6.019812940840979,51.698310368808066],[6.019807169365538,51.69830169171297],[6.019782444247375,51.69829508373104],[6.019754847888799,51.698293548306324],[6.019719032734883,51.69830216777754]]]}],"mons":[{"nr":"508163","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34822","functie":"Boerderij","wpl":"Ottersum","straat":"St.Janstraat","huisnr":"22","prov":"Limburg","k":3,"d":2012,"erin":false,"afstandTotRand":2012,"lon":5.983142546219095,"lat":51.70189885299261,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"St.Janstraat","huisnr":"22","postcode":"6595AC","woonplaats":"Ottersum"}],"matched":[{"straat":"St.Janstraat","huisnummer":22,"postcode":"6595AC","gebruiksdoel":"kantoorfunctie"}]},{"nr":"16100","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51664","functie":"Boerderij","wpl":"Ven-Zelderheide","straat":"Zelder","huisnr":"1","prov":"Limburg","k":1,"d":118,"erin":false,"afstandTotRand":118,"lon":6.014389190512258,"lat":51.699785086301624,"ja":true,"bag":"ok","status":"industrie_aangetroffen","addressen":[{"straat":"Zelder","huisnr":"1","postcode":"6599EG","woonplaats":"Ven-Zelderheide"}],"matched":[{"straat":"Zelder","huisnummer":1,"postcode":"6599EG","gebruiksdoel":"industriefunctie"}]},{"nr":"31229","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55061","functie":"Boerderij","wpl":"Oeffelt","straat":"Urlingsestraat","huisnr":"23","prov":"Noord-Brabant","k":3,"d":4786,"erin":false,"afstandTotRand":4786,"lon":5.942621007020746,"lat":51.693513921043255,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Urlingsestraat","huisnr":"23","postcode":"5441XJ","woonplaats":"Oeffelt"},{"straat":"Urlingsestraat","huisnr":"25","postcode":"5441XJ","woonplaats":"Oeffelt"}],"matched":[{"straat":"Urlingsestraat","huisnummer":23,"postcode":"5441XJ","gebruiksdoel":"woonfunctie"},{"straat":"Urlingsestraat","huisnummer":25,"postcode":"5441XJ","gebruiksdoel":"woonfunctie"}]},{"nr":"526595","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67742","functie":"Boerderij","wpl":"Heijen","straat":"Hoofdstraat","huisnr":"42","prov":"Limburg","k":3,"d":3549,"erin":false,"afstandTotRand":3549,"lon":5.976140252743595,"lat":51.671867086419795,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Hoofdstraat","huisnr":"42","postcode":"6598AE","woonplaats":"Heijen"}],"matched":[{"straat":"Hoofdstraat","huisnummer":42,"postcode":"6598AE","gebruiksdoel":"woonfunctie"}]}],"richtlijn":{"gebiedsnummer":"143","label":"Habitatrichtlijn","badge":"HR","heeftGroeveOnderdeel":false,"siteCodeVogelrichtlijn":null,"siteCodeHabitatrichtlijn":"NL2003055","stikstofgevoelig":true,"natura2000Status":"Natura 2000-besluit 7 mei 2013","wikidata":"http://www.wikidata.org/entity/Q2453694","rceUris":["https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/334b11a2-7dd9-465d-8ee4-cc9e19a07577"]},"datakwaliteit":{"industrieAangetroffen":1,"industrieDeelsAangetroffen":0,"geenIndustrieAangetroffen":3,"geenAdres":0,"geenMatch":0,"bagMislukt":0,"meerdereAdressen":1}}</script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 const D = JSON.parse(document.getElementById('data').textContent);
 const $ = id => document.getElementById(id);
@@ -168,56 +172,21 @@ $('stats').innerHTML = `
   <div class="stat alert"><div class="num">${fmt(D.provJaCounts['Noord-Brabant']||0)}</div><div class="lbl">Noord-Brabant industriefunctie</div></div>
   <div class="stat neutral"><div class="num">${fmt(D.onbekend)}</div><div class="lbl">BAG niet te controleren</div></div>`;
 
-const canvas = $('map'), ctx = canvas.getContext('2d');
-let proj = null;
-function drawMap(){
-  const w = canvas.clientWidth, h = Math.min(Math.round(w*0.9), 520);
-  const dpr = window.devicePixelRatio||1;
-  canvas.width=w*dpr; canvas.height=h*dpr; canvas.style.height=h+'px';
-  ctx.setTransform(dpr,0,0,dpr,0,0);
-  ctx.clearRect(0,0,w,h);
-  const [x0,y0,x1,y1] = D.bbox;
-  const latC = Math.cos((y0+y1)/2*Math.PI/180);
-  const spanX=(x1-x0)*latC, spanY=y1-y0, pad=10;
-  const s = Math.min((w-2*pad)/spanX,(h-2*pad)/spanY);
-  const ox=(w-spanX*s)/2, oy=(h-spanY*s)/2;
-  proj = ([x,y])=>[ox+(x-x0)*latC*s, h-oy-(y-y0)*s];
-  ctx.fillStyle='rgba(94,125,70,0.28)'; ctx.strokeStyle='#5E7D46'; ctx.lineWidth=1;
-  D.n2000.forEach(g=>g.rings.forEach(r=>{
-    ctx.beginPath();
-    r.forEach((p,i)=>{const [px,py]=proj(p); i?ctx.lineTo(px,py):ctx.moveTo(px,py);});
-    ctx.closePath(); ctx.fill(); ctx.stroke();
-  }));
-  [...D.mons].sort((a,b)=>b.k-a.k).forEach(m=>{
-    if(filterJa && !m.ja) return;
-    const [px,py]=proj([m.lon,m.lat]);
-    ctx.fillStyle = KC[m.k];
-    const r = m.k<=1 ? 3.6 : m.k===2 ? 3.1 : 2.6;
-    ctx.beginPath(); ctx.arc(px,py,r,0,7); ctx.fill();
-    if(m.status==='industrie_deels_aangetroffen'){ ctx.strokeStyle='#16324F'; ctx.lineWidth=1.2; ctx.stroke(); ctx.beginPath(); ctx.arc(px,py,r+2.2,0,7); ctx.stroke(); }
-    else if(m.ja){ ctx.strokeStyle='#16324F'; ctx.lineWidth=1.2; ctx.stroke(); }
-    else if(m.bag!=='ok'){ ctx.setLineDash([1.5,1.5]); ctx.strokeStyle='#8A8A8A'; ctx.lineWidth=1; ctx.stroke(); ctx.setLineDash([]); }
-  });
-}
-const tip=$('tip');
-canvas.addEventListener('pointermove',e=>{
-  if(!proj) return;
-  const r=canvas.getBoundingClientRect();
-  const mx=e.clientX-r.left, my=e.clientY-r.top;
-  let best=null,bd=90;
-  D.mons.forEach(m=>{
-    if(filterJa && !m.ja) return;
-    const [px,py]=proj([m.lon,m.lat]), d=(px-mx)**2+(py-my)**2;
-    if(d<bd){bd=d;best=m;}
-  });
-  if(best){
-    tip.style.display='block';
-    tip.style.left=Math.min(e.clientX+12, innerWidth-260)+'px'; tip.style.top=(e.clientY-10)+'px';
-    tip.textContent = `rm ${best.nr} \u00b7 ${best.straat||''} ${best.huisnr||''}, ${best.wpl||''} \u00b7 ${best.prov} \u00b7 ${KN[best.k]} van Zeldersche Driessen`+
-      (best.d>0 ? ` (${fmt(best.d)} m)` : '') + (best.ja ? ' \u00b7 BAG-industriefunctie-indicatie' : (best.bag!=='ok' ? ' \u00b7 BAG niet te controleren' : ''));
-  } else tip.style.display='none';
-});
-canvas.addEventListener('pointerleave',()=>tip.style.display='none');
+const map = L.map('map', { scrollWheelZoom: false });
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &copy; OpenStreetMap contributors',
+  maxZoom: 19
+}).addTo(map);
+const [bx0,by0,bx1,by1] = D.bbox;
+map.fitBounds([[by0,bx0],[by1,bx1]], { padding: [10,10] });
+
+const n2000Layer = L.layerGroup().addTo(map);
+D.n2000.forEach(g => g.rings.forEach(ring => {
+  L.polygon(ring.map(([lon,lat]) => [lat,lon]), {
+    color: '#5E7D46', weight: 1, fillColor: '#5E7D46', fillOpacity: 0.28, interactive: false
+  }).addTo(n2000Layer);
+}));
+
 const STATUS_LABEL = {
   industrie_aangetroffen: 'Industriefunctie aangetroffen (eenduidig)',
   industrie_deels_aangetroffen: 'Industriefunctie aangetroffen bij een deel van de adressen',
@@ -227,23 +196,12 @@ const STATUS_LABEL = {
   bag_mislukt: 'BAG niet te controleren \u2014 bevraging mislukt'
 };
 const detail = $('detail');
-function vindDichtstbijzijnde(e){
-  const r=canvas.getBoundingClientRect();
-  const mx=e.clientX-r.left, my=e.clientY-r.top;
-  let best=null,bd=90;
-  D.mons.forEach(m=>{
-    if(filterJa && !m.ja) return;
-    const [px,py]=proj([m.lon,m.lat]), d=(px-mx)**2+(py-my)**2;
-    if(d<bd){bd=d;best=m;}
-  });
-  return best;
-}
-canvas.addEventListener('click',e=>{
-  if(!proj) return;
-  const m = vindDichtstbijzijnde(e);
-  if(!m){ detail.classList.remove('on'); return; }
+function toonDetail(m){
   const adressenHtml = (m.addressen||[]).map((a,i)=>{
-    const match = (m.matched||[]).find(x=>x.straat===a.straat && String(x.huisnummer)===String(parseInt(a.huisnr,10)));
+    const huisnrMatch = String(a.huisnr||'').trim().match(/^(\d+)\s*([A-Za-z]?)$/);
+    const nr = huisnrMatch ? huisnrMatch[1] : null;
+    const letter = huisnrMatch ? huisnrMatch[2].toUpperCase() : '';
+    const match = (m.matched||[]).find(x=>x.straat===a.straat && String(x.huisnummer)===nr && String(x.huisletter||'').toUpperCase()===letter);
     return `<dt>adres ${i+1}</dt><dd>${a.straat} ${a.huisnr}, ${a.postcode} ${a.woonplaats}${match ? ' \u2014 gebruiksdoel: '+match.gebruiksdoel : ' \u2014 geen BAG-match'}</dd>`;
   }).join('');
   detail.innerHTML = `<dl>
@@ -255,13 +213,38 @@ canvas.addEventListener('click',e=>{
     <dt>peildatum</dt><dd>2026-08-03</dd>
   </dl>`;
   detail.classList.add('on');
-});
-if($('fAll')){
-  $('fAll').onclick=()=>{filterJa=false;$('fAll').classList.add('on');$('fAll').setAttribute('aria-pressed','true');$('fJa').classList.remove('on');$('fJa').setAttribute('aria-pressed','false');drawMap();};
-  $('fJa').onclick=()=>{filterJa=true;$('fJa').classList.add('on');$('fJa').setAttribute('aria-pressed','true');$('fAll').classList.remove('on');$('fAll').setAttribute('aria-pressed','false');drawMap();};
 }
-drawMap();
-window.addEventListener('resize',drawMap);
+
+const monLayer = L.layerGroup().addTo(map);
+function renderMarkers(){
+  monLayer.clearLayers();
+  [...D.mons].sort((a,b)=>b.k-a.k).forEach(m=>{
+    if(filterJa && !m.ja) return;
+    const r = m.k<=1 ? 5 : m.k===2 ? 4.4 : 3.8;
+    const marker = L.circleMarker([m.lat,m.lon], { radius:r, fillColor:KC[m.k], fillOpacity:0.9, weight:1, color:KC[m.k] });
+    if(m.status==='industrie_deels_aangetroffen'){
+      marker.setStyle({color:'#16324F', weight:1.3});
+      L.circleMarker([m.lat,m.lon], { radius:r+2.2, fill:false, color:'#16324F', weight:1.3, interactive:false }).addTo(monLayer);
+    } else if(m.ja){
+      marker.setStyle({color:'#16324F', weight:1.3});
+    } else if(m.bag!=='ok'){
+      marker.setStyle({color:'#8A8A8A', weight:1, dashArray:'2,2'});
+    }
+    marker.bindTooltip(
+      `rm ${m.nr} \u00b7 ${m.straat||''} ${m.huisnr||''}, ${m.wpl||''} \u00b7 ${m.prov} \u00b7 ${KN[m.k]} van Zeldersche Driessen`+
+      (m.d>0 ? ` (${fmt(m.d)} m)` : '') + (m.ja ? ' \u00b7 BAG-industriefunctie-indicatie' : (m.bag!=='ok' ? ' \u00b7 BAG niet te controleren' : ''))
+    );
+    marker.on('click', ()=>toonDetail(m));
+    marker.addTo(monLayer);
+  });
+}
+renderMarkers();
+
+if($('fAll')){
+  $('fAll').onclick=()=>{filterJa=false;$('fAll').classList.add('on');$('fAll').setAttribute('aria-pressed','true');$('fJa').classList.remove('on');$('fJa').setAttribute('aria-pressed','false');renderMarkers();};
+  $('fJa').onclick=()=>{filterJa=true;$('fJa').classList.add('on');$('fJa').setAttribute('aria-pressed','true');$('fAll').classList.remove('on');$('fAll').setAttribute('aria-pressed','false');renderMarkers();};
+}
+window.addEventListener('resize',()=>map.invalidateSize());
 </script>
 </body>
 </html>

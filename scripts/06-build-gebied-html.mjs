@@ -64,6 +64,7 @@ const head = `<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>${Dobj.gebied} &middot; Boerderij-rijksmonumenten &amp; Natura 2000</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <style>
   :root{
     --paper:#F4F7F8; --panel:#FFFFFF; --ink:#16324F; --ink-soft:#4A6579;
@@ -107,7 +108,9 @@ const head = `<!DOCTYPE html>
   .mon-list th,.mon-list td{text-align:left;padding:4px 8px;border-bottom:1px solid var(--line)}
   .mon-list th{color:var(--ink-soft);font-size:10px;letter-spacing:.04em;text-transform:uppercase}
   .card h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue-mid);margin-bottom:8px}
-  #map{width:100%;display:block;cursor:crosshair}
+  #map{width:100%;height:480px;border:1px solid var(--line);border-radius:2px;background:var(--paper)}
+  .leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--ink);color:#fff}
+  .leaflet-popup-content{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:12px;margin:8px 10px}
   .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:11px;color:var(--ink-soft);margin-top:8px}
   .legend span{display:inline-flex;align-items:center;gap:5px}
   .sw{width:9px;height:9px;border-radius:50%}
@@ -119,9 +122,7 @@ const head = `<!DOCTYPE html>
   .chip:focus-visible{outline:3px solid var(--alert);outline-offset:2px}
   footer{margin-top:22px;font-size:12px;color:var(--ink-soft);border-top:1px solid var(--line);padding-top:14px}
   footer p{margin-bottom:8px}
-  .tip{position:fixed;pointer-events:none;background:var(--ink);color:#fff;font-size:12px;
-    padding:5px 8px;border-radius:2px;display:none;z-index:9;max-width:260px}
-  @media (max-width:480px){ h1{font-size:21px} .stats{grid-template-columns:repeat(3,1fr)} }
+  @media (max-width:480px){ h1{font-size:21px} .stats{grid-template-columns:repeat(3,1fr)} #map{height:360px} }
 </style>
 </head>
 <body>
@@ -151,7 +152,7 @@ const head = `<!DOCTYPE html>
       <button class="chip on" id="fAll" aria-pressed="true">Alle __D_N__</button>
       <button class="chip" id="fJa" aria-pressed="false">Alleen BAG-industriefunctie-indicatie</button>
     </div>`}
-    <canvas id="map" aria-label="Kaart van het Natura 2000-gebied ${Dobj.gebied} met rijksmonumentale boerderijen"></canvas>
+    <div id="map" aria-label="Kaart van het Natura 2000-gebied ${Dobj.gebied} met rijksmonumentale boerderijen, met een OpenStreetMap-ondergrond"></div>
     <div class="legend">
       <span><i class="sq" style="background:rgba(94,125,70,.3);border:1px solid var(--n2k)"></i>Natura 2000</span>
       <span><i class="sw" style="background:var(--k0)"></i>erin</span>
@@ -160,12 +161,14 @@ const head = `<!DOCTYPE html>
       <span><i class="sw" style="background:var(--k3)"></i>&lt;5 km</span>
     </div>
     <p style="font-size:12px;color:var(--ink-soft);margin-top:8px">Klik op een punt voor details ("waarom staat
-    dit punt hier?"), beweeg eroverheen voor een korte hint. Bij omrande punten (donkerblauw, effen) hebben een
+    dit punt hier?"), beweeg eroverheen voor een korte hint. Sleep om te verschuiven, scroll of gebruik de
+    +/&minus;-knoppen om in te zoomen op de werkelijke ligging. Bij omrande punten (donkerblauw, effen) hebben een
     eenduidige industriefunctie in de BAG aangetroffen. Een dubbele donkerblauwe rand betekent: wel
     industriefunctie gevonden, maar niet bij alle adressen van dit monument eenduidig (zie klik-detail).
     Een gestippelde grijze rand: kon niet in de BAG worden gecontroleerd (geen adres bekend of geen match
     gevonden) &mdash; dit is geen bevestiging van afwezige bedrijfsvoering, alleen een niet-gevonden
-    industriefunctie.</p>
+    industriefunctie. Kaartondergrond: &copy; <a href="https://carto.com/attributions" target="_blank" rel="noopener" style="color:var(--blue-mid)">CARTO</a>
+    &amp; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener" style="color:var(--blue-mid)">OpenStreetMap</a>-auteurs.</p>
     <div class="detail" id="detail"></div>
     ${Dobj.n > 0 ? `<details class="mon-list">
       <summary>Lijst van alle ${Dobj.n} monumenten (toetsenbord- en schermlezer-toegankelijk)</summary>
@@ -197,10 +200,10 @@ const head = `<!DOCTYPE html>
     bedrijfsvoering &mdash; alleen over wat wel of niet in de BAG is aangetroffen.</p>
   </footer>
 </div>
-<div class="tip" id="tip"></div>
 <script id="data" type="application/json">`;
 
 const tail = `</script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 const D = JSON.parse(document.getElementById('data').textContent);
 const $ = id => document.getElementById(id);
@@ -211,56 +214,21 @@ let filterJa = false;
 
 $('stats').innerHTML = \`${statBlocks}\`;
 
-const canvas = $('map'), ctx = canvas.getContext('2d');
-let proj = null;
-function drawMap(){
-  const w = canvas.clientWidth, h = Math.min(Math.round(w*0.9), 520);
-  const dpr = window.devicePixelRatio||1;
-  canvas.width=w*dpr; canvas.height=h*dpr; canvas.style.height=h+'px';
-  ctx.setTransform(dpr,0,0,dpr,0,0);
-  ctx.clearRect(0,0,w,h);
-  const [x0,y0,x1,y1] = D.bbox;
-  const latC = Math.cos((y0+y1)/2*Math.PI/180);
-  const spanX=(x1-x0)*latC, spanY=y1-y0, pad=10;
-  const s = Math.min((w-2*pad)/spanX,(h-2*pad)/spanY);
-  const ox=(w-spanX*s)/2, oy=(h-spanY*s)/2;
-  proj = ([x,y])=>[ox+(x-x0)*latC*s, h-oy-(y-y0)*s];
-  ctx.fillStyle='rgba(94,125,70,0.28)'; ctx.strokeStyle='#5E7D46'; ctx.lineWidth=1;
-  D.n2000.forEach(g=>g.rings.forEach(r=>{
-    ctx.beginPath();
-    r.forEach((p,i)=>{const [px,py]=proj(p); i?ctx.lineTo(px,py):ctx.moveTo(px,py);});
-    ctx.closePath(); ctx.fill(); ctx.stroke();
-  }));
-  [...D.mons].sort((a,b)=>b.k-a.k).forEach(m=>{
-    if(filterJa && !m.ja) return;
-    const [px,py]=proj([m.lon,m.lat]);
-    ctx.fillStyle = KC[m.k];
-    const r = m.k<=1 ? 3.6 : m.k===2 ? 3.1 : 2.6;
-    ctx.beginPath(); ctx.arc(px,py,r,0,7); ctx.fill();
-    if(m.status==='industrie_deels_aangetroffen'){ ctx.strokeStyle='#16324F'; ctx.lineWidth=1.2; ctx.stroke(); ctx.beginPath(); ctx.arc(px,py,r+2.2,0,7); ctx.stroke(); }
-    else if(m.ja){ ctx.strokeStyle='#16324F'; ctx.lineWidth=1.2; ctx.stroke(); }
-    else if(m.bag!=='ok'){ ctx.setLineDash([1.5,1.5]); ctx.strokeStyle='#8A8A8A'; ctx.lineWidth=1; ctx.stroke(); ctx.setLineDash([]); }
-  });
-}
-const tip=$('tip');
-canvas.addEventListener('pointermove',e=>{
-  if(!proj) return;
-  const r=canvas.getBoundingClientRect();
-  const mx=e.clientX-r.left, my=e.clientY-r.top;
-  let best=null,bd=90;
-  D.mons.forEach(m=>{
-    if(filterJa && !m.ja) return;
-    const [px,py]=proj([m.lon,m.lat]), d=(px-mx)**2+(py-my)**2;
-    if(d<bd){bd=d;best=m;}
-  });
-  if(best){
-    tip.style.display='block';
-    tip.style.left=Math.min(e.clientX+12, innerWidth-260)+'px'; tip.style.top=(e.clientY-10)+'px';
-    tip.textContent = \`rm \${best.nr} \\u00b7 \${best.straat||''} \${best.huisnr||''}, \${best.wpl||''} \\u00b7 \${best.prov} \\u00b7 \${KN[best.k]} van ${Dobj.gebied}\`+
-      (best.d>0 ? \` (\${fmt(best.d)} m)\` : '') + (best.ja ? ' \\u00b7 BAG-industriefunctie-indicatie' : (best.bag!=='ok' ? ' \\u00b7 BAG niet te controleren' : ''));
-  } else tip.style.display='none';
-});
-canvas.addEventListener('pointerleave',()=>tip.style.display='none');
+const map = L.map('map', { scrollWheelZoom: false });
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &copy; OpenStreetMap contributors',
+  maxZoom: 19
+}).addTo(map);
+const [bx0,by0,bx1,by1] = D.bbox;
+map.fitBounds([[by0,bx0],[by1,bx1]], { padding: [10,10] });
+
+const n2000Layer = L.layerGroup().addTo(map);
+D.n2000.forEach(g => g.rings.forEach(ring => {
+  L.polygon(ring.map(([lon,lat]) => [lat,lon]), {
+    color: '#5E7D46', weight: 1, fillColor: '#5E7D46', fillOpacity: 0.28, interactive: false
+  }).addTo(n2000Layer);
+}));
+
 const STATUS_LABEL = {
   industrie_aangetroffen: 'Industriefunctie aangetroffen (eenduidig)',
   industrie_deels_aangetroffen: 'Industriefunctie aangetroffen bij een deel van de adressen',
@@ -270,21 +238,7 @@ const STATUS_LABEL = {
   bag_mislukt: 'BAG niet te controleren \\u2014 bevraging mislukt'
 };
 const detail = $('detail');
-function vindDichtstbijzijnde(e){
-  const r=canvas.getBoundingClientRect();
-  const mx=e.clientX-r.left, my=e.clientY-r.top;
-  let best=null,bd=90;
-  D.mons.forEach(m=>{
-    if(filterJa && !m.ja) return;
-    const [px,py]=proj([m.lon,m.lat]), d=(px-mx)**2+(py-my)**2;
-    if(d<bd){bd=d;best=m;}
-  });
-  return best;
-}
-canvas.addEventListener('click',e=>{
-  if(!proj) return;
-  const m = vindDichtstbijzijnde(e);
-  if(!m){ detail.classList.remove('on'); return; }
+function toonDetail(m){
   const adressenHtml = (m.addressen||[]).map((a,i)=>{
     const huisnrMatch = String(a.huisnr||'').trim().match(/^(\\d+)\\s*([A-Za-z]?)$/);
     const nr = huisnrMatch ? huisnrMatch[1] : null;
@@ -301,13 +255,38 @@ canvas.addEventListener('click',e=>{
     <dt>peildatum</dt><dd>${Dobj.peildatum}</dd>
   </dl>\`;
   detail.classList.add('on');
-});
-if($('fAll')){
-  $('fAll').onclick=()=>{filterJa=false;$('fAll').classList.add('on');$('fAll').setAttribute('aria-pressed','true');$('fJa').classList.remove('on');$('fJa').setAttribute('aria-pressed','false');drawMap();};
-  $('fJa').onclick=()=>{filterJa=true;$('fJa').classList.add('on');$('fJa').setAttribute('aria-pressed','true');$('fAll').classList.remove('on');$('fAll').setAttribute('aria-pressed','false');drawMap();};
 }
-drawMap();
-window.addEventListener('resize',drawMap);
+
+const monLayer = L.layerGroup().addTo(map);
+function renderMarkers(){
+  monLayer.clearLayers();
+  [...D.mons].sort((a,b)=>b.k-a.k).forEach(m=>{
+    if(filterJa && !m.ja) return;
+    const r = m.k<=1 ? 5 : m.k===2 ? 4.4 : 3.8;
+    const marker = L.circleMarker([m.lat,m.lon], { radius:r, fillColor:KC[m.k], fillOpacity:0.9, weight:1, color:KC[m.k] });
+    if(m.status==='industrie_deels_aangetroffen'){
+      marker.setStyle({color:'#16324F', weight:1.3});
+      L.circleMarker([m.lat,m.lon], { radius:r+2.2, fill:false, color:'#16324F', weight:1.3, interactive:false }).addTo(monLayer);
+    } else if(m.ja){
+      marker.setStyle({color:'#16324F', weight:1.3});
+    } else if(m.bag!=='ok'){
+      marker.setStyle({color:'#8A8A8A', weight:1, dashArray:'2,2'});
+    }
+    marker.bindTooltip(
+      \`rm \${m.nr} \\u00b7 \${m.straat||''} \${m.huisnr||''}, \${m.wpl||''} \\u00b7 \${m.prov} \\u00b7 \${KN[m.k]} van ${Dobj.gebied}\`+
+      (m.d>0 ? \` (\${fmt(m.d)} m)\` : '') + (m.ja ? ' \\u00b7 BAG-industriefunctie-indicatie' : (m.bag!=='ok' ? ' \\u00b7 BAG niet te controleren' : ''))
+    );
+    marker.on('click', ()=>toonDetail(m));
+    marker.addTo(monLayer);
+  });
+}
+renderMarkers();
+
+if($('fAll')){
+  $('fAll').onclick=()=>{filterJa=false;$('fAll').classList.add('on');$('fAll').setAttribute('aria-pressed','true');$('fJa').classList.remove('on');$('fJa').setAttribute('aria-pressed','false');renderMarkers();};
+  $('fJa').onclick=()=>{filterJa=true;$('fJa').classList.add('on');$('fJa').setAttribute('aria-pressed','true');$('fAll').classList.remove('on');$('fAll').setAttribute('aria-pressed','false');renderMarkers();};
+}
+window.addEventListener('resize',()=>map.invalidateSize());
 </script>
 </body>
 </html>

@@ -4,6 +4,22 @@ Overzicht van afgeronde verbeteringen, meestal naar aanleiding van een externe r
 Voor de huidige staat en openstaande punten: zie [README.md](README.md). Voor de
 precieze wijzigingen per gebied: `git log`.
 
+## Echte kaartondergrond (Leaflet + CARTO/OpenStreetMap)
+
+Reviewer-vraag: "ik zou willen doorklikken naar een gewone ondergrond om een idee te
+krijgen van de werkelijke ligging" - de kaart toonde alleen abstracte punten en een
+polygoon, zonder wegen, plaatsnamen of andere geografische context. `scripts/06-build-gebied-html.mjs`
+gebruikt nu Leaflet + CARTO `light_all`-tiles (hetzelfde patroon als
+[aardbevingen-en-rijksmonumenten](https://jolietjakeblues.github.io/aardbevingen-en-rijksmonumenten/)
+en [footprint_percelen](https://jolietjakeblues.github.io/footprint_percelen/)) in plaats van de
+eigen canvas-tekening. Behouden: dezelfde kleur-/randcodering per status, klik-op-punt-detailpaneel,
+filterchips en de toetsenbord-toegankelijke lijst. Geprototypeerd en gestresstest op Geleenbeekdal
+(296 punten) voor akkoord, daarna doorgetrokken naar alle 25 gebieden.
+
+Bewuste afweging: de gebiedspagina's waren tot nu toe volledig zelfstandige, offline-werkende
+bestanden. Met een CARTO/OpenStreetMap-ondergrond laden ze voortaan tegels van een externe
+tileserver bij elk bezoek.
+
 ## Kwaliteitscontrole, herkomst en licenties
 
 - **Pijplijn controleerde niet of een monument nog wél een rijksmonument is** —

@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Binnenveld &middot; Boerderij-rijksmonumenten &amp; Natura 2000</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 <style>
   :root{
     --paper:#F4F7F8; --panel:#FFFFFF; --ink:#16324F; --ink-soft:#4A6579;
@@ -47,7 +48,9 @@
   .mon-list th,.mon-list td{text-align:left;padding:4px 8px;border-bottom:1px solid var(--line)}
   .mon-list th{color:var(--ink-soft);font-size:10px;letter-spacing:.04em;text-transform:uppercase}
   .card h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue-mid);margin-bottom:8px}
-  #map{width:100%;display:block;cursor:crosshair}
+  #map{width:100%;height:480px;border:1px solid var(--line);border-radius:2px;background:var(--paper)}
+  .leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--ink);color:#fff}
+  .leaflet-popup-content{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:12px;margin:8px 10px}
   .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:11px;color:var(--ink-soft);margin-top:8px}
   .legend span{display:inline-flex;align-items:center;gap:5px}
   .sw{width:9px;height:9px;border-radius:50%}
@@ -59,9 +62,7 @@
   .chip:focus-visible{outline:3px solid var(--alert);outline-offset:2px}
   footer{margin-top:22px;font-size:12px;color:var(--ink-soft);border-top:1px solid var(--line);padding-top:14px}
   footer p{margin-bottom:8px}
-  .tip{position:fixed;pointer-events:none;background:var(--ink);color:#fff;font-size:12px;
-    padding:5px 8px;border-radius:2px;display:none;z-index:9;max-width:260px}
-  @media (max-width:480px){ h1{font-size:21px} .stats{grid-template-columns:repeat(3,1fr)} }
+  @media (max-width:480px){ h1{font-size:21px} .stats{grid-template-columns:repeat(3,1fr)} #map{height:360px} }
 </style>
 </head>
 <body>
@@ -89,7 +90,7 @@
       <button class="chip on" id="fAll" aria-pressed="true">Alle 6</button>
       <button class="chip" id="fJa" aria-pressed="false">Alleen BAG-industriefunctie-indicatie</button>
     </div>
-    <canvas id="map" aria-label="Kaart van het Natura 2000-gebied Binnenveld met rijksmonumentale boerderijen"></canvas>
+    <div id="map" aria-label="Kaart van het Natura 2000-gebied Binnenveld met rijksmonumentale boerderijen, met een OpenStreetMap-ondergrond"></div>
     <div class="legend">
       <span><i class="sq" style="background:rgba(94,125,70,.3);border:1px solid var(--n2k)"></i>Natura 2000</span>
       <span><i class="sw" style="background:var(--k0)"></i>erin</span>
@@ -98,11 +99,14 @@
       <span><i class="sw" style="background:var(--k3)"></i>&lt;5 km</span>
     </div>
     <p style="font-size:12px;color:var(--ink-soft);margin-top:8px">Klik op een punt voor details ("waarom staat
-    dit punt hier?"), beweeg eroverheen voor een korte hint. Bij omrande punten (donkerblauw, effen) is eenduidig een industriefunctie in de BAG aangetroffen. Een dubbele donkerblauwe rand betekent: wel
+    dit punt hier?"), beweeg eroverheen voor een korte hint. Sleep om te verschuiven, scroll of gebruik de
+    +/&minus;-knoppen om in te zoomen op de werkelijke ligging. Bij omrande punten (donkerblauw, effen) hebben een
+    eenduidige industriefunctie in de BAG aangetroffen. Een dubbele donkerblauwe rand betekent: wel
     industriefunctie gevonden, maar niet bij alle adressen van dit monument eenduidig (zie klik-detail).
     Een gestippelde grijze rand: kon niet in de BAG worden gecontroleerd (geen adres bekend of geen match
     gevonden) &mdash; dit is geen bevestiging van afwezige bedrijfsvoering, alleen een niet-gevonden
-    industriefunctie.</p>
+    industriefunctie. Kaartondergrond: &copy; <a href="https://carto.com/attributions" target="_blank" rel="noopener" style="color:var(--blue-mid)">CARTO</a>
+    &amp; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener" style="color:var(--blue-mid)">OpenStreetMap</a>-auteurs.</p>
     <div class="detail" id="detail"></div>
     <details class="mon-list">
       <summary>Lijst van alle 6 monumenten (toetsenbord- en schermlezer-toegankelijk)</summary>
@@ -151,8 +155,8 @@
     bedrijfsvoering &mdash; alleen over wat wel of niet in de BAG is aangetroffen.</p>
   </footer>
 </div>
-<div class="tip" id="tip"></div>
 <script id="data" type="application/json">{"gebied":"Binnenveld","peildatum":"2026-08-03","n":6,"ja":0,"onbekend":1,"provCounts":{"Gelderland":3,"Utrecht":3},"provJaCounts":{},"bbox":[5.492508051907406,51.986913255362005,5.66400969244163,52.045294031239564],"n2000":[{"naam":"Binnenveld","rings":[[[5.596230507722837,52.01024799018387],[5.596194074035949,52.010269570837806],[5.596177291135929,52.01027786170039],[5.596041586437926,52.010361523837794],[5.59592073544119,52.01045808080896],[5.595868414359943,52.01051238309967],[5.595840983731765,52.01054095661991],[5.595509395915683,52.01041811323121],[5.594831107043317,52.01018754417029],[5.594823959867013,52.01019478327667],[5.5936705015824915,52.00981134147094],[5.593525832935333,52.00976151446695],[5.592277398221765,52.00933114488386],[5.591718719797421,52.009138873228906],[5.590102001217168,52.008583026169354],[5.590477979325423,52.0080902531175],[5.590607375175075,52.007918693320995],[5.5906440019979415,52.00786313971608],[5.590736038422518,52.007776202350136],[5.5907613860346475,52.007687923483914],[5.590815312000523,52.0076739774973],[5.590882538538048,52.007519454298695],[5.590998348314096,52.00740870811889],[5.591062681564442,52.00730096600671],[5.591071344005485,52.00728645756996],[5.591084012939586,52.00726038969929],[5.591098549646602,52.007228700087516],[5.5911508275210124,52.006971240597096],[5.591190449064227,52.00676189150052],[5.591208431605336,52.00665155757794],[5.5912189805741725,52.00656970475871],[5.591219311997939,52.006568284952714],[5.59122008063029,52.006561170388],[5.5912227224423,52.00654067279516],[5.591224002068645,52.00652487747661],[5.591246388839944,52.00631769475771],[5.5912280115251995,52.00612925392735],[5.591204152644207,52.006003220218794],[5.591202791288003,52.00599146876422],[5.591186036104389,52.005887982101356],[5.591171161455631,52.00581334237033],[5.591154509863626,52.00575113724723],[5.591136082189426,52.005702517214836],[5.591102947538898,52.00563524979751],[5.591027795035008,52.005503373762664],[5.590924158216345,52.00530852927052],[5.59090903014326,52.005276350017496],[5.590884024156114,52.00521868847146],[5.590849025834548,52.005135025308185],[5.590825013449033,52.00506266728011],[5.5908120646201,52.00500781429408],[5.590789796571193,52.00490489438155],[5.590787682845452,52.004892916823735],[5.590770991469877,52.00479836421028],[5.590735357596772,52.00460000416589],[5.5907222497414795,52.00452932508498],[5.590714727846012,52.00448030678703],[5.590718303220459,52.00444664891175],[5.59076755981507,52.00427097352104],[5.590783931418866,52.00419455385547],[5.590792960475571,52.00413295940385],[5.590798303405845,52.004069097333215],[5.590792628570888,52.00402177639668],[5.59078138265057,52.00396021707599],[5.590766379259049,52.00387586309051],[5.5907457879699605,52.00377098801914],[5.590732670931472,52.003701443253306],[5.590728802222616,52.00364101443927],[5.590741054476399,52.00342434340305],[5.590780582766163,52.00307934511252],[5.590789642716867,52.003024597781085],[5.590798752038199,52.00298809184367],[5.5908408446870945,52.002889966999945],[5.590868337244925,52.002831773106],[5.590878133586911,52.00281251246162],[5.5909169926847975,52.00278928708047],[5.59212701830001,52.00307340007303],[5.592267792497301,52.00310657783819],[5.592661645736466,52.003198863321465],[5.593276229725651,52.00334215846136],[5.593394455108422,52.00336975682495],[5.594269869531236,52.0035729802214],[5.595278319722722,52.00380713613726],[5.595890640219441,52.00394958035468],[5.5963150338870875,52.00404826006833],[5.596901850333621,52.00418512501782],[5.59734264770935,52.00428770137777],[5.5983661689147795,52.00452629978698],[5.599401782924325,52.00476795759689],[5.600164715117443,52.004946620975986],[5.600401187130596,52.00500208772848],[5.600513951754644,52.005028286693374],[5.600572725811016,52.00504222128662],[5.600970254970649,52.00513531537815],[5.601059333283202,52.00515621794268],[5.601214700412006,52.00519245217126],[5.601658937821891,52.00529640643963],[5.601768516159814,52.005322049158245],[5.60236334294427,52.005460838844726],[5.603028102746738,52.00561522818195],[5.603951898136448,52.00583008676717],[5.605593086738251,52.00621164699729],[5.605592461173062,52.00622404014439],[5.605542987223577,52.00653791883918],[5.605535975800846,52.00658181029373],[5.605531971640853,52.006607719829006],[5.60549082429703,52.00662943168939],[5.605358941986879,52.006667033228474],[5.6042122653460735,52.0069875631889],[5.602555730497981,52.007456718164164],[5.602480062176067,52.007482481174485],[5.602349090266451,52.00752661205249],[5.602325283451911,52.00753365652004],[5.602195030008161,52.00757217370148],[5.601951141775569,52.007641857299134],[5.6017154250686545,52.00770791223026],[5.601639512599848,52.00772849886037],[5.601223148826746,52.0078460663227],[5.601211643739207,52.007849314926546],[5.600934793925091,52.00792749452384],[5.600708926797343,52.008007520486586],[5.6005890312485755,52.008074951751034],[5.600403940271614,52.00818756784333],[5.600257005810055,52.00833279721397],[5.600111667067062,52.00846523065557],[5.599972818989552,52.0085909101414],[5.5999271044560555,52.00862591371126],[5.59981892222988,52.00870872328767],[5.599757470112257,52.00874373279517],[5.599728379624413,52.008757546287],[5.5997229751387,52.00876011858623],[5.599520680051553,52.008851659283145],[5.5992191218209735,52.00898555030516],[5.5989390646878885,52.00910260743215],[5.598565233267647,52.009258853792105],[5.598052259585592,52.0094709997908],[5.59782996815901,52.00956367987047],[5.59776539332222,52.009590604579756],[5.597528327037527,52.00968944947214],[5.597238885557828,52.009809942013206],[5.596770335307049,52.01000592046451],[5.596745187973499,52.010016438311304],[5.596371106798572,52.01018203567082],[5.596230507722837,52.01024799018387]],[[5.574006981524902,52.01775823276245],[5.573990614544633,52.01774251064973],[5.573990585292953,52.017742482832915],[5.573990509728357,52.01774252789383],[5.573984641612663,52.017736892665816],[5.5739075577359625,52.01766288992771],[5.573627374961274,52.017407362254374],[5.573499315341579,52.01729059451361],[5.57349924514798,52.01729052991022],[5.573172034791175,52.0170092078071],[5.573093273993937,52.016941901556336],[5.572903268552981,52.01677942934362],[5.572475502325852,52.01637732415068],[5.5719262879837315,52.015836817431634],[5.5717677654776745,52.015680769833956],[5.571767707057617,52.015680733074305],[5.571701834259847,52.015712855900176],[5.571499892608155,52.015811199340014],[5.571472158299803,52.015825039642394],[5.571222018954635,52.015949710756345],[5.571063389534909,52.01602997695205],[5.571029195568978,52.01599692081348],[5.570987092150635,52.015956180485645],[5.5708135193656485,52.015788201810835],[5.570506659450572,52.015492313825135],[5.570227268564607,52.015222890093966],[5.569957488348436,52.014962852348575],[5.569706508999922,52.014721928635716],[5.569491574082267,52.01450657368052],[5.569209216147676,52.01418509275265],[5.568956750858701,52.0139316636146],[5.568761064567809,52.01374548991738],[5.568448890117851,52.01341492214993],[5.568519227371248,52.01336180062101],[5.56859537146434,52.013245610122404],[5.568701130583482,52.01312886150398],[5.568739459859192,52.013047542219155],[5.568736814715517,52.013049002386396],[5.568737922882415,52.01304173645104],[5.5689762247373995,52.01291625116881],[5.569005244227196,52.01290097854501],[5.569007244269835,52.012899926533116],[5.569219113209531,52.01278887437844],[5.569315974414241,52.012738103020716],[5.569672844083492,52.01254928173106],[5.569679509732174,52.01254575431547],[5.569679566418852,52.01254572456653],[5.569810382048189,52.012478269283896],[5.569975190204101,52.01239155959333],[5.570142462828024,52.01230355333666],[5.570402349863974,52.012168902266986],[5.570553454563867,52.01208849134993],[5.570708180661909,52.01200615381313],[5.571023738651051,52.0118400628247],[5.571023808415653,52.01184002586412],[5.571189991306185,52.011753677226444],[5.57137483321526,52.011657257541415],[5.571557803731111,52.01156181391694],[5.5715650297708645,52.01155790891082],[5.571565957005498,52.01155740771453],[5.57163061363332,52.01152251400434],[5.5717729122596795,52.01144571962754],[5.572082757045899,52.01128067568038],[5.5720932090257955,52.011275292410346],[5.572204487403611,52.0112179903774],[5.572240825838899,52.011199292634416],[5.572266770414441,52.01118594032485],[5.572460441119354,52.01108407263664],[5.572670904928078,52.01097336973416],[5.572676860849475,52.01097021448043],[5.573235754880694,52.01067421670937],[5.5735703657951206,52.010498901980974],[5.573740530214815,52.01040775186651],[5.5737406188686744,52.01040770498737],[5.574140540410564,52.01019762031939],[5.574226543727066,52.01015243754156],[5.5745227245436695,52.00999683653419],[5.574697572188911,52.00990567486088],[5.57488580300723,52.009807533820776],[5.574889822790646,52.00980539541018],[5.575169547836865,52.009657821197145],[5.575282889164565,52.009598367456675],[5.5755565185550084,52.00945483325924],[5.575559297268072,52.009453373622904],[5.575563090385661,52.0094513811606],[5.575760960011429,52.00934851705973],[5.576047941016603,52.00919772212345],[5.576379219912631,52.00902357135735],[5.576674424272191,52.00886962297668],[5.576792434261019,52.00880540191298],[5.57709689712994,52.00864653987894],[5.577286972579848,52.00854726936358],[5.577439224744717,52.00846775193021],[5.577731598533971,52.00831365176034],[5.577798236399726,52.00827867953174],[5.577798274183699,52.00827865969647],[5.577820902404233,52.0082667837913],[5.577856475961995,52.00824811430254],[5.578007859774553,52.00816865955445],[5.578046862771029,52.00814818860522],[5.578325398174375,52.00800484217873],[5.578692410596268,52.00780397953151],[5.578772740304516,52.00775940845073],[5.578785952537204,52.00775208223448],[5.578797261314472,52.007745809836],[5.5788265369566385,52.007728646848875],[5.578963693875633,52.00764824064527],[5.579070031097767,52.00758365253317],[5.579157802910105,52.00753034063631],[5.5792246886640795,52.0074891707535],[5.5793034392364955,52.00744069743295],[5.579319884229424,52.00743056785783],[5.579508801182136,52.0073016014467],[5.579697134912991,52.00716223097658],[5.579738854417045,52.00713135750722],[5.579965835666682,52.00696413996645],[5.5800467441360215,52.006902748409914],[5.580047101269831,52.006902481774254],[5.580047792925837,52.00690244738276],[5.580122938932423,52.00689874223058],[5.580796832592398,52.007475542489246],[5.581266982289011,52.007885567798546],[5.5814115973485805,52.00800383586911],[5.581644924058293,52.008211751345],[5.581943761987887,52.00848623192103],[5.582117373441714,52.008646983002485],[5.5824883344464356,52.00899605205459],[5.583000750750345,52.00947689060498],[5.583418999824291,52.00987182443236],[5.583605325375059,52.010046099014495],[5.5838716958983845,52.01029523559605],[5.584373923098366,52.010764916498594],[5.584660351063542,52.01103107803494],[5.5846630013413145,52.01103456098423],[5.584663939003182,52.01103579977351],[5.584686339126053,52.01106511833142],[5.584697836587612,52.011079173554556],[5.584693174386274,52.011102028374665],[5.584693167222368,52.01110205535115],[5.5846876352609485,52.0111291630288],[5.584683573345366,52.01114908760068],[5.584683547693997,52.011149216174395],[5.5786485952657054,52.01488952118568],[5.577536053497864,52.01557896957229],[5.577528717889251,52.01558351597504],[5.577334495826213,52.01570387431154],[5.577305275247081,52.0157219805762],[5.577265306084758,52.0157467365741],[5.577118445406184,52.0158376644403],[5.577109961946967,52.015842928128414],[5.576802566938424,52.01603328206935],[5.57680253497441,52.01603330189487],[5.576316705716392,52.016334146004986],[5.576104752345076,52.016465393899935],[5.575027932417706,52.01712218514554],[5.5749727215687965,52.01715597173897],[5.574006981524902,52.01775823276245]],[[5.579040157322737,52.01366134288815],[5.57911791170375,52.013729300278975],[5.579118152954741,52.01372951110656],[5.579337997993377,52.01392165649498],[5.579668018112381,52.01421646798571],[5.579679039509806,52.01422330519609],[5.5796855437929205,52.01421930020697],[5.579693275881973,52.01421457954692],[5.57991118115598,52.014080440929646],[5.57961974855753,52.01385646279467],[5.579614518126607,52.013859272067876],[5.579610987279672,52.013855901899674],[5.579506781991365,52.013769281089296],[5.579393296395739,52.0136978401698],[5.579231055439875,52.0135543255329],[5.579040157322737,52.01366134288815]]]}],"mons":[{"nr":"14456","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22333","functie":"Boerderij","wpl":"Bennekom","straat":"Krommesteeg","huisnr":"39","prov":"Gelderland","k":3,"d":2348,"erin":false,"afstandTotRand":2348,"lon":5.639462941134811,"lat":52.00303153310622,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Krommesteeg","huisnr":"39","postcode":"6721MT","woonplaats":"Bennekom"}],"matched":[{"straat":"Krommesteeg","huisnummer":39,"postcode":"6721MT","gebruiksdoel":"woonfunctie"}]},{"nr":"7744","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22885","functie":"Boerderij","wpl":"Overberg","straat":"Dwarsweg","huisnr":"60 a","prov":"Utrecht","k":3,"d":4579,"erin":false,"afstandTotRand":4579,"lon":5.507508051907406,"lat":52.03029403123956,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Dwarsweg","huisnr":"60 a","postcode":"3959AK","woonplaats":"Overberg"},{"straat":"Dwarsweg","huisnr":"60","postcode":"3959AK","woonplaats":"Overberg"}],"matched":[{"straat":"Dwarsweg","huisnummer":60,"postcode":"3959AK","gebruiksdoel":"woonfunctie"},{"straat":"Dwarsweg","huisnummer":60,"postcode":"3959AK","gebruiksdoel":"woonfunctie"}]},{"nr":"14453","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25562","functie":"Boerderij","wpl":"Bennekom","straat":"Harnsedijkje","huisnr":"2 A","prov":"Gelderland","k":3,"d":3013,"erin":false,"afstandTotRand":3013,"lon":5.649009692441631,"lat":52.001913255362005,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Harnsedijkje","huisnr":"2 A","postcode":"6721MX","woonplaats":"Bennekom"}],"matched":[{"straat":"Harnsedijkje","huisnummer":2,"postcode":"6721MX","gebruiksdoel":"woonfunctie"}]},{"nr":"14466","rm":null,"functie":"Boerderij","wpl":null,"straat":null,"huisnr":null,"prov":"Gelderland","k":3,"d":1491,"erin":false,"afstandTotRand":1491,"lon":5.627346685324814,"lat":52.005780318967446,"ja":false,"bag":"geen_adres","status":"geen_adres","addressen":[],"matched":[]},{"nr":"507005","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71928","functie":"Boerderij","wpl":"Rhenen","straat":"Cuneraweg","huisnr":"428","prov":"Utrecht","k":3,"d":2864,"erin":false,"afstandTotRand":2864,"lon":5.526899999058274,"lat":52.01058944533107,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Cuneraweg","huisnr":"428","postcode":"3911RW","woonplaats":"Rhenen"}],"matched":[{"straat":"Cuneraweg","huisnummer":428,"postcode":"3911RW","gebruiksdoel":"logiesfunctie,woonfunctie"}]},{"nr":"506998","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71935","functie":"Boerderij","wpl":"Rhenen","straat":"Cuneraweg","huisnr":"424","prov":"Utrecht","k":3,"d":2711,"erin":false,"afstandTotRand":2711,"lon":5.529057355546549,"lat":52.01111716240703,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Cuneraweg","huisnr":"424","postcode":"3911RW","woonplaats":"Rhenen"}],"matched":[{"straat":"Cuneraweg","huisnummer":424,"postcode":"3911RW","gebruiksdoel":"woonfunctie"}]}],"richtlijn":{"gebiedsnummer":"65","label":"Habitatrichtlijn","badge":"HR","heeftGroeveOnderdeel":false,"siteCodeVogelrichtlijn":null,"siteCodeHabitatrichtlijn":"NL2003006","stikstofgevoelig":true,"natura2000Status":"Natura 2000-besluit 30 april 2014","wikidata":"http://www.wikidata.org/entity/Q1910627","rceUris":["https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/8fe961ba-ea51-4773-bdbf-8ab0f8c9bea7"]},"datakwaliteit":{"industrieAangetroffen":0,"industrieDeelsAangetroffen":0,"geenIndustrieAangetroffen":5,"geenAdres":1,"geenMatch":0,"bagMislukt":0,"meerdereAdressen":1}}</script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 const D = JSON.parse(document.getElementById('data').textContent);
 const $ = id => document.getElementById(id);
@@ -170,56 +174,21 @@ $('stats').innerHTML = `
   <div class="stat alert"><div class="num">${fmt(D.provJaCounts['Utrecht']||0)}</div><div class="lbl">Utrecht industriefunctie</div></div>
   <div class="stat neutral"><div class="num">${fmt(D.onbekend)}</div><div class="lbl">BAG niet te controleren</div></div>`;
 
-const canvas = $('map'), ctx = canvas.getContext('2d');
-let proj = null;
-function drawMap(){
-  const w = canvas.clientWidth, h = Math.min(Math.round(w*0.9), 520);
-  const dpr = window.devicePixelRatio||1;
-  canvas.width=w*dpr; canvas.height=h*dpr; canvas.style.height=h+'px';
-  ctx.setTransform(dpr,0,0,dpr,0,0);
-  ctx.clearRect(0,0,w,h);
-  const [x0,y0,x1,y1] = D.bbox;
-  const latC = Math.cos((y0+y1)/2*Math.PI/180);
-  const spanX=(x1-x0)*latC, spanY=y1-y0, pad=10;
-  const s = Math.min((w-2*pad)/spanX,(h-2*pad)/spanY);
-  const ox=(w-spanX*s)/2, oy=(h-spanY*s)/2;
-  proj = ([x,y])=>[ox+(x-x0)*latC*s, h-oy-(y-y0)*s];
-  ctx.fillStyle='rgba(94,125,70,0.28)'; ctx.strokeStyle='#5E7D46'; ctx.lineWidth=1;
-  D.n2000.forEach(g=>g.rings.forEach(r=>{
-    ctx.beginPath();
-    r.forEach((p,i)=>{const [px,py]=proj(p); i?ctx.lineTo(px,py):ctx.moveTo(px,py);});
-    ctx.closePath(); ctx.fill(); ctx.stroke();
-  }));
-  [...D.mons].sort((a,b)=>b.k-a.k).forEach(m=>{
-    if(filterJa && !m.ja) return;
-    const [px,py]=proj([m.lon,m.lat]);
-    ctx.fillStyle = KC[m.k];
-    const r = m.k<=1 ? 3.6 : m.k===2 ? 3.1 : 2.6;
-    ctx.beginPath(); ctx.arc(px,py,r,0,7); ctx.fill();
-    if(m.status==='industrie_deels_aangetroffen'){ ctx.strokeStyle='#16324F'; ctx.lineWidth=1.2; ctx.stroke(); ctx.beginPath(); ctx.arc(px,py,r+2.2,0,7); ctx.stroke(); }
-    else if(m.ja){ ctx.strokeStyle='#16324F'; ctx.lineWidth=1.2; ctx.stroke(); }
-    else if(m.bag!=='ok'){ ctx.setLineDash([1.5,1.5]); ctx.strokeStyle='#8A8A8A'; ctx.lineWidth=1; ctx.stroke(); ctx.setLineDash([]); }
-  });
-}
-const tip=$('tip');
-canvas.addEventListener('pointermove',e=>{
-  if(!proj) return;
-  const r=canvas.getBoundingClientRect();
-  const mx=e.clientX-r.left, my=e.clientY-r.top;
-  let best=null,bd=90;
-  D.mons.forEach(m=>{
-    if(filterJa && !m.ja) return;
-    const [px,py]=proj([m.lon,m.lat]), d=(px-mx)**2+(py-my)**2;
-    if(d<bd){bd=d;best=m;}
-  });
-  if(best){
-    tip.style.display='block';
-    tip.style.left=Math.min(e.clientX+12, innerWidth-260)+'px'; tip.style.top=(e.clientY-10)+'px';
-    tip.textContent = `rm ${best.nr} \u00b7 ${best.straat||''} ${best.huisnr||''}, ${best.wpl||''} \u00b7 ${best.prov} \u00b7 ${KN[best.k]} van Binnenveld`+
-      (best.d>0 ? ` (${fmt(best.d)} m)` : '') + (best.ja ? ' \u00b7 BAG-industriefunctie-indicatie' : (best.bag!=='ok' ? ' \u00b7 BAG niet te controleren' : ''));
-  } else tip.style.display='none';
-});
-canvas.addEventListener('pointerleave',()=>tip.style.display='none');
+const map = L.map('map', { scrollWheelZoom: false });
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &copy; OpenStreetMap contributors',
+  maxZoom: 19
+}).addTo(map);
+const [bx0,by0,bx1,by1] = D.bbox;
+map.fitBounds([[by0,bx0],[by1,bx1]], { padding: [10,10] });
+
+const n2000Layer = L.layerGroup().addTo(map);
+D.n2000.forEach(g => g.rings.forEach(ring => {
+  L.polygon(ring.map(([lon,lat]) => [lat,lon]), {
+    color: '#5E7D46', weight: 1, fillColor: '#5E7D46', fillOpacity: 0.28, interactive: false
+  }).addTo(n2000Layer);
+}));
+
 const STATUS_LABEL = {
   industrie_aangetroffen: 'Industriefunctie aangetroffen (eenduidig)',
   industrie_deels_aangetroffen: 'Industriefunctie aangetroffen bij een deel van de adressen',
@@ -229,23 +198,12 @@ const STATUS_LABEL = {
   bag_mislukt: 'BAG niet te controleren \u2014 bevraging mislukt'
 };
 const detail = $('detail');
-function vindDichtstbijzijnde(e){
-  const r=canvas.getBoundingClientRect();
-  const mx=e.clientX-r.left, my=e.clientY-r.top;
-  let best=null,bd=90;
-  D.mons.forEach(m=>{
-    if(filterJa && !m.ja) return;
-    const [px,py]=proj([m.lon,m.lat]), d=(px-mx)**2+(py-my)**2;
-    if(d<bd){bd=d;best=m;}
-  });
-  return best;
-}
-canvas.addEventListener('click',e=>{
-  if(!proj) return;
-  const m = vindDichtstbijzijnde(e);
-  if(!m){ detail.classList.remove('on'); return; }
+function toonDetail(m){
   const adressenHtml = (m.addressen||[]).map((a,i)=>{
-    const match = (m.matched||[]).find(x=>x.straat===a.straat && String(x.huisnummer)===String(parseInt(a.huisnr,10)));
+    const huisnrMatch = String(a.huisnr||'').trim().match(/^(\d+)\s*([A-Za-z]?)$/);
+    const nr = huisnrMatch ? huisnrMatch[1] : null;
+    const letter = huisnrMatch ? huisnrMatch[2].toUpperCase() : '';
+    const match = (m.matched||[]).find(x=>x.straat===a.straat && String(x.huisnummer)===nr && String(x.huisletter||'').toUpperCase()===letter);
     return `<dt>adres ${i+1}</dt><dd>${a.straat} ${a.huisnr}, ${a.postcode} ${a.woonplaats}${match ? ' \u2014 gebruiksdoel: '+match.gebruiksdoel : ' \u2014 geen BAG-match'}</dd>`;
   }).join('');
   detail.innerHTML = `<dl>
@@ -257,13 +215,38 @@ canvas.addEventListener('click',e=>{
     <dt>peildatum</dt><dd>2026-08-03</dd>
   </dl>`;
   detail.classList.add('on');
-});
-if($('fAll')){
-  $('fAll').onclick=()=>{filterJa=false;$('fAll').classList.add('on');$('fAll').setAttribute('aria-pressed','true');$('fJa').classList.remove('on');$('fJa').setAttribute('aria-pressed','false');drawMap();};
-  $('fJa').onclick=()=>{filterJa=true;$('fJa').classList.add('on');$('fJa').setAttribute('aria-pressed','true');$('fAll').classList.remove('on');$('fAll').setAttribute('aria-pressed','false');drawMap();};
 }
-drawMap();
-window.addEventListener('resize',drawMap);
+
+const monLayer = L.layerGroup().addTo(map);
+function renderMarkers(){
+  monLayer.clearLayers();
+  [...D.mons].sort((a,b)=>b.k-a.k).forEach(m=>{
+    if(filterJa && !m.ja) return;
+    const r = m.k<=1 ? 5 : m.k===2 ? 4.4 : 3.8;
+    const marker = L.circleMarker([m.lat,m.lon], { radius:r, fillColor:KC[m.k], fillOpacity:0.9, weight:1, color:KC[m.k] });
+    if(m.status==='industrie_deels_aangetroffen'){
+      marker.setStyle({color:'#16324F', weight:1.3});
+      L.circleMarker([m.lat,m.lon], { radius:r+2.2, fill:false, color:'#16324F', weight:1.3, interactive:false }).addTo(monLayer);
+    } else if(m.ja){
+      marker.setStyle({color:'#16324F', weight:1.3});
+    } else if(m.bag!=='ok'){
+      marker.setStyle({color:'#8A8A8A', weight:1, dashArray:'2,2'});
+    }
+    marker.bindTooltip(
+      `rm ${m.nr} \u00b7 ${m.straat||''} ${m.huisnr||''}, ${m.wpl||''} \u00b7 ${m.prov} \u00b7 ${KN[m.k]} van Binnenveld`+
+      (m.d>0 ? ` (${fmt(m.d)} m)` : '') + (m.ja ? ' \u00b7 BAG-industriefunctie-indicatie' : (m.bag!=='ok' ? ' \u00b7 BAG niet te controleren' : ''))
+    );
+    marker.on('click', ()=>toonDetail(m));
+    marker.addTo(monLayer);
+  });
+}
+renderMarkers();
+
+if($('fAll')){
+  $('fAll').onclick=()=>{filterJa=false;$('fAll').classList.add('on');$('fAll').setAttribute('aria-pressed','true');$('fJa').classList.remove('on');$('fJa').setAttribute('aria-pressed','false');renderMarkers();};
+  $('fJa').onclick=()=>{filterJa=true;$('fJa').classList.add('on');$('fJa').setAttribute('aria-pressed','true');$('fAll').classList.remove('on');$('fAll').setAttribute('aria-pressed','false');renderMarkers();};
+}
+window.addEventListener('resize',()=>map.invalidateSize());
 </script>
 </body>
 </html>
