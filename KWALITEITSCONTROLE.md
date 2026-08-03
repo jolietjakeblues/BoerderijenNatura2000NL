@@ -1,12 +1,10 @@
 # Steekproefsgewijze validatie (handmatige controle)
 
 Dit document rapporteert de resultaten van een handmatige steekproefcontrole op de
-koppeling tussen RCE-rijksmonumentgegevens en BAG-gebruiksdoel, uitgevoerd volgens
-punt 11 van de openstaande verbeterpunten in de
-[README](README.md#geloofwaardigheid--interpretatie-uit-review) en naar aanleiding
-van een externe review. Conform het verzoek van de reviewer worden hier **alleen
-geaggregeerde resultaten en fouttypen** gepubliceerd, geen ruwe per-monument
-gegevens.
+koppeling tussen RCE-rijksmonumentgegevens en BAG-gebruiksdoel, uitgevoerd naar
+aanleiding van een externe review (zie [CHANGELOG.md](CHANGELOG.md)). Conform het
+verzoek van de reviewer worden hier **alleen geaggregeerde resultaten en
+fouttypen** gepubliceerd, geen ruwe per-monument gegevens.
 
 ## Opzet
 
