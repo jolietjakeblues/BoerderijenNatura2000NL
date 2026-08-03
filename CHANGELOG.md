@@ -6,6 +6,39 @@ precieze wijzigingen per gebied: `git log`. Entries staan in omgekeerd-chronolog
 volgorde; een latere entry kan dus een eerdere entry corrigeren of vervangen. Waar dat
 kan verwarren, is dat expliciet benoemd.
 
+## Redactionele afronding van de 28 nieuwe gebieden, en een dubbele sitecode-weergave
+
+Reviewer-vondst: Geuldal en Oosterschelde (en alle andere 26 nieuwe gebieden) toonden
+nog de bouw-placeholder "(nog geen beschrijving toegevoegd aan
+scripts/lib/gebieden-beschrijving.mjs)" in plaats van een echte gebiedsbeschrijving,
+met de bronlink dus ook nog naar de algemene natura2000.nl-gebiedenlijst in plaats van
+de eigen gebiedspagina. Technisch waren de pagina's af, redactioneel niet. Voor alle 28
+gebieden is nu een eigen, zelfgeschreven samenvatting (type natuurgebied, ligging,
+oppervlakte, beschermingsreden) en een directe natura2000.nl-link toegevoegd, op
+dezelfde manier als de eerste 25 gebieden.
+
+`scripts/validate.mjs` controleert voortaan of elk gebied een niet-placeholder
+beschrijving heeft, en of de bronlink naar een specifieke gebiedspagina wijst
+(`.../gebieden/<provincie>/<gebied>`) in plaats van naar de generieke lijst -- zodat een
+volgende batch nieuwe gebieden niet opnieuw technisch groen maar redactioneel
+onvolledig gepubliceerd kan worden.
+
+**Bijvangst: dubbele sitecode-weergave.** Oosterschelde (en 5 andere gebieden) toonden
+"sitecode NL3009016 / NL3009016" -- het Vogel- en Habitatrichtlijndeel delen daar
+dezelfde EU-sitecode, en de weergavelogica dedupliceerde niet. Gelijke VR-/HR-codes
+worden nu één keer getoond; bij afwijkende codes staat het nu expliciet als
+"VR-sitecode ... · HR-sitecode ...".
+
+**Bijvangst: een batch-rebuildbug door `ls`'s trailing slash.** Bij het herbouwen van
+alle 53 gebiedspagina's bleek `for slug in $(ls data/gebieden); do ...` in deze
+omgeving een `slug` met een trailende `/` op te leveren (deze `ls` classificeert
+directories met een `/`-achtervoegsel), waardoor scripts stilzwijgend naar
+`gebieden/<slug>/.html` schreven in plaats van naar `gebieden/<slug>.html` -- een
+nieuwe, foutieve submap per gebied, terwijl het echte bestand ongemoeid bleef. Alle 53
+foutieve submappen zijn verwijderd. Zie `scripts/README.md`, "Bekende valkuilen": voortaan
+altijd itereren via `for dir in data/gebieden/*/; do slug=$(basename "$dir"); ...`,
+nooit via `$(ls ...)`.
+
 ## Uitbreiding naar Limburg en Zeeland (28 nieuwe gebieden), en een grote pijplijnvereenvoudiging
 
 25 naar 53 verwerkte gebieden: heel Limburg en heel Zeeland, zuid naar noord. Nieuwe

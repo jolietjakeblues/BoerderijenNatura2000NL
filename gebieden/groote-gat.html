@@ -76,7 +76,7 @@
       <span class="badge-richtlijn">Habitatrichtlijn</span>
       <span class="richtlijn-meta">Natura 2000-gebied nr. 124 &middot; sitecode NL2003019 &middot; stikstofgevoelig: ja</span>
     </div>
-    <p>(nog geen beschrijving toegevoegd aan scripts/lib/gebieden-beschrijving.mjs) <a href="https://www.natura2000.nl/gebieden" style="color:var(--blue-mid)" target="_blank" rel="noopener">Bron: natura2000.nl &rarr;</a> &middot; <a href="https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/28421ae2-1b99-4dae-b067-1f975facfd4d" style="color:var(--blue-mid)" target="_blank" rel="noopener">RCE linked data &rarr;</a> &middot; <a href="http://www.wikidata.org/entity/Q1810714" style="color:var(--blue-mid)" target="_blank" rel="noopener">Wikidata &rarr;</a></p>
+    <p>Voormalige kreek met graslanden (circa 70 hectare) ten zuiden van Oostburg in West-Zeeuws-Vlaanderen. Herbergt de grootste Nederlandse groeiplaats van kruipend moerasscherm, plus rietvelden die broedplaats bieden aan bruine kiekendief, waterrail en blauwborst. <a href="https://www.natura2000.nl/gebieden/zeeland/groote-gat" style="color:var(--blue-mid)" target="_blank" rel="noopener">Bron: natura2000.nl &rarr;</a> &middot; <a href="https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/28421ae2-1b99-4dae-b067-1f975facfd4d" style="color:var(--blue-mid)" target="_blank" rel="noopener">RCE linked data &rarr;</a> &middot; <a href="http://www.wikidata.org/entity/Q1810714" style="color:var(--blue-mid)" target="_blank" rel="noopener">Wikidata &rarr;</a></p>
     <p>Rijksmonumentale boerderijen binnen dit Natura 2000-gebied of binnen 5&nbsp;km
     van de gebiedsrand (een gekozen selectievenster, geen ecologische invloedssfeer), met een
     BAG-industriefunctie-indicatie op basis van BAG-gebruiksdoel (een aanwijzing, geen bewijs van
@@ -196,7 +196,7 @@ function toonDetail(m){
     `<dt>adres ${i+1}</dt><dd>${a.straat} ${a.huisnr}, ${a.postcode} ${a.woonplaats}${a.gebruiksdoel ? ', gebruiksdoel: '+a.gebruiksdoel : ', geen BAG-match'}</dd>`
   ).join('');
   detail.innerHTML = `<dl>
-    <dt>rijksmonumentnummer</dt><dd>${m.nr}${m.rm ? ` (<a href="${m.rm}" target="_blank" rel="noopener" style="color:var(--blue-mid)">RCE-bron &rarr;</a>)` : ''}</dd>
+    <dt>rijksmonumentnummer</dt><dd>${m.nr} (<a href="https://monumentenregister.cultureelerfgoed.nl/monumenten/${m.nr}" target="_blank" rel="noopener" style="color:var(--blue-mid)">Monumentenregister &rarr;</a>${m.rm ? ` &middot; <a href="${m.rm}" target="_blank" rel="noopener" style="color:var(--blue-mid)">RCE linked data &rarr;</a>` : ''})</dd>
     <dt>oorspronkelijke functie</dt><dd>${m.functie||'onbekend'}</dd>
     <dt>ligging</dt><dd>${m.erin ? 'binnen het Natura 2000-gebied' : `${fmt(m.afstandTotRand)} m van de gebiedsrand`} \u00b7 ${KN[m.k]}-klasse \u00b7 ${m.prov}</dd>
     <dt>status</dt><dd>${STATUS_LABEL[m.status]||m.status}</dd>

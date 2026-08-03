@@ -74,9 +74,9 @@
     <h1>Deurnsche Peel & Mariapeel</h1>
     <div class="richtlijn-row">
       <span class="badge-richtlijn">Vogelrichtlijn + Habitatrichtlijn</span>
-      <span class="richtlijn-meta">Natura 2000-gebied nr. 139 &middot; sitecode NL1000026 / NL1000026 &middot; stikstofgevoelig: ja</span>
+      <span class="richtlijn-meta">Natura 2000-gebied nr. 139 &middot; sitecode NL1000026 &middot; stikstofgevoelig: ja</span>
     </div>
-    <p>(nog geen beschrijving toegevoegd aan scripts/lib/gebieden-beschrijving.mjs) <a href="https://www.natura2000.nl/gebieden" style="color:var(--blue-mid)" target="_blank" rel="noopener">Bron: natura2000.nl &rarr;</a> &middot; <a href="https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/d606a4c0-0f8a-48cd-8835-b1c40f317603" style="color:var(--blue-mid)" target="_blank" rel="noopener">RCE linked data &rarr;</a> &middot; <a href="http://www.wikidata.org/entity/Q13572232" style="color:var(--blue-mid)" target="_blank" rel="noopener">Wikidata &rarr;</a></p>
+    <p>Hoogveenrestant (circa 2.734 hectare) op de grens van Limburg en Noord-Brabant, met actief hoogveen, regenererende venen en heide op voormalige veenwinningsgrond. Herbergt meer dan 100 broedparen kleine vliegenvanger en honderden paren baardmannetje, met de zwarte ooievaar als bijzondere doortrekker. <a href="https://www.natura2000.nl/gebieden/noord-brabant/deurnsche-peel-mariapeel" style="color:var(--blue-mid)" target="_blank" rel="noopener">Bron: natura2000.nl &rarr;</a> &middot; <a href="https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/d606a4c0-0f8a-48cd-8835-b1c40f317603" style="color:var(--blue-mid)" target="_blank" rel="noopener">RCE linked data &rarr;</a> &middot; <a href="http://www.wikidata.org/entity/Q13572232" style="color:var(--blue-mid)" target="_blank" rel="noopener">Wikidata &rarr;</a></p>
     <p>Rijksmonumentale boerderijen binnen dit Natura 2000-gebied of binnen 5&nbsp;km
     van de gebiedsrand (een gekozen selectievenster, geen ecologische invloedssfeer), met een
     BAG-industriefunctie-indicatie op basis van BAG-gebruiksdoel (een aanwijzing, geen bewijs van
@@ -206,7 +206,7 @@ function toonDetail(m){
     `<dt>adres ${i+1}</dt><dd>${a.straat} ${a.huisnr}, ${a.postcode} ${a.woonplaats}${a.gebruiksdoel ? ', gebruiksdoel: '+a.gebruiksdoel : ', geen BAG-match'}</dd>`
   ).join('');
   detail.innerHTML = `<dl>
-    <dt>rijksmonumentnummer</dt><dd>${m.nr}${m.rm ? ` (<a href="${m.rm}" target="_blank" rel="noopener" style="color:var(--blue-mid)">RCE-bron &rarr;</a>)` : ''}</dd>
+    <dt>rijksmonumentnummer</dt><dd>${m.nr} (<a href="https://monumentenregister.cultureelerfgoed.nl/monumenten/${m.nr}" target="_blank" rel="noopener" style="color:var(--blue-mid)">Monumentenregister &rarr;</a>${m.rm ? ` &middot; <a href="${m.rm}" target="_blank" rel="noopener" style="color:var(--blue-mid)">RCE linked data &rarr;</a>` : ''})</dd>
     <dt>oorspronkelijke functie</dt><dd>${m.functie||'onbekend'}</dd>
     <dt>ligging</dt><dd>${m.erin ? 'binnen het Natura 2000-gebied' : `${fmt(m.afstandTotRand)} m van de gebiedsrand`} \u00b7 ${KN[m.k]}-klasse \u00b7 ${m.prov}</dd>
     <dt>status</dt><dd>${STATUS_LABEL[m.status]||m.status}</dd>

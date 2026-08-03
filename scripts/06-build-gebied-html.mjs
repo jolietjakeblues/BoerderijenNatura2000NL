@@ -58,6 +58,19 @@ const datakwaliteitCard = dk ? `
     </div>
   </div>` : '';
 
+// VR- en HR-sitecode zijn vaak identiek (één EU-sitecode voor een gecombineerd
+// VR+HR-gebied); dat leverde een verwarrende "sitecode X / X" op. Bij gelijke
+// codes tonen we 'm nu maar één keer; bij afwijkende codes expliciet gelabeld
+// per richtlijn, in plaats van een dubbelzinnige "/"-scheiding.
+function sitecodeTekst(r) {
+  if (!r) return '';
+  const vr = r.siteCodeVogelrichtlijn, hr = r.siteCodeHabitatrichtlijn;
+  if (vr && hr && vr === hr) return ` &middot; sitecode ${vr}`;
+  if (vr && hr) return ` &middot; VR-sitecode ${vr} &middot; HR-sitecode ${hr}`;
+  if (vr || hr) return ` &middot; sitecode ${vr || hr}`;
+  return '';
+}
+
 const head = `<!DOCTYPE html>
 <html lang="nl">
 <head>
@@ -134,7 +147,7 @@ const head = `<!DOCTYPE html>
     <h1>${Dobj.gebied}</h1>
     ${Dobj.richtlijn ? `<div class="richtlijn-row">
       <span class="badge-richtlijn">${Dobj.richtlijn.label}</span>
-      <span class="richtlijn-meta">Natura 2000-gebied nr. ${Dobj.richtlijn.gebiedsnummer}${[Dobj.richtlijn.siteCodeVogelrichtlijn, Dobj.richtlijn.siteCodeHabitatrichtlijn].filter(Boolean).length ? ' &middot; sitecode ' + [Dobj.richtlijn.siteCodeVogelrichtlijn, Dobj.richtlijn.siteCodeHabitatrichtlijn].filter(Boolean).join(' / ') : ''} &middot; stikstofgevoelig: ${Dobj.richtlijn.stikstofgevoelig ? 'ja' : 'nee'}</span>
+      <span class="richtlijn-meta">Natura 2000-gebied nr. ${Dobj.richtlijn.gebiedsnummer}${sitecodeTekst(Dobj.richtlijn)} &middot; stikstofgevoelig: ${Dobj.richtlijn.stikstofgevoelig ? 'ja' : 'nee'}</span>
     </div>` : ''}
     <p>${meta.tekst} <a href="${meta.bron}" style="color:var(--blue-mid)" target="_blank" rel="noopener">Bron: natura2000.nl &rarr;</a>${Dobj.richtlijn ? ` &middot; <a href="${Dobj.richtlijn.rceUris[0]}" style="color:var(--blue-mid)" target="_blank" rel="noopener">RCE linked data${Dobj.richtlijn.rceUris.length > 1 ? ' (1 van ' + Dobj.richtlijn.rceUris.length + ' richtlijndelen)' : ''} &rarr;</a>` : ''}${Dobj.richtlijn?.wikidata ? ` &middot; <a href="${Dobj.richtlijn.wikidata}" style="color:var(--blue-mid)" target="_blank" rel="noopener">Wikidata &rarr;</a>` : ''}</p>
     <p>Rijksmonumentale boerderijen binnen dit Natura 2000-gebied of binnen 5&nbsp;km
@@ -244,7 +257,7 @@ function toonDetail(m){
     \`<dt>adres \${i+1}</dt><dd>\${a.straat} \${a.huisnr}, \${a.postcode} \${a.woonplaats}\${a.gebruiksdoel ? ', gebruiksdoel: '+a.gebruiksdoel : ', geen BAG-match'}</dd>\`
   ).join('');
   detail.innerHTML = \`<dl>
-    <dt>rijksmonumentnummer</dt><dd>\${m.nr}\${m.rm ? \` (<a href="\${m.rm}" target="_blank" rel="noopener" style="color:var(--blue-mid)">RCE-bron &rarr;</a>)\` : ''}</dd>
+    <dt>rijksmonumentnummer</dt><dd>\${m.nr} (<a href="https://monumentenregister.cultureelerfgoed.nl/monumenten/\${m.nr}" target="_blank" rel="noopener" style="color:var(--blue-mid)">Monumentenregister &rarr;</a>\${m.rm ? \` &middot; <a href="\${m.rm}" target="_blank" rel="noopener" style="color:var(--blue-mid)">RCE linked data &rarr;</a>\` : ''})</dd>
     <dt>oorspronkelijke functie</dt><dd>\${m.functie||'onbekend'}</dd>
     <dt>ligging</dt><dd>\${m.erin ? 'binnen het Natura 2000-gebied' : \`\${fmt(m.afstandTotRand)} m van de gebiedsrand\`} \\u00b7 \${KN[m.k]}-klasse \\u00b7 \${m.prov}</dd>
     <dt>status</dt><dd>\${STATUS_LABEL[m.status]||m.status}</dd>

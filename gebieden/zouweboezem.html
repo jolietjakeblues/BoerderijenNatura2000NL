@@ -74,7 +74,7 @@
     <h1>Zouweboezem</h1>
     <div class="richtlijn-row">
       <span class="badge-richtlijn">Vogelrichtlijn + Habitatrichtlijn</span>
-      <span class="richtlijn-meta">Natura 2000-gebied nr. 105 &middot; sitecode NL9802065 / NL3004006 &middot; stikstofgevoelig: ja</span>
+      <span class="richtlijn-meta">Natura 2000-gebied nr. 105 &middot; VR-sitecode NL9802065 &middot; HR-sitecode NL3004006 &middot; stikstofgevoelig: ja</span>
     </div>
     <p>14e-eeuws boezemgebied (circa 257 hectare) tussen Ameide en Meerkerk in het Groene Hart, op de grens van Utrecht en Zuid-Holland. Bekend om de grootste kolonie purperreigers van Nederland en Noordwest-Europa, gevoed door een grote populatie grote modderkruiper, en om resterende blauwgraslanden in het rietmoeras. <a href="https://www.natura2000.nl/gebieden/utrecht/zouweboezem" style="color:var(--blue-mid)" target="_blank" rel="noopener">Bron: natura2000.nl &rarr;</a> &middot; <a href="https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/c5d43ace-977d-4aa8-9391-59b6b1b92bfa" style="color:var(--blue-mid)" target="_blank" rel="noopener">RCE linked data (1 van 2 richtlijndelen) &rarr;</a> &middot; <a href="http://www.wikidata.org/entity/Q2591191" style="color:var(--blue-mid)" target="_blank" rel="noopener">Wikidata &rarr;</a></p>
     <p>Rijksmonumentale boerderijen binnen dit Natura 2000-gebied of binnen 5&nbsp;km
@@ -262,7 +262,7 @@ function toonDetail(m){
     `<dt>adres ${i+1}</dt><dd>${a.straat} ${a.huisnr}, ${a.postcode} ${a.woonplaats}${a.gebruiksdoel ? ', gebruiksdoel: '+a.gebruiksdoel : ', geen BAG-match'}</dd>`
   ).join('');
   detail.innerHTML = `<dl>
-    <dt>rijksmonumentnummer</dt><dd>${m.nr}${m.rm ? ` (<a href="${m.rm}" target="_blank" rel="noopener" style="color:var(--blue-mid)">RCE-bron &rarr;</a>)` : ''}</dd>
+    <dt>rijksmonumentnummer</dt><dd>${m.nr} (<a href="https://monumentenregister.cultureelerfgoed.nl/monumenten/${m.nr}" target="_blank" rel="noopener" style="color:var(--blue-mid)">Monumentenregister &rarr;</a>${m.rm ? ` &middot; <a href="${m.rm}" target="_blank" rel="noopener" style="color:var(--blue-mid)">RCE linked data &rarr;</a>` : ''})</dd>
     <dt>oorspronkelijke functie</dt><dd>${m.functie||'onbekend'}</dd>
     <dt>ligging</dt><dd>${m.erin ? 'binnen het Natura 2000-gebied' : `${fmt(m.afstandTotRand)} m van de gebiedsrand`} \u00b7 ${KN[m.k]}-klasse \u00b7 ${m.prov}</dd>
     <dt>status</dt><dd>${STATUS_LABEL[m.status]||m.status}</dd>

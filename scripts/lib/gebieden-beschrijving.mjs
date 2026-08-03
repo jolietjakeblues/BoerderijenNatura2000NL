@@ -127,5 +127,145 @@ export const GEBIEDEN_BESCHRIJVING = {
     ligging: 'Sittard-Geleen',
     tekst: 'Beekdal (circa 253 hectare) langs de Geleenbeek, verspreid over Beekdaelen, Heerlen en Voerendaal in Zuid-Limburg. Beschermd vanwege vochtige alluviale bossen, het Imstenraderbos (beuken-eikenbos) en alkalisch laagveen met het Kathagerbroek als kerngebied; herbergt een van de grootste Nederlandse populaties zeggekorfslak.',
     bron: 'https://www.natura2000.nl/gebieden/limburg/geleenbeekdal'
+  },
+  'noorbeemden-hoogbos': {
+    ligging: 'Eijsden-Margraten, grens met België',
+    tekst: 'Kleinschalig kalkmoerasgebied (circa 55 hectare) in het zuidwesten van het Mergelland, bij Eijsden-Margraten. Beschermd vanwege kalkbronnen met bijzondere mosvegetatie, vochtige essen-elzenbossen en oude hooilanden met een grote plantenrijkdom.',
+    bron: 'https://www.natura2000.nl/gebieden/limburg/noorbeemden-hoogbos'
+  },
+  'savelsbos': {
+    ligging: 'Eijsden-Margraten/Maastricht',
+    tekst: 'Hellingbos (circa 360 hectare) langs de oostoever van de Maas tussen Cadier en Keer en Eijsden, met eiken-haagbeukenbos en kalksteenbeukenbos, doorsneden door erosiegeulen (grubben). De enige Nederlandse groeiplaats van amandelwolfsmelk, met bosvogels als wespendief en middelste bonte specht en een grote dassenpopulatie.',
+    bron: 'https://www.natura2000.nl/gebieden/limburg/savelsbos'
+  },
+  'geuldal': {
+    ligging: 'Zuid-Limburgse heuvelland',
+    tekst: 'Uitgestrekt heuvellandgebied (circa 2.500 hectare) langs de Geul, over zeven Zuid-Limburgse gemeenten - een van de grootste en meest gevarieerde Natura 2000-gebieden van Nederland. Beukenbossen, hellingbossen en kalkgraslanden bieden onderdak aan baardvleermuis, mopsvleermuis, vliegend hert en geelbuikvuurpad, met orchideeënrijke beukenbossen en zeldzame kalkgraslandplanten.',
+    bron: 'https://www.natura2000.nl/gebieden/limburg/geuldal'
+  },
+  'sint-pietersberg-jekerdal': {
+    ligging: 'Maastricht',
+    tekst: 'Krijtlandschap (circa 280 hectare) ten zuiden van Maastricht langs de Maas en de Jeker, met kalkgraslanden, hellingbos en eeuwenoude mergelgroeven. De ondergrondse groeven (ruim 200 km gangen) zijn van groot belang als overwinteringsplek voor negen vleermuissoorten, waaronder vale vleermuis en ingekorven vleermuis.',
+    bron: 'https://www.natura2000.nl/gebieden/limburg/sint-pietersberg-jekerdal'
+  },
+  'bemelerberg-schiepersberg': {
+    ligging: 'Eijsden-Margraten/Maastricht/Valkenburg aan de Geul',
+    tekst: "Hellingen en groeves (circa 196 hectare) aan de oostzijde van het Maasdal, verspreid over drie Zuid-Limburgse gemeenten. Beschermd vanwege kalkgraslanden met de enige Nederlandse groeiplaats van bergganderik, en om de belangrijkste Nederlandse populatie geelbuikvuurpad in de groeve 't Rooth.",
+    bron: 'https://www.natura2000.nl/gebieden/limburg/bemelerberg-en-schiepersberg'
+  },
+  'kunderberg': {
+    ligging: 'Heerlen/Simpelveld/Voerendaal',
+    tekst: 'Kalkgraslandgebied (circa 95 hectare) op de noordflank van het Ubachsberg-plateau, met holle wegen, struweel en eiken-haagbeukenbos (Putberg). Bekend om zeldzame orchideeën en om stabiele populaties van wilde weit, Duitse gamander en hauwklaver.',
+    bron: 'https://www.natura2000.nl/gebieden/limburg/kunderberg'
+  },
+  'brunssummerheide': {
+    ligging: 'Brunssum/Heerlen/Landgraaf',
+    tekst: 'Heide- en hoogveengebied (circa 542 hectare) op een geologisch bijzondere ondergrond van zilverzand, met vennen, stuifzand en de beek de Rode Beek. Beschermd vanwege actief hoogveen, 106 bijensoorten en een van de drie Nederlandse populaties van de noordse glazenmaker.',
+    bron: 'https://www.natura2000.nl/gebieden/limburg/brunssummerheide'
+  },
+  'bunder-elslooerbos': {
+    ligging: 'Meerssen/Stein',
+    tekst: 'Vijf aaneengesloten bossen (circa 190 hectare) op de steile oostflank van het Maasdal tussen Elsloo en Bunde, met kalkbronnen en het enige Nederlandse tufsteen-brontype. Herbergt de grootste vuursalamanderpopulatie van het land, met naar schatting zeventig exemplaren in het Bunderbos.',
+    bron: 'https://www.natura2000.nl/gebieden/limburg/bunder-en-elslooerbos'
+  },
+  'grensmaas': {
+    ligging: 'Zuid-Limburg, grens met België',
+    tekst: "Heuvellandrivier (circa 314 hectare) die over zo'n 45 km de grens met België vormt, met meanderende oevers, grind- en zandbanken en wilgenstruweel. Beschermd vanwege trekvissen als rivierprik, zeeprik en zalm, en om een voor Nederland unieke riviervisfauna met barbeel en kopvoorn.",
+    bron: 'https://www.natura2000.nl/gebieden/limburg/grensmaas'
+  },
+  'abdij-lilbosch-mariahoop': {
+    ligging: 'Echt-Susteren',
+    tekst: 'Twee kleine deelgebieden (samen circa 15 hectare) met kleinschalig landschap van akkers, bomenrijen, holle wegen en natte laagtes bij Echt-Susteren. Aangewezen vanwege kraamkolonies van de kleine hoefijzerneus: ruim 170 dieren bij de abdij Lilbosch en circa 100 bij het voormalige klooster Mariahoop, aan de noordgrens van het verspreidingsgebied van deze soort.',
+    bron: 'https://www.natura2000.nl/gebieden/limburg/abdij-lilbosch-voormalig-klooster-mariahoop'
+  },
+  'meinweg': {
+    ligging: 'Roerdalen/Roermond',
+    tekst: 'Bos- en heidegebied (circa 1.822 hectare) langs de oostoever van de Maas in Midden-Limburg, met droge en natte heide, elzenbroek langs de Roode Beek en Boschbeek. Bekend om grote populaties adders, 12 amfibieën- en 40 libellensoorten, en de grootste Limburgse populatie sprinkhaanzanger.',
+    bron: 'https://www.natura2000.nl/gebieden/limburg/meinweg'
+  },
+  'canisvliet': {
+    ligging: 'Terneuzen, Zeeuws-Vlaanderen',
+    tekst: 'Voormalige kreek (circa 141 hectare) met vochtige graslanden en rietvegetatie, ten oosten van het kanaal Terneuzen-Gent bij Sas van Gent. Aangewezen vanwege een van de belangrijkste Nederlandse groeiplaatsen van kruipend moerasscherm, hier in 1983 herontdekt na lange afwezigheid.',
+    bron: 'https://www.natura2000.nl/gebieden/zeeland/canisvliet'
+  },
+  'weerter-budelerbergen-ringselven': {
+    ligging: 'Cranendonck/Nederweert/Someren/Weert',
+    tekst: 'Samengesteld bos-, heide- en moerasgebied (circa 3.164 hectare) op de grens van Limburg en Noord-Brabant, met vochtige berkenbroekbossen, stuifzand en het grootste galigaanmoeras van Nederland. Herbergt duizenden kokmeeuwen en de grootste Nederlandse populatie beekoeverlibel.',
+    bron: 'https://www.natura2000.nl/gebieden/limburg/weerter-en-budelerbergen-ringselven'
+  },
+  'sarsven-de-banen': {
+    ligging: 'Nederweert',
+    tekst: "Twee aangrenzende heidevennen (circa 154 hectare) in Midden-Limburg, met zwak gebufferd water, elzenbroek en vochtige graslanden. Sinds herstelmaatregelen in de jaren '90 teruggekeerde zeldzaamheden zijn onder meer stekelharig kransblad en drijvende waterweegbree.",
+    bron: 'https://www.natura2000.nl/gebieden/limburg/sarsven-en-de-banen'
+  },
+  'groote-gat': {
+    ligging: 'Sluis, Zeeuws-Vlaanderen',
+    tekst: 'Voormalige kreek met graslanden (circa 70 hectare) ten zuiden van Oostburg in West-Zeeuws-Vlaanderen. Herbergt de grootste Nederlandse groeiplaats van kruipend moerasscherm, plus rietvelden die broedplaats bieden aan bruine kiekendief, waterrail en blauwborst.',
+    bron: 'https://www.natura2000.nl/gebieden/zeeland/groote-gat'
+  },
+  'vogelkreek': {
+    ligging: 'Hulst, Zeeuws-Vlaanderen',
+    tekst: 'Voormalige kreek met natte en zilte graslanden (circa 97 hectare) bij Hengstdijk in Oost-Zeeuws-Vlaanderen. Een van de grootste Zeeuwse groeiplaatsen van kruipend moerasscherm (herontdekt in 1983), met broedende steltlopers als tureluur en kluut.',
+    bron: 'https://www.natura2000.nl/gebieden/zeeland/vogelkreek'
+  },
+  'zwin-kievittepolder': {
+    ligging: 'Sluis/Vlissingen, grens met België',
+    tekst: 'Grensoverschrijdend duin- en schorrengebied (circa 121 hectare), voor ongeveer een derde in Nederland. Een van de weinige zandige schorren van het Deltagebied, met de zuidwestelijkste Nederlandse populatie kamsalamander en de eerste vaste vestiging van kleine zilverreiger in ons land.',
+    bron: 'https://www.natura2000.nl/gebieden/zeeland/zwin-kievittepolder'
+  },
+  'westerschelde-saeftinghe': {
+    ligging: 'Zeeuws-Vlaanderen/Zuid-Beveland/Walcheren',
+    tekst: 'Estuarium (circa 44.000 hectare), het enige natuurlijke getijdenestuarium van Zuidwest-Nederland, met platen, slikken en schorren. Saeftinghe is met circa 3.000 hectare het grootste schorrengebied van het land; het estuarium is van internationaal belang voor duizenden overwinterende en trekkende steltlopers en herbergt zeehonden en trekvissen.',
+    bron: 'https://www.natura2000.nl/gebieden/zeeland/westerschelde-saeftinghe'
+  },
+  'deurnsche-peel-mariapeel': {
+    ligging: 'Deurne/Horst aan de Maas/Peel en Maas/Venray',
+    tekst: 'Hoogveenrestant (circa 2.734 hectare) op de grens van Limburg en Noord-Brabant, met actief hoogveen, regenererende venen en heide op voormalige veenwinningsgrond. Herbergt meer dan 100 broedparen kleine vliegenvanger en honderden paren baardmannetje, met de zwarte ooievaar als bijzondere doortrekker.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-brabant/deurnsche-peel-mariapeel'
+  },
+  'zoommeer': {
+    ligging: 'Bergen op Zoom/Reimerswaal/Tholen',
+    tekst: 'Zoetwatermeer (circa 1.046 hectare) tussen Noord-Brabant en Zeeland, ontstaan in 1987 na afsluiting van de voormalige Oosterschelde-mond. Belangrijk rust- en foerageergebied voor watervogels als fuut, krakeend en pijlstaart, en voor scholeksters die bij hoogwater uitwijken vanuit de Oosterschelde.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-brabant/zoommeer'
+  },
+  'yerseke-kapelse-moer': {
+    ligging: 'Kapelle/Reimerswaal',
+    tekst: 'Oud polderlandschap (circa 433 hectare) tussen Kapelle en Yerseke, met kreekruggen, slootjes en overgebleven reliëf van vroegere zout- en veenwinning. Belangrijk winterverblijf voor rietganzen en smienten, en broedgebied voor tureluur, grutto en kluut.',
+    bron: 'https://www.natura2000.nl/gebieden/zeeland/yerseke-en-kapelse-moer'
+  },
+  'boschhuizerbergen': {
+    ligging: 'Land van Cuijk/Venray',
+    tekst: 'Naaldbos-, heide- en stuifzandcomplex (circa 277 hectare) op de grens van Limburg en Noord-Brabant. Bevat de grootste jeneverbesstruwelen van Zuid-Nederland, met naar schatting 4.500 jeneverbesstruiken.',
+    bron: 'https://www.natura2000.nl/gebieden/limburg/boschhuizerbergen'
+  },
+  'maasduinen': {
+    ligging: 'Bergen (L)/Gennep/Venlo',
+    tekst: 'Uitgestrekt heide-, bos- en stuifzandgebied (circa 5.274 hectare) in Noord-Limburg, van Heijen tot Schandelo, met parabolduinen, vennen en resten van hoogveen. Beschermd vanwege zandhagedis, rugstreeppad, rondbladige zonnedauw en broedende roerdompen en baardmannetjes.',
+    bron: 'https://www.natura2000.nl/gebieden/limburg/maasduinen'
+  },
+  'veerse-meer': {
+    ligging: 'Tussen Walcheren, Noord- en Zuid-Beveland',
+    tekst: 'Brak tot zout meer (circa 2.539 hectare) tussen Walcheren en de Bevelanden, met ondiepe randen, zandplaten en eilandjes. Belangrijkste Nederlandse overwinteringsgebied voor de fuut, met sinds 2004 een getijdeverbinding met de Oosterschelde die de waterkwaliteit herstelde.',
+    bron: 'https://www.natura2000.nl/gebieden/zeeland/veerse-meer'
+  },
+  'oosterschelde': {
+    ligging: 'Midden-Zeeland',
+    tekst: 'Voormalig estuarium, nu een ondiepe zoutwaterbaai met beperkte getijdenwerking (circa 37.000 hectare), met droogvallende platen, schorren en tot 45 meter diepe geulen. Belangrijkste getijdennatuur van Zuidwest-Nederland, met een van de grootste zeegrasvelden van het land en grote aantallen foeragerende en rustende steltlopers.',
+    bron: 'https://www.natura2000.nl/gebieden/zeeland/oosterschelde'
+  },
+  'manteling-van-walcheren': {
+    ligging: 'Veere',
+    tekst: 'Laaggelegen duingebied (circa 735 hectare) aan de noordwestrand van Walcheren, met duindoornstruweel, eikenbos en een natuurlijke, door de wind gevormde bosgrens. Bekend om de enige Nederlandse groeiplaats van de braamsoort Rubus ulmifolius en om broedende nachtegalen.',
+    bron: 'https://www.natura2000.nl/gebieden/zeeland/manteling-van-walcheren'
+  },
+  'kop-van-schouwen': {
+    ligging: 'Schouwen-Duiveland',
+    tekst: 'Afwisselend duingebied (circa 2.242 hectare) aan de westpunt van Schouwen-Duiveland, met kalkrijke jonge duinen, kalkarme oude duinen, klifduinen en actief stuifzand. Op de Zoute Haard, na Texel het belangrijkste Nederlandse bolwerk van de sterk bedreigde harlekijnorchis.',
+    bron: 'https://www.natura2000.nl/gebieden/zeeland/kop-van-schouwen'
+  },
+  'grevelingen': {
+    ligging: 'Tussen Goeree-Overflakkee en Schouwen-Duiveland',
+    tekst: 'Grootste zoutwatermeer van Europa (circa 13.750 hectare), ontstaan na afsluiting door de Deltawerken in 1971, met eilandjes, duinvalleien en schorren. Van groot belang voor overwinterende viseters als fuut en middelste zaagbek, en met de harlekijnorchis in de duinvalleien een van de vijf grootste Nederlandse groeiplaatsen van deze soort.',
+    bron: 'https://www.natura2000.nl/gebieden/zeeland/grevelingen'
   }
 };

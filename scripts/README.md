@@ -166,6 +166,16 @@ worden weggeschreven zonder dat een diff-check dat opmerkt.
 
 ## Bekende valkuilen (waarom sommige dingen zijn zoals ze zijn)
 
+- **`for slug in $(ls data/gebieden)` kan stilzwijgend het verkeerde bestand
+  schrijven.** Sommige `ls`-configuraties voegen een `/` toe achter
+  mapnamen (classificatie-indicator). Daardoor werd `$slug` bijvoorbeeld
+  `"geuldal/"` in plaats van `"geuldal"`, en schreven bouwscripts naar
+  `gebieden/geuldal/.html` (een nieuwe, foutieve submap) in plaats van naar
+  `gebieden/geuldal.html` - het echte bestand bleef ongewijzigd, zonder
+  foutmelding. Gebruik daarom altijd `for dir in data/gebieden/*/; do
+  slug=$(basename "$dir"); ... done` (`basename` verwijdert een eventuele
+  trailing slash altijd correct), nooit `$(ls ...)` om over gebieden te
+  itereren.
 - **Cross-graph dubbeltelling zonder `SELECT DISTINCT`**: het RCE CHO-endpoint
   slaat sommige triples dubbel op in twee named graphs tegelijk (bevestigd:
   `?rm ceo:rijksmonumentnummer "<nr>"` staat zowel in `graph/instanties-rce`

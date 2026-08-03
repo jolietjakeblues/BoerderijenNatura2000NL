@@ -76,7 +76,7 @@
       <span class="badge-richtlijn">Habitatrichtlijn</span>
       <span class="richtlijn-meta">Natura 2000-gebied nr. 157 &middot; sitecode NL9801041 &middot; stikstofgevoelig: ja</span>
     </div>
-    <p>(nog geen beschrijving toegevoegd aan scripts/lib/gebieden-beschrijving.mjs) <a href="https://www.natura2000.nl/gebieden" style="color:var(--blue-mid)" target="_blank" rel="noopener">Bron: natura2000.nl &rarr;</a> &middot; <a href="https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/2974cb98-2bde-4763-bf00-9a7491fcab7d" style="color:var(--blue-mid)" target="_blank" rel="noopener">RCE linked data (1 van 2 richtlijndelen) &rarr;</a> &middot; <a href="http://www.wikidata.org/entity/Q13642041" style="color:var(--blue-mid)" target="_blank" rel="noopener">Wikidata &rarr;</a></p>
+    <p>Uitgestrekt heuvellandgebied (circa 2.500 hectare) langs de Geul, over zeven Zuid-Limburgse gemeenten - een van de grootste en meest gevarieerde Natura 2000-gebieden van Nederland. Beukenbossen, hellingbossen en kalkgraslanden bieden onderdak aan baardvleermuis, mopsvleermuis, vliegend hert en geelbuikvuurpad, met orchideeënrijke beukenbossen en zeldzame kalkgraslandplanten. <a href="https://www.natura2000.nl/gebieden/limburg/geuldal" style="color:var(--blue-mid)" target="_blank" rel="noopener">Bron: natura2000.nl &rarr;</a> &middot; <a href="https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/2974cb98-2bde-4763-bf00-9a7491fcab7d" style="color:var(--blue-mid)" target="_blank" rel="noopener">RCE linked data (1 van 2 richtlijndelen) &rarr;</a> &middot; <a href="http://www.wikidata.org/entity/Q13642041" style="color:var(--blue-mid)" target="_blank" rel="noopener">Wikidata &rarr;</a></p>
     <p>Rijksmonumentale boerderijen binnen dit Natura 2000-gebied of binnen 5&nbsp;km
     van de gebiedsrand (een gekozen selectievenster, geen ecologische invloedssfeer), met een
     BAG-industriefunctie-indicatie op basis van BAG-gebruiksdoel (een aanwijzing, geen bewijs van
@@ -793,7 +793,7 @@ function toonDetail(m){
     `<dt>adres ${i+1}</dt><dd>${a.straat} ${a.huisnr}, ${a.postcode} ${a.woonplaats}${a.gebruiksdoel ? ', gebruiksdoel: '+a.gebruiksdoel : ', geen BAG-match'}</dd>`
   ).join('');
   detail.innerHTML = `<dl>
-    <dt>rijksmonumentnummer</dt><dd>${m.nr}${m.rm ? ` (<a href="${m.rm}" target="_blank" rel="noopener" style="color:var(--blue-mid)">RCE-bron &rarr;</a>)` : ''}</dd>
+    <dt>rijksmonumentnummer</dt><dd>${m.nr} (<a href="https://monumentenregister.cultureelerfgoed.nl/monumenten/${m.nr}" target="_blank" rel="noopener" style="color:var(--blue-mid)">Monumentenregister &rarr;</a>${m.rm ? ` &middot; <a href="${m.rm}" target="_blank" rel="noopener" style="color:var(--blue-mid)">RCE linked data &rarr;</a>` : ''})</dd>
     <dt>oorspronkelijke functie</dt><dd>${m.functie||'onbekend'}</dd>
     <dt>ligging</dt><dd>${m.erin ? 'binnen het Natura 2000-gebied' : `${fmt(m.afstandTotRand)} m van de gebiedsrand`} \u00b7 ${KN[m.k]}-klasse \u00b7 ${m.prov}</dd>
     <dt>status</dt><dd>${STATUS_LABEL[m.status]||m.status}</dd>

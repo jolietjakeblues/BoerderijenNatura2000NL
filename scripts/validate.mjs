@@ -17,6 +17,8 @@ import path from 'path';
 import crypto from 'crypto';
 import { fileURLToPath } from 'url';
 import { matchGebruiksdoel } from './lib/adres-match.mjs';
+import { GEBIEDEN_BESCHRIJVING } from './lib/gebieden-beschrijving.mjs';
+import { parseRichtlijnRaw } from './lib/richtlijn.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
@@ -107,6 +109,10 @@ const slugsZonderData = dataSlugs.filter(f => !fs.existsSync(path.join(GEBIEDEN_
 for (const slug of slugsZonderData) fout(`data/gebieden/${slug}/ bestaat maar heeft geen data.json (onvolledig gebied)`);
 
 console.log(`Valideren van ${slugsMetData.length} gebieden...`);
+
+// Voor de landelijke dubbele-Wikidata-check hieronder: welk gebied claimt
+// welke Wikidata-URI, verzameld tijdens de hoofdlus.
+const wikidataPerGebied = new Map();
 
 for (const slug of slugsMetData) {
   const p = path.join(GEBIEDEN_DIR, slug, 'data.json');
@@ -216,6 +222,60 @@ for (const slug of slugsMetData) {
       }
     } catch (e) {
       fout(`${slug}: manifest.json is geen geldige JSON (${e.message})`);
+    }
+  }
+
+  // Redactionele afronding: elk gebied moet een eigen beschrijving en een
+  // directe natura2000.nl-link naar zijn eigen pagina hebben, niet de
+  // generieke placeholder uit 06-build-gebied-html.mjs of een link die alleen
+  // naar de landelijke gebiedenlijst wijst. Gevonden via externe review: 28
+  // nieuwe gebieden bleken technisch af maar redactioneel onvolledig.
+  const meta = GEBIEDEN_BESCHRIJVING[slug];
+  if (!meta) {
+    fout(`${slug}: geen entry in scripts/lib/gebieden-beschrijving.mjs (gebiedspagina toont een placeholdertekst)`);
+  } else {
+    if (!meta.tekst || meta.tekst.includes('nog geen beschrijving toegevoegd')) {
+      fout(`${slug}: gebieden-beschrijving.mjs bevat nog de placeholdertekst in plaats van een echte beschrijving`);
+    }
+    if (!meta.bron || meta.bron === 'https://www.natura2000.nl/gebieden' || !/\/gebieden\/[^/]+\/[^/]+$/.test(meta.bron)) {
+      fout(`${slug}: bron-link ("${meta.bron}") wijst niet naar een specifieke gebiedspagina op natura2000.nl (verwacht .../gebieden/<provincie>/<gebied>)`);
+    }
+  }
+
+  // Richtlijn-metadata (scripts/lib/richtlijn.mjs): data.json bevat alleen het
+  // al-samengevatte resultaat, dus voor de eerste twee controles wordt hier
+  // opnieuw de rauwe richtlijn-raw.txt geparsed (blijft bewust naast data.json
+  // bestaan, zie scripts/README.md).
+  if (d.richtlijn) {
+    if (!d.richtlijn.gebiedsnummer) {
+      fout(`${slug}: richtlijn.gebiedsnummer ontbreekt`);
+    }
+    const richtlijnRawPath = path.join(GEBIEDEN_DIR, slug, 'richtlijn-raw.txt');
+    if (fs.existsSync(richtlijnRawPath)) {
+      let rows;
+      try {
+        rows = parseRichtlijnRaw(fs.readFileSync(richtlijnRawPath, 'utf-8'));
+      } catch (e) {
+        fout(`${slug}: richtlijn-raw.txt kon niet geparsed worden (${e.message})`);
+        rows = null;
+      }
+      if (rows) {
+        const rceUrisAantal = (d.richtlijn.rceUris || []).length;
+        if (rceUrisAantal !== rows.length) {
+          fout(`${slug}: richtlijn.rceUris heeft ${rceUrisAantal} URI('s), maar richtlijn-raw.txt heeft ${rows.length} rij(en) -- aggregatie heeft mogelijk een deelresource laten vallen`);
+        }
+        const stikstofWaarden = new Set(rows.map(r => r.stikstofgevoelig));
+        if (stikstofWaarden.size > 1) {
+          fout(`${slug}: tegenstrijdige stikstofgevoelig-waarden tussen RCE-deelresources (${[...stikstofWaarden].join(', ')})`);
+        }
+      }
+    }
+    if (d.richtlijn.wikidata) {
+      if (wikidataPerGebied.has(d.richtlijn.wikidata)) {
+        fout(`${slug}: richtlijn.wikidata (${d.richtlijn.wikidata}) wordt ook gebruikt door ${wikidataPerGebied.get(d.richtlijn.wikidata)} -- twee verschillende gebieden aan hetzelfde Wikidata-item gekoppeld`);
+      } else {
+        wikidataPerGebied.set(d.richtlijn.wikidata, slug);
+      }
     }
   }
 }
