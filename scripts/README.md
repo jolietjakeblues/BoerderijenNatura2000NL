@@ -57,7 +57,13 @@ provincie-toewijzing, HTML genereren) zijn volledig automatisch.
   opzoeking nooit stilzwijgend als "geen bedrijfsindicatie" telt.
 - **provincie.mjs** — provincie bepalen via point-in-polygon tegen de
   PDOK-bestuurlijke-grenzenlaag, onafhankelijk van RCE en van het
-  Natura 2000-gebied zelf.
+  Natura 2000-gebied zelf. Deze functie werkt per monumentpunt; voor een
+  gebied zonder monumenten (bv. De Bruuk binnen de huidige 5&nbsp;km-grens,
+  0 boerderijen) is er dan geen enkele provincie af te leiden. Voor de
+  provincie-indeling op de landingspagina (`07-build-landing-html.mjs`)
+  wordt in dat geval hetzelfde `findProvincie` hergebruikt op het bbox-midden
+  van het Natura 2000-gebied zelf — een gebied belandt zo alsnog in de juiste
+  sectie, zonder losse gebiedsuitzonderingen hard te coderen.
 - **gebieden-beschrijving.mjs** — korte, zelfgeschreven samenvatting per
   gebied (natura2000.nl als bron, geen letterlijke overname).
 

@@ -9,10 +9,14 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { GEBIEDEN_BESCHRIJVING } from './lib/gebieden-beschrijving.mjs';
+import { findProvincie } from './lib/provincie.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const GEBIEDEN_DIR = path.join(__dirname, '..', 'data', 'gebieden');
+const RAW_DIR = path.join(__dirname, '..', 'data', 'raw');
 const OUT = path.join(__dirname, '..', 'index.html');
+
+const provinciesGeoJSON = JSON.parse(fs.readFileSync(path.join(RAW_DIR, 'provincies.json'), 'utf-8'));
 
 const slugs = fs.existsSync(GEBIEDEN_DIR)
   ? fs.readdirSync(GEBIEDEN_DIR).filter(f => fs.existsSync(path.join(GEBIEDEN_DIR, f, 'data.json')))
@@ -21,12 +25,23 @@ const slugs = fs.existsSync(GEBIEDEN_DIR)
 const gebieden = slugs.map(slug => {
   const D = JSON.parse(fs.readFileSync(path.join(GEBIEDEN_DIR, slug, 'data.json'), 'utf-8'));
   const provs = Object.keys(D.provCounts);
+  // Provincie wordt normaal afgeleid uit de gevonden monumenten. Een gebied
+  // zonder monumenten (bv. De Bruuk, binnen de huidige 5km-grens) heeft dan
+  // geen enkele provincie -- val in dat geval terug op het bbox-midden van
+  // het Natura 2000-gebied zelf, zodat het toch in de juiste sectie belandt.
+  let sectieProvincies = provs;
+  if (sectieProvincies.length === 0 && D.bbox) {
+    const [minLon, minLat, maxLon, maxLat] = D.bbox;
+    const midden = findProvincie((minLon + maxLon) / 2, (minLat + maxLat) / 2, provinciesGeoJSON);
+    if (midden) sectieProvincies = [midden];
+  }
   const meta = GEBIEDEN_BESCHRIJVING[slug];
   return {
     slug,
     naam: D.gebied,
     ligging: meta?.ligging || null,
     provincies: provs,
+    sectieProvincies: sectieProvincies.length ? sectieProvincies : ['Niet in te delen'],
     n: D.n, ja: D.ja, onbekend: D.onbekend,
     href: `gebieden/${slug}.html`
   };
@@ -39,10 +54,8 @@ const totaal = {
   onbekend: gebieden.reduce((s, g) => s + (g.onbekend || 0), 0)
 };
 
-const gebiedCards = gebieden.map(g => {
-  const status = g.n === 0
-    ? 'Verwerkt · geen boerderijen gevonden'
-    : (g.provincies.length > 1 ? `Verwerkt · grensgebied ${g.provincies.join('/')}` : 'Verwerkt');
+function gcard(g) {
+  const status = g.n === 0 ? 'Verwerkt · geen boerderijen gevonden' : 'Verwerkt';
   return `
       <a class="gcard" href="${g.href}">
         <div class="gcard-top">
@@ -55,6 +68,35 @@ const gebiedCards = gebieden.map(g => {
           <span><b>${g.ja}</b> actieve indicatie</span>
         </div>
       </a>`;
+}
+
+const provincieSecties = new Map();
+for (const g of gebieden) {
+  for (const p of g.sectieProvincies) {
+    if (!provincieSecties.has(p)) provincieSecties.set(p, []);
+    provincieSecties.get(p).push(g);
+  }
+}
+const NIET_INDELEN = 'Niet in te delen';
+const provincieVolgorde = [...provincieSecties.keys()]
+  .filter(p => p !== NIET_INDELEN)
+  .sort((a, b) => a.localeCompare(b));
+if (provincieSecties.has(NIET_INDELEN)) provincieVolgorde.push(NIET_INDELEN);
+
+const provincieSlug = naam => naam.toLowerCase().replace(/[^a-z0-9]+/g, '-');
+
+const jumpNav = provincieVolgorde.map(p =>
+  `<a href="#prov-${provincieSlug(p)}">${p} (${provincieSecties.get(p).length})</a>`
+).join('\n      ');
+
+const provincieSections = provincieVolgorde.map(p => {
+  const lijst = provincieSecties.get(p);
+  return `
+  <div class="card" id="prov-${provincieSlug(p)}">
+    <h2>${p} &middot; ${lijst.length} gebied${lijst.length === 1 ? '' : 'en'}</h2>
+    <div class="gebieden-grid">${lijst.map(gcard).join('\n')}
+    </div>
+  </div>`;
 }).join('\n');
 
 const html = `<!DOCTYPE html>
@@ -95,6 +137,11 @@ const html = `<!DOCTYPE html>
   .gcard-sub{font-size:12px;color:var(--ink-soft);margin-top:3px}
   .gcard-stats{display:flex;gap:14px;margin-top:10px;font-size:12px;color:var(--ink-soft)}
   .gcard-stats b{color:var(--ink);font-size:14px;font-family:Palatino,Georgia,serif}
+  .jumpnav{display:flex;flex-wrap:wrap;gap:6px;margin:16px 0}
+  .jumpnav a{font-size:12px;padding:4px 10px;border:1px solid var(--line);border-radius:12px;
+    background:var(--panel);color:var(--ink);text-decoration:none}
+  .jumpnav a:hover{border-color:var(--ink)}
+  .jumpnav-note{font-size:12px;color:var(--ink-soft);margin:-8px 0 4px}
   footer{margin-top:22px;font-size:12px;color:var(--ink-soft);border-top:1px solid var(--line);padding-top:14px}
   footer p{margin-bottom:8px}
   @media (max-width:480px){ h1{font-size:24px} .stats{grid-template-columns:repeat(2,1fr)} }
@@ -122,12 +169,11 @@ const html = `<!DOCTYPE html>
     <div class="stat neutral"><div class="num">${totaal.onbekend}</div><div class="lbl">BAG niet te controleren</div></div>
   </div>
 
-  <div class="card">
-    <h2>Natura 2000-gebieden &middot; klik voor detail</h2>
-    <div class="gebieden-grid">${gebiedCards}
-      <div class="gcard" style="border-style:dashed;color:var(--ink-soft);display:flex;align-items:center;justify-content:center;text-align:center;font-size:12px;min-height:96px">volgende gebieden<br>volgen hier</div>
-    </div>
-  </div>
+  <div class="jumpnav">${jumpNav}</div>
+  <p class="jumpnav-note">Provincie is een weergavelaag: een gebied dat over een provinciegrens
+  heen ligt (bv. Rijntakken, Gelderland/Overijssel) staat in elke provincie waarin het (deels) ligt
+  &mdash; het aantal gebieden per sectie telt dus niet op tot ${totaal.gebieden}.</p>
+${provincieSections}
 
   <footer>
     <p><b>Methode.</b> Per Natura 2000-gebied: rijksmonumenten met oorspronkelijke functie boerderij ophalen
