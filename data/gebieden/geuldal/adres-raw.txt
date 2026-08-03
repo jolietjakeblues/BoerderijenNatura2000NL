@@ -1,0 +1,1037 @@
+Gevonden: 1033 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10169 | Kampstraat | 26 | 6336VZ | Hulsberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10189 | Terstraten | 4 | 6361GJ | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10308 | Honthem | 8 | 6269NR | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10318 | Klompestraat | 7 | 6255AE | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10318 | Klompestraat | 5 | 6255AE | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10335 | Bommerigerweg | 42 | 6281BT | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10423 | Overst Voerendaal | 4 | 6367GK | Voerendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10423 | Overst Voerendaal | 2 | 6367GK | Voerendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10586 | Ingberdorpsstraat | 29 | 6273NE | Ingber
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10727 | Kruisstraat | 29 | 6333CP | Schimmert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10791 | Hilleshagerweg | 102 | 6281AH | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10791 | Hilleshagerweg | 100 | 6281AH | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10978 | Hurpescherweg | 4 | 6281NL | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11226 | Hunnecum | 17 | 6361EE | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11381 | Elzeterweg | 2 A | 6281NN | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11381 | Elzeterweg | 2 | 6281NN | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11388 | Dal Bissenweg | 6 | 6281NC | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11392 | Klimmenderstraat | 104 | 6343AE | Klimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11488 | Rijksweg | 46 | 6267AH | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11496 | Julianastraat | 6 | 6285AJ | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11496 | Julianastraat | 4 B | 6285AJ | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11496 | Julianastraat | 4 C | 6285AJ | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11496 | Julianastraat | 4 D | 6285AJ | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11496 | Julianastraat | 4 E | 6285AJ | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11517 | Vroelenstraat | 6 | 6255AL | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11545 | Hartelstein | 204 | 6223HV | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11545 | Hartelstein | 202 | 6223HV | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11609 | Kaardenbekerweg | 5 | 6343RE | Klimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11787 | Eyserheide | 29 | 6287NB | Eys
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11787 | Eyserheide | 27 A | 6287NB | Eys
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11802 | Hilleshagerweg | 2 | 6281AE | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11843 | Bergenhuizen | 12 | 6255NK | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11870 | Bergerstraat | 2 | 6226NA | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11870 | Bergerstraat | 4 | 6226NA | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11933 | Bosschenhuizen | 20 | 6369BK | Simpelveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11933 | Bosschenhuizen | 20 A | 6369BK | Simpelveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12170 | Wijnstraat | 21 | 6369GJ | Simpelveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12170 | Wijnstraat | 23 | 6369GJ | Simpelveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12170 | Wijnstraat | 25 | 6369GJ | Simpelveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12170 | Wijnstraat | 21 a | 6369GJ | Simpelveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12193 | Stationstraat | 312 | 6361BH | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12202 | Bommerigerweg | 40 | 6281BT | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12239 | Plaatweg | 3 | 6285NK | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12806 | Ransdalerstraat | 43 | 6311AW | Ransdaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12882 | Tentstraat | 67 | 6291BD | Vaals
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13104 | Sint Gerlach | 11 | 6301JA | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13104 | Sint Gerlach | 11 A | 6301JA | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13350 | Penderskoolhofweg | 3 | 6343RG | Klimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13374 | Mingersborg | 20 | 6367JX | Voerendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13386 | Langs de Gewannen | 75 | 6235NV | Ulestraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13386 | Langs de Gewannen | 77 | 6235NV | Ulestraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13441 | Holset | 53 b | 6295ND | Lemiers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13441 | Holset | 53 a | 6295ND | Lemiers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13441 | Holset | 59 | 6295ND | Lemiers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13441 | Holset | 53 | 6295ND | Lemiers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13441 | Holset | 55 | 6295ND | Lemiers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13441 | Holset | 51 | 6295ND | Lemiers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13441 | Holset | 57 | 6295ND | Lemiers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13441 | Holset | 61 | 6295ND | Lemiers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13548 | Heerenhofweg | 8 | 6281AR | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13548 | Heerenhofweg | 5 | 6281AR | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13548 | Heerenhofweg | 7 | 6281AR | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13548 | Heerenhofweg | 3 | 6281AR | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13548 | Heerenhofweg | 9 | 6281AR | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13620 | Ambyerstraat Zuid | 155 | 6225AE | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13781 | Onderstraat | 10 | 6255ND | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13836 | Grote Straat | 73 | 6325EB | Berg en Terblijt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14020 | Hunnecum | 7 | 6361EE | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14085 | Gasthuis | 59 | 6268NN | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14085 | Gasthuis | 61 | 6268NN | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14314 | Ransdalerstraat | 32 | 6312AH | Ransdaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14374 | Molenveld | 20 | 6361EP | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14374 | Molenveld | 22 | 6361EP | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14374 | Molenveld | 20 A | 6361EP | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14426 | Barrier | 92 | 6343RB | Klimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14654 | Camerig | 5 | 6294NA | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14786 | Wittemer Allee | 1 | 6286AA | Wittem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14786 | Wittemer Allee | 1 B | 6286AA | Wittem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14786 | Wittemer Allee | 1 A | 6286AA | Wittem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14792 | Dorpsstraat | 148 | 6251ND | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14876 | Kiewegracht | 9 | 6271BN | Gulpen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14970 | Vijlenstraat | 51 | 6294BA | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15373 | Mr dr Froweinweg | 67 | 6287CB | Eys
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15588 | Hilleshagerweg | 94 | 6281AH | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15677 | Rarenderstraat | 63 | 6291NC | Vaals
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15825 | Schilberg | 36 | 6255NR | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15839 | Kerkstraat | 76 | 6267EE | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15839 | Kerkstraat | 78 | 6267EE | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15839 | Vendelstraat | 1 | 6267EW | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15858 | Hekerweg | 29 | 6301RJ | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15858 | Hekerweg | 27 | 6301RJ | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15858 | Hekerweg | 27 A | 6301RJ | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15887 | Vroenhof | 60 | 6301KH | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15975 | Ingberdorpsstraat | 13 | 6273NE | Ingber
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15975 | Ingberdorpsstraat | 13 A | 6273NE | Ingber
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15975 | Ingberdorpsstraat | 13 B | 6273NE | Ingber
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15975 | Ingberdorpsstraat | 13 C | 6273NE | Ingber
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16366 | Diepestraat | 10 | 6336VW | Hulsberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16377 | Elkenrade | 7 | 6289NA | Elkenrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16404 | Klompestraat | 3 | 6255AE | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16404 | Klompestraat | 1 A | 6255AE | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16404 | Klompestraat | 1 B | 6255AE | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16404 | Klompestraat | 1 C | 6255AE | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16404 | Klompestraat | 1 D | 6255AE | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16404 | Klompestraat | 1 E | 6255AE | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16404 | Klompestraat | 1 F | 6255AE | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16414 | Maastrichterweg | 10 | 6361DS | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16414 | Maastrichterweg | 10 a | 6361DS | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16414 | Maastrichterweg | 12 | 6361DS | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16445 | Berghof | 3 | 6321PC | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16445 | Berghof | 2 | 6321PC | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16506 | Raar | 21 | 6231RP | Meerssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16605 | Hopschet | 16 | 6294BL | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16605 | Hopschet | 18 | 6294BL | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16630 | Dal Bissenweg | 8 | 6281NC | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16658 | Kerkstraat | 98 | 6267EG | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16658 | Kerkstraat | 100 | 6267EG | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16658 | Kerkstraat | 102 | 6267EG | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16721 | Klimmenerweg | 8 | 6336AV | Hulsberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16763 | Cottessen | 10 a | 6294NE | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16763 | Cottessen | 11 a | 6294NE | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16763 | Cottessen | 11 e | 6294NE | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16763 | Cottessen | 11 f | 6294NE | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16763 | Cottessen | 11 d | 6294NE | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16763 | Cottessen | 10 | 6294NE | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16763 | Cottessen | 11 | 6294NE | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16799 | Gen Höf | 12 | 6269ND | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16931 | Rott | 48 | 6294NM | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16938 | Termaar | 67 | 6269AG | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16938 | Termaar | 71 | 6269AG | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16959 | Scheulderdorpsstraat | 56 | 6307PC | Scheulder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16959 | Scheulderdorpsstraat | 54 A | 6307PC | Scheulder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17005 | Peuschkensheiderweg | 1 | 6369GC | Simpelveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17005 | Peuschkensheiderweg | 3 | 6369GC | Simpelveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17100 | Reijmerstokkerdorpsstraat | 96 | 6274NN | Reijmerstok
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17148 | Holset | 48 | 6295NC | Lemiers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17156 | Achelerweg | 1 B | 6301RK | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17156 | Achelerweg | 1 | 6301RK | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17266 | Dorpsstraat | 55 | 6277NC | Slenaken
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17453 | Stallestraat | 18 | 6261ND | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17475 | Ingberdorpsstraat | 21 | 6273NE | Ingber
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17676 | Branterweg | 22 | 6361DA | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17695 | Boeienstraat | 10 | 6285AE | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17702 | Bosschenhuizen | 21 | 6369BK | Simpelveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17712 | Genzon | 42 | 6235AB | Ulestraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17838 | Keutenberg | 7 | 6305PP | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17898 | Kerkewegje | 1 | 6305BC | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17947 | Schreursweg | 5 | 6281NX | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18163 | Rijksweg | 10 | 6227SV | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18234 | Beutenaken | 38 | 6278NB | Beutenaken
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18358 | Duivenstraat | 3 | 6261NV | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18358 | Duivenstraat | 1 A | 6261NV | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18526 | Harles | 3 | 6294NG | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18579 | Harles | 1 | 6294NG | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18590 | Kapelaan Houbenstraat | 22 | 6285AB | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18633 | Cottessen | 3 | 6294NE | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18875 | Kampstraat | 13 | 6336VX | Hulsberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18957 | Bergerstraat | 108 | 6226BD | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18957 | Bergerstraat | 110 | 6226BE | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19266 | Mr dr Froweinweg | 20 | 6287CC | Eys
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19309 | Wissengrachtweg | 76 | 6336TK | Hulsberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19433 | Branterweg | 18 | 6361DA | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19484 | Kütersteenweg | 4 | 6255PC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19504 | Beatrixweg | 8 | 6285NC | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19588 | Muntweg | 10 | 6325PD | Berg en Terblijt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19621 | Kuttingerweg | 5 A | 6285NL | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19782 | Heerlerweg | 103 | 6367AC | Voerendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19788 | De Lirp | 42 | 6419EW | Heerlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19788 | De Doom | 44 | 6419CX | Heerlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19817 | Camerig | 22 | 6294NB | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19855 | Schweibergerweg | 8 | 6281NG | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20011 | Hilleshagerweg | 112 | 6281AH | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20027 | Hoogbeek | 3 | 6305BH | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20028 | Rarenderstraat | 63 a | 6291NC | Vaals
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20028 | Rarenderstraat | 65 | 6291NC | Vaals
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20028 | Rarenderstraat | 67 | 6291NC | Vaals
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20075 | Op Gen Hek | 22 | 6367GL | Voerendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20131 | Haasdallerweg | 3 | 6336XZ | Hulsberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20186 | Vink | 2 | 6363CA | Wijnandsrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20188 | Elzeterweg | 3 | 6281NN | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20397 | Tussen de Bruggen | 6 | 6231CC | Meerssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20409 | Muntweg | 9 | 6325PD | Berg en Terblijt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20426 | Reijmerstokkerdorpsstraat | 75 | 6274NH | Reijmerstok
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20671 | Haagstraat | 5 | 6333EP | Schimmert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20799 | Rondelenstraat | 8 | 6261NP | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20890 | Kleingenhouterstraat | 7 | 6191PM | Beek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20990 | Hoofdstraat | 13 | 6281BA | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21018 | Vroelen | 32 A | 6255NC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21060 | Diependalsweg | 11 | 6285NG | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21107 | Steegstraat | 21 | 6261NK | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21258 | Tussen de Bruggen | 2 | 6231CC | Meerssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21258 | Tussen de Bruggen | 4 | 6231CC | Meerssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21262 | Vroelen | 29 | 6255NC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21278 | Rarenderstraat | 19 | 6291NC | Vaals
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21279 | Scheulderdorpsstraat | 99 | 6307PB | Scheulder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21324 | Hoenderstraat | 11 | 6269BS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21324 | Hoenderstraat | 13 | 6269BS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21447 | Kleingenhouterstraat | 6 | 6191PP | Beek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21447 | Kleingenhouterstraat | 6 A | 6191PP | Beek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21465 | Weert | 93 | 6241GS | Bunde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21497 | Stallestraat | 34 | 6261ND | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21526 | Molsberg | 96 | 6369GP | Simpelveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21548 | Oude Heirbaan | 6 | 6286AM | Wittem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21548 | Oude Heirbaan | 4 A | 6286AM | Wittem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21594 | Valkenburgerweg | 44 A | 6321GG | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21594 | Valkenburgerweg | 44 B | 6321GG | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21594 | Valkenburgerweg | 44 D | 6321GG | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21594 | Valkenburgerweg | 44 F | 6321GG | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21594 | Valkenburgerweg | 44 C | 6321GG | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21594 | Valkenburgerweg | 44 G | 6321GG | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21594 | Valkenburgerweg | 44 E | 6321GG | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21594 | Valkenburgerweg | 44 | 6321GG | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21683 | Ravensboschstraat | 24 | 6336XH | Hulsberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21735 | Bloemendalstraat | 7 | 6291CL | Vaals
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21753 | Terlinden | 22 | 6255NP | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21821 | Retersbekerweg | 40 | 6343PK | Klimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21841 | Vink | 9 | 6363CA | Wijnandsrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21845 | Oud-Valkenburg | 2 | 6305AB | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21845 | Oud-Valkenburg | 4 | 6305AB | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21925 | Schweibergerweg | 17 | 6281ND | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22084 | Boeienstraat | 8 | 6285AE | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22118 | Hilleshagerweg | 8 A | 6281AE | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22118 | Hilleshagerweg | 6 A | 6281AE | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22118 | Hilleshagerweg | 8 | 6281AE | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22266 | Dorpstraat | 74 | 6301BD | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22754 | Partijerweg | 8 | 6286AL | Wittem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22789 | Dorpsstraat | 140 | 6251ND | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22907 | Rott | 14 | 6294NM | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22907 | Rott | 14 a | 6294NM | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23092 | Rarenderstraat | 24 | 6291ND | Vaals
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23131 | Dorpstraat | 19 | 6235AC | Ulestraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23131 | Dorpstraat | 21 c | 6235AC | Ulestraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23131 | Dorpstraat | 21 d | 6235AC | Ulestraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23131 | Dorpstraat | 21 b | 6235AC | Ulestraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23131 | Dorpstraat | 21 | 6235AC | Ulestraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23135 | Paumstraat | 16 | 6351BB | Bocholtz
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23358 | Rondelenstraat | 14 | 6261NP | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23439 | Meelenbroekerweg | 3 | 6291NE | Vaals
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23439 | Meelenbroekerweg | 5 | 6291NE | Vaals
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23468 | Diependalsweg | 13 | 6285NG | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23626 | Hoenderstraat | 17 | 6269BS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23626 | Hoenderstraat | 17 A | 6269BS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23626 | Hoenderstraat | 17 B | 6269BS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23626 | Hoenderstraat | 17 C | 6269BS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23626 | Hoenderstraat | 17 D | 6269BS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23679 | Kelderweg | 6 | 6287CE | Eys
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23808 | Harles | 9 | 6294NG | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23808 | Harles | 9 A | 6294NG | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23847 | De Doom | 22 | 6419CX | Heerlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23879 | Terstraten | 8 | 6361GJ | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24043 | Waalbroek | 46 | 6369TE | Simpelveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24083 | Terzieterweg | 9 | 6285ND | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24239 | Camerig | 4 | 6294NA | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24370 | Groenstraat | 16 | 6301PH | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24370 | Groenstraat | 16 A | 6301PH | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24370 | Groenstraat | 18 A | 6301PH | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24526 | Hoofdstraat | 97 | 6333BG | Schimmert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24535 | Valkenburgerweg | 54 | 6419AV | Heerlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24587 | Kapelstraat | 35 | 6301PD | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24728 | Sint Laurentiusstraat | 7 | 6268NJ | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24937 | Elzeterweg | 5 | 6281NN | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25024 | Leienhuisweg | 1 B 1 | 6321AV | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25024 | Leienhuisweg | 1 C | 6321AV | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25024 | Leienhuisweg | 1 A | 6321AV | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25024 | Leienhuisweg | 1 B | 6321AV | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25095 | Hekerweg | 36 | 6301RH | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25120 | Schweibergerweg | 44 | 6281NH | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25129 | Kleverstraat | 10 | 6333AB | Schimmert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25129 | Kleverstraat | 10 a | 6333AB | Schimmert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25290 | Hopschet | 22 | 6294BL | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25378 | Terzieterweg | 46 | 6285NE | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25788 | Eyserbosweg | 2 | 6287NA | Eys
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25821 | Groot-Haasdal | 18 | 6333AW | Schimmert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25846 | Hekerweg | 35 | 6301RJ | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25846 | Hekerweg | 37 | 6301RJ | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25849 | Terzieterweg | 34 | 6285NE | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25869 | Weert | 85 | 6231RE | Meerssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26007 | Terstraten | 12 | 6361GJ | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26278 | Lindenstraat | 60 | 6325PB | Berg en Terblijt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26318 | Weijerweg | 2 | 6291NL | Vaals
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26319 | Sint Gerlach | 16 | 6301JC | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26319 | Sint Gerlach | 14 | 6301JC | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26390 | Baneheide | 28 | 6353AL | Baneheide
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26527 | Graafstraat | 16 | 6305BE | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26527 | Graafstraat | 16 A | 6305BE | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26750 | Lemmensstraat | 71 | 6273NB | Ingber
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26750 | Lemmensstraat | 73 | 6273NB | Ingber
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26853 | Klein Linde | 2 | 6301AN | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26853 | Klein Linde | 2 A | 6301AN | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26853 | Klein Linde | 2 B | 6301AN | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26853 | Klein Linde | 2 D | 6301AN | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26861 | Wittemerweg | 10 | 6287AB | Eys
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26998 | Hoeve Heihofweg | 1 | 6301RB | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26998 | Hoeve Heihofweg | 1 A | 6301RB | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27162 | Diependalsweg | 2 | 6285NG | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27196 | Steinweg | 7 A | 6367GM | Voerendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27196 | Steinweg | 7 | 6367GM | Voerendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27255 | Klein Welsden | 21 | 6269NS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27255 | Klein Welsden | 21 A | 6269NS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27425 | Sint Gerlach | 17 A | 6301JA | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27425 | Sint Gerlach | 17 | 6301JA | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27485 | Vroelenstraat | 14 | 6255AL | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27485 | Vroelenstraat | 14 A | 6255AL | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27485 | Vroelenstraat | 14 B | 6255AL | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27565 | Rijksweg | 6 | 6269AC | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27565 | Rijksweg | 6 A | 6269AC | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27565 | Rijksweg | 2 | 6269AC | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27565 | Rijksweg | 2 A | 6269AC | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27565 | Rijksweg | 4 E | 6269AC | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27565 | Rijksweg | 4 D | 6269AC | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27565 | Rijksweg | 4 C | 6269AC | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27565 | Rijksweg | 4 B | 6269AC | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27565 | Rijksweg | 4 A | 6269AC | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27565 | Rijksweg | 4 | 6269AC | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27565 | Rijksweg | 8 | 6269AC | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27565 | Dobbelsteynstraat | 2 | 6269AX | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27565 | Dobbelsteynstraat | 2 A | 6269AX | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27757 | Winthagen | 1 | 6367GX | Voerendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27826 | Graafstraat | 3 A | 6305BD | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27826 | Graafstraat | 3 B | 6305BD | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27826 | Graafstraat | 3 C | 6305BD | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27826 | Graafstraat | 3 E | 6305BD | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27826 | Graafstraat | 3 D | 6305BD | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27826 | Graafstraat | 3 | 6305BD | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27898 | Kleingenhouterstraat | 16 | 6191PP | Beek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27950 | Bruisterbosch | 3 A | 6265NK | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27950 | Bruisterbosch | 1 B | 6265NK | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27950 | Bruisterbosch | 1 C | 6265NK | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27950 | Bruisterbosch | 1 A | 6265NK | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27950 | Bruisterbosch | 1 | 6265NK | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27950 | Bruisterbosch | 3 | 6265NK | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27973 | Bergerstraat | 103 | 6226BB | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27973 | Bergerstraat | 105 | 6226BB | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28124 | Hoofdstraat | 9 | 6281BA | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28124 | Hoofdstraat | 11 | 6281BA | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28151 | Camerig | 6 | 6294NA | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28151 | Camerig | 6 A | 6294NA | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28151 | Camerig | 6 B | 6294NA | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28151 | Camerig | 6 C | 6294NA | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28151 | Camerig | 6 D | 6294NA | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28200 | Dalestraat | 24 | 6262NM | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28216 | Retersbekerweg | 53 | 6343PJ | Klimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28216 | Retersbekerweg | 51 | 6343PJ | Klimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28234 | Hoofdstraat | 15 | 6281BA | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28267 | Heerstraat | 8 | 6301PL | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28267 | Heerstraat | 10 | 6301PL | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28372 | Kleebergerweg | 1 | 6281NM | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28486 | Irmstraat | 63 | 6369VM | Simpelveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28591 | Sint Gerlach | 20 | 6301JC | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28650 | Kaardenbekerweg | 32 | 6343RE | Klimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28698 | Hunnecum | 4 a | 6361EE | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28698 | Hunnecum | 4 b | 6361EE | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28698 | Hunnecum | 4 | 6361EE | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28868 | Ulvend | 1 A | 6255NA | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28868 | Ulvend | 1 B | 6255NA | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28868 | Ulvend | 1 | 6255NA | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29045 | Bulkemstraat | 1 | 6369XS | Simpelveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29068 | Valkenburgerweg | 46 | 6367GW | Voerendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29143 | Ingberdorpsstraat | 9 | 6273NE | Ingber
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29187 | Wesch | 4 | 6255NH | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29255 | Rarenderstraat | 43 | 6291NC | Vaals
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29255 | Rarenderstraat | 45 | 6291NC | Vaals
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29255 | Rarenderstraat | 41 | 6291NC | Vaals
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29390 | Sprinkstraat | 12 | 6269AP | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29391 | Hilleshagerweg | 20 | 6281AE | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29410 | Dorpstraat | 29 | 6255AM | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29410 | Dorpstraat | 29 A | 6255AM | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29472 | Scheulderdorpsstraat | 64 | 6307PC | Scheulder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29905 | Ingberdorpsstraat | 38 | 6273NG | Ingber
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29961 | Dorpsstraat | 154 | 6251ND | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30002 | Grijzegrubben | 14 | 6361GM | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30149 | Penderskoolhofweg | 1 | 6343RG | Klimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30241 | Provincialeweg | 30 | 6255NV | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30250 | Klimmenderstraat | 100 | 6343AE | Klimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30276 | Broekhem | 138 | 6301HL | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30276 | Broekhem | 140 | 6301HL | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30276 | Broekhem | 142 | 6301HL | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30276 | Broekhem | 144 | 6301HL | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30276 | Broekhem | 146 | 6301HL | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30376 | Dal Bissenweg | 8 | 6281NC | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30436 | Diependalsweg | 4 | 6285NG | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30654 | Wittemerweg | 8 | 6287AB | Eys
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30654 | Wittemerweg | 8 A | 6287AB | Eys
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30750 | Driesschenweg | 2 | 6361DH | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30799 | In Gen Bauwerkoel | 5 | 6269NC | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30934 | Bulkemstraat | 3 | 6369XS | Simpelveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30974 | Dorpsstraat | 45 | 6267AA | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30986 | Stokhem | 38 | 6321PG | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30987 | Dorpstraat | 45 | 6301BB | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31132 | Cottessen | 14 | 6294NE | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31150 | Ingberdorpsstraat | 19 | 6273NE | Ingber
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31197 | Terlinden | 36 | 6255NP | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31197 | Terlinden | 34 A | 6255NP | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31225 | Schilberg | 15 | 6255NR | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31225 | Schilberg | 15 A | 6255NR | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31272 | Terstraten | 2 | 6361GJ | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31325 | Reijmerstokkerdorpsstraat | 130 | 6274NN | Reijmerstok
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31525 | Irmstraat | 88 | 6369VB | Simpelveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31533 | Bredeweg | 7 | 6262NX | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31533 | Bredeweg | 5 | 6262NX | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31570 | Kleingenhouterstraat | 14 | 6191PP | Beek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31576 | Hoogcruts | 9 | 6255NS | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31648 | Kalfshofweg | 1 | 6343PG | Klimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31675 | Terhorst | 23 | 6262NA | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31675 | Terhorst | 23 A | 6262NA | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31675 | Terhorst | 23 B | 6262NA | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32029 | Terstraten | 11 | 6361GJ | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32331 | Colmont | 5 | 6367HE | Voerendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32361 | Groot-Haasdal | 30 | 6333AW | Schimmert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32374 | St. Nicolaasstraat | 31 A | 6369XM | Simpelveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32374 | St. Nicolaasstraat | 31 B | 6369XM | Simpelveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32411 | Holset | 24 | 6295NC | Lemiers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32425 | Joseph Corneli Allée | 1 | 6301KK | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32572 | Kleebergerweg | 4 | 6281NM | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32630 | Duivenstraat | 10 | 6261NT | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32630 | Duivenstraat | 10 A | 6261NT | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32680 | Pley | 3 | 6255AG | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32680 | Pley | 3 A | 6255AG | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32774 | Lindenstraat | 21 | 6325PA | Berg en Terblijt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32838 | Weiweg | 1 | 6351AC | Bocholtz
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32850 | Bommerigerweg | 24 | 6281BS | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33071 | Barrier | 90 | 6343RB | Klimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33071 | Barrier | 88 | 6343RB | Klimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33110 | Bruisterbosch | 5 | 6265NK | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33422 | Bodemsweg | 3 A 01 | 6225ND | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33422 | Bodemsweg | 3 A 02 | 6225ND | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33422 | Bodemsweg | 3 | 6225ND | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33422 | Bodemsweg | 3 B | 6225ND | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33487 | Hoofdstraat | 33 | 6281BB | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33678 | Groenenweg | 16 | 6294ND | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33678 | Groenenweg | 12 | 6294ND | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33842 | Commandeurstraat | 3 C | 6281AL | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33842 | Commandeurstraat | 3 A | 6281AL | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33842 | Commandeurstraat | 3 B | 6281AL | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34037 | Vliek | 9 | 6235NR | Ulestraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34039 | Overgeul | 1 | 6281BG | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34039 | Overgeul | 1 B | 6281BG | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34064 | Hofstraat | 9 | 6351BD | Bocholtz
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34064 | Hofstraat | 11 | 6351BD | Bocholtz
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34064 | Hofstraat | 7 | 6351BD | Bocholtz
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34101 | Pingerweg | 11 | 6361AL | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34525 | Duivenstraat | 12 | 6261NT | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34525 | Duivenstraat | 14 | 6261NT | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34525 | Duivenstraat | 12 A | 6261NT | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34662 | Westbroek | 59 | 6243CG | Geulle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34717 | Dorpsstraat | 83 | 6251NC | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35021 | Dorpstraat | 78 | 6301BD | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35243 | Kelderweg | 2 | 6287CE | Eys
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35398 | Stallestraat | 20 | 6261ND | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35501 | Oudenboschstraat | 39 | 6363BV | Wijnandsrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35525 | Holset | 52 | 6295ND | Lemiers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35525 | Holset | 54 | 6295ND | Lemiers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35538 | Dorpstraat | 49 | 6361EK | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35574 | Reijmerstokkerdorpsstraat | 77 | 6274NH | Reijmerstok
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35766 | Grootgenhouterstraat | 109 | 6191NR | Beek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35939 | Dorpsstraat | 113 | 6251NC | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35963 | Schweibergerweg | 3 | 6281ND | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36034 | Raar | 47 | 6231RP | Meerssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36160 | Zandberg | 20 | 6351AK | Bocholtz
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36160 | Zandberg | 22 | 6351AK | Bocholtz
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36181 | Wethouder van Caldenborghlaan | 34 | 6226BT | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36181 | Wethouder van Caldenborghlaan | 36 | 6226BT | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36181 | Wethouder van Caldenborghlaan | 30 | 6226BT | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36276 | Hoenderstraat | 9 | 6269BS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36316 | Rott | 48 A | 6294NM | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36340 | Steegstraat | 17 | 6261NK | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36425 | Dorpstraat | 47 | 6301BB | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36496 | Kiewegracht | 9 | 6271BN | Gulpen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36496 | Kiewegracht | 7 | 6271BN | Gulpen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36779 | Kerkstraat | 133 | 6267EC | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36779 | Kerkstraat | 135 | 6267EC | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36779 | Kerkstraat | 137 | 6267EC | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36779 | Kerkstraat | 139 | 6267EC | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36791 | Winthagen | 9 | 6367GX | Voerendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37073 | Dal Bissenweg | 7 | 6281NC | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37217 | Dorpsstraat | 32 | 6261NJ | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37238 | Blankenberg | 3 B | 6267NN | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37238 | Blankenberg | 3 A | 6267NN | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37238 | Blankenberg | 3 C | 6267NN | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37238 | Blankenberg | 3 D | 6267NN | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37238 | Blankenberg | 3 | 6267NN | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37238 | Blankenberg | 5 | 6267NN | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37238 | Blankenberg | 7 | 6267NN | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37238 | Blankenberg | 1 | 6267NN | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37369 | Schweibergerweg | 29 | 6281ND | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37374 | Kempestraat | 6 | 6255AC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37374 | Kempestraat | 4 | 6255AC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37421 | Distelweidepad | 1 | 6262NG | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37421 | Loverixplein | 8 | 6262NW | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37421 | Loverixplein | 7 | 6262NW | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37524 | Sint Gerlach | 12 | 6301JC | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37524 | Sint Gerlach | 12 A | 6301JC | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37528 | Gen Höf | 10 | 6269ND | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37528 | Gen Höf | 10 A | 6269ND | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37690 | Schweibergerweg | 15 A | 6281ND | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37690 | Schweibergerweg | 15 B | 6281ND | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37690 | Schweibergerweg | 15 C | 6281ND | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37772 | Hurpescherweg | 3 | 6281NL | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37898 | Eyserheide | 31 | 6287NB | Eys
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37898 | Eyserheide | 33 | 6287NB | Eys
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37909 | Kelderweg | 4 | 6287CE | Eys
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38031 | Harles | 15 | 6294NG | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38031 | Harles | 15 a | 6294NG | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38078 | Cottessen | 5 | 6294NE | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38078 | Cottessen | 5 b | 6294NE | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38078 | Cottessen | 5 c | 6294NE | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38078 | Cottessen | 5 d | 6294NE | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38078 | Cottessen | 5 a | 6294NE | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38367 | Cottessen | 6 a | 6294NE | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38367 | Cottessen | 6 b | 6294NE | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38367 | Cottessen | 6 | 6294NE | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38432 | Scheulderdorpsstraat | 62 | 6307PC | Scheulder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38756 | Vroelen | 24 | 6255NC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38757 | Kruisstraat | 4 | 6301PC | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38827 | Bommerigerweg | 14 A | 6281BS | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38827 | Bommerigerweg | 14 B | 6281BS | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38952 | Honthem | 43 | 6269NP | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38986 | Groot-Haasdal | 13 a | 6333AV | Schimmert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38986 | Groot-Haasdal | 15 a | 6333AV | Schimmert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38986 | Groot-Haasdal | 15 | 6333AV | Schimmert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39077 | Kampsweg | 66 | 6271PD | Gulpen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39253 | Harles | 22 | 6294NG | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39284 | Terstraten | 1 | 6361GJ | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39356 | Baneheide | 31 | 6353AK | Baneheide
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39428 | Raar | 39 | 6231RP | Meerssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39428 | Raar | 39 a | 6231RP | Meerssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39428 | Raar | 37 | 6231RP | Meerssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39428 | Raar | 37 A | 6231RP | Meerssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39588 | Groot-Haasdal | 5 | 6333AV | Schimmert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39737 | Hoogcruts | 10 | 6255NS | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39737 | Hoogcruts | 8 A | 6255NS | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39830 | Dorphof | 4 | 6285NN | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39830 | Dorphof | 4 A | 6285NN | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39974 | Aan het Veld | 4 | 6271JH | Gulpen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40092 | Schweibergerweg | 25 | 6281ND | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40098 | Rijksweg | 2 | 6286AG | Wittem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40098 | Rijksweg | 4 | 6286AG | Wittem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40174 | Klinkenberg | 60 | 6231BD | Meerssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40174 | Klinkenberg | 58 | 6231BD | Meerssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40174 | Klinkenberg | 60 A | 6231BD | Meerssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40174 | Klinkenberg | 60 B | 6231BD | Meerssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40174 | Klinkenberg | 60 C | 6231BD | Meerssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40174 | Klinkenberg | 60 D | 6231BD | Meerssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40174 | Klinkenberg | 60 F | 6231BD | Meerssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40360 | De Doom | 46 | 6419CX | Heerlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40360 | De Doom | 50 | 6419CX | Heerlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40599 | Hilleshagerweg | 37 | 6281AD | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40668 | Tentstraat | 28 | 6291BH | Vaals
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40874 | Sint Agathastraat | 3 | 6287AJ | Eys
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40900 | Dorpstraat | 72 | 6301BD | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41012 | Hilleshagerweg | 108 A | 6281AH | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41012 | Hilleshagerweg | 108 B | 6281AH | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41012 | Hilleshagerweg | 108 C | 6281AH | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41012 | Hilleshagerweg | 108 D | 6281AH | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41012 | Hilleshagerweg | 108 E | 6281AH | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41012 | Hilleshagerweg | 108 F | 6281AH | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41012 | Hilleshagerweg | 108 G | 6281AH | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41012 | Hilleshagerweg | 108 H | 6281AH | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41012 | Hilleshagerweg | 108 I | 6281AH | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41112 | Klimmenderstraat | 2 | 6343AC | Klimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41135 | Rarenderstraat | 71 | 6291NC | Vaals
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41162 | Sint Laurentiusstraat | 5 | 6268NJ | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41162 | Sint Laurentiusstraat | 5 A | 6268NJ | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41162 | Sint Laurentiusstraat | 5 B | 6268NJ | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41288 | Kelmonderhofweg | 51 | 6191RB | Beek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41288 | Kelmonderhofweg | 55 | 6191RB | Beek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41288 | Kelmonderhofweg | 57 | 6191RB | Beek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41291 | Hoogbeek | 13 | 6305BH | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41291 | Hoogbeek | 13 A | 6305BH | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41510 | Hilleshagerweg | 120 | 6281AH | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41510 | Hilleshagerweg | 118 | 6281AH | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41597 | Cottessen | 8 b | 6294NE | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41597 | Cottessen | 8 | 6294NE | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41694 | Kuttingerweg | 7 | 6285NL | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41694 | Kuttingerweg | 9 | 6285NL | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41721 | Op de Bies | 43 | 6333BW | Schimmert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41721 | Op de Bies | 45 | 6333BW | Schimmert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41783 | Grote Straat | 71 | 6325EB | Berg en Terblijt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41790 | Schweibergerweg | 1 | 6281ND | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41790 | Schweibergerweg | 1 B | 6281ND | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41855 | Hunsstraat | 20 | 6367JL | Voerendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41897 | Waterval | 7 | 6235NC | Ulestraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42005 | Hunnecum | 6 | 6361EE | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42014 | Hekerweg | 23 | 6301RJ | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42014 | Hekerweg | 25 | 6301RJ | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42020 | Dorpsstraat | 42 A | 6261NJ | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42043 | Julianastraat | 39 A | 6285AH | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42043 | Julianastraat | 37 | 6285AH | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42217 | Hekerweg | 34 | 6301RH | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42306 | Dalstraat | 2 | 6367JS | Voerendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42306 | Hunsstraat | 20 A | 6367JL | Voerendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42451 | Molengats | 1 | 6321AE | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42456 | Julianastraat | 27 | 6285AH | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42552 | Oude Akerstraat | 55 | 6268NC | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42552 | Oude Akerstraat | 57 | 6268NC | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42610 | Vrijthof | 5 | 6343BM | Klimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42637 | Vink | 10 | 6363CA | Wijnandsrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42774 | Aalbekerweg | 89 | 6336XN | Hulsberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42774 | Aalbekerweg | 87 | 6336XN | Hulsberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42774 | Aalbekerweg | 85 | 6336XN | Hulsberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42816 | Dorpstraat | 21 a | 6235AC | Ulestraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42816 | Dorpstraat | 21 b | 6235AC | Ulestraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42816 | Dorpstraat | 21 d | 6235AC | Ulestraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42816 | Dorpstraat | 21 | 6235AC | Ulestraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42893 | Raar | 40 | 6231RR | Meerssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42893 | Raar | 42 | 6231RR | Meerssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43318 | Hellebroek | 30 | 6361AC | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43438 | Geverikerstraat | 139 | 6191RN | Beek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43443 | Hekerweg | 38 | 6301RH | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43465 | Schweibergerweg | 13 B | 6281ND | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43465 | Schweibergerweg | 13 A | 6281ND | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43465 | Schweibergerweg | 15 | 6281ND | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43465 | Schweibergerweg | 13 | 6281ND | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43471 | Tuinstraat | 13 | 6321EJ | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43508 | Schone Poel | 8 A | 6325EM | Berg en Terblijt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43508 | Schone Poel | 8 | 6325EM | Berg en Terblijt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43531 | Mingersborg | 22 | 6367JX | Voerendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43567 | Groot-Haasdal | 17 | 6333AV | Schimmert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43582 | Gen Höf | 14 | 6269ND | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43620 | Groot-Haasdal | 24 | 6333AW | Schimmert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43711 | Putweg | 22 | 6336PC | Hulsberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43718 | Schweibergerweg | 35 | 6281NE | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43745 | Kempestraat | 2 D | 6255AC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43745 | Kempestraat | 2 E | 6255AC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43745 | Kempestraat | 2 F | 6255AC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43745 | Kempestraat | 2 G | 6255AC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43745 | Kempestraat | 2 C | 6255AC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43745 | Kempestraat | 2 B | 6255AC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43745 | Kempestraat | 2 A | 6255AC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43911 | Cottessen | 12 | 6294NE | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43911 | Cottessen | 12 a | 6294NE | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43984 | Terzieterweg | 7 | 6285ND | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43984 | Terzieterweg | 9 | 6285ND | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44044 | Oud Lemiers | 18 | 6295AT | Lemiers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44044 | Oud Lemiers | 20 | 6295AT | Lemiers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44356 | Cottessen | 1 | 6294NE | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44429 | Duivenstraat | 4 | 6261NT | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44480 | Groot Berghem | 13 | 6235BK | Ulestraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44619 | Bruisterbosch | 7 | 6265NK | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44652 | Oude Baan | 45 A | 6286BD | Wittem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44652 | Oude Baan | 45 B | 6286BD | Wittem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44652 | Oude Baan | 45 C | 6286BD | Wittem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44652 | Oude Baan | 45 H | 6286BD | Wittem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44652 | Oude Baan | 45 J | 6286BD | Wittem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44652 | Oude Baan | 45 F | 6286BD | Wittem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44652 | Oude Baan | 45 E | 6286BD | Wittem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44652 | Oude Baan | 45 D | 6286BD | Wittem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44652 | Oude Baan | 45 K | 6286BD | Wittem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44652 | Oude Baan | 45 | 6286BD | Wittem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44783 | Eyserheide | 35 | 6287NB | Eys
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44783 | Eyserheide | 35 A | 6287NB | Eys
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44783 | Eyserheide | 35 B | 6287NB | Eys
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44815 | Paumstraat | 12 | 6351BB | Bocholtz
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44963 | Dreesch | 1 | 6411RN | Heerlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44966 | Hoenderstraat | 1 K 1 | 6269BS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44966 | Hoenderstraat | 1 K 2 | 6269BS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44966 | Hoenderstraat | 1 K 3 | 6269BS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44966 | Hoenderstraat | 1 K 4 | 6269BS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44966 | Hoenderstraat | 1 K 5 | 6269BS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44966 | Hoenderstraat | 1 K 8 | 6269BS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44966 | Hoenderstraat | 1 K 9 | 6269BS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44966 | Hoenderstraat | 1 K 10 | 6269BS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44966 | Hoenderstraat | 1 K 11 | 6269BS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44966 | Hoenderstraat | 1 K 13 | 6269BS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44966 | Hoenderstraat | 1 K 14 | 6269BS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44966 | Hoenderstraat | 1 K 6 | 6269BS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44966 | Hoenderstraat | 1 K 7 | 6269BS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44966 | Hoenderstraat | 1 K 15 | 6269BS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44966 | Hoenderstraat | 1 K 16 | 6269BS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45047 | Stokhem | 48 | 6321PG | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45134 | Schweibergerweg | 31 | 6281NE | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45134 | Schweibergerweg | 33 | 6281NE | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45212 | Kerkstraat | 80 | 6267EE | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45212 | Kerkstraat | 82 | 6267EE | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45212 | Kerkstraat | 84 | 6267EG | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45226 | Retersbekerweg | 46 A | 6343PK | Klimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45226 | Retersbekerweg | 46 | 6343PK | Klimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45231 | Bommerigerweg | 36 | 6281BT | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45377 | Slenakerweg | 8 | 6271PE | Gulpen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45377 | Slenakerweg | 8 A | 6271PE | Gulpen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45377 | Slenakerweg | 8 B | 6271PE | Gulpen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45489 | Harles | 12 | 6294NG | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45489 | Harles | 13 | 6294NG | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45695 | Duivenstraat | 1 | 6261NV | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45695 | Duivenstraat | 1 A | 6261NV | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45695 | Duivenstraat | 1 B | 6261NV | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45707 | Retersbekerweg | 54 | 6343PL | Klimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45729 | Walem | 47 | 6342PA | Walem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45729 | Walem | 49 | 6342PA | Walem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45833 | Gasthuis | 51 | 6268NN | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45998 | Groot Welsden | 38 | 6269EV | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45998 | Groot Welsden | 40 | 6269EV | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46010 | Mamelis | 29 | 6295NA | Lemiers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46212 | Hurpescherweg | 10 | 6281NL | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46212 | Hurpescherweg | 12 | 6281NL | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46240 | Papenweg | 3 | 6261NE | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46449 | Terworm | 6 A | 6411RV | Heerlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46449 | Terworm | 6 | 6411RV | Heerlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46652 | Craubekerstraat | 2 | 6343RC | Klimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46652 | Craubekerstraat | 2 A | 6343RC | Klimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46805 | Haasdallerweg | 1 | 6336XZ | Hulsberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46862 | Molenveld | 4 | 6361EP | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46862 | Molenveld | 6 | 6361EP | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46864 | Diependalsweg | 3 | 6285NG | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46864 | Diependalsweg | 7 | 6285NG | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47356 | Cottessen | 4 | 6294NE | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47376 | Op de Bies | 6 | 6325EH | Berg en Terblijt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47376 | Op de Bies | 8 | 6325EH | Berg en Terblijt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47515 | Bommerigerweg | 20 | 6281BS | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47515 | Bommerigerweg | 22 | 6281BS | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47542 | Mheerderweg | 65 | 6262NE | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47542 | Mheerderweg | 67 | 6262NE | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47642 | Ransdalerstraat | 30 | 6312AH | Ransdaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47649 | Printhagen | 2 a | 6191PR | Beek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47649 | Printhagen | 2 | 6191PR | Beek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47654 | Camerig | 8 | 6294NA | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47704 | Hilleshagerweg | 122 | 6281AH | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47822 | Kerkstraat | 142 | 6267EG | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47822 | Kerkstraat | 144 | 6267EG | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47822 | Kerkstraat | 142 A | 6267EG | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48082 | Rarenderstraat | 57 | 6291NC | Vaals
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48082 | Rarenderstraat | 59 | 6291NC | Vaals
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48157 | Oude Akerstraat | 56 | 6268NE | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48157 | Oude Akerstraat | 56 A | 6268NE | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48203 | Hurpescherweg | 5 | 6281NL | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48260 | Diependalsweg | 1 C | 6285NG | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48469 | Honthem | 27 | 6269NP | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48509 | Bredeweg | 14 | 6262NX | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48572 | Douvenrader Allee | 1 | 6411RZ | Heerlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48806 | Pontstraat | 35 | 6367AM | Voerendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48878 | Holset | 96 | 6295ND | Lemiers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48878 | Holset | 96 a | 6295ND | Lemiers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48997 | Hoofdstraat | 1 | 6333BE | Schimmert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48997 | Hoofdstraat | 3 | 6333BE | Schimmert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49101 | Duivenstraat | 13 A | 6261NV | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49101 | Duivenstraat | 11 A | 6261NV | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49120 | Grote Straat | 64 | 6325ED | Berg en Terblijt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49120 | Grote Straat | 66 | 6325ED | Berg en Terblijt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49232 | Groot Welsden | 70 | 6269EV | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49232 | Groot Welsden | 72 | 6269EW | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49232 | Groot Welsden | 72 A | 6269EW | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49232 | Groot Welsden | 72 B | 6269EW | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49232 | Groot Welsden | 72 C | 6269EW | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49295 | Eyserheide | 37 | 6287NB | Eys
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49430 | Overhuizerstraat | 2 | 6351BE | Bocholtz
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49430 | Overhuizerstraat | 2 A | 6351BE | Bocholtz
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49770 | Dorpsstraat | 24 | 6261NJ | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49884 | Dorpsstraat | 130 | 6252NG | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49884 | Dorpsstraat | 132 | 6252NG | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50062 | Heiweg | 1 | 6351HP | Bocholtz
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50131 | Sint Antoniusbank | 10 | 6268NP | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50138 | Winthagen | 28 | 6367GX | Voerendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50288 | Kampsweg | 76 | 6271PD | Gulpen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50304 | Commandeurstraat | 38 | 6281AN | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50307 | Kapelaan Houbenstraat | 20 | 6285AB | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50308 | Graafstraat | 1 | 6305BD | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50586 | Plaatweg | 2 | 6285NK | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50722 | Rondelenstraat | 10 | 6261NP | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50722 | Rondelenstraat | 10 A | 6261NP | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50781 | Baneheide | 24 | 6351JW | Bocholtz
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50781 | Baneheide | 24 b | 6351JW | Bocholtz
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50781 | Baneheide | 24 g | 6351JW | Bocholtz
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50781 | Baneheide | 24 e | 6351JW | Bocholtz
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50781 | Baneheide | 24 h | 6351JW | Bocholtz
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50781 | Baneheide | 24 d | 6351JW | Bocholtz
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50781 | Baneheide | 24 f | 6351JW | Bocholtz
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50781 | Baneheide | 24 a | 6351JW | Bocholtz
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50781 | Baneheide | 24 c | 6351JW | Bocholtz
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50786 | Strucht | 2 | 6305AH | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50786 | Strucht | 2 A | 6305AH | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51235 | Ulvend | 3 | 6255NA | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51379 | Oude Schoolstraat | 21 | 6367HC | Voerendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51536 | Kloosterkensweg | 17 | 6419PJ | Heerlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51592 | Sint Laurentiusstraat | 14 | 6268NJ | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51646 | Kampstraat | 11 | 6336VX | Hulsberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51674 | Reijmerstokkerdorpsstraat | 110 A | 6274NN | Reijmerstok
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51674 | Reijmerstokkerdorpsstraat | 110 | 6274NN | Reijmerstok
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51674 | Reijmerstokkerdorpsstraat | 108 | 6274NN | Reijmerstok
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51787 | Stallestraat | 12 | 6261ND | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51787 | Stallestraat | 10 A | 6261ND | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51790 | Julianastraat | 2 A | 6285AJ | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51790 | Wilhelminastraat | 10 | 6285AV | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51790 | Wilhelminastraat | 12 | 6285AV | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51889 | 't Veld | 1 | 6285NM | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51889 | 't Veld | 1 A | 6285NM | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51964 | Winthagen | 2 | 6367GX | Voerendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52003 | Onderstraat | 12 | 6255ND | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52040 | Mamelis | 37 | 6295NA | Lemiers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52173 | Waterstraat | 4 | 6277NH | Slenaken
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52173 | Waterstraat | 2 | 6277NH | Slenaken
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52177 | Bommerigerweg | 32 | 6281BT | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52377 | Wesch | 3 | 6255NH | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52377 | Wesch | 3 A | 6255NH | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52380 | Terzieterweg | 3 | 6285ND | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52398 | Bommerigerweg | 16 | 6281BS | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52424 | Bredeweg | 2 A | 6262NX | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52424 | Bredeweg | 2 C | 6262NX | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52424 | Bredeweg | 2 D | 6262NX | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52424 | Bredeweg | 2 E | 6262NX | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52424 | Bredeweg | 2 B | 6262NX | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52424 | Bredeweg | 2 H | 6262NX | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52621 | Bommerigerweg | 34 | 6281BT | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52760 | Maastrichterweg | 14 a | 6361DS | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52760 | Maastrichterweg | 14 c | 6361DS | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52760 | Maastrichterweg | 14 b | 6361DS | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52760 | Maastrichterweg | 14 | 6361DS | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52807 | Vroelenstraat | 11 | 6255AL | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52988 | Rarenderstraat | 73 | 6291NC | Vaals
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53001 | Kapelstraat | 16 | 6191RG | Beek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53146 | Schweibergerweg | 12 | 6281NG | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53177 | Beekstraat | 6 | 6301PP | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53177 | Beekstraat | 8 | 6301PP | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53208 | Vroenhof | 100 | 6301KJ | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53208 | Vroenhof | 100 C | 6301KJ | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53208 | Vroenhof | 100 D | 6301KJ | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53229 | Bodemsweg | 4 | 6225ND | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53328 | Dorpsstraat | 48 | 6261NJ | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53345 | Klimmenerweg | 10 | 6336AV | Hulsberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53413 | Julianastraat | 50 | 6285AK | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53468 | Bommerigerweg | 38 | 6281BT | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53468 | Bommerigerweg | 38 A | 6281BT | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53795 | Terstraten | 9 | 6361GJ | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53869 | Vliek | 3 | 6235NR | Ulestraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54024 | Douvenrader Allee | 1 | 6411RZ | Heerlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54024 | Douvenrader Allee | 1 A | 6411RZ | Heerlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54028 | Hoenderstraat | 15 | 6269BS | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54080 | Terstraten | 3 | 6361GJ | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54093 | Commandeurstraat | 26 | 6281AM | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54107 | Stokhem | 36 | 6321PG | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54124 | Wittemerweg | 7 | 6287AA | Eys
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54176 | Colmont | 13 | 6367HE | Voerendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54192 | Eyserweg | 2 | 6287NE | Eys
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54506 | Schweibergerweg | 6 | 6281NG | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54509 | Vrijthof | 4 | 6343BM | Klimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54569 | Veenweg | 9 | 6191RH | Beek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54595 | Ransdalerstraat | 28 A | 6312AH | Ransdaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54595 | Ransdalerstraat | 28 C | 6312AH | Ransdaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54595 | Ransdalerstraat | 28 D | 6312AH | Ransdaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54595 | Ransdalerstraat | 28 E | 6312AH | Ransdaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54595 | Ransdalerstraat | 28 B | 6312AH | Ransdaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54661 | Printhagen | 3 | 6191PR | Beek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54744 | Branterweg | 20 | 6361DA | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54826 | Bruisterbosch | 9 | 6265NK | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54847 | Mareheiweg | 30 | 6343EK | Klimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54855 | Stallestraat | 32 | 6261ND | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54898 | Weijerweg | 3 | 6291NL | Vaals
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54970 | Klinkenberg | 1 | 6231BA | Meerssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55095 | Boeienstraat | 1 | 6285AE | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55135 | Kapelaan Houbenstraat | 24 | 6285AB | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55293 | Zwarte Brugweg | 2 | 6287AN | Eys
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55394 | Bongard | 1 | 6363CH | Wijnandsrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55478 | Commandeurstraat | 50 | 6281AN | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55478 | Commandeurstraat | 48 A | 6281AN | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55478 | Commandeurstraat | 48 B | 6281AN | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55483 | Terveurt | 4 | 6367GP | Voerendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55626 | Terzieterweg | 8 | 6285NE | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55626 | Terzieterweg | 10 | 6285NE | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55726 | Winthagen | 4 | 6367GX | Voerendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56073 | Heek | 3 | 6343PA | Klimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56085 | Wissengrachtweg | 25 | 6336TG | Hulsberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56118 | Crapoel | 4 | 6271NW | Gulpen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56316 | Dorpsstraat | 150 | 6251ND | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56402 | Groot-Haasdal | 32 | 6333AW | Schimmert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56402 | Groot-Haasdal | 34 | 6333AW | Schimmert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56593 | Duivenstraat | 2 | 6261NT | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56733 | Höfkestraat | 11 a | 6241CS | Bunde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56733 | Höfkestraat | 11 | 6241CS | Bunde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56733 | Höfkestraat | 13 | 6241CS | Bunde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56733 | Höfkestraat | 9 | 6241CS | Bunde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56917 | Sint Gerlach | 22 | 6301JC | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56917 | Sint Gerlach | 22 A | 6301JC | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56946 | Bergenhuizen | 8 | 6255NK | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56969 | Kuttingerweg | 2 | 6285NL | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56969 | Kuttingerweg | 2 A | 6285NL | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56986 | Leemstraat | 3 | 6261NW | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57081 | Wethouder van Caldenborghlaan | 35 A | 6226BR | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57081 | Wethouder van Caldenborghlaan | 35 A 04 | 6226BR | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57081 | Wethouder van Caldenborghlaan | 35 | 6226BR | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57103 | Hoogcruts | 11 | 6255NS | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57268 | Wiegershof | 1 | 6223EG | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57277 | Scheulderdorpsstraat | 60 | 6307PC | Scheulder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57707 | Groot-Haasdal | 19 | 6333AV | Schimmert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57740 | Bommerigerweg | 46 | 6281BT | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57751 | Molenweg | 1 | 6268NG | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57757 | Rondelenstraat | 4 | 6261NP | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57757 | Rondelenstraat | 4 B | 6261NP | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57757 | Rondelenstraat | 4 A | 6261NP | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57828 | Groot-Haasdal | 3 | 6333AV | Schimmert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57913 | Cottessen | 9 | 6294NE | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58177 | Martelehöfke | 1 | 6255AB | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58184 | Beertsenhoven | 3 A | 6321PR | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58184 | Beertsenhoven | 3 | 6321PR | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58263 | Mamelis | 21 a | 6295NA | Lemiers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58263 | Mamelis | 21 | 6295NA | Lemiers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58263 | Mamelis | 23 | 6295NA | Lemiers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58302 | Euverem | 10 | 6271PK | Gulpen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58302 | Euverem | 10 A | 6271PK | Gulpen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58381 | Hilleshagerweg | 39 | 6281AD | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58394 | Ingberdorpsstraat | 14 A | 6273NG | Ingber
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58394 | Ingberdorpsstraat | 14 | 6273NG | Ingber
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58395 | Morgensweg | 2 | 6285NR | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58395 | Terzieterweg | 28 | 6285NE | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58505 | Kerkstraat | 165 | 6267EJ | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58629 | Dorpstraat | 81 | 6176AB | Spaubeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58629 | Dorpstraat | 83 | 6176AB | Spaubeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58629 | Dorpstraat | 79 A | 6176AB | Spaubeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58712 | Sint Antoniusbank | 27 | 6268NR | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58800 | Walem | 102 | 6342PA | Walem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58800 | Walem | 104 | 6342PA | Walem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58816 | Klimmenderstraat | 102 | 6343AE | Klimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58818 | Kapelstraat | 27 | 6301PD | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58878 | Vroelen | 30 | 6255NC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58878 | Vroelen | 30 A | 6255NC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58968 | Gasthuis | 7 | 6268NN | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58968 | Gasthuis | 9 | 6268NN | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58968 | Gasthuis | 11 | 6268NN | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58968 | Gasthuis | 13 | 6268NN | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58968 | Gasthuis | 15 | 6268NN | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58968 | Gasthuis | 17 | 6268NN | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58968 | Gasthuis | 19 | 6268NN | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58968 | Gasthuis | 21 | 6268NN | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58968 | Gasthuis | 23 | 6268NN | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58968 | Gasthuis | 25 | 6268NN | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58968 | Gasthuis | 27 | 6268NN | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58968 | Gasthuis | 29 | 6268NN | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58968 | Gasthuis | 31 | 6268NN | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58968 | Gasthuis | 33 | 6268NN | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58968 | Gasthuis | 35 | 6268NN | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58968 | Gasthuis | 37 | 6268NN | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58968 | Gasthuis | 39 | 6268NN | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58968 | Gasthuis | 41 | 6268NN | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58968 | Gasthuis | 43 | 6268NN | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58968 | Gasthuis | 45 | 6268NN | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58968 | Gasthuis | 47 | 6268NN | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58968 | Gasthuis | 49 | 6268NN | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58980 | Walem | 106 | 6342PA | Walem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59067 | Terzieterweg | 14 | 6285NE | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59209 | Baneheide | 22 | 6351JW | Bocholtz
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59238 | 't Rooth | 6 | 6269NV | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59263 | Pesaken | 26 | 6271PB | Gulpen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59297 | Valkenburgerweg | 100 | 6321GH | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59339 | Sint Laurentiusstraat | 13 | 6268NJ | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59624 | Branterweg | 16 | 6361DA | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59677 | Harles | 4 | 6294NG | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59682 | Ambyerstraat Noord | 167 | 6225ED | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59682 | Ambyerstraat Noord | 169 A | 6225ED | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59682 | Ambyerstraat Noord | 169 B | 6225ED | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59682 | Ambyerstraat Noord | 171 | 6225ED | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59761 | Hilleshagerweg | 43 | 6281AD | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59761 | Hilleshagerweg | 45 | 6281AD | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59823 | Kampstraat | 28 | 6336VZ | Hulsberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59823 | Kampstraat | 30 | 6336VZ | Hulsberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59859 | Winthagen | 3 | 6367GX | Voerendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59893 | Dorpsstraat | 40 | 6261NJ | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59893 | Dorpsstraat | 40 A | 6261NJ | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59905 | Hoofdstraat | 5 | 6333BE | Schimmert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59905 | Hoofdstraat | 7 | 6333BE | Schimmert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59945 | Pasestraat | 34 | 6223HB | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59945 | Pasestraat | 36 | 6223HB | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60003 | Groenenweg | 18 | 6294ND | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60003 | Groenenweg | 22 | 6294ND | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60055 | Kromsteeg | 5 | 6276PE | Heijenrath
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60055 | Heijenratherweg | 15 | 6276PD | Heijenrath
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60120 | Berghof | 1 | 6321PC | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60137 | Valkenburgerweg | 105 | 6321GC | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60300 | Julianastraat | 35 A | 6285AH | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60316 | Stokhem | 42 | 6321PG | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60316 | Stokhem | 44 | 6321PG | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60419 | Locht | 103 | 6466GT | Kerkrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60486 | Meerssenerweg | 11 | 6222AE | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60486 | Meerssenerweg | 11 C | 6222AE | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60486 | Meerssenerweg | 11 A 10 | 6222AE | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60538 | Rondelenstraat | 12 | 6261NP | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60554 | Rijksweg | 188 A | 6325AJ | Berg en Terblijt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60554 | Rijksweg | 188 | 6325AJ | Berg en Terblijt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60558 | Hunnecum | 1 | 6361EE | Nuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60567 | Diependalsweg | 8 | 6285NG | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60567 | Diependalsweg | 10 | 6285NG | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60567 | Diependalsweg | 12 | 6285NG | Epen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60741 | Oude Akerweg | 139 | 6271NC | Gulpen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60741 | Oude Akerweg | 141 | 6271NC | Gulpen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60799 | Stokhem | 40 | 6321PG | Wijlre
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60856 | Wijngaardsberg | 1 | 6235ND | Ulestraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60881 | Gravensteinstraat | 6 | 6241JJ | Bunde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60881 | Geulstraat | 47 | 6241NA | Bunde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60881 | Geulstraat | 51 | 6241NA | Bunde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60881 | Geulstraat | 53 | 6241NA | Bunde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60881 | Geulstraat | 53 A | 6241NA | Bunde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60881 | Geulstraat | 53 B | 6241NA | Bunde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61001 | Vroelen | 27 | 6255NC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61018 | Camerig | 1 f | 6294NA | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61018 | Camerig | 1 a | 6294NA | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61018 | Camerig | 2 | 6294NA | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61202 | Paumstraat | 14 | 6351BB | Bocholtz
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61248 | Steegstraat | 19 | 6261NK | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61290 | Bulkemstraat | 41 | 6369XT | Simpelveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61330 | Dorpstraat | 58 | 6301BC | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61408 | Waalbroek | 48 | 6369TE | Simpelveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61408 | Waalbroek | 50 | 6369TE | Simpelveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61449 | Cottessen | 13 | 6294NE | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61645 | Hoogbeek | 17 | 6305BH | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61645 | Hoogbeek | 15 | 6305BH | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61645 | Hoogbeek | 19 | 6305BH | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61833 | Dorpsstraat | 138 | 6251ND | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62103 | Vijlenstraat | 57 | 6294BA | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62127 | Dorpsstraat | 44 | 6261NJ | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62211 | Camerig | 1 b | 6294NA | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62211 | Camerig | 1 | 6294NA | Vijlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62261 | Lindenstraat | 29 | 6325PA | Berg en Terblijt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62263 | Steegstraat | 23 | 6261NK | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62273 | Kampstraat | 20 | 6336VZ | Hulsberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62322 | Stallestraat | 14 | 6261ND | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62356 | Sint Laurentiusstraat | 11 | 6268NJ | Bemelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66864 | Imstenrade | 2 | 6419PL | Heerlen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70708 | Oud-Valkenburg | 17 | 6305AA | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70708 | Oud-Valkenburg | 17 A | 6305AA | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70708 | Oud-Valkenburg | 21 | 6305AA | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70708 | Oud-Valkenburg | 17 B | 6305AA | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70708 | Oud-Valkenburg | 17 C | 6305AA | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70708 | Oud-Valkenburg | 17 D | 6305AA | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70708 | Oud-Valkenburg | 17 E | 6305AA | Schin op Geul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71369 | Weert | 11 | 6222PG | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74120 | Kasteelstraat | 2 | 6223BJ | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74121 | Kasteelstraat | 4 A | 6223BJ | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74121 | Adam van Harenstraat | 4 | 6223CA | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74910 | Meerssenhoven | 203 | 6222PD | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74910 | Meerssenhoven | 201 | 6222PD | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/76490 | Rodeput | 1 A | 6369SN | Simpelveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77336 | Eperweg | 3 | 6281NA | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77337 | Eperweg | 3 | 6281NA | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77338 | Eperweg | 3 A | 6281NA | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78986 | Höfke | 2 | 6281NB | Mechelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32374 | St. Nicolaasstraat | 31 c |  | Simpelveld

@@ -1,0 +1,117 @@
+Gevonden: 113 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11488 | Rijksweg | 46 | 6267AH | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11870 | Bergerstraat | 2 | 6226NA | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11870 | Bergerstraat | 4 | 6226NA | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12213 | Kapelkesstraat | 68 | 6245AK | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12721 | Rijksweg | 119 | 6247AD | Gronsveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13201 | De la Margellelaan | 16 | 6245AR | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13201 | De la Margellelaan | 20 A | 6245AR | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13263 | van Akenweg | 107 A | 6218HL | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13263 | van Akenweg | 107 B | 6218HL | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13263 | van Akenweg | 107 C | 6218HL | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13263 | van Akenweg | 107 D | 6218HL | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13263 | van Akenweg | 107 E | 6218HL | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13263 | van Akenweg | 107 F | 6218HL | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13263 | van Akenweg | 107 H | 6218HL | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13263 | van Akenweg | 107 K | 6218HL | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13263 | van Akenweg | 107 M | 6218HL | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13313 | Sint Jozefstraat | 62 | 6245LP | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13313 | Sint Jozefstraat | 60 | 6245LP | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13620 | Ambyerstraat Zuid | 155 | 6225AE | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14185 | van Akenweg | 86 | 6218HP | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14185 | Van Akenweg | 84 | 6218HP | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15338 | Rijckholterweg | 4 | 6245LS | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16467 | Rijckholterweg | 6 | 6245LS | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17570 | Maastrichterweg | 2 | 6247NA | Gronsveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17973 | Rijksweg | 4 | 6247AH | Gronsveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18163 | Rijksweg | 10 | 6227SV | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18542 | van Akenweg | 101 A 01 | 6218HL | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18542 | van Akenweg | 101 A 02 | 6218HL | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18957 | Bergerstraat | 108 | 6226BD | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18957 | Bergerstraat | 110 | 6226BE | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19735 | Parrestraat | 3 | 6245LJ | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19792 | Zonnebergweg | 10 | 6212NE | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21461 | Eckelraderweg | 12 | 6251NK | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21461 | Eckelraderweg | 12 A | 6251NK | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22756 | Vroenhof | 5 | 6245BZ | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22899 | Rijksweg | 187 | 6247AG | Gronsveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23916 | Sint Jozefstraat | 67 | 6245LL | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26787 | Rijckholterweg | 8 | 6245LS | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26978 | Kapelkesstraat | 36 | 6245AK | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26978 | Kapelkesstraat | 38 | 6245AK | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26978 | Kapelkesstraat | 38 A | 6245AK | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27973 | Bergerstraat | 103 | 6226BB | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27973 | Bergerstraat | 105 | 6226BB | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28287 | Nekummerweg | 31 | 6212NK | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28308 | Rijksweg | 164 | 6247AM | Gronsveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30974 | Dorpsstraat | 45 | 6267AA | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31350 | Pletzersstraat | 40 | 6213HH | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33040 | Susserweg | 201 | 6213NE | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33093 | van Akenweg | 87 | 6218HL | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33093 | van Akenweg | 81 | 6218HL | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33093 | Van Akenweg | 83 | 6218HL | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33093 | Van Akenweg | 85 | 6218HL | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35692 | Cannerweg | 185 | 6213BD | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36175 | Calvariestraat | 16 | 6211NJ | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36175 | Calvariestraat | 18 | 6211NJ | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36181 | Wethouder van Caldenborghlaan | 34 | 6226BT | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36181 | Wethouder van Caldenborghlaan | 36 | 6226BT | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36181 | Wethouder van Caldenborghlaan | 30 | 6226BT | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36874 | Pletzersstraat | 14 | 6213HH | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37344 | Pletzersstraat | 10 A | 6213HH | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37344 | Pletzersstraat | 10 B | 6213HH | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37344 | Pletzersstraat | 10 C | 6213HH | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37432 | Catharinastraat | 17 | 6245LB | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37451 | Rijckholterweg | 2 | 6245LS | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37451 | Sint Jozefstraat | 55 | 6245LL | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37637 | Heserstraat | 20 | 6216TP | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40890 | Hoogstraat | 23 | 6245LT | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41905 | Observantenweg | 91 | 6212EP | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41905 | Observantenweg | 89 | 6212EP | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41905 | Observantenweg | 93 | 6212EP | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41905 | Burgemeester Ceulenstraat | 80 A | 6212CT | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43854 | Kloppenbergweg | 18 | 6245LA | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43854 | Catharinastraat | 7 | 6245LB | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44331 | Kerkstraat | 21 | 6245CA | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48841 | Van Akenweg | 80 | 6218HP | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49423 | Vogelzang | 6 | 6229VM | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49624 | Pletzersstraat | 15 | 6213HE | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50726 | Catharinastraat | 22 | 6245LB | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51511 | Catharinastraat | 15 | 6245LB | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52167 | Cannerweg | 342 | 6213NC | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53314 | Calvariestraat | 22 A | 6211NJ | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53314 | Calvariestraat | 22 | 6211NJ | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53878 | Waterrijk | 1 | 6247CL | Gronsveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53878 | Waterrijk | 1 A | 6247CL | Gronsveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53878 | Waterrijk | 1 B | 6247CL | Gronsveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57081 | Wethouder van Caldenborghlaan | 35 A | 6226BR | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57081 | Wethouder van Caldenborghlaan | 35 A 04 | 6226BR | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57081 | Wethouder van Caldenborghlaan | 35 | 6226BR | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57452 | Rijksweg | 60 | 6247AJ | Gronsveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57890 | Lichtenbergweg | 2 | 6212NG | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57934 | Dorpsstraat | 23 | 6251NA | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57934 | Dorpsstraat | 23 A | 6251NA | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57934 | Dorpsstraat | 23 B | 6251NA | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57934 | Dorpsstraat | 23 C | 6251NA | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57934 | Dorpsstraat | 23 D | 6251NA | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58050 | Waterrijk | 3 | 6247CL | Gronsveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58051 | Brusselsestraat | 93 | 6211PC | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58051 | Brusselsestraat | 93 F | 6211PC | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58444 | Rijksweg | 109 | 6247AC | Gronsveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58470 | Catharinastraat | 16 | 6245LB | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58470 | Catharinastraat | 16 A | 6245LB | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58893 | Ezelmarkt | 15 | 6211LJ | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59740 | Pletzersstraat | 44 | 6213HH | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60486 | Meerssenerweg | 11 | 6222AE | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60486 | Meerssenerweg | 11 C | 6222AE | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60486 | Meerssenerweg | 11 A 10 | 6222AE | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60671 | Rijksweg | 89 A | 6247AC | Gronsveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60671 | Rijksweg | 89 B | 6247AC | Gronsveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60671 | Gloriët | 4 | 6247BB | Gronsveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60671 | Rijksweg | 89 | 6247AC | Gronsveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74120 | Kasteelstraat | 2 | 6223BJ | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74121 | Kasteelstraat | 4 A | 6223BJ | Maastricht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74121 | Adam van Harenstraat | 4 | 6223CA | Maastricht

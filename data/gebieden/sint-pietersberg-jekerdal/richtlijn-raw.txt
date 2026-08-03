@@ -1,0 +1,2 @@
+159|https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/1738d110-4e7c-47ec-8283-027ae23a657b|HR|alleen Habitatrichtlijn gebied|-|NL9801025|true|Natura 2000-besluit 4 september 2013|http://www.wikidata.org/entity/Q59821829
+159|https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/83f31958-2a10-4928-97cb-16f580afea29|HR groeve|ondergrondse kalksteengroeven in ZuidLimburg|-|NL9801025|true|Natura 2000-besluit 4 september 2013|http://www.wikidata.org/entity/Q59821829

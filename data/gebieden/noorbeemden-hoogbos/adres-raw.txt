@@ -1,0 +1,266 @@
+Gevonden: 262 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10308 | Honthem | 8 | 6269NR | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10318 | Klompestraat | 7 | 6255AE | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10318 | Klompestraat | 5 | 6255AE | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11517 | Vroelenstraat | 6 | 6255AL | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11843 | Bergenhuizen | 12 | 6255NK | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12721 | Rijksweg | 119 | 6247AD | Gronsveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13313 | Sint Jozefstraat | 62 | 6245LP | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13313 | Sint Jozefstraat | 60 | 6245LP | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13781 | Onderstraat | 10 | 6255ND | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14637 | Dorpsstraat | 44 A | 6252ND | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14637 | Dorpsstraat | 42 | 6252ND | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14637 | Dorpsstraat | 44 | 6252ND | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14637 | Dorpsstraat | 40 A | 6252ND | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14792 | Dorpsstraat | 148 | 6251ND | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14882 | Langstraat | 1 A | 6245KK | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14882 | Langstraat | 1 B | 6245KK | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14882 | Langstraat | 1 C | 6245KK | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14882 | Langstraat | 1 D | 6245KK | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14882 | Langstraat | 1 E | 6245KK | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14882 | Langstraat | 1 | 6245KK | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15338 | Rijckholterweg | 4 | 6245LS | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15825 | Schilberg | 36 | 6255NR | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16338 | Dorpsstraat | 64 | 6252NE | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16404 | Klompestraat | 3 | 6255AE | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16404 | Klompestraat | 1 A | 6255AE | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16404 | Klompestraat | 1 B | 6255AE | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16404 | Klompestraat | 1 C | 6255AE | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16404 | Klompestraat | 1 D | 6255AE | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16404 | Klompestraat | 1 E | 6255AE | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16404 | Klompestraat | 1 F | 6255AE | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16467 | Rijckholterweg | 6 | 6245LS | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16718 | Libeek | 24 | 6265NE | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16796 | Dorpstraat | 24 | 6265AL | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16799 | Gen Höf | 12 | 6269ND | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17100 | Reijmerstokkerdorpsstraat | 96 | 6274NN | Reijmerstok
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17266 | Dorpsstraat | 55 | 6277NC | Slenaken
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17453 | Stallestraat | 18 | 6261ND | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18234 | Beutenaken | 38 | 6278NB | Beutenaken
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18358 | Duivenstraat | 3 | 6261NV | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18358 | Duivenstraat | 1 A | 6261NV | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18876 | Dorpstraat | 26 | 6265AL | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19484 | Kütersteenweg | 4 | 6255PC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20426 | Reijmerstokkerdorpsstraat | 75 | 6274NH | Reijmerstok
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20799 | Rondelenstraat | 8 | 6261NP | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21018 | Vroelen | 32 A | 6255NC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21107 | Steegstraat | 21 | 6261NK | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21262 | Vroelen | 29 | 6255NC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21461 | Eckelraderweg | 12 | 6251NK | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21461 | Eckelraderweg | 12 A | 6251NK | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21497 | Stallestraat | 34 | 6261ND | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21753 | Terlinden | 22 | 6255NP | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21785 | Dorpsstraat | 82 | 6251ND | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22789 | Dorpsstraat | 140 | 6251ND | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22899 | Rijksweg | 187 | 6247AG | Gronsveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23358 | Rondelenstraat | 14 | 6261NP | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23916 | Sint Jozefstraat | 67 | 6245LL | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25620 | Herkenrade | 10 | 6265NH | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26644 | Moerslag | 24 | 6265NC | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26787 | Rijckholterweg | 8 | 6245LS | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27379 | Dorpstraat | 10 | 6265AL | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27379 | Dorpstraat | 12 | 6265AL | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27379 | Dorpstraat | 10 A | 6265AL | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27379 | Dorpstraat | 10 B | 6265AL | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27379 | Dorpstraat | 10 C | 6265AL | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27485 | Vroelenstraat | 14 | 6255AL | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27485 | Vroelenstraat | 14 A | 6255AL | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27485 | Vroelenstraat | 14 B | 6255AL | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27950 | Bruisterbosch | 3 A | 6265NK | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27950 | Bruisterbosch | 1 B | 6265NK | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27950 | Bruisterbosch | 1 C | 6265NK | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27950 | Bruisterbosch | 1 A | 6265NK | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27950 | Bruisterbosch | 1 | 6265NK | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27950 | Bruisterbosch | 3 | 6265NK | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28200 | Dalestraat | 24 | 6262NM | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28308 | Rijksweg | 164 | 6247AM | Gronsveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28868 | Ulvend | 1 A | 6255NA | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28868 | Ulvend | 1 B | 6255NA | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28868 | Ulvend | 1 | 6255NA | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29187 | Wesch | 4 | 6255NH | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29410 | Dorpstraat | 29 | 6255AM | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29410 | Dorpstraat | 29 A | 6255AM | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29961 | Dorpsstraat | 154 | 6251ND | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30241 | Provincialeweg | 30 | 6255NV | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31197 | Terlinden | 36 | 6255NP | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31197 | Terlinden | 34 A | 6255NP | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31225 | Schilberg | 15 | 6255NR | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31225 | Schilberg | 15 A | 6255NR | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31325 | Reijmerstokkerdorpsstraat | 130 | 6274NN | Reijmerstok
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31533 | Bredeweg | 7 | 6262NX | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31533 | Bredeweg | 5 | 6262NX | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31576 | Hoogcruts | 9 | 6255NS | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31675 | Terhorst | 23 | 6262NA | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31675 | Terhorst | 23 A | 6262NA | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31675 | Terhorst | 23 B | 6262NA | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32630 | Duivenstraat | 10 | 6261NT | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32630 | Duivenstraat | 10 A | 6261NT | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32680 | Pley | 3 | 6255AG | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32680 | Pley | 3 A | 6255AG | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32869 | Herkenrade | 44 | 6265NH | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33110 | Bruisterbosch | 5 | 6265NK | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33900 | Voerstraat | 2 | 6245AA | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33900 | Voerstraat | 4 | 6245AA | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34525 | Duivenstraat | 12 | 6261NT | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34525 | Duivenstraat | 14 | 6261NT | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34525 | Duivenstraat | 12 A | 6261NT | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34717 | Dorpsstraat | 83 | 6251NC | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35398 | Stallestraat | 20 | 6261ND | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35574 | Reijmerstokkerdorpsstraat | 77 | 6274NH | Reijmerstok
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35939 | Dorpsstraat | 113 | 6251NC | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36340 | Steegstraat | 17 | 6261NK | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37217 | Dorpsstraat | 32 | 6261NJ | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37238 | Blankenberg | 3 B | 6267NN | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37238 | Blankenberg | 3 A | 6267NN | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37238 | Blankenberg | 3 C | 6267NN | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37238 | Blankenberg | 3 D | 6267NN | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37238 | Blankenberg | 3 | 6267NN | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37238 | Blankenberg | 5 | 6267NN | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37238 | Blankenberg | 7 | 6267NN | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37238 | Blankenberg | 1 | 6267NN | Cadier en Keer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37374 | Kempestraat | 6 | 6255AC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37374 | Kempestraat | 4 | 6255AC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37421 | Distelweidepad | 1 | 6262NG | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37421 | Loverixplein | 8 | 6262NW | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37421 | Loverixplein | 7 | 6262NW | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37451 | Rijckholterweg | 2 | 6245LS | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37451 | Sint Jozefstraat | 55 | 6245LL | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37528 | Gen Höf | 10 | 6269ND | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37528 | Gen Höf | 10 A | 6269ND | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38756 | Vroelen | 24 | 6255NC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38952 | Honthem | 43 | 6269NP | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39737 | Hoogcruts | 10 | 6255NS | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39737 | Hoogcruts | 8 A | 6255NS | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39865 | Eindstraat | 4 | 6265AC | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39865 | Eindstraat | 6 | 6265AC | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39865 | Eindstraat | 8 | 6265AC | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39865 | Eindstraat | 10 | 6265AC | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39865 | Eindstraat | 12 | 6265AC | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39865 | Eindstraat | 14 | 6265AC | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39865 | Eindstraat | 16 | 6265AD | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39865 | Eindstraat | 18 | 6265AD | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39865 | Eindstraat | 20 | 6265AD | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39865 | Eindstraat | 22 | 6265AD | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39865 | Eindstraat | 24 | 6265AD | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40056 | Libeek | 27 | 6265NE | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40890 | Hoogstraat | 23 | 6245LT | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42020 | Dorpsstraat | 42 A | 6261NJ | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42202 | Dorpsstraat | 51 | 6251NB | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43304 | Dorpsstraat | 74 A | 6252NE | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43304 | Dorpsstraat | 74 B | 6252NE | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43304 | Dorpsstraat | 74 D | 6252NE | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43304 | Dorpsstraat | 74 E | 6252NE | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43304 | Dorpsstraat | 74 C | 6252NE | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43304 | Dorpsstraat | 74 | 6252NE | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43582 | Gen Höf | 14 | 6269ND | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43745 | Kempestraat | 2 D | 6255AC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43745 | Kempestraat | 2 E | 6255AC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43745 | Kempestraat | 2 F | 6255AC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43745 | Kempestraat | 2 G | 6255AC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43745 | Kempestraat | 2 C | 6255AC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43745 | Kempestraat | 2 B | 6255AC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43745 | Kempestraat | 2 A | 6255AC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44223 | Burgemeester Wolfsstraat | 1 | 6265AA | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44429 | Duivenstraat | 4 | 6261NT | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44619 | Bruisterbosch | 7 | 6265NK | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45377 | Slenakerweg | 8 | 6271PE | Gulpen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45377 | Slenakerweg | 8 A | 6271PE | Gulpen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45377 | Slenakerweg | 8 B | 6271PE | Gulpen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45695 | Duivenstraat | 1 | 6261NV | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45695 | Duivenstraat | 1 A | 6261NV | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45695 | Duivenstraat | 1 B | 6261NV | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46240 | Papenweg | 3 | 6261NE | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47542 | Mheerderweg | 65 | 6262NE | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47542 | Mheerderweg | 67 | 6262NE | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48469 | Honthem | 27 | 6269NP | Margraten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48509 | Bredeweg | 14 | 6262NX | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48615 | Langstraat | 3 | 6245KK | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48615 | Langstraat | 3 F | 6245KK | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48615 | Langstraat | 3 G | 6245KK | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49101 | Duivenstraat | 13 A | 6261NV | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49101 | Duivenstraat | 11 A | 6261NV | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49770 | Dorpsstraat | 24 | 6261NJ | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49833 | Heerkuil | 1 D | 6265NB | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49833 | Heerkuil | 1 E | 6265NB | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49833 | Heerkuil | 1 C | 6265NB | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49833 | Heerkuil | 1 B | 6265NB | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49833 | Heerkuil | 1 A | 6265NB | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49833 | Heerkuil | 1 | 6265NB | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49884 | Dorpsstraat | 130 | 6252NG | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49884 | Dorpsstraat | 132 | 6252NG | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50722 | Rondelenstraat | 10 | 6261NP | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50722 | Rondelenstraat | 10 A | 6261NP | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51235 | Ulvend | 3 | 6255NA | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51674 | Reijmerstokkerdorpsstraat | 110 A | 6274NN | Reijmerstok
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51674 | Reijmerstokkerdorpsstraat | 110 | 6274NN | Reijmerstok
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51674 | Reijmerstokkerdorpsstraat | 108 | 6274NN | Reijmerstok
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51787 | Stallestraat | 12 | 6261ND | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51787 | Stallestraat | 10 A | 6261ND | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52003 | Onderstraat | 12 | 6255ND | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52173 | Waterstraat | 4 | 6277NH | Slenaken
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52173 | Waterstraat | 2 | 6277NH | Slenaken
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52377 | Wesch | 3 | 6255NH | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52377 | Wesch | 3 A | 6255NH | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52424 | Bredeweg | 2 A | 6262NX | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52424 | Bredeweg | 2 C | 6262NX | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52424 | Bredeweg | 2 D | 6262NX | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52424 | Bredeweg | 2 E | 6262NX | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52424 | Bredeweg | 2 B | 6262NX | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52424 | Bredeweg | 2 H | 6262NX | Banholt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52762 | Burgemeester Wolfsstraat | 32 | 6265AA | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52807 | Vroelenstraat | 11 | 6255AL | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53328 | Dorpsstraat | 48 | 6261NJ | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53878 | Waterrijk | 1 | 6247CL | Gronsveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53878 | Waterrijk | 1 A | 6247CL | Gronsveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53878 | Waterrijk | 1 B | 6247CL | Gronsveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54282 | Withuis | 8 | 6245KB | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54826 | Bruisterbosch | 9 | 6265NK | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54855 | Stallestraat | 32 | 6261ND | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56316 | Dorpsstraat | 150 | 6251ND | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56593 | Duivenstraat | 2 | 6261NT | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56946 | Bergenhuizen | 8 | 6255NK | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56986 | Leemstraat | 3 | 6261NW | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57103 | Hoogcruts | 11 | 6255NS | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57563 | Op den Dries | 3 | 6245KM | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57757 | Rondelenstraat | 4 | 6261NP | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57757 | Rondelenstraat | 4 B | 6261NP | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57757 | Rondelenstraat | 4 A | 6261NP | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57934 | Dorpsstraat | 23 | 6251NA | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57934 | Dorpsstraat | 23 A | 6251NA | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57934 | Dorpsstraat | 23 B | 6251NA | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57934 | Dorpsstraat | 23 C | 6251NA | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57934 | Dorpsstraat | 23 D | 6251NA | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58050 | Waterrijk | 3 | 6247CL | Gronsveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58177 | Martelehöfke | 1 | 6255AB | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58434 | Eindstraat | 1 | 6265AC | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58434 | Eindstraat | 3 | 6265AC | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58434 | Eindstraat | 5 | 6265AC | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58444 | Rijksweg | 109 | 6247AC | Gronsveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58815 | Klompenstraat | 19 | 6251NE | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58878 | Vroelen | 30 | 6255NC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58878 | Vroelen | 30 A | 6255NC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58898 | Langstraat | 2 | 6245KK | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59472 | Heerkuil | 4 | 6265NB | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59893 | Dorpsstraat | 40 | 6261NJ | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59893 | Dorpsstraat | 40 A | 6261NJ | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60055 | Kromsteeg | 5 | 6276PE | Heijenrath
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60055 | Heijenratherweg | 15 | 6276PD | Heijenrath
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60538 | Rondelenstraat | 12 | 6261NP | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61001 | Vroelen | 27 | 6255NC | Noorbeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61036 | Burgemeester Wolfsstraat | 36 | 6265AA | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61036 | Burgemeester Wolfsstraat | 38 | 6265AA | Sint Geertruid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61248 | Steegstraat | 19 | 6261NK | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61308 | Kerkplein | 14 | 6245KH | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61833 | Dorpsstraat | 138 | 6251ND | Eckelrade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62127 | Dorpsstraat | 44 | 6261NJ | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62263 | Steegstraat | 23 | 6261NK | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62322 | Stallestraat | 14 | 6261ND | Mheer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62344 | Withuis | 10 | 6245KB | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62344 | Withuis | 12 | 6245KB | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62344 | Withuis | 14 | 6245KB | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62344 | Withuis | 16 A | 6245KB | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62344 | Withuis | 16 B | 6245KB | Eijsden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62344 | Withuis | 16 | 6245KB | Eijsden
