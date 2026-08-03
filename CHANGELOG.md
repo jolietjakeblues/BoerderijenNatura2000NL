@@ -6,6 +6,26 @@ precieze wijzigingen per gebied: `git log`. Entries staan in omgekeerd-chronolog
 volgorde; een latere entry kan dus een eerdere entry corrigeren of vervangen. Waar dat
 kan verwarren, is dat expliciet benoemd.
 
+## Unittests voor geo.mjs, en het herkomst-manifest 15x sneller
+
+Naar aanleiding van een eigen kritische zelfreflectie ("wat mis je aan wat je
+gebouwd hebt"): `scripts/lib/geo.mjs` (point-in-polygon, afstand-tot-rand -
+de geometrische kern die bepaalt of een monument bij een gebied hoort) had
+geen unittests, in tegenstelling tot `adres-match.mjs`. 17 tests toegevoegd
+(`geo.test.mjs`), inclusief een concave ring, gaten in een polygon, en de
+clamp op een segmenteinde bij de afstandsberekening - geverifieerd met een
+mutatietest (clamp weghalen laat de test falen).
+
+**Herkomst-manifest was te traag om te blijven schalen.**
+`scripts/09-bouw-manifest.mjs` deed één `git log --follow`-aanroep per
+artefact (11 per gebied): ~1,8s per gebied, ~7 minuten voor alle 53 gebieden
+samen. Nu één `git log`-aanroep per gebied die de hele geschiedenis van die
+gebiedsmap in één keer doorloopt: ~0,4s per gebied, ~28s voor alle 53 samen
+(15x sneller in totaal). Geverifieerd dat de uitkomst exact hetzelfde is als
+voorheen (getest op een gebied met bestanden uit meerdere, verspreide
+commits). Zie `scripts/README.md` voor de bewuste vereenvoudiging (geen
+`--follow` meer nodig, want deze artefacten worden nooit hernoemd).
+
 ## Redactionele afronding van de 28 nieuwe gebieden, en een dubbele sitecode-weergave
 
 Reviewer-vondst: Geuldal en Oosterschelde (en alle andere 26 nieuwe gebieden) toonden

@@ -104,6 +104,16 @@ het `scripts/`-commit dat wordt vastgelegd is dat van het moment van
 manifest-generatie, niet noodzakelijk het commit dat de oorspronkelijke
 `data.json` produceerde.
 
+**Snelheid.** Eerste versie deed één `git log --follow`-aanroep per artefact
+(11 per gebied): ~1,8s per gebied, ~7 minuten voor alle 53 gebieden samen -
+bij verdere groei zou niemand dit nog geregeld draaien. Nu één `git log`-
+aanroep per **gebied** (niet per bestand), die de hele geschiedenis van die
+gebiedsmap in één keer doorloopt en alle eerste-toevoeging-commits tegelijk
+vindt: ~0,4s per gebied, ~28s voor alle 53 samen. Bewuste vereenvoudiging
+daarbij: geen `--follow` meer (werkt niet betrouwbaar op een mappad met
+meerdere bestanden) - geen probleem, want deze automatisch gegenereerde
+artefacten worden nooit hernoemd.
+
 ## Richtlijn-status (Vogelrichtlijn / Habitatrichtlijn)
 
 Los van de PDOK-WFS die voor geometrie wordt gebruikt, houdt RCE een eigen
@@ -143,7 +153,13 @@ worden weggeschreven zonder dat een diff-check dat opmerkt.
   slaan, in plaats van dat het detailpaneel op de gebiedspagina deze koppeling
   clientside herhaalt (zie CHANGELOG.md voor de bug die dat veroorzaakte).
 - **geo.mjs** - point-in-polygon (incl. gaten), afstand-tot-polygoonrand,
-  bbox-hulpfuncties. Gedeeld door classificatie en databundel-opbouw.
+  bbox-hulpfuncties. Gedeeld door classificatie en databundel-opbouw - dit
+  bepaalt of een monument bij een gebied hoort en hoe ver het van de rand ligt,
+  dus de meest risicovolle geometrische logica in de pijplijn. Unittests
+  dekken o.a. concave ringen (niet alleen de bounding box), gaten in
+  polygonen, en het klemmen (`clamp`) van de dichtstbijzijnde-punt-berekening
+  op een segmenteinde (geverifieerd met een mutatietest: het weghalen van die
+  clamp laat de test falen).
 - **bbox-regex.mjs** - leidt de SPARQL-REGEX-bboxfilter automatisch af uit een
   numeriek bereik, in plaats van 'm met de hand te typen. **Zie de kanttekening
   hieronder** - dit bestaat vanwege een echte fout die tijdens de opbouw van

@@ -1,7 +1,7 @@
 {
  "slug": "kunderberg",
- "gegenereerdOp": "2026-08-03T17:51:57.499Z",
- "scriptsCommitOpGenereermoment": "833235a87315008182c2495d52ccb0ccfb426536",
+ "gegenereerdOp": "2026-08-03T19:28:27.908Z",
+ "scriptsCommitOpGenereermoment": "e390a020c41e83fd7db22577e37ff91012e9a450",
  "toelichting": "Dit manifest legt vast welke brondata tot data.json in dit gebied hebben geleid: SHA-256 van elk tussenliggend artefact zoals dat nu in de repository staat, en het git-commit waarin dat artefact voor het eerst is toegevoegd (als benadering van het moment van ophalen). Het legt NIET met terugwerkende kracht vast: het exacte tijdstip van de live SPARQL/WFS-aanroep zelf, het aantal retries tijdens de oorspronkelijke BAG-bevraging, en de precieze scriptversie die destijds actief was -- alleen het scripts/-commit op het moment van genereren van dit manifest wordt vastgelegd, niet noodzakelijk de commit die de oorspronkelijke data.json produceerde.",
  "artefacten": [
   {
@@ -26,8 +26,8 @@
    "toelichting": "Kant-en-klare SPARQL-query, automatisch samengesteld door 02-prepare-gebied.mjs. Geen expliciete GRAPH-clausule (standaard-graph-unie); SELECT DISTINCT voorkomt cross-graph-dubbeltelling.",
    "sha256": "80880cba55a49acfe9df167ba7d63be17ceedcda650542e8c37ccd8a7e9284a2",
    "eersteCommit": {
-    "commit": "a5004dccca459c5e4f4bac1e805b26eb97ecb613",
-    "datum": "2026-08-03T10:48:22+02:00"
+    "commit": "54c245d4c1fd5c41669b63929f26637065be6dc7",
+    "datum": "2026-08-03T18:35:41+02:00"
    }
   },
   {
@@ -39,8 +39,8 @@
    "toelichting": "Resultaat van rce-monumenten-query.sparql. Sinds augustus 2026 automatisch opgehaald via directe HTTP-POST naar het endpoint (scripts/lib/rce-direct.mjs, zie scripts/README.md); gebieden van vóór die datum zijn destijds handmatig via de rce-cho MCP-tool opgehaald (inhoudelijk gelijkwaardig, dezelfde query-templates).",
    "sha256": "9fde8aaab45925274854e2d170045403d98816380c1f27a9ec5e40f37d927925",
    "eersteCommit": {
-    "commit": "a5004dccca459c5e4f4bac1e805b26eb97ecb613",
-    "datum": "2026-08-03T10:48:22+02:00"
+    "commit": "54c245d4c1fd5c41669b63929f26637065be6dc7",
+    "datum": "2026-08-03T18:35:41+02:00"
    }
   },
   {
@@ -78,8 +78,8 @@
    "toelichting": "Resultaat van rce-functie-query.sparql. Zie de toelichting bij monumenten-raw.txt (directe HTTP-POST sinds augustus 2026, daarvoor handmatig via de rce-cho MCP-tool).",
    "sha256": "e56c46ba9832ae467f649d0caa9de74477367ebca19b37aa6247e97201cd365d",
    "eersteCommit": {
-    "commit": "a5004dccca459c5e4f4bac1e805b26eb97ecb613",
-    "datum": "2026-08-03T10:48:22+02:00"
+    "commit": "54c245d4c1fd5c41669b63929f26637065be6dc7",
+    "datum": "2026-08-03T18:35:41+02:00"
    }
   },
   {

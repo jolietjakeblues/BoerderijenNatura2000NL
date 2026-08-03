@@ -42,22 +42,40 @@ function sha256(p) {
   return crypto.createHash('sha256').update(fs.readFileSync(p)).digest('hex');
 }
 
-// Eerste commit dat dit bestand toevoegde, als benadering van het moment van
-// ophalen (git-geschiedenis is betrouwbaarder en reproduceerbaar-bij-clone,
-// in tegenstelling tot lokale bestands-mtimes).
-function eersteCommit(relPath) {
+// Eerste commit dat elk bestand in deze gebiedsmap toevoegde, als benadering
+// van het moment van ophalen (git-geschiedenis is betrouwbaarder en
+// reproduceerbaar-bij-clone dan lokale bestands-mtimes).
+//
+// Snelheid: dit was ooit één git-aanroep per artefact (11 per gebied, ~1.8s
+// per gebied, ~7 minuten voor alle 53 gebieden samen -- onhaalbaar bij verdere
+// groei). Één git-aanroep per GEBIED in plaats van per bestand loopt de hele
+// geschiedenis van deze map in één keer door en vindt alle eerste-toevoeging-
+// commits tegelijk; dat scheelt een orde van grootte. Bewuste vereenvoudiging:
+// geen `--follow` meer (dat werkt niet betrouwbaar op een mappad met meerdere
+// bestanden) -- geen probleem hier, want deze automatisch gegenereerde
+// artefacten worden nooit hernoemd.
+function bouwEersteCommitMap(relDirPath) {
+  const map = new Map();
+  let out;
   try {
-    const out = execSync(
-      `git log --follow --format="%H|%aI" --diff-filter=A -- "${relPath}"`,
-      { cwd: REPO_ROOT, encoding: 'utf-8' }
-    ).trim();
-    const regels = out.split('\n').filter(Boolean);
-    if (regels.length === 0) return null;
-    const [commit, datum] = regels[regels.length - 1].split('|');
-    return { commit, datum };
+    out = execSync(
+      `git log --diff-filter=A --name-status --format="COMMIT|%H|%aI" --reverse -- "${relDirPath}"`,
+      { cwd: REPO_ROOT, encoding: 'utf-8', maxBuffer: 10 * 1024 * 1024 }
+    );
   } catch {
-    return null;
+    return map;
   }
+  let huidig = null;
+  for (const regel of out.split('\n')) {
+    if (regel.startsWith('COMMIT|')) {
+      const [, commit, datum] = regel.split('|');
+      huidig = { commit, datum };
+    } else if (regel.startsWith('A\t') && huidig) {
+      const bestandspad = regel.slice(2).trim();
+      if (!map.has(bestandspad)) map.set(bestandspad, huidig); // --reverse: eerste keer = oudste = eerste toevoeging
+    }
+  }
+  return map;
 }
 
 let scriptsCommitOpGenereermoment = null;
@@ -94,11 +112,14 @@ const ARTEFACTEN = [
     toelichting: 'Eindbundel voor de gebiedspagina, gebouwd door 05-build-gebied-data.mjs (en eventueel 08-verrijk-richtlijn.mjs) uit monumenten-verrijkt.json.' }
 ];
 
+const relDirPath = path.relative(REPO_ROOT, dir).replace(/\\/g, '/');
+const eersteCommitMap = bouwEersteCommitMap(relDirPath);
+
 const artefacten = ARTEFACTEN
   .map(a => {
     const p = path.join(dir, a.bestand);
     const aanwezig = fs.existsSync(p);
-    const relPath = path.relative(REPO_ROOT, p).replace(/\\/g, '/');
+    const relPath = `${relDirPath}/${a.bestand}`;
     return {
       bestand: a.bestand,
       aanwezig,
@@ -107,7 +128,7 @@ const artefacten = ARTEFACTEN
       handmatigeStap: a.handmatig,
       toelichting: a.toelichting,
       sha256: aanwezig ? sha256(p) : null,
-      eersteCommit: aanwezig ? eersteCommit(relPath) : null
+      eersteCommit: aanwezig ? (eersteCommitMap.get(relPath) || null) : null
     };
   })
   .filter(a => a.aanwezig || !ARTEFACTEN.find(x => x.bestand === a.bestand)?.optioneel);
