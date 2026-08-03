@@ -1,0 +1,2 @@
+105|https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/c5d43ace-977d-4aa8-9391-59b6b1b92bfa|VR+HR|zowel Vogel- als Habitatrichtlijngebied|NL9802065|NL3004006|true|Natura 2000-besluit 4 september 2013|http://www.wikidata.org/entity/Q2591191
+105|https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/05fb47a8-ebd7-4810-9f8f-2a0ceabae24b|HR|alleen Habitatrichtlijn gebied|-|NL3004006|true|Natura 2000-besluit 4 september 2013|http://www.wikidata.org/entity/Q2591191

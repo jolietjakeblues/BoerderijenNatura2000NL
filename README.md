@@ -88,6 +88,14 @@ opgepakt.
 6. **Gebiedsbeschrijving**: korte, zelfgeschreven samenvatting (type natuurgebied, ligging,
    oppervlakte, beschermingsreden) op basis van [natura2000.nl](https://www.natura2000.nl/gebieden),
    met bronvermelding per gebiedspagina.
+7. **Richtlijn-status**: Vogelrichtlijn (VR) / Habitatrichtlijn (HR) / combinatie (VR+HR), plus een
+   losse markering voor de Zuid-Limburgse Habitatrichtlijn-kalksteengroeven, opgehaald uit het losse
+   RCE-graph `graph/natura2000` (naast de PDOK-WFS voor geometrie). Dit graph houdt ook een
+   `stikstofgevoelig`-vlag en officiële EU-sitecodes per gebied bij, plus een Wikidata-kruisverwijzing
+   — beide getoond op de gebiedspagina met een link naar de RCE linked-data-bron zelf. De
+   `stikstofgevoelig`-vlag is een getoond kenmerk, geen selectiefilter (zie hieronder); hij varieert
+   echt per gebied en staat bijvoorbeeld bij grote Vogelrichtlijn-only water-/moerasgebieden vaak op
+   onwaar.
 
 ### Bewuste beperking van de huidige scope
 

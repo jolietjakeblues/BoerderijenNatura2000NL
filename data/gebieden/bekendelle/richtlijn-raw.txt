@@ -1,0 +1,1 @@
+63|https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/4fda52c1-4f59-49ce-924f-80079716acfe|HR|alleen Habitatrichtlijn gebied|-|NL2003005|true|Natura 2000-besluit 7 mei 2013|http://www.wikidata.org/entity/Q2187647

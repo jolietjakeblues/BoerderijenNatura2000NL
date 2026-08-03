@@ -42,6 +42,7 @@ const gebieden = slugs.map(slug => {
     ligging: meta?.ligging || null,
     provincies: provs,
     sectieProvincies: sectieProvincies.length ? sectieProvincies : ['Niet in te delen'],
+    richtlijnBadge: D.richtlijn?.badge || null,
     n: D.n, ja: D.ja, onbekend: D.onbekend,
     href: `gebieden/${slug}.html`
   };
@@ -60,6 +61,7 @@ function gcard(g) {
       <a class="gcard" href="${g.href}">
         <div class="gcard-top">
           <span class="gcard-status">${status}</span>
+          ${g.richtlijnBadge ? `<span class="badge-richtlijn">${g.richtlijnBadge}</span>` : ''}
         </div>
         <h3>${g.naam}</h3>
         <p class="gcard-sub">${[g.ligging, g.provincies.join(' / ')].filter(Boolean).join(' &middot; ')}</p>
@@ -109,6 +111,7 @@ const html = `<!DOCTYPE html>
   :root{
     --paper:#F4F7F8; --panel:#FFFFFF; --ink:#16324F; --ink-soft:#4A6579;
     --blue-mid:#3E6C93; --alert:#D1401F; --line:#C9D6DE; --n2k:#5E7D46;
+    --n2k-bg:#E9F0E6; --n2k-text:#3B5230;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html{-webkit-text-size-adjust:100%}
@@ -132,7 +135,10 @@ const html = `<!DOCTYPE html>
   .gcard{display:block;background:var(--panel);border:1.5px solid var(--line);border-radius:2px;
     padding:12px;text-decoration:none;color:var(--ink);transition:border-color .15s}
   .gcard:hover{border-color:var(--ink)}
+  .gcard-top{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
   .gcard-status{font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--alert)}
+  .badge-richtlijn{font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
+    padding:2px 8px;background:var(--n2k-bg);color:var(--n2k-text);border-radius:8px}
   .gcard h3{font-family:Palatino,Georgia,serif;font-size:16px;margin-top:6px;line-height:1.25}
   .gcard-sub{font-size:12px;color:var(--ink-soft);margin-top:3px}
   .gcard-stats{display:flex;gap:14px;margin-top:10px;font-size:12px;color:var(--ink-soft)}

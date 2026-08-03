@@ -43,7 +43,7 @@ const head = `<!DOCTYPE html>
   :root{
     --paper:#F4F7F8; --panel:#FFFFFF; --ink:#16324F; --ink-soft:#4A6579;
     --blue-mid:#3E6C93; --alert:#D1401F; --line:#C9D6DE;
-    --n2k:#5E7D46;
+    --n2k:#5E7D46; --n2k-bg:#E9F0E6; --n2k-text:#3B5230;
     --k0:#7A1607; --k1:#D1401F; --k2:#E0703C; --k3:#E5B08E; --k4:#B7C7D2; --k5:#B7C7D2;
   }
   *{box-sizing:border-box;margin:0;padding:0}
@@ -63,6 +63,10 @@ const head = `<!DOCTYPE html>
   .stat.neutral .num{color:var(--ink-soft)}
   .stat .lbl{font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-soft);margin-top:3px}
   .card{background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:14px;margin:14px 0}
+  .badge-richtlijn{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.04em;
+    text-transform:uppercase;padding:2px 8px;background:var(--n2k-bg);color:var(--n2k-text);border-radius:8px}
+  .richtlijn-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:8px}
+  .richtlijn-meta{font-size:12px;color:var(--ink-soft)}
   .card h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue-mid);margin-bottom:8px}
   #map{width:100%;display:block;cursor:crosshair}
   .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:11px;color:var(--ink-soft);margin-top:8px}
@@ -87,7 +91,11 @@ const head = `<!DOCTYPE html>
   <header>
     <div class="eyebrow">RCE &times; Kadaster &times; Natura 2000</div>
     <h1>${Dobj.gebied}</h1>
-    <p>${meta.tekst} <a href="${meta.bron}" style="color:var(--blue-mid)" target="_blank" rel="noopener">Bron: natura2000.nl &rarr;</a></p>
+    ${Dobj.richtlijn ? `<div class="richtlijn-row">
+      <span class="badge-richtlijn">${Dobj.richtlijn.label}</span>
+      <span class="richtlijn-meta">Natura 2000-gebied nr. ${Dobj.richtlijn.gebiedsnummer}${[Dobj.richtlijn.siteCodeVogelrichtlijn, Dobj.richtlijn.siteCodeHabitatrichtlijn].filter(Boolean).length ? ' &middot; sitecode ' + [Dobj.richtlijn.siteCodeVogelrichtlijn, Dobj.richtlijn.siteCodeHabitatrichtlijn].filter(Boolean).join(' / ') : ''} &middot; stikstofgevoelig: ${Dobj.richtlijn.stikstofgevoelig ? 'ja' : 'nee'}</span>
+    </div>` : ''}
+    <p>${meta.tekst} <a href="${meta.bron}" style="color:var(--blue-mid)" target="_blank" rel="noopener">Bron: natura2000.nl &rarr;</a>${Dobj.richtlijn ? ` &middot; <a href="${Dobj.richtlijn.rceUris[0]}" style="color:var(--blue-mid)" target="_blank" rel="noopener">RCE linked data${Dobj.richtlijn.rceUris.length > 1 ? ' (1 van ' + Dobj.richtlijn.rceUris.length + ' richtlijndelen)' : ''} &rarr;</a>` : ''}${Dobj.richtlijn?.wikidata ? ` &middot; <a href="${Dobj.richtlijn.wikidata}" style="color:var(--blue-mid)" target="_blank" rel="noopener">Wikidata &rarr;</a>` : ''}</p>
     <p>Rijksmonumentale boerderijen binnen dit Natura 2000-gebied of binnen 5&nbsp;km
     van de gebiedsrand (een gekozen selectievenster, geen ecologische invloedssfeer), met een
     actieve-bedrijfsindicatie op basis van BAG-gebruiksdoel.</p>

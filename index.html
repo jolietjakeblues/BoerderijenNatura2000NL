@@ -8,6 +8,7 @@
   :root{
     --paper:#F4F7F8; --panel:#FFFFFF; --ink:#16324F; --ink-soft:#4A6579;
     --blue-mid:#3E6C93; --alert:#D1401F; --line:#C9D6DE; --n2k:#5E7D46;
+    --n2k-bg:#E9F0E6; --n2k-text:#3B5230;
   }
   *{box-sizing:border-box;margin:0;padding:0}
   html{-webkit-text-size-adjust:100%}
@@ -31,7 +32,10 @@
   .gcard{display:block;background:var(--panel);border:1.5px solid var(--line);border-radius:2px;
     padding:12px;text-decoration:none;color:var(--ink);transition:border-color .15s}
   .gcard:hover{border-color:var(--ink)}
+  .gcard-top{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
   .gcard-status{font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--alert)}
+  .badge-richtlijn{font-size:10px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;
+    padding:2px 8px;background:var(--n2k-bg);color:var(--n2k-text);border-radius:8px}
   .gcard h3{font-family:Palatino,Georgia,serif;font-size:16px;margin-top:6px;line-height:1.25}
   .gcard-sub{font-size:12px;color:var(--ink-soft);margin-top:3px}
   .gcard-stats{display:flex;gap:14px;margin-top:10px;font-size:12px;color:var(--ink-soft)}
@@ -87,6 +91,7 @@
       <a class="gcard" href="gebieden/drouwenerzand.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Drouwenerzand</h3>
         <p class="gcard-sub">Borger-Odoorn &middot; Drenthe</p>
@@ -99,6 +104,7 @@
       <a class="gcard" href="gebieden/elperstroomgebied.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Elperstroomgebied</h3>
         <p class="gcard-sub">Westerbork-Orvelte &middot; Drenthe</p>
@@ -111,6 +117,7 @@
       <a class="gcard" href="gebieden/norgerholt.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Norgerholt</h3>
         <p class="gcard-sub">Norg &middot; Drenthe</p>
@@ -123,6 +130,7 @@
       <a class="gcard" href="gebieden/witterveld.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Witterveld</h3>
         <p class="gcard-sub">Assen &middot; Drenthe</p>
@@ -140,6 +148,7 @@
       <a class="gcard" href="gebieden/bakkeveense-duinen.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Bakkeveense Duinen</h3>
         <p class="gcard-sub">Opsterland &middot; Fryslân</p>
@@ -157,6 +166,7 @@
       <a class="gcard" href="gebieden/bekendelle.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Bekendelle</h3>
         <p class="gcard-sub">Achterhoek &middot; Gelderland</p>
@@ -169,6 +179,7 @@
       <a class="gcard" href="gebieden/binnenveld.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Binnenveld</h3>
         <p class="gcard-sub">Ede-Rhenen-Veenendaal &middot; Gelderland / Utrecht</p>
@@ -181,6 +192,7 @@
       <a class="gcard" href="gebieden/de-bruuk.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt · geen boerderijen gevonden</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>De Bruuk</h3>
         <p class="gcard-sub">Groesbeek</p>
@@ -193,6 +205,7 @@
       <a class="gcard" href="gebieden/kolland-overlangbroek.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Kolland & Overlangbroek</h3>
         <p class="gcard-sub">Wijk bij Duurstede-Utrechtse Heuvelrug &middot; Gelderland / Utrecht</p>
@@ -205,6 +218,7 @@
       <a class="gcard" href="gebieden/korenburgerveen.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Korenburgerveen</h3>
         <p class="gcard-sub">Achterhoek &middot; Gelderland</p>
@@ -217,6 +231,7 @@
       <a class="gcard" href="gebieden/landgoederen-brummen.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Landgoederen Brummen</h3>
         <p class="gcard-sub">Achterhoek &middot; Gelderland</p>
@@ -229,6 +244,7 @@
       <a class="gcard" href="gebieden/rijntakken.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">VR+HR</span>
         </div>
         <h3>Rijntakken – IJssel-traject</h3>
         <p class="gcard-sub">Zutphen–Deventer–Zwolle &middot; Gelderland / Overijssel</p>
@@ -241,6 +257,7 @@
       <a class="gcard" href="gebieden/stelkampsveld.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Stelkampsveld</h3>
         <p class="gcard-sub">Achterhoek &middot; Gelderland</p>
@@ -253,6 +270,7 @@
       <a class="gcard" href="gebieden/willinks-weust.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Willinks Weust</h3>
         <p class="gcard-sub">Achterhoek &middot; Gelderland</p>
@@ -265,6 +283,7 @@
       <a class="gcard" href="gebieden/wooldse-veen.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Wooldse Veen</h3>
         <p class="gcard-sub">Achterhoek, grens met Duitsland &middot; Gelderland</p>
@@ -282,6 +301,7 @@
       <a class="gcard" href="gebieden/lieftinghsbroek.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Lieftinghsbroek</h3>
         <p class="gcard-sub">Westerwolde &middot; Groningen</p>
@@ -299,6 +319,7 @@
       <a class="gcard" href="gebieden/geleenbeekdal.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Geleenbeekdal</h3>
         <p class="gcard-sub">Sittard-Geleen &middot; Limburg</p>
@@ -311,6 +332,7 @@
       <a class="gcard" href="gebieden/leudal.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Leudal</h3>
         <p class="gcard-sub">Roermond &middot; Limburg</p>
@@ -323,6 +345,7 @@
       <a class="gcard" href="gebieden/roerdal.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Roerdal</h3>
         <p class="gcard-sub">Roermond &middot; Limburg</p>
@@ -335,6 +358,7 @@
       <a class="gcard" href="gebieden/sint-jansberg.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Sint Jansberg</h3>
         <p class="gcard-sub">Nijmegen-Mook &middot; Noord-Brabant / Limburg</p>
@@ -347,6 +371,7 @@
       <a class="gcard" href="gebieden/swalmdal.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Swalmdal</h3>
         <p class="gcard-sub">Roermond-Beesel &middot; Limburg</p>
@@ -359,6 +384,7 @@
       <a class="gcard" href="gebieden/zeldersche-driessen.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Zeldersche Driessen</h3>
         <p class="gcard-sub">Gennep &middot; Limburg / Noord-Brabant</p>
@@ -376,6 +402,7 @@
       <a class="gcard" href="gebieden/regte-heide-riels-laag.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Regte Heide & Riels Laag</h3>
         <p class="gcard-sub">Goirle &middot; Noord-Brabant</p>
@@ -388,6 +415,7 @@
       <a class="gcard" href="gebieden/sint-jansberg.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Sint Jansberg</h3>
         <p class="gcard-sub">Nijmegen-Mook &middot; Noord-Brabant / Limburg</p>
@@ -400,6 +428,7 @@
       <a class="gcard" href="gebieden/vlijmens-ven.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Vlijmens Ven, Moerputten & Bossche Broek</h3>
         <p class="gcard-sub">'s-Hertogenbosch &middot; Noord-Brabant</p>
@@ -412,6 +441,7 @@
       <a class="gcard" href="gebieden/zeldersche-driessen.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Zeldersche Driessen</h3>
         <p class="gcard-sub">Gennep &middot; Limburg / Noord-Brabant</p>
@@ -429,6 +459,7 @@
       <a class="gcard" href="gebieden/rijntakken.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">VR+HR</span>
         </div>
         <h3>Rijntakken – IJssel-traject</h3>
         <p class="gcard-sub">Zutphen–Deventer–Zwolle &middot; Gelderland / Overijssel</p>
@@ -446,6 +477,7 @@
       <a class="gcard" href="gebieden/binnenveld.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Binnenveld</h3>
         <p class="gcard-sub">Ede-Rhenen-Veenendaal &middot; Gelderland / Utrecht</p>
@@ -458,6 +490,7 @@
       <a class="gcard" href="gebieden/kolland-overlangbroek.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">HR</span>
         </div>
         <h3>Kolland & Overlangbroek</h3>
         <p class="gcard-sub">Wijk bij Duurstede-Utrechtse Heuvelrug &middot; Gelderland / Utrecht</p>
@@ -470,6 +503,7 @@
       <a class="gcard" href="gebieden/zouweboezem.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">VR+HR</span>
         </div>
         <h3>Zouweboezem</h3>
         <p class="gcard-sub">Ameide-Meerkerk &middot; Utrecht / Zuid-Holland</p>
@@ -487,6 +521,7 @@
       <a class="gcard" href="gebieden/zouweboezem.html">
         <div class="gcard-top">
           <span class="gcard-status">Verwerkt</span>
+          <span class="badge-richtlijn">VR+HR</span>
         </div>
         <h3>Zouweboezem</h3>
         <p class="gcard-sub">Ameide-Meerkerk &middot; Utrecht / Zuid-Holland</p>

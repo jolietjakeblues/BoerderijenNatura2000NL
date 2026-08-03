@@ -21,12 +21,14 @@ node scripts/04-verrijk-monumenten.mjs <slug>
 node scripts/05-build-gebied-data.mjs <slug> "<Weergavenaam>"
 node scripts/06-build-gebied-html.mjs <slug>
 node scripts/07-build-landing-html.mjs
+# -- optioneel, handmatige stap, zie hieronder --
+node scripts/08-verrijk-richtlijn.mjs <slug>
 ```
 
 `node scripts/list-gebieden.mjs` toont de exacte schrijfwijze van alle 162
 `naamN2K`-namen uit de landelijke cache (nodig voor stap 2).
 
-## De twee handmatige stappen
+## De drie handmatige stappen
 
 Er is geen publiek, sleutelloos SPARQL-endpoint gevonden voor het RCE
 CHO-endpoint (in tegenstelling tot de Kadaster Kennisgraaf, die wel zo'n
@@ -39,9 +41,34 @@ MCP-tool (`query_sparql`) uitgevoerd worden, niet vanuit een los script:
 2. **Na stap 3**: voer `data/gebieden/<slug>/rce-functie-query.sparql` en
    `rce-adres-query.sparql` uit. Sla ze op als `functie-raw.txt` resp.
    `adres-raw.txt` in dezelfde map.
+3. **Voor stap 8** (richtlijn-status, optioneel): voer op het losse graph
+   `<https://linkeddata.cultureelerfgoed.nl/graph/natura2000>` een query uit met
+   `dc:title` in een `VALUES`-lijst van de officiële gebiedsnamen, en haal
+   `dc:identifier`, `?s` (de RCE-resource-URI), `ceox:beschermingsrichtlijnCode`,
+   `ceox:vhnAanvulling`, `ceox:siteCodeVogelRichtlijn`,
+   `ceox:siteCodeHabitatRichtlijn`, `ceox:stikstofgevoelig`,
+   `ceox:natura2000Status` en `schema:url` (Wikidata) op. Sla het resultaat
+   op als `data/gebieden/<slug>/richtlijn-raw.txt`
+   (`identifier|s|code|vhnAanvulling|siteCodeVR|siteCodeHR|stikstofgevoelig|status|wikidata`
+   per regel). Zie `scripts/lib/richtlijn.mjs` voor de aggregatielogica.
 
 Alle overige stappen (geometrie ophalen, classificatie, BAG-check,
 provincie-toewijzing, HTML genereren) zijn volledig automatisch.
+
+## Richtlijn-status (Vogelrichtlijn / Habitatrichtlijn)
+
+Los van de PDOK-WFS die voor geometrie wordt gebruikt, houdt RCE een eigen
+graph (`graph/natura2000`) bij met per officieel Natura 2000-gebied (RVO-
+gebiedsnummer, `dc:identifier`) de beschermingsrichtlijn(en), officiële
+EU-sitecode(s), een `stikstofgevoelig`-vlag en een Wikidata-kruisverwijzing.
+Belangrijke eigenaardigheid: één officieel gebied kan **meerdere**
+RCE-deelresources hebben met elk hun eigen richtlijn-classificatie (bv.
+Rijntakken heeft een apart Vogelrichtlijn-deel en een Vogel+Habitatrichtlijn-
+deel). `scripts/lib/richtlijn.mjs` aggregeert die delen tot één samenvatting
+per gebied (`VR` / `HR` / `VR+HR`, plus een aparte `HR groeve`-vlag voor de
+Zuid-Limburgse kalksteengroeven). `stikstofgevoelig` varieert echt tussen
+gebieden — vooral grote Vogelrichtlijn-only water-/moerasgebieden staan vaak
+op `false` — dus nooit aannemen dat dit overal `true` is.
 
 ## lib/
 
