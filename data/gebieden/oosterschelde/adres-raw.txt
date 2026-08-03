@@ -1,0 +1,76 @@
+Gevonden: 72 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12953 | Eversdijkseweg | 7 | 4421RC | Kapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13236 | Daleboutsweg | 2 b | 4328PN | Burgh-Haamstede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15163 | Noordeinde | 5 | 4481BJ | Kloetinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15822 | Heereweg | 28 | 4317AK | Noordgouwe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16371 | Zuidstraat | 12 | 4693BM | Poortvliet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16815 | Stelhoekweg | 3 | 4424NN | Wemeldinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17899 | Schoudeeweg | 1 | 4424NB | Wemeldinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18727 | Noordeinde | 4 | 4481BJ | Kloetinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19067 | Schoudeeweg | 3 | 4424NB | Wemeldinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20633 | Marktveld | 15 | 4481BH | Kloetinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22200 | Schelphoekseweg | 3 | 4693PK | Poortvliet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23025 | Sint Felixweg | 3 | 4493PR | Kamperland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23315 | Oudelandsedijk | 11 | 3255LN | Oude-Tonge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23647 | Balie | 2 | 4301GZ | Zierikzee
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24255 | Oostkeure | 1 | 4481AM | Kloetinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25329 | Hageweg | 1 | 4311NB | Bruinisse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27227 | Provincialeweg | 5 | 4695RM | Sint-Maartensdijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28288 | Dorpsstraat | 71 | 4424CW | Wemeldinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28617 | Rampweg | 20 | 4326LK | Noordwelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30388 | Lageweg | 5 | 4328RR | Burgh-Haamstede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30424 | Lokkershofweg | 1 | 4326SE | Noordwelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30568 | Kloetingseweg | 19 | 4431PD | 's-Gravenpolder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30790 | Pykeswegje | 3 | 4462PC | Goes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30970 | Westenschouwenseweg | 2 | 4328RE | Burgh-Haamstede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31879 | Blauwhuisweg | 2 | 4424NT | Wemeldinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33696 | Hoofdweg | 6 | 4411AR | Rilland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34723 | Kerkweg | 14 | 4424NJ | Wemeldinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34959 | Waterpoortstraat | 11 | 4301HW | Zierikzee
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36607 | Kuijerdamseweg | 33 | 4323LB | Ellemeet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36666 | Kerkhofweg | 2 | 4421RD | Kapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38954 | Oud Vossemeersedijk | 4 | 4691SK | Tholen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40698 | Nieuwe Haven | 65 | 4301DK | Zierikzee
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41404 | Karsteil | 5 | 4301CS | Zierikzee
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41872 | Tervatenseweg | 42 | 4481PB | Kloetinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42095 | Lagezoom | 27 | 4325CP | Renesse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42807 | Hildernisse | 1 | 4617RB | Bergen op Zoom
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44335 | Oud Vossemeersedijk | 6 | 4691SK | Tholen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44986 | Nieuwe Haven | 61 | 4301DK | Zierikzee
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46588 | Pelsendijk | 12 a | 4681SG | Nieuw-Vossemeer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46633 | Bolwerk | 5 | 4415AA | Oostdijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46935 | Engelse Kade | 1 | 4301NA | Zierikzee
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47354 | Bredenvlietsedijk | 3 | 4697RH | Sint-Annaland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47807 | Stekeldijk | 18 | 4493PE | Kamperland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47807 | Stekeldijk | 19 | 4493PE | Kamperland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48376 | Annavosdijkseweg | 2 | 4697PC | Sint-Annaland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48499 | Mosselhoekseweg | 6 | 4691RL | Tholen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48525 | Oude Rijksweg | 54 | 4472AH | 's-Heer Hendrikskindere
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50796 | Dillingsweg | 12 | 4308NV | Sirjansland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50875 | Noordstraat | 9 | 4693CD | Poortvliet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50955 | Dorpsweg | 1 A | 4491EJ | Wissenkerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51009 | Hoogeweg | 18 | 4424NM | Wemeldinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51546 | Dorpsdijk | 98 | 4491ED | Wissenkerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53271 | Kettingdijk | 5 | 4691PE | Tholen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54031 | Kloosterweg | 6 | 4317NH | Noordgouwe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54281 | Lageweg | 14 | 4328RT | Burgh-Haamstede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54614 | Dorpsstraat | 79 | 4413CD | Krabbendijke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55501 | Hogeweg | 53 | 4328PB | Burgh-Haamstede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55647 | Kerkweg | 13 | 4424NJ | Wemeldinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56120 | Hartogsweg | 4 | 4694PG | Scherpenisse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57404 | Baas Huisweg | 14 | 4493NE | Kamperland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57404 | Baas Huisweg | 15 | 4493NE | Kamperland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57552 | Roelandsweg | 3 b | 4325CR | Renesse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57552 | Roelandsweg | 3 c | 4325CR | Renesse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57552 | Roelandsweg | 3 d | 4325CR | Renesse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58358 | Nieuwe Haven | 63 | 4301DK | Zierikzee
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59942 | Stoofweg | 42 | 4326SJ | Noordwelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59982 | Tonisseweg | 1 | 3255LT | Oude-Tonge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60318 | Wellandweg | 12 | 4326SL | Noordwelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60968 | Zanddijk | 17 | 4416PR | Kruiningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62246 | Oude Sint-Annalandseweg | 1 | 4695SH | Sint-Maartensdijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71284 | Tolsedijk | 10 | 4681SV | Nieuw-Vossemeer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/76890 | Jachthuisstraat | 17 | 4481AK | Kloetinge

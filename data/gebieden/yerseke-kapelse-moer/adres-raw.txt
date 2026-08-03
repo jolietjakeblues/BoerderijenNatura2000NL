@@ -1,0 +1,16 @@
+Gevonden: 12 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12953 | Eversdijkseweg | 7 | 4421RC | Kapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16815 | Stelhoekweg | 3 | 4424NN | Wemeldinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17899 | Schoudeeweg | 1 | 4424NB | Wemeldinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19067 | Schoudeeweg | 3 | 4424NB | Wemeldinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28288 | Dorpsstraat | 71 | 4424CW | Wemeldinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31879 | Blauwhuisweg | 2 | 4424NT | Wemeldinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34723 | Kerkweg | 14 | 4424NJ | Wemeldinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36666 | Kerkhofweg | 2 | 4421RD | Kapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41872 | Tervatenseweg | 42 | 4481PB | Kloetinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51009 | Hoogeweg | 18 | 4424NM | Wemeldinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55647 | Kerkweg | 13 | 4424NJ | Wemeldinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60968 | Zanddijk | 17 | 4416PR | Kruiningen

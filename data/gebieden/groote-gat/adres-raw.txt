@@ -1,0 +1,6 @@
+Gevonden: 2 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16080 | Brugsevaart | 5 | 4501NE | Oostburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17955 | Turkeijeweg | 1 | 4508NW | Waterlandkerkje

@@ -1,0 +1,40 @@
+Gevonden: 36 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11233 | Aijen | 19 | 5854PP | Bergen L
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14413 | Dorpsstraat | 36 | 5835AH | Beugen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18522 | Dorpstraat | 7 | 5862AD | Geijsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19790 | Dorpstraat | 5 | 5862AD | Geijsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25877 | Lottumseweg | 24 | 5971BW | Grubbenvorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25936 | Megelsum | 18 | 5864CV | Meerlo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25936 | Megelsum | 20 | 5864CV | Meerlo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27214 | Ooijenseweg | 5 | 5863AL | Blitterswijck
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27460 | Past Kerboschlaan | 2 | 5973NV | Lottum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34822 | St.Janstraat | 22 | 6595AC | Ottersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36932 | Aijen | 21 | 5854PP | Bergen L
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37333 | Voortweg | 8 | 5826AH | Groeningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37816 | het Zand | 1 | 5831HG | Boxmeer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45961 | Dorpstraat | 3 A | 5862AD | Geijsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45961 | Dorpstraat | 3 B | 5862AD | Geijsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45961 | Dorpstraat | 3 C | 5862AD | Geijsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45961 | Dorpstraat | 1 | 5862AD | Geijsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45961 | Dorpstraat | 3 | 5862AD | Geijsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49478 | Moleneind | 4 | 5864AA | Meerlo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49478 | Moleneind | 6 | 5864AA | Meerlo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49893 | Zandsteeg | 4 | 5836AV | Sambeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51664 | Zelder | 1 | 6599EG | Ven-Zelderheide
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53827 | Arenborgweg | 77 | 5916NL | Venlo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53827 | Arenborgweg | 79 | 5916NL | Venlo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53827 | Arenborgweg | 81 | 5916NL | Venlo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53827 | Arenborgweg | 83 | 5916NL | Venlo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53827 | Arenborgweg | 85 | 5916NL | Venlo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55061 | Urlingsestraat | 23 | 5441XJ | Oeffelt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55061 | Urlingsestraat | 25 | 5441XJ | Oeffelt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57943 | Moleneind | 8 | 5864AA | Meerlo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58178 | Vorstweg | 50 | 5941NV | Velden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67742 | Hoofdstraat | 42 | 6598AE | Heijen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69260 | Sint Urbanusweg | 75 | 5914CA | Venlo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69260 | Sint Urbanusweg | 77 | 5914CA | Venlo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71363 | Dorpsstraat | 45 | 5835AG | Beugen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/79386 | Burggraaf | 2 | 5821BK | Vierlingsbeek

@@ -1,0 +1,10 @@
+PREFIX ceo: <https://linkeddata.cultureelerfgoed.nl/def/ceo#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+SELECT DISTINCT ?rm ?rmnr ?fNaam WHERE {
+  VALUES ?rm { <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11023> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17178> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17243> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23025> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31140> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31320> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37433> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38391> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38888> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39064> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44514> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48043> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48210> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49548> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53637> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54233> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56718> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57404> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67084> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67089> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67271> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67273> }
+  ?rm ceo:rijksmonumentnummer ?rmnr .
+  ?rm ceo:heeftOorspronkelijkeFunctie ?fObj .
+  ?fObj ceo:heeftFunctieNaam ?fC .
+  ?fC skos:prefLabel ?fNaam .
+  FILTER(lang(?fNaam) = "nl")
+}

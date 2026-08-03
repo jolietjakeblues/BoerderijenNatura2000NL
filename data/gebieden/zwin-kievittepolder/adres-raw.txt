@@ -1,0 +1,10 @@
+Gevonden: 6 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19791 | Graafjansdijk | 7 | 4524JT | Sluis
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40606 | St. Annastraat | 193 | 4524JH | Sluis
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43552 | Jonkvrouw Geilstraat | 6 | 4524JN | Sluis
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49462 | Marktplein | 10 | 4524JR | Sluis
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56092 | Nederherenweg | 7 | 4524JS | Sluis
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58227 | Jonkvrouw Geilstraat | 3 | 4524JN | Sluis

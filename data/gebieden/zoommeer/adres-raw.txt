@@ -1,0 +1,18 @@
+Gevonden: 14 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16371 | Zuidstraat | 12 | 4693BM | Poortvliet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17726 | Kruisberg | 2 | 4661RK | Halsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22200 | Schelphoekseweg | 3 | 4693PK | Poortvliet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25078 | Kladseweg | 1 | 4664RB | Lepelstraat
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38954 | Oud Vossemeersedijk | 4 | 4691SK | Tholen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42807 | Hildernisse | 1 | 4617RB | Bergen op Zoom
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44335 | Oud Vossemeersedijk | 6 | 4691SK | Tholen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48190 | Slotweg | 7 | 4664RJ | Lepelstraat
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48499 | Mosselhoekseweg | 6 | 4691RL | Tholen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49003 | Kruisberg | 3 | 4661RK | Halsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50875 | Noordstraat | 9 | 4693CD | Poortvliet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53271 | Kettingdijk | 5 | 4691PE | Tholen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77530 | Kruisberg | 1 | 4661RK | Halsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77531 | Kruisberg | 1 | 4661RK | Halsteren

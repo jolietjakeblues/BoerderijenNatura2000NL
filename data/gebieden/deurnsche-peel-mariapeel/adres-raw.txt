@@ -1,0 +1,12 @@
+Gevonden: 8 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11469 | Nieuwe Peeldijk | 19 | 5966NA | America
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17549 | Kaasweg | 10 | 5759RN | Helenaveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23205 | Haageind | 61 | 5751BB | Deurne
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39520 | Riet | 10 | 5754PG | Deurne
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61022 | Soemeersingel | 127 | 5759RD | Helenaveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62100 | Soemeersingel | 97 | 5759RC | Helenaveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73684 | Soemeersingel | 75 | 5759RC | Helenaveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77439 | Kaasweg | 2 | 5759RN | Helenaveen

@@ -1,0 +1,68 @@
+Gevonden: 64 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11023 | Prelaatweg | 84 A | 4363NJ | Aagtekerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11023 | Prelaatweg | 82 | 4363NJ | Aagtekerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11023 | Prelaatweg | 82 A | 4363NJ | Aagtekerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11500 | Van Tilburghstraat | 50 | 4438AK | Driewegen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12953 | Eversdijkseweg | 7 | 4421RC | Kapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14107 | Dishoekseweg | 30 | 4371NH | Koudekerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17178 | Prelaatweg | 81 | 4363ND | Aagtekerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17243 | Babelweg | 4 | 4357RJ | Domburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17467 | West Langeweg | 3 | 4453TA | 's-Heerenhoek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17501 | Schansstraat | 12 | 4435AJ | Baarland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17957 | Werendijke | 12 | 4374SL | Zoutelande
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19950 | Hollepoldersedijk | 8 | 4454PX | Borssele
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20647 | Bakendorpseweg | 2 | 4435NH | Baarland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21189 | Kerkring | 18 | 4444AB | 's-Heer Abtskerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21338 | Zwaaksedijk | 2 | 4434RD | Kwadendamme
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22705 | Sint Janskerke | 8 | 4374SH | Zoutelande
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22780 | 's-Heerenhoeksedijk | 5 | 4453CD | 's-Heerenhoek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24144 | Prelaatweg | 1 | 4361JB | Westkapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24778 | Prelaatweg | 5 | 4361JB | Westkapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25699 | Roverbergsedijk | 19 | 4586LA | Lamswaarde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26216 | Binnendijk | 5 | 4339PK | Nieuw- en Sint Joosland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28579 | Kleine Huissenspolderweg | 5 | 4543PK | Zaamslag
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29268 | Binnendijk | 5 | 4542RX | Hoek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30105 | Molenweg | 6 | 4543PA | Zaamslag
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30568 | Kloetingseweg | 19 | 4431PD | 's-Gravenpolder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30790 | Pykeswegje | 3 | 4462PC | Goes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31177 | Valkenisseweg | 33 | 4373AR | Biggekerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31222 | Fransjesweg | 2 | 4434NA | Kwadendamme
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31914 | Binnendijk | 3 | 4339PK | Nieuw- en Sint Joosland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32954 | Groenewegje | 3 | 4434RG | Kwadendamme
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33696 | Hoofdweg | 6 | 4411AR | Rilland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33948 | Ritthemsestraat | 56 | 4388JS | Oost-Souburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35135 | Landlustweg | 1 | 4455TK | Nieuwdorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36590 | Nissestelle | 1 | 4443RK | Nisse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36666 | Kerkhofweg | 2 | 4421RD | Kapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39135 | Zuidweg | 24 | 4444ND | 's-Heer Abtskerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39135 | Zuidweg | 26 | 4444ND | 's-Heer Abtskerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39135 | Zuidweg | 28 | 4444ND | 's-Heer Abtskerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39135 | Zuidweg | 30 | 4444ND | 's-Heer Abtskerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40270 | Sint Janskerke | 1 | 4374SH | Zoutelande
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41523 | Hollestelleweg | 1 A | 4441TS | Ovezande
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41585 | Zuidsingel | 16 | 4454BG | Borssele
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43834 | Dorpsstraat | 1 | 4365AL | Meliskerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43834 | Dorpsstraat | 3 | 4365AL | Meliskerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44084 | Jacobus de Waalstraat | 8 | 4586AE | Lamswaarde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44176 | Weelhoekweg | 10 | 4454PE | Borssele
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44747 | Rondepolderdijk | 1 | 4443RG | Nisse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45209 | Kaaiweg | 16 | 4454PN | Borssele
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45790 | Kolaardsweg | 1 | 4441TP | Ovezande
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46633 | Bolwerk | 5 | 4415AA | Oostdijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48778 | Aandijkseweg | 6 | 4543PT | Zaamslag
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49542 | Monsterweg | 60 | 4454AC | Borssele
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50134 | Dauwendaelsestraat | 1 | 4337LA | Middelburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50375 | Oude Graauwsedijk | 25 | 4569PJ | Graauw
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51081 | Paulushoekseweg | 5 | 4438NG | Driewegen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51756 | Veerstraat | 59 | 4543NM | Zaamslag
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52002 | Boomweg | 13 | 4374SJ | Zoutelande
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53763 | Korte Zuidweg | 4 | 4454PV | Borssele
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54614 | Dorpsstraat | 79 | 4413CD | Krabbendijke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59530 | Zwaaksedijk | 6 | 4434RD | Kwadendamme
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60968 | Zanddijk | 17 | 4416PR | Kruiningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61314 | Van Tilburghstraat | 43 | 4438AJ | Driewegen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71947 | 's-Heerenhoeksedijk | 52 | 4441RE | Ovezande
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/76843 | Hellewoudstraat | 1 | 4437AL | Ellewoutsdijk

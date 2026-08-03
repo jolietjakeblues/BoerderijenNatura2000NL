@@ -1,0 +1,18 @@
+Gevonden: 14 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13236 | Daleboutsweg | 2 b | 4328PN | Burgh-Haamstede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28617 | Rampweg | 20 | 4326LK | Noordwelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30388 | Lageweg | 5 | 4328RR | Burgh-Haamstede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30424 | Lokkershofweg | 1 | 4326SE | Noordwelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30970 | Westenschouwenseweg | 2 | 4328RE | Burgh-Haamstede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36607 | Kuijerdamseweg | 33 | 4323LB | Ellemeet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42095 | Lagezoom | 27 | 4325CP | Renesse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54281 | Lageweg | 14 | 4328RT | Burgh-Haamstede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55501 | Hogeweg | 53 | 4328PB | Burgh-Haamstede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57552 | Roelandsweg | 3 b | 4325CR | Renesse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57552 | Roelandsweg | 3 c | 4325CR | Renesse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57552 | Roelandsweg | 3 d | 4325CR | Renesse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59942 | Stoofweg | 42 | 4326SJ | Noordwelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60318 | Wellandweg | 12 | 4326SL | Noordwelle

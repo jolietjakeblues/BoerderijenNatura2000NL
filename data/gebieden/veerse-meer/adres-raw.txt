@@ -1,0 +1,26 @@
+Gevonden: 22 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23025 | Sint Felixweg | 3 | 4493PR | Kamperland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31320 | Veerseweg | 59 | 4351NA | Veere
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37433 | Wagenaarstraat | 51 | 4351BB | Veere
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37433 | Wagenaarstraat | 53 | 4351BB | Veere
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37433 | Wagenaarstraat | 55 | 4351BB | Veere
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38391 | Koningin Emmaweg | 26 | 4354KE | Vrouwenpolder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39064 | Noordweg | 54 | 4356ED | Oostkapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42238 | Van Strienweg | 4 | 4471RH | Wolphaartsdijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47807 | Stekeldijk | 18 | 4493PE | Kamperland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47807 | Stekeldijk | 19 | 4493PE | Kamperland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48210 | Noordweg | 39 | 4356EB | Oostkapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48525 | Oude Rijksweg | 54 | 4472AH | 's-Heer Hendrikskindere
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49548 | Warwijcksestraat | 14 | 4351BE | Veere
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50955 | Dorpsweg | 1 A | 4491EJ | Wissenkerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51546 | Dorpsdijk | 98 | 4491ED | Wissenkerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54233 | Wagenaarstraat | 43 | 4351BB | Veere
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57404 | Baas Huisweg | 14 | 4493NE | Kamperland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57404 | Baas Huisweg | 15 | 4493NE | Kamperland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67084 | Dunoweg | 8 | 4356EK | Oostkapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67089 | Dunoweg | 8 | 4356EK | Oostkapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67271 | Dunoweg | 3 | 4356EJ | Oostkapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67273 | Dunoweg | 3 | 4356EJ | Oostkapelle

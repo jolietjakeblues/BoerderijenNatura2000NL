@@ -1,0 +1,21 @@
+Gevonden: 17 resultaat/resultaten
+
+rm | rmnr | fNaam
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12953 | 23487 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16815 | 23513 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17899 | 23511 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19067 | 23512 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28288 | 23498 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31879 | 23509 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34723 | 23510 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36666 | 23488 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41872 | 522162 | Erfbeplanting
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41872 | 522162 | Tuin
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41872 | 522162 | Keibestrating
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41872 | 522162 | Boomgaard
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41872 | 522162 | Erfinrichting
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41872 | 522162 | Boerderij(M1)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51009 | 23506 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55647 | 23490 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60968 | 32421 | Boerderij (M)

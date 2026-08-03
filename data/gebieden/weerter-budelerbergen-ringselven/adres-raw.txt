@@ -1,0 +1,12 @@
+Gevonden: 8 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17646 | Rietstraat | 26 | 6003PM | Weert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18280 | Dorpsstraat | 44 | 6027PH | Soerendonk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18890 | Oud Boshoven | 18 | 6002NW | Weert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38958 | Kerkstraat | 29 | 6031CE | Nederweert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38958 | Kerkstraat | 31 | 6031CE | Nederweert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47740 | Klein-Schoot | 24 | 6023RB | Budel-Schoot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48457 | Biest | 110 | 6001AS | Weert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48457 | Biest | 108 | 6001AS | Weert

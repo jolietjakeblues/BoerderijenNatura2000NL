@@ -1,0 +1,21 @@
+Gevonden: 17 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11233 | Aijen | 19 | 5854PP | Bergen L
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11557 | Enge Steeg | 6 | 5809EB | Leunen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18522 | Dorpstraat | 7 | 5862AD | Geijsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19790 | Dorpstraat | 5 | 5862AD | Geijsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29238 | Geysterseweg | 33 | 5807AT | Oostrum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29238 | Geysterseweg | 33 A | 5807AT | Oostrum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36932 | Aijen | 21 | 5854PP | Bergen L
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37361 | Beek | 8 | 5815CS | Merselo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41029 | Helderseweg | 31 | 5825CE | Overloon
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45961 | Dorpstraat | 3 A | 5862AD | Geijsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45961 | Dorpstraat | 3 B | 5862AD | Geijsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45961 | Dorpstraat | 3 C | 5862AD | Geijsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45961 | Dorpstraat | 1 | 5862AD | Geijsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45961 | Dorpstraat | 3 | 5862AD | Geijsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57943 | Moleneind | 8 | 5864AA | Meerlo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69753 | Noordsingel | 39 | 5801GJ | Venray
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/79386 | Burggraaf | 2 | 5821BK | Vierlingsbeek

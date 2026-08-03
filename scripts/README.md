@@ -9,58 +9,68 @@ Tot juli 2026 leefde deze pijplijn alleen als losse, ad-hoc scripts in een
 sessie-scratchpad: niet reproduceerbaar, niet controleerbaar, en gevoelig voor
 handmatige fouten (zie hieronder). Dit is de duurzame versie in de repo zelf.
 
-**Reproduceerbaarheidsstatus**: controleerbaar en grotendeels reproduceerbaar,
-niet volledig automatisch reproduceerbaar. Drie stappen vereisen de `rce-cho`
-MCP-tool en handmatig opslaan van tabelresultaten (zie hieronder); de ruwe
-resultaten staan wel in de repo, dus de afgeleide data is auditeerbaar, maar
-iemand zonder diezelfde tool kan de RCE-extractie niet automatisch herhalen.
+**Reproduceerbaarheidsstatus**: volledig automatisch reproduceerbaar zonder
+externe tool. Tot augustus 2026 werd hier gedocumenteerd dat drie stappen de
+`rce-cho` MCP-tool vereisten omdat er "geen publiek, sleutelloos SPARQL-
+endpoint gevonden" zou zijn voor het RCE CHO-endpoint. Dat bleek niet (meer)
+te kloppen: `https://api.linkeddata.cultureelerfgoed.nl/datasets/rce/cho/sparql`
+accepteert gewone POST-aanvragen zonder API-key (zie `scripts/lib/rce-direct.mjs`
+en de kanttekening hieronder over backslash-escaping). Alle drie voormalig
+handmatige stappen zijn hierop overgezet.
 
 ## Volgorde
+
+**Losse stappen** (voor als je zelf wilt sturen of debuggen):
 
 ```
 node scripts/01-fetch-referentiedata.mjs
 node scripts/02-prepare-gebied.mjs "<Natura2000-naam>" <slug>
-# -- handmatige stap, zie hieronder --
+# monumentenquery uitvoeren -> monumenten-raw.txt (zie lib/rce-direct.mjs)
 node scripts/03-classify-monumenten.mjs <slug>
-# -- handmatige stap, zie hieronder --
+# functie- en adresquery uitvoeren -> functie-raw.txt, adres-raw.txt
 node scripts/04-verrijk-monumenten.mjs <slug>
 node scripts/05-build-gebied-data.mjs <slug> "<Weergavenaam>"
-node scripts/06-build-gebied-html.mjs <slug>
-node scripts/07-build-landing-html.mjs
-# -- optioneel, handmatige stap, zie hieronder --
+node scripts/08b-fetch-richtlijn-direct.mjs <slug> "<Natura2000-naam>"
 node scripts/08-verrijk-richtlijn.mjs <slug>
+node scripts/06-build-gebied-html.mjs <slug>
 node scripts/09-bouw-manifest.mjs <slug>
+node scripts/07-build-landing-html.mjs   # één keer na een hele batch gebieden
+```
+
+**Of in één keer**, alle bovenstaande stappen achter elkaar (behalve stap 7,
+die je na een hele batch gebieden zelf draait):
+
+```
+node scripts/bouw-gebied-compleet.mjs "<Natura2000-naam>" <slug> "<Weergavenaam>"
 ```
 
 `node scripts/list-gebieden.mjs` toont de exacte schrijfwijze van alle 162
 `naamN2K`-namen uit de landelijke cache (nodig voor stap 2).
 
-## De drie handmatige stappen
+## Directe RCE-toegang (`scripts/lib/rce-direct.mjs`)
 
-Er is geen publiek, sleutelloos SPARQL-endpoint gevonden voor het RCE
-CHO-endpoint (in tegenstelling tot de Kadaster Kennisgraaf, die wel zo'n
-endpoint heeft). De RCE-query's moeten daarom via de `rce-cho`
-MCP-tool (`query_sparql`) uitgevoerd worden, niet vanuit een los script:
+Ontdekt bij de uitbreiding naar Limburg/Zeeland (augustus 2026): het RCE CHO
+SPARQL-endpoint is gewoon rechtstreeks bevraagbaar met een POST-request
+(`Content-Type: application/sparql-query`), zonder API-key. `runSparql()`
+in deze module doet dat, en `naarPipeTekst()` zet het JSON-resultaat om naar
+hetzelfde `kolom | kolom | ...`-tekstformaat dat de rest van de pijplijn
+verwacht (zelfde format als de eerdere handmatige MCP-tool-output).
 
-1. **Na stap 2**: voer `data/gebieden/<slug>/rce-monumenten-query.sparql` uit.
-   Sla de tabelweergave (kolommen `rm | rmnr | wkt`) op als
-   `data/gebieden/<slug>/monumenten-raw.txt`.
-2. **Na stap 3**: voer `data/gebieden/<slug>/rce-functie-query.sparql` en
-   `rce-adres-query.sparql` uit. Sla ze op als `functie-raw.txt` resp.
-   `adres-raw.txt` in dezelfde map.
-3. **Voor stap 8** (richtlijn-status, optioneel): voer op het losse graph
-   `<https://linkeddata.cultureelerfgoed.nl/graph/natura2000>` een query uit met
-   `dc:title` in een `VALUES`-lijst van de officiële gebiedsnamen, en haal
-   `dc:identifier`, `?s` (de RCE-resource-URI), `ceox:beschermingsrichtlijnCode`,
-   `ceox:vhnAanvulling`, `ceox:siteCodeVogelRichtlijn`,
-   `ceox:siteCodeHabitatRichtlijn`, `ceox:stikstofgevoelig`,
-   `ceox:natura2000Status` en `schema:url` (Wikidata) op. Sla het resultaat
-   op als `data/gebieden/<slug>/richtlijn-raw.txt`
-   (`identifier|s|code|vhnAanvulling|siteCodeVR|siteCodeHR|stikstofgevoelig|status|wikidata`
-   per regel). Zie `scripts/lib/richtlijn.mjs` voor de aggregatielogica.
+**Valkuil: backslashes in de querytekst moeten verdubbeld worden.**
+`\(` is geen geldig SPARQL ECHAR (toegestaan: `\t \n \r \b \f \" \' \\`); een
+compliant parser (waaronder dit endpoint) wijst een query met een kale `\(`
+af. `\\(` parseert wel tot het letterlijke `\(` dat `REGEX()` nodig heeft om
+een teken te escapen (zoals in de bbox-regex-filter). `runSparql()`
+verdubbelt daarom élke backslash in de meegegeven query automatisch, zodat de
+losse `rce-*-query.sparql`-bestanden (met enkele backslash, zoals
+`bbox-regex.mjs` ze schrijft, leesbaar voor mensen) hier zonder aanpassing
+werken. Vergeet dit niet als je zelf een nieuwe query met een regex-filter
+schrijft en rechtstreeks via `fetch()` uitprobeert.
 
-Alle overige stappen (geometrie ophalen, classificatie, BAG-check,
-provincie-toewijzing, HTML genereren) zijn volledig automatisch.
+`scripts/08b-fetch-richtlijn-direct.mjs <slug> "<Natura2000-naam>"` haalt de
+richtlijn-status op via dezelfde route (zoekt op `dc:title` in het losse
+graph `graph/natura2000`, zie ook de sectie hieronder) en schrijft
+`richtlijn-raw.txt` in het formaat dat `scripts/lib/richtlijn.mjs` verwacht.
 
 ## Validatie en CI
 

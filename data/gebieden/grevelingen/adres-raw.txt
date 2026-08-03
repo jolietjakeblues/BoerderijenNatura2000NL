@@ -1,0 +1,32 @@
+Gevonden: 28 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15822 | Heereweg | 28 | 4317AK | Noordgouwe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23315 | Oudelandsedijk | 11 | 3255LN | Oude-Tonge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23370 | Kleiburgseweg | 1 | 3245NC | Sommelsdijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25329 | Hageweg | 1 | 4311NB | Bruinisse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28617 | Rampweg | 20 | 4326LK | Noordwelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30424 | Lokkershofweg | 1 | 4326SE | Noordwelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31219 | Kraaijerdijk | 23 | 3248LC | Melissant
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33337 | Zuidstraat | 5 | 4315AP | Dreischor
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36607 | Kuijerdamseweg | 33 | 4323LB | Ellemeet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41934 | Korteweegje | 28 | 3247BJ | Dirksland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42003 | Kraaijerdijk | 31 | 3248LC | Melissant
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42095 | Lagezoom | 27 | 4325CP | Renesse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42651 | Achterstraat | 3 | 3252AB | Goedereede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45061 | Tweede Weg | 1 | 3248LN | Melissant
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45061 | Tweede Weg | 1 b | 3248LN | Melissant
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45061 | Tweede Weg | 1 a | 3248LN | Melissant
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47158 | Zuidweg | 11 | 4316AA | Zonnemaire
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50796 | Dillingsweg | 12 | 4308NV | Sirjansland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54031 | Kloosterweg | 6 | 4317NH | Noordgouwe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57552 | Roelandsweg | 3 b | 4325CR | Renesse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57552 | Roelandsweg | 3 c | 4325CR | Renesse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57552 | Roelandsweg | 3 d | 4325CR | Renesse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59942 | Stoofweg | 42 | 4326SJ | Noordwelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59982 | Tonisseweg | 1 | 3255LT | Oude-Tonge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60318 | Wellandweg | 12 | 4326SL | Noordwelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60572 | Blindeweg | 2 | 3247KB | Dirksland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60930 | Bosweg | 2 | 3253XA | Ouddorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69137 | Oostdijkseweg | 81 | 3252LM | Goedereede

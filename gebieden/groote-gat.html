@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Groote Gat &middot; Boerderij-rijksmonumenten &amp; Natura 2000</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+  :root{
+    --paper:#F4F7F8; --panel:#FFFFFF; --ink:#16324F; --ink-soft:#4A6579;
+    --blue-mid:#3E6C93; --alert:#D1401F; --line:#C9D6DE;
+    --n2k:#5E7D46; --n2k-bg:#E9F0E6; --n2k-text:#3B5230;
+    --k0:#7A1607; --k1:#D1401F; --k2:#E0703C; --k3:#E5B08E; --k4:#B7C7D2; --k5:#B7C7D2;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{background:var(--paper);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    line-height:1.5;padding:0 0 48px}
+  .wrap{max-width:760px;margin:0 auto;padding:0 16px}
+  .eyebrow{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--blue-mid);font-weight:600}
+  header{padding:18px 0 18px;border-bottom:2px solid var(--ink)}
+  h1{font-family:Palatino,"Palatino Linotype",Georgia,serif;font-size:27px;line-height:1.18;font-weight:700;margin-top:6px}
+  header p{margin-top:8px;font-size:14px;color:var(--ink-soft);
+    text-align:justify;-webkit-hyphens:auto;hyphens:auto}
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:16px 0}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:10px}
+  .stat .num{font-family:Palatino,Georgia,serif;font-size:20px;font-weight:700;line-height:1.05}
+  .stat.alert .num{color:var(--alert)}
+  .stat.neutral .num{color:var(--ink-soft)}
+  .stat .lbl{font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-soft);margin-top:3px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:14px;margin:14px 0}
+  .badge-richtlijn{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.04em;
+    text-transform:uppercase;padding:2px 8px;background:var(--n2k-bg);color:var(--n2k-text);border-radius:8px}
+  .richtlijn-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:8px}
+  .richtlijn-meta{font-size:12px;color:var(--ink-soft)}
+  .dk-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px}
+  .dk-item{background:var(--paper);border:1px solid var(--line);border-radius:2px;padding:8px 10px}
+  .dk-item b{font-family:Palatino,Georgia,serif;font-size:18px;display:block}
+  .dk-item span{font-size:11px;color:var(--ink-soft)}
+  .detail{display:none;font-size:12px;color:var(--ink)}
+  .detail.on{display:block}
+  .detail dl{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;margin-top:6px}
+  .detail dt{color:var(--ink-soft)}
+  .detail dd{margin:0}
+  .mon-list{margin-top:12px;font-size:12px}
+  .mon-list summary{cursor:pointer;color:var(--blue-mid);font-weight:600}
+  .mon-list table{width:100%;border-collapse:collapse;margin-top:8px;font-size:12px}
+  .mon-list th,.mon-list td{text-align:left;padding:4px 8px;border-bottom:1px solid var(--line)}
+  .mon-list th{color:var(--ink-soft);font-size:10px;letter-spacing:.04em;text-transform:uppercase}
+  .card h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue-mid);margin-bottom:8px}
+  #map{width:100%;height:480px;border:1px solid var(--line);border-radius:2px;background:var(--paper)}
+  .leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--ink);color:#fff}
+  .leaflet-popup-content{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:12px;margin:8px 10px}
+  .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:11px;color:var(--ink-soft);margin-top:8px}
+  .legend span{display:inline-flex;align-items:center;gap:5px}
+  .sw{width:9px;height:9px;border-radius:50%}
+  .sq{width:11px;height:11px;border-radius:2px}
+  .chips{display:flex;gap:8px;margin:10px 0 2px;flex-wrap:wrap}
+  .chip{padding:7px 12px;border:1.5px solid var(--ink);background:var(--panel);color:var(--ink);
+    font-size:12px;font-weight:600;cursor:pointer;border-radius:2px}
+  .chip.on{background:var(--ink);color:#fff}
+  .chip:focus-visible{outline:3px solid var(--alert);outline-offset:2px}
+  footer{margin-top:22px;font-size:12px;color:var(--ink-soft);border-top:1px solid var(--line);padding-top:14px}
+  footer p{margin-bottom:8px}
+  @media (max-width:480px){ h1{font-size:21px} .stats{grid-template-columns:repeat(3,1fr)} #map{height:360px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p style="font-size:13px;margin-top:14px"><a href="../index.html" style="color:var(--blue-mid)">&larr; terug naar overzicht alle Natura 2000-gebieden</a></p>
+  <header>
+    <div class="eyebrow">RCE &times; Kadaster &times; Natura 2000</div>
+    <h1>Groote Gat</h1>
+    <div class="richtlijn-row">
+      <span class="badge-richtlijn">Habitatrichtlijn</span>
+      <span class="richtlijn-meta">Natura 2000-gebied nr. 124 &middot; sitecode NL2003019 &middot; stikstofgevoelig: ja</span>
+    </div>
+    <p>(nog geen beschrijving toegevoegd aan scripts/lib/gebieden-beschrijving.mjs) <a href="https://www.natura2000.nl/gebieden" style="color:var(--blue-mid)" target="_blank" rel="noopener">Bron: natura2000.nl &rarr;</a> &middot; <a href="https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/28421ae2-1b99-4dae-b067-1f975facfd4d" style="color:var(--blue-mid)" target="_blank" rel="noopener">RCE linked data &rarr;</a> &middot; <a href="http://www.wikidata.org/entity/Q1810714" style="color:var(--blue-mid)" target="_blank" rel="noopener">Wikidata &rarr;</a></p>
+    <p>Rijksmonumentale boerderijen binnen dit Natura 2000-gebied of binnen 5&nbsp;km
+    van de gebiedsrand (een gekozen selectievenster, geen ecologische invloedssfeer), met een
+    BAG-industriefunctie-indicatie op basis van BAG-gebruiksdoel (een aanwijzing, geen bewijs van
+    actieve bedrijfsvoering).</p>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="card">
+    <h2>Kaart &middot; elk punt is een rijksmonumentale boerderij</h2>
+    <div class="chips">
+      <button class="chip on" id="fAll" aria-pressed="true">Alle 2</button>
+      <button class="chip" id="fJa" aria-pressed="false">Alleen BAG-industriefunctie-indicatie</button>
+    </div>
+    <div id="map" aria-label="Kaart van het Natura 2000-gebied Groote Gat met rijksmonumentale boerderijen, met een OpenStreetMap-ondergrond"></div>
+    <div class="legend">
+      <span><i class="sq" style="background:rgba(94,125,70,.3);border:1px solid var(--n2k)"></i>Natura 2000</span>
+      <span><i class="sw" style="background:var(--k0)"></i>erin</span>
+      <span><i class="sw" style="background:var(--k1)"></i>&lt;250 m</span>
+      <span><i class="sw" style="background:var(--k2)"></i>&lt;1 km</span>
+      <span><i class="sw" style="background:var(--k3)"></i>&lt;5 km</span>
+    </div>
+    <p style="font-size:12px;color:var(--ink-soft);margin-top:8px">Klik op een punt voor details ("waarom staat
+    dit punt hier?"), beweeg eroverheen voor een korte hint. Sleep om te verschuiven, scroll of gebruik de
+    +/&minus;-knoppen om in te zoomen op de werkelijke ligging. Bij omrande punten (donkerblauw, effen) is
+    eenduidig een industriefunctie in de BAG aangetroffen. Een dubbele donkerblauwe rand betekent: wel
+    industriefunctie gevonden, maar niet bij alle adressen van dit monument eenduidig (zie klik-detail).
+    Een gestippelde grijze rand: kon niet in de BAG worden gecontroleerd (geen adres bekend of geen match
+    gevonden). Op basis van de BAG-koppeling is hierover geen uitspraak mogelijk, dit is geen bevestiging
+    van afwezige bedrijfsvoering. Kaartondergrond: &copy; <a href="https://carto.com/attributions" target="_blank" rel="noopener" style="color:var(--blue-mid)">CARTO</a>
+    &amp; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener" style="color:var(--blue-mid)">OpenStreetMap</a>-auteurs.</p>
+    <div class="detail" id="detail"></div>
+    <details class="mon-list">
+      <summary>Lijst van alle 2 monumenten (toetsenbord- en schermlezer-toegankelijk)</summary>
+      <table>
+        <thead><tr><th>Rm-nr</th><th>Plaats</th><th>Afstand</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>31507</td><td>Oostburg</td><td>2.602 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>31547</td><td>Waterlandkerkje</td><td>2.641 m</td><td>Industriefunctie aangetroffen (eenduidig)</td></tr>
+        </tbody>
+      </table>
+    </details>
+  </div>
+
+  
+  <div class="card">
+    <h2>Datakwaliteit &middot; peildatum 2026-08-03</h2>
+    <div class="dk-grid">
+      <div class="dk-item"><b>1</b><span>industriefunctie aangetroffen</span></div>
+      <div class="dk-item"><b>0</b><span>industriefunctie bij deel van adressen</span></div>
+      <div class="dk-item"><b>1</b><span>geen industriefunctie aangetroffen</span></div>
+      <div class="dk-item"><b>0</b><span>geen adres bekend in RCE</span></div>
+      <div class="dk-item"><b>0</b><span>geen match in BAG</span></div>
+      <div class="dk-item"><b>0</b><span>BAG-bevraging mislukt</span></div>
+      <div class="dk-item"><b>0</b><span>monumenten met meerdere adressen</span></div>
+    </div>
+  </div>
+
+  <footer>
+    <p><b>Methodiek.</b> Monumenten: RCE CHO-endpoint, rijksmonumenten met oorspronkelijke functie
+    Boerderij (M/M1), binnen 5&nbsp;km van of daadwerkelijk binnen het Natura 2000-gebied. Natura 2000-geometrie:
+    officiële landelijke WFS (service.pdok.nl/rvo/natura2000). Afstand: monumentpunt tot de daadwerkelijke
+    gebiedsrand. Provincie: point-in-polygon tegen de PDOK-bestuurlijke grenzen. BAG-industriefunctie-indicatie:
+    BAG-gebruiksdoel (open WFS bag:verblijfsobject), gematcht op postcode en huisnummer; industriefunctie
+    op een boerderijadres geldt als BAG-industriefunctie-indicatie: een aanwijzing, geen bewijs van
+    actieve agrarische bedrijfsvoering. Monumenten met uitsluitend woonfunctie zijn conservatief niet als
+    zodanig geteld; dat betekent een afwezige industriefunctie-aanwijzing, geen bevestiging dat er geen
+    bedrijf is. Monumenten zonder BAG-adres in RCE of zonder match in de BAG-zoekbox staan apart als
+    "BAG niet te controleren". Peildatum 2026-08-03.</p>
+    <p><b>Kanttekeningen.</b> Dit is een blootstellingskaart: er is g&eacute;&eacute;n emissiedata (AERIUS/RAV)
+    verwerkt. De industriefunctie-vlag is een indicatie, geen bewijs van actieve bedrijfsvoering of
+    stikstofuitstoot. Geen van de statuscategorie&euml;n op deze pagina is een uitspraak over daadwerkelijke
+    bedrijfsvoering, alleen over wat wel of niet in de BAG is aangetroffen.</p>
+  </footer>
+</div>
+<script id="data" type="application/json">{"gebied":"Groote Gat","peildatum":"2026-08-03","n":2,"ja":1,"onbekend":0,"provCounts":{"Zeeland":2},"provJaCounts":{"Zeeland":1},"datakwaliteit":{"industrieAangetroffen":1,"industrieDeelsAangetroffen":0,"geenIndustrieAangetroffen":1,"geenAdres":0,"geenMatch":0,"bagMislukt":0,"meerdereAdressen":0},"bbox":[3.43444200483232,51.30432296213102,3.57180866945595,51.33985237916971],"n2000":[{"naam":"Groote Gat","rings":[[[3.5176767708098016,51.324569658519565],[3.517618910929564,51.3245827756079],[3.5175708144618083,51.32459333066189],[3.5174270420020224,51.324619862217865],[3.5172315976067146,51.324643146081335],[3.5170628899160117,51.324658903205155],[3.5168053464689324,51.32467327162639],[3.515351742048523,51.324718012284215],[3.5146235394370158,51.324750383795944],[3.5144963073163726,51.3247562401946],[3.514430510243036,51.32475911258066],[3.5144176005558068,51.324777974245166],[3.5142920637471136,51.32478020566007],[3.5141257348378914,51.32478455162142],[3.513973652594484,51.32479025220517],[3.513773489492393,51.32479549000565],[3.513302914327846,51.32480944077782],[3.512883599500035,51.324820285942096],[3.5126481398918816,51.324827600446284],[3.511785286643728,51.32485237916971],[3.5117852648167807,51.32485224665438],[3.511743643568371,51.32477486010798],[3.511462354403787,51.3246795797722],[3.511405387378391,51.324648723729695],[3.511267886643486,51.32454266087099],[3.5111907954053367,51.32449276985211],[3.5111452281359488,51.32447519596119],[3.511001944247639,51.324437335878315],[3.51098713719843,51.324434290355114],[3.51092894122902,51.324433352504],[3.51089301339842,51.32443558040474],[3.510809067644307,51.32444358236503],[3.5107393516747307,51.324468655050595],[3.510671473909936,51.32448533660345],[3.5105816734147504,51.32449043802783],[3.510270298809039,51.3245097431122],[3.5099734991519096,51.32453770219421],[3.5099194344037694,51.32454525117237],[3.509810114467015,51.32458933037032],[3.509632071001707,51.32467065927253],[3.509589598485276,51.32468681486731],[3.5094839918279166,51.32471317806904],[3.509425336055409,51.324723458785584],[3.50941490651715,51.32475524993873],[3.5093982331633997,51.32480273081471],[3.5092293787488353,51.32477869924643],[3.509145136098327,51.324763241096704],[3.509112552813546,51.32475726171445],[3.5090523895285046,51.324746221570464],[3.5086925585047317,51.32468200261495],[3.508445076929502,51.32463652602332],[3.5084295120413422,51.324635023342],[3.5083639769115575,51.324628723279275],[3.5082915710206053,51.32462207943741],[3.5078676580374024,51.32459622473101],[3.507666610455925,51.32458496671812],[3.5075423655870046,51.32457776513863],[3.5069526352031377,51.32454624407122],[3.506496864210707,51.324521134848005],[3.504842360282486,51.32442998699361],[3.5029891214241475,51.324328378934254],[3.502003019524107,51.32427356402776],[3.5010647862500184,51.32422195723389],[3.501024243931744,51.324219752213885],[3.5005418543044793,51.32419184086283],[3.4999552478074536,51.32415406919095],[3.497429510214886,51.3239948983002],[3.496444585784911,51.323932009207724],[3.4956550046005663,51.32388188155561],[3.4946389649436362,51.323817924045926],[3.4943429248858533,51.32379844908459],[3.4940990578970887,51.323783199581555],[3.493914588294297,51.32377332998641],[3.493752863416773,51.32376413030415],[3.493766765978985,51.32367449631123],[3.493778273474577,51.32360492134331],[3.4937775651143963,51.323604874758885],[3.493780962035867,51.3235829718349],[3.4933828117123964,51.323562209511955],[3.493381167537438,51.32357893078378],[3.493354512838947,51.3235771863366],[3.4933406591932394,51.32366634817123],[3.493325261982158,51.32375636419283],[3.4930249028254297,51.32379199829808],[3.4927369051230786,51.32387042389572],[3.492617577909784,51.323920566575204],[3.492487794172851,51.32397987858199],[3.492374471977734,51.324053376991436],[3.4922778760045685,51.32411730173405],[3.4922393611555966,51.32414542735785],[3.4921422495056085,51.324219010475865],[3.4920745394986876,51.32426764619822],[3.492071635906425,51.324269912260846],[3.492059601858669,51.324279304136084],[3.4920563429615123,51.324237639969354],[3.492059157052103,51.324217737039326],[3.492097840680357,51.324060747597244],[3.4921043284390674,51.323974597468556],[3.4920841936766145,51.323896443736885],[3.49200749720143,51.32377044998671],[3.4919902645508243,51.323712288622254],[3.4918642152176265,51.323768117462365],[3.491840090520534,51.323644941231],[3.491813831079891,51.323537467699026],[3.4918080093692736,51.32339604864905],[3.4917971581056393,51.32323459897105],[3.4917821298380494,51.32317394884642],[3.4917806211937616,51.32316991349759],[3.4917803273343604,51.323118174866],[3.4917789642666484,51.32311405467667],[3.4917231027388977,51.323044512274976],[3.4916931257896446,51.322992684155246],[3.4916201792251775,51.322882483235375],[3.4915473038813274,51.32280627936461],[3.4915059966372017,51.32277474140664],[3.491473534777266,51.32273512809559],[3.491427704315551,51.32272090102851],[3.4913994929677914,51.322703008509436],[3.491312975098329,51.32267406443958],[3.4912347386253337,51.32265621313631],[3.4912098113388264,51.32265396946236],[3.4911064102994316,51.32262243964803],[3.4910763480215494,51.32261309320958],[3.4910767470983264,51.32257095811615],[3.4910763329548242,51.322561951598324],[3.4909560746672588,51.322559554142224],[3.490955326108881,51.32260208633125],[3.4908392625523597,51.3226006076075],[3.490746276671369,51.32260033455022],[3.4906761536546305,51.32259959682428],[3.490572690382162,51.32259987131051],[3.490465329346107,51.322599848441214],[3.4903743419411235,51.32259920306114],[3.490272217132451,51.32259889670532],[3.490141693912111,51.32259870202244],[3.49000991092704,51.32259805600541],[3.4899009867904467,51.32259697320288],[3.489839024171486,51.322596439889026],[3.48981516406156,51.322597076872626],[3.4897324293536602,51.32260502402194],[3.4896469302579725,51.32261516655919],[3.489558820133825,51.32262543460207],[3.4894633640106596,51.32263838076572],[3.4894130440942974,51.32264448340433],[3.489383463430388,51.322647840264516],[3.4893660502966406,51.32264965215525],[3.489300577897909,51.322653126074876],[3.4891621631217977,51.322659068223835],[3.4890103019135523,51.322666114413195],[3.4888505761809387,51.322673569814924],[3.4886715304480376,51.32268217543511],[3.4885114546576967,51.32269004093783],[3.4884803796250226,51.322691303518624],[3.4884429303747617,51.32269506226657],[3.4884127113792345,51.322698204379556],[3.4883327215950395,51.322703965593064],[3.4882448736485725,51.32271015600442],[3.4881561064199125,51.3227155051009],[3.487975863741573,51.32272735468593],[3.4878078680907003,51.322736643631636],[3.487724676491329,51.32274130925979],[3.487694181069618,51.32274381552366],[3.4876661632472015,51.32274823228913],[3.487641337131742,51.32275374225879],[3.4876035759490804,51.32276262129817],[3.487555348552147,51.32277674829634],[3.48748613212879,51.322797726314384],[3.4874250413633505,51.32281518662805],[3.4871322545837393,51.32281297355383],[3.486898501570758,51.322807475205714],[3.486879518277761,51.32280677244575],[3.4868481997768837,51.32274123802248],[3.4867938939825547,51.32263063692185],[3.486760534278642,51.3225653685447],[3.4867069952139116,51.32254369885364],[3.486696168949032,51.322279867121345],[3.486674344200234,51.32184642434055],[3.486771688867459,51.321845980633654],[3.4867813321588734,51.32181427648056],[3.4868029093298007,51.32173905120354],[3.486828075226411,51.32167490002389],[3.4868457288034125,51.32163337201805],[3.486875571315235,51.32156479098323],[3.486899658770546,51.32151522053627],[3.486916682199056,51.321481909709256],[3.4869419487694437,51.32143603843261],[3.4869570602273425,51.3214090600745],[3.486983123097576,51.321372334634496],[3.487022086210032,51.32131864014361],[3.4870445967461525,51.32129004911907],[3.4870626313514785,51.321263163413974],[3.4871154437899405,51.321199796976565],[3.4872108804125848,51.32109198970352],[3.487227053830862,51.3210705238173],[3.4872807294979564,51.32099531883747],[3.487329701529439,51.32092453336842],[3.4874337460002067,51.320818800321085],[3.4875457504009377,51.320704161330184],[3.4875991132719615,51.320652687698036],[3.4877459754692426,51.32053996412839],[3.487863336921378,51.320451064779256],[3.4880105805003936,51.32035295894584],[3.488219098203241,51.320214602719936],[3.488500954918314,51.32003083405174],[3.4887448251926325,51.3198679062731],[3.4889025582323367,51.319765537957196],[3.4890298179220935,51.31966137788759],[3.4891381952767935,51.31957587139234],[3.4892932437591866,51.31941128750441],[3.489372665206549,51.31932296213102],[3.4894414645237517,51.319335141480884],[3.4902180958152904,51.31947052367811],[3.490302275921933,51.31948538245558],[3.4904001569850824,51.319505497451786],[3.4905418054979465,51.31954269137434],[3.4907051790110906,51.31959920780098],[3.4908892861411145,51.319678960359006],[3.49160429007157,51.319988675608826],[3.4919322395044268,51.32013175575212],[3.492312148900329,51.32029518710363],[3.4923295405035057,51.32027029780016],[3.4923594602390526,51.32028229029543],[3.4924893496057217,51.32033673250984],[3.492612024065303,51.32038188386578],[3.492736448903561,51.320422750697254],[3.49283175029671,51.320446328033555],[3.4929153499175376,51.32046836716539],[3.4930548152737595,51.32049257572217],[3.4931513756388703,51.32050655314509],[3.4934760535834526,51.32053485149433],[3.493890350943176,51.32056451657049],[3.494061657441344,51.320575214341815],[3.4942653153561647,51.32058428011621],[3.4945098457620873,51.32060423345493],[3.4946129487656927,51.32060984491976],[3.494705721909549,51.320617270833544],[3.4949560802389628,51.32064576839832],[3.495153528387718,51.320669746268194],[3.4957406254834518,51.32074348065922],[3.4961550879663115,51.320786537462695],[3.496398062813593,51.320809452772004],[3.4973739569519355,51.32088436821358],[3.498020754062106,51.32093028968847],[3.4981468965770937,51.32094015769432],[3.4983878360475438,51.32096726505616],[3.4986048828471445,51.320996141198876],[3.4986751390788027,51.321007799218016],[3.4987415475009858,51.321015348933386],[3.4988414554254246,51.321024701605445],[3.499980235578731,51.32110601317934],[3.5001299048663213,51.321116081462904],[3.5002707104954016,51.32112196004821],[3.5003704454241795,51.32112501504376],[3.5004535343071725,51.32112474242243],[3.500620052123527,51.321122945604394],[3.5007324967910787,51.32110257044578],[3.500750307221043,51.32109934456001],[3.5009005192187663,51.32109278684289],[3.5009922840434156,51.321090857158836],[3.5011025191759098,51.32108994680095],[3.501287357237673,51.32109617608823],[3.5017752812471583,51.32112215056105],[3.5023645533009646,51.32115390140941],[3.503267671619475,51.32120205411131],[3.5051881313766904,51.321305130803886],[3.5058887105351784,51.32134144930406],[3.506274032877614,51.32136080008371],[3.506492569303774,51.321377997487446],[3.5070606582419956,51.32144705439307],[3.5072154214857543,51.32146240953198],[3.5073064588688965,51.32145902190183],[3.5073246266227076,51.32146119433085],[3.507326467576274,51.32146119348891],[3.5073249207847152,51.32148638484905],[3.5074386737289385,51.321480128141914],[3.5075439124028764,51.321468074184594],[3.507640629065185,51.32145390008913],[3.5077481529046244,51.321435226096476],[3.507858947175312,51.32141022317125],[3.508042568847747,51.321358794115454],[3.5080170873204373,51.32140874084967],[3.5079221842499595,51.32162898085874],[3.5076879685861253,51.32215772150374],[3.50752726370118,51.32251954061657],[3.5074215119973955,51.32275807299313],[3.5076203594677597,51.32278652227225],[3.5079533770499127,51.32283417266933],[3.5079836457152576,51.3228507636685],[3.5080212320116515,51.322849563218334],[3.508081374508764,51.32286722078113],[3.5081456106471665,51.32287779674495],[3.5082444526798366,51.32287939201176],[3.5082468956390116,51.32287968767508],[3.5082898708275767,51.32288489010478],[3.5083070433214405,51.32289299818058],[3.5087301627242855,51.32290985063659],[3.509049851945449,51.32290546919391],[3.509278704897631,51.32289008252593],[3.5095455713126844,51.32287531748625],[3.5098194507508347,51.32287496019739],[3.5101387481992554,51.322880108621845],[3.510358029336821,51.3229122613631],[3.510473275476113,51.32294488547949],[3.510500905998503,51.32295271227252],[3.5107402776590253,51.32305194434019],[3.510856094308176,51.323090610047636],[3.511491827412544,51.32322796606169],[3.5121454912462795,51.32291290965569],[3.5123928774020943,51.322546315565425],[3.512346072772465,51.32239997852923],[3.5125209002897244,51.32212984244276],[3.5131430953504834,51.32203560952586],[3.513171957232916,51.322032262949506],[3.513186755523933,51.32202899657073],[3.5131377174196934,51.32188885989183],[3.5131599145954753,51.32188847996551],[3.513635055713289,51.32185908561557],[3.514839222473394,51.321753695638215],[3.514916866820031,51.32174942943674],[3.51493275689229,51.321748858733656],[3.515090884271949,51.32174314993653],[3.5153053524641598,51.321754690166564],[3.5159537134556422,51.32181563925474],[3.51667293185386,51.32187008378055],[3.5170149494220224,51.32188196367149],[3.5183357471193752,51.321940106461554],[3.5187799601633007,51.32195965978356],[3.519001521763017,51.32197087097173],[3.5190114330114715,51.32233104161773],[3.5190329793435198,51.32239577886368],[3.5190394278531616,51.32243039319843],[3.5190354048272123,51.32249688150988],[3.5190043757658427,51.32254725575961],[3.5189747745645445,51.322642423078356],[3.518965212405691,51.322676900968744],[3.5189484483330196,51.32277605217776],[3.518931665746236,51.32294190250405],[3.518965268724966,51.322940941184974],[3.5189461055209863,51.323363466985775],[3.518936642974417,51.32337419300524],[3.51893173329085,51.323382288576695],[3.5189272609564437,51.32342785097892],[3.5189037187569343,51.323651998308826],[3.518895625698033,51.3237303591738],[3.5188460250314093,51.32373091360828],[3.5188188990238634,51.32383254897867],[3.5187527156454594,51.3239295135128],[3.5186770785428183,51.32401528299292],[3.518601856035519,51.3240946594901],[3.5184859559765655,51.32419399873491],[3.5184017464998343,51.32425486101788],[3.518283085793103,51.32432946815231],[3.51816673607071,51.32439134455656],[3.5180419579555835,51.324448429243745],[3.517911893776879,51.32449714848182],[3.517794141639745,51.32453613772084],[3.5176767708098016,51.324569658519565]]]}],"mons":[{"nr":"31507","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16080","functie":"Boerderij","wpl":"Oostburg","straat":"Brugsevaart","huisnr":"5","prov":"Zeeland","k":3,"d":2602,"erin":false,"afstandTotRand":2602,"lon":3.44944200483232,"lat":51.324578282937615,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Brugsevaart","huisnr":"5","postcode":"4501NE","woonplaats":"Oostburg","gebruiksdoel":"woonfunctie"}],"matched":[{"huisnummer":5,"huisletter":"","postcode":"4501NE","gebruiksdoel":"woonfunctie"}]},{"nr":"31547","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17955","functie":"Boerderij","wpl":"Waterlandkerkje","straat":"Turkeijeweg","huisnr":"1","prov":"Zeeland","k":3,"d":2641,"erin":false,"afstandTotRand":2641,"lon":3.55680866945595,"lat":51.31985127490992,"ja":true,"bag":"ok","status":"industrie_aangetroffen","addressen":[{"straat":"Turkeijeweg","huisnr":"1","postcode":"4508NW","woonplaats":"Waterlandkerkje","gebruiksdoel":"industriefunctie,woonfunctie"}],"matched":[{"huisnummer":1,"huisletter":"","postcode":"4508NW","gebruiksdoel":"industriefunctie,woonfunctie"}]}],"richtlijn":{"gebiedsnummer":"124","label":"Habitatrichtlijn","badge":"HR","heeftGroeveOnderdeel":false,"siteCodeVogelrichtlijn":null,"siteCodeHabitatrichtlijn":"NL2003019","stikstofgevoelig":true,"natura2000Status":"Natura 2000-besluit 2010","wikidata":"http://www.wikidata.org/entity/Q1810714","rceUris":["https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/28421ae2-1b99-4dae-b067-1f975facfd4d"]}}</script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const D = JSON.parse(document.getElementById('data').textContent);
+const $ = id => document.getElementById(id);
+const fmt = n => n.toLocaleString('nl-NL');
+const KC = ['#7A1607','#D1401F','#E0703C','#E5B08E','#B7C7D2','#B7C7D2'];
+const KN = ['erin','<250 m','<1 km','<5 km','<25 km','\u226525 km'];
+let filterJa = false;
+
+$('stats').innerHTML = `
+  <div class="stat"><div class="num">${fmt(D.n)}</div><div class="lbl">rijksmonumentale boerderijen</div></div>
+  <div class="stat alert"><div class="num">${fmt(D.ja)}</div><div class="lbl">BAG-industriefunctie-indicatie</div></div>
+  <div class="stat neutral"><div class="num">${fmt(D.onbekend)}</div><div class="lbl">BAG niet te controleren</div></div>`;
+
+const map = L.map('map', { scrollWheelZoom: false });
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &copy; OpenStreetMap contributors',
+  maxZoom: 19
+}).addTo(map);
+const [bx0,by0,bx1,by1] = D.bbox;
+map.fitBounds([[by0,bx0],[by1,bx1]], { padding: [10,10] });
+
+const n2000Layer = L.layerGroup().addTo(map);
+D.n2000.forEach(g => g.rings.forEach(ring => {
+  L.polygon(ring.map(([lon,lat]) => [lat,lon]), {
+    color: '#5E7D46', weight: 1, fillColor: '#5E7D46', fillOpacity: 0.28, interactive: false
+  }).addTo(n2000Layer);
+}));
+
+const STATUS_LABEL = {
+  industrie_aangetroffen: 'Industriefunctie aangetroffen (eenduidig)',
+  industrie_deels_aangetroffen: 'Industriefunctie aangetroffen bij een deel van de adressen',
+  geen_industrie_aangetroffen: 'Geen industriefunctie aangetroffen',
+  geen_adres: 'BAG niet te controleren \u2014 geen adres bekend in RCE',
+  geen_match: 'BAG niet te controleren \u2014 geen match gevonden',
+  bag_mislukt: 'BAG niet te controleren \u2014 bevraging mislukt'
+};
+const detail = $('detail');
+function toonDetail(m){
+  const adressenHtml = (m.addressen||[]).map((a,i)=>
+    `<dt>adres ${i+1}</dt><dd>${a.straat} ${a.huisnr}, ${a.postcode} ${a.woonplaats}${a.gebruiksdoel ? ', gebruiksdoel: '+a.gebruiksdoel : ', geen BAG-match'}</dd>`
+  ).join('');
+  detail.innerHTML = `<dl>
+    <dt>rijksmonumentnummer</dt><dd>${m.nr}${m.rm ? ` (<a href="${m.rm}" target="_blank" rel="noopener" style="color:var(--blue-mid)">RCE-bron &rarr;</a>)` : ''}</dd>
+    <dt>oorspronkelijke functie</dt><dd>${m.functie||'onbekend'}</dd>
+    <dt>ligging</dt><dd>${m.erin ? 'binnen het Natura 2000-gebied' : `${fmt(m.afstandTotRand)} m van de gebiedsrand`} \u00b7 ${KN[m.k]}-klasse \u00b7 ${m.prov}</dd>
+    <dt>status</dt><dd>${STATUS_LABEL[m.status]||m.status}</dd>
+    ${adressenHtml}
+    <dt>peildatum</dt><dd>2026-08-03</dd>
+  </dl>`;
+  detail.classList.add('on');
+}
+
+const monLayer = L.layerGroup().addTo(map);
+function renderMarkers(){
+  monLayer.clearLayers();
+  [...D.mons].sort((a,b)=>b.k-a.k).forEach(m=>{
+    if(filterJa && !m.ja) return;
+    const r = m.k<=1 ? 5 : m.k===2 ? 4.4 : 3.8;
+    const marker = L.circleMarker([m.lat,m.lon], { radius:r, fillColor:KC[m.k], fillOpacity:0.9, weight:1, color:KC[m.k] });
+    if(m.status==='industrie_deels_aangetroffen'){
+      marker.setStyle({color:'#16324F', weight:1.3});
+      L.circleMarker([m.lat,m.lon], { radius:r+2.2, fill:false, color:'#16324F', weight:1.3, interactive:false }).addTo(monLayer);
+    } else if(m.ja){
+      marker.setStyle({color:'#16324F', weight:1.3});
+    } else if(m.bag!=='ok'){
+      marker.setStyle({color:'#8A8A8A', weight:1, dashArray:'2,2'});
+    }
+    marker.bindTooltip(
+      `rm ${m.nr} \u00b7 ${m.straat||''} ${m.huisnr||''}, ${m.wpl||''} \u00b7 ${m.prov} \u00b7 ${KN[m.k]} van Groote Gat`+
+      (m.d>0 ? ` (${fmt(m.d)} m)` : '') + (m.ja ? ' \u00b7 BAG-industriefunctie-indicatie' : (m.bag!=='ok' ? ' \u00b7 BAG niet te controleren' : ''))
+    );
+    marker.on('click', ()=>toonDetail(m));
+    marker.addTo(monLayer);
+  });
+}
+renderMarkers();
+
+if($('fAll')){
+  $('fAll').onclick=()=>{filterJa=false;$('fAll').classList.add('on');$('fAll').setAttribute('aria-pressed','true');$('fJa').classList.remove('on');$('fJa').setAttribute('aria-pressed','false');renderMarkers();};
+  $('fJa').onclick=()=>{filterJa=true;$('fJa').classList.add('on');$('fJa').setAttribute('aria-pressed','true');$('fAll').classList.remove('on');$('fAll').setAttribute('aria-pressed','false');renderMarkers();};
+}
+window.addEventListener('resize',()=>map.invalidateSize());
+</script>
+</body>
+</html>

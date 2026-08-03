@@ -1,0 +1,10 @@
+Gevonden: 6 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25699 | Roverbergsedijk | 19 | 4586LA | Lamswaarde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44084 | Jacobus de Waalstraat | 8 | 4586AE | Lamswaarde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48778 | Aandijkseweg | 6 | 4543PT | Zaamslag
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50375 | Oude Graauwsedijk | 25 | 4569PJ | Graauw
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51756 | Veerstraat | 59 | 4543NM | Zaamslag
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71626 | Koning Willem III-weg | 4 | 4543RD | Zaamslag

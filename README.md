@@ -18,11 +18,13 @@ gebied "toebehoort", en kan elk gebied apart geverifieerd worden voordat het vol
 toegevoegd. Provincie is in deze opzet een **weergavelaag** (achteraf bepaald via een
 point-in-polygon-toets tegen de officiële PDOK-provinciegrenzen), geen zoekgrens.
 
-## Status: 25 van de 162 Natura 2000-gebieden verwerkt
+## Status: 53 van de 162 Natura 2000-gebieden verwerkt
 
 Nederland telt 162 Natura 2000-gebieden (bron: PDOK/RVO, waarvan 4 mariene gebieden in de
 Exclusieve Economische Zone op de Noordzee, buiten scope voor dit project). Hiervan zijn er tot nu
-toe 25 verwerkt:
+toe 53 verwerkt:
+
+### Eerste ronde (Gelderland/Achterhoek/IJssel en validatieprovincies)
 
 | Gebied | Provincie(s) | Boerderijen | BAG-industriefunctie-indicatie | BAG niet te controleren |
 |---|---|---:|---:|---:|
@@ -51,22 +53,56 @@ toe 25 verwerkt:
 | [Swalmdal](gebieden/swalmdal.html) | Limburg | 22 | 4 | 1 |
 | [Roerdal](gebieden/roerdal.html) | Limburg | 31 | 4 | 0 |
 | [Geleenbeekdal](gebieden/geleenbeekdal.html) | Limburg | 296 | 50 | 4 |
-| **Totaal (25 gebieden)** | | **1130** | **179** | **12** |
+
+### Tweede ronde: Limburg en Zeeland, zuid naar noord
+
+| Gebied | Provincie(s) | Boerderijen | BAG-industriefunctie-indicatie | BAG niet te controleren |
+|---|---|---:|---:|---:|
+| [Noorbeemden & Hoogbos](gebieden/noorbeemden-hoogbos.html) | Limburg | 142 | 19 | 1 |
+| [Savelsbos](gebieden/savelsbos.html) | Limburg | 235 | 35 | 3 |
+| [Geuldal](gebieden/geuldal.html) | Limburg | 599 | 74 | 10 |
+| [Sint Pietersberg & Jekerdal](gebieden/sint-pietersberg-jekerdal.html) | Limburg | 65 | 13 | 2 |
+| [Bemelerberg & Schiepersberg](gebieden/bemelerberg-schiepersberg.html) | Limburg | 220 | 36 | 3 |
+| [Kunderberg](gebieden/kunderberg.html) | Limburg | 128 | 21 | 2 |
+| [Brunssummerheide](gebieden/brunssummerheide.html) | Limburg | 92 | 21 | 0 |
+| [Bunder- en Elslooërbos](gebieden/bunder-elslooerbos.html) | Limburg | 77 | 11 | 1 |
+| [Grensmaas](gebieden/grensmaas.html) | Limburg | 143 | 23 | 2 |
+| [Abdij Lilbosch & voormalig Klooster Mariahoop](gebieden/abdij-lilbosch-mariahoop.html) | Limburg | 3 | 0 | 0 |
+| [Meinweg](gebieden/meinweg.html) | Limburg | 13 | 1 | 1 |
+| [Canisvliet](gebieden/canisvliet.html) | Zeeland | 2 | 1 | 0 |
+| [Weerter- en Budelerbergen & Ringselven](gebieden/weerter-budelerbergen-ringselven.html) | Limburg / Noord-Brabant | 6 | 0 | 0 |
+| [Sarsven en De Banen](gebieden/sarsven-de-banen.html) | Limburg | 6 | 1 | 0 |
+| [Groote Gat](gebieden/groote-gat.html) | Zeeland | 2 | 1 | 0 |
+| [Vogelkreek](gebieden/vogelkreek.html) | Zeeland | 6 | 0 | 0 |
+| [Zwin & Kievittepolder](gebieden/zwin-kievittepolder.html) | Zeeland | 6 | 1 | 0 |
+| [Westerschelde & Saeftinghe](gebieden/westerschelde-saeftinghe.html) | Zeeland | 58 | 24 | 0 |
+| [Deurnsche Peel & Mariapeel](gebieden/deurnsche-peel-mariapeel.html) | Limburg / Noord-Brabant | 8 | 1 | 0 |
+| [Zoommeer](gebieden/zoommeer.html) | Zeeland / Noord-Brabant | 14 | 4 | 0 |
+| [Yerseke en Kapelse Moer](gebieden/yerseke-kapelse-moer.html) | Zeeland | 12 | 1 | 0 |
+| [Boschhuizerbergen](gebieden/boschhuizerbergen.html) | Limburg / Noord-Brabant | 12 | 1 | 1 |
+| [Maasduinen](gebieden/maasduinen.html) | Limburg / Noord-Brabant | 24 | 2 | 0 |
+| [Veerse Meer](gebieden/veerse-meer.html) | Zeeland | 18 | 7 | 0 |
+| [Oosterschelde](gebieden/oosterschelde.html) | Zeeland / Zuid-Holland / Noord-Brabant | 68 | 19 | 0 |
+| [Manteling van Walcheren](gebieden/manteling-van-walcheren.html) | Zeeland | 22 | 6 | 0 |
+| [Kop van Schouwen](gebieden/kop-van-schouwen.html) | Zeeland | 12 | 1 | 0 |
+| [Grevelingen](gebieden/grevelingen.html) | Zeeland / Zuid-Holland | 24 | 9 | 0 |
+
+**Totaal (53 gebieden): 3147 | 512 | 38**
 
 Let op: de totaaltelling is een **som van per-gebied cijfers**, geen aantal unieke monumenten
 landelijk - een monument dat dicht bij meerdere Natura 2000-gebieden ligt (bv. tussen Bekendelle en
 Korenburgerveen) telt terecht in beide gebiedspagina's mee. De kolom "BAG niet te controleren" is
 géén bevestigde NEE - zie Methode, punt 5.
 
-**Resterend: 137 gebieden** (133 landgebieden + 4 mariene gebieden die waarschijnlijk buiten scope
-blijven). Nog geen vaste volgorde vastgesteld; gewerkt vanuit Gelderland (Achterhoek, IJssel,
-Nijmegen-Mook, Gelderse Vallei), met bewust een paar provinciegrensgevallen erbij
-(Gelderland/Overijssel, Limburg/Noord-Brabant, Gelderland/Utrecht), uitgebreid naar Groningen,
-Drenthe en Fryslân om de aanpak ook buiten het zuidoosten te valideren, en vervolgens naar Utrecht,
-Zuid-Holland, Noord-Brabant en Zuid-Limburg (met opnieuw twee provinciegrensgevallen: Kolland &
-Overlangbroek en Zouweboezem). Nog niet aangeraakt: Noord-Holland, Zeeland en Noord-Limburg als
-hoofdgebied, en de grote gebieden (Veluwe, Waddenzee) die vanwege hun omvang bewust nog niet zijn
-opgepakt.
+**Resterend: 109 gebieden** (105 landgebieden + 4 mariene gebieden die waarschijnlijk buiten scope
+blijven). Eerste ronde gewerkt vanuit Gelderland (Achterhoek, IJssel, Nijmegen-Mook, Gelderse
+Vallei), met bewust een paar provinciegrensgevallen erbij, uitgebreid naar Groningen, Drenthe en
+Fryslân om de aanpak ook buiten het zuidoosten te valideren, en vervolgens naar Utrecht,
+Zuid-Holland, Noord-Brabant en Zuid-Limburg. Tweede ronde: heel Limburg en Zeeland, zuid naar
+noord (inclusief enkele grote wateren als Oosterschelde/Westerschelde/Grevelingen, die dankzij de
+5&nbsp;km-marge rond hun oevers nog altijd relevante aantallen opleverden). Nog niet aangeraakt:
+Noord-Brabant (volgende ronde), Noord-Holland en Noord-Limburg als hoofdgebied, en de grote
+gebieden (Veluwe, Waddenzee) die vanwege hun omvang bewust nog niet zijn opgepakt.
 
 ## Methode per gebied
 
@@ -119,7 +155,7 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
 - **Volledig afstands-bucketschema** invoeren: erin / < 250 m / < 1 km / < 5 km / < 25 km / ≥ 25 km
   (nu alleen erin + ≤ 5 km). Bewust uitgesteld tot na de landsdekkende opbouw van de eerste ronde
   gebieden.
-- De resterende ~137 Natura 2000-gebieden landsdekkend toevoegen.
+- De resterende ~109 Natura 2000-gebieden landsdekkend toevoegen (volgende ronde: Noord-Brabant).
 - **Download-knop (CSV)** per gebiedspagina: monumentenlijst (nr, adres, provincie, afstand, functie,
   status) exporteren.
 - **Klikbare popup voor het Natura 2000-gebied zelf** op de kaart, met de gebiedsbeschrijving.
