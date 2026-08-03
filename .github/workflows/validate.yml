@@ -19,6 +19,9 @@ jobs:
       - name: Zelftest bbox-regex.mjs
         run: node scripts/lib/bbox-regex.mjs
 
+      - name: Unittests scripts/lib/ (gedrag van hulpfuncties, niet alleen gegenereerde diffs)
+        run: node --test scripts/lib/
+
       - name: Valideer data.json-bestanden (schema en telinvarianten)
         run: node scripts/validate.mjs
 

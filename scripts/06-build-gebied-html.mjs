@@ -163,12 +163,12 @@ const head = `<!DOCTYPE html>
     </div>
     <p style="font-size:12px;color:var(--ink-soft);margin-top:8px">Klik op een punt voor details ("waarom staat
     dit punt hier?"), beweeg eroverheen voor een korte hint. Sleep om te verschuiven, scroll of gebruik de
-    +/&minus;-knoppen om in te zoomen op de werkelijke ligging. Bij omrande punten (donkerblauw, effen) hebben een
-    eenduidige industriefunctie in de BAG aangetroffen. Een dubbele donkerblauwe rand betekent: wel
+    +/&minus;-knoppen om in te zoomen op de werkelijke ligging. Bij omrande punten (donkerblauw, effen) is
+    eenduidig een industriefunctie in de BAG aangetroffen. Een dubbele donkerblauwe rand betekent: wel
     industriefunctie gevonden, maar niet bij alle adressen van dit monument eenduidig (zie klik-detail).
     Een gestippelde grijze rand: kon niet in de BAG worden gecontroleerd (geen adres bekend of geen match
-    gevonden) &mdash; dit is geen bevestiging van afwezige bedrijfsvoering, alleen een niet-gevonden
-    industriefunctie. Kaartondergrond: &copy; <a href="https://carto.com/attributions" target="_blank" rel="noopener" style="color:var(--blue-mid)">CARTO</a>
+    gevonden). Op basis van de BAG-koppeling is hierover geen uitspraak mogelijk, dit is geen bevestiging
+    van afwezige bedrijfsvoering. Kaartondergrond: &copy; <a href="https://carto.com/attributions" target="_blank" rel="noopener" style="color:var(--blue-mid)">CARTO</a>
     &amp; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener" style="color:var(--blue-mid)">OpenStreetMap</a>-auteurs.</p>
     <div class="detail" id="detail"></div>
     ${Dobj.n > 0 ? `<details class="mon-list">
@@ -190,7 +190,7 @@ const head = `<!DOCTYPE html>
     officiële landelijke WFS (service.pdok.nl/rvo/natura2000). Afstand: monumentpunt tot de daadwerkelijke
     gebiedsrand. Provincie: point-in-polygon tegen de PDOK-bestuurlijke grenzen. BAG-industriefunctie-indicatie:
     BAG-gebruiksdoel (open WFS bag:verblijfsobject), gematcht op postcode en huisnummer; industriefunctie
-    op een boerderijadres geldt als BAG-industriefunctie-indicatie &mdash; een aanwijzing, geen bewijs van
+    op een boerderijadres geldt als BAG-industriefunctie-indicatie: een aanwijzing, geen bewijs van
     actieve agrarische bedrijfsvoering. Monumenten met uitsluitend woonfunctie zijn conservatief niet als
     zodanig geteld; dat betekent een afwezige industriefunctie-aanwijzing, geen bevestiging dat er geen
     bedrijf is. Monumenten zonder BAG-adres in RCE of zonder match in de BAG-zoekbox staan apart als
@@ -198,7 +198,7 @@ const head = `<!DOCTYPE html>
     <p><b>Kanttekeningen.</b> Dit is een blootstellingskaart: er is g&eacute;&eacute;n emissiedata (AERIUS/RAV)
     verwerkt. De industriefunctie-vlag is een indicatie, geen bewijs van actieve bedrijfsvoering of
     stikstofuitstoot. Geen van de statuscategorie&euml;n op deze pagina is een uitspraak over daadwerkelijke
-    bedrijfsvoering &mdash; alleen over wat wel of niet in de BAG is aangetroffen.</p>
+    bedrijfsvoering, alleen over wat wel of niet in de BAG is aangetroffen.</p>
   </footer>
 </div>
 <script id="data" type="application/json">`;

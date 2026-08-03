@@ -1,7 +1,7 @@
 {
  "versielabel": null,
- "gegenereerdOp": "2026-08-03T12:40:00.852Z",
- "commit": "9bd9defa0c4e8db17f6ab12eb617ddd6b08a2977",
+ "gegenereerdOp": "2026-08-03T15:37:24.892Z",
+ "commit": "c093a3024b83189152baf23a0931a04e4fcb93e9",
  "toelichting": "Dit bestand is een voorbereide kandidaat voor een dataset-release, geen gepubliceerde release zelf. Het legt het commit en de per-gebied aantallen/checksums vast op het moment van genereren; git tag en GitHub Release blijven een handmatige stap van de repo-eigenaar.",
  "totaalGebieden": 25,
  "totaalMonumenten": 1130,
@@ -14,7 +14,7 @@
    "n": 6,
    "ja": 1,
    "onbekend": 0,
-   "sha256DataJson": "241e301e4e771e43bf39cffbbe4d6297f9018bf5f1183a0d8df48a7c2f0b194d"
+   "sha256DataJson": "a175baea97ba6c7357038fce0b6c26f800cbf8de58875109713198efe1529d23"
   },
   {
    "slug": "bekendelle",
@@ -23,7 +23,7 @@
    "n": 25,
    "ja": 2,
    "onbekend": 0,
-   "sha256DataJson": "254ccb8decb3c4eb1f88f67729f474ed4dbe79176a1cb369e946f8c020ae44fd"
+   "sha256DataJson": "7657e719646ef711543f23586a2db9683a5dc83e53ad4fe8590e642d83054f85"
   },
   {
    "slug": "binnenveld",
@@ -32,7 +32,7 @@
    "n": 6,
    "ja": 0,
    "onbekend": 1,
-   "sha256DataJson": "12002d071a18ab6f0e70b0adfbef80b5671039a58253aaeae075325c722d01a1"
+   "sha256DataJson": "0eb352b548f4c781400b32f7b4d451657d840aaf44f33685e1c27ee5442376b8"
   },
   {
    "slug": "de-bruuk",
@@ -50,7 +50,7 @@
    "n": 8,
    "ja": 2,
    "onbekend": 0,
-   "sha256DataJson": "dab2d49dfeed7532f5e20e2e1da123a7eff00f8b84106e3feef04b13ea341a26"
+   "sha256DataJson": "d9e084b996e79280cba67cfe331b71b2334e4f8c218c176a082027c6ab60b9a7"
   },
   {
    "slug": "elperstroomgebied",
@@ -59,7 +59,7 @@
    "n": 33,
    "ja": 4,
    "onbekend": 1,
-   "sha256DataJson": "0425e1f8abd390d2d13b916fd0af691e4dbe6a9625bdf5847ff914663a531de8"
+   "sha256DataJson": "c37635ec93ae689053b7a1ed3e20c6c9b5ae62fd92ea1f0d61d72e5fccb0da78"
   },
   {
    "slug": "geleenbeekdal",
@@ -68,7 +68,7 @@
    "n": 296,
    "ja": 50,
    "onbekend": 4,
-   "sha256DataJson": "22e01d9fbf4e463cfb45d51ee49342d1e4c68ccdce627ac55a34549a7ba95fd6"
+   "sha256DataJson": "26717757d885db5dc9fb4047d9d4b74d49f164bab39940d325a6c70d926e3325"
   },
   {
    "slug": "kolland-overlangbroek",
@@ -77,7 +77,7 @@
    "n": 100,
    "ja": 17,
    "onbekend": 1,
-   "sha256DataJson": "128f00d723988e5794c5e162f016e4fcb85669e2265082789e82c4b62466f36c"
+   "sha256DataJson": "075d4a8612d6a5182ea0054564e33d3e14110238321c9d78403112827b861354"
   },
   {
    "slug": "korenburgerveen",
@@ -86,7 +86,7 @@
    "n": 24,
    "ja": 3,
    "onbekend": 0,
-   "sha256DataJson": "d61c05d622d19ad76f13c1d0ec596f97ce15d4cf5634a5058ac7179fbed98e2e"
+   "sha256DataJson": "93f9276dcfc0cbbeb181eb4fdd4d86ee904afe69337037a0eec78052d754cd48"
   },
   {
    "slug": "landgoederen-brummen",
@@ -95,7 +95,7 @@
    "n": 59,
    "ja": 10,
    "onbekend": 0,
-   "sha256DataJson": "a0712ae7e4e5e71ebdb776f4a8ac34cae24ccc0f2e592533f913e664977d299b"
+   "sha256DataJson": "95e79ed4becefb0091f2ebcea39843e8c50b89260ad52ecab164eddf8e9879b1"
   },
   {
    "slug": "leudal",
@@ -104,7 +104,7 @@
    "n": 22,
    "ja": 4,
    "onbekend": 0,
-   "sha256DataJson": "abe99409d28ee052aabafea39c328c874312efd0112f4f0446c43e4c0dc62d17"
+   "sha256DataJson": "70693de32ca4bd29a3d0116dfb60199bc42dba34a123be8e4528508795ccf812"
   },
   {
    "slug": "lieftinghsbroek",
@@ -113,7 +113,7 @@
    "n": 14,
    "ja": 2,
    "onbekend": 0,
-   "sha256DataJson": "96bc163804eab9a96f6c24cd9e45b2f7e12e2eed0cd3f1b7650967f429175685"
+   "sha256DataJson": "0d346d7f293cf06c5cde980c4b9861489d3809a8437546894287b63ed88c7bf7"
   },
   {
    "slug": "norgerholt",
@@ -122,7 +122,7 @@
    "n": 44,
    "ja": 3,
    "onbekend": 0,
-   "sha256DataJson": "5fca33bff8d85fc3dfdc5a2d630ab2648f23e50616b46c26502bdb83c38d3367"
+   "sha256DataJson": "25079e8f270089812aa64326effb95b23b076340694330624fc200b48abeea15"
   },
   {
    "slug": "regte-heide-riels-laag",
@@ -131,7 +131,7 @@
    "n": 16,
    "ja": 1,
    "onbekend": 1,
-   "sha256DataJson": "ee84e21c75399705a55f7bb5cab250c7869f00dc122ab1fd30dfc5703a128b9c"
+   "sha256DataJson": "94621e2dbffec8f209c2a65f8a883a2c541eb7c44afbf76cf585123756a41814"
   },
   {
    "slug": "rijntakken",
@@ -140,7 +140,7 @@
    "n": 241,
    "ja": 49,
    "onbekend": 3,
-   "sha256DataJson": "598bf1551b655ea7eb8c19f2b9a9405e4bbf5def362872698d60b272cbbee577"
+   "sha256DataJson": "164c3a2bb12bee74b3ec14d4a513dc5aae0b29f1b579b73ce5afb833e184319d"
   },
   {
    "slug": "roerdal",
@@ -149,7 +149,7 @@
    "n": 31,
    "ja": 4,
    "onbekend": 0,
-   "sha256DataJson": "8d1e169dfbff70c6fd64240fe4178acd0736121099a19b3b87bf1a934b9257cc"
+   "sha256DataJson": "1c872c8e65dd1fafe88d33862ac74d0d3a10e4b8b011927f10572ae004d1c1ef"
   },
   {
    "slug": "sint-jansberg",
@@ -158,7 +158,7 @@
    "n": 4,
    "ja": 1,
    "onbekend": 0,
-   "sha256DataJson": "5171aa2a248fb8c4af6cc729d1200a16dd12a7a2904a50ee4667885ebf865f81"
+   "sha256DataJson": "aee036614ee0fc682274d8ee4aead7a411124658019d2dd8ef804b4645c46d43"
   },
   {
    "slug": "stelkampsveld",
@@ -167,7 +167,7 @@
    "n": 25,
    "ja": 4,
    "onbekend": 0,
-   "sha256DataJson": "1f83aa00af47825bf765fd571ff2df1a892f27249fa065a0ab2cef9ff6ad031d"
+   "sha256DataJson": "5597177f72082b26d70f91164acaf716c9d1c3a3ba9625d17509f243b36d0960"
   },
   {
    "slug": "swalmdal",
@@ -176,7 +176,7 @@
    "n": 22,
    "ja": 4,
    "onbekend": 1,
-   "sha256DataJson": "4ec167a84330c2c13966f276f0597741af753ac172a2ecf851c9b867a1983db1"
+   "sha256DataJson": "2218f615b64458dc1454ab53ee4e014ee6e8b60b9906003862384bf29bb893a7"
   },
   {
    "slug": "vlijmens-ven",
@@ -185,7 +185,7 @@
    "n": 47,
    "ja": 6,
    "onbekend": 0,
-   "sha256DataJson": "0cf600b4820efda1e592af0df596589957fa353bdb7e9f385ace9428b2a92142"
+   "sha256DataJson": "e468402044b08ccfb7a43af7e52f7a6adf3de6c02a604adcd126c2d44b5ceb5f"
   },
   {
    "slug": "willinks-weust",
@@ -194,7 +194,7 @@
    "n": 21,
    "ja": 3,
    "onbekend": 0,
-   "sha256DataJson": "90878bd8782c7156c0bc580082ea23007b834c5333335ab5fd43de8323a12fee"
+   "sha256DataJson": "310b8580f622ded89f93226f2cfdefa1fcdfefb00577ba6e70b39ea41906bc64"
   },
   {
    "slug": "witterveld",
@@ -203,7 +203,7 @@
    "n": 8,
    "ja": 1,
    "onbekend": 0,
-   "sha256DataJson": "32367f0455506234b7d19c1a5976100dae8a28cbe68e7bd1e7c47b4565ba9b53"
+   "sha256DataJson": "7773d7a1f5ca8655db7efb1f4cedacba016732f29b9baac10ca9ed7a00157664"
   },
   {
    "slug": "wooldse-veen",
@@ -212,7 +212,7 @@
    "n": 10,
    "ja": 1,
    "onbekend": 0,
-   "sha256DataJson": "7e1f70149f4d412aba62f74bfde374746ec4600663fdea2711afdb0e06124f1c"
+   "sha256DataJson": "4e071e13ed13b45b05ce2b0bb7377874e93d40a012b00164a03899d74695eb84"
   },
   {
    "slug": "zeldersche-driessen",
@@ -221,7 +221,7 @@
    "n": 4,
    "ja": 1,
    "onbekend": 0,
-   "sha256DataJson": "edc191a9419f27b028f2c3b2f26fd59b6bdb3456dfab8b9665829d646852c43d"
+   "sha256DataJson": "4080bafec5e1a2822ec28f6a10b2e02bb753cdb778a3396427f8fbf47df78eaa"
   },
   {
    "slug": "zouweboezem",
@@ -230,7 +230,7 @@
    "n": 64,
    "ja": 6,
    "onbekend": 0,
-   "sha256DataJson": "1acbea4e4bde216795a2cc3ea76182376450a04c57ab4e46259f95ca09c2aad6"
+   "sha256DataJson": "a14caeeb57f153585071eba913cb67c85b3d693381921d6b3aaac510b4b8829a"
   }
  ]
 }

@@ -16,6 +16,7 @@ import fs from 'fs';
 import path from 'path';
 import crypto from 'crypto';
 import { fileURLToPath } from 'url';
+import { matchGebruiksdoel } from './lib/adres-match.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const ROOT = path.join(__dirname, '..');
@@ -72,6 +73,17 @@ function valideerMonument(slug, m) {
   if (!GELDIGE_STATUS.has(m.status)) { fout(`${ctx}: onbekende status "${m.status}"`); return; }
   if (!Array.isArray(m.addressen)) fout(`${ctx}: "addressen" moet een array zijn`);
   if (!Array.isArray(m.matched)) fout(`${ctx}: "matched" moet een array zijn`);
+  else {
+    // Elk adres.gebruiksdoel moet exact overeenkomen met wat matchGebruiksdoel (lib/adres-match.mjs)
+    // er zelf uit zou afleiden -- vangt precies de klasse fout die eerder in het detailpaneel zat
+    // (dubbele, uit elkaar gelopen matchlogica tussen build- en weergavecode; zie CHANGELOG.md).
+    m.addressen.forEach((a, i) => {
+      const verwacht = matchGebruiksdoel(a, m.matched);
+      if (a.gebruiksdoel !== verwacht) {
+        fout(`${ctx}: addressen[${i}].gebruiksdoel="${a.gebruiksdoel}" komt niet overeen met matchGebruiksdoel()="${verwacht}"`);
+      }
+    });
+  }
 
   // Afstand: alleen gebieden binnen 5 km (selectiegrens uit 03-classify-monumenten.mjs)
   // horen erin te zitten, tenzij het monument binnen het gebied zelf ligt.

@@ -1,7 +1,7 @@
 {
  "slug": "witterveld",
- "gegenereerdOp": "2026-08-03T12:13:43.211Z",
- "scriptsCommitOpGenereermoment": "9bd9defa0c4e8db17f6ab12eb617ddd6b08a2977",
+ "gegenereerdOp": "2026-08-03T15:29:33.693Z",
+ "scriptsCommitOpGenereermoment": "c093a3024b83189152baf23a0931a04e4fcb93e9",
  "toelichting": "Dit manifest legt vast welke brondata tot data.json in dit gebied hebben geleid: SHA-256 van elk tussenliggend artefact zoals dat nu in de repository staat, en het git-commit waarin dat artefact voor het eerst is toegevoegd (als benadering van het moment van ophalen). Het legt NIET met terugwerkende kracht vast: het exacte tijdstip van de live SPARQL/WFS-aanroep zelf, het aantal retries tijdens de oorspronkelijke BAG-bevraging, en de precieze scriptversie die destijds actief was -- alleen het scripts/-commit op het moment van genereren van dit manifest wordt vastgelegd, niet noodzakelijk de commit die de oorspronkelijke data.json produceerde.",
  "artefacten": [
   {
@@ -114,7 +114,7 @@
    "endpoint": null,
    "handmatigeStap": false,
    "toelichting": "Eindbundel voor de gebiedspagina, gebouwd door 05-build-gebied-data.mjs (en eventueel 08-verrijk-richtlijn.mjs) uit monumenten-verrijkt.json.",
-   "sha256": "32367f0455506234b7d19c1a5976100dae8a28cbe68e7bd1e7c47b4565ba9b53",
+   "sha256": "7773d7a1f5ca8655db7efb1f4cedacba016732f29b9baac10ca9ed7a00157664",
    "eersteCommit": {
     "commit": "fbb07dfe6a000511bcb968e4f458966598bf6cc7",
     "datum": "2026-07-31T18:34:21+02:00"

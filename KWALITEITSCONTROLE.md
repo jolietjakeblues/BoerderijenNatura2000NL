@@ -21,7 +21,7 @@ fouttypen** gepubliceerd, geen ruwe per-monument gegevens.
      (postcode + huisnummer + huisletter) ingang heeft in de eigen BAG-koppeling.
   2. **Live verificatie** (handmatig, tegen de officiële bron): een deelsteekproef van
      38 van de 95 monumenten is gecontroleerd tegen het officiële
-     [Rijksmonumentenregister](https://monumentenregister.cultureelerfgoed.nl/) —
+     [Rijksmonumentenregister](https://monumentenregister.cultureelerfgoed.nl/):
      alle 13 `geen_match`-gevallen, 15 van de 42 `industrie_deels_aangetroffen`, en 5
      van elk van de 20 `industrie_aangetroffen`/`geen_industrie_aangetroffen`.
 
@@ -60,8 +60,8 @@ nog niet is uitgevoerd.
 
 Van de 38 geselecteerde gevallen waren er **36 succesvol te verifiëren** en **2
 structureel onbereikbaar** bij het officiële register (beide HTTP 404). Een derde
-geval gaf aanvankelijk HTTP 500, maar bleek bij een latere herhaling gewoon te laden
-— een tijdelijke serverfout, geen structureel probleem.
+geval gaf aanvankelijk HTTP 500, maar bleek bij een latere herhaling gewoon te laden:
+een tijdelijke serverfout, geen structureel probleem.
 
 De 2 structureel onbereikbare gevallen (rmnr 28340, 513954) zijn **uitgezocht in
 plaats van afgedaan als toeval**: RCE's eigen linked data kent een
