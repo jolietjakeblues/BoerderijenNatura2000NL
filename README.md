@@ -18,11 +18,13 @@ gebied "toebehoort", en kan elk gebied apart geverifieerd worden voordat het vol
 toegevoegd. Provincie is in deze opzet een **weergavelaag** (achteraf bepaald via een
 point-in-polygon-toets tegen de officiële PDOK-provinciegrenzen), geen zoekgrens.
 
-## Status: 85 van de 162 Natura 2000-gebieden verwerkt
+## Status: 107 van de 162 Natura 2000-gebieden verwerkt
 
 Nederland telt 162 Natura 2000-gebieden (bron: PDOK/RVO, waarvan 4 mariene gebieden in de
-Exclusieve Economische Zone op de Noordzee, buiten scope voor dit project). Hiervan zijn er tot nu
-toe 85 verwerkt:
+Exclusieve Economische Zone op de Noordzee). Hiervan zijn er tot nu toe 107 verwerkt, inclusief
+alle 4 mariene gebieden - die laatste vier tonen structureel 0 boerderijen, omdat er simpelweg
+geen rijksmonument binnen 5 km van open zee ligt, maar zijn voor de volledigheid van het
+landsdekkende overzicht toch meegenomen:
 
 ### Eerste ronde (Gelderland/Achterhoek/IJssel en validatieprovincies)
 
@@ -129,22 +131,57 @@ toe 85 verwerkt:
 | [Coepelduynen](gebieden/coepelduynen.html) | Zuid-Holland | 12 | 1 | 1 |
 | [Botshol](gebieden/botshol.html) | Utrecht / Noord-Holland | 42 | 13 | 0 |
 
-**Totaal (85 gebieden): 4483 | 753 | 46**
+### Vijfde ronde: Noord-Holland, de Noordzee, en één gemist Limburgs gebied
+
+Bij het scopen van deze ronde bleek Maas bij Eijsden (Limburg) geen provincietreffer op te leveren
+via de gebruikelijke point-in-polygon-toets - een klein, langgerekt gebied direct langs de
+Maasoever, buiten de vorige rondes gebleven. Verder onderzocht: van de 4 "geen provincietreffer"-
+kandidaten bleken Vlakte van de Raan en Voordelta wél boerderijen binnen 5 km te hebben (resp. 8 en
+47), tegenover 0 bij de vier écht ver op zee gelegen EEZ-gebieden.
+
+| Gebied | Provincie(s) | Boerderijen | BAG-industriefunctie-indicatie | BAG niet te controleren |
+|---|---|---:|---:|---:|
+| [Maas bij Eijsden](gebieden/maas-bij-eijsden.html) | Limburg | 78 | 11 | 1 |
+| [Oostelijke Vechtplassen](gebieden/oostelijke-vechtplassen.html) | Noord-Holland / Utrecht | 168 | 33 | 1 |
+| [Naardermeer](gebieden/naardermeer.html) | Noord-Holland / Utrecht | 47 | 11 | 1 |
+| [Eemmeer & Gooimeer Zuidoever](gebieden/eemmeer-gooimeer-zuidoever.html) | Noord-Holland / Utrecht | 82 | 4 | 0 |
+| [Kennemerland-Zuid](gebieden/kennemerland-zuid.html) | Noord-Holland / Zuid-Holland | 33 | 11 | 1 |
+| [Ilperveld, Varkensland, Oostzanerveld & Twiske](gebieden/ilperveld-varkensland-oostzanerveld-twiske.html) | Noord-Holland | 26 | 3 | 1 |
+| [Polder Westzaan](gebieden/polder-westzaan.html) | Noord-Holland | 12 | 1 | 0 |
+| [Wormer- en Jisperveld & Kalverpolder](gebieden/wormer-jisperveld-kalverpolder.html) | Noord-Holland | 34 | 8 | 0 |
+| [Polder Zeevang](gebieden/polder-zeevang.html) | Noord-Holland | 31 | 8 | 1 |
+| [Eilandspolder](gebieden/eilandspolder.html) | Noord-Holland | 40 | 11 | 0 |
+| [Noordhollands Duinreservaat](gebieden/noordhollands-duinreservaat.html) | Noord-Holland | 28 | 7 | 1 |
+| [Schoorlse Duinen](gebieden/schoorlse-duinen.html) | Noord-Holland | 13 | 3 | 0 |
+| [Abtskolk & De Putten](gebieden/abtskolk-de-putten.html) | Noord-Holland | 14 | 3 | 0 |
+| [Zwanenwater & Pettemerduinen](gebieden/zwanenwater-pettemerduinen.html) | Noord-Holland | 9 | 2 | 0 |
+| [Duinen Den Helder-Callantsoog](gebieden/duinen-den-helder-callantsoog.html) | Noord-Holland | 3 | 0 | 0 |
+| [Duinen en Lage Land Texel](gebieden/duinen-en-lage-land-texel.html) | Noord-Holland | 49 | 19 | 2 |
+| [Vlakte van de Raan](gebieden/vlakte-van-de-raan.html) | Zeeland | 8 | 5 | 0 |
+| [Voordelta](gebieden/voordelta.html) | Zeeland / Zuid-Holland | 47 | 12 | 0 |
+| [Bruine Bank](gebieden/bruine-bank.html) | n.v.t. | 0 | 0 | 0 |
+| [Friese Front](gebieden/friese-front.html) | n.v.t. | 0 | 0 | 0 |
+| [Klaverbank](gebieden/klaverbank.html) | n.v.t. | 0 | 0 | 0 |
+| [Doggersbank](gebieden/doggersbank.html) | n.v.t. | 0 | 0 | 0 |
+
+**Totaal (107 gebieden): 5205 | 905 | 55**
 
 Let op: de totaaltelling is een **som van per-gebied cijfers**, geen aantal unieke monumenten
 landelijk - een monument dat dicht bij meerdere Natura 2000-gebieden ligt (bv. tussen Bekendelle en
 Korenburgerveen) telt terecht in beide gebiedspagina's mee. De kolom "BAG niet te controleren" is
 géén bevestigde NEE - zie Methode, punt 5.
 
-**Resterend: 77 gebieden** (73 landgebieden + 4 mariene gebieden die waarschijnlijk buiten scope
-blijven). Eerste ronde gewerkt vanuit Gelderland (Achterhoek, IJssel, Nijmegen-Mook, Gelderse
+**Resterend: 55 gebieden**, allemaal landgebieden - alle 4 mariene EEZ-gebieden zijn inmiddels
+verwerkt. Eerste ronde gewerkt vanuit Gelderland (Achterhoek, IJssel, Nijmegen-Mook, Gelderse
 Vallei), met bewust een paar provinciegrensgevallen erbij, uitgebreid naar Groningen, Drenthe en
 Fryslân om de aanpak ook buiten het zuidoosten te valideren, en vervolgens met eerste, losse
 gebieden in Utrecht, Zuid-Holland, Noord-Brabant en Zuid-Limburg. Tweede ronde: heel Limburg en
 Zeeland, zuid naar noord (inclusief enkele grote wateren als Oosterschelde/Westerschelde/Grevelingen,
 die dankzij de 5&nbsp;km-marge rond hun oevers nog altijd relevante aantallen opleverden). Derde
 ronde: heel Noord-Brabant, zuid naar noord. Vierde ronde: heel Utrecht en Zuid-Holland, zuid naar
-noord. Nog niet aangeraakt: Noord-Holland en Noord-Limburg als hoofdgebied, en de grote gebieden
+noord. Vijfde ronde: heel Noord-Holland, zuid naar noord, plus de 4 mariene gebieden in de
+Noordzee-EEZ en Maas bij Eijsden (een gemist Limburgs gebied dat bij de provincietoets geen
+polygontreffer opleverde). Nog niet aangeraakt: Noord-Limburg als hoofdgebied, en de grote gebieden
 (Veluwe, Waddenzee) die vanwege hun omvang bewust nog niet zijn opgepakt.
 
 ## Methode per gebied
@@ -198,7 +235,7 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
 - **Volledig afstands-bucketschema** invoeren: erin / < 250 m / < 1 km / < 5 km / < 25 km / ≥ 25 km
   (nu alleen erin + ≤ 5 km). Bewust uitgesteld tot na de landsdekkende opbouw van de eerste ronde
   gebieden.
-- De resterende ~77 Natura 2000-gebieden landsdekkend toevoegen.
+- De resterende ~55 Natura 2000-gebieden landsdekkend toevoegen.
 - **Download-knop (CSV)** per gebiedspagina: monumentenlijst (nr, adres, provincie, afstand, functie,
   status) exporteren.
 - **Klikbare popup voor het Natura 2000-gebied zelf** op de kaart, met de gebiedsbeschrijving.

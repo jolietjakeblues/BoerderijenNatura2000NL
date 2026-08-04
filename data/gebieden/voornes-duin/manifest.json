@@ -1,7 +1,7 @@
 {
  "slug": "voornes-duin",
- "gegenereerdOp": "2026-08-04T07:25:50.592Z",
- "scriptsCommitOpGenereermoment": "94eda21e1510c5519adbb3af994414e33a1a0795",
+ "gegenereerdOp": "2026-08-04T08:21:28.900Z",
+ "scriptsCommitOpGenereermoment": "02b2ad3bd346f4b1b04e5d61c90c291cc2b0a863",
  "toelichting": "Dit manifest legt vast welke brondata tot data.json in dit gebied hebben geleid: SHA-256 van elk tussenliggend artefact zoals dat nu in de repository staat, en het git-commit waarin dat artefact voor het eerst is toegevoegd (als benadering van het moment van ophalen). Het legt NIET met terugwerkende kracht vast: het exacte tijdstip van de live SPARQL/WFS-aanroep zelf, het aantal retries tijdens de oorspronkelijke BAG-bevraging, en de precieze scriptversie die destijds actief was -- alleen het scripts/-commit op het moment van genereren van dit manifest wordt vastgelegd, niet noodzakelijk de commit die de oorspronkelijke data.json produceerde.",
  "artefacten": [
   {
@@ -12,7 +12,10 @@
    "handmatigeStap": false,
    "toelichting": "Polygonen + bbox voor dit gebied, gefilterd uit het landelijke data/raw/natura2000-nationaal.json (PDOK Natura2000-WFS, éénmalig landelijk opgehaald).",
    "sha256": "23256d7045d19760047ab2aea00344886d9289bb0bc44b1b5b4adc4fd3f7ff8b",
-   "eersteCommit": null
+   "eersteCommit": {
+    "commit": "02b2ad3bd346f4b1b04e5d61c90c291cc2b0a863",
+    "datum": "2026-08-04T09:29:05+02:00"
+   }
   },
   {
    "bestand": "rce-monumenten-query.sparql",
@@ -22,7 +25,10 @@
    "handmatigeStap": false,
    "toelichting": "Kant-en-klare SPARQL-query, automatisch samengesteld door 02-prepare-gebied.mjs. Geen expliciete GRAPH-clausule (standaard-graph-unie); SELECT DISTINCT voorkomt cross-graph-dubbeltelling.",
    "sha256": "ba0cdf7140811e9d5dbc089fc9d1f582c60486fdd2006d9703877b4c168faf1e",
-   "eersteCommit": null
+   "eersteCommit": {
+    "commit": "02b2ad3bd346f4b1b04e5d61c90c291cc2b0a863",
+    "datum": "2026-08-04T09:29:05+02:00"
+   }
   },
   {
    "bestand": "monumenten-raw.txt",
@@ -32,7 +38,10 @@
    "handmatigeStap": false,
    "toelichting": "Resultaat van rce-monumenten-query.sparql. Sinds augustus 2026 automatisch opgehaald via directe HTTP-POST naar het endpoint (scripts/lib/rce-direct.mjs, zie scripts/README.md); gebieden van vóór die datum zijn destijds handmatig via de rce-cho MCP-tool opgehaald (inhoudelijk gelijkwaardig, dezelfde query-templates).",
    "sha256": "a08bafd9c7a32afa1c9ceccb62255abe871c2b1be5cd69f6f5d95148d6d9dcb0",
-   "eersteCommit": null
+   "eersteCommit": {
+    "commit": "02b2ad3bd346f4b1b04e5d61c90c291cc2b0a863",
+    "datum": "2026-08-04T09:29:05+02:00"
+   }
   },
   {
    "bestand": "monumenten-geclassificeerd.json",
@@ -42,7 +51,10 @@
    "handmatigeStap": false,
    "toelichting": "Point-in-polygon + afstandsberekening (lib/geo.mjs) op monumenten-raw.txt tegen geometrie.json, lokaal berekend.",
    "sha256": "b96195f03948c64c7e59f06a1d0b9b2a38fa2ff5b18494bad4606dacef89aee5",
-   "eersteCommit": null
+   "eersteCommit": {
+    "commit": "02b2ad3bd346f4b1b04e5d61c90c291cc2b0a863",
+    "datum": "2026-08-04T09:29:05+02:00"
+   }
   },
   {
    "bestand": "rce-functie-query.sparql",
@@ -52,7 +64,10 @@
    "handmatigeStap": false,
    "toelichting": "Kant-en-klare SPARQL-query, automatisch samengesteld door 03-classify-monumenten.mjs. Zelfde GRAPH/DISTINCT-kanttekening als hierboven.",
    "sha256": "782eb006d63738660703f57a35442a13c8df300135585918571db6384ea2882e",
-   "eersteCommit": null
+   "eersteCommit": {
+    "commit": "02b2ad3bd346f4b1b04e5d61c90c291cc2b0a863",
+    "datum": "2026-08-04T09:29:05+02:00"
+   }
   },
   {
    "bestand": "functie-raw.txt",
@@ -62,7 +77,10 @@
    "handmatigeStap": false,
    "toelichting": "Resultaat van rce-functie-query.sparql. Zie de toelichting bij monumenten-raw.txt (directe HTTP-POST sinds augustus 2026, daarvoor handmatig via de rce-cho MCP-tool).",
    "sha256": "6c202a75da35a5b5eaff4231430a19e39c8093bfaf6fac738e467cb983c4e645",
-   "eersteCommit": null
+   "eersteCommit": {
+    "commit": "02b2ad3bd346f4b1b04e5d61c90c291cc2b0a863",
+    "datum": "2026-08-04T09:29:05+02:00"
+   }
   },
   {
    "bestand": "rce-adres-query.sparql",
@@ -72,7 +90,10 @@
    "handmatigeStap": false,
    "toelichting": "Kant-en-klare SPARQL-query, automatisch samengesteld door 03-classify-monumenten.mjs. Zelfde GRAAG/DISTINCT-kanttekening als hierboven.",
    "sha256": "69fcf633d47d1142b57ad02d001f157438c26a44c3f6698d5c74728c2fabe97a",
-   "eersteCommit": null
+   "eersteCommit": {
+    "commit": "02b2ad3bd346f4b1b04e5d61c90c291cc2b0a863",
+    "datum": "2026-08-04T09:29:05+02:00"
+   }
   },
   {
    "bestand": "adres-raw.txt",
@@ -82,7 +103,10 @@
    "handmatigeStap": false,
    "toelichting": "Resultaat van rce-adres-query.sparql. Zie de toelichting bij monumenten-raw.txt (directe HTTP-POST sinds augustus 2026, daarvoor handmatig via de rce-cho MCP-tool).",
    "sha256": "094e80a01c67a26f196a6d91e773a57fbe72e9ee87617b04e4fdc1bc7e673847",
-   "eersteCommit": null
+   "eersteCommit": {
+    "commit": "02b2ad3bd346f4b1b04e5d61c90c291cc2b0a863",
+    "datum": "2026-08-04T09:29:05+02:00"
+   }
   },
   {
    "bestand": "richtlijn-raw.txt",
@@ -92,7 +116,10 @@
    "handmatigeStap": false,
    "toelichting": "Richtlijnstatus/sitecode/stikstofgevoelig, query op het losse named graph <https://linkeddata.cultureelerfgoed.nl/graph/natura2000>. Sinds augustus 2026 automatisch (scripts/08b-fetch-richtlijn-direct.mjs), daarvoor handmatig via de rce-cho MCP-tool; zie scripts/README.md. Verwerkt door 08-verrijk-richtlijn.mjs.",
    "sha256": "ffa01936446d806e46e044e76e03da984d7a6094ba6c3fff0810acd1ce99714d",
-   "eersteCommit": null
+   "eersteCommit": {
+    "commit": "02b2ad3bd346f4b1b04e5d61c90c291cc2b0a863",
+    "datum": "2026-08-04T09:29:05+02:00"
+   }
   },
   {
    "bestand": "monumenten-verrijkt.json",
@@ -102,7 +129,10 @@
    "handmatigeStap": false,
    "toelichting": "Automatisch door 04-verrijk-monumenten.mjs: BAG-gebruiksdoel per adres (lib/bag.mjs, met retry/backoff -- retry-aantallen zelf niet persistent gelogd) en provincie via point-in-polygon (lib/provincie.mjs) tegen het landelijke data/raw/provincies.json (éénmalig landelijk opgehaald).",
    "sha256": "1ce1b9d80a989e46128ef24352ab75809207583b7f70d01a9da3eed3e2d83560",
-   "eersteCommit": null
+   "eersteCommit": {
+    "commit": "02b2ad3bd346f4b1b04e5d61c90c291cc2b0a863",
+    "datum": "2026-08-04T09:29:05+02:00"
+   }
   },
   {
    "bestand": "data.json",
@@ -112,7 +142,10 @@
    "handmatigeStap": false,
    "toelichting": "Eindbundel voor de gebiedspagina, gebouwd door 05-build-gebied-data.mjs (en eventueel 08-verrijk-richtlijn.mjs) uit monumenten-verrijkt.json.",
    "sha256": "2ada8975b2c6204836b853366a654736c5f17896bbca59c368e5d9570f3dd0db",
-   "eersteCommit": null
+   "eersteCommit": {
+    "commit": "02b2ad3bd346f4b1b04e5d61c90c291cc2b0a863",
+    "datum": "2026-08-04T09:29:05+02:00"
+   }
   }
  ]
 }

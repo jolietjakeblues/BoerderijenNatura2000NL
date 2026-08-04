@@ -51,12 +51,24 @@ const STATUS_NAAR_BAG = {
 };
 // Zelfde bereik als assertWgs84NL in 01-fetch-referentiedata.mjs, voor
 // consistentie: dit dekt heel Nederland ruim, inclusief de Waddeneilanden.
+// Monumenten zijn altijd landgebonden, dus dit smallere bereik volstaat en
+// vangt daadwerkelijke fouten (bv. lon/lat verwisseld) beter af dan een ruim
+// bereik zou doen.
 const WGS84_NL = { lonMin: 2, lonMax: 8, latMin: 50, latMax: 55 };
+// Gebieds-bbox mag wel tot in de Nederlandse Exclusieve Economische Zone op
+// de Noordzee reiken (sinds de mariene Natura 2000-gebieden): Doggersbank
+// loopt tot circa 55,7 graden noorderbreedte, buiten het monumentenbereik
+// hierboven.
+const WGS84_NL_EEZ = { lonMin: 2, lonMax: 8, latMin: 50, latMax: 56 };
 
 function isEindigGetal(x) { return typeof x === 'number' && Number.isFinite(x); }
 function isWgs84NL(lon, lat) {
   return isEindigGetal(lon) && isEindigGetal(lat) &&
     lon > WGS84_NL.lonMin && lon < WGS84_NL.lonMax && lat > WGS84_NL.latMin && lat < WGS84_NL.latMax;
+}
+function isWgs84NLEez(lon, lat) {
+  return isEindigGetal(lon) && isEindigGetal(lat) &&
+    lon > WGS84_NL_EEZ.lonMin && lon < WGS84_NL_EEZ.lonMax && lat > WGS84_NL_EEZ.latMin && lat < WGS84_NL_EEZ.latMax;
 }
 
 function valideerMonument(slug, m) {
@@ -136,8 +148,8 @@ for (const slug of slugsMetData) {
     const [minLon, minLat, maxLon, maxLat] = d.bbox;
     if (minLon >= maxLon) fout(`${slug}: bbox minLon (${minLon}) moet kleiner zijn dan maxLon (${maxLon})`);
     if (minLat >= maxLat) fout(`${slug}: bbox minLat (${minLat}) moet kleiner zijn dan maxLat (${maxLat})`);
-    if (!isWgs84NL(minLon, minLat) || !isWgs84NL(maxLon, maxLat)) {
-      fout(`${slug}: bbox=[${d.bbox}] ziet er niet uit als WGS84 in Nederland`);
+    if (!isWgs84NLEez(minLon, minLat) || !isWgs84NLEez(maxLon, maxLat)) {
+      fout(`${slug}: bbox=[${d.bbox}] ziet er niet uit als WGS84 in Nederland (of de Nederlandse EEZ)`);
     }
   }
 

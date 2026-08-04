@@ -1,0 +1,7 @@
+Gevonden: 3 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20917 | Korte Belkmerweg | 8 | 1756CB | 't Zand
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52066 | Dorpsplein | 33 | 1759GM | Callantsoog
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57861 | Korte Belkmerweg | 40 | 1756CC | 't Zand

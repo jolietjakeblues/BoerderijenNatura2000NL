@@ -1,0 +1,35 @@
+Gevonden: 31 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10666 | Dorpsweg Ransdorp | 113 | 1028BM | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10666 | Dorpsweg Ransdorp | 115 | 1028BM | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14287 | Zuideinde | 286 | 1035PM | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14301 | 't Nopeind | 14 | 1027AE | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14343 | Dorpsstraat | 13 | 1546LD | Jisp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17471 | J.J. Allanstraat | 175 | 1551RD | Westzaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20804 | Middenlaan Zunderdorp | 17 | 1027AR | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22113 | Bloemendalergouw | 13 | 1028BH | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23590 | Kerkbuurt | 32 | 1551AE | Westzaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23590 | Kerkbuurt | 34 | 1551AE | Westzaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23820 | Wijkergouw | 3 | 1023NV | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25220 | Bloemendalergouw | 26 | 1028BJ | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25330 | J.J. Allanstraat | 189 | 1551RD | Westzaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26344 | Broekermeerdijk | 15 | 1151CZ | Broek in Waterland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26344 | Broekermeerdijk | 15 A | 1151CZ | Broek in Waterland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27095 | Durgerdammergouw | 2 A 2 | 1028BT | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27095 | Durgerdammergouw | 2 A 1 | 1028BT | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27294 | J.J. Allanstraat | 291 | 1551RG | Westzaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33730 | Dorpsstraat | 20 | 1454AL | Watergang
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34221 | J.J. Allanstraat | 370 | 1551RT | Westzaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44352 | Dorpsstraat | 18 | 1454AK | Watergang
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45102 | 't Voorwerf | 13 | 1027AG | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47326 | Dijkeinde | 1 | 1153PH | Zuiderwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47587 | Dorpsstraat | 298 | 1531HW | Wormer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48192 | 't Voorwerf | 1 | 1027AG | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51133 | Dorpsweg Ransdorp | 121 | 1028BM | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52155 | J.J. Allanstraat | 101 | 1551RB | Westzaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52452 | Leeteinde | 5 | 1151AJ | Broek in Waterland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52452 | Leeteinde | 5 A | 1151AJ | Broek in Waterland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61763 | Dorpsweg Ransdorp | 78 | 1028BR | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73572 | Leeteinde | 8 | 1151AK | Broek in Waterland

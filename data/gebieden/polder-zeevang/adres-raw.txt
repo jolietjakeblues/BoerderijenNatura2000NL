@@ -1,0 +1,46 @@
+Gevonden: 42 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10813 | Rijperweg | 66 | 1462ME | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15316 | Rijperweg | 40 | 1462MC | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16940 | Hobrederweg | 26 | 1462LK | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17058 | Volgerweg | 26 | 1462HR | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18241 | Middenweg | 193 | 1462HM | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20031 | Nieuwvaartje | 12 | 1135BJ | Edam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20471 | Volgerweg | 46 | 1461HS | Zuidoostbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22608 | Westeinde | 3 | 1474HA | Oosthuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22939 | Oostdijk | 13 a | 1461DR | Zuidoostbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22939 | Oostdijk | 13 d | 1461DR | Zuidoostbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22939 | Oostdijk | 13 g | 1461DR | Zuidoostbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22939 | Oostdijk | 13 b | 1461DR | Zuidoostbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22939 | Oostdijk | 13 c | 1461DR | Zuidoostbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22939 | Oostdijk | 13 e | 1461DR | Zuidoostbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22939 | Oostdijk | 13 f | 1461DR | Zuidoostbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22939 | Oostdijk | 13 h | 1461DR | Zuidoostbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22939 | Oostdijk | 13 | 1461DR | Zuidoostbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23163 | Middenweg | 105 | 1462HG | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25146 | Volgerweg | 37 | 1462HR | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25146 | Volgerweg | 36 | 1462HR | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26339 | Volgerweg | 27 | 1462HR | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27422 | Middenweg | 190 | 1462HM | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29336 | Beets | 86 | 1475JG | Beets
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29423 | Middenweg | 194 | 1462HM | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31884 | Oosterweg E | 20 | 1481AP | Purmer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32654 | Middenweg | 44 | 1463HC | Noordbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34767 | Gevangenpoortsteeg | 7 | 1135AD | Edam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37759 | Volgerweg | 59 | 1461HS | Zuidoostbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37993 | Middenweg | 196 | 1462HM | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40316 | Volgerweg | 41 | 1462HR | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42344 | Oosterweg E | 24 E | 1481AP | Purmer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45830 | Dorpsweg | 67 A | 1631DH | Oudendijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45830 | Dorpsweg | 67 | 1631DH | Oudendijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47459 | Middenweg | 103 | 1462HG | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49700 | Middenweg | 189 | 1462HM | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49700 | Middenweg | 189 a | 1462HM | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49807 | Volgerweg | 25 | 1462HR | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51006 | Middenweg | 45 | 1463HC | Noordbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56501 | Middenweg | 112 | 1462HG | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57398 | Volgerweg | 42 a | 1462HR | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59068 | Beets | 15 | 1475JB | Beets
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65650 | Middenweg | 185 | 1462HJ | Middenbeemster

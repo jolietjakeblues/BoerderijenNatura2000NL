@@ -239,6 +239,13 @@ worden weggeschreven zonder dat een diff-check dat opmerkt.
   bron (met `OPTIONAL`/`BOUND`, omdat een klein deel van alle Rijksmonument-
   records dit veld helemaal mist - vrijwel altijd aanwezig, 67494 van 67496
   landelijk, maar niet aannemen dat het overal gegarandeerd is).
+- **`validate.mjs`'s WGS84-Nederland-bereikcontrole (`latMax: 55`) is te
+  strak voor gebieds-bbox's zodra mariene EEZ-gebieden meedoen.** Doggersbank
+  reikt tot circa 55,7 graden noorderbreedte, buiten het bereik dat voor
+  landgebonden monumenten volstaat. Losse, ruimere `WGS84_NL_EEZ`-constante
+  (`latMax: 56`) toegevoegd specifiek voor de gebieds-bbox-check; de
+  striktere `WGS84_NL` blijft gelden voor individuele monumenten (altijd
+  landgebonden, dus een smaller bereik vangt een verwisselde lon/lat beter).
 
 ## Dataset-release-kandidaat
 

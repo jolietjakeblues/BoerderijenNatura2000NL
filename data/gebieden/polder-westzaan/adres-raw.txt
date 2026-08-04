@@ -1,0 +1,17 @@
+Gevonden: 13 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14343 | Dorpsstraat | 13 | 1546LD | Jisp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17471 | J.J. Allanstraat | 175 | 1551RD | Westzaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17625 | Dorpsstraat | 255 | 1566BA | Assendelft
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21765 | Heiligeweg | 25 | 1561DD | Krommenie
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23590 | Kerkbuurt | 32 | 1551AE | Westzaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23590 | Kerkbuurt | 34 | 1551AE | Westzaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25330 | J.J. Allanstraat | 189 | 1551RD | Westzaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27294 | J.J. Allanstraat | 291 | 1551RG | Westzaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34221 | J.J. Allanstraat | 370 | 1551RT | Westzaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37504 | Dorpsstraat | 153 | 1566AE | Assendelft
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47587 | Dorpsstraat | 298 | 1531HW | Wormer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50098 | Noorderweg | 18 | 2064KD | Spaarndam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52155 | J.J. Allanstraat | 101 | 1551RB | Westzaan

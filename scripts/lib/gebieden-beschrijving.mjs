@@ -427,5 +427,115 @@ export const GEBIEDEN_BESCHRIJVING = {
     ligging: 'De Ronde Venen',
     tekst: 'Licht brak laagveengebied (circa 218 hectare) met twee grote plassen (Grote en Kleine Wije), rietland, bos en struweel, ontstaan door vroegere veenwinning. Een van de belangrijkste Nederlandse groeiplaatsen van kranswiervegetatie en galigaanmoeras, met broedende purperreigers en lepelaars.',
     bron: 'https://www.natura2000.nl/gebieden/utrecht/botshol'
+  },
+  'oostelijke-vechtplassen': {
+    ligging: 'Grens Noord-Holland/Utrecht, rond Hilversum en Weesp',
+    tekst: 'Aaneenschakeling van laagveenplassen en moerassen (circa 6.475 hectare) ontstaan door vervening, verspreid over Amsterdam, De Bilt, Hilversum, Stichtse Vecht en Wijdemeren. Beschermd vanwege trilvenen en broekbossen met de groenknolorchis, en broedende roerdompen, purperreigers en zwarte sterns - samen met de Wieden en Weerribben een van de belangrijkste laagveenmoerasgebieden van Nederland.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-holland/oostelijke-vechtplassen'
+  },
+  'eemmeer-gooimeer-zuidoever': {
+    ligging: 'Grens Flevoland/Noord-Holland/Utrecht, tussen Huizen en Bunschoten',
+    tekst: 'Ondiep randmeer (circa 1.584 hectare) met rietoevers, zandplaten en aangelegde eilandjes, verspreid over zeven gemeenten. Beschermd als broedgebied voor de visdief en als rust- en overwinteringsgebied voor futen, aalscholvers en rietvogels; herstellende waterkwaliteit brengt waterplanten en mosselen terug.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-holland/eemmeer-gooimeer-zuidoever'
+  },
+  'naardermeer': {
+    ligging: 'Amsterdam/Gooise Meren/Hilversum',
+    tekst: 'Meer op de overgang van stuwwal naar laagveenlandschap (circa 1.151 hectare), met open water, rietland en circa 250 hectare vrijwel ongestoord els- en berkenbroekbos. Beschermd vanwege kranswiervegetatie, broedende grote karekieten en purperreigers, en de zeldzame groenknolorchis (Liparis loeselii).',
+    bron: 'https://www.natura2000.nl/gebieden/noord-holland/naardermeer'
+  },
+  'kennemerland-zuid': {
+    ligging: 'Bloemendaal/Haarlem/Heemstede/Velsen/Zandvoort, zuid van het Noordzeekanaal',
+    tekst: 'Uitgestrekt kalkrijk duingebied (circa 8.171 hectare) met dungraslanden, vochtige duinvalleien en parabolduincomplexen - het breedste en kalkrijkste deel van de Hollandse kust. Beschermd vanwege het zeedorpenlandschap met wilde marjolein en kegelsilene, rijke vlinder- en vogelpopulaties (circa 10% van de Nederlandse nachtegalen), en oude landgoedbossen met voorjaarsflora.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-holland/kennemerland-zuid'
+  },
+  'ilperveld-varkensland-oostzanerveld-twiske': {
+    ligging: 'Landsmeer/Oostzaan/Waterland/Wormerland/Zaanstad, ten noorden van Amsterdam',
+    tekst: 'Grootste afgegraven laagveencomplex ten noorden van Amsterdam (circa 2.553 hectare), met veenweiden, rietmoeras en overgangsvenen met veenmosbegroeiing. Beschermd vanwege de noordse woelmuis, broedende roerdompen, bruine kiekendieven en watersnippen, en heldere kwelsloten met waterranonkel en bittervoorn.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-holland/ilperveld-varkensland-oostzanerveld-twiske'
+  },
+  'polder-westzaan': {
+    ligging: 'Zaanstad',
+    tekst: 'Brak veenweidegebied (circa 1.057 hectare) met talloze sloten, rietland en overgangsveen. Vormt het belangrijkste leefgebied van de noordse woelmuis in West-Europa, en beschermt daarnaast broedende roerdompen en porseleinhoenen, koekoeksbloemrietland en veenmosrijke vegetatie.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-holland/polder-westzaan'
+  },
+  'wormer-jisperveld-kalverpolder': {
+    ligging: 'Wormerland/Zaanstad',
+    tekst: 'Open veenweidegebied (circa 1.839 hectare) met graslanden doorsneden door smalle veensloten en brakwaterverlandingen. Zeer belangrijk broedgebied voor weidevogels als kemphaan, en voor moerasvogels als roerdomp en rietzanger; herbergt zeldzame flora zoals de veenorchis en heemst in de veenmosrietlanden.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-holland/wormer-en-jisperveld-kalverpolder'
+  },
+  'polder-zeevang': {
+    ligging: 'Edam-Volendam, tussen Purmerend en Oosthuizen',
+    tekst: 'Vrijwel boomloos veenweidelandschap (circa 1.813 hectare) met lange, haaks op de ontwatering gerichte kavels en waterplassen in de voormalige Zuiderzeedijk. Beschermd als broedgebied voor grutto\'s (meer dan 50 paar per 100 hectare) en als overwinteringsgebied voor smienten, pijlstaarten en brandganzen.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-holland/polder-zeevang'
+  },
+  'eilandspolder': {
+    ligging: 'Alkmaar',
+    tekst: 'Ontgonnen hoogveenvlakte (circa 1.397 hectare) tussen twee grote poldersystemen, met een open, vrijwel boomloos veenweidelandschap. Aangewezen voor overwinterende smienten en broedende rietzangers, en beschermt de noordse woelmuis, bittervoorn en kleine modderkruiper.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-holland/eilandspolder'
+  },
+  'noordhollands-duinreservaat': {
+    ligging: 'Bergen (NH)/Beverwijk/Castricum/Heemskerk/Velsen, van het Noordzeekanaal tot Bergen',
+    tekst: 'Duingebied (circa 5.242 hectare) met een gevarieerde opbouw van kalkrijke jonge duinen, ontkalkte oudere duinen, vochtige duinvalleien en gemengd bos. Bevat een van de soortenrijkste duingraslanden van Nederland, met plantengemeenschappen die elders niet voorkomen, de nauwe korfslak en zeldzame vlinders en broedvogels van open duin.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-holland/noordhollands-duinreservaat'
+  },
+  'schoorlse-duinen': {
+    ligging: 'Tussen Bergen en de Hondsbossche Zeewering',
+    tekst: 'Duinstrook (circa 1.737 hectare) met de hoogste duinen van Nederland (tot 58 meter), met witte en grijze duinen, heide, dennenbos en zoete duinmeren. Beschermd vanwege de nachtzwaluw - de laatste broedplaats in de Hollandse duinen -, kalkminnende planten als parnassia in de duinvalleien, en de grootste Nederlandse populatie dennenorchis.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-holland/schoorlse-duinen'
+  },
+  'abtskolk-de-putten': {
+    ligging: 'Bergen (NH)/Schagen',
+    tekst: 'Twee laaggelegen polders (circa 500 hectare) achter de Hondsbossche Zeewering, met brakke sloten en twee wateren (Abtskolk en De Putten) ontstaan door kleiwinning. Aangewezen vanwege de zeer zeldzame dwerggans, met historische tellingen tot 33 exemplaren, en als rust- en foerageergebied voor trekkende watervogels langs de kust.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-holland/abtskolk-de-putten'
+  },
+  'zwanenwater-pettemerduinen': {
+    ligging: 'Schagen, ten zuiden van Callantsoog',
+    tekst: 'Duingebied (circa 770 hectare) met twee evenwijdige duinreeksen, vochtige duinvalleien en twee grote duinmeren, met zeldzaam elzenbroekbos. Beschermd vanwege broedende lepelaars en aalscholvers, roerdompen en bruine kiekendieven, en soortenrijke heischrale graslanden met orchideeën die elders in de Hollandse duinen grotendeels ontbreken.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-holland/zwanenwater-pettemerduinen'
+  },
+  'duinen-den-helder-callantsoog': {
+    ligging: 'Den Helder/Schagen',
+    tekst: 'Duingebied (circa 645 hectare) met zeereepduinen, droge duingraslanden en heide met kraaihei, aangevuld met eiken-berkenbos. Herbergt een van de grootste Nederlandse populaties tapuit en twee zeldzame parelmoervlindersoorten, en is als noordelijkste duinstrook van Holland een belangrijke pleisterplaats voor trekvogels.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-holland/duinen-den-helder-callantsoog'
+  },
+  'duinen-en-lage-land-texel': {
+    ligging: 'Texel',
+    tekst: 'Duingebied met slufter en polders (circa 4.083 hectare) op het eiland Texel, met oude duinen en heide in het noorden, jonge dynamische duinen in het zuiden en laaggelegen polders met rietranden. Beschermd vanwege de grootste Nederlandse populatie parelmoervlinders, de noordse woelmuis, en het soldaatje - een orchidee met hier een van de grootste populaties van Europa.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-holland/duinen-en-lage-land-texel'
+  },
+  'maas-bij-eijsden': {
+    ligging: 'Eijsden-Margraten/Maastricht',
+    tekst: 'Twee kleine deelgebieden (samen circa 63 hectare) langs de Maasoever bij Eijsden, met bloemrijke graslanden en ooibos in de winterbedding van de rivier. Beschermd vanwege de grote fonteinkruid en het leefgebied dat de rivier hier biedt aan kenmerkende Maasvissen.',
+    bron: 'https://www.natura2000.nl/gebieden/limburg/maas-bij-eijsden'
+  },
+  'vlakte-van-de-raan': {
+    ligging: 'Monding van de Westerschelde, Noordzee voor Zeeuws-Vlaanderen',
+    tekst: 'Ondiep zandplatengebied (circa 17.521 hectare) in de monding van de Westerschelde, met een hoge productiviteit van bodemdieren. Functioneert als kraamkamer voor vis en als trekroute voor rivierprik, zalm, elft en houting, en is van belang voor overwinterende zee-eenden en rustende zeehonden.',
+    bron: 'https://www.natura2000.nl/gebieden/zeeland/vlakte-van-de-raan'
+  },
+  'voordelta': {
+    ligging: 'Noordzee voor Goeree-Overflakkee, Voorne en Schouwen-Duiveland',
+    tekst: 'Ondiepe zeebodem (circa 83.534 hectare) gevormd door de buitendelta\'s van Haringvliet, Grevelingen, Oosterschelde en Westerschelde. Kraamkamer voor vis met een hoge bodemdierdichtheid, en belangrijk rustgebied voor zeehonden die uitwijken vanuit de aangrenzende Deltawateren.',
+    bron: 'https://www.natura2000.nl/gebieden/zeeland/voordelta'
+  },
+  'bruine-bank': {
+    ligging: 'Westelijke Noordzee, bij de grens met het Verenigd Koninkrijk',
+    tekst: 'Noordzeegebied (circa 136.548 hectare) met fossiele onderwaterduinen, ver uit de Nederlandse kust. Belangrijk voor overwinterende zeevogels, paaiende vis en bruinvissen die het gebied als foerageergebied gebruiken.',
+    bron: 'https://www.natura2000.nl/gebieden/noordzee/bruine-bank'
+  },
+  'friese-front': {
+    ligging: 'Noordzee, 50 tot 80 kilometer ten noorden van de Waddeneilanden',
+    tekst: 'Uitgestrekt Noordzeegebied (circa 288.200 hectare) rond een getijdenfront waar gelaagd en gemengd zeewater elkaar ontmoeten, wat lokaal tot hoge voedselrijkdom leidt. Van internationaal belang voor de zwarte zee-eend, met meer dan 1% van de Europese populatie in het gebied.',
+    bron: 'https://www.natura2000.nl/gebieden/noordzee/friese-front'
+  },
+  'klaverbank': {
+    ligging: 'Noordwestelijke Nederlandse Noordzee',
+    tekst: 'Grindrug in de Noordzee (circa 153.900 hectare) met een grind- en riffenhabitat dat uniek is voor Nederland. Herbergt 376 diersoorten, waarvan 44% nergens anders in Nederlandse wateren wordt aangetroffen.',
+    bron: 'https://www.natura2000.nl/gebieden/noordzee/klaverbank'
+  },
+  'doggersbank': {
+    ligging: 'Noordrand van het Nederlandse continentale plat, Noordzee',
+    tekst: 'Uitgestrekte, permanent onder water gelegen zandbank (circa 473.500 hectare) op de noordrand van het Nederlandse deel van de Noordzee. Beschermd vanwege de ondiepe, dynamische zandbankhabitat met een gespecialiseerde bodemfauna die aan deze omstandigheden is aangepast.',
+    bron: 'https://www.natura2000.nl/gebieden/noordzee/doggersbank'
   }
 };

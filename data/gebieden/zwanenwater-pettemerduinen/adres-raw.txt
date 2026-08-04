@@ -1,0 +1,14 @@
+Gevonden: 10 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20917 | Korte Belkmerweg | 8 | 1756CB | 't Zand
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31450 | Grote Sloot | 203 | 1752JM | Sint Maartensbrug
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31450 | Grote Sloot | 201 | 1752JM | Sint Maartensbrug
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42693 | Belkmerweg | 16 | 1754GA | Burgerbrug
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52066 | Dorpsplein | 33 | 1759GM | Callantsoog
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55235 | Grote Sloot | 25 | 1754JA | Burgerbrug
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57446 | Grote Sloot | 209 | 1752JM | Sint Maartensbrug
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57861 | Korte Belkmerweg | 40 | 1756CC | 't Zand
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60843 | Grote Sloot | 125 | 1754JD | Burgerbrug
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66269 | Grote Sloot | 254 | 1751LH | Schagerbrug

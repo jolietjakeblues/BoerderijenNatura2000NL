@@ -6,6 +6,31 @@ precieze wijzigingen per gebied: `git log`. Entries staan in omgekeerd-chronolog
 volgorde; een latere entry kan dus een eerdere entry corrigeren of vervangen. Waar dat
 kan verwarren, is dat expliciet benoemd.
 
+## Uitbreiding naar Noord-Holland, de Noordzee-EEZ, en een gemist Limburgs gebied (22 nieuwe gebieden)
+
+85 naar 107 verwerkte gebieden: heel Noord-Holland, zuid naar noord (vijfde ronde), plus alle 4
+mariene Natura 2000-gebieden in de Nederlandse Exclusieve Economische Zone (Bruine Bank, Friese
+Front, Klaverbank, Doggersbank) en Maas bij Eijsden. Nieuwe totalen: 5205 boerderijen, 905 met
+BAG-industriefunctie-indicatie, 55 niet te controleren (was 4483/753/46). Zie README.md voor de
+volledige lijst per gebied.
+
+Twee bevindingen tijdens het scopen van deze ronde:
+- **Maas bij Eijsden** leverde geen treffer op bij de gebruikelijke point-in-polygon-provincietoets
+  - een klein, langgerekt gebied direct langs de Maasoever, kennelijk precies op een rand van de
+  provinciepolygoon. Op het oog leek dit een mariene/EEZ-kandidaat, maar bleek bij nader onderzoek
+  een gewoon Limburgs landgebied (78 boerderijen binnen 5&nbsp;km) dat in eerdere rondes gemist was.
+- Van de 6 overige "geen provincietreffer"-kandidaten bleken **Vlakte van de Raan** en **Voordelta**
+  (beide dicht bij de kust) wél boerderijen binnen 5&nbsp;km te hebben (resp. 8 en 47), tegenover 0
+  bij de vier écht ver op zee gelegen EEZ-gebieden (Bruine Bank, Friese Front, Klaverbank,
+  Doggersbank) - logisch, en netjes afgehandeld door hetzelfde 0-monumenten-pad als De Bruuk en
+  Groote Peel eerder al gebruikten.
+
+`validate.mjs`'s WGS84-Nederland-bbox-controle (bedoeld om verwisselde lon/lat te vangen) bleek te
+strak voor Doggersbank, dat tot circa 55,7 graden noorderbreedte reikt - net buiten het oude bereik
+van 50-55. Nieuwe, ruimere `WGS84_NL_EEZ`-controle toegevoegd specifiek voor gebieds-bbox's, terwijl
+de striktere controle voor individuele monumenten (die altijd landgebonden zijn) ongewijzigd bleef.
+Gebouwd met `scripts/bouw-gebied-compleet.mjs`.
+
 ## Uitbreiding naar Utrecht en Zuid-Holland (19 nieuwe gebieden)
 
 66 naar 85 verwerkte gebieden: heel Utrecht en heel Zuid-Holland, zuid naar noord (vierde ronde).

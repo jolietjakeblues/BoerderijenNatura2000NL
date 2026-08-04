@@ -1,0 +1,56 @@
+Gevonden: 52 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10167 | Klif | 23 | 1797AK | Den Hoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10239 | Skillepaadje | 12 | 1791LM | Den Burg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11320 | Hallerweg | 55 | 1791LR | Den Burg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11536 | Pontweg | 86 | 1791LB | Den Burg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12570 | Tienhoven | 8 | 1793EC | De Waal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15321 | Westerweg | 63 | 1797RE | Den Hoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15442 | Zuid Haffel | 12 | 1791LE | Den Burg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15442 | Zuid Haffel | 12 A | 1791LE | Den Burg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16001 | Barentszstraat | 13 | 1792AD | Oudeschild
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18317 | Oosterenderweg | 8 A | 1793EL | De Waal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18384 | Zuid Haffel | 7 | 1791LD | Den Burg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21025 | Hallerweg | 53 | 1791LR | Den Burg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22989 | Oost | 73 | 1794GN | Oosterend
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23720 | Hoornderweg | 46 | 1797RA | Den Hoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24754 | Schansweg | 8 | 1791LK | Den Burg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25510 | Waterweg | 2 | 1791LH | Den Burg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26380 | Smitsweg | 6 | 1791PG | Den Burg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28796 | Pontweg | 79 | 1791LA | Den Burg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29811 | Oosterweg | 20 | 1794GL | Oosterend
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29836 | Zuid Haffel | 44 | 1791LG | Den Burg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30013 | Oosterenderweg | 25 | 1794GB | Oosterend
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31050 | Nesweg | 10 | 1794GD | Oosterend
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31344 | Ruijslaan | 79 A | 1796AC | De Koog
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31821 | Waterweg | 12 | 1791LH | Den Burg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31894 | Hemmerweg | 6 | 1797RC | Den Hoorn Texel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33480 | Oosterenderweg | 38 | 1794GB | Oosterend
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35822 | Oude Dijkje | 11 | 1796MK | De Koog
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35962 | Doolhof | 3 | 1792CM | Oudeschild
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37631 | Hogereind | 25 | 1793AE | De Waal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40748 | Zuid Haffel | 41 | 1791LD | Den Burg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41088 | Skillepaadje | 2 | 1791LM | Den Burg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42959 | Hoornderweg | 2 | 1791PN | Den Burg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43851 | Postweg | 15 | 1795JJ | De Cocksdorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43851 | Postweg | 15 A | 1795JJ | De Cocksdorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46370 | Barentszstraat | 19 | 1792AD | Oudeschild
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47508 | Skillepaadje | 10 | 1791LM | Den Burg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47543 | Jan Ayeweg | 2 | 1797RL | Den Hoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50349 | Oranjestraat | 31 | 1794BB | Oosterend
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50864 | Westergeest | 4 | 1791LJ | Den Burg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51115 | Zevenhuizen | 5 | 1794GJ | Oosterend
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51723 | Oosterenderweg | 11 B | 1793EK | De Waal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54666 | Doolhof | 4 A | 1792CM | Oudeschild
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54666 | Doolhof | 4 | 1792CM | Oudeschild
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55871 | Harkebuurt | 9 | 1794HM | Oosterend
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56054 | Lageveld | 5 D | 1794GE | Oosterend
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56636 | Leemkuil | 6 | 1791LC | Den Burg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56747 | Westerweg | 65 | 1797RE | Den Hoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59482 | Doolhof | 13 | 1792CM | Oudeschild
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59507 | Stengweg | 19 | 1795LG | De Cocksdorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60235 | Westerweg | 78 | 1797RH | Den Hoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61935 | Rozendijk | 34 | 1791PE | Den Burg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/76753 | Hallerweg | 33 | 1791LR | Den Burg

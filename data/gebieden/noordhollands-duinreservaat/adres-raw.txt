@@ -1,0 +1,34 @@
+Gevonden: 30 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10974 | Hargergat | 2 | 1871GK | Schoorl
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11650 | Oude Schulpweg | 18 | 1935EN | Egmond-Binnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16305 | Rijksweg | 76 | 1981LC | Velsen-Zuid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16411 | Dusseldorperweg | 64 | 1906AL | Limmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31207 | Zeeweg | 260 | 1971HJ | IJmuiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31207 | Zeeweg | 262 | 1971HJ | IJmuiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31856 | Provincialeweg | 3 | 1911MZ | Uitgeest
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33616 | Slotweg | 17 | 1934CM | Egmond aan den Hoef
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34680 | Staringweg | 3 | 1935MZ | Egmond-Binnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36398 | Kennemerstraatweg | 434 | 1851BL | Heiloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37900 | Heereweg | 194 | 1871EN | Schoorl
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38560 | Munnikenweg | 88 | 1823DD | Alkmaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38560 | Munnikenweg | 90 | 1823DD | Alkmaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45492 | Kruisberg | 4 A | 1969MR | Heemskerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47422 | Uitgeesterweg | 27 | 1911NK | Uitgeest
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49749 | Dorpsstraat | 180 | 1749AK | Warmenhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52104 | Sluislaan | 15 | 1861PG | Bergen (NH)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52809 | Dorpsstraat | 207 | 1749AD | Warmenhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53275 | Wiertdijkje | 5 | 1861CE | Bergen (NH)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53348 | Slotweg | 42 | 1934CN | Egmond aan den Hoef
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58924 | Egmondermeer | 10 | 1934PN | Egmond aan den Hoef
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61721 | Heereweg | 237 | 1873GA | Groet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62121 | Driehuizerkerkweg | 11 | 1981EH | Velsen-Zuid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68213 | Westerweg | 21 | 1851AA | Heiloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68215 | Westerweg | 51 B | 1851AB | Heiloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68217 | Westerweg | 51 C | 1851AB | Heiloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68218 | Kennemerstraatweg | 280 | 1851BG | Heiloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74741 | Heereweg | 58 | 1871EJ | Schoorl
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75379 | Vennewatersweg | 27 | 1935AR | Egmond-Binnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/79608 | Oude Parklaan | 8 | 1901ZZ | Castricum

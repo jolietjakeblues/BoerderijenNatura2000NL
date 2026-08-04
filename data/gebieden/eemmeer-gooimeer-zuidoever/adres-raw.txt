@@ -1,0 +1,119 @@
+Gevonden: 115 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10065 | Fransepad | 12 | 1261JE | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10065 | Stachouwerweg | 1 | 1261HT | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10451 | Wakkerendijk | 106 | 3755DE | Eemnes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10796 | Meentweg | 71 | 3755PB | Eemnes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10832 | St. Annastraat | 20 | 1411PH | Naarden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11776 | Wakkerendijk | 88 A | 3755DD | Eemnes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11776 | Wakkerendijk | 88 | 3755DD | Eemnes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11875 | Meentweg | 11 | 3755PA | Eemnes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12704 | Torenlaan | 2 | 1261GD | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12704 | Torenlaan | 4 | 1261GD | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13016 | Angerechtsweg | 11 A | 1261XG | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13987 | Binnenweg | 3 | 1261EK | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13987 | Binnenweg | 5 | 1261EK | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14154 | Wakkerendijk | 54 | 3755DD | Eemnes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14154 | Wakkerendijk | 52 | 3755DD | Eemnes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14580 | Voorbaan | 28 | 1271RS | Huizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14580 | Voorbaan | 26 | 1271RS | Huizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14580 | Voorbaan | 24 | 1271RS | Huizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14960 | Meentweg | 47 | 3755PA | Eemnes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14962 | Burgemeester de Jongweg | 5 | 1261EP | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15916 | Raadhuisstraat | 10 | 1261EW | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17372 | Langeweg | 5 | 1261EL | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17507 | Meentweg | 37 | 3755PA | Eemnes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17525 | Eemnesserweg | 2 | 1261HG | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18276 | Naardermeer | 13 | 1412CV | Naarden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18595 | Kerklaan | 7 | 1261JA | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18595 | Stachouwerweg | 2 | 1261HW | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19017 | Langeweg | 3 | 1261EL | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20169 | Kerkstraat | 2 | 3755CK | Eemnes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20419 | Oosterend | 4 | 1251HN | Laren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21063 | Brink | 31 | 1399GX | Muiderberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21927 | Meentweg | 83 | 3755PB | Eemnes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22530 | Hellingstraat | 9 | 1271VA | Huizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22805 | Meentweg | 19 | 3755PA | Eemnes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23531 | Angerechtsweg | 15 | 1261XG | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23833 | Dorpsstraat | 58 | 3751ES | Bunschoten-Spakenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23833 | Dorpsstraat | 60 | 3751ES | Bunschoten-Spakenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25419 | Dorpsstraat | 9 A | 1261ES | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25419 | Dorpsstraat | 9 C | 1261ES | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25419 | Dorpsstraat | 9 D | 1261ES | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25419 | Dorpsstraat | 9 E | 1261ES | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25419 | Dorpsstraat | 9 F | 1261ES | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25419 | Dorpsstraat | 11 | 1261ES | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25524 | Angerechtsweg | 11 | 1261XG | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27034 | Fransepad | 1 | 1261JC | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27034 | Dorpsstraat | 17 | 1261ES | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27075 | Lindenlaan | 47 | 1271AW | Huizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27195 | Kerkstraat | 7 | 3755CK | Eemnes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27381 | Brinklaan | 4 | 1261ER | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27381 | Brinklaan | 2 a | 1261ER | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27381 | Brinklaan | 2 | 1261ER | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27381 | Dorpsstraat | 15 | 1261ES | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27817 | Boerensteeg | 1 | 1271RV | Huizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27817 | Boerensteeg | 3 | 1271RV | Huizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27817 | Achterbaan | 75 | 1271WR | Huizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28386 | Fransepad | 8 | 1261JE | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28632 | Naarderstraat | 46 | 1251BD | Laren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28636 | Raadhuisstraat | 16 | 1261EW | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28934 | Polweg | 10 | 1261XE | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29037 | Kerkstraat | 6 | 3755CK | Eemnes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31062 | Kerkstraat | 2 A | 3755CK | Eemnes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31824 | Valkenaarstraat | 36 | 1271TN | Huizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32434 | Wakkerendijk | 104 | 3755DE | Eemnes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32748 | Melkweg | 33 | 1271TD | Huizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34469 | Vissersstraat | 90 | 1271VH | Huizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35103 | Langeweg | 1 | 1261EL | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35395 | Meentweg | 5 | 1261XR | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35504 | Boerensteeg | 6 | 1271RV | Huizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35504 | Boerensteeg | 8 | 1271RV | Huizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35504 | Boerensteeg | 10 | 1271RV | Huizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35504 | Voorbaan | 76 | 1271WS | Huizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35562 | Langeweg | 9 | 1261EL | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36230 | Wakkerendijk | 116 | 3755DE | Eemnes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37534 | Mosselweg | 12 | 1261XC | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41028 | Googweg | 10 | 1399ER | Muiderberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41245 | Fransepad | 17 | 1261JD | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41374 | Dorpsstraat | 10 | 1261ET | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43414 | Meentweg | 75 | 3755PB | Eemnes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45171 | Fransepad | 11 | 1261JD | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45488 | Zeeweg | 5 | 1271VV | Huizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45488 | Beemsterboerstraat | 8 | 1271SE | Huizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45488 | Beemsterboerstraat | 6 | 1271SE | Huizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47100 | Meentweg | 6 | 1261XT | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48338 | Venenweg | 2 | 1261HX | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48532 | Meentweg | 22 | 1271PW | Huizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49696 | Gebroeders Dooijewaardweg | 3 | 1261DE | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49696 | Gebroeders Dooijewaardweg | 1 | 1261DE | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50057 | Polweg | 1 | 1261XE | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51251 | Brinklaan | 1 | 1261ER | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51251 | Brinklaan | 3 | 1261ER | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51251 | Dorpsstraat | 13 | 1261ES | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52010 | Capittenweg | 2 | 1261JM | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52230 | Wakkerendijk | 94 | 3755DE | Eemnes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52383 | Kerkstraat | 5 | 3755CK | Eemnes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54438 | Binnenweg | 7 | 1261EK | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55137 | Achterom | 7 | 1261EE | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55137 | Achterom | 7 A | 1261EE | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55246 | Meentweg | 43 | 3755PA | Eemnes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56973 | Zuidpolderweg | 8 | 1399VS | Muiderberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56973 | Zuidpolderweg | 10 | 1399VS | Muiderberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57000 | Burg. Heerschopweg | 4 | 1261EN | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57101 | Dorpsstraat | 36 | 3751ER | Bunschoten-Spakenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57101 | Dorpsstraat | 38 | 3751ER | Bunschoten-Spakenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58095 | Dorpsstraat | 12 | 1261ET | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58992 | Burgemeester de Jongweg | 1 | 1261EP | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59420 | Burg. Heerschopweg | 2 | 1261EN | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59469 | Mosselweg | 8 | 1261XC | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60094 | Fransepad | 26 | 1261JE | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60818 | Meentweg | 45 A | 3755PA | Eemnes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60818 | Meentweg | 45 | 3755PA | Eemnes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61045 | Langeweg | 19 | 1261EL | Blaricum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65586 | Flevolaan | 45 | 1411KC | Naarden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65588 | Flevolaan | 41 A | 1411KC | Naarden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65588 | Flevolaan | 41 | 1411KC | Naarden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65591 | Flevolaan | 65 | 1272PC | Huizen

@@ -1,0 +1,48 @@
+Gevonden: 44 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10813 | Rijperweg | 66 | 1462ME | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12929 | Molenweg | 1 | 1646WK | Ursem gem. S
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14595 | Westdijk | 6 | 1463PA | Noordbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14595 | Westdijk | 5 | 1463PA | Noordbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15316 | Rijperweg | 40 | 1462MC | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17058 | Volgerweg | 26 | 1462HR | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18241 | Middenweg | 193 | 1462HM | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20891 | Volgerweg | 1 | 1464HN | Westbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22715 | Jisperweg | 103 | 1464NJ | Westbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23163 | Middenweg | 105 | 1462HG | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26339 | Volgerweg | 27 | 1462HR | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27422 | Middenweg | 190 | 1462HM | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28621 | Noorddijkerweg | 11 | 1645VB | Ursem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29189 | Jisperweg | 130 | 1464NL | Westbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29423 | Middenweg | 194 | 1462HM | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30565 | Slingerdijk | 2 | 1842ED | Oterleek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32015 | Lange Molenweg | 28 | 1842EN | Oterleek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32654 | Middenweg | 44 | 1463HC | Noordbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34617 | Westdijk | 10 | 1847LH | Zuidschermer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35140 | Rijperweg | 32 | 1464MB | Westbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37993 | Middenweg | 196 | 1462HM | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45604 | Jisperweg | 19 | 1463ND | Noordbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46180 | Noordschermerdijk | 4 | 1842EL | Oterleek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46180 | Noordschermerdijk | 4 A | 1842EL | Oterleek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46180 | Noordschermerdijk | 4 B | 1842EL | Oterleek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47255 | Jisperweg | 109 | 1464NK | Westbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47459 | Middenweg | 103 | 1462HG | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49700 | Middenweg | 189 | 1462HM | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49700 | Middenweg | 189 a | 1462HM | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49807 | Volgerweg | 25 | 1462HR | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50070 | Noordschermerdijk | 6 | 1842EL | Oterleek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51006 | Middenweg | 45 | 1463HC | Noordbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52568 | Noordeinde | 74 | 1843JK | Grootschermer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53104 | Noordeinde | 58 | 1843JK | Grootschermer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54063 | Rijperweg | 16 | 1464MA | Westbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54332 | Ursemmerweg | 4 | 1646WN | Ursem gem. S
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56501 | Middenweg | 112 | 1462HG | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56686 | Noordervaart | 17 | 1841JA | Stompetoren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60054 | Middenweg | 2 | 1463HA | Noordbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65650 | Middenweg | 185 | 1462HJ | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73579 | Wormerweg | 2 | 1464NA | Westbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73580 | Wormerweg | 2 | 1464NA | Westbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/79462 | Jisperweg | 29 | 1464NE | Westbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/79463 | Jisperweg | 29 | 1464NE | Westbeemster

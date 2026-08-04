@@ -1,0 +1,56 @@
+Gevonden: 52 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11023 | Prelaatweg | 84 A | 4363NJ | Aagtekerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11023 | Prelaatweg | 82 | 4363NJ | Aagtekerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11023 | Prelaatweg | 82 A | 4363NJ | Aagtekerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13236 | Daleboutsweg | 2 b | 4328PN | Burgh-Haamstede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17178 | Prelaatweg | 81 | 4363ND | Aagtekerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17243 | Babelweg | 4 | 4357RJ | Domburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22705 | Sint Janskerke | 8 | 4374SH | Zoutelande
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23025 | Sint Felixweg | 3 | 4493PR | Kamperland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24144 | Prelaatweg | 1 | 4361JB | Westkapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24778 | Prelaatweg | 5 | 4361JB | Westkapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28121 | Tussenweg | 4 | 3222EN | Hellevoetsluis
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28617 | Rampweg | 20 | 4326LK | Noordwelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30388 | Lageweg | 5 | 4328RR | Burgh-Haamstede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30424 | Lokkershofweg | 1 | 4326SE | Noordwelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30520 | Heveringseweg | 66 | 3233SE | Oostvoorne
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30970 | Westenschouwenseweg | 2 | 4328RE | Burgh-Haamstede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31140 | Domburgseweg | 48 | 4357NH | Domburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36607 | Kuijerdamseweg | 33 | 4323LB | Ellemeet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38391 | Koningin Emmaweg | 26 | 4354KE | Vrouwenpolder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38888 | Aagtekerkseweg | 5 | 4356RH | Oostkapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39064 | Noordweg | 54 | 4356ED | Oostkapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40270 | Sint Janskerke | 1 | 4374SH | Zoutelande
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42095 | Lagezoom | 27 | 4325CP | Renesse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42651 | Achterstraat | 3 | 3252AB | Goedereede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44411 | Duinstraat | 18 | 3235NK | Rockanje
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44514 | Kloosterweg | 4 | 4363SC | Aagtekerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45732 | Heveringseweg | 25 | 3233SB | Oostvoorne
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48043 | Molenweg | 8 | 4356AB | Oostkapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48210 | Noordweg | 39 | 4356EB | Oostkapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49548 | Warwijcksestraat | 14 | 4351BE | Veere
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51546 | Dorpsdijk | 98 | 4491ED | Wissenkerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52002 | Boomweg | 13 | 4374SJ | Zoutelande
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53637 | Wijkhuijsweg | 10 | 4356RC | Oostkapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54281 | Lageweg | 14 | 4328RT | Burgh-Haamstede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55501 | Hogeweg | 53 | 4328PB | Burgh-Haamstede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56718 | Duinbeekseweg | 7 | 4356CD | Oostkapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57404 | Baas Huisweg | 14 | 4493NE | Kamperland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57404 | Baas Huisweg | 15 | 4493NE | Kamperland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57552 | Roelandsweg | 3 b | 4325CR | Renesse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57552 | Roelandsweg | 3 c | 4325CR | Renesse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57552 | Roelandsweg | 3 d | 4325CR | Renesse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59071 | Duinstraat | 22 | 3235NK | Rockanje
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59274 | Breeweg | 2 | 3222LA | Hellevoetsluis
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59942 | Stoofweg | 42 | 4326SJ | Noordwelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60318 | Wellandweg | 12 | 4326SL | Noordwelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60930 | Bosweg | 2 | 3253XA | Ouddorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67084 | Dunoweg | 8 | 4356EK | Oostkapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67089 | Dunoweg | 8 | 4356EK | Oostkapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67271 | Dunoweg | 3 | 4356EJ | Oostkapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67273 | Dunoweg | 3 | 4356EJ | Oostkapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69137 | Oostdijkseweg | 81 | 3252LM | Goedereede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74658 | Windgatseweg | 16 | 3235NX | Rockanje

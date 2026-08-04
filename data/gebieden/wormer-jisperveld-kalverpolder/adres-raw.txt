@@ -1,0 +1,41 @@
+Gevonden: 37 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10813 | Rijperweg | 66 | 1462ME | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14343 | Dorpsstraat | 13 | 1546LD | Jisp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15316 | Rijperweg | 40 | 1462MC | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17058 | Volgerweg | 26 | 1462HR | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17471 | J.J. Allanstraat | 175 | 1551RD | Westzaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18241 | Middenweg | 193 | 1462HM | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20471 | Volgerweg | 46 | 1461HS | Zuidoostbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20891 | Volgerweg | 1 | 1464HN | Westbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21765 | Heiligeweg | 25 | 1561DD | Krommenie
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22715 | Jisperweg | 103 | 1464NJ | Westbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23163 | Middenweg | 105 | 1462HG | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23590 | Kerkbuurt | 32 | 1551AE | Westzaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23590 | Kerkbuurt | 34 | 1551AE | Westzaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25146 | Volgerweg | 37 | 1462HR | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25146 | Volgerweg | 36 | 1462HR | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25330 | J.J. Allanstraat | 189 | 1551RD | Westzaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26339 | Volgerweg | 27 | 1462HR | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27294 | J.J. Allanstraat | 291 | 1551RG | Westzaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27422 | Middenweg | 190 | 1462HM | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29189 | Jisperweg | 130 | 1464NL | Westbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29423 | Middenweg | 194 | 1462HM | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34221 | J.J. Allanstraat | 370 | 1551RT | Westzaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35140 | Rijperweg | 32 | 1464MB | Westbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37759 | Volgerweg | 59 | 1461HS | Zuidoostbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37993 | Middenweg | 196 | 1462HM | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40316 | Volgerweg | 41 | 1462HR | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47255 | Jisperweg | 109 | 1464NK | Westbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47459 | Middenweg | 103 | 1462HG | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47587 | Dorpsstraat | 298 | 1531HW | Wormer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49700 | Middenweg | 189 | 1462HM | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49700 | Middenweg | 189 a | 1462HM | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49807 | Volgerweg | 25 | 1462HR | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52155 | J.J. Allanstraat | 101 | 1551RB | Westzaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54063 | Rijperweg | 16 | 1464MA | Westbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56501 | Middenweg | 112 | 1462HG | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57398 | Volgerweg | 42 a | 1462HR | Middenbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65650 | Middenweg | 185 | 1462HJ | Middenbeemster

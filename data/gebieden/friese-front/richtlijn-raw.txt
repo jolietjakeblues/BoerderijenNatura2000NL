@@ -1,0 +1,1 @@
+166|https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/dae737f9-e2cf-46fd-a2ff-49c9dd018cd5|VR|alleen Vogelrichtlijn gebied|NL2016166|-|false|Natura2000-besluit 16 juni 2016|http://www.wikidata.org/entity/Q99446945

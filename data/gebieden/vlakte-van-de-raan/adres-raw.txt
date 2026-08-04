@@ -1,0 +1,14 @@
+Gevonden: 10 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11023 | Prelaatweg | 84 A | 4363NJ | Aagtekerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11023 | Prelaatweg | 82 | 4363NJ | Aagtekerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11023 | Prelaatweg | 82 A | 4363NJ | Aagtekerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17178 | Prelaatweg | 81 | 4363ND | Aagtekerke
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17243 | Babelweg | 4 | 4357RJ | Domburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22705 | Sint Janskerke | 8 | 4374SH | Zoutelande
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24144 | Prelaatweg | 1 | 4361JB | Westkapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24778 | Prelaatweg | 5 | 4361JB | Westkapelle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40270 | Sint Janskerke | 1 | 4374SH | Zoutelande
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52002 | Boomweg | 13 | 4374SJ | Zoutelande

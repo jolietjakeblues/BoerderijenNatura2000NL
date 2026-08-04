@@ -1,0 +1,47 @@
+Gevonden: 43 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14031 | Hendrik Figeeweg | 2 | 2031BJ | Haarlem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14599 | Duin- en Kruidbergerweg | 43 | 2071LG | Santpoort-Noord
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16305 | Rijksweg | 76 | 1981LC | Velsen-Zuid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17921 | Boekenroodeweg | 3 | 2111HJ | Aerdenhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17921 | Zandvoorterweg | 62 A | 2111GX | Aerdenhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18480 | IJweg | 1071 | 2133MH | Hoofddorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20202 | Hoofdstraat | 270 | 2071ER | Santpoort-Noord
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22469 | Graaf Florislaan | 2 A | 2114CR | Vogelenzang
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22469 | Graaf Florislaan | 2 B | 2114CR | Vogelenzang
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22844 | Iris | 4 | 2215JZ | Voorhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29914 | Kerkweg | 30 | 2064KS | Spaarndam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31207 | Zeeweg | 260 | 1971HJ | IJmuiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31207 | Zeeweg | 262 | 1971HJ | IJmuiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32899 | Bergweg | 3 a | 2061KB | Bloemendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32899 | Bergweg | 3 | 2061KB | Bloemendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33761 | Middenduinerweg | 89 | 2082LC | Santpoort-Zuid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34146 | Driehuizerkerkweg | 119 | 1985HB | Driehuis NH
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34332 | Loosterweg Noord | 6 | 2161AP | Lisse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43384 | Vogelenzangseweg | 160 | 2114BC | Vogelenzang
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43831 | Hoofdstraat | 18 | 2202GD | Noordwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45334 | Tweede Doodweg | 18 | 2114AP | Vogelenzang
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47833 | Aelbertsbergweg | 1 | 2061AA | Bloemendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48242 | Boekenroodeweg | 35 | 2111HK | Aerdenhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53092 | Veen en Duinpad | 1 | 2061HZ | Bloemendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53092 | Veen en Duinpad | 3 | 2061HZ | Bloemendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58215 | Graaf Florislaan | 2 | 2114CR | Vogelenzang
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60290 | Krokus | 38 | 2215SW | Voorhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60290 | Krokus | 40 | 2215SW | Voorhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60500 | 1e Leijweg | 3 | 2114BH | Vogelenzang
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60895 | Vogelenzangseweg | 164 b | 2114BC | Vogelenzang
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60895 | Vogelenzangseweg | 164 a | 2114BC | Vogelenzang
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60895 | Vogelenzangseweg | 164 | 2114BC | Vogelenzang
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61239 | Jacoba van Beierenweg | 136 | 2215KX | Voorhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62121 | Driehuizerkerkweg | 11 | 1981EH | Velsen-Zuid
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67508 | Duinlustweg | 48 | 2051AB | Overveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69324 | Stationsweg | 53 | 2161AM | Lisse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69324 | Stationsweg | 55 | 2161AM | Lisse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69332 | Keukenhof | 5 | 2161AN | Lisse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73708 | Tweede Doodweg | 24 | 2114AP | Vogelenzang
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73708 | Tweede Doodweg | 26 | 2114AP | Vogelenzang
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73708 | Tweede Doodweg | 28 | 2114AP | Vogelenzang
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77574 | Elswoutslaan | 24 | 2051AE | Overveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78475 | van den Berch van Heemstedeweg | 3 | 2215RK | Voorhout

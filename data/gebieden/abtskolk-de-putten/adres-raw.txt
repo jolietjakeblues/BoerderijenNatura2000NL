@@ -1,0 +1,20 @@
+Gevonden: 16 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10974 | Hargergat | 2 | 1871GK | Schoorl
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31450 | Grote Sloot | 203 | 1752JM | Sint Maartensbrug
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31450 | Grote Sloot | 201 | 1752JM | Sint Maartensbrug
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37900 | Heereweg | 194 | 1871EN | Schoorl
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42693 | Belkmerweg | 16 | 1754GA | Burgerbrug
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49749 | Dorpsstraat | 180 | 1749AK | Warmenhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52809 | Dorpsstraat | 207 | 1749AD | Warmenhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53579 | Dorpsstraat | 33 | 1749AA | Warmenhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53579 | Dorpsstraat | 35 | 1749AA | Warmenhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55235 | Grote Sloot | 25 | 1754JA | Burgerbrug
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57446 | Grote Sloot | 209 | 1752JM | Sint Maartensbrug
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58479 | De Baan | 1 | 1749VR | Warmenhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60843 | Grote Sloot | 125 | 1754JD | Burgerbrug
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61721 | Heereweg | 237 | 1873GA | Groet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69021 | Heereweg | 322 | 1871GM | Schoorl
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74741 | Heereweg | 58 | 1871EJ | Schoorl

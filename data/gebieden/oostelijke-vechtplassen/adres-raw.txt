@@ -1,0 +1,216 @@
+Gevonden: 212 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10069 | Hinderdam | 5 a | 1394JB | Nederhorst den Berg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10176618 | 's-Gravelandseweg | 36 | 1381HK | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10832 | St. Annastraat | 20 | 1411PH | Naarden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11917 | Lange Muiderweg | 30 | 1382LA | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12333 | Oud-Loosdrechtsedijk | 15 | 1231LN | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12456 | Rijksstraatweg | 3 | 3631AA | Nieuwersluis
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12658 | Oud-Loosdrechtsedijk | 35 | 1231LP | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12663 | Kanaaldijk Oost | 8 | 1393PA | Nigtevecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12877 | Kleiweg | 27 | 1396HW | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13282 | Nigtevechtseweg | 43 | 3633XR | Vreeland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14084 | Kortenhoefsedijk | 149 | 1241LX | Kortenhoef
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14084 | Kortenhoefsedijk | 150 | 1241LZ | Kortenhoef
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14320 | Rijksstraatweg | 228 | 3634AN | Loenersloot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15061 | Duinkerken | 5 | 3633EM | Vreeland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15553 | Oude Dijk | 3 | 1391KP | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16357 | Oud Aa | 34 A | 3621LC | Breukelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16570 | Oud-Loosdrechtsedijk | 7 | 1231LN | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16570 | Oud-Loosdrechtsedijk | 9 | 1231LN | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16868 | Rijksstraatweg | 119 | 3632AB | Loenen aan de Vecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18235 | Gein-Zuid | 53 | 1391JH | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18276 | Naardermeer | 13 | 1412CV | Naarden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18386 | Ockhuizerweg | 20 | 3455RW | Haarzuilens
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18500 | Oud-Loosdrechtsedijk | 30 | 1231NA | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18500 | Oud-Loosdrechtsedijk | 34 | 1231NA | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18644 | Dr. Welfferweg | 27 | 3615AK | Westbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19175 | Straatweg | 224 | 3621BZ | Breukelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19261 | Oud-Loosdrechtsedijk | 86 | 1231NC | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19455 | Heuvellaan | 1 | 3612BA | Tienhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19678 | Corverslaan | 1 | 1217TN | Hilversum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19988 | Nieuw-Loosdrechtsedijk | 139 | 1231KR | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19988 | Nieuw-Loosdrechtsedijk | 141 | 1231KR | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20909 | Gein-Zuid | 36 | 1391JG | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20909 | Gein-Zuid | 35 | 1391JG | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21240 | 's-Gravelandseweg | 184 | 1217GB | Hilversum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21240 | 's-Gravelandseweg | 186 | 1217GB | Hilversum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21430 | Utrechtseweg | 112 | 1381GT | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21775 | Nieuw-Loosdrechtsedijk | 86 | 1231LA | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21816 | Angstelkade | 8 | 3631NA | Nieuwersluis
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21816 | Angstelkade | 7 | 3631NA | Nieuwersluis
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22042 | Eikstraat | 9 | 3455SJ | Haarzuilens
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22271 | Vreelandseweg | 78 | 1394BN | Nederhorst den Berg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22774 | Gein-Zuid | 19 | 1391GT | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22859 | 's-Gravelandseweg | 50 | 1381HK | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22859 | 's-Gravelandseweg | 51 | 1381HK | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22919 | Wilhelminastraat | 7 | 3626AL | Nieuwer Ter Aa
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23058 | Voorstraat | 22 | 3633BB | Vreeland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23500 | Oud-Loosdrechtsedijk | 232 | 1231NH | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23953 | Dorpsstraat | 67 | 1393NG | Nigtevecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24196 | Mijndensedijk | 13 | 3632NT | Loenen aan de Vecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24196 | Mijndensedijk | 15 | 3632NT | Loenen aan de Vecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24196 | Mijndensedijk | 15 A | 3632NT | Loenen aan de Vecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24345 | Oud Over | 16 | 3632VD | Loenen aan de Vecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25377 | Kerklaan | 8 | 1382AK | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25739 | Gein-Zuid | 26 | 1391JE | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26058 | Oud-Loosdrechtsedijk | 67 | 1231LR | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26058 | Oud-Loosdrechtsedijk | 69 | 1231LR | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26058 | Oud-Loosdrechtsedijk | 71 | 1231LR | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26291 | Zandpad | 27 | 3621ND | Breukelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26437 | Klompweg | 80 | 1393PM | Nigtevecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26475 | Nieuw-Loosdrechtsedijk | 33 | 1231KM | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26475 | Nieuw-Loosdrechtsedijk | 35 | 1231KM | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26475 | Nieuw-Loosdrechtsedijk | 31 | 1231KM | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26475 | Nieuw-Loosdrechtsedijk | 37 | 1231KM | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26504 | Nieuw-Loosdrechtsedijk | 56 | 1231KZ | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26586 | Mijndensedijk | 57 | 3631NN | Nieuwersluis
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26823 | Vreelandseweg | 36 | 1393PG | Nigtevecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27212 | Dorpsweg | 119 | 3738CC | Maartensdijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27237 | Hoorneboeg | 2 | 1213RE | Hilversum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27237 | Hoorneboeg | 3 A | 1213RE | Hilversum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27821 | Klompweg | 24 | 1393PJ | Nigtevecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27880 | Oud-Loosdrechtsedijk | 12 | 1231NA | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27880 | Oud-Loosdrechtsedijk | 14 | 1231NA | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28054 | Rijksstraatweg | 155 | 1396JK | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28256 | Dammerweg | 4 | 1383HT | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28462 | Gein-Zuid | 21 | 1391JE | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29209 | Nieuw-Loosdrechtsedijk | 27 | 1231KL | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29227 | Dorpsweg | 61 | 3738CB | Maartensdijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29475 | Oud-Loosdrechtsedijk | 27 | 1231LN | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29593 | Zandpad | 74 | 3621NG | Breukelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29884 | Oude Dijk | 4 | 1391KP | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29884 | Oude Dijk | 5 | 1391KP | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29946 | Hogenoord | 8 A | 3513GX | Utrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29946 | Hogenoord | 8 | 3513GX | Utrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29946 | Hogenoord | 9 | 3513GX | Utrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30050 | Gein-Noord | 63 | 1391HW | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30285 | Dammerweg | 10 | 1383HT | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30763 | Oud-Loosdrechtsedijk | 42 | 1231NB | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31781 | Oud-Loosdrechtsedijk | 65 | 1231LP | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31781 | Oud-Loosdrechtsedijk | 65 B | 1231LP | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31789 | Oud-Loosdrechtsedijk | 29 | 1231LN | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33836 | Nieuw-Loosdrechtsedijk | 47 | 1231KM | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33836 | Nieuw-Loosdrechtsedijk | 49 | 1231KM | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34420 | Rijksstraatweg | 23 | 1396JC | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34800 | Bosdijk | 7 | 3628EA | Kockengen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34800 | Bosdijk | 8 | 3628EA | Kockengen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35159 | Kleizuwe | 131 A | 3633AG | Vreeland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35159 | Kleizuwe | 131 | 3633AG | Vreeland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35229 | Eilandseweg | 11 | 1394JE | Nederhorst den Berg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35781 | Gooilandseweg | 7 | 1381HR | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35781 | Gooilandseweg | 7 A | 1381HR | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36560 | Loenenseweg | 4 | 3633DA | Vreeland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36798 | Achterweteringseweg | 70 | 3738MA | Maartensdijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36840 | Utrechtseweg | 116 | 1381GT | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36864 | Rijksstraatweg | 202 | 3634AN | Loenersloot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36864 | Rijksstraatweg | 204 | 3634AN | Loenersloot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36915 | Kleizuwe | 103 | 3633AG | Vreeland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37050 | Zandpad | 3 | 3621NC | Breukelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37131 | Gein-Zuid | 46 | 1391JH | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37955 | Lange Muiderweg | 16 | 1382LA | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38739 | Oud-Loosdrechtsedijk | 226 | 1231NG | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38739 | Oud-Loosdrechtsedijk | 228 | 1231NG | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39979 | Laan van Chartroise | 174 | 3552EZ | Utrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39979 | Laan van Chartroise | 170 | 3552EZ | Utrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39979 | Laan van Chartroise | 172 | 3552EZ | Utrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39979 | Laan van Chartroise | 174 A | 3552EZ | Utrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39979 | Laan van Chartroise | 170 A | 3552EZ | Utrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40377 | Thematerweg | 2 | 3455SN | Haarzuilens
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40561 | Oud-Loosdrechtsedijk | 21 | 1231LN | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40561 | Oud-Loosdrechtsedijk | 23 | 1231LN | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40561 | Oud-Loosdrechtsedijk | 25 | 1231LN | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40761 | Oud Over | 88 | 3632VE | Loenen aan de Vecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41028 | Googweg | 10 | 1399ER | Muiderberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41034 | Zandpad | 32 | 3601NA | Maarssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41234 | Portengen | 13 | 3628EB | Kockengen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41664 | Nieuw-Loosdrechtsedijk | 57 | 1231KM | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42115 | Nieuw-Loosdrechtsedijk | 175 | 1231KS | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42529 | 's-Gravelandseweg | 39 | 1381HK | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42543 | Nieuw-Loosdrechtsedijk | 16 | 1231KX | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42543 | Nieuw-Loosdrechtsedijk | 18 | 1231KX | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42561 | Oud-Loosdrechtsedijk | 33 | 1231LP | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43284 | Zandpad | 88 | 3621NH | Breukelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43335 | Gein-Zuid | 12 | 1391GT | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43654 | Nieuw-Loosdrechtsedijk | 105 | 1231KN | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43659 | Gein-Noord | 64 | 1391HW | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44355 | Eilandseweg | 16 | 1394JE | Nederhorst den Berg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44355 | Eilandseweg | 16 A | 1394JE | Nederhorst den Berg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44580 | Winkeldijk | 1 | 1391HK | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44736 | Julianalaan | 18 | 3626AM | Nieuwer Ter Aa
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45043 | Gein-Noord | 35 | 1391HA | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45178 | Gein-Zuid | 44 | 1391JG | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45509 | 's-Gravelandseweg | 7 | 1381HH | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46022 | Enghlaan | 17 | 3543BD | Utrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46335 | Gein-Noord | 80 | 1391HZ | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48559 | Dorpsweg | 43 | 3738CA | Maartensdijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48973 | Nieuw-Loosdrechtsedijk | 173 | 1231KS | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49329 | Nieuw-Loosdrechtsedijk | 179 | 1231KS | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49329 | Nieuw-Loosdrechtsedijk | 181 | 1231KS | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49350 | Binnenweg | 18 A | 1396KM | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49726 | Thematerweg | 18 | 3455SN | Haarzuilens
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49739 | De Horn | 4 | 1396HT | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50690 | Nieuweweg | 2 | 3612AR | Tienhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50862 | Europalaan | 1 | 3601XR | Maarssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50939 | Donkervlietse Binnenweg | 5 | 1396LN | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51845 | Rijksstraatweg | 8 | 1396JL | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51845 | Rijksstraatweg | 10 | 1396JL | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52110 | Stichts End | 20 a | 1244PN | Ankeveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52110 | Stichts End | 20 | 1244PN | Ankeveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52259 | Rijksstraatweg | 25 | 1396JD | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52359 | Nieuw-Loosdrechtsedijk | 91 | 1231KN | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53194 | Rijksstraatweg | 6 A | 1396JL | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53456 | Cannenburgerweg | 11 | 1244RE | Ankeveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53715 | Gein-Zuid | 23 | 1391JE | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54037 | Zuidereinde | 90 | 1243KK | 's-Graveland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54256 | Oud-Loosdrechtsedijk | 129 A | 1231LT | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54386 | Dorpsweg | 99 | 3738CB | Maartensdijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54651 | Oud-Loosdrechtsedijk | 13 | 1231LN | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54934 | Dorpsweg | 71 | 3738CB | Maartensdijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55169 | Dr. Welfferweg | 11 | 3615AK | Westbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55364 | Slotlaan | 8 | 3634AP | Loenersloot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56394 | Kerkdijk | 20 | 3615BE | Westbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56495 | Joostenlaan | 1 | 3455SP | Haarzuilens
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56563 | Gein-Zuid | 37 | 1391JG | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56973 | Zuidpolderweg | 8 | 1399VS | Muiderberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56973 | Zuidpolderweg | 10 | 1399VS | Muiderberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57380 | Beresteinseweg | 27 | 1243LC | 's-Graveland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57538 | Nieuw-Loosdrechtsedijk | 94 | 1231LA | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57567 | Binnenweg | 10 | 1396KM | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57567 | Binnenweg | 12 | 1396KM | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57958 | Dr. Welfferweg | 16 | 3615AN | Westbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57958 | Dr. Welfferweg | 18 | 3615AN | Westbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58003 | Klopdijk | 2 | 3563MA | Utrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59667 | Zandpad | 12 | 3621NC | Breukelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59884 | Rijksstraatweg | 168 | 3632AJ | Loenen aan de Vecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60534 | Kortenhoefsedijk | 99 | 1241LT | Kortenhoef
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61568 | Nieuw-Loosdrechtsedijk | 87 | 1231KN | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61842 | Nieuw-Loosdrechtsedijk | 42 | 1231KZ | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61952 | Oud-Loosdrechtsedijk | 209 | 1231LW | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65334 | Straatweg | 179 | 3621BM | Breukelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65762 | Straatweg | 27 | 3621BG | Breukelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66213 | Diependaalsedijk | 19 | 3601GH | Maarssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66818 | Rijksstraatweg | 87 | 1396JG | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66818 | Rijksstraatweg | 87 A | 1396JG | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67738 | Oud-Loosdrechtsedijk | 98 | 1231NC | Loosdrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68001 | 's-Gravelandseweg | 5 | 1381HH | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68002 | 's-Gravelandseweg | 4 | 1381HH | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68983 | 's-Gravelandseweg | 37 | 1381HK | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69788 | Leeuwenlaan | 13 | 1243KA | 's-Graveland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70395 | Slotlaan | 1 | 3611AR | Oud Zuilen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70590 | Rijksstraatweg | 207 | 3634AL | Loenersloot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70590 | Rijksstraatweg | 207 a | 3634AL | Loenersloot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71244 | Zandpad | 34 | 3621ND | Breukelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71357 | Abel Tasmanlaan | 3 | 3603GC | Maarssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72511 | Nigtevechtseweg | 47 | 3633XR | Vreeland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72969 | Zandpad | 82 | 3621NG | Breukelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74315 | Rijksstraatweg | 7 | 3631AA | Nieuwersluis
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74423 | Heuvellaan | 5 | 3612BA | Tienhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74423 | Heuvellaan | 7 | 3612BA | Tienhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75463 | Noordereinde | 54 a | 1243JJ | 's-Graveland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/76634 | Weesperbinnenweg | 11 | 1398PC | Muiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/76846 | Stationsstraat | 28 | 1391GP | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/80088 | Zandpad | 53 | 3621NE | Breukelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/80096 | Laan van Gunterstein | 2 | 3621VA | Breukelen
