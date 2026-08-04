@@ -90,6 +90,7 @@
     <div class="chips">
       <button class="chip on" id="fAll" aria-pressed="true">Alle 61</button>
       <button class="chip" id="fJa" aria-pressed="false">Alleen BAG-industriefunctie-indicatie</button>
+      <button class="chip" id="csvBtn" type="button">CSV downloaden &darr;</button>
     </div>
     <div id="map" aria-label="Kaart van het Natura 2000-gebied Donkse Laagten met rijksmonumentale boerderijen, met een OpenStreetMap-ondergrond"></div>
     <div class="legend">
@@ -263,6 +264,32 @@ function toonDetail(m){
     <dt>peildatum</dt><dd>2026-08-04</dd>
   </dl>`;
   detail.classList.add('on');
+}
+
+function csvVeld(v){
+  const s = String(v ?? '');
+  return /[",\n;]/.test(s) ? '"' + s.replace(/"/g,'""') + '"' : s;
+}
+function monumentenCsv(mons){
+  const koppen = ['rijksmonumentnummer','adres','provincie','afstand_m','oorspronkelijke_functie','status'];
+  const regels = mons.map(m => {
+    const a0 = (m.addressen && m.addressen[0]) || {};
+    const straatHuisnr = [a0.straat, a0.huisnr].filter(Boolean).join(' ');
+    const plaats = a0.postcode || a0.woonplaats ? `${a0.postcode||''} ${a0.woonplaats||m.wpl||''}`.trim() : (m.wpl||'');
+    const adres = [straatHuisnr, plaats].filter(Boolean).join(', ');
+    return [m.nr, adres, m.prov, m.erin ? 0 : m.afstandTotRand, m.functie||'', STATUS_LABEL[m.status]||m.status].map(csvVeld).join(',');
+  });
+  return '\uFEFF' + [koppen.join(','), ...regels].join('\r\n');
+}
+if($('csvBtn')){
+  $('csvBtn').onclick = () => {
+    const blob = new Blob([monumentenCsv(D.mons)], { type: 'text/csv;charset=utf-8' });
+    const url = URL.createObjectURL(blob);
+    const a = document.createElement('a');
+    a.href = url; a.download = 'donkse-laagten-boerderijen.csv';
+    document.body.appendChild(a); a.click(); document.body.removeChild(a);
+    URL.revokeObjectURL(url);
+  };
 }
 
 const monLayer = L.layerGroup().addTo(map);

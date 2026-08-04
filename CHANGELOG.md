@@ -6,6 +6,21 @@ precieze wijzigingen per gebied: `git log`. Entries staan in omgekeerd-chronolog
 volgorde; een latere entry kan dus een eerdere entry corrigeren of vervangen. Waar dat
 kan verwarren, is dat expliciet benoemd.
 
+## CSV-downloadknop per gebiedspagina
+
+Elke gebiedspagina heeft nu een "CSV downloaden"-knop naast de bestaande filterknoppen (naast
+"Alle N" / "Alleen BAG-industriefunctie-indicatie"), voor gebieden met minstens 1 monument. Volledig
+client-side (`Blob` + tijdelijke `<a download>`, geen server nodig, past bij de statische
+GitHub Pages-opzet): exporteert de complete monumentenlijst (rijksmonumentnummer, adres, provincie,
+afstand in meters, oorspronkelijke functie, status) naar `<slug>-boerderijen.csv`, met UTF-8 BOM
+voor correcte weergave van diakrieten in Excel. Genereert altijd de volledige lijst, ongeacht de
+actieve kaartfilter.
+
+Bijvangst: bij het testen bleek er geen lokale server-configuratie (`.claude/launch.json`) te
+bestaan om deze statische site in de browser te verifiëren; toegevoegd (Python `http.server`) zodat
+toekomstige UI-wijzigingen ook daadwerkelijk in een browser getest kunnen worden in plaats van
+alleen via de generatiescripts.
+
 ## Veluwe toegevoegd; Waddenzee en Noordzeekustzone bewust definitief buiten scope
 
 159 naar 160 verwerkte gebieden: Veluwe (tiende ronde), het laatste van de drie bewust uitgestelde

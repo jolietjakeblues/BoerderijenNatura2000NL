@@ -375,10 +375,12 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
 ## Nog te doen
 
 - **Volledig afstands-bucketschema** invoeren: erin / < 250 m / < 1 km / < 5 km / < 25 km / ≥ 25 km
-  (nu alleen erin + ≤ 5 km). Bewust uitgesteld tot na de landsdekkende opbouw van de eerste ronde
-  gebieden.
-- **Download-knop (CSV)** per gebiedspagina: monumentenlijst (nr, adres, provincie, afstand, functie,
-  status) exporteren.
+  (nu alleen erin + ≤ 5 km). De weergavelaag hiervoor bestaat al (`k`-klasse per monument, kleuren
+  en labels in de gebiedspagina); alleen de selectiegrens in `03-classify-monumenten.mjs` zit nog
+  op 5 km. Bewust uitgesteld: een verkennende telling liet een groei van 9x tot 236x per gebied
+  zien bij 25 km, wat een volledige herbouw van alle gebieden (vele uren) en ongeteste
+  paginagrootte/kaartperformance (geen marker-clustering) zou betekenen. Eerst een pilot op een
+  paar representatieve gebieden voordat dit op alle gebieden wordt losgelaten.
 - **Klikbare popup voor het Natura 2000-gebied zelf** op de kaart, met de gebiedsbeschrijving.
 - Normaliseren voor vergelijking tussen gebieden (per 100 km², per km gebiedsrand, aandeel actief,
   verdeling over afstandsklassen) - nadrukkelijk als beschrijvende statistiek, niet als stikstofmaat.
