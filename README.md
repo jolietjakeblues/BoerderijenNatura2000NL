@@ -381,7 +381,6 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
   zien bij 25 km, wat een volledige herbouw van alle gebieden (vele uren) en ongeteste
   paginagrootte/kaartperformance (geen marker-clustering) zou betekenen. Eerst een pilot op een
   paar representatieve gebieden voordat dit op alle gebieden wordt losgelaten.
-- **Klikbare popup voor het Natura 2000-gebied zelf** op de kaart, met de gebiedsbeschrijving.
 - Normaliseren voor vergelijking tussen gebieden (per 100 km², per km gebiedsrand, aandeel actief,
   verdeling over afstandsklassen) - nadrukkelijk als beschrijvende statistiek, niet als stikstofmaat.
 - Wijzigingsgeschiedenis/snapshots per peildatum (wat veranderde sinds de vorige versie).

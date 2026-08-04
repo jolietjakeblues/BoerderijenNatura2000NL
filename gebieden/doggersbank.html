@@ -93,13 +93,14 @@
     <p style="font-size:13px;color:var(--ink-soft);margin-bottom:8px">Geen rijksmonumentale boerderijen gevonden binnen of tot 5&nbsp;km van dit gebied.</p>
     <div id="map" aria-label="Kaart van het Natura 2000-gebied Doggersbank met rijksmonumentale boerderijen, met een OpenStreetMap-ondergrond"></div>
     <div class="legend">
-      <span><i class="sq" style="background:rgba(94,125,70,.3);border:1px solid var(--n2k)"></i>Natura 2000</span>
+      <span><i class="sq" style="background:rgba(94,125,70,.3);border:1px solid var(--n2k)"></i>Natura 2000 (klikbaar)</span>
       <span><i class="sw" style="background:var(--k0)"></i>erin</span>
       <span><i class="sw" style="background:var(--k1)"></i>&lt;250 m</span>
       <span><i class="sw" style="background:var(--k2)"></i>&lt;1 km</span>
       <span><i class="sw" style="background:var(--k3)"></i>&lt;5 km</span>
     </div>
-    <p style="font-size:12px;color:var(--ink-soft);margin-top:8px">Klik op een punt voor details ("waarom staat
+    <p style="font-size:12px;color:var(--ink-soft);margin-top:8px">Klik op het groene Natura 2000-gebied zelf voor
+    de gebiedsbeschrijving. Klik op een punt voor details ("waarom staat
     dit punt hier?"), beweeg eroverheen voor een korte hint. Sleep om te verschuiven, scroll of gebruik de
     +/&minus;-knoppen om in te zoomen op de werkelijke ligging. Bij omrande punten (donkerblauw, effen) is
     eenduidig een industriefunctie in de BAG aangetroffen. Een dubbele donkerblauwe rand betekent: wel
@@ -143,6 +144,7 @@
     bedrijfsvoering, alleen over wat wel of niet in de BAG is aangetroffen.</p>
   </footer>
 </div>
+<script id="meta" type="application/json">{"gebied":"Doggersbank","tekst":"Uitgestrekte, permanent onder water gelegen zandbank (circa 473.500 hectare) op de noordrand van het Nederlandse deel van de Noordzee. Beschermd vanwege de ondiepe, dynamische zandbankhabitat met een gespecialiseerde bodemfauna die aan deze omstandigheden is aangepast.","bron":"https://www.natura2000.nl/gebieden/noordzee/doggersbank"}</script>
 <script id="data" type="application/json">{"gebied":"Doggersbank","peildatum":"2026-08-04","n":0,"ja":0,"onbekend":0,"provCounts":{},"provJaCounts":{},"datakwaliteit":{"industrieAangetroffen":0,"industrieDeelsAangetroffen":0,"geenIndustrieAangetroffen":0,"geenAdres":0,"geenMatch":0,"bagMislukt":0,"meerdereAdressen":0},"bbox":[2.7482854237209113,54.36388562476994,4.275071282356709,55.660090376728874],"n2000":[{"naam":"Doggersbank","rings":[[[4.2600712823567095,55.36515303549785],[3.6357839681252977,55.645090376728874],[3.2522372037022644,55.48092663681721],[3.211226813938137,55.38193943668793],[3.083435443061095,55.080583850748944],[2.957047301967184,54.77044023785236],[2.8984606491610347,54.62043373605777],[2.7632854237209115,54.37888562476994],[4.2600712823567095,55.36515303549785]]]}],"mons":[],"richtlijn":{"gebiedsnummer":"164","label":"Habitatrichtlijn","badge":"HR","heeftGroeveOnderdeel":false,"siteCodeVogelrichtlijn":null,"siteCodeHabitatrichtlijn":"NL2008001","stikstofgevoelig":false,"natura2000Status":"Natura2000-besluit 16 juni 2016","wikidata":"http://www.wikidata.org/entity/Q108202543","rceUris":["https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/869bcbf1-99b0-474b-9877-300077d54757"]}}</script>
 <script
   src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
@@ -150,6 +152,7 @@
   crossorigin=""></script>
 <script>
 const D = JSON.parse(document.getElementById('data').textContent);
+const META = JSON.parse(document.getElementById('meta').textContent);
 const $ = id => document.getElementById(id);
 const fmt = n => n.toLocaleString('nl-NL');
 const KC = ['#7A1607','#D1401F','#E0703C','#E5B08E','#B7C7D2','#B7C7D2'];
@@ -171,9 +174,14 @@ map.fitBounds([[by0,bx0],[by1,bx1]], { padding: [10,10] });
 
 const n2000Layer = L.layerGroup().addTo(map);
 D.n2000.forEach(g => g.rings.forEach(ring => {
-  L.polygon(ring.map(([lon,lat]) => [lat,lon]), {
-    color: '#5E7D46', weight: 1, fillColor: '#5E7D46', fillOpacity: 0.28, interactive: false
+  const poly = L.polygon(ring.map(([lon,lat]) => [lat,lon]), {
+    color: '#5E7D46', weight: 1, fillColor: '#5E7D46', fillOpacity: 0.28
   }).addTo(n2000Layer);
+  poly.bindTooltip('Klik voor gebiedsbeschrijving', { sticky: true });
+  poly.bindPopup(
+    `<b>${META.gebied}</b><p style="margin-top:6px">${META.tekst}</p><p style="margin-top:6px"><a href="${META.bron}" target="_blank" rel="noopener" style="color:var(--blue-mid)">Bron: natura2000.nl &rarr;</a></p>`,
+    { maxWidth: 320 }
+  );
 }));
 
 const STATUS_LABEL = {

@@ -6,6 +6,25 @@ precieze wijzigingen per gebied: `git log`. Entries staan in omgekeerd-chronolog
 volgorde; een latere entry kan dus een eerdere entry corrigeren of vervangen. Waar dat
 kan verwarren, is dat expliciet benoemd.
 
+## Klikbare popup voor het Natura 2000-gebied zelf
+
+Het groene Natura 2000-gebiedsvlak op de kaart is nu ook klikbaar (was `interactive: false`): een
+klik toont de gebiedsnaam, de bestaande zelfgeschreven beschrijving (`gebieden-beschrijving.mjs`,
+dezelfde tekst als in de pagina-header) en een link naar de natura2000.nl-bron, met een
+hover-tooltip ("Klik voor gebiedsbeschrijving") als ontdekhint. Werkt ook bij de 0-monumenten-
+gebieden (De Bruuk, Groote Peel e.d.), waar de polygoon het enige interactieve kaartelement is.
+
+Technisch: de beschrijvingstekst wordt als los `<script id="meta" type="application/json">`-blok in
+de pagina meegegeven (naast het bestaande `data`-blok), zodat de client-side popup-inhoud via
+`JSON.parse` binnenkomt in plaats van rechtstreeks in een JS-template-literal - dat voorkomt
+escape-gedoe met backticks/`${...}` mocht een beschrijving die ooit bevatten.
+
+Gecontroleerd dat monumentmarkers en de gebiedspolygoon elkaars klikken niet verstoren: markers
+worden ná de polygoon aan de kaart toegevoegd en staan daardoor later in de SVG-DOM (bevestigd via
+directe inspectie), dus ze vangen kliks als eerste af. Getest in een echte browser op zowel een
+gebied met monumenten (Dwingelderveld) als een 0-monumenten-gebied (De Bruuk): popup-inhoud correct,
+monumentdetail-paneel blijft onafhankelijk werken, geen consolefouten.
+
 ## Subresource Integrity (SRI) voor de Leaflet-CDN-referenties
 
 Elke gebiedspagina laadt Leaflet 1.9.4 (CSS + JS) van unpkg.com. `integrity`- en

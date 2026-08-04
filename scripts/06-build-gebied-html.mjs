@@ -172,13 +172,14 @@ const head = `<!DOCTYPE html>
     </div>`}
     <div id="map" aria-label="Kaart van het Natura 2000-gebied ${Dobj.gebied} met rijksmonumentale boerderijen, met een OpenStreetMap-ondergrond"></div>
     <div class="legend">
-      <span><i class="sq" style="background:rgba(94,125,70,.3);border:1px solid var(--n2k)"></i>Natura 2000</span>
+      <span><i class="sq" style="background:rgba(94,125,70,.3);border:1px solid var(--n2k)"></i>Natura 2000 (klikbaar)</span>
       <span><i class="sw" style="background:var(--k0)"></i>erin</span>
       <span><i class="sw" style="background:var(--k1)"></i>&lt;250 m</span>
       <span><i class="sw" style="background:var(--k2)"></i>&lt;1 km</span>
       <span><i class="sw" style="background:var(--k3)"></i>&lt;5 km</span>
     </div>
-    <p style="font-size:12px;color:var(--ink-soft);margin-top:8px">Klik op een punt voor details ("waarom staat
+    <p style="font-size:12px;color:var(--ink-soft);margin-top:8px">Klik op het groene Natura 2000-gebied zelf voor
+    de gebiedsbeschrijving. Klik op een punt voor details ("waarom staat
     dit punt hier?"), beweeg eroverheen voor een korte hint. Sleep om te verschuiven, scroll of gebruik de
     +/&minus;-knoppen om in te zoomen op de werkelijke ligging. Bij omrande punten (donkerblauw, effen) is
     eenduidig een industriefunctie in de BAG aangetroffen. Een dubbele donkerblauwe rand betekent: wel
@@ -218,6 +219,7 @@ const head = `<!DOCTYPE html>
     bedrijfsvoering, alleen over wat wel of niet in de BAG is aangetroffen.</p>
   </footer>
 </div>
+<script id="meta" type="application/json">${JSON.stringify({ gebied: Dobj.gebied, tekst: meta.tekst, bron: meta.bron })}</script>
 <script id="data" type="application/json">`;
 
 const tail = `</script>
@@ -227,6 +229,7 @@ const tail = `</script>
   crossorigin=""></script>
 <script>
 const D = JSON.parse(document.getElementById('data').textContent);
+const META = JSON.parse(document.getElementById('meta').textContent);
 const $ = id => document.getElementById(id);
 const fmt = n => n.toLocaleString('nl-NL');
 const KC = ['#7A1607','#D1401F','#E0703C','#E5B08E','#B7C7D2','#B7C7D2'];
@@ -245,9 +248,14 @@ map.fitBounds([[by0,bx0],[by1,bx1]], { padding: [10,10] });
 
 const n2000Layer = L.layerGroup().addTo(map);
 D.n2000.forEach(g => g.rings.forEach(ring => {
-  L.polygon(ring.map(([lon,lat]) => [lat,lon]), {
-    color: '#5E7D46', weight: 1, fillColor: '#5E7D46', fillOpacity: 0.28, interactive: false
+  const poly = L.polygon(ring.map(([lon,lat]) => [lat,lon]), {
+    color: '#5E7D46', weight: 1, fillColor: '#5E7D46', fillOpacity: 0.28
   }).addTo(n2000Layer);
+  poly.bindTooltip('Klik voor gebiedsbeschrijving', { sticky: true });
+  poly.bindPopup(
+    \`<b>\${META.gebied}</b><p style="margin-top:6px">\${META.tekst}</p><p style="margin-top:6px"><a href="\${META.bron}" target="_blank" rel="noopener" style="color:var(--blue-mid)">Bron: natura2000.nl &rarr;</a></p>\`,
+    { maxWidth: 320 }
+  );
 }));
 
 const STATUS_LABEL = {
