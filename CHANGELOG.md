@@ -6,6 +6,23 @@ precieze wijzigingen per gebied: `git log`. Entries staan in omgekeerd-chronolog
 volgorde; een latere entry kan dus een eerdere entry corrigeren of vervangen. Waar dat
 kan verwarren, is dat expliciet benoemd.
 
+## Correctie-/feedbackknop ("Meld een mogelijke fout")
+
+Elke gebiedspagina heeft nu onderaan een "Meld een mogelijke fout op deze pagina"-link. Gekozen voor
+een GitHub issue-form-template (`.github/ISSUE_TEMPLATE/gebied-fout.yml`) in plaats van een mailto-
+link: velden voor gebied, paginalink, rijksmonumentnummer (optioneel) en een verplichte
+probleembeschrijving, plus een korte toelichting bovenaan dat een aantal dingen die op het eerste
+gezicht een fout lijken (BAG niet te controleren, geen industriefunctie-indicatie) bewuste, elders
+toegelichte keuzes zijn - om te voorkomen dat elke melding in werkelijkheid een uitleg-vraag is.
+
+De link zelf wordt per gebied gebouwd met `URLSearchParams` en bevat `template=gebied-fout.yml` plus
+`gebied=<naam>&pagina=<paginaURL>` als query-parameters; GitHub's issue-forms vullen automatisch elk
+formulierveld waarvan de `id` overeenkomt met een query-parameternaam, dus een melder hoeft niet zelf
+te typen om welk gebied of welke pagina het gaat. YAML-syntax geverifieerd met `js-yaml` (parseert
+naar de verwachte structuur); prefill zelf kon niet visueel bevestigd worden zonder in te loggen op
+GitHub (geen toegang tot dat account), maar de queryparameternamen zijn expliciet gecontroleerd tegen
+de `id`-velden in het template.
+
 ## Klikbare popup voor het Natura 2000-gebied zelf
 
 Het groene Natura 2000-gebiedsvlak op de kaart is nu ook klikbaar (was `interactive: false`): een

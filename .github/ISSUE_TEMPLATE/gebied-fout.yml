@@ -1,0 +1,46 @@
+name: Meld een mogelijke fout op een gebiedspagina
+description: Rapporteer een onjuistheid bij een specifiek Natura 2000-gebied of monument (verkeerde classificatie, kapotte link, verouderd adres, etc.)
+title: "[Mogelijke fout] "
+labels: ["mogelijke-fout"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Dank voor het melden. Vul zo veel mogelijk van onderstaande in - hoe concreter, hoe sneller
+        het te controleren is. Zie ook de sectie "Methodiek" en "Kanttekeningen" onderaan de
+        gebiedspagina zelf: sommige dingen die op het eerste gezicht een fout lijken (bv. een
+        "BAG niet te controleren"-monument, of een boerderij zonder BAG-industriefunctie-indicatie)
+        zijn bewuste, toegelichte keuzes en geen fout.
+  - type: input
+    id: gebied
+    attributes:
+      label: Natura 2000-gebied
+      description: Om welk gebied gaat het?
+      placeholder: bv. Dwingelderveld
+    validations:
+      required: true
+  - type: input
+    id: pagina
+    attributes:
+      label: Link naar de gebiedspagina
+      placeholder: https://jolietjakeblues.github.io/BoerderijenNatura2000NL/gebieden/....html
+    validations:
+      required: false
+  - type: input
+    id: rijksmonumentnummer
+    attributes:
+      label: Rijksmonumentnummer (indien het over één specifiek monument gaat)
+      placeholder: bv. 12345
+    validations:
+      required: false
+  - type: textarea
+    id: probleem
+    attributes:
+      label: Wat klopt er niet?
+      description: Beschrijf zo concreet mogelijk wat je onjuist vindt, en indien bekend wat het zou moeten zijn (met bronvermelding als je die hebt).
+      placeholder: >-
+        Bijvoorbeeld: "Rijksmonument 12345 wordt getoond als binnen 5 km van gebied X, maar volgens
+        [bron] ligt het op meer dan 6 km afstand." of "Het adres bij monument 67890 klopt niet meer,
+        het pand is gesplitst in twee BAG-objecten sinds [datum]."
+    validations:
+      required: true

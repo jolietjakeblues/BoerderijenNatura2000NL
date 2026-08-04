@@ -384,7 +384,6 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
 - Normaliseren voor vergelijking tussen gebieden (per 100 km², per km gebiedsrand, aandeel actief,
   verdeling over afstandsklassen) - nadrukkelijk als beschrijvende statistiek, niet als stikstofmaat.
 - Wijzigingsgeschiedenis/snapshots per peildatum (wat veranderde sinds de vorige versie).
-- Correctie-/feedbackknop ("Meld een mogelijke fout") met changelog.
 - Visuele scheiding tussen brongegevens, ruimtelijk afgeleide data en indicatieve classificatie
   (kleurcodering), zodat RCE-feiten en zelf afgeleide indicaties niet even zeker overkomen.
 - Deelbare kaartweergaven via URL-parameters (`?gebied=…&afstand=…&bedrijfsindicatie=…`).
