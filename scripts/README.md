@@ -203,8 +203,8 @@ worden weggeschreven zonder dat een diff-check dat opmerkt.
   ook niet als die alleen een paar velden opvraagt.
 
 - **CQL_FILTER wordt door de gebruikte PDOK-WFS-endpoints
-  (`natura2000:natura2000`, `bag:verblijfsobject`) stilzwijgend genegeerd** —
-  je krijgt dan alle features terug in plaats van een foutmelding. Alleen
+  (`natura2000:natura2000`, `bag:verblijfsobject`) stilzwijgend genegeerd**;
+   je krijgt dan alle features terug in plaats van een foutmelding. Alleen
   `BBOX`-filters (en de aanpak hier: ongefilterd ophalen + zelf filteren in
   JS) bleken op deze endpoints betrouwbaar. Test dit opnieuw als je ooit
   CQL_FILTER probeert te gebruiken op een van deze diensten - neem niet

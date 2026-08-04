@@ -1,4 +1,4 @@
-# Gebieden — status en bouwgeschiedenis
+# Gebieden: status en bouwgeschiedenis
 
 Volledige lijst van alle verwerkte Natura 2000-gebieden, per bouwronde, met per-gebied cijfers
 (boerderijen | BAG-industriefunctie-indicatie | BAG niet te controleren) en de redenering achter
