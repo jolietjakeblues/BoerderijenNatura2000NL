@@ -1,0 +1,50 @@
+Gevonden: 46 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10332 | Kerkplein | 10 | 7631EV | Ootmarsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11977 | Jonkershoesweg | 4 | 7635LM | Lattrop-Breklenkamp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12025 | Blauweweg | 13 | 7662PX | Hezingen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12529 | Dorpsstraat | 1 | 7635NA | Lattrop-Breklenkamp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13043 | Denekamperweg | 177 | 7661RK | Vasse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14610 | Weerselosestraat | 9 | 7636RK | Agelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17323 | Zoekeweg | 18 | 7667SJ | Reutum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18734 | Weerselosestraat | 33 | 7636RK | Agelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19451 | Keerweer | 2 | 7631EX | Ootmarsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20918 | Broekdijk | 73 a | 7663TG | Mander
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21609 | Ganzenmarkt | 11 A | 7631EM | Ootmarsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21609 | Ganzenmarkt | 11 | 7631EM | Ootmarsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25490 | Damweg | 13 | 7634PC | Tilligte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25879 | Hooidijk | 35 | 7661RA | Vasse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27120 | Denekamperstraat | 7 A | 7631AA | Ootmarsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27120 | Denekamperstraat | 7 | 7631AA | Ootmarsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27593 | Hooidijk | 35 | 7661RA | Vasse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28220 | Keerweer | 2 | 7631EX | Ootmarsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34537 | Uelserweg | 155 | 7663TD | Mander
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36111 | Hooidijk | 49 | 7662PB | Hezingen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36331 | Booijmansweg | 14 | 7678RZ | Geesteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36479 | Jonkershoesweg | 8 | 7635LM | Lattrop-Breklenkamp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41285 | Vasserweg | 16 | 7631BC | Ootmarsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41330 | Dennenkampsweg | 2 | 7636PZ | Agelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43551 | Denekamperweg | 246 | 7661RM | Vasse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44795 | Denekamperweg | 225 a | 7661RK | Vasse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44795 | Denekamperweg | 225 | 7661RK | Vasse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45452 | Ootmarsumseweg | 340 | 7667PC | Reutum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46354 | Kleinesweg | 1 | 7636RD | Agelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47734 | Hardenbergerweg | 131 | 7678VR | Geesteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48201 | Manderveenseweg | 19 | 7651LE | Tubbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48922 | Meijersweg | 23 | 7678SH | Geesteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50197 | Dusinksweg | 14 A RECR | 7636PE | Agelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50719 | Nijenkampsweg | 4 | 7636RG | Agelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51786 | Vasserweg | 32 | 7638PL | Nutter
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54378 | Boakenkampsweg | 9 | 7661RN | Vasse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55003 | De Zoeke Brink | 5 | 7661PA | Vasse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56491 | Oosterveldsweg | 6 | 7662PW | Hezingen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58602 | Brookmanweg | 4 | 7635LE | Lattrop-Breklenkamp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59290 | Beekzijdeweg | 31 | 7661RV | Vasse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61272 | Bergvennenweg | 7 | 7635NJ | Lattrop-Breklenkamp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61445 | Denekamperweg | 177 | 7661RK | Vasse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61977 | Oldenzaalseweg | 74 | 7651KC | Tubbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75309 | Zoekeweg | 18 | 7667SJ | Reutum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/79467 | Beekzijdeweg | 33 | 7661RV | Vasse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/79468 | Beekzijdeweg | 35 | 7661RV | Vasse

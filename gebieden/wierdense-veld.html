@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Wierdense Veld &middot; Boerderij-rijksmonumenten &amp; Natura 2000</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+  :root{
+    --paper:#F4F7F8; --panel:#FFFFFF; --ink:#16324F; --ink-soft:#4A6579;
+    --blue-mid:#3E6C93; --alert:#D1401F; --line:#C9D6DE;
+    --n2k:#5E7D46; --n2k-bg:#E9F0E6; --n2k-text:#3B5230;
+    --k0:#7A1607; --k1:#D1401F; --k2:#E0703C; --k3:#E5B08E; --k4:#B7C7D2; --k5:#B7C7D2;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{background:var(--paper);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    line-height:1.5;padding:0 0 48px}
+  .wrap{max-width:760px;margin:0 auto;padding:0 16px}
+  .eyebrow{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--blue-mid);font-weight:600}
+  header{padding:18px 0 18px;border-bottom:2px solid var(--ink)}
+  h1{font-family:Palatino,"Palatino Linotype",Georgia,serif;font-size:27px;line-height:1.18;font-weight:700;margin-top:6px}
+  header p{margin-top:8px;font-size:14px;color:var(--ink-soft);
+    text-align:justify;-webkit-hyphens:auto;hyphens:auto}
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:16px 0}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:10px}
+  .stat .num{font-family:Palatino,Georgia,serif;font-size:20px;font-weight:700;line-height:1.05}
+  .stat.alert .num{color:var(--alert)}
+  .stat.neutral .num{color:var(--ink-soft)}
+  .stat .lbl{font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-soft);margin-top:3px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:14px;margin:14px 0}
+  .badge-richtlijn{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.04em;
+    text-transform:uppercase;padding:2px 8px;background:var(--n2k-bg);color:var(--n2k-text);border-radius:8px}
+  .richtlijn-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:8px}
+  .richtlijn-meta{font-size:12px;color:var(--ink-soft)}
+  .dk-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px}
+  .dk-item{background:var(--paper);border:1px solid var(--line);border-radius:2px;padding:8px 10px}
+  .dk-item b{font-family:Palatino,Georgia,serif;font-size:18px;display:block}
+  .dk-item span{font-size:11px;color:var(--ink-soft)}
+  .detail{display:none;font-size:12px;color:var(--ink)}
+  .detail.on{display:block}
+  .detail dl{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;margin-top:6px}
+  .detail dt{color:var(--ink-soft)}
+  .detail dd{margin:0}
+  .mon-list{margin-top:12px;font-size:12px}
+  .mon-list summary{cursor:pointer;color:var(--blue-mid);font-weight:600}
+  .mon-list table{width:100%;border-collapse:collapse;margin-top:8px;font-size:12px}
+  .mon-list th,.mon-list td{text-align:left;padding:4px 8px;border-bottom:1px solid var(--line)}
+  .mon-list th{color:var(--ink-soft);font-size:10px;letter-spacing:.04em;text-transform:uppercase}
+  .card h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue-mid);margin-bottom:8px}
+  #map{width:100%;height:480px;border:1px solid var(--line);border-radius:2px;background:var(--paper)}
+  .leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--ink);color:#fff}
+  .leaflet-popup-content{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:12px;margin:8px 10px}
+  .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:11px;color:var(--ink-soft);margin-top:8px}
+  .legend span{display:inline-flex;align-items:center;gap:5px}
+  .sw{width:9px;height:9px;border-radius:50%}
+  .sq{width:11px;height:11px;border-radius:2px}
+  .chips{display:flex;gap:8px;margin:10px 0 2px;flex-wrap:wrap}
+  .chip{padding:7px 12px;border:1.5px solid var(--ink);background:var(--panel);color:var(--ink);
+    font-size:12px;font-weight:600;cursor:pointer;border-radius:2px}
+  .chip.on{background:var(--ink);color:#fff}
+  .chip:focus-visible{outline:3px solid var(--alert);outline-offset:2px}
+  footer{margin-top:22px;font-size:12px;color:var(--ink-soft);border-top:1px solid var(--line);padding-top:14px}
+  footer p{margin-bottom:8px}
+  @media (max-width:480px){ h1{font-size:21px} .stats{grid-template-columns:repeat(3,1fr)} #map{height:360px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p style="font-size:13px;margin-top:14px"><a href="../index.html" style="color:var(--blue-mid)">&larr; terug naar overzicht alle Natura 2000-gebieden</a></p>
+  <header>
+    <div class="eyebrow">RCE &times; Kadaster &times; Natura 2000</div>
+    <h1>Wierdense Veld</h1>
+    <div class="richtlijn-row">
+      <span class="badge-richtlijn">Habitatrichtlijn</span>
+      <span class="richtlijn-meta">Natura 2000-gebied nr. 43 &middot; sitecode NL9801018 &middot; stikstofgevoelig: ja</span>
+    </div>
+    <p>Herstellend hoogveenlandschap (circa 419 hectare) tussen Nijverdal en Wierden, met een afwisseling van droge heide op zandruggen en natte heide in de laagtes. Beschermd vanwege regenererend hoogveen, broedende kemphanen en nachtzwaluwen, en zeldzame libellen zoals de venwitsnuitlibel; mogelijk toekomstig leefgebied voor het korhoen. <a href="https://www.natura2000.nl/gebieden/overijssel/wierdense-veld" style="color:var(--blue-mid)" target="_blank" rel="noopener">Bron: natura2000.nl &rarr;</a> &middot; <a href="https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/7c2e8185-3b3a-49f7-8e1b-eec4ff48b5a4" style="color:var(--blue-mid)" target="_blank" rel="noopener">RCE linked data &rarr;</a> &middot; <a href="http://www.wikidata.org/entity/Q2194214" style="color:var(--blue-mid)" target="_blank" rel="noopener">Wikidata &rarr;</a></p>
+    <p>Rijksmonumentale boerderijen binnen dit Natura 2000-gebied of binnen 5&nbsp;km
+    van de gebiedsrand (een gekozen selectievenster, geen ecologische invloedssfeer), met een
+    BAG-industriefunctie-indicatie op basis van BAG-gebruiksdoel (een aanwijzing, geen bewijs van
+    actieve bedrijfsvoering).</p>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="card">
+    <h2>Kaart &middot; elk punt is een rijksmonumentale boerderij</h2>
+    <div class="chips">
+      <button class="chip on" id="fAll" aria-pressed="true">Alle 15</button>
+      <button class="chip" id="fJa" aria-pressed="false">Alleen BAG-industriefunctie-indicatie</button>
+    </div>
+    <div id="map" aria-label="Kaart van het Natura 2000-gebied Wierdense Veld met rijksmonumentale boerderijen, met een OpenStreetMap-ondergrond"></div>
+    <div class="legend">
+      <span><i class="sq" style="background:rgba(94,125,70,.3);border:1px solid var(--n2k)"></i>Natura 2000</span>
+      <span><i class="sw" style="background:var(--k0)"></i>erin</span>
+      <span><i class="sw" style="background:var(--k1)"></i>&lt;250 m</span>
+      <span><i class="sw" style="background:var(--k2)"></i>&lt;1 km</span>
+      <span><i class="sw" style="background:var(--k3)"></i>&lt;5 km</span>
+    </div>
+    <p style="font-size:12px;color:var(--ink-soft);margin-top:8px">Klik op een punt voor details ("waarom staat
+    dit punt hier?"), beweeg eroverheen voor een korte hint. Sleep om te verschuiven, scroll of gebruik de
+    +/&minus;-knoppen om in te zoomen op de werkelijke ligging. Bij omrande punten (donkerblauw, effen) is
+    eenduidig een industriefunctie in de BAG aangetroffen. Een dubbele donkerblauwe rand betekent: wel
+    industriefunctie gevonden, maar niet bij alle adressen van dit monument eenduidig (zie klik-detail).
+    Een gestippelde grijze rand: kon niet in de BAG worden gecontroleerd (geen adres bekend of geen match
+    gevonden). Op basis van de BAG-koppeling is hierover geen uitspraak mogelijk, dit is geen bevestiging
+    van afwezige bedrijfsvoering. Kaartondergrond: &copy; <a href="https://carto.com/attributions" target="_blank" rel="noopener" style="color:var(--blue-mid)">CARTO</a>
+    &amp; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener" style="color:var(--blue-mid)">OpenStreetMap</a>-auteurs.</p>
+    <div class="detail" id="detail"></div>
+    <details class="mon-list">
+      <summary>Lijst van alle 15 monumenten (toetsenbord- en schermlezer-toegankelijk)</summary>
+      <table>
+        <thead><tr><th>Rm-nr</th><th>Plaats</th><th>Afstand</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>38907</td><td>Wierden</td><td>4.219 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>21398</td><td>Hellendoorn</td><td>3.181 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>38912</td><td>Hoge Hexel</td><td>2.191 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>38915</td><td>Notter</td><td>4.847 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>47012</td><td>Wierden</td><td>4.184 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>38905</td><td>Zuna</td><td>2.856 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>38908</td><td>Zuna</td><td>3.517 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>524393</td><td>Wierden</td><td>4.886 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>38913</td><td>Hoge Hexel</td><td>1.759 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>21404</td><td>Hellendoorn</td><td>3.876 m</td><td>Industriefunctie aangetroffen bij een deel van de adressen</td></tr>
+          <tr><td>21402</td><td>Hellendoorn</td><td>3.485 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>21406</td><td>Hellendoorn</td><td>4.387 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>47011</td><td>Notter</td><td>4.396 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>33022</td><td>Rijssen</td><td>4.759 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>512252</td><td>Hoge Hexel</td><td>1.336 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+        </tbody>
+      </table>
+    </details>
+  </div>
+
+  
+  <div class="card">
+    <h2>Datakwaliteit &middot; peildatum 2026-08-04</h2>
+    <div class="dk-grid">
+      <div class="dk-item"><b>0</b><span>industriefunctie aangetroffen</span></div>
+      <div class="dk-item"><b>1</b><span>industriefunctie bij deel van adressen</span></div>
+      <div class="dk-item"><b>14</b><span>geen industriefunctie aangetroffen</span></div>
+      <div class="dk-item"><b>0</b><span>geen adres bekend in RCE</span></div>
+      <div class="dk-item"><b>0</b><span>geen match in BAG</span></div>
+      <div class="dk-item"><b>0</b><span>BAG-bevraging mislukt</span></div>
+      <div class="dk-item"><b>4</b><span>monumenten met meerdere adressen</span></div>
+    </div>
+  </div>
+
+  <footer>
+    <p><b>Methodiek.</b> Monumenten: RCE CHO-endpoint, rijksmonumenten met oorspronkelijke functie
+    Boerderij (M/M1), binnen 5&nbsp;km van of daadwerkelijk binnen het Natura 2000-gebied. Natura 2000-geometrie:
+    officiële landelijke WFS (service.pdok.nl/rvo/natura2000). Afstand: monumentpunt tot de daadwerkelijke
+    gebiedsrand. Provincie: point-in-polygon tegen de PDOK-bestuurlijke grenzen. BAG-industriefunctie-indicatie:
+    BAG-gebruiksdoel (open WFS bag:verblijfsobject), gematcht op postcode en huisnummer; industriefunctie
+    op een boerderijadres geldt als BAG-industriefunctie-indicatie: een aanwijzing, geen bewijs van
+    actieve agrarische bedrijfsvoering. Monumenten met uitsluitend woonfunctie zijn conservatief niet als
+    zodanig geteld; dat betekent een afwezige industriefunctie-aanwijzing, geen bevestiging dat er geen
+    bedrijf is. Monumenten zonder BAG-adres in RCE of zonder match in de BAG-zoekbox staan apart als
+    "BAG niet te controleren". Peildatum 2026-08-04.</p>
+    <p><b>Kanttekeningen.</b> Dit is een blootstellingskaart: er is g&eacute;&eacute;n emissiedata (AERIUS/RAV)
+    verwerkt. De industriefunctie-vlag is een indicatie, geen bewijs van actieve bedrijfsvoering of
+    stikstofuitstoot. Geen van de statuscategorie&euml;n op deze pagina is een uitspraak over daadwerkelijke
+    bedrijfsvoering, alleen over wat wel of niet in de BAG is aangetroffen.</p>
+  </footer>
+</div>
+<script id="data" type="application/json">{"gebied":"Wierdense Veld","peildatum":"2026-08-04","n":15,"ja":1,"onbekend":0,"provCounts":{"Overijssel":15},"provJaCounts":{"Overijssel":1},"datakwaliteit":{"industrieAangetroffen":0,"industrieDeelsAangetroffen":1,"geenIndustrieAangetroffen":14,"geenAdres":0,"geenMatch":0,"bagMislukt":0,"meerdereAdressen":4},"bbox":[6.4373159957296275,52.306367960513995,6.602713423674922,52.42303914025824],"n2000":[{"naam":"Wierdense Veld","rings":[[[6.536210306644656,52.38740034449405],[6.53625473166328,52.388288129201165],[6.534431620338724,52.38832583287117],[6.534128560122918,52.388332139373304],[6.53103940333974,52.38839591340035],[6.530775275585789,52.38840107839718],[6.530159273698647,52.38841311651467],[6.530364884621651,52.38762896039188],[6.530526708652279,52.38727501519297],[6.530457092387874,52.387276602393115],[6.530467562080823,52.38723697864137],[6.5304763426545485,52.38722144468917],[6.530217827162087,52.38718377336945],[6.530302854955678,52.38660039613339],[6.5303163653435385,52.38651038221525],[6.530324831824693,52.38645580769502],[6.530335405450669,52.386385202754845],[6.529757728027938,52.38638452259935],[6.529763163765389,52.38637291921294],[6.529704038564476,52.38628807610074],[6.529685881925511,52.3862448501281],[6.529612031767422,52.38613152204084],[6.529396563024522,52.38581339064822],[6.529329576886643,52.385716851134305],[6.528948914867409,52.38516942303046],[6.528452317822887,52.38446047955002],[6.5283249148290885,52.3842993562338],[6.528245810355082,52.38424000807726],[6.528155661723603,52.384197621259666],[6.527043750412761,52.38377379969413],[6.5264179839578915,52.38353797991988],[6.524209361829094,52.38270700323929],[6.521348543617857,52.38163336767366],[6.520280798826846,52.381235464476106],[6.5198410785402166,52.38107451108643],[6.519833144525623,52.38107315514507],[6.519683281434871,52.38101625796251],[6.519543749099241,52.38099350559243],[6.518711310904854,52.38101440745838],[6.517537464970432,52.38104467550105],[6.516069801712672,52.381078724254515],[6.515684083017383,52.38109012954441],[6.514818025797736,52.381111772044335],[6.514371004251532,52.381123320062],[6.514204387154998,52.38112762787811],[6.514135451629548,52.38125569734893],[6.513146369686847,52.3815054648063],[6.513125398106891,52.3815186640751],[6.512972337278872,52.381556576248805],[6.51264277504651,52.38163835737557],[6.511925526965655,52.38181763592707],[6.511643068492886,52.38187452927894],[6.511345357654726,52.38191808606694],[6.511084584211321,52.38194331301626],[6.511067055796509,52.381944969669085],[6.510778045665026,52.381959632131185],[6.510856411013666,52.38117220167994],[6.510473013392815,52.381167412314745],[6.510477765349018,52.38112860594379],[6.510327880595977,52.381073568570166],[6.508737582430713,52.38054513388773],[6.508151275620293,52.380357435566104],[6.507257489243425,52.38006225619699],[6.506808526487696,52.37991454426107],[6.506358022866173,52.37976909228847],[6.506010483967817,52.37965693274873],[6.50596258501355,52.3796413753744],[6.505881348703135,52.379614334908226],[6.505135679507442,52.3793671776515],[6.504803320386658,52.379255994807295],[6.5043776914270435,52.37911367118381],[6.503857063517794,52.37894443222699],[6.503830002756701,52.378935672168026],[6.502456142219391,52.37848089210638],[6.502438190296124,52.3784749581427],[6.5023641223947894,52.378450468757265],[6.501569430666433,52.37818774821473],[6.501378330016416,52.37812372804089],[6.501254506935643,52.378063939871154],[6.501105263297251,52.37801506708657],[6.500560583918705,52.377837333989],[6.500137152381138,52.3776991865447],[6.499555694789853,52.37750971789717],[6.49891200026633,52.377299764087425],[6.4982788436617795,52.377088864820585],[6.498177035920903,52.37705555139048],[6.497498847858595,52.37683299206894],[6.497156861934126,52.37672075655441],[6.49638512185287,52.376469713045395],[6.495560843105593,52.37619534819213],[6.495537818258276,52.37618651431775],[6.4955342028814425,52.3759373263292],[6.495546385120855,52.37575605088671],[6.495565838779113,52.37546339779088],[6.495566438136588,52.3754544200375],[6.495566859042176,52.37544793731509],[6.4955865780072966,52.37515991249501],[6.495623545083364,52.37461040507134],[6.495652380036677,52.374183153791634],[6.495670807274245,52.37391962064195],[6.495673126347069,52.373898843080326],[6.495676668840985,52.3738348561588],[6.4956943479956415,52.37357594810461],[6.495698291850861,52.37351579723359],[6.495715888277004,52.37324695693012],[6.495727138774614,52.373083263986146],[6.495746007611652,52.37280900256021],[6.495762514195512,52.37255843490324],[6.495765133527105,52.37251860824932],[6.4957863334434105,52.37221309409777],[6.495797353313161,52.372035563036796],[6.495797127763525,52.37202173210713],[6.4958114819713995,52.37180725113715],[6.495820856813751,52.37166705322136],[6.495828133432663,52.37155833501299],[6.49583376353777,52.37147860611155],[6.495858979963548,52.3711269935472],[6.495866444111866,52.37101597525029],[6.495878518306665,52.37084509910959],[6.4959044813890054,52.37042879134938],[6.495926168479914,52.370124921827625],[6.495937230929565,52.370027734305175],[6.495949218462205,52.369947570111165],[6.496037302919662,52.369304641663376],[6.496049315549569,52.36912448016474],[6.496066301657158,52.36890141387706],[6.496280218081974,52.36892940562974],[6.496329775799776,52.368673145767836],[6.496904609739682,52.36854307907058],[6.496725767791365,52.36819263738461],[6.496117150615178,52.36816772282926],[6.496128132763701,52.36798278553953],[6.496127218762703,52.3679463113326],[6.496170848638996,52.36794911501033],[6.4964073051186775,52.36757852851198],[6.496437740216794,52.3675308280101],[6.4964711892072895,52.3674784091388],[6.49689255396744,52.366845753838426],[6.496909729343619,52.36681901159088],[6.496969555245801,52.3668218033419],[6.498927890846913,52.366919809956755],[6.500663532407604,52.36699997632029],[6.500664901219541,52.36699326622607],[6.500676175103534,52.36699378576016],[6.500773785249326,52.36645908993478],[6.500867501060065,52.36599939612799],[6.500949915807657,52.36600514800097],[6.500952348850055,52.36599527297666],[6.501003322949278,52.3659977756498],[6.501261620450904,52.36479146655441],[6.501272986719057,52.36474164319355],[6.501492807754569,52.363766584606296],[6.502232346776836,52.363717205537924],[6.5035424050088615,52.36362115315475],[6.503631479456608,52.36361469524692],[6.503787881780321,52.363603107935255],[6.505068937864793,52.36352163605503],[6.5059977102698205,52.36349881680904],[6.506853907569354,52.36348173190571],[6.506969203032794,52.36345058586165],[6.507058149681194,52.3634298009223],[6.507133440915361,52.36344060440356],[6.507162455723085,52.36344482403279],[6.50744366949271,52.36343401742069],[6.507493175310167,52.36343214485476],[6.507630756385458,52.363420450163524],[6.508097973342482,52.3633803532624],[6.508361074701779,52.363351739265696],[6.508780877481796,52.36329635914951],[6.509380277269966,52.36322186077407],[6.509929130059855,52.36318041988888],[6.510878230173949,52.363118045307786],[6.511958219690969,52.36304262115494],[6.512265634858583,52.363024812773176],[6.5121956552132865,52.36374763615639],[6.5121482651805875,52.364158463266065],[6.5121397730067265,52.36423045094692],[6.512111566163568,52.36447508766185],[6.51206381788416,52.36488985138116],[6.511961796909088,52.36584190175426],[6.512097526920019,52.36583836477425],[6.5122142529305895,52.3658242024551],[6.512554905171755,52.36581773367931],[6.512637956899082,52.365816656384766],[6.517202938757955,52.365730747903704],[6.520818095196739,52.365663314776825],[6.522389432497844,52.36563438872801],[6.521792043447757,52.36676193989088],[6.520857895147937,52.36855741204161],[6.520127127451205,52.36994895829159],[6.519855728084044,52.37046554399879],[6.519802630454329,52.37055568950604],[6.519215385369936,52.37166631559173],[6.51905466259664,52.371958850896206],[6.518993214620843,52.372077410747444],[6.518777109641479,52.37249266118233],[6.518578513064032,52.37287459832581],[6.518522922731943,52.37298018023327],[6.518533635668888,52.37297994212569],[6.518525971816252,52.37299486414832],[6.518670119118412,52.37299121419298],[6.518734869968046,52.37298956880428],[6.5201224494295404,52.37295442836627],[6.521760971781676,52.37291277513484],[6.522719918330184,52.37289140999424],[6.524153407136758,52.37285474088088],[6.5258524115860235,52.372812467991],[6.527270423926816,52.37277508301815],[6.52832850894844,52.37274851816381],[6.53010887003364,52.372708234731824],[6.530898608067744,52.37268553809624],[6.531048249031449,52.37268229093677],[6.531248929653625,52.37267643265173],[6.532182019042974,52.37265605590912],[6.5332943637113985,52.37262785214757],[6.533829507746568,52.372618588045285],[6.53419687197791,52.37260941124779],[6.534620178378054,52.37259884795156],[6.534830463846712,52.37259371921416],[6.535270558279246,52.37258439661319],[6.535299184158617,52.373157970430874],[6.535356805651571,52.3739295720625],[6.535391733139055,52.37461347236113],[6.535467208746674,52.37569303254813],[6.535505133805184,52.37623561870103],[6.535576296210561,52.3773435894735],[6.535619424274182,52.378095667443276],[6.535697854307655,52.3792091850118],[6.535749238031029,52.379978596674114],[6.535882100149584,52.38217327881816],[6.536033754352865,52.384552321386174],[6.536059625094278,52.384983511993745],[6.536070431178358,52.38517890411874],[6.536080383008283,52.38535913755551],[6.536101175635797,52.385718470439514],[6.536110220320625,52.385863600507726],[6.536116095102035,52.3859573586672],[6.536140019161416,52.38630458435354],[6.5361633489378566,52.386664453289455],[6.536177026547161,52.3868674987894],[6.536210306644656,52.38740034449405]]]}],"mons":[{"nr":"38907","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12245","functie":"Boerderij","wpl":"Wierden","straat":"Weversweg","huisnr":"2","prov":"Overijssel","k":3,"d":4219,"erin":false,"afstandTotRand":4219,"lon":6.577499792602274,"lat":52.34480204918821,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Weversweg","huisnr":"2","postcode":"7642NT","woonplaats":"Wierden","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Weversweg","huisnummer":2,"huisletter":"","postcode":"7642NT","gebruiksdoel":"woonfunctie"}]},{"nr":"21398","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18732","functie":"Boerderij","wpl":"Hellendoorn","straat":"Hofmanstraat","huisnr":"2","prov":"Overijssel","k":3,"d":3181,"erin":false,"afstandTotRand":3181,"lon":6.452315995729627,"lat":52.387161685855915,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Hofmanstraat","huisnr":"2","postcode":"7447AS","woonplaats":"Hellendoorn","gebruiksdoel":"bijeenkomstfunctie"}],"matched":[{"straat":"Hofmanstraat","huisnummer":2,"huisletter":"","postcode":"7447AS","gebruiksdoel":"bijeenkomstfunctie"}]},{"nr":"38912","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21629","functie":"Boerderij","wpl":"Hoge Hexel","straat":"Hexelseweg","huisnr":"74","prov":"Overijssel","k":3,"d":2191,"erin":false,"afstandTotRand":2191,"lon":6.562791139716576,"lat":52.39946393139345,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Hexelseweg","huisnr":"74","postcode":"7645AM","woonplaats":"Hoge Hexel","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Hexelseweg","huisnummer":74,"huisletter":"","postcode":"7645AM","gebruiksdoel":"woonfunctie"}]},{"nr":"38915","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22153","functie":"Boerderij","wpl":"Notter","straat":"Klokkendijk","huisnr":"10","prov":"Overijssel","k":3,"d":4847,"erin":false,"afstandTotRand":4847,"lon":6.53302715141276,"lat":52.321367960513996,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Klokkendijk","huisnr":"10","postcode":"7467PD","woonplaats":"Notter","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Klokkendijk","huisnummer":10,"huisletter":"","postcode":"7467PD","gebruiksdoel":"woonfunctie"}]},{"nr":"47012","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27201","functie":"Boerderij","wpl":"Wierden","straat":"Akkerwal","huisnr":"4","prov":"Overijssel","k":3,"d":4184,"erin":false,"afstandTotRand":4184,"lon":6.587713423674923,"lat":52.35289631509552,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Akkerwal","huisnr":"4","postcode":"7642NV","woonplaats":"Wierden","gebruiksdoel":"woonfunctie"},{"straat":"Akkerwal","huisnr":"6","postcode":"7642NV","woonplaats":"Wierden","gebruiksdoel":"woonfunctie"},{"straat":"Akkerwal","huisnr":"8","postcode":"7642NV","woonplaats":"Wierden","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Akkerwal","huisnummer":4,"huisletter":"","postcode":"7642NV","gebruiksdoel":"woonfunctie"},{"straat":"Akkerwal","huisnummer":6,"huisletter":"","postcode":"7642NV","gebruiksdoel":"woonfunctie"},{"straat":"Akkerwal","huisnummer":8,"huisletter":"","postcode":"7642NV","gebruiksdoel":"woonfunctie"}]},{"nr":"38905","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32420","functie":"Boerderij","wpl":"Zuna","straat":"Slagsweg","huisnr":"1","prov":"Overijssel","k":3,"d":2856,"erin":false,"afstandTotRand":2856,"lon":6.489669685418907,"lat":52.33914595950577,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Slagsweg","huisnr":"1","postcode":"7466PL","woonplaats":"Zuna","gebruiksdoel":"woonfunctie"},{"straat":"Slagsweg","huisnr":"1 a","postcode":"7466PL","woonplaats":"Zuna","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Slagsweg","huisnummer":1,"huisletter":"","postcode":"7466PL","gebruiksdoel":"woonfunctie"},{"straat":"Slagsweg","huisnummer":1,"huisletter":"a","postcode":"7466PL","gebruiksdoel":"woonfunctie"}]},{"nr":"38908","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35437","functie":"Boerderij","wpl":"Zuna","straat":"Zunaweg","huisnr":"10","prov":"Overijssel","k":3,"d":3517,"erin":false,"afstandTotRand":3517,"lon":6.505549026810013,"lat":52.33168905275631,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Zunaweg","huisnr":"10","postcode":"7466PR","woonplaats":"Zuna","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Zunaweg","huisnummer":10,"huisletter":"","postcode":"7466PR","gebruiksdoel":"woonfunctie"}]},{"nr":"524393","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35560","functie":"Boerderij","wpl":"Wierden","straat":"Sluizendijk","huisnr":"11","prov":"Overijssel","k":3,"d":4886,"erin":false,"afstandTotRand":4886,"lon":6.544000934731955,"lat":52.32364325773354,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Sluizendijk","huisnr":"11","postcode":"7642NA","woonplaats":"Wierden","gebruiksdoel":"logiesfunctie"},{"straat":"Sluizendijk","huisnr":"13","postcode":"7642NA","woonplaats":"Wierden","gebruiksdoel":"logiesfunctie"}],"matched":[{"straat":"Sluizendijk","huisnummer":11,"huisletter":"","postcode":"7642NA","gebruiksdoel":"logiesfunctie"},{"straat":"Sluizendijk","huisnummer":13,"huisletter":"","postcode":"7642NA","gebruiksdoel":"logiesfunctie"}]},{"nr":"38913","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42180","functie":"Boerderij","wpl":"Hoge Hexel","straat":"Piksenweg","huisnr":"5","prov":"Overijssel","k":3,"d":1759,"erin":false,"afstandTotRand":1759,"lon":6.559901584730468,"lat":52.39471958738185,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Piksenweg","huisnr":"5","postcode":"7645BC","woonplaats":"Hoge Hexel","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Piksenweg","huisnummer":5,"huisletter":"","postcode":"7645BC","gebruiksdoel":"woonfunctie"}]},{"nr":"21404","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43527","functie":"Boerderij","wpl":"Hellendoorn","straat":"Schuilenburgerweg","huisnr":"52","prov":"Overijssel","k":3,"d":3876,"erin":false,"afstandTotRand":3876,"lon":6.468766920576729,"lat":52.406939395288525,"ja":true,"bag":"ok","status":"industrie_deels_aangetroffen","addressen":[{"straat":"Schuilenburgerweg","huisnr":"52","postcode":"7447RP","woonplaats":"Hellendoorn","gebruiksdoel":"industriefunctie,woonfunctie"},{"straat":"Schuilenburgerweg","huisnr":"54","postcode":"7447RP","woonplaats":"Hellendoorn","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Schuilenburgerweg","huisnummer":52,"huisletter":"","postcode":"7447RP","gebruiksdoel":"industriefunctie,woonfunctie"},{"straat":"Schuilenburgerweg","huisnummer":54,"huisletter":"","postcode":"7447RP","gebruiksdoel":"woonfunctie"}]},{"nr":"21402","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47203","functie":"Boerderij","wpl":"Hellendoorn","straat":"Schuilenburgerweg","huisnr":"46","prov":"Overijssel","k":3,"d":3485,"erin":false,"afstandTotRand":3485,"lon":6.461699942453296,"lat":52.39970563794877,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Schuilenburgerweg","huisnr":"46","postcode":"7447RP","woonplaats":"Hellendoorn","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Schuilenburgerweg","huisnummer":46,"huisletter":"","postcode":"7447RP","gebruiksdoel":"woonfunctie"}]},{"nr":"21406","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54412","functie":"Boerderij","wpl":"Hellendoorn","straat":"Nieuwe Twentseweg","huisnr":"19","prov":"Overijssel","k":3,"d":4387,"erin":false,"afstandTotRand":4387,"lon":6.457535831358364,"lat":52.40803914025824,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Nieuwe Twentseweg","huisnr":"19","postcode":"7447PM","woonplaats":"Hellendoorn","gebruiksdoel":"logiesfunctie"}],"matched":[{"straat":"Nieuwe Twentseweg","huisnummer":19,"huisletter":"","postcode":"7447PM","gebruiksdoel":"logiesfunctie"}]},{"nr":"47011","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54999","functie":"Boerderij","wpl":"Notter","straat":"Bussinkweg","huisnr":"1","prov":"Overijssel","k":3,"d":4396,"erin":false,"afstandTotRand":4396,"lon":6.547447484220381,"lat":52.32922726893391,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Bussinkweg","huisnr":"1","postcode":"7467PT","woonplaats":"Notter","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Bussinkweg","huisnummer":1,"huisletter":"","postcode":"7467PT","gebruiksdoel":"woonfunctie"}]},{"nr":"33022","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62331","functie":"Boerderij","wpl":"Rijssen","straat":"Oude Veerweg","huisnr":"6","prov":"Overijssel","k":3,"d":4759,"erin":false,"afstandTotRand":4759,"lon":6.528188380899732,"lat":52.32139700041529,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Oude Veerweg","huisnr":"6","postcode":"7461JH","woonplaats":"Rijssen","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Oude Veerweg","huisnummer":6,"huisletter":"","postcode":"7461JH","gebruiksdoel":"woonfunctie"}]},{"nr":"512252","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74979","functie":"Boerderij","wpl":"Hoge Hexel","straat":"Oude Zwolseweg","huisnr":"6","prov":"Overijssel","k":3,"d":1336,"erin":false,"afstandTotRand":1336,"lon":6.55485379845106,"lat":52.39218084071512,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Oude Zwolseweg","huisnr":"6","postcode":"7645AZ","woonplaats":"Hoge Hexel","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Oude Zwolseweg","huisnummer":6,"huisletter":"","postcode":"7645AZ","gebruiksdoel":"woonfunctie"}]}],"richtlijn":{"gebiedsnummer":"43","label":"Habitatrichtlijn","badge":"HR","heeftGroeveOnderdeel":false,"siteCodeVogelrichtlijn":null,"siteCodeHabitatrichtlijn":"NL9801018","stikstofgevoelig":true,"natura2000Status":"Definitief besluit 25 november 2016","wikidata":"http://www.wikidata.org/entity/Q2194214","rceUris":["https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/7c2e8185-3b3a-49f7-8e1b-eec4ff48b5a4"]}}</script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const D = JSON.parse(document.getElementById('data').textContent);
+const $ = id => document.getElementById(id);
+const fmt = n => n.toLocaleString('nl-NL');
+const KC = ['#7A1607','#D1401F','#E0703C','#E5B08E','#B7C7D2','#B7C7D2'];
+const KN = ['erin','<250 m','<1 km','<5 km','<25 km','\u226525 km'];
+let filterJa = false;
+
+$('stats').innerHTML = `
+  <div class="stat"><div class="num">${fmt(D.n)}</div><div class="lbl">rijksmonumentale boerderijen</div></div>
+  <div class="stat alert"><div class="num">${fmt(D.ja)}</div><div class="lbl">BAG-industriefunctie-indicatie</div></div>
+  <div class="stat neutral"><div class="num">${fmt(D.onbekend)}</div><div class="lbl">BAG niet te controleren</div></div>`;
+
+const map = L.map('map', { scrollWheelZoom: false });
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &copy; OpenStreetMap contributors',
+  maxZoom: 19
+}).addTo(map);
+const [bx0,by0,bx1,by1] = D.bbox;
+map.fitBounds([[by0,bx0],[by1,bx1]], { padding: [10,10] });
+
+const n2000Layer = L.layerGroup().addTo(map);
+D.n2000.forEach(g => g.rings.forEach(ring => {
+  L.polygon(ring.map(([lon,lat]) => [lat,lon]), {
+    color: '#5E7D46', weight: 1, fillColor: '#5E7D46', fillOpacity: 0.28, interactive: false
+  }).addTo(n2000Layer);
+}));
+
+const STATUS_LABEL = {
+  industrie_aangetroffen: 'Industriefunctie aangetroffen (eenduidig)',
+  industrie_deels_aangetroffen: 'Industriefunctie aangetroffen bij een deel van de adressen',
+  geen_industrie_aangetroffen: 'Geen industriefunctie aangetroffen',
+  geen_adres: 'BAG niet te controleren \u2014 geen adres bekend in RCE',
+  geen_match: 'BAG niet te controleren \u2014 geen match gevonden',
+  bag_mislukt: 'BAG niet te controleren \u2014 bevraging mislukt'
+};
+const detail = $('detail');
+function toonDetail(m){
+  const adressenHtml = (m.addressen||[]).map((a,i)=>
+    `<dt>adres ${i+1}</dt><dd>${a.straat} ${a.huisnr}, ${a.postcode} ${a.woonplaats}${a.gebruiksdoel ? ', gebruiksdoel: '+a.gebruiksdoel : ', geen BAG-match'}</dd>`
+  ).join('');
+  detail.innerHTML = `<dl>
+    <dt>rijksmonumentnummer</dt><dd>${m.nr} (<a href="https://monumentenregister.cultureelerfgoed.nl/monumenten/${m.nr}" target="_blank" rel="noopener" style="color:var(--blue-mid)">Monumentenregister &rarr;</a>${m.rm ? ` &middot; <a href="${m.rm}" target="_blank" rel="noopener" style="color:var(--blue-mid)">RCE linked data &rarr;</a>` : ''})</dd>
+    <dt>oorspronkelijke functie</dt><dd>${m.functie||'onbekend'}</dd>
+    <dt>ligging</dt><dd>${m.erin ? 'binnen het Natura 2000-gebied' : `${fmt(m.afstandTotRand)} m van de gebiedsrand`} \u00b7 ${KN[m.k]}-klasse \u00b7 ${m.prov}</dd>
+    <dt>status</dt><dd>${STATUS_LABEL[m.status]||m.status}</dd>
+    ${adressenHtml}
+    <dt>peildatum</dt><dd>2026-08-04</dd>
+  </dl>`;
+  detail.classList.add('on');
+}
+
+const monLayer = L.layerGroup().addTo(map);
+function renderMarkers(){
+  monLayer.clearLayers();
+  [...D.mons].sort((a,b)=>b.k-a.k).forEach(m=>{
+    if(filterJa && !m.ja) return;
+    const r = m.k<=1 ? 5 : m.k===2 ? 4.4 : 3.8;
+    const marker = L.circleMarker([m.lat,m.lon], { radius:r, fillColor:KC[m.k], fillOpacity:0.9, weight:1, color:KC[m.k] });
+    if(m.status==='industrie_deels_aangetroffen'){
+      marker.setStyle({color:'#16324F', weight:1.3});
+      L.circleMarker([m.lat,m.lon], { radius:r+2.2, fill:false, color:'#16324F', weight:1.3, interactive:false }).addTo(monLayer);
+    } else if(m.ja){
+      marker.setStyle({color:'#16324F', weight:1.3});
+    } else if(m.bag!=='ok'){
+      marker.setStyle({color:'#8A8A8A', weight:1, dashArray:'2,2'});
+    }
+    marker.bindTooltip(
+      `rm ${m.nr} \u00b7 ${m.straat||''} ${m.huisnr||''}, ${m.wpl||''} \u00b7 ${m.prov} \u00b7 ${KN[m.k]} van Wierdense Veld`+
+      (m.d>0 ? ` (${fmt(m.d)} m)` : '') + (m.ja ? ' \u00b7 BAG-industriefunctie-indicatie' : (m.bag!=='ok' ? ' \u00b7 BAG niet te controleren' : ''))
+    );
+    marker.on('click', ()=>toonDetail(m));
+    marker.addTo(monLayer);
+  });
+}
+renderMarkers();
+
+if($('fAll')){
+  $('fAll').onclick=()=>{filterJa=false;$('fAll').classList.add('on');$('fAll').setAttribute('aria-pressed','true');$('fJa').classList.remove('on');$('fJa').setAttribute('aria-pressed','false');renderMarkers();};
+  $('fJa').onclick=()=>{filterJa=true;$('fJa').classList.add('on');$('fJa').setAttribute('aria-pressed','true');$('fAll').classList.remove('on');$('fAll').setAttribute('aria-pressed','false');renderMarkers();};
+}
+window.addEventListener('resize',()=>map.invalidateSize());
+</script>
+</body>
+</html>

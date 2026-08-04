@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lemselermaten &middot; Boerderij-rijksmonumenten &amp; Natura 2000</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+  :root{
+    --paper:#F4F7F8; --panel:#FFFFFF; --ink:#16324F; --ink-soft:#4A6579;
+    --blue-mid:#3E6C93; --alert:#D1401F; --line:#C9D6DE;
+    --n2k:#5E7D46; --n2k-bg:#E9F0E6; --n2k-text:#3B5230;
+    --k0:#7A1607; --k1:#D1401F; --k2:#E0703C; --k3:#E5B08E; --k4:#B7C7D2; --k5:#B7C7D2;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{background:var(--paper);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    line-height:1.5;padding:0 0 48px}
+  .wrap{max-width:760px;margin:0 auto;padding:0 16px}
+  .eyebrow{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--blue-mid);font-weight:600}
+  header{padding:18px 0 18px;border-bottom:2px solid var(--ink)}
+  h1{font-family:Palatino,"Palatino Linotype",Georgia,serif;font-size:27px;line-height:1.18;font-weight:700;margin-top:6px}
+  header p{margin-top:8px;font-size:14px;color:var(--ink-soft);
+    text-align:justify;-webkit-hyphens:auto;hyphens:auto}
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:16px 0}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:10px}
+  .stat .num{font-family:Palatino,Georgia,serif;font-size:20px;font-weight:700;line-height:1.05}
+  .stat.alert .num{color:var(--alert)}
+  .stat.neutral .num{color:var(--ink-soft)}
+  .stat .lbl{font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-soft);margin-top:3px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:14px;margin:14px 0}
+  .badge-richtlijn{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.04em;
+    text-transform:uppercase;padding:2px 8px;background:var(--n2k-bg);color:var(--n2k-text);border-radius:8px}
+  .richtlijn-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:8px}
+  .richtlijn-meta{font-size:12px;color:var(--ink-soft)}
+  .dk-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px}
+  .dk-item{background:var(--paper);border:1px solid var(--line);border-radius:2px;padding:8px 10px}
+  .dk-item b{font-family:Palatino,Georgia,serif;font-size:18px;display:block}
+  .dk-item span{font-size:11px;color:var(--ink-soft)}
+  .detail{display:none;font-size:12px;color:var(--ink)}
+  .detail.on{display:block}
+  .detail dl{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;margin-top:6px}
+  .detail dt{color:var(--ink-soft)}
+  .detail dd{margin:0}
+  .mon-list{margin-top:12px;font-size:12px}
+  .mon-list summary{cursor:pointer;color:var(--blue-mid);font-weight:600}
+  .mon-list table{width:100%;border-collapse:collapse;margin-top:8px;font-size:12px}
+  .mon-list th,.mon-list td{text-align:left;padding:4px 8px;border-bottom:1px solid var(--line)}
+  .mon-list th{color:var(--ink-soft);font-size:10px;letter-spacing:.04em;text-transform:uppercase}
+  .card h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue-mid);margin-bottom:8px}
+  #map{width:100%;height:480px;border:1px solid var(--line);border-radius:2px;background:var(--paper)}
+  .leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--ink);color:#fff}
+  .leaflet-popup-content{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:12px;margin:8px 10px}
+  .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:11px;color:var(--ink-soft);margin-top:8px}
+  .legend span{display:inline-flex;align-items:center;gap:5px}
+  .sw{width:9px;height:9px;border-radius:50%}
+  .sq{width:11px;height:11px;border-radius:2px}
+  .chips{display:flex;gap:8px;margin:10px 0 2px;flex-wrap:wrap}
+  .chip{padding:7px 12px;border:1.5px solid var(--ink);background:var(--panel);color:var(--ink);
+    font-size:12px;font-weight:600;cursor:pointer;border-radius:2px}
+  .chip.on{background:var(--ink);color:#fff}
+  .chip:focus-visible{outline:3px solid var(--alert);outline-offset:2px}
+  footer{margin-top:22px;font-size:12px;color:var(--ink-soft);border-top:1px solid var(--line);padding-top:14px}
+  footer p{margin-bottom:8px}
+  @media (max-width:480px){ h1{font-size:21px} .stats{grid-template-columns:repeat(3,1fr)} #map{height:360px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p style="font-size:13px;margin-top:14px"><a href="../index.html" style="color:var(--blue-mid)">&larr; terug naar overzicht alle Natura 2000-gebieden</a></p>
+  <header>
+    <div class="eyebrow">RCE &times; Kadaster &times; Natura 2000</div>
+    <h1>Lemselermaten</h1>
+    <div class="richtlijn-row">
+      <span class="badge-richtlijn">Habitatrichtlijn</span>
+      <span class="richtlijn-meta">Natura 2000-gebied nr. 48 &middot; sitecode NL2003027 &middot; stikstofgevoelig: ja</span>
+    </div>
+    <p>Kleinschalig beekdallandschap (circa 55 hectare) aan de voet van de Oldenzaalse stuwwal, met een afwisseling van hooiland, beekbegeleidend bos en natte heide. De laatste groeiplaats van breed wollegras in Nederland, met zeldzame orchideeën in het kalkrijke kwelmoeras. <a href="https://www.natura2000.nl/gebieden/overijssel/lemselermaten" style="color:var(--blue-mid)" target="_blank" rel="noopener">Bron: natura2000.nl &rarr;</a> &middot; <a href="https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/161d31b8-c696-4b5d-8b57-8f26b7bee9c3" style="color:var(--blue-mid)" target="_blank" rel="noopener">RCE linked data &rarr;</a> &middot; <a href="http://www.wikidata.org/entity/Q111829845" style="color:var(--blue-mid)" target="_blank" rel="noopener">Wikidata &rarr;</a></p>
+    <p>Rijksmonumentale boerderijen binnen dit Natura 2000-gebied of binnen 5&nbsp;km
+    van de gebiedsrand (een gekozen selectievenster, geen ecologische invloedssfeer), met een
+    BAG-industriefunctie-indicatie op basis van BAG-gebruiksdoel (een aanwijzing, geen bewijs van
+    actieve bedrijfsvoering).</p>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="card">
+    <h2>Kaart &middot; elk punt is een rijksmonumentale boerderij</h2>
+    <div class="chips">
+      <button class="chip on" id="fAll" aria-pressed="true">Alle 15</button>
+      <button class="chip" id="fJa" aria-pressed="false">Alleen BAG-industriefunctie-indicatie</button>
+    </div>
+    <div id="map" aria-label="Kaart van het Natura 2000-gebied Lemselermaten met rijksmonumentale boerderijen, met een OpenStreetMap-ondergrond"></div>
+    <div class="legend">
+      <span><i class="sq" style="background:rgba(94,125,70,.3);border:1px solid var(--n2k)"></i>Natura 2000</span>
+      <span><i class="sw" style="background:var(--k0)"></i>erin</span>
+      <span><i class="sw" style="background:var(--k1)"></i>&lt;250 m</span>
+      <span><i class="sw" style="background:var(--k2)"></i>&lt;1 km</span>
+      <span><i class="sw" style="background:var(--k3)"></i>&lt;5 km</span>
+    </div>
+    <p style="font-size:12px;color:var(--ink-soft);margin-top:8px">Klik op een punt voor details ("waarom staat
+    dit punt hier?"), beweeg eroverheen voor een korte hint. Sleep om te verschuiven, scroll of gebruik de
+    +/&minus;-knoppen om in te zoomen op de werkelijke ligging. Bij omrande punten (donkerblauw, effen) is
+    eenduidig een industriefunctie in de BAG aangetroffen. Een dubbele donkerblauwe rand betekent: wel
+    industriefunctie gevonden, maar niet bij alle adressen van dit monument eenduidig (zie klik-detail).
+    Een gestippelde grijze rand: kon niet in de BAG worden gecontroleerd (geen adres bekend of geen match
+    gevonden). Op basis van de BAG-koppeling is hierover geen uitspraak mogelijk, dit is geen bevestiging
+    van afwezige bedrijfsvoering. Kaartondergrond: &copy; <a href="https://carto.com/attributions" target="_blank" rel="noopener" style="color:var(--blue-mid)">CARTO</a>
+    &amp; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener" style="color:var(--blue-mid)">OpenStreetMap</a>-auteurs.</p>
+    <div class="detail" id="detail"></div>
+    <details class="mon-list">
+      <summary>Lijst van alle 15 monumenten (toetsenbord- en schermlezer-toegankelijk)</summary>
+      <table>
+        <thead><tr><th>Rm-nr</th><th>Plaats</th><th>Afstand</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>35760</td><td>Reutum</td><td>4.507 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>38413</td><td>Weerselo</td><td>857 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>12352</td><td>Agelo</td><td>4.522 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>38421</td><td>Rossum</td><td>1.589 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>38419</td><td>Weerselo</td><td>1.816 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>38425</td><td>Rossum</td><td>4.744 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>38422</td><td>Rossum</td><td>2.712 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>511936</td><td>Saasveld</td><td>3.203 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>38426</td><td>Rossum</td><td>4.719 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>12350</td><td>Agelo</td><td>4.378 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>38428</td><td>Saasveld</td><td>4.759 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>12353</td><td>Agelo</td><td>4.381 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>509951</td><td>Rossum</td><td>1.984 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>508283</td><td>Rossum</td><td>1.993 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>507953</td><td>Reutum</td><td>4.421 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+        </tbody>
+      </table>
+    </details>
+  </div>
+
+  
+  <div class="card">
+    <h2>Datakwaliteit &middot; peildatum 2026-08-04</h2>
+    <div class="dk-grid">
+      <div class="dk-item"><b>0</b><span>industriefunctie aangetroffen</span></div>
+      <div class="dk-item"><b>0</b><span>industriefunctie bij deel van adressen</span></div>
+      <div class="dk-item"><b>15</b><span>geen industriefunctie aangetroffen</span></div>
+      <div class="dk-item"><b>0</b><span>geen adres bekend in RCE</span></div>
+      <div class="dk-item"><b>0</b><span>geen match in BAG</span></div>
+      <div class="dk-item"><b>0</b><span>BAG-bevraging mislukt</span></div>
+      <div class="dk-item"><b>2</b><span>monumenten met meerdere adressen</span></div>
+    </div>
+  </div>
+
+  <footer>
+    <p><b>Methodiek.</b> Monumenten: RCE CHO-endpoint, rijksmonumenten met oorspronkelijke functie
+    Boerderij (M/M1), binnen 5&nbsp;km van of daadwerkelijk binnen het Natura 2000-gebied. Natura 2000-geometrie:
+    officiële landelijke WFS (service.pdok.nl/rvo/natura2000). Afstand: monumentpunt tot de daadwerkelijke
+    gebiedsrand. Provincie: point-in-polygon tegen de PDOK-bestuurlijke grenzen. BAG-industriefunctie-indicatie:
+    BAG-gebruiksdoel (open WFS bag:verblijfsobject), gematcht op postcode en huisnummer; industriefunctie
+    op een boerderijadres geldt als BAG-industriefunctie-indicatie: een aanwijzing, geen bewijs van
+    actieve agrarische bedrijfsvoering. Monumenten met uitsluitend woonfunctie zijn conservatief niet als
+    zodanig geteld; dat betekent een afwezige industriefunctie-aanwijzing, geen bevestiging dat er geen
+    bedrijf is. Monumenten zonder BAG-adres in RCE of zonder match in de BAG-zoekbox staan apart als
+    "BAG niet te controleren". Peildatum 2026-08-04.</p>
+    <p><b>Kanttekeningen.</b> Dit is een blootstellingskaart: er is g&eacute;&eacute;n emissiedata (AERIUS/RAV)
+    verwerkt. De industriefunctie-vlag is een indicatie, geen bewijs van actieve bedrijfsvoering of
+    stikstofuitstoot. Geen van de statuscategorie&euml;n op deze pagina is een uitspraak over daadwerkelijke
+    bedrijfsvoering, alleen over wat wel of niet in de BAG is aangetroffen.</p>
+  </footer>
+</div>
+<script id="data" type="application/json">{"gebied":"Lemselermaten","peildatum":"2026-08-04","n":15,"ja":0,"onbekend":0,"provCounts":{"Overijssel":15},"provJaCounts":{},"datakwaliteit":{"industrieAangetroffen":0,"industrieDeelsAangetroffen":0,"geenIndustrieAangetroffen":15,"geenAdres":0,"geenMatch":0,"bagMislukt":0,"meerdereAdressen":2},"bbox":[6.785270683492974,52.31851434511411,6.965472042530311,52.4033328849191],"n2000":[{"naam":"Lemselermaten","rings":[[[6.8761824804363405,52.347245104626396],[6.876146016220262,52.34745316578536],[6.876133014694811,52.34752433365294],[6.876072534081542,52.34771272881089],[6.876000282941441,52.34767824286615],[6.875921989073268,52.34758681019029],[6.875844910920859,52.34753159869023],[6.875713404243457,52.34747426376602],[6.875520979294695,52.34741263782579],[6.875301912106937,52.34735668256137],[6.875062179921509,52.34731362892818],[6.87480551286748,52.34727837267843],[6.874725712867732,52.347272073353864],[6.874583912488687,52.347263180769204],[6.874354203960561,52.34726606839229],[6.874078666044739,52.347276836011396],[6.873845212897531,52.347298028188106],[6.873697839235025,52.34732825104526],[6.873539973742896,52.34735326785],[6.873435690473083,52.3473621628363],[6.873367370773521,52.347363021052274],[6.8732265061934665,52.347354677797625],[6.872677342197547,52.347289662096955],[6.872035623823652,52.34721400830295],[6.87184359564036,52.34719141791703],[6.871558016674125,52.347148932529215],[6.87149870331636,52.34712411373138],[6.871468589320405,52.347101456297146],[6.871396590157957,52.3469989859452],[6.871341375437188,52.346918495266216],[6.871246198322558,52.34682249821765],[6.87108012378821,52.34673244395155],[6.870885873002313,52.346670833458894],[6.870557150307338,52.346592930706734],[6.870065065953375,52.346499377141335],[6.8700252541811215,52.34648836120813],[6.8698829173094405,52.34644969276365],[6.86979044289248,52.34644129991916],[6.869407598097929,52.34640627110689],[6.868671341189755,52.34633235978905],[6.868571942972608,52.34632046967931],[6.8684822133340075,52.34630309379504],[6.868430002583773,52.34628940103366],[6.8683725701846665,52.34626878107619],[6.868299815527312,52.34624643825201],[6.868197431117398,52.34622290849884],[6.868126634797569,52.3462161369754],[6.867500001932505,52.34618392864289],[6.867586475765066,52.345947809400066],[6.867751064905671,52.345498268228795],[6.867765745606006,52.345458121195286],[6.867797196537093,52.34537222778859],[6.867839829764814,52.34532384216963],[6.867844832117103,52.34531817761681],[6.867785959754577,52.34528884348878],[6.867787180959475,52.34528796526127],[6.867833608667859,52.34524627840359],[6.868129545999477,52.34494856105467],[6.868170805705255,52.34489668858387],[6.868219439937463,52.344803727621084],[6.868225258507743,52.34475423322726],[6.8683430581275635,52.34403842819099],[6.8683628210337115,52.343880029962925],[6.868418232428038,52.34351491102894],[6.868476768566875,52.34316771384805],[6.868491737437473,52.34307891366696],[6.868500424139412,52.34304056655181],[6.868522603564947,52.34297159392522],[6.868560576013421,52.34288476192998],[6.868640043227967,52.34273770440326],[6.868985359026081,52.34213141343848],[6.8690031898105826,52.34206990211299],[6.869011804864803,52.341990754717486],[6.868996992133963,52.34189793813983],[6.869006613412311,52.34187441203518],[6.869018889138644,52.341860144622345],[6.8690363707895346,52.34185247735106],[6.870243536665584,52.34184684790478],[6.8707636140133825,52.34184868669681],[6.872122578022377,52.341849597478806],[6.8723054936208525,52.34184971939093],[6.872602521025241,52.341843515535075],[6.872903006821882,52.341823438790456],[6.873131233330705,52.34180141581639],[6.873862954561669,52.34173652571256],[6.874620334239011,52.34166609391737],[6.875031751034098,52.341632670501184],[6.875145319079557,52.341614137801535],[6.875222726280065,52.341604047493504],[6.875337123281601,52.34158682466898],[6.875540303495567,52.34154448227267],[6.875742310438314,52.34149473833937],[6.876987723787305,52.341188023976486],[6.877801998049004,52.34099733877804],[6.877857857794486,52.340986636408665],[6.877942305916253,52.3409722091618],[6.878123578726752,52.34094581520978],[6.878154122614146,52.340941368112844],[6.878541027081363,52.34175589990769],[6.878535535621434,52.34175940474358],[6.878894437929641,52.342501016103554],[6.879029373593789,52.342754418793234],[6.879389281726734,52.34348992233749],[6.879417817087017,52.343483876857015],[6.879418006658355,52.34348423312827],[6.879426058097867,52.34348213061534],[6.879617672165812,52.34344153357048],[6.8799087504898395,52.343368478549635],[6.881946461362758,52.342823927528016],[6.882236865576538,52.342748083215476],[6.883457666609939,52.34242348845363],[6.884375481493619,52.342190980014486],[6.885426347596078,52.344061393984674],[6.885157081249735,52.34416441928495],[6.884345004917513,52.344475965399916],[6.883093971393369,52.344957143547916],[6.880674917990453,52.34589384703408],[6.879693870445838,52.34626964167442],[6.879419135820726,52.34637796499222],[6.879134537688859,52.34648754561716],[6.878874686658718,52.346578533469575],[6.878613824704244,52.34663851955422],[6.877537459173452,52.34684281057324],[6.877281155619478,52.34689094716096],[6.87662588723801,52.34699574120044],[6.876471373384363,52.34702603046476],[6.876339571530041,52.34707077924385],[6.8762667169210925,52.34710684507647],[6.876234326260935,52.3471344624993],[6.876209478106831,52.347166526238134],[6.876195650107174,52.34719618245025],[6.8761824804363405,52.347245104626396]]]}],"mons":[{"nr":"35760","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17323","functie":"Boerderij","wpl":"Reutum","straat":"Zoekeweg","huisnr":"18","prov":"Overijssel","k":3,"d":4507,"erin":false,"afstandTotRand":4507,"lon":6.858192478465681,"lat":52.386813198197736,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Zoekeweg","huisnr":"18","postcode":"7667SJ","woonplaats":"Reutum","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Zoekeweg","huisnummer":18,"huisletter":"","postcode":"7667SJ","gebruiksdoel":"woonfunctie"}]},{"nr":"38413","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17383","functie":"Boerderij","wpl":"Weerselo","straat":"Hilbertweg","huisnr":"4","prov":"Overijssel","k":2,"d":857,"erin":false,"afstandTotRand":857,"lon":6.896188876779112,"lat":52.33951140222519,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Hilbertweg","huisnr":"4","postcode":"7595MK","woonplaats":"Weerselo","gebruiksdoel":"logiesfunctie"}],"matched":[{"straat":"Hilbertweg","huisnummer":4,"huisletter":"","postcode":"7595MK","gebruiksdoel":"logiesfunctie"},{"straat":"Hilbertweg","huisnummer":4,"huisletter":"","postcode":"7595MK","gebruiksdoel":"woonfunctie"}]},{"nr":"12352","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18734","functie":"Boerderij","wpl":"Agelo","straat":"Weerselosestraat","huisnr":"33","prov":"Overijssel","k":3,"d":4522,"erin":false,"afstandTotRand":4522,"lon":6.875402669825145,"lat":52.3883328849191,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Weerselosestraat","huisnr":"33","postcode":"7636RK","woonplaats":"Agelo","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Weerselosestraat","huisnummer":33,"huisletter":"","postcode":"7636RK","gebruiksdoel":"woonfunctie"}]},{"nr":"38421","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19492","functie":"Boerderij","wpl":"Rossum","straat":"Bentertsteeg","huisnr":"12","prov":"Overijssel","k":3,"d":1589,"erin":false,"afstandTotRand":1589,"lon":6.907690214135162,"lat":52.348380051388474,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Bentertsteeg","huisnr":"12","postcode":"7596PA","woonplaats":"Rossum","gebruiksdoel":"overige gebruiksfunctie"}],"matched":[{"straat":"Bentertsteeg","huisnummer":12,"huisletter":"","postcode":"7596PA","gebruiksdoel":"overige gebruiksfunctie"},{"straat":"Bentertsteeg","huisnummer":12,"huisletter":"","postcode":"7596PA","gebruiksdoel":"woonfunctie"}]},{"nr":"38419","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21561","functie":"Boerderij","wpl":"Weerselo","straat":"Vicarieweg","huisnr":"3","prov":"Overijssel","k":3,"d":1816,"erin":false,"afstandTotRand":1816,"lon":6.846415513751069,"lat":52.3561901850338,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Vicarieweg","huisnr":"3","postcode":"7595LS","woonplaats":"Weerselo","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Vicarieweg","huisnummer":3,"huisletter":"","postcode":"7595LS","gebruiksdoel":"woonfunctie"}]},{"nr":"38425","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22891","functie":"Boerderij","wpl":"Rossum","straat":"Loosteresweg","huisnr":"1","prov":"Overijssel","k":3,"d":4744,"erin":false,"afstandTotRand":4744,"lon":6.950472042530311,"lat":52.35945416947651,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Loosteresweg","huisnr":"1","postcode":"7596MN","woonplaats":"Rossum","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Loosteresweg","huisnummer":1,"huisletter":"","postcode":"7596MN","gebruiksdoel":"woonfunctie"}]},{"nr":"38422","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26013","functie":"Boerderij","wpl":"Rossum","straat":"Boschweg","huisnr":"7","prov":"Overijssel","k":3,"d":2712,"erin":false,"afstandTotRand":2712,"lon":6.925097793595929,"lat":52.341575013708805,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Boschweg","huisnr":"7","postcode":"7596PH","woonplaats":"Rossum","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Boschweg","huisnummer":7,"huisletter":"","postcode":"7596PH","gebruiksdoel":"woonfunctie"},{"straat":"Boschweg","huisnummer":7,"huisletter":"","postcode":"7596PH","gebruiksdoel":"overige gebruiksfunctie"}]},{"nr":"511936","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38311","functie":"Boerderij","wpl":"Saasveld","straat":"Akkerhuisweg","huisnr":"1","prov":"Overijssel","k":3,"d":3203,"erin":false,"afstandTotRand":3203,"lon":6.822589372611961,"lat":52.35485472306747,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Akkerhuisweg","huisnr":"1","postcode":"7597LE","woonplaats":"Saasveld","gebruiksdoel":"woonfunctie"},{"straat":"Akkerhuisweg","huisnr":"1 A","postcode":"7597LE","woonplaats":"Saasveld","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Akkerhuisweg","huisnummer":1,"huisletter":"","postcode":"7597LE","gebruiksdoel":"woonfunctie"},{"straat":"Akkerhuisweg","huisnummer":1,"huisletter":"A","postcode":"7597LE","gebruiksdoel":"woonfunctie"}]},{"nr":"38426","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39811","functie":"Boerderij","wpl":"Rossum","straat":"Scholten Lindeweg","huisnr":"2","prov":"Overijssel","k":3,"d":4719,"erin":false,"afstandTotRand":4719,"lon":6.938783484269133,"lat":52.37115894804334,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Scholten Lindeweg","huisnr":"2","postcode":"7596MJ","woonplaats":"Rossum","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Scholten Lindeweg","huisnummer":2,"huisletter":"","postcode":"7596MJ","gebruiksdoel":"woonfunctie"},{"straat":"Scholten Lindeweg","huisnummer":2,"huisletter":"","postcode":"7596MJ","gebruiksdoel":"logiesfunctie"},{"straat":"Scholten Lindeweg","huisnummer":2,"huisletter":"","postcode":"7596MJ","gebruiksdoel":"logiesfunctie"},{"straat":"Scholten Lindeweg","huisnummer":2,"huisletter":"","postcode":"7596MJ","gebruiksdoel":"logiesfunctie"}]},{"nr":"12350","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41330","functie":"Boerderij","wpl":"Agelo","straat":"Dennenkampsweg","huisnr":"2","prov":"Overijssel","k":3,"d":4378,"erin":false,"afstandTotRand":4378,"lon":6.871712822900093,"lat":52.38694999704455,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Dennenkampsweg","huisnr":"2","postcode":"7636PZ","woonplaats":"Agelo","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Dennenkampsweg","huisnummer":2,"huisletter":"","postcode":"7636PZ","gebruiksdoel":"woonfunctie"}]},{"nr":"38428","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45841","functie":"Boerderij","wpl":"Saasveld","straat":"Koninksweg","huisnr":"20","prov":"Overijssel","k":3,"d":4759,"erin":false,"afstandTotRand":4759,"lon":6.800270683492974,"lat":52.33351434511411,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Koninksweg","huisnr":"20","postcode":"7597LW","woonplaats":"Saasveld","gebruiksdoel":"woonfunctie"},{"straat":"Koninksweg","huisnr":"20 A","postcode":"7597LW","woonplaats":"Saasveld","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Koninksweg","huisnummer":20,"huisletter":"","postcode":"7597LW","gebruiksdoel":"woonfunctie"},{"straat":"Koninksweg","huisnummer":20,"huisletter":"A","postcode":"7597LW","gebruiksdoel":"woonfunctie"}]},{"nr":"12353","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50719","functie":"Boerderij","wpl":"Agelo","straat":"Nijenkampsweg","huisnr":"4","prov":"Overijssel","k":3,"d":4381,"erin":false,"afstandTotRand":4381,"lon":6.877416612280705,"lat":52.3870580906691,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Nijenkampsweg","huisnr":"4","postcode":"7636RG","woonplaats":"Agelo","gebruiksdoel":"woonfunctie,logiesfunctie"}],"matched":[{"straat":"Nijenkampsweg","huisnummer":4,"huisletter":"","postcode":"7636RG","gebruiksdoel":"woonfunctie,logiesfunctie"}]},{"nr":"509951","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75294","functie":"Boerderij","wpl":"Rossum","straat":"Ootmarsumsedijk","huisnr":"29","prov":"Overijssel","k":3,"d":1984,"erin":false,"afstandTotRand":1984,"lon":6.903124183054723,"lat":52.358227657097956,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Ootmarsumsedijk","huisnr":"29","postcode":"7596PB","woonplaats":"Rossum","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Ootmarsumsedijk","huisnummer":29,"huisletter":"","postcode":"7596PB","gebruiksdoel":"woonfunctie"}]},{"nr":"508283","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75295","functie":"Boerderij","wpl":"Rossum","straat":"Ootmarsumsedijk","huisnr":"29","prov":"Overijssel","k":3,"d":1993,"erin":false,"afstandTotRand":1993,"lon":6.903142237151462,"lat":52.35832630437258,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Ootmarsumsedijk","huisnr":"29","postcode":"7596PB","woonplaats":"Rossum","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Ootmarsumsedijk","huisnummer":29,"huisletter":"","postcode":"7596PB","gebruiksdoel":"woonfunctie"}]},{"nr":"507953","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75309","functie":"Boerderij","wpl":"Reutum","straat":"Zoekeweg","huisnr":"18","prov":"Overijssel","k":3,"d":4421,"erin":false,"afstandTotRand":4421,"lon":6.858298688189023,"lat":52.38602984923654,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Zoekeweg","huisnr":"18","postcode":"7667SJ","woonplaats":"Reutum","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Zoekeweg","huisnummer":18,"huisletter":"","postcode":"7667SJ","gebruiksdoel":"woonfunctie"}]}],"richtlijn":{"gebiedsnummer":"48","label":"Habitatrichtlijn","badge":"HR","heeftGroeveOnderdeel":false,"siteCodeVogelrichtlijn":null,"siteCodeHabitatrichtlijn":"NL2003027","stikstofgevoelig":true,"natura2000Status":"Natura 2000-besluit 4 juni 2013","wikidata":"http://www.wikidata.org/entity/Q111829845","rceUris":["https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/161d31b8-c696-4b5d-8b57-8f26b7bee9c3"]}}</script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const D = JSON.parse(document.getElementById('data').textContent);
+const $ = id => document.getElementById(id);
+const fmt = n => n.toLocaleString('nl-NL');
+const KC = ['#7A1607','#D1401F','#E0703C','#E5B08E','#B7C7D2','#B7C7D2'];
+const KN = ['erin','<250 m','<1 km','<5 km','<25 km','\u226525 km'];
+let filterJa = false;
+
+$('stats').innerHTML = `
+  <div class="stat"><div class="num">${fmt(D.n)}</div><div class="lbl">rijksmonumentale boerderijen</div></div>
+  <div class="stat alert"><div class="num">${fmt(D.ja)}</div><div class="lbl">BAG-industriefunctie-indicatie</div></div>
+  <div class="stat neutral"><div class="num">${fmt(D.onbekend)}</div><div class="lbl">BAG niet te controleren</div></div>`;
+
+const map = L.map('map', { scrollWheelZoom: false });
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &copy; OpenStreetMap contributors',
+  maxZoom: 19
+}).addTo(map);
+const [bx0,by0,bx1,by1] = D.bbox;
+map.fitBounds([[by0,bx0],[by1,bx1]], { padding: [10,10] });
+
+const n2000Layer = L.layerGroup().addTo(map);
+D.n2000.forEach(g => g.rings.forEach(ring => {
+  L.polygon(ring.map(([lon,lat]) => [lat,lon]), {
+    color: '#5E7D46', weight: 1, fillColor: '#5E7D46', fillOpacity: 0.28, interactive: false
+  }).addTo(n2000Layer);
+}));
+
+const STATUS_LABEL = {
+  industrie_aangetroffen: 'Industriefunctie aangetroffen (eenduidig)',
+  industrie_deels_aangetroffen: 'Industriefunctie aangetroffen bij een deel van de adressen',
+  geen_industrie_aangetroffen: 'Geen industriefunctie aangetroffen',
+  geen_adres: 'BAG niet te controleren \u2014 geen adres bekend in RCE',
+  geen_match: 'BAG niet te controleren \u2014 geen match gevonden',
+  bag_mislukt: 'BAG niet te controleren \u2014 bevraging mislukt'
+};
+const detail = $('detail');
+function toonDetail(m){
+  const adressenHtml = (m.addressen||[]).map((a,i)=>
+    `<dt>adres ${i+1}</dt><dd>${a.straat} ${a.huisnr}, ${a.postcode} ${a.woonplaats}${a.gebruiksdoel ? ', gebruiksdoel: '+a.gebruiksdoel : ', geen BAG-match'}</dd>`
+  ).join('');
+  detail.innerHTML = `<dl>
+    <dt>rijksmonumentnummer</dt><dd>${m.nr} (<a href="https://monumentenregister.cultureelerfgoed.nl/monumenten/${m.nr}" target="_blank" rel="noopener" style="color:var(--blue-mid)">Monumentenregister &rarr;</a>${m.rm ? ` &middot; <a href="${m.rm}" target="_blank" rel="noopener" style="color:var(--blue-mid)">RCE linked data &rarr;</a>` : ''})</dd>
+    <dt>oorspronkelijke functie</dt><dd>${m.functie||'onbekend'}</dd>
+    <dt>ligging</dt><dd>${m.erin ? 'binnen het Natura 2000-gebied' : `${fmt(m.afstandTotRand)} m van de gebiedsrand`} \u00b7 ${KN[m.k]}-klasse \u00b7 ${m.prov}</dd>
+    <dt>status</dt><dd>${STATUS_LABEL[m.status]||m.status}</dd>
+    ${adressenHtml}
+    <dt>peildatum</dt><dd>2026-08-04</dd>
+  </dl>`;
+  detail.classList.add('on');
+}
+
+const monLayer = L.layerGroup().addTo(map);
+function renderMarkers(){
+  monLayer.clearLayers();
+  [...D.mons].sort((a,b)=>b.k-a.k).forEach(m=>{
+    if(filterJa && !m.ja) return;
+    const r = m.k<=1 ? 5 : m.k===2 ? 4.4 : 3.8;
+    const marker = L.circleMarker([m.lat,m.lon], { radius:r, fillColor:KC[m.k], fillOpacity:0.9, weight:1, color:KC[m.k] });
+    if(m.status==='industrie_deels_aangetroffen'){
+      marker.setStyle({color:'#16324F', weight:1.3});
+      L.circleMarker([m.lat,m.lon], { radius:r+2.2, fill:false, color:'#16324F', weight:1.3, interactive:false }).addTo(monLayer);
+    } else if(m.ja){
+      marker.setStyle({color:'#16324F', weight:1.3});
+    } else if(m.bag!=='ok'){
+      marker.setStyle({color:'#8A8A8A', weight:1, dashArray:'2,2'});
+    }
+    marker.bindTooltip(
+      `rm ${m.nr} \u00b7 ${m.straat||''} ${m.huisnr||''}, ${m.wpl||''} \u00b7 ${m.prov} \u00b7 ${KN[m.k]} van Lemselermaten`+
+      (m.d>0 ? ` (${fmt(m.d)} m)` : '') + (m.ja ? ' \u00b7 BAG-industriefunctie-indicatie' : (m.bag!=='ok' ? ' \u00b7 BAG niet te controleren' : ''))
+    );
+    marker.on('click', ()=>toonDetail(m));
+    marker.addTo(monLayer);
+  });
+}
+renderMarkers();
+
+if($('fAll')){
+  $('fAll').onclick=()=>{filterJa=false;$('fAll').classList.add('on');$('fAll').setAttribute('aria-pressed','true');$('fJa').classList.remove('on');$('fJa').setAttribute('aria-pressed','false');renderMarkers();};
+  $('fJa').onclick=()=>{filterJa=true;$('fJa').classList.add('on');$('fJa').setAttribute('aria-pressed','true');$('fAll').classList.remove('on');$('fAll').setAttribute('aria-pressed','false');renderMarkers();};
+}
+window.addEventListener('resize',()=>map.invalidateSize());
+</script>
+</body>
+</html>

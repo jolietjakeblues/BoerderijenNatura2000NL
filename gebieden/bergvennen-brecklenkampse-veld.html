@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Bergvennen & Brecklenkampse Veld &middot; Boerderij-rijksmonumenten &amp; Natura 2000</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+  :root{
+    --paper:#F4F7F8; --panel:#FFFFFF; --ink:#16324F; --ink-soft:#4A6579;
+    --blue-mid:#3E6C93; --alert:#D1401F; --line:#C9D6DE;
+    --n2k:#5E7D46; --n2k-bg:#E9F0E6; --n2k-text:#3B5230;
+    --k0:#7A1607; --k1:#D1401F; --k2:#E0703C; --k3:#E5B08E; --k4:#B7C7D2; --k5:#B7C7D2;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{background:var(--paper);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    line-height:1.5;padding:0 0 48px}
+  .wrap{max-width:760px;margin:0 auto;padding:0 16px}
+  .eyebrow{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--blue-mid);font-weight:600}
+  header{padding:18px 0 18px;border-bottom:2px solid var(--ink)}
+  h1{font-family:Palatino,"Palatino Linotype",Georgia,serif;font-size:27px;line-height:1.18;font-weight:700;margin-top:6px}
+  header p{margin-top:8px;font-size:14px;color:var(--ink-soft);
+    text-align:justify;-webkit-hyphens:auto;hyphens:auto}
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:16px 0}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:10px}
+  .stat .num{font-family:Palatino,Georgia,serif;font-size:20px;font-weight:700;line-height:1.05}
+  .stat.alert .num{color:var(--alert)}
+  .stat.neutral .num{color:var(--ink-soft)}
+  .stat .lbl{font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-soft);margin-top:3px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:14px;margin:14px 0}
+  .badge-richtlijn{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.04em;
+    text-transform:uppercase;padding:2px 8px;background:var(--n2k-bg);color:var(--n2k-text);border-radius:8px}
+  .richtlijn-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:8px}
+  .richtlijn-meta{font-size:12px;color:var(--ink-soft)}
+  .dk-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px}
+  .dk-item{background:var(--paper);border:1px solid var(--line);border-radius:2px;padding:8px 10px}
+  .dk-item b{font-family:Palatino,Georgia,serif;font-size:18px;display:block}
+  .dk-item span{font-size:11px;color:var(--ink-soft)}
+  .detail{display:none;font-size:12px;color:var(--ink)}
+  .detail.on{display:block}
+  .detail dl{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;margin-top:6px}
+  .detail dt{color:var(--ink-soft)}
+  .detail dd{margin:0}
+  .mon-list{margin-top:12px;font-size:12px}
+  .mon-list summary{cursor:pointer;color:var(--blue-mid);font-weight:600}
+  .mon-list table{width:100%;border-collapse:collapse;margin-top:8px;font-size:12px}
+  .mon-list th,.mon-list td{text-align:left;padding:4px 8px;border-bottom:1px solid var(--line)}
+  .mon-list th{color:var(--ink-soft);font-size:10px;letter-spacing:.04em;text-transform:uppercase}
+  .card h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue-mid);margin-bottom:8px}
+  #map{width:100%;height:480px;border:1px solid var(--line);border-radius:2px;background:var(--paper)}
+  .leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--ink);color:#fff}
+  .leaflet-popup-content{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:12px;margin:8px 10px}
+  .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:11px;color:var(--ink-soft);margin-top:8px}
+  .legend span{display:inline-flex;align-items:center;gap:5px}
+  .sw{width:9px;height:9px;border-radius:50%}
+  .sq{width:11px;height:11px;border-radius:2px}
+  .chips{display:flex;gap:8px;margin:10px 0 2px;flex-wrap:wrap}
+  .chip{padding:7px 12px;border:1.5px solid var(--ink);background:var(--panel);color:var(--ink);
+    font-size:12px;font-weight:600;cursor:pointer;border-radius:2px}
+  .chip.on{background:var(--ink);color:#fff}
+  .chip:focus-visible{outline:3px solid var(--alert);outline-offset:2px}
+  footer{margin-top:22px;font-size:12px;color:var(--ink-soft);border-top:1px solid var(--line);padding-top:14px}
+  footer p{margin-bottom:8px}
+  @media (max-width:480px){ h1{font-size:21px} .stats{grid-template-columns:repeat(3,1fr)} #map{height:360px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p style="font-size:13px;margin-top:14px"><a href="../index.html" style="color:var(--blue-mid)">&larr; terug naar overzicht alle Natura 2000-gebieden</a></p>
+  <header>
+    <div class="eyebrow">RCE &times; Kadaster &times; Natura 2000</div>
+    <h1>Bergvennen & Brecklenkampse Veld</h1>
+    <div class="richtlijn-row">
+      <span class="badge-richtlijn">Habitatrichtlijn</span>
+      <span class="richtlijn-meta">Natura 2000-gebied nr. 46 &middot; sitecode NL2003007 &middot; stikstofgevoelig: ja</span>
+    </div>
+    <p>Vennen- en heidegebied (circa 133 hectare) in drie deelgebieden bij de Duitse grens, met een overgang van droge naar natte heide. Herbergt de grootste oppervlakte oevervegetatie met waterlobelia en oeverkruid van Nederland - een van de zeldzaamste plantengemeenschappen van het land, zeer gevoelig voor verzuring en vermesting. <a href="https://www.natura2000.nl/gebieden/overijssel/bergvennen-brecklenkampse-veld" style="color:var(--blue-mid)" target="_blank" rel="noopener">Bron: natura2000.nl &rarr;</a> &middot; <a href="https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/ebc4b652-faa1-453d-94e0-150e1463fe32" style="color:var(--blue-mid)" target="_blank" rel="noopener">RCE linked data &rarr;</a> &middot; <a href="http://www.wikidata.org/entity/Q12012455" style="color:var(--blue-mid)" target="_blank" rel="noopener">Wikidata &rarr;</a></p>
+    <p>Rijksmonumentale boerderijen binnen dit Natura 2000-gebied of binnen 5&nbsp;km
+    van de gebiedsrand (een gekozen selectievenster, geen ecologische invloedssfeer), met een
+    BAG-industriefunctie-indicatie op basis van BAG-gebruiksdoel (een aanwijzing, geen bewijs van
+    actieve bedrijfsvoering).</p>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="card">
+    <h2>Kaart &middot; elk punt is een rijksmonumentale boerderij</h2>
+    <div class="chips">
+      <button class="chip on" id="fAll" aria-pressed="true">Alle 10</button>
+      <button class="chip" id="fJa" aria-pressed="false">Alleen BAG-industriefunctie-indicatie</button>
+    </div>
+    <div id="map" aria-label="Kaart van het Natura 2000-gebied Bergvennen & Brecklenkampse Veld met rijksmonumentale boerderijen, met een OpenStreetMap-ondergrond"></div>
+    <div class="legend">
+      <span><i class="sq" style="background:rgba(94,125,70,.3);border:1px solid var(--n2k)"></i>Natura 2000</span>
+      <span><i class="sw" style="background:var(--k0)"></i>erin</span>
+      <span><i class="sw" style="background:var(--k1)"></i>&lt;250 m</span>
+      <span><i class="sw" style="background:var(--k2)"></i>&lt;1 km</span>
+      <span><i class="sw" style="background:var(--k3)"></i>&lt;5 km</span>
+    </div>
+    <p style="font-size:12px;color:var(--ink-soft);margin-top:8px">Klik op een punt voor details ("waarom staat
+    dit punt hier?"), beweeg eroverheen voor een korte hint. Sleep om te verschuiven, scroll of gebruik de
+    +/&minus;-knoppen om in te zoomen op de werkelijke ligging. Bij omrande punten (donkerblauw, effen) is
+    eenduidig een industriefunctie in de BAG aangetroffen. Een dubbele donkerblauwe rand betekent: wel
+    industriefunctie gevonden, maar niet bij alle adressen van dit monument eenduidig (zie klik-detail).
+    Een gestippelde grijze rand: kon niet in de BAG worden gecontroleerd (geen adres bekend of geen match
+    gevonden). Op basis van de BAG-koppeling is hierover geen uitspraak mogelijk, dit is geen bevestiging
+    van afwezige bedrijfsvoering. Kaartondergrond: &copy; <a href="https://carto.com/attributions" target="_blank" rel="noopener" style="color:var(--blue-mid)">CARTO</a>
+    &amp; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener" style="color:var(--blue-mid)">OpenStreetMap</a>-auteurs.</p>
+    <div class="detail" id="detail"></div>
+    <details class="mon-list">
+      <summary>Lijst van alle 10 monumenten (toetsenbord- en schermlezer-toegankelijk)</summary>
+      <table>
+        <thead><tr><th>Rm-nr</th><th>Plaats</th><th>Afstand</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>12347</td><td>Lattrop-Breklenkamp</td><td>2.037 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>12358</td><td>Lattrop-Breklenkamp</td><td>2.239 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>12363</td><td>Tilligte</td><td>4.785 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>12361</td><td>Denekamp</td><td>1.450 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>38424</td><td>Lattrop-Breklenkamp</td><td>2.165 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>12360</td><td>Denekamp</td><td>3.518 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>12349</td><td>Lattrop-Breklenkamp</td><td>2.896 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>12346</td><td>Lattrop-Breklenkamp</td><td>2.006 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>508944</td><td>Denekamp</td><td>4.995 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>12357</td><td>Lattrop-Breklenkamp</td><td>1.274 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+        </tbody>
+      </table>
+    </details>
+  </div>
+
+  
+  <div class="card">
+    <h2>Datakwaliteit &middot; peildatum 2026-08-04</h2>
+    <div class="dk-grid">
+      <div class="dk-item"><b>0</b><span>industriefunctie aangetroffen</span></div>
+      <div class="dk-item"><b>0</b><span>industriefunctie bij deel van adressen</span></div>
+      <div class="dk-item"><b>10</b><span>geen industriefunctie aangetroffen</span></div>
+      <div class="dk-item"><b>0</b><span>geen adres bekend in RCE</span></div>
+      <div class="dk-item"><b>0</b><span>geen match in BAG</span></div>
+      <div class="dk-item"><b>0</b><span>BAG-bevraging mislukt</span></div>
+      <div class="dk-item"><b>0</b><span>monumenten met meerdere adressen</span></div>
+    </div>
+  </div>
+
+  <footer>
+    <p><b>Methodiek.</b> Monumenten: RCE CHO-endpoint, rijksmonumenten met oorspronkelijke functie
+    Boerderij (M/M1), binnen 5&nbsp;km van of daadwerkelijk binnen het Natura 2000-gebied. Natura 2000-geometrie:
+    officiële landelijke WFS (service.pdok.nl/rvo/natura2000). Afstand: monumentpunt tot de daadwerkelijke
+    gebiedsrand. Provincie: point-in-polygon tegen de PDOK-bestuurlijke grenzen. BAG-industriefunctie-indicatie:
+    BAG-gebruiksdoel (open WFS bag:verblijfsobject), gematcht op postcode en huisnummer; industriefunctie
+    op een boerderijadres geldt als BAG-industriefunctie-indicatie: een aanwijzing, geen bewijs van
+    actieve agrarische bedrijfsvoering. Monumenten met uitsluitend woonfunctie zijn conservatief niet als
+    zodanig geteld; dat betekent een afwezige industriefunctie-aanwijzing, geen bevestiging dat er geen
+    bedrijf is. Monumenten zonder BAG-adres in RCE of zonder match in de BAG-zoekbox staan apart als
+    "BAG niet te controleren". Peildatum 2026-08-04.</p>
+    <p><b>Kanttekeningen.</b> Dit is een blootstellingskaart: er is g&eacute;&eacute;n emissiedata (AERIUS/RAV)
+    verwerkt. De industriefunctie-vlag is een indicatie, geen bewijs van actieve bedrijfsvoering of
+    stikstofuitstoot. Geen van de statuscategorie&euml;n op deze pagina is een uitspraak over daadwerkelijke
+    bedrijfsvoering, alleen over wat wel of niet in de BAG is aangetroffen.</p>
+  </footer>
+</div>
+<script id="data" type="application/json">{"gebied":"Bergvennen & Brecklenkampse Veld","peildatum":"2026-08-04","n":10,"ja":0,"onbekend":0,"provCounts":{"Overijssel":10},"provJaCounts":{},"datakwaliteit":{"industrieAangetroffen":0,"industrieDeelsAangetroffen":0,"geenIndustrieAangetroffen":10,"geenAdres":0,"geenMatch":0,"bagMislukt":0,"meerdereAdressen":0},"bbox":[6.940641531832059,52.36845168972991,7.04221746378612,52.47805282964955],"n2000":[{"naam":"Bergvennen & Brecklenkampse Veld","rings":[[[7.006720163742025,52.4407453166194],[7.006678711117731,52.44084856568768],[7.00657448966866,52.44113661399373],[7.00645283478332,52.441452325053085],[7.006338725344155,52.44178257679211],[7.005971129133669,52.44282204624656],[7.0058963544408455,52.44303876722913],[7.0033335855415535,52.44252508629166],[7.0032340759359,52.4425037943861],[7.003019084448126,52.44246204305797],[7.002674491028629,52.44239296610168],[7.002716270153531,52.44224159872009],[7.00287774386435,52.44176749112584],[7.003018644276656,52.44138788385515],[7.003183668047596,52.44095235030123],[7.003661298327979,52.43970927653183],[7.003656136967886,52.439709680462386],[7.002645529081618,52.43978879934077],[7.002024910530669,52.43983523168808],[7.001136309569831,52.439905122543664],[7.001127522049595,52.439841837498925],[7.00112585803346,52.43982984817709],[7.000284312703464,52.43989617182193],[7.000287139681694,52.43991698958696],[6.998999003631205,52.44001845539711],[6.998099889680236,52.44010625138571],[6.998027827712429,52.44010038445774],[6.998054752905999,52.440052181592364],[6.998074340889067,52.439980173180096],[6.998081114509979,52.43989548477473],[6.9980101554986565,52.439502336439624],[6.997935330330534,52.439088888637826],[6.997823192977047,52.43846733967222],[6.997817405631406,52.4384352656372],[6.9977151830971795,52.43790192732413],[6.997543000115164,52.4369878673282],[6.997426794495517,52.436369846341904],[6.997417587364457,52.43628208509276],[6.997297940470266,52.435681377993845],[6.997168626165841,52.43497371427707],[6.997071908051176,52.43446545007009],[6.997022094844055,52.4342014187655],[6.997008204664745,52.434137309166985],[6.997002088242585,52.43410909309716],[6.996999343941327,52.434107234613975],[6.996995433386702,52.434100726685564],[6.996985811193482,52.43407074248305],[6.996969548683393,52.43398596522977],[6.996952218886172,52.43385158224305],[6.996933261568244,52.433677380277814],[6.996919461575552,52.43354857462918],[6.996894001969916,52.433305407436656],[6.996887785140662,52.433237706692125],[6.9967516925884565,52.43202497254975],[6.996739229075773,52.43190304325606],[6.996739364502909,52.43189325957102],[6.9974974196524995,52.43173528657835],[6.997610987976995,52.4317115521533],[6.997690814036171,52.43169501640577],[6.9979879286528694,52.43163816547301],[6.998529673241837,52.43153472534028],[6.998641949372638,52.4315132547511],[6.999128758126989,52.43141561650665],[6.99970678433414,52.43129903647991],[7.000744617154237,52.4311006262129],[7.000745528069449,52.43108724892402],[7.000784800533284,52.43107977522496],[7.000832345252243,52.43011783948403],[7.0009308886697035,52.43012137509383],[7.0010946967752,52.43012701008898],[7.001136404794878,52.430128482209774],[7.001532641155613,52.430148730040464],[7.001533666990776,52.43014250284266],[7.001599938983486,52.430144841791574],[7.001869117329641,52.430154092907536],[7.001890386663223,52.43010717324303],[7.001902680827761,52.43007891491314],[7.001837995654552,52.430044121194896],[7.002032208534787,52.4296234834096],[7.0021348738618485,52.42939534962035],[7.002261369974075,52.42912288044493],[7.002484858011258,52.42863301441339],[7.002995545995295,52.42753957130153],[7.00310841313915,52.42728639047379],[7.003297809557336,52.426878310640895],[7.003831491527689,52.42574562683778],[7.004036935649714,52.42524621270082],[7.00406588619232,52.4251853193924],[7.00447958703539,52.42524079559435],[7.005725034725192,52.42540918052543],[7.0060016739411095,52.425447255766116],[7.006535082058194,52.425520301552126],[7.0070912916281305,52.42559621427029],[7.007090462020317,52.425632253705786],[7.007260617242781,52.42565452811909],[7.008353414438586,52.42579757253116],[7.00824486188375,52.426067352776144],[7.0081326325358,52.42634626755032],[7.011679116300849,52.42677200863494],[7.011689479378633,52.42674918440771],[7.011716206326617,52.426688704397904],[7.012143022278569,52.42584770814397],[7.012461788751635,52.42519303317823],[7.012500013128655,52.425120315664934],[7.0124767104389125,52.42508452376267],[7.0126211955127635,52.4247732155872],[7.0127925754016305,52.42445694818874],[7.013060418096989,52.423963833971165],[7.013756171696888,52.42267904695202],[7.013878384967277,52.42267660229136],[7.01457763055678,52.422663419670734],[7.014806523983642,52.42266448244979],[7.014844902941687,52.42266712447377],[7.015104567688013,52.422700777876535],[7.015194474294949,52.42271823912547],[7.0152635433728445,52.42273486406411],[7.015381181244151,52.422769929233354],[7.015487108969971,52.422803541771415],[7.015692166637954,52.42287442152331],[7.016519462872536,52.42314422765824],[7.016732602683041,52.42321840218566],[7.017401902266412,52.4234425859304],[7.018183663806421,52.42370003621301],[7.019619485976084,52.4241730270212],[7.019734735521614,52.42421099093944],[7.01974943722649,52.42421583471028],[7.017962409531694,52.42519390037337],[7.017750914656507,52.425307632565485],[7.017508241169685,52.425443927382524],[7.017145080638675,52.42563987217306],[7.016457003030393,52.42601863218502],[7.015491168721311,52.42655089960333],[7.015110883901006,52.42676302808301],[7.014156751718882,52.42728472215224],[7.012827944666144,52.428015848926584],[7.012250044851988,52.42833710268213],[7.0110004820935465,52.42902239942341],[7.010934099980552,52.42905880374225],[7.01080982052614,52.429132133263145],[7.010783702284626,52.42913727350882],[7.0107693804407,52.42918859144575],[7.009596212839911,52.43262030599826],[7.009433145760306,52.43311557028642],[7.009353870098098,52.43333319296326],[7.009324207622488,52.4334319491499],[7.009228227293192,52.43370360706233],[7.009027803611359,52.434291314839285],[7.008818651153731,52.434882941334905],[7.00873573232486,52.43512902766591],[7.007960051930891,52.43735275113081],[7.007917393397739,52.437490741818145],[7.00720003932935,52.43942937067684],[7.006720163742025,52.4407453166194]]]}],"mons":[{"nr":"12347","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11977","functie":"Boerderij","wpl":"Lattrop-Breklenkamp","straat":"Jonkershoesweg","huisnr":"4","prov":"Overijssel","k":3,"d":2037,"erin":false,"afstandTotRand":2037,"lon":6.967691414240025,"lat":52.43885004409156,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Jonkershoesweg","huisnr":"4","postcode":"7635LM","woonplaats":"Lattrop-Breklenkamp","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Jonkershoesweg","huisnummer":4,"huisletter":"","postcode":"7635LM","gebruiksdoel":"woonfunctie"}]},{"nr":"12358","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12529","functie":"Boerderij","wpl":"Lattrop-Breklenkamp","straat":"Dorpsstraat","huisnr":"1","prov":"Overijssel","k":3,"d":2239,"erin":false,"afstandTotRand":2239,"lon":6.97222580762924,"lat":52.418438426837504,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Dorpsstraat","huisnr":"1","postcode":"7635NA","woonplaats":"Lattrop-Breklenkamp","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Dorpsstraat","huisnummer":1,"huisletter":"","postcode":"7635NA","gebruiksdoel":"woonfunctie"}]},{"nr":"12363","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25490","functie":"Boerderij","wpl":"Tilligte","straat":"Damweg","huisnr":"13","prov":"Overijssel","k":3,"d":4785,"erin":false,"afstandTotRand":4785,"lon":6.955641531832058,"lat":52.39393957864305,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Damweg","huisnr":"13","postcode":"7634PC","woonplaats":"Tilligte","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Damweg","huisnummer":13,"huisletter":"","postcode":"7634PC","gebruiksdoel":"woonfunctie"}]},{"nr":"12361","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28984","functie":"Boerderij","wpl":"Denekamp","straat":"Rammelbeekweg","huisnr":"16","prov":"Overijssel","k":3,"d":1450,"erin":false,"afstandTotRand":1450,"lon":7.02721746378612,"lat":52.411864570948175,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Rammelbeekweg","huisnr":"16","postcode":"7591NP","woonplaats":"Denekamp","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Rammelbeekweg","huisnummer":16,"huisletter":"","postcode":"7591NP","gebruiksdoel":"woonfunctie"}]},{"nr":"38424","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36479","functie":"Boerderij","wpl":"Lattrop-Breklenkamp","straat":"Jonkershoesweg","huisnr":"8","prov":"Overijssel","k":3,"d":2165,"erin":false,"afstandTotRand":2165,"lon":6.96594105447632,"lat":52.43967340284806,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Jonkershoesweg","huisnr":"8","postcode":"7635LM","woonplaats":"Lattrop-Breklenkamp","gebruiksdoel":"bijeenkomstfunctie,logiesfunctie"}],"matched":[{"straat":"Jonkershoesweg","huisnummer":8,"huisletter":"","postcode":"7635LM","gebruiksdoel":"bijeenkomstfunctie,logiesfunctie"}]},{"nr":"12360","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49405","functie":"Boerderij","wpl":"Denekamp","straat":"Lubberdinksweg","huisnr":"15","prov":"Overijssel","k":3,"d":3518,"erin":false,"afstandTotRand":3518,"lon":7.011462256398116,"lat":52.39111021433093,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Lubberdinksweg","huisnr":"15","postcode":"7591PB","woonplaats":"Denekamp","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Lubberdinksweg","huisnummer":15,"huisletter":"","postcode":"7591PB","gebruiksdoel":"woonfunctie"}]},{"nr":"12349","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52589","functie":"Boerderij","wpl":"Lattrop-Breklenkamp","straat":"Rotmanweg","huisnr":"9","prov":"Overijssel","k":3,"d":2896,"erin":false,"afstandTotRand":2896,"lon":6.976753868810248,"lat":52.46305282964955,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Rotmanweg","huisnr":"9","postcode":"7635LC","woonplaats":"Lattrop-Breklenkamp","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Rotmanweg","huisnummer":9,"huisletter":"","postcode":"7635LC","gebruiksdoel":"woonfunctie"}]},{"nr":"12346","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58602","functie":"Boerderij","wpl":"Lattrop-Breklenkamp","straat":"Brookmanweg","huisnr":"4","prov":"Overijssel","k":3,"d":2006,"erin":false,"afstandTotRand":2006,"lon":6.978279540669184,"lat":52.45351308183017,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Brookmanweg","huisnr":"4","postcode":"7635LE","woonplaats":"Lattrop-Breklenkamp","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Brookmanweg","huisnummer":4,"huisletter":"","postcode":"7635LE","gebruiksdoel":"woonfunctie"}]},{"nr":"508944","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58755","functie":"Boerderij","wpl":"Denekamp","straat":"Ootmarsumsestraat","huisnr":"63","prov":"Overijssel","k":3,"d":4995,"erin":false,"afstandTotRand":4995,"lon":6.977026512565084,"lat":52.38345168972991,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Ootmarsumsestraat","huisnr":"63","postcode":"7591PR","woonplaats":"Denekamp","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Ootmarsumsestraat","huisnummer":63,"huisletter":"","postcode":"7591PR","gebruiksdoel":"woonfunctie"}]},{"nr":"12357","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61272","functie":"Boerderij","wpl":"Lattrop-Breklenkamp","straat":"Bergvennenweg","huisnr":"7","prov":"Overijssel","k":3,"d":1274,"erin":false,"afstandTotRand":1274,"lon":6.977994974646828,"lat":52.43128722044115,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Bergvennenweg","huisnr":"7","postcode":"7635NJ","woonplaats":"Lattrop-Breklenkamp","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Bergvennenweg","huisnummer":7,"huisletter":"","postcode":"7635NJ","gebruiksdoel":"woonfunctie"}]}],"richtlijn":{"gebiedsnummer":"46","label":"Habitatrichtlijn","badge":"HR","heeftGroeveOnderdeel":false,"siteCodeVogelrichtlijn":null,"siteCodeHabitatrichtlijn":"NL2003007","stikstofgevoelig":true,"natura2000Status":"Natura 2000-besluit 4 juni 2013","wikidata":"http://www.wikidata.org/entity/Q12012455","rceUris":["https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/ebc4b652-faa1-453d-94e0-150e1463fe32"]}}</script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const D = JSON.parse(document.getElementById('data').textContent);
+const $ = id => document.getElementById(id);
+const fmt = n => n.toLocaleString('nl-NL');
+const KC = ['#7A1607','#D1401F','#E0703C','#E5B08E','#B7C7D2','#B7C7D2'];
+const KN = ['erin','<250 m','<1 km','<5 km','<25 km','\u226525 km'];
+let filterJa = false;
+
+$('stats').innerHTML = `
+  <div class="stat"><div class="num">${fmt(D.n)}</div><div class="lbl">rijksmonumentale boerderijen</div></div>
+  <div class="stat alert"><div class="num">${fmt(D.ja)}</div><div class="lbl">BAG-industriefunctie-indicatie</div></div>
+  <div class="stat neutral"><div class="num">${fmt(D.onbekend)}</div><div class="lbl">BAG niet te controleren</div></div>`;
+
+const map = L.map('map', { scrollWheelZoom: false });
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &copy; OpenStreetMap contributors',
+  maxZoom: 19
+}).addTo(map);
+const [bx0,by0,bx1,by1] = D.bbox;
+map.fitBounds([[by0,bx0],[by1,bx1]], { padding: [10,10] });
+
+const n2000Layer = L.layerGroup().addTo(map);
+D.n2000.forEach(g => g.rings.forEach(ring => {
+  L.polygon(ring.map(([lon,lat]) => [lat,lon]), {
+    color: '#5E7D46', weight: 1, fillColor: '#5E7D46', fillOpacity: 0.28, interactive: false
+  }).addTo(n2000Layer);
+}));
+
+const STATUS_LABEL = {
+  industrie_aangetroffen: 'Industriefunctie aangetroffen (eenduidig)',
+  industrie_deels_aangetroffen: 'Industriefunctie aangetroffen bij een deel van de adressen',
+  geen_industrie_aangetroffen: 'Geen industriefunctie aangetroffen',
+  geen_adres: 'BAG niet te controleren \u2014 geen adres bekend in RCE',
+  geen_match: 'BAG niet te controleren \u2014 geen match gevonden',
+  bag_mislukt: 'BAG niet te controleren \u2014 bevraging mislukt'
+};
+const detail = $('detail');
+function toonDetail(m){
+  const adressenHtml = (m.addressen||[]).map((a,i)=>
+    `<dt>adres ${i+1}</dt><dd>${a.straat} ${a.huisnr}, ${a.postcode} ${a.woonplaats}${a.gebruiksdoel ? ', gebruiksdoel: '+a.gebruiksdoel : ', geen BAG-match'}</dd>`
+  ).join('');
+  detail.innerHTML = `<dl>
+    <dt>rijksmonumentnummer</dt><dd>${m.nr} (<a href="https://monumentenregister.cultureelerfgoed.nl/monumenten/${m.nr}" target="_blank" rel="noopener" style="color:var(--blue-mid)">Monumentenregister &rarr;</a>${m.rm ? ` &middot; <a href="${m.rm}" target="_blank" rel="noopener" style="color:var(--blue-mid)">RCE linked data &rarr;</a>` : ''})</dd>
+    <dt>oorspronkelijke functie</dt><dd>${m.functie||'onbekend'}</dd>
+    <dt>ligging</dt><dd>${m.erin ? 'binnen het Natura 2000-gebied' : `${fmt(m.afstandTotRand)} m van de gebiedsrand`} \u00b7 ${KN[m.k]}-klasse \u00b7 ${m.prov}</dd>
+    <dt>status</dt><dd>${STATUS_LABEL[m.status]||m.status}</dd>
+    ${adressenHtml}
+    <dt>peildatum</dt><dd>2026-08-04</dd>
+  </dl>`;
+  detail.classList.add('on');
+}
+
+const monLayer = L.layerGroup().addTo(map);
+function renderMarkers(){
+  monLayer.clearLayers();
+  [...D.mons].sort((a,b)=>b.k-a.k).forEach(m=>{
+    if(filterJa && !m.ja) return;
+    const r = m.k<=1 ? 5 : m.k===2 ? 4.4 : 3.8;
+    const marker = L.circleMarker([m.lat,m.lon], { radius:r, fillColor:KC[m.k], fillOpacity:0.9, weight:1, color:KC[m.k] });
+    if(m.status==='industrie_deels_aangetroffen'){
+      marker.setStyle({color:'#16324F', weight:1.3});
+      L.circleMarker([m.lat,m.lon], { radius:r+2.2, fill:false, color:'#16324F', weight:1.3, interactive:false }).addTo(monLayer);
+    } else if(m.ja){
+      marker.setStyle({color:'#16324F', weight:1.3});
+    } else if(m.bag!=='ok'){
+      marker.setStyle({color:'#8A8A8A', weight:1, dashArray:'2,2'});
+    }
+    marker.bindTooltip(
+      `rm ${m.nr} \u00b7 ${m.straat||''} ${m.huisnr||''}, ${m.wpl||''} \u00b7 ${m.prov} \u00b7 ${KN[m.k]} van Bergvennen & Brecklenkampse Veld`+
+      (m.d>0 ? ` (${fmt(m.d)} m)` : '') + (m.ja ? ' \u00b7 BAG-industriefunctie-indicatie' : (m.bag!=='ok' ? ' \u00b7 BAG niet te controleren' : ''))
+    );
+    marker.on('click', ()=>toonDetail(m));
+    marker.addTo(monLayer);
+  });
+}
+renderMarkers();
+
+if($('fAll')){
+  $('fAll').onclick=()=>{filterJa=false;$('fAll').classList.add('on');$('fAll').setAttribute('aria-pressed','true');$('fJa').classList.remove('on');$('fJa').setAttribute('aria-pressed','false');renderMarkers();};
+  $('fJa').onclick=()=>{filterJa=true;$('fJa').classList.add('on');$('fJa').setAttribute('aria-pressed','true');$('fAll').classList.remove('on');$('fAll').setAttribute('aria-pressed','false');renderMarkers();};
+}
+window.addEventListener('resize',()=>map.invalidateSize());
+</script>
+</body>
+</html>

@@ -1,0 +1,286 @@
+Gevonden: 282 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10193 | Oude Rijksweg | 128 | 7951DM | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10193 | Oude Rijksweg | 128 A | 7951DM | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10594 | Oude Rijksweg | 348 | 7954DT | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10594 | Oude Rijksweg | 348 A | 7954DT | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11311 | Oude Rijksweg | 665 | 7954GR | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11311 | Oude Rijksweg | 665 A | 7954GR | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11486 | Oude Rijksweg | 278 | 7954DS | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11486 | Oude Rijksweg | 280 | 7954DS | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12221 | Oude Rijksweg | 322 | 7954DT | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12317 | Oude Rijksweg | 274 | 7954DS | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12317 | Oude Rijksweg | 274 A | 7954DS | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12510 | Oude Rijksweg | 577 | 7954GM | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12689 | Oude Rijksweg | 317 | 7954EK | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12830 | Oude Rijksweg | 355 | 7954EL | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13052 | Oude Rijksweg | 195 | 7951EE | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13052 | Oude Rijksweg | 195 A | 7951EE | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13077 | Oude Rijksweg | 645 | 7954GP | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13665 | Oude Rijksweg | 288 | 7954DS | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13952 | Oude Rijksweg | 176 | 7951DN | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14495 | Oude Rijksweg | 225 | 7954EH | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14495 | Oude Rijksweg | 225 A | 7954EH | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14857 | Oude Rijksweg | 637 | 7954GP | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15267 | Oude Rijksweg | 19 | 7951DX | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16273 | Oude Rijksweg | 681 | 7954GR | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16418 | Oude Rijksweg | 81 a | 7951EA | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16418 | Oude Rijksweg | 81 | 7951EA | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16790 | Oude Rijksweg | 34 | 7951DJ | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17377 | Oude Rijksweg | 669 | 7954GR | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17377 | Oude Rijksweg | 669 A | 7954GR | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17508 | Middenwolderweg | 13 | 7951EC | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17792 | Oude Rijksweg | 40 | 7951DK | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17792 | Oude Rijksweg | 40 a | 7951DK | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17941 | Oude Rijksweg | 350 | 7954DV | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17941 | Oude Rijksweg | 350 A | 7954DV | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18173 | Oude Rijksweg | 251 | 7954EH | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18637 | Oude Rijksweg | 332 | 7954DT | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18637 | Oude Rijksweg | 332 A | 7954DT | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18638 | Oude Rijksweg | 22 | 7951DJ | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18675 | Oude Rijksweg | 248 | 7954DR | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18764 | Oude Rijksweg | 511 | 7954GK | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18764 | Oude Rijksweg | 511 A | 7954GK | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18789 | Oude Rijksweg | 547 | 7954GL | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18789 | Oude Rijksweg | 547 A | 7954GL | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18897 | Oude Rijksweg | 44 A | 7951DK | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18897 | Oude Rijksweg | 44 | 7951DK | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18907 | Oude Rijksweg | 356 b | 7954DV | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18907 | Oude Rijksweg | 356 | 7954DV | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19084 | Oude Rijksweg | 170 a | 7951DN | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19084 | Oude Rijksweg | 170 | 7951DN | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19173 | Oude Rijksweg | 246 | 7954DR | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19827 | Oude Rijksweg | 492 | 7954GE | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19841 | Oude Rijksweg | 77 | 7951EA | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19841 | Oude Rijksweg | 77 A | 7951EA | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19906 | Oude Rijksweg | 46 | 7951DK | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19906 | Oude Rijksweg | 46 A | 7951DK | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20019 | Gemeenteweg | 24 | 7951CN | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20019 | Gemeenteweg | 24 A | 7951CN | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20335 | Oude Rijksweg | 340 | 7954DT | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20348 | Oude Rijksweg | 209 | 7951EE | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20395 | Oude Rijksweg | 263 | 7954EJ | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20395 | Oude Rijksweg | 263 B | 7954EJ | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20398 | Oude Rijksweg | 221 | 7954EH | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20398 | Oude Rijksweg | 221 A | 7954EH | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20690 | Oude Rijksweg | 279 | 7954EJ | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20690 | Oude Rijksweg | 279 A | 7954EJ | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21009 | Oude Rijksweg | 29 | 7951DX | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21009 | Oude Rijksweg | 29 A | 7951DX | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21115 | Oude Rijksweg | 539 | 7954GL | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21318 | Oude Rijksweg | 486 | 7954GE | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21318 | Oude Rijksweg | 486 A | 7954GE | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21479 | Oude Rijksweg | 379 | 7954GG | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21606 | Oude Rijksweg | 254 | 7954DR | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21662 | Oude Rijksweg | 488 | 7954GE | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21899 | Oude Rijksweg | 456 | 7954GD | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21899 | Oude Rijksweg | 456 A | 7954GD | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22029 | Oude Rijksweg | 36 | 7951DJ | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22162 | Oude Rijksweg | 329 | 7954EL | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22637 | Oude Rijksweg | 733 | 7954GT | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22637 | Oude Rijksweg | 733 A | 7954GT | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22967 | Oude Rijksweg | 164 i | 7951DN | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22967 | Oude Rijksweg | 164 | 7951DN | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23684 | Oude Rijksweg | 108 | 7951DM | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23735 | Oude Rijksweg | 294 | 7954DS | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23735 | Oude Rijksweg | 292 | 7954DS | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23773 | Oude Rijksweg | 245 | 7954EH | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23917 | Oude Rijksweg | 270 | 7954DS | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23925 | Oude Rijksweg | 599 | 7954GN | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24029 | Middenwolderweg | 2 c | 7951EC | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24029 | Middenwolderweg | 2 | 7951EC | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24165 | Dekkersland | 3 | 7954DR | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24215 | Oude Rijksweg | 89 a | 7951EA | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24215 | Oude Rijksweg | 89 | 7951EA | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24547 | Oude Rijksweg | 663 | 7954GR | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24547 | Oude Rijksweg | 663 A | 7954GR | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24872 | Gemeenteweg | 6 | 7951CN | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25326 | Oude Rijksweg | 72 | 7951DL | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25817 | Oude Rijksweg | 194 | 7951DP | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25817 | Oude Rijksweg | 194 A | 7951DP | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27287 | Oude Rijksweg | 118 | 7951DM | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27441 | Oude Rijksweg | 179 i | 7951ED | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27441 | Oude Rijksweg | 179 | 7951ED | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27767 | Oude Rijksweg | 401 | 7954GH | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27767 | Oude Rijksweg | 401 A | 7954GH | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27783 | Oude Rijksweg | 531 | 7954GL | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27783 | Oude Rijksweg | 531 A | 7954GL | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28021 | Oude Rijksweg | 313 | 7954EK | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28021 | Oude Rijksweg | 313 A | 7954EK | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28182 | Oude Rijksweg | 499 | 7954GK | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28518 | Kerklaan | 5 | 7951CD | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28729 | Oude Rijksweg | 261 | 7954EJ | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28729 | Oude Rijksweg | 261 A | 7954EJ | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29285 | Rijksparallelweg | 1 | 7951KA | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29315 | Oude Rijksweg | 457 | 7954GJ | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29612 | Oude Rijksweg | 641 | 7954GP | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29612 | Oude Rijksweg | 641 A | 7954GP | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29612 | Oude Rijksweg | 641 B | 7954GP | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29623 | Middenwolderweg | 4 | 7951EC | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29656 | Oude Rijksweg | 503 | 7954GK | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29656 | Oude Rijksweg | 503 A | 7954GK | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29659 | Oude Rijksweg | 88 | 7951DL | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30609 | Havezatherweg | 15 | 8066PB | Belt-Schutsloot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30635 | Oude Rijksweg | 99 a | 7951EB | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30635 | Oude Rijksweg | 99 b | 7951EB | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30635 | Oude Rijksweg | 99 | 7951EB | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30963 | Oude Rijksweg | 25 | 7951DX | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31507 | Oude Rijksweg | 631 | 7954GN | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31552 | Veneweg | 141 | 7946LK | Wanneperveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31753 | Oude Rijksweg | 659 | 7954GR | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33006 | Muldersweg | 4 a | 7951DG | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33006 | Muldersweg | 4 | 7951DG | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33205 | Oude Rijksweg | 24 | 7951DJ | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33365 | Oude Rijksweg | 283 | 7954EJ | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33365 | Oude Rijksweg | 283 A | 7954EJ | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34540 | Oude Rijksweg | 513 | 7954GK | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34890 | Oude Rijksweg | 285 | 7954EJ | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34902 | Oude Rijksweg | 18 | 7951DJ | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34902 | Oude Rijksweg | 18 A | 7951DJ | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34953 | Oude Rijksweg | 223 | 7954EH | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35428 | Geerligsland | 3 | 7951DK | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35792 | Oude Rijksweg | 306 | 7954DS | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35826 | Oude Rijksweg | 310 | 7954DT | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35922 | Muldersweg | 7 a | 7951DG | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35922 | Muldersweg | 7 | 7951DG | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36157 | Oude Rijksweg | 48 A | 7951DK | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36157 | Oude Rijksweg | 48 B | 7951DK | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36218 | Oude Rijksweg | 346 | 7954DT | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36809 | Oude Rijksweg | 362 a | 7954DV | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36809 | Oude Rijksweg | 362 | 7954DV | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38021 | Gemeenteweg | 47 b | 7951CC | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38021 | Gemeenteweg | 47 | 7951CC | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38211 | Oude Rijksweg | 372 | 7954DV | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38211 | Oude Rijksweg | 372 A | 7954DV | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38448 | Oude Rijksweg | 441 | 7954GJ | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38448 | Oude Rijksweg | 441 A | 7954GJ | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38965 | Oude Rijksweg | 43 a | 7951DX | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38965 | Oude Rijksweg | 43 | 7951DX | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39121 | Oude Rijksweg | 50 | 7951DK | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39138 | Oude Rijksweg | 462 | 7954GD | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39138 | Oude Rijksweg | 462 A | 7954GD | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39947 | Oude Rijksweg | 75 | 7951EA | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40450 | Oude Rijksweg | 124 | 7951DM | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40450 | Vlakkenweg | 1 | 7951EH | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40963 | Oude Rijksweg | 625 | 7954GN | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40963 | Oude Rijksweg | 625 A | 7954GN | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40967 | Oude Rijksweg | 15 | 7951DX | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41200 | Oude Rijksweg | 243 | 7954EH | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41672 | Oude Rijksweg | 35 | 7951DX | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41898 | Oude Rijksweg | 37 | 7951DX | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42667 | Oude Rijksweg | 159 | 7951ED | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42845 | Oude Rijksweg | 382 b | 7954DW | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42845 | Oude Rijksweg | 382 a | 7954DW | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42845 | Oude Rijksweg | 382 | 7954DW | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43060 | Oude Rijksweg | 286 | 7954DS | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43077 | Oude Rijksweg | 507 | 7954GK | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43138 | Oude Rijksweg | 591 | 7954GM | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43913 | Oude Rijksweg | 98 a | 7951DL | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43913 | Oude Rijksweg | 98 | 7951DL | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43914 | Oude Rijksweg | 84 | 7951DL | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44605 | Oude Rijksweg | 20 | 7951DJ | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44928 | Oude Rijksweg | 183 a | 7951ED | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44928 | Oude Rijksweg | 183 | 7951ED | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45148 | Oude Rijksweg | 219 | 7954EH | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45148 | Oude Rijksweg | 219 A | 7954EH | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45148 | Oude Rijksweg | 219 B | 7954EH | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45586 | Oude Rijksweg | 667 | 7954GR | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45650 | Oude Rijksweg | 517 | 7954GK | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45650 | Oude Rijksweg | 517 A | 7954GK | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45950 | Gemeenteweg | 46 | 7951CN | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46369 | Oude Rijksweg | 339 | 7954EL | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46410 | Gemeenteweg | 48 | 7951CN | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46410 | Gemeenteweg | 48 A | 7951CN | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46466 | Oude Rijksweg | 352 | 7954DV | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47416 | Oude Rijksweg | 308 | 7954DT | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48000 | Gemeenteweg | 51 a | 7951CC | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48000 | Gemeenteweg | 51 | 7951CC | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48291 | Oude Rijksweg | 358 | 7954DV | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48479 | Oude Rijksweg | 739 | 7954GT | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48479 | Oude Rijksweg | 739 A | 7954GT | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49492 | Oude Rijksweg | 495 | 7954GK | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49492 | Oude Rijksweg | 495 A | 7954GK | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49599 | Oude Rijksweg | 458 | 7954GD | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50710 | Oude Rijksweg | 192 | 7951DP | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51176 | Oude Rijksweg | 494 | 7954GG | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51383 | Oude Rijksweg | 328 | 7954DT | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51383 | Oude Rijksweg | 328 A | 7954DT | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51851 | Oude Rijksweg | 293 | 7954EJ | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51851 | Oude Rijksweg | 293 A | 7954EJ | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52290 | Oude Rijksweg | 231 | 7954EH | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52352 | Jan Arendsland | 1 | 7951LD | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52352 | Jan Arendsland | 3 | 7951LD | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52506 | Oude Rijksweg | 386 | 7954DW | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52661 | Oude Rijksweg | 259 | 7954EJ | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53234 | Oude Rijksweg | 635 | 7954GP | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53320 | Oude Rijksweg | 31 | 7951DX | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53737 | Oude Rijksweg | 459 | 7954GJ | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53817 | Oude Rijksweg | 272 | 7954DS | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54044 | Oude Rijksweg | 143 | 7951EC | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54316 | Gemeenteweg | 49 | 7951CC | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54722 | Oude Rijksweg | 383 a | 7954GG | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54722 | Oude Rijksweg | 383 i | 7954GG | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54722 | Oude Rijksweg | 383 | 7954GG | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54779 | Oude Rijksweg | 132 | 7951DM | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54861 | Oude Rijksweg | 188 | 7951DP | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54861 | Oude Rijksweg | 188 A | 7951DP | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54892 | Oude Rijksweg | 30 | 7951DJ | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54892 | Oude Rijksweg | 30 A | 7951DJ | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55127 | Oude Rijksweg | 93 | 7951EB | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55127 | Oude Rijksweg | 93 A | 7951EB | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55447 | Oude Rijksweg | 304 | 7954DS | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55542 | Oude Rijksweg | 623 | 7954GN | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55833 | Oude Rijksweg | 363 | 7954EL | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55833 | Oude Rijksweg | 363 A | 7954EL | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55850 | Oude Rijksweg | 571 | 7954GM | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55850 | Oude Rijksweg | 571 A | 7954GM | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56293 | Oude Rijksweg | 135 a | 7951EC | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56293 | Oude Rijksweg | 135 | 7951EC | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56475 | Oude Rijksweg | 633 | 7954GN | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56475 | Oude Rijksweg | 633 A | 7954GN | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56820 | Oude Rijksweg | 94 | 7951DL | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56844 | Gemeenteweg | 41 i | 7951CC | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56844 | Gemeenteweg | 41 | 7951CC | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56933 | Oude Rijksweg | 291 | 7954EJ | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56933 | Oude Rijksweg | 291 A | 7954EJ | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57069 | Oude Rijksweg | 119 | 7951EB | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57239 | Oude Rijksweg | 338 | 7954DT | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57295 | Oude Rijksweg | 257 | 7954EJ | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57319 | Oude Rijksweg | 354 | 7954DV | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57327 | Gemeenteweg | 44 | 7951CN | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57602 | Oude Rijksweg | 629 | 7954GN | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57991 | Oude Rijksweg | 112 | 7951DM | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58222 | Geerligsland | 1 | 7951DK | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58222 | Oude Rijksweg | 62 | 7951DK | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58222 | Geerligsland | 1 a | 7951DK | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58443 | Oude Rijksweg | 110 | 7951DM | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58491 | Oude Rijksweg | 172 | 7951DN | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59006 | Oude Rijksweg | 115 | 7951EB | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59006 | Oude Rijksweg | 115 A | 7951EB | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59123 | Oude Rijksweg | 392 | 7954DW | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59337 | Oude Rijksweg | 519 | 7954GK | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59362 | Oude Rijksweg | 67 | 7951EA | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59697 | Oude Rijksweg | 171 | 7951ED | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59697 | Oude Rijksweg | 171 B | 7951ED | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59882 | Oude Rijksweg | 364 | 7954DV | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60057 | Oude Rijksweg | 294 | 7954DS | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60364 | Oude Rijksweg | 493 | 7954GK | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60420 | Oude Rijksweg | 74 | 7951DL | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60772 | Gemeenteweg | 35 | 7951CC | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60772 | Gemeenteweg | 33 | 7951CC | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61043 | Oude Rijksweg | 234 | 7954DR | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61043 | Oude Rijksweg | 234 a | 7954DR | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61175 | Oude Rijksweg | 120 | 7951DM | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61291 | Oude Rijksweg | 300 | 7954DS | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61399 | Oude Rijksweg | 464 | 7954GD | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61399 | Oude Rijksweg | 464 a | 7954GD | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61549 | Oude Rijksweg | 51 | 7951DZ | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61987 | Oude Rijksweg | 264 | 7954DR | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62185 | Oude Rijksweg | 175 i | 7951ED | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62185 | Oude Rijksweg | 175 | 7951ED | Staphorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62244 | Oude Rijksweg | 375 | 7954GG | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62382 | Oude Rijksweg | 445 | 7954GJ | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62382 | Oude Rijksweg | 445 A | 7954GJ | Rouveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75118 | Zwartewatersklooster | 9 | 8064PK | Zwartsluis

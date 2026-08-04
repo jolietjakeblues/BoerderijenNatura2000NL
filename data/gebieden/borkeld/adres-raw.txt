@@ -1,0 +1,25 @@
+Gevonden: 21 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12225 | Rijssenseweg | 60 | 7475VC | Markelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18107 | Leusmanweg | 6 | 7475RZ | Markelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22153 | Klokkendijk | 10 | 7467PD | Notter
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22359 | Witmoesdijk | 20 | 7468PT | Enter
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22969 | Kloosterhoeksweg | 6 | 7642LZ | Wierden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25455 | Rijssenseweg | 64 | 7475VC | Markelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35560 | Sluizendijk | 11 | 7642NA | Wierden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35560 | Sluizendijk | 13 | 7642NA | Wierden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36199 | Bullenaarsweg | 16 a | 7468SE | Enter
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36426 | Stationsweg | 1 | 7475NM | Markelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38822 | Rijssenseweg | 40 | 7468AE | Enter
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50100 | Enterbroekweg | 10 | 7475SZ | Markelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50136 | Bovenbergweg | 6 | 7475ST | Markelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53098 | Klemmerweg | 4 | 7475TM | Markelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55571 | Stationsweg | 2 | 7475NN | Markelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58770 | Borkeldsweg | 91 | 7451TB | Holten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62331 | Oude Veerweg | 6 | 7461JH | Rijssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70634 | Plasdijk | 12 | 7475TD | Markelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71724 | Leusmanweg | 1 | 7475RZ | Markelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75701 | Seinenweg | 2 | 7475TA | Markelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78686 | Plasdijk | 5 | 7475TD | Markelo

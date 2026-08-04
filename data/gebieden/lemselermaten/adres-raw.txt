@@ -1,0 +1,21 @@
+Gevonden: 17 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17323 | Zoekeweg | 18 | 7667SJ | Reutum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17383 | Hilbertweg | 4 | 7595MK | Weerselo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18734 | Weerselosestraat | 33 | 7636RK | Agelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19492 | Bentertsteeg | 12 | 7596PA | Rossum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21561 | Vicarieweg | 3 | 7595LS | Weerselo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22891 | Loosteresweg | 1 | 7596MN | Rossum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26013 | Boschweg | 7 | 7596PH | Rossum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38311 | Akkerhuisweg | 1 | 7597LE | Saasveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38311 | Akkerhuisweg | 1 A | 7597LE | Saasveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39811 | Scholten Lindeweg | 2 | 7596MJ | Rossum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41330 | Dennenkampsweg | 2 | 7636PZ | Agelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45841 | Koninksweg | 20 | 7597LW | Saasveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45841 | Koninksweg | 20 A | 7597LW | Saasveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50719 | Nijenkampsweg | 4 | 7636RG | Agelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75294 | Ootmarsumsedijk | 29 | 7596PB | Rossum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75295 | Ootmarsumsedijk | 29 | 7596PB | Rossum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75309 | Zoekeweg | 18 | 7667SJ | Reutum

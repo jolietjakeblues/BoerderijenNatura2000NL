@@ -1,0 +1,650 @@
+Gevonden: 646 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10087 | Waalbandijk | 5 | 6657KB | Boven-Leeuwen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10098 | Onderstraat | 6 | 7226LD | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10173 | Lekbandijk | 25 | 4119RA | Ravenswaaij
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10175 | Wolfhoeksestraat | 3 a | 6662PH | Elst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10459 | Heiligegeeststeeg | 3 | 6981AW | Doesburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10495 | Langbroekerdijk A | 30 | 3947BJ | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10735 | Baakseweg | 12 | 7251RH | Vorden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10874 | Zalkerdijk | 39 | 8276AB | Zalk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10964 | Van Heemstraweg | 37 | 6645KE | Winssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11022 | Bandijk | 17 | 7396NB | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11022 | Bandijk | 19 | 7396NB | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11278 | Hunderenslaan | 10 | 7391TB | Twello
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11448 | Kerkstraat | 32 | 6675BS | Valburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11461 | Waalstoep | 1 | 5328CA | Rossum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11726 | Langbroekerdijk B | 8 | 3947BB | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11805 | Leegstraat | 14 | 6645BC | Winssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11934 | Dorpsstraat | 23 | 4033EW | Lienden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12008 | Leuthsestraat | 8 | 6575JE | Persingen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12053 | Waalstoep | 3 | 5328CA | Rossum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12181 | Tielsestraat | 129 | 6675AC | Valburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12192 | Keizershofweg | 3 | 7383CG | Voorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12192 | Keizershofweg | 5 | 7383CG | Voorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12340 | 't Hof | 2 | 7226LG | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12523 | Hogestraat | 14 | 6624BB | Heerewaarden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12618 | Klapstraat | 130 | 6931CN | Westervoort
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12686 | Vaassenseweg | 12 | 7396NA | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12720 | Langbroekerdijk A | 80 | 3947BK | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12720 | Langbroekerdijk A | 78 | 3947BK | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12787 | 5 Mei Plein | 13 | 6701DW | Wageningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13069 | Tolstraat | 2 | 6999DC | Hummelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13198 | Daver | 1 | 4017BA | Kerk Avezaath
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13470 | Darthuizerweg | 12 | 3956NK | Leersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13500 | Koningstraat | 9 | 6654AA | Afferden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13750 | Onderstraat | 1 | 7226LB | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13800 | Kerkweg | 15 | 8193KJ | Vorchten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14016 | Langbroekerdijk A | 32 | 3947BJ | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14038 | Rijnbandijk | 62 | 4023AK | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14172 | Daver | 13 | 4012BA | Kerk-Avezaath
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14211 | Boskamp | 2 | 6644AX | Ewijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14211 | Boskamp | 2 A | 6644AX | Ewijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14420 | Sallandsweg | 15 | 7431PX | Diepenveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14420 | Sallandsweg | 17 | 7431PX | Diepenveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14526 | Persingensestraat | 9 | 6575JA | Persingen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14526 | Persingensestraat | 11 | 6575JA | Persingen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14756 | Bovenwijkerweg | 1 | 3947NJ | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14756 | Bovenwijkerweg | 1 A | 3947NJ | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15001 | Oudestraat | 229 | 8261CN | Kampen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15007 | Binnenweg | 32 | 6955AX | Ellecom
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15011 | Hazeltweg | 4 | 7396BV | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15046 | Nederstraat | 19 | 3958CS | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15046 | Nederstraat | 21 | 3958CS | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15141 | Wijenburgsestraat | 6 | 4054JE | Echteld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15334 | Burg H vd Boschstraat | 30 | 3958CD | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15334 | Burg H vd Boschstraat | 32 | 3958CD | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15768 | Koningstraat | 4 | 6654AD | Afferden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15786 | Bredeweg | 71 | 6668AS | Randwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15786 | Bredeweg | 69 a | 6668AS | Randwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15786 | Bredeweg | 69 | 6668AS | Randwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16107 | Kerkstraat | 2 | 4023AP | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16281 | Wittensteinse allee | 18 | 8097RM | Oosterwolde Gld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16281 | Wittensteinse allee | 18 A | 8097RM | Oosterwolde Gld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16328 | Korte Strikstraat | 3 | 5301EC | Zaltbommel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16342 | Rijnbandijk | 219 | 4023AJ | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16342 | Rijnbandijk | 221 | 4023AJ | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16464 | Stenenkamerstraat | 70 | 6674AW | Herveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16492 | Spankerenseweg | 1 | 6974BA | Leuvenheim
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16518 | Lekbandijk | 87 | 4119RB | Ravenswaaij
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16524 | Rijnbandijk | 70 | 4023AK | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16760 | Zandstraat | 44 | 4184EG | Opijnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16772 | Waalbandijk | 68 | 6654KC | Afferden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16827 | Reethsestraat | 17 a | 6675CE | Valburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16827 | Reethsestraat | 17 | 6675CE | Valburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16827 | Reethsestraat | 19 | 6675CE | Valburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16967 | Kanaaldijk | 85 | 8191LZ | Wapenveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17009 | Oxersteeg | 12 A | 7428MC | Deventer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17009 | Oxersteeg | 10 | 7428MC | Deventer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17009 | Oxersteeg | 12 | 7428MC | Deventer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17029 | Markt | 29 | 4112JR | Beusichem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17343 | Rijnbandijk | 223 | 4023AJ | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17514 | Bovenstraat | 10 | 7226LN | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17543 | Jonkerstraat | 20 | 6551DK | Weurt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17604 | Waterstraat | 3 | 6573AA | Beek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17717 | Gasthuisstraat | 22 | 3958BL | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17781 | Voorsterweg | 135 | 6971KD | Brummen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17984 | Nieuwstraat | 13 | 6981AH | Doesburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18422 | Kloosterstraat | 21 | 6641KW | Beuningen Gld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18634 | Aaldert | 2 | 6617AL | Bergharen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18666 | Akkersestraat | 17 | 4061BG | Ophemert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18685 | Schansdijk | 1 | 8263AZ | Kampen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18772 | Zuideinde West | 36 | 8278AR | Kamperveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18787 | Bernhardstraat | 37 | 6657AD | Boven-Leeuwen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18795 | Achterstraat | 38 | 4012BS | Kerk-Avezaath
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19177 | Bredestraat-Noord | 36 a | 6674MP | Herveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19177 | Bredestraat-Noord | 38 | 6674MP | Herveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19177 | Bredestraat-Noord | 40 | 6674MP | Herveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19177 | Bredestraat-Noord | 36 | 6674MP | Herveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19183 | Langbroekerdijk A | 6 | 3947BH | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19224 | Molenweg | 56 | 7396NE | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19407 | Onderstraat | 9 | 7226LC | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19463 | Ridderstraat | 14 | 8051EH | Hattem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19643 | Torenallee | 6 | 6999DD | Hummelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19649 | Zandvoort | 1 | 3958CT | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19661 | Langbroekerdijk B | 38 | 3947BB | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19665 | Roedensestraat | 10 | 6631BG | Horssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19710 | Oyseweg | 2 | 7384CD | Wilp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19985 | Langbroekerdijk A | 10 | 3947BH | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20400 | Ressensestraat | 2 | 6681DX | Bemmel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20500 | Uilenhoek | 2 | 7226LN | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20744 | Bovenstraat | 5 | 7226LN | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20893 | Moleneind | 18 | 4013NE | Kapel Avezaath
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20910 | Hamersestraat | 53 | 6931EW | Westervoort
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20910 | Hamersestraat | 53 a | 6931EW | Westervoort
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20910 | Hamersestraat | 53 b | 6931EW | Westervoort
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21224 | Bommelweg | 17 | 4014PT | Wadenoijen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21645 | Rijksweg-Zuid | 88 | 6662KH | Elst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21817 | Kadijk | 1 | 7396NJ | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21822 | Kosterstraat | 27 | 6981CG | Doesburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21833 | Hof | 4 | 3958CH | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21833 | Burg H vd Boschstraat | 48 | 3958CD | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22333 | Krommesteeg | 39 | 6721MT | Bennekom
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22434 | Wijksestraat | 25 | 6617BX | Bergharen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22434 | Wijksestraat | 23 A | 6617BX | Bergharen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22661 | Brugstraat | 8 | 6644AH | Ewijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22711 | Drostestraat | 31 | 3958BK | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22719 | Hogestraat | 18 | 6651BL | Druten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22781 | Onderstraat | 3 | 7226LB | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22885 | Dwarsweg | 60 a | 3959AK | Overberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22885 | Dwarsweg | 60 | 3959AK | Overberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22933 | Baltussenweg | 37 | 6665AB | Driel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22950 | Donkerstraat | 27 | 3958BH | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22982 | Koningstraat | 7 | 6654AA | Afferden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23105 | Molenstraat | 1 | 7226LA | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23210 | Culemborgseweg | 9 | 4115RM | Asch
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23549 | Noordereind | 3 A | 4012BT | Kerk-Avezaath
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23549 | Noordereind | 3 | 4012BT | Kerk-Avezaath
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23814 | Heinoseweg | 32 | 8026PD | Zwolle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23830 | Vordingstraat | 34 | 6644BH | Ewijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24060 | Dijk | 45 | 6641LA | Beuningen Gld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24124 | Hogeveldseweg | 2 | 4054JD | Echteld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24259 | Kerkstraat | 32 | 5328AB | Rossum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24270 | Kerkpad | 4 | 6631AB | Horssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24270 | Kerkpad | 4 A | 6631AB | Horssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24418 | Lingeweg | 1 | 4003CH | Tiel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24433 | Lekbandijk | 19 | 4023CA | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24555 | Nederheidseweg | 198 | 6545BZ | Nijmegen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24623 | Rijksstraatweg | 129 | 3956CL | Leersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24672 | Roomstraat | 19 | 6996DX | Drempt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24690 | Heegsestraat | 14 | 7396NG | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24716 | Langbroekerdijk A | 13 | 3947BC | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24810 | IJsseldijk | 83 | 8196KC | Welsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24858 | Waalbandijk | 68 | 4054MG | Echteld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25017 | Garststraat | 58 | 4021AD | Maurik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25106 | Ploenstraat | 30 | 6921PN | Duiven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25227 | Rijksstraatweg | 2 | 8131PB | Wijhe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25346 | Middendijk | 18 | 7397NA | Nijbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25497 | Uiterdijk | 11 | 4011ET | Zoelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25562 | Harnsedijkje | 2 A | 6721MX | Bennekom
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25729 | Lingedijk | 32 | 4014MG | Wadenoijen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25856 | Broekstraat | 18 | 6675BE | Valburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26049 | Molenstraat | 20 | 6672LA | Hemmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26052 | IJsseldijk | 63 | 8196KC | Welsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26061 | Schoolstraat | 4 | 6674AK | Herveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26154 | Kerkstraat | 24 | 6673BN | Andelst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26180 | Onderstraat | 2 | 7226LD | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26209 | Langbroekerdijk A | 47 | 3947BD | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26209 | Langbroekerdijk A | 47 A | 3947BD | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26213 | Rijksweg | 62 | 6921AJ | Duiven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26351 | IJsseldijk | 6 | 8167PT | Oene
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26360 | Hamse Biezen | 3 | 4017CK | Kerk Avezaath
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26374 | Dijkhuizerweg | 29 | 8161NT | Epe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26377 | Zalkerdijk | 19 | 8276AA | Zalk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26424 | Nedereindsestraat | 35 | 4041XE | Kesteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26498 | Eperweg | 14 | 8167LH | Oene
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26498 | Eperweg | 16 | 8167LH | Oene
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26573 | Bremweg | 10 | 3956NL | Leersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26817 | Valkenbergweg | 2 | 8026RK | Zwolle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27205 | De Opslag | 2 | 3921AR | Elst Ut
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27288 | IJsselstraat | 1 | 7399RC | Empe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27356 | Twelloseweg | 116 | 7396BR | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27356 | Deventerweg | 15 | 7396AX | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27376 | Markt | 11 | 4112JR | Beusichem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27479 | Deventerweg | 44 | 7383AD | Voorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27644 | Wijenburgsestraat | 11 | 4054JE | Echteld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27671 | Jonkerstraat | 30 | 6551DK | Weurt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27671 | Jonkerstraat | 30 a | 6551DK | Weurt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27922 | Melkleenweg | 2 | 7396BT | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28056 | Molenstraat | 11 | 7226LA | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28078 | Baron Van Spittaellaan | 1 d | 6851NT | Huissen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28078 | Baron Van Spittaellaan | 1 e | 6851NT | Huissen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28078 | Baron Van Spittaellaan | 1 b | 6851NT | Huissen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28078 | Baron Van Spittaellaan | 1 a | 6851NT | Huissen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28078 | Baron Van Spittaellaan | 1 c | 6851NT | Huissen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28199 | Van de Geerstraat | 3 | 4021BX | Maurik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28270 | IJsseldijk | 9 | 8194LA | Veessen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28564 | Rijksstraatweg | 234 | 3921AN | Elst Ut
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28564 | Rijksstraatweg | 232 | 3921AN | Elst Ut
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28716 | Dokter van Noortstraat | 24 | 4033AA | Lienden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28802 | Poelwijklaan | 5 | 6691MH | Gendt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28809 | Hogestraat | 21 | 6651BG | Druten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28827 | Burg H vd Boschstraat | 39 | 3958CA | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28878 | Tielseweg | 40 | 4012BK | Kerk-Avezaath
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28946 | Boerenbuurt | 1 | 3956RL | Leersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28994 | Boedelhofweg | 40 | 7211BS | Eefde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29114 | Leegstraat | 41 | 6645BB | Winssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29118 | Strodijk | 10 | 7251RS | Vorden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29145 | Lingedijk | 7 | 4014MB | Wadenoijen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29178 | Onze Lieve Vrouwestraat | 85 | 6666AK | Heteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29261 | Emperweg | 94 | 7399AJ | Empe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29316 | Emperweg | 82 | 7399AJ | Empe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29330 | Wellinkhofweg | 12 | 7396NM | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29350 | Binnenweg | 61 | 6955AW | Ellecom
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29465 | Lingedijk | 63 | 4014MC | Wadenoijen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29466 | Kruisstraat | 3 | 6674AA | Herveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29701 | Steenweg Noord | 22 | 4182PB | Neerijnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30193 | De Heuvel | 52 | 4023AC | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30237 | Waalbandijk | 87 | 4062PR | Zennewijnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30374 | Slenkweg | 2 | 6684DK | Ressen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30374 | Slenkweg | 2 b | 6684DK | Ressen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30454 | Middelweg | 16 | 4023AR | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30491 | Kinkelenburglaan | 6 a | 6681BJ | Bemmel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30684 | Laageinde | 45 | 4016CT | Kapel-Avezaath
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30728 | St. Antoniestraat | 2 | 4176BJ | Tuil
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31115 | Rijksstraatweg | 22 | 3921AJ | Elst Ut
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31205 | Diepesteeg | 23 | 6994CC | De Steeg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31312 | Zwartendijk | 6 | 8265PD | Kampen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31328 | Hofstraat | 8 | 7223LR | Baak
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31447 | Beerenclaauwstraat | 8 | 6923PB | Groessen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31465 | Lekbandijk | 27 | 4119RA | Ravenswaaij
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31481 | Emperweg | 84 | 7399AJ | Empe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31520 | Terwoldseweg | 19 | 7391TC | Twello
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31557 | Voorsterklei | 9 | 7383RW | Voorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31645 | Bosbeekweg | 23 | 6721MH | Bennekom
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31725 | Schoolstraat | 13 | 7391DA | Twello
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31882 | Kerkweg | 18 | 8193KK | Vorchten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31971 | Waalbandijk | 83 | 6669MD | Dodewaard
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32090 | Kasteelweg | 1 | 7226LK | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32090 | Kasteelweg | 3 | 7226LK | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32094 | Uiterdijk | 13 | 4011ET | Zoelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32154 | Ridderstraat | 23 | 5311CL | Gameren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32302 | Oude Wezeveldseweg | 18 A | 7391PA | Twello
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32302 | Oude Wezeveldseweg | 18 | 7391PA | Twello
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32462 | Bandijk | 33 | 7396NC | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32462 | Bandijk | 33 A | 7396NC | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32462 | Bandijk | 35 | 7396NC | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32700 | Monseigneur Hendriksenstraat | 25 | 7031HN | Wehl
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32709 | Teisterbandstraat | 26 | 5331CP | Kerkdriel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33139 | Scherpenzeelseweg | 3 | 8121SH | Olst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33171 | De Brink | 5 | 3945BE | Cothen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33293 | Langbroekerdijk A | 38 | 3947BJ | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33396 | Bovenstraat | 2 | 7226LM | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33430 | Onderstraat | 14 | 7226LE | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33588 | Hogestraat | 19 | 6651BG | Druten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33610 | Dorpsstraat | 10 | 6617AD | Bergharen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33613 | Nonnenstraat | 73 | 5301BH | Zaltbommel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33838 | Lekdijk | 2 | 3958ND | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34287 | Rijnbandijk | 60 | 4023AK | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34317 | Bommelweg | 39 | 4014PV | Wadenoijen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34472 | Bovenstraat | 3 | 7226LM | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34679 | Lekbandijk | 3 | 4023CA | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34689 | Lingedijk | 97 | 4014MD | Wadenoijen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35079 | Marledijk | 33 | 8198KP | Marle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35121 | Hannesstraatje | 4 | 6843NV | Arnhem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35121 | Hannesstraatje | 2 A | 6843NV | Arnhem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35121 | Hannesstraatje | 2 | 6843NV | Arnhem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35307 | Meeuwerdensestraat | 2 | 6674MB | Herveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35345 | Schippershuizen | 2 | 8131PS | Wijhe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35412 | Boerenbuurt | 3 | 3956RL | Leersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35808 | Hezelstraat | 20 | 6576JN | Ooij
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35884 | IJsseldijk | 8 | 8167PT | Oene
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35946 | Ravenstraat | 2 | 6942NJ | Didam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36129 | Wilhelminaweg | 4 | 3947BL | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36191 | De Veersweg | 5 | 7223LL | Baak
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36191 | De Veersweg | 5 A | 7223LL | Baak
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36194 | Zeelandsestraat | 1 | 6566DE | Millingen aan de Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36729 | Nederstraat | 9 | 3958CS | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36729 | Nederstraat | 11 | 3958CS | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36803 | Veesser Enkweg | 10 | 8194LL | Veessen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36811 | Burgemeester Meslaan | 78 | 4003CC | Tiel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36941 | Bobbinkstraat | 7 | 7223LX | Baak
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37097 | Dorpsstraat | 4 | 4194TD | Meteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37581 | Veerweg | 1 | 4043JV | Opheusden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37605 | Hoogeinde | 2 | 4111LL | Zoelmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37705 | Boterstraat | 5 | 7226LH | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37797 | Waalstraat | 14 | 6673MB | Andelst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37847 | Boelenhamsestraat | 9 | 6672MC | Hemmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37869 | IJsseldijk | 5 | 8196KA | Welsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38017 | Markt | 29 | 4112JR | Beusichem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38050 | Akkerstraat | 1 | 5314BE | Bruchem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38355 | Kapelstraat | 1 | 7226LL | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38457 | Rijksstraatweg | 16 | 8121AC | Olst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38510 | Knibbelallee | 3 | 7384AN | Wilp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38532 | Snodenhoeksestraat | 20 | 6661ND | Elst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38533 | Twelloseweg | 5 | 7396BH | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38543 | Rijksstraatweg | 49 | 7383AL | Voorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38710 | Van Pallandtweg | 16 | 4182CB | Neerijnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38778 | Oudestraat | 211 | 8261CM | Kampen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38923 | Kersweg | 28 | 3958BC | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38957 | Buitensingel | 62 | 6955BN | Ellecom
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39117 | Roekenes | 3 | 3956RP | Leersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39117 | Roekenes | 5 | 3956RP | Leersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39248 | Woerdsestraat | 4 | 6684DL | Ressen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39409 | Aerdtsedijk | 22 | 6913KD | Aerdt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39421 | Groeneweg | 7 b | 4111KZ | Zoelmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39421 | Groeneweg | 7 A | 4111KZ | Zoelmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39599 | Boerenbuurt | 32 | 3956RM | Leersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39636 | Nieuwe Deventerweg | 103 | 8014AE | Zwolle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39690 | Wijkerweg | 1 | 3947NH | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39749 | Achterstraat | 30 | 8051GC | Hattem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39981 | Molenpad | 1 | 6672LG | Hemmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39981 | Molenpad | 1 A | 6672LG | Hemmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40011 | Molendijk | 12 | 6626KB | Alphen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40037 | Gijsbertplein 1344 | 1 | 7226LJ | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40049 | Dorpsweg | 78 | 6956AR | Spankeren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40108 | Onderstraat | 12 | 7226LE | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40219 | Rijksstraatweg | 3 | 3956CH | Leersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40230 | Stationsweg | 32 | 7429AD | Colmschate
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40286 | 44 R I-straat | 10 | 4051AR | Ochten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40443 | Dorpsstraat | 34 | 3945BL | Cothen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40460 | Vierakkersestraatweg | 16 | 7233SB | Vierakker
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40484 | Kerkstraat | 19 | 6669DB | Dodewaard
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40529 | Molenweg | 31 | 7396NE | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40560 | Langbroekerdijk B | 24 | 3947BB | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40753 | Langbroekerdijk A | 27 | 3947BC | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40881 | Lekbandijk | 83 | 4119RB | Ravenswaaij
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40902 | Kasteelweg | 2 | 7226LK | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41045 | Waalbandijk | 15 | 4182EM | Neerijnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41157 | Burg H vd Boschstraat | 92 | 3958CE | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41247 | Woerdsestraat | 34 | 6628KC | Altforst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41408 | Wehmestraat | 1 | 7221BT | Steenderen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41408 | Wehmestraat | 1 A | 7221BT | Steenderen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41742 | Hezelstraat | 18 | 6576JN | Ooij
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41800 | Molenbelt | 2 | 8051EV | Hattem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41864 | Rijksstraatweg | 5 | 7384AA | Wilp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42062 | Kolkweg | 42 | 8055PV | Laag Zuthem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42062 | Kolkweg | 44 | 8055PV | Laag Zuthem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42155 | Uilenhoek | 1 | 7226LN | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42186 | Overstraat | 36 | 3958BV | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42186 | Overstraat | 38 | 3958BV | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42205 | Zutphensestraat | 386 | 6971JS | Brummen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42517 | Langbroekerdijk B | 9 | 3947BA | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42743 | Lekbandijk | 31 | 4119RA | Ravenswaaij
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42781 | Waaldijk | 53 | 6621KJ | Dreumel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42854 | Langbroekerdijk A | 4 | 3947BH | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43012 | Leuthsestraat | 2 | 6576JK | Ooij
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43095 | Kardoezenweg | 2 | 8263AW | Kampen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43236 | Groteweg | 115 | 8191JV | Wapenveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43338 | Burg H vd Boschstraat | 55 | 3958CB | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43340 | Muizengatweg | 5 | 7227DN | Toldijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43407 | Overstraat | 39 | 3958BS | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43619 | Kalverbos | 4 | 4001AJ | Tiel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43639 | Elzendweg | 13 | 6617AV | Bergharen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43714 | Jeudestraat | 24 | 4011GL | Zoelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43796 | Rijksstraatweg | 4 | 3958ES | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43796 | Rijksstraatweg | 6 | 3958ES | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43836 | Vluchtheuvelstraat | 2 | 6621BK | Dreumel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43885 | Veldhuizerdijk | 1 | 7431PG | Diepenveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44234 | IJsseldijk | 49 | 8196KB | Welsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44234 | IJsseldijk | 49 A | 8196KB | Welsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44283 | IJsseldijk | 93 | 8194LC | Veessen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44452 | Hoenweg | 9 A | 7383RZ | Voorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44452 | Hoenweg | 9 | 7383RZ | Voorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44667 | Bredestraat | 6 | 4062PM | Zennewijnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44696 | Vogelenzangseweg | 28 | 4033AH | Lienden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44802 | Pastoor van der Marckstraat | 1 | 6551ZN | Weurt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44915 | Onderstraat | 10 | 7226LD | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45179 | Waalbandijk | 131 | 6669MG | Dodewaard
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45438 | Voorstraat | 7 | 4182CC | Neerijnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45633 | Wilhelminaweg | 16 | 7383CA | Voorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45633 | Wilhelminaweg | 18 | 7383CA | Voorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45775 | Welysestraat | 5 | 6669DG | Dodewaard
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45820 | Langbroekerdijk B | 12 | 3947BB | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46069 | Laageinde | 3 | 4013CT | Kapel Avezaath
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46095 | Rijnbandijk | 50 | 4023AK | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46113 | Dorpsstraat | 5 | 7396AK | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46275 | Uilengat | 12 | 6617AG | Bergharen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46313 | Markt | 27 | 4112JR | Beusichem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46325 | Hogestraat | 13 | 6624BA | Heerewaarden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46361 | Waalbandijk | 16 | 4182EN | Neerijnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46371 | Heiliglandsestraat | 6 | 6923PH | Groessen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46381 | Spaensweertweg | 2 | 7221LB | Steenderen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46516 | Jonker Emilweg | 1 | 6997CB | Hoog-Keppel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46516 | Jonker Emilweg | 3 | 6997CB | Hoog-Keppel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46516 | Jonker Emilweg | 11 | 6997CB | Hoog-Keppel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46516 | Jonker Emilweg | 9 | 6997CB | Hoog-Keppel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46549 | Waalbandijk | 39 | 6657KC | Boven-Leeuwen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46691 | Dorpsstraat | 21 | 6678BE | Oosterhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46691 | Dorpsstraat | 19 a | 6678BD | Oosterhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46691 | Dorpsstraat | 19 | 6678BD | Oosterhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46722 | Piepenbeltweg | 5 | 6971JH | Brummen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46826 | Trambaan | 43 | 6658AB | Beneden-Leeuwen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46944 | Bockhorstweg | 8 | 6956CA | Spankeren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46972 | Van Pallandtweg | 6 | 4182CA | Neerijnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47195 | Langbroekerdijk A | 68 a | 3947BK | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47195 | Langbroekerdijk A | 68 | 3947BK | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47301 | Daver | 9 | 4012BA | Kerk-Avezaath
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47307 | Liniestraat | 3 | 4051BN | Ochten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47414 | Wellinkhofweg | 8 | 7396NM | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47444 | Daver | 20 | 4012BC | Kerk-Avezaath
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47444 | Daver | 22 | 4012BC | Kerk-Avezaath
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47501 | Wittensteinse allee | 24 | 8097RM | Oosterwolde Gld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47537 | Molenweg | 4 | 8121PP | Olst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47558 | Donkerstraat | 22 | 3958BJ | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47825 | Burgemeester Houtkoperweg | 11 | 4033BJ | Lienden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47825 | Burgemeester Houtkoperweg | 13 | 4033BJ | Lienden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47904 | Hogestraat | 63 | 6651BH | Druten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47969 | Marktstraat | 2 | 7221NK | Steenderen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48006 | Donkerstraat | 14 | 4119LZ | Ravenswaaij
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48032 | Kerkweg | 13 | 8193KJ | Vorchten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48089 | Emmerweg | 8 | 7221LA | Steenderen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48251 | Rijnbandijk | 243 | 4023AJ | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48456 | De Heuvel | 2 | 4023AB | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48456 | De Heuvel | 4 | 4023AB | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48481 | Peperstraat | 8 | 5314AN | Bruchem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48599 | Avervoordseweg | 9 | 7396PE | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48705 | Veerweg | 2 | 7226LP | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48762 | Burg H vd Boschstraat | 105 | 3958CC | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48762 | Burg H vd Boschstraat | 105 A | 3958CC | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48829 | Wellinkhofweg | 10 A | 7396NM | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48845 | Uilenburgsestraat | 49 | 4061RH | Ophemert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48901 | Ganssteeg | 5 | 4112NN | Beusichem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49163 | Hermoesestraat | 5 | 4062PP | Zennewijnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49174 | Repelsestraat | 9 | 4182PG | Neerijnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49203 | Langbroekerdijk B | 26 | 3947BB | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49361 | Rijksstraatweg | 10 | 8121PD | Olst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49363 | Zandwal | 1 | 7383RP | Voorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49671 | Kweldam | 38 | 6653CC | Deest
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49673 | Bredestraat | 8 | 4014NB | Wadenoijen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49788 | Lingedijk | 119 | 4014MD | Wadenoijen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49806 | Vergardeweg | 23 | 4014MX | Wadenoijen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49827 | Kerkweg | 36 | 8193KL | Vorchten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49849 | Zuthemerweg | 2 | 8015PG | Zwolle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49993 | Noordereind | 10 | 4012BT | Kerk-Avezaath
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50046 | Onderstraat | 5 | 7226LB | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50166 | Rijnbandijk | 5 | 4024BM | Eck en Wiel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50298 | Oranjestraat | 6 | 4112JH | Beusichem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50459 | Ganssteeg | 2 | 4112NN | Beusichem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50986 | Waaldijk | 61 a | 5327AB | Hurwenen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50986 | Waaldijk | 61 | 5327AB | Hurwenen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51010 | Oranjestraat | 7 | 4112JE | Beusichem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51095 | Van Heemstraweg | 71 | 6645KG | Winssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51423 | Voorstraat | 1 | 4182CC | Neerijnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51693 | Bredestraat-Noord | 30 | 6674MP | Herveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51769 | Burchtstraat | 2 | 5328CR | Rossum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51944 | Gijsbertplein 1344 | 1 | 7226LJ | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51997 | Langbroekerdijk B | 1 B | 3947BA | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52042 | Achterstraat | 10 | 4115RP | Asch
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52281 | Rijnbandijk | 245 | 4023AJ | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52281 | Rijnbandijk | 245 A | 4023AJ | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52403 | Parkstraat | 14 | 4011JR | Zoelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52437 | Lingedijk | 30 | 4014MG | Wadenoijen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52731 | Langbroekerdijk A | 83 | 3947BE | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53255 | Veldhuizerdijk | 1 | 7431PG | Diepenveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53278 | Dorpsstraat | 15 B | 6666AG | Heteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53649 | Burgemeester Houtkoperweg | 23 | 4033BJ | Lienden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53898 | Bandijk | 31 | 7396NB | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54007 | Gasthuisstraat | 24 | 4181AP | Waardenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54209 | Bennekomseweg | 160 | 6871KJ | Renkum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54259 | Rijndijk | 2 | 4033CH | Lienden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54610 | Bovenhaarweg | 12 | 3956KK | Leersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54647 | De Genestetlaan | 20 | 6891CS | Rozendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54814 | Achterstraat | 40 | 4012BS | Kerk-Avezaath
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54839 | Langbroekerdijk B | 7 | 3947BA | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54853 | 't Hof | 5 | 7226LG | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54988 | Lekdijk | 5 | 3958ND | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55023 | Langbroekerdijk B | 4 | 3947BB | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55041 | Langbroekerdijk B | 16 | 3947BB | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55093 | Langbroekerdijk B | 14 | 3947BB | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55149 | Leestenseweg | 13 | 7207EA | Zutphen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55161 | Prinses Margrietstraat | 2 | 4023AD | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55179 | Garststraat | 15 | 4021AB | Maurik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55179 | Garststraat | 17 | 4021AB | Maurik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55467 | Uilenhoek | 4 | 7226LN | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55563 | Ubbergensdijk | 1 | 6574AK | Ubbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55671 | Veerweg | 3 | 4024BP | Eck en Wiel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55768 | Hardsteestraat | 18 | 7227NL | Toldijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55831 | Waaldijk | 13 | 6677MA | Slijk-Ewijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55941 | Luijnhorststraat | 9 | 6941RD | Didam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56018 | Kerkstraat | 23 | 6551ZX | Weurt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56027 | Lochemseweg | 19 | 7231PE | Warnsveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56072 | Achterstraat | 11 | 4115RP | Asch
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56156 | Boveneindsestraat | 15 | 4041EH | Kesteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56391 | Houtweg | 2 A | 8167PL | Oene
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56391 | Houtweg | 2 | 8167PL | Oene
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56745 | Kesselse Dijk | 11 | 5398CA | Maren-Kessel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56758 | Vaassenseweg | 30 | 7397NL | Nijbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57010 | Waalbandijk | 115 | 4174GR | Hellouw
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57091 | Lekbandijk | 77 | 4119RB | Ravenswaaij
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57091 | Lekbandijk | 79 | 4119RB | Ravenswaaij
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57207 | Burgemeester Houtkoperweg | 18 | 4033BK | Lienden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57217 | Boterstraat | 7 | 7226LH | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57405 | Wijkerweg | 2 | 3947NH | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57405 | Langbroekerdijk B | 1 | 3947BA | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57411 | Kaalakkerstraat | 3 | 4181BZ | Waardenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57445 | Middendijk | 63 | 7397ND | Nijbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57493 | Woudstraat | 15 | 4031JA | Ingen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57743 | Merkenhorststraat | 2 | 6674AH | Herveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57904 | Bovenstraat | 1 | 7226LM | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58014 | Roekenes | 1 | 3956RP | Leersum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58102 | Langbroekerdijk A | 49 | 3947BD | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58175 | Kerkstraat | 29 | 7383CB | Voorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58205 | Brugstraat | 5 | 6644AH | Ewijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58205 | Brugstraat | 7 | 6644AH | Ewijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58334 | Schapenzandweg | 15 B | 7431PZ | Diepenveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58373 | IJsseldijk | 109 | 8196KD | Welsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58373 | IJsseldijk | 109 A | 8196KD | Welsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58406 | Lekbandijk | 47 | 4119RA | Ravenswaaij
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58495 | Kerkstraat | 23 | 4181AA | Waardenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58495 | Kerkstraat | 25 | 4181AA | Waardenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58502 | Langstraat | 11 | 4176BC | Tuil
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58557 | Korianderplein | 9 | 8042HM | Zwolle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58659 | Onderstraat | 4 | 7226LD | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58685 | Rijnbandijk | 241 | 4023AJ | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59046 | IJsseldijk | 17 a | 8196KA | Welsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59046 | IJsseldijk | 17 | 8196KA | Welsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59350 | Merkenhorststraat | 20 | 6674AH | Herveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59564 | Gasthuisstraat | 2 | 3958BL | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59599 | Laageinde | 5 | 4013CT | Kapel Avezaath
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59606 | Zandbergseweg | 6 | 4023CC | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60036 | Wellinkhofweg | 14 A | 7396NM | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60164 | Frieseweg | 25 | 8267AD | Kampen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60185 | Scharsestraat | 15 | 6551ZA | Weurt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60197 | Boterstraat | 3 | 7226LH | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60206 | Tielsestraat | 2 | 6675AD | Valburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60369 | Schuurkampseweg | 2 | 4061RK | Ophemert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60471 | Rijnsteeg | 1 | 3958NC | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60556 | Bergerdensestraat | 21 | 6681LK | Bemmel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60611 | Arnhemsestraat | 159 | 6974LD | Leuvenheim
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60663 | Boterstraat | 1 | 7226LH | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60690 | Ridderstraat | 21 | 5311CK | Gameren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60826 | De Mars | 19 | 8014BJ | Zwolle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60857 | De Brei | 8 | 4031JE | Ingen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60857 | De Brei | 10 | 4031JE | Ingen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60952 | Binnenweg | 5 | 6644KD | Ewijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60979 | Langbroekerdijk A | 17 | 3947BC | Langbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61305 | Dorpsstraat | 29 | 4012BE | Kerk-Avezaath
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61447 | Peperstraat | 27 | 5314AM | Bruchem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61523 | Rijnbandijk | 62 | 4023AK | Rijswijk (GLD)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61655 | Rijksstraatweg | 20 A | 3921AJ | Elst Ut
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61720 | Bovenstraat | 8 | 7226LM | Bronkhorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61890 | Baron van Brakellweg | 4 | 4033BS | Lienden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62052 | Zutphensestraatweg | 15 | 6953CG | Dieren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62052 | Vingerhoed | 76 | 6953BW | Dieren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62423 | Dorpsstraat | 71 | 7396AM | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65484 | Havikerwaard | 51 a | 6994JH | De Steeg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65484 | Havikerwaard | 51 | 6994JH | De Steeg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65820 | Waardhuizenstraat | 8 | 6641KA | Beuningen Gld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65847 | Heegsestraat | 3 | 7396NG | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65945 | Botsestraat | 9 | 6578JA | Leuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66722 | de Pinkenberg | 7 | 6891DM | Rozendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66723 | Kluizenaarsweg | 5 | 6891DN | Rozendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66762 | Pannekoeksestraat | 1 | 6631AC | Horssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67000 | Ossenwaard | 9 | 6914KB | Herwen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67010 | Damlaan | 4 | 7211CJ | Eefde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67031 | Het Wildezand | 5 | 7384CB | Wilp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67042 | Binnenweg | 14 | 7211MA | Eefde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67043 | Binnenweg | 12 | 7211MA | Eefde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67099 | Hackfortselaan | 1 | 7251RK | Vorden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67104 | Baakseweg | 2 | 7251RH | Vorden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67201 | Zuiderzeestraatweg | 446 | 8091PB | Wezep
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67202 | Zuiderzeestraatweg | 444 | 8091PB | Wezep
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67317 | Alteveerselaan | 24 | 6881AW | Velp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67350 | Boxbergerweg | 8 | 8121PT | Olst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67374 | Bonenburgerlaan | 45 | 8181HC | Heerde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67385 | Veldweg | 1 | 8015PP | Zwolle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67535 | Hartelaar | 5 | 7391MZ | Twello
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68101 | Haereweg | 10 | 8121PJ | Olst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68156 | Esterweg | 47 | 4061PX | Ophemert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68270 | Zuylesteinseweg | 18 | 3958BA | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68271 | Zuylesteinseweg | 18 | 3958BA | Amerongen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68326 | Engwijkpad | 8 | 5397BG | Lith
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68346 | Poll-laan | 5 | 7383RT | Voorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68347 | Deventerweg | 17 | 7383AA | Voorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68351 | Deventerweg | 27 | 7383AA | Voorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68352 | Deventerweg | 23 | 7383AA | Voorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68354 | Deventerweg | 21 | 7383AA | Voorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68356 | Deventerweg | 19 | 7383AA | Voorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68361 | Deventerweg | 20 | 7383AB | Voorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68364 | Deventerweg | 13 | 7383AA | Voorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68366 | Deventerweg | 4 | 7383RS | Voorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68368 | Deventerweg | 3 | 7383RS | Voorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68369 | Deventerweg | 1 | 7383RS | Voorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68549 | Engwijkpad | 14 | 5397BG | Lith
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68551 | Engwijkpad | 14 | 5397BG | Lith
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68664 | Veldstraat | 57 | 6671BW | Zetten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69081 | Kochpad | 17 | 4111LD | Zoelmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69191 | Heinoseweg | 22 | 8026PC | Zwolle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69192 | Heinoseweg | 22 | 8026PC | Zwolle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69193 | Heinoseweg | 22 | 8026PC | Zwolle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69614 | Oversteeg | 45 | 6994AS | De Steeg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69617 | Eikenstraat | 3 | 6955JB | Ellecom
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69619 | Landgoed Middachten | 5 | 6994JC | De Steeg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69748 | Van Heemstraweg | 2 B | 6653KB | Deest
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69833 | Gerestraat | 49 | 4063CP | Heesselt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69834 | Gerestraat | 47 | 4063CP | Heesselt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69866 | Colckhof | 8 | 8055PH | Laag Zuthem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69876 | Colckhof | 6 | 8055PH | Laag Zuthem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69910 | 's-Gravenwaard | 2 | 6916KB | Tolkamer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70176 | Achterstraat | 36 | 4011ER | Zoelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70440 | Poelsestraat | 2 | 6645KK | Winssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71334 | Waalbandijk | 66 | 6654KC | Afferden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71928 | Cuneraweg | 428 | 3911RW | Rhenen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71935 | Cuneraweg | 424 | 3911RW | Rhenen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72344 | Diependalseweg | 4 | 6813GE | Arnhem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72435 | Vosbergerweg | 37 | 8181JK | Heerde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72435 | Vosbergerweg | 39 | 8181JK | Heerde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72437 | Vosbergerweg | 34 | 8181JJ | Heerde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72438 | Vosbergerweg | 34 | 8181JJ | Heerde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72908 | van Boetzelaerstraat | 12 | 6515JD | Nijmegen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72909 | van Boetzelaerstraat | 14 | 6515JD | Nijmegen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72910 | Oude Groenestraat | 11 | 6515EA | Nijmegen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73067 | Windheuvelstraat | 1 | 6971JV | Brummen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73095 | Oosterholtseweg | 44 | 8271PV | IJsselmuiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73162 | Gochsestraat | 7 | 6851JD | Huissen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73782 | Achterstraat | 9 | 4115RP | Asch
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73921 | Overweg | 1 | 8191KB | Wapenveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74731 | De Eldersmaat | 5 | 7251RJ | Vorden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75124 | Deventerweg | 2 | 7396AX | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75199 | Voorstondensestraat | 2 | 6971KS | Brummen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75219 | Voorsterweg | 148 | 6971KD | Brummen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75376 | Emmerweg | 12 A | 7221LA | Steenderen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75376 | Emmerweg | 12 | 7221LA | Steenderen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75512 | Beekseweg | 6 | 6909DR | Babberich
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/76466 | Voorne | 13 | 6624KL | Heerewaarden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/76640 | Plezenburgsestraat | 17 | 6578JD | Leuth
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77206 | Valkeweg | 3 | 7211LH | Eefde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77405 | Onder de Gelder | 2 | 8131SG | Wijhe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77406 | Onder de Gelder | 2 | 8131SG | Wijhe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77690 | Bosweg | 15 | 8017BR | Zwolle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77825 | Kerklaan | 16 | 4063CV | Heesselt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78493 | Bingerdenseweg | 10 | 6986CE | Angerlo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78494 | Bingerdenseweg | 10 | 6986CE | Angerlo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78495 | Bingerdenseweg | 10 | 6986CE | Angerlo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78496 | Mariëndaalseweg | 16 | 6986CB | Angerlo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78497 | Bingerdenseweg | 17 | 6986CE | Angerlo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78865 | Deventerweg | 91 | 7214DD | Epse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78890 | Kanaaldijk | 63 | 8191LW | Wapenveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78907 | De Brink | 6 A | 3945BE | Cothen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78907 | De Brink | 6 B | 3945BE | Cothen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78931 | Kerkallee | 2 | 6955JA | Ellecom
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78932 | Kerkallee | 2 | 6955JA | Ellecom
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/79163 | Delkant | 3 | 5311CJ | Gameren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/79272 | Grote Allee | 2 | 6677MA | Slijk-Ewijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/79778 | Bargeweg | 1 a | 7211DC | Eefde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/79835 | Kerkhofweg | 18 | 7221AE | Steenderen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/79898 | Boxbergerweg | 62 | 7431PP | Diepenveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/80192 | Tielsestraat | 233 | 6673AD | Andelst

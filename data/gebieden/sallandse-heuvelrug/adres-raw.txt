@@ -1,0 +1,15 @@
+Gevonden: 11 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10028 | Buurtschapsweg | 2 | 8105SN | Luttenberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15833 | Pasmansweg | 3 | 7451KP | Holten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18732 | Hofmanstraat | 2 | 7447AS | Hellendoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22153 | Klokkendijk | 10 | 7467PD | Notter
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32420 | Slagsweg | 1 | 7466PL | Zuna
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32420 | Slagsweg | 1 a | 7466PL | Zuna
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34368 | Holterweg | 50 | 8111NR | Heeten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35437 | Zunaweg | 10 | 7466PR | Zuna
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47203 | Schuilenburgerweg | 46 | 7447RP | Hellendoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58770 | Borkeldsweg | 91 | 7451TB | Holten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62331 | Oude Veerweg | 6 | 7461JH | Rijssen

@@ -1,0 +1,24 @@
+Gevonden: 20 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13423 | Noorderpad | 20 | 8355AP | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14508 | Dwarsgracht | 41 | 8355CW | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15193 | 't Klooster | 5 | 8355AR | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19494 | Noorderpad | 1 | 8355AP | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22357 | Jan van Nassauweg | 10 | 8355VA | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23478 | 't Klooster | 4 | 8355AR | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24975 | Dwarsgracht | 33 | 8355CV | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34040 | IJsselhammerweg | 4 | 8361EW | IJsselham
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34285 | Molenweg | 22 | 8355AT | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40573 | Noorderpad | 13 | 8355AP | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41940 | Hoogeweg | 4 | 8377EL | Kalenberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42133 | Dwarsgracht | 40 | 8355CT | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44511 | Hoogeweg | 5 | 8377EL | Kalenberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45588 | Noorderpad | 15 | 8355AP | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46328 | Molenweg | 17 | 8355AS | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47146 | Dwarsgracht | 27 | 8355CV | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53819 | Noorderpad | 24 | 8355AP | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53957 | Noorderpad | 17 | 8355AP | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54621 | Molenweg | 33 | 8355AS | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62438 | Molenweg | 14 | 8355AT | Giethoorn

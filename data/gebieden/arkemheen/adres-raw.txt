@@ -1,0 +1,40 @@
+Gevonden: 36 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12892 | Donkeresteeg | 13 | 3882SM | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15950 | Stationsstraat | 92 | 3881AG | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15950 | Stationsstraat | 94 | 3881AG | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20841 | Bloemendaalseweg | 2 | 3862RN | Nijkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23218 | Putterbrink | 1 | 3881LK | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23323 | Bunschoterweg | 32 | 3861PG | Nijkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23833 | Dorpsstraat | 58 | 3751ES | Bunschoten-Spakenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23833 | Dorpsstraat | 60 | 3751ES | Bunschoten-Spakenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25352 | Beekweg | 13 A | 3881LG | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25352 | Beekweg | 13 | 3881LG | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25400 | Slichtenhorsterweg | 69 | 3862NP | Nijkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28791 | Bunschoterweg | 38 | 3861ML | Nijkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30168 | Donkeresteeg | 12 | 3882SM | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31094 | Slichtenhorsterweg | 28 | 3862NR | Nijkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31180 | Groot Hellerweg | 8 | 3882ME | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31868 | Beulekampersteeg | 54 | 3882LK | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42684 | Bloemendaalseweg | 11 | 3862RN | Nijkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42692 | Bunschoterweg | 16 | 3861PE | Nijkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42692 | Bunschoterweg | 18 | 3861PE | Nijkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44923 | Putterbrink | 2 | 3881LK | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44923 | Putterbrink | 4 | 3881LK | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46250 | Slichtenhorsterweg | 71 | 3862NP | Nijkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46885 | Venestraat | 58 | 3861BZ | Nijkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49260 | Barneveldseweg | 122 | 3862PD | Nijkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49523 | Slichtenhorsterweg | 67 | 3862NP | Nijkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49942 | Slichtenhorsterweg | 57 | 3862NP | Nijkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52885 | Vetkamp | 23 | 3862JM | Nijkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57101 | Dorpsstraat | 36 | 3751ER | Bunschoten-Spakenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57101 | Dorpsstraat | 38 | 3751ER | Bunschoten-Spakenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65728 | Diermenseweg | 3 | 3882RX | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66499 | Hardenbergerweg | 2 | 3882SB | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66787 | Slichtenhorsterweg | 41 | 3862NN | Nijkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77639 | Kiefveldersteeg | 11 | 3882RG | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78279 | Waterweg | 1 | 3882RA | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78280 | Oldenallerallee | 5 | 3882RW | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78803 | Beulekampersteeg | 43 | 3882LJ | Putten

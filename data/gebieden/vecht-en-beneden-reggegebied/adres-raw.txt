@@ -1,0 +1,61 @@
+Gevonden: 57 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11329 | Rheezerbrink | 5 | 7794RG | Rheeze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11946 | Beerzerweg | 23 a | 7736PH | Beerze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11946 | Beerzerweg | 23 | 7736PH | Beerze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13991 | Beerzerweg | 21 | 7736PH | Beerze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15685 | Reefhuisweg | 5 | 7447TA | Hellendoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16911 | Karshoekweg | 2 | 7737PP | Stegeren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18530 | Rheezerweg | 58 | 7794RH | Rheeze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18882 | Dennenweg | 1 | 7731PE | Ommen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21928 | Hancateweg-Oost | 5 | 7447TL | Hellendoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22394 | Janmansweg | 17 | 7683SG | Den Ham
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22516 | Veldhuizenweg | 5 | 7447PN | Hellendoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23147 | Rheezerweg | 91 | 7794RJ | Rheeze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24680 | Nienenhoek | 2 | 7683SC | Den Ham
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25870 | Dieselweg | 1 | 7731TL | Ommen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28255 | Beerzerweg | 24 | 7736PJ | Beerze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28457 | Rheezerbrink | 11 | 7794RG | Rheeze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29202 | Beerzerweg | 15 | 7736PH | Beerze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29202 | Beerzerweg | 15 a | 7736PH | Beerze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29320 | Rheezerweg | 62 | 7794RH | Rheeze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30034 | Oude Twentseweg | 48 | 8153RC | Lemelerveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30034 | Oude Twentseweg | 48 A | 8153RC | Lemelerveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30058 | Junnerweg | 7 | 7731TN | Ommen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30368 | Achterbroekweg | 2 | 7731PN | Ommen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31845 | Beerzerpoort | 2 | 7736PM | Beerze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32191 | Beukenallee | 8 | 8148PG | Lemele
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33650 | Coevorderweg | 1 | 7735KJ | Arriën
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34425 | Beukenallee | 3 | 8148PG | Lemele
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34787 | Ridderinkweg | 2 | 7735KG | Arriën
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34867 | Rheezerbrink | 2 | 7794RG | Rheeze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36249 | Ridderinkweg | 4 | 7735KG | Arriën
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36300 | Rheezerbrink | 11 | 7794RG | Rheeze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36366 | Rheezerweg | 95 | 7794RJ | Rheeze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37438 | Beerzerweg | 28 | 7736PJ | Beerze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39154 | Beerzerweg | 27 | 7736PH | Beerze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41284 | Coevorderweg | 2 | 7735KH | Arriën
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44990 | Esweg | 2 | 7683VK | Den Ham
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47162 | Rheezerweg | 95 | 7794RJ | Rheeze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47693 | Ringweg | 2 | 7794RD | Rheeze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50606 | Marsweg | 2 | 8148PM | Lemele
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51894 | Leertendijk | 1 | 7683SE | Den Ham
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53719 | Achterbroekweg | 1 | 7731PN | Ommen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54412 | Nieuwe Twentseweg | 19 | 7447PM | Hellendoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56114 | Beerzerweg | 19 | 7736PH | Beerze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56114 | Beerzerweg | 17 | 7736PH | Beerze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57556 | Baron van Pallandtlaan | 1 | 7731PK | Ommen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58485 | Brakelweg | 1 | 7731PD | Ommen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59126 | Beerzerweg | 25 | 7736PH | Beerze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60260 | Vilsterse Allee | 3 | 7734PB | Vilsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61140 | Ommerweg | 74 | 7683AZ | Den Ham
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61281 | Rheezerweg | 48 | 7794RH | Rheeze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67832 | Hallerhoek | 7 | 7683PG | Den Ham
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68042 | Jhr.van der Wijcklaan | 2 | 8148PE | Lemele
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70261 | Beerzerweg | 3 | 7731PA | Ommen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/76676 | Vilsterseweg | 15 | 7734PD | Vilsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/76678 | Vilsterse Allee | 1 d | 7734PB | Vilsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/76678 | Vilsterse Allee | 1 | 7734PB | Vilsteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78449 | Baron van Pallandtlaan | 2 | 7731PK | Ommen

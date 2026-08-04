@@ -1,0 +1,42 @@
+Gevonden: 38 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10332 | Kerkplein | 10 | 7631EV | Ootmarsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12025 | Blauweweg | 13 | 7662PX | Hezingen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12529 | Dorpsstraat | 1 | 7635NA | Lattrop-Breklenkamp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14610 | Weerselosestraat | 9 | 7636RK | Agelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17323 | Zoekeweg | 18 | 7667SJ | Reutum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17383 | Hilbertweg | 4 | 7595MK | Weerselo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18734 | Weerselosestraat | 33 | 7636RK | Agelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19451 | Keerweer | 2 | 7631EX | Ootmarsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19492 | Bentertsteeg | 12 | 7596PA | Rossum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21561 | Vicarieweg | 3 | 7595LS | Weerselo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21609 | Ganzenmarkt | 11 A | 7631EM | Ootmarsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21609 | Ganzenmarkt | 11 | 7631EM | Ootmarsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22891 | Loosteresweg | 1 | 7596MN | Rossum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25490 | Damweg | 13 | 7634PC | Tilligte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26013 | Boschweg | 7 | 7596PH | Rossum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27120 | Denekamperstraat | 7 A | 7631AA | Ootmarsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27120 | Denekamperstraat | 7 | 7631AA | Ootmarsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28220 | Keerweer | 2 | 7631EX | Ootmarsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38311 | Akkerhuisweg | 1 | 7597LE | Saasveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38311 | Akkerhuisweg | 1 A | 7597LE | Saasveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39811 | Scholten Lindeweg | 2 | 7596MJ | Rossum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40009 | Austiebergweg | 2 | 7588RC | Beuningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41285 | Vasserweg | 16 | 7631BC | Ootmarsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41330 | Dennenkampsweg | 2 | 7636PZ | Agelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43664 | Borgbosweg | 7 | 7588PN | Beuningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45452 | Ootmarsumseweg | 340 | 7667PC | Reutum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46354 | Kleinesweg | 1 | 7636RD | Agelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49405 | Lubberdinksweg | 15 | 7591PB | Denekamp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50197 | Dusinksweg | 14 A RECR | 7636PE | Agelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50719 | Nijenkampsweg | 4 | 7636RG | Agelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58755 | Ootmarsumsestraat | 63 | 7591PR | Denekamp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66354 | Schiphorstdijk | 4 | 7591PS | Denekamp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66355 | Molendijk | 28 | 7591PT | Denekamp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66356 | Molendijk | 26 | 7591PT | Denekamp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74572 | Paandersdijk | 10 | 7588PZ | Beuningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75294 | Ootmarsumsedijk | 29 | 7596PB | Rossum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75295 | Ootmarsumsedijk | 29 | 7596PB | Rossum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75309 | Zoekeweg | 18 | 7667SJ | Reutum

@@ -1,0 +1,27 @@
+Gevonden: 23 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15278 | Derkinkweg | 65 | 7535PG | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23768 | Schukkinkweg | 15 | 7535PB | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23768 | Schukkinkweg | 15 A | 7535PB | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25149 | Smalenbroeksweg | 17 A | 7542PG | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25149 | Smalenbroeksweg | 15 A | 7542PG | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25149 | Smalenbroeksweg | 17 B | 7542PG | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25149 | Smalenbroeksweg | 15 | 7542PG | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25149 | Smalenbroeksweg | 17 | 7542PG | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41201 | Schukkinkweg | 15 | 7535PB | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46937 | Holzikweg | 50 | 7542PD | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54834 | Stroinksweg | 83 | 7542PG | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54834 | Stroinksweg | 85 | 7542PG | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54834 | Stroinksweg | 88 | 7542PJ | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54834 | Stroinksweg | 90 | 7542PJ | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55600 | Bruninkslaan | 24 | 7544RP | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55600 | Bruninkslaan | 26 | 7544RP | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61500 | Engerinksweg | 125 | 7541PB | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65329 | Berenbroeksweg | 38 | 7542PK | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65329 | Berenbroeksweg | 40 | 7542PK | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65330 | Berenbroeksweg | 38 | 7542PK | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65330 | Berenbroeksweg | 40 | 7542PK | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65331 | Berenbroeksweg | 38 | 7542PK | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65331 | Berenbroeksweg | 40 | 7542PK | Enschede

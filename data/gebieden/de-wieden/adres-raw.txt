@@ -1,0 +1,60 @@
+Gevonden: 56 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12399 | Oosterboerweg | 26 | 7943KG | Meppel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12603 | Binnenpad | 143 | 8355BW | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13423 | Noorderpad | 20 | 8355AP | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14139 | Binnenpad | 20 | 8355BR | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14508 | Dwarsgracht | 41 | 8355CW | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15193 | 't Klooster | 5 | 8355AR | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15233 | Kerkweg | 33 | 8355BJ | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15658 | Kolderveen | 64 | 7948NK | Nijeveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17949 | Binnenpad | 61 | 8355BS | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18011 | Kadoelerweg | 14 | 8317PJ | Kraggenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19494 | Noorderpad | 1 | 8355AP | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20378 | Leeuwte | 43 | 8326AB | Sint Jansklooster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21428 | Binnenpad | 15 | 8355BP | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22357 | Jan van Nassauweg | 10 | 8355VA | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23478 | 't Klooster | 4 | 8355AR | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24474 | Zuiderpad | 50 | 8355CC | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24595 | Veneweg | 56 | 7946LD | Wanneperveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24975 | Dwarsgracht | 33 | 8355CV | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25998 | Binnenpad | 52 | 8355BT | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26879 | Hoogeveenseweg | 26 | 7943KA | Meppel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27226 | Slotweg | 1 | 7943KM | Meppel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28651 | Kolderveen | 24 | 7948NJ | Nijeveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30609 | Havezatherweg | 15 | 8066PB | Belt-Schutsloot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31552 | Veneweg | 141 | 7946LK | Wanneperveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34285 | Molenweg | 22 | 8355AT | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36747 | Binnenpad | 96 | 8355BX | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39296 | Kadoelen | 25 | 8326BA | Sint Jansklooster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40573 | Noorderpad | 13 | 8355AP | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41940 | Hoogeweg | 4 | 8377EL | Kalenberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42133 | Dwarsgracht | 40 | 8355CT | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45588 | Noorderpad | 15 | 8355AP | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46077 | Kallenkote | 25 | 8345HB | Kallenkote
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46328 | Molenweg | 17 | 8355AS | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46630 | Binnenpad | 125 | 8355BW | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47146 | Dwarsgracht | 27 | 8355CV | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50990 | Binnenpad | 63 | 8355BS | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51554 | Reggersweg | 4 | 7943KC | Meppel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52036 | Binnenpad | 102 | 8355BX | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52948 | Kolderveen | 46 | 7948NK | Nijeveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53819 | Noorderpad | 24 | 8355AP | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53957 | Noorderpad | 17 | 8355AP | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54310 | Binnenpad | 141 | 8355BW | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54536 | Langesteeg | 9 | 8355BZ | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54621 | Molenweg | 33 | 8355AS | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55248 | Binnenpad | 98 | 8355BX | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57892 | Blankensteinweg | 51 | 7943KN | Meppel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62277 | Leeuwte | 51 | 8326AB | Sint Jansklooster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62438 | Molenweg | 14 | 8355AT | Giethoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66441 | Kolderveense Bovenboer | 36 | 7948LW | Nijeveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68266 | Zwartemeerweg | 46 | 8317PC | Kraggenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71377 | Dorpsstraat | 127 | 7948BN | Nijeveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74238 | Haakswold | 47 | 7943KT | Meppel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75118 | Zwartewatersklooster | 9 | 8064PK | Zwartsluis
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78854 | Oppen Swolle | 5 | 8325PE | Vollenhove
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78855 | Oppen Swolle | 5 | 8325PE | Vollenhove
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78856 | Oppen Swolle | 5 | 8325PE | Vollenhove
