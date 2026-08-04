@@ -1,0 +1,18 @@
+PREFIX ceo: <https://linkeddata.cultureelerfgoed.nl/def/ceo#>
+PREFIX geo: <http://www.opengis.net/ont/geosparql#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+SELECT DISTINCT ?rm ?rmnr ?wkt WHERE {
+  ?rm a ceo:Rijksmonument ;
+      ceo:rijksmonumentnummer ?rmnr .
+  OPTIONAL { ?rm ceo:heeftJuridischeStatus ?status }
+  FILTER(!BOUND(?status) || ?status != <https://data.cultureelerfgoed.nl/term/id/rn/2/3e79bb7c-b459-4998-a9ed-78d91d069227>)
+  ?rm ceo:heeftOorspronkelijkeFunctie ?fObj .
+  ?fObj ceo:heeftFunctieNaam ?fC .
+  ?fC skos:prefLabel ?fNaam .
+  FILTER(lang(?fNaam) = "nl")
+  FILTER(CONTAINS(LCASE(?fNaam), "boerderij"))
+  ?rm ceo:heeftGeometrie ?geomObj .
+  ?geomObj geo:asWKT ?wkt .
+  FILTER(STRSTARTS(STR(?wkt), "Point"))
+  FILTER(REGEX(STR(?wkt), "^Point \((4\.8[0-9]*|4\.9[0-9]*|5\.0[0-9]*|5\.1[0-9]*|5\.2[0-9]*|5\.3[0-9]*|5\.4[0-9]*|5\.5[0-9]*|5\.6[0-9]*|5\.7[0-9]*|5\.8[0-9]*|5\.9[0-9]*) (52\.3[0-9]*|52\.4[0-9]*|52\.5[0-9]*|52\.6[0-9]*|52\.7[0-9]*|52\.8[0-9]*|52\.9[0-9]*|53\.0[0-9]*|53\.1[0-9]*|53\.2[0-9]*|53\.3[0-9]*)\)$"))
+}

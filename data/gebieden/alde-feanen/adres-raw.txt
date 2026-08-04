@@ -1,0 +1,25 @@
+Gevonden: 21 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13484 | It Fliet | 16 | 9264TD | Earnewâld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16987 | Hôflân | 7 | 9001ZG | Grou
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24724 | Achterwei | 5 | 9262NR | Sumar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28403 | Oeble-om-wei | 3 | 9004XZ | Warstiens
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28588 | Soarremoarre | 1 | 8494NA | Nes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36662 | Easterein | 3 | 9263PA | Garyp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37814 | Easterein | 25 | 9263PA | Garyp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38835 | Buorren | 13 | 9007SC | Idaerd
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40826 | Zuiderend | 33 | 9265LW | Suwâld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47244 | Aldegeasterdyk | 6 | 9217VS | Nijega
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47407 | Hellingpaed | 9 | 9003LW | Warten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50348 | Wartensterdyk | 5 | 9005XS | Wergea
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51305 | Easterein | 29 | 9263PA | Garyp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52071 | Greate Buorren | 51 | 9262SC | Sumar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54876 | Lânsbuorren | 4 | 9262VA | Sumar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60479 | Biensma | 12 | 9001ZZ | Grou
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61691 | Heerenweg | 24 | 9262SG | Sumar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68671 | Sigerswâld | 15 | 9263TW | Garyp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72357 | Opperbuorren-West | 1 | 9216VM | Oudega
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72548 | Greate Buorren | 42 | 9263PN | Garyp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75697 | Westerein | 23 | 9263PC | Garyp

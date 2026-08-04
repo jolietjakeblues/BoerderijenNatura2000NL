@@ -537,5 +537,75 @@ export const GEBIEDEN_BESCHRIJVING = {
     ligging: 'Noordrand van het Nederlandse continentale plat, Noordzee',
     tekst: 'Uitgestrekte, permanent onder water gelegen zandbank (circa 473.500 hectare) op de noordrand van het Nederlandse deel van de Noordzee. Beschermd vanwege de ondiepe, dynamische zandbankhabitat met een gespecialiseerde bodemfauna die aan deze omstandigheden is aangepast.',
     bron: 'https://www.natura2000.nl/gebieden/noordzee/doggersbank'
+  },
+  'ijsselmeer': {
+    ligging: 'Grens Fryslân/Flevoland/Noord-Holland',
+    tekst: 'Ondiep zoetwatermeer (circa 113.341 hectare), ontstaan na de afsluiting van de Zuiderzee, met uitgestrekte rietlanden en moerasvegetatie langs de Friese oever. Van internationaal belang voor viseters als aalscholver, fuut en sterns die op spiering jagen, en beschermt daarnaast de groenknolorchis en de noordse woelmuis.',
+    bron: 'https://www.natura2000.nl/gebieden/flevoland/ijsselmeer'
+  },
+  'rottige-meenthe-brandemeer': {
+    ligging: 'Weststellingwerf',
+    tekst: 'Verveend moerasgebied (circa 1.369 hectare) in Zuidwest-Fryslân, met petgaten en legakkers uit de vroegere turfwinning. De enige Friese groeiplaats van trilveen, en een van de weinige overgebleven leefgebieden van de grote vuurvlinder; vormt tevens een ecologische verbinding met de veengebieden in Overijssel.',
+    bron: 'https://www.natura2000.nl/gebieden/friesland/rottige-meenthe-brandemeer'
+  },
+  'oudegaasterbrekken-fluessen': {
+    ligging: 'Súdwest-Fryslân/De Fryske Marren',
+    tekst: 'Aaneenschakeling van meren en moeras (circa 3.054 hectare) in een laagveen- en kleiplandschap, met rietland, dotterbloemhooiland en open water ontstaan door vervening. Bijna 40% van de Noordwest-Europese smientenpopulatie overwintert hier, met daarnaast broedende grutto\'s en kieviten en de noordse woelmuis in de rietvegetatie.',
+    bron: 'https://www.natura2000.nl/gebieden/friesland/oudegaasterbrekken-fluessen-en-omgeving'
+  },
+  'witte-zwarte-brekken': {
+    ligging: 'Ten zuiden van Sneek, De Fryske Marren/Súdwest-Fryslân',
+    tekst: 'Meren-, grasland- en rietlandgebied (circa 433 hectare) met drie eilanden (Krite, Deeklân, Lange Warren), doorsneden door sloten en zomerpolders. Belangrijk overwinteringsgebied voor ganzen, waaronder grote aantallen kleine rietgans, met broedende kemphanen, grutto\'s en roerdompen, en de bedreigde noordse woelmuis.',
+    bron: 'https://www.natura2000.nl/gebieden/friesland/witte-en-zwarte-brekken'
+  },
+  'sneekermeergebied': {
+    ligging: 'De Fryske Marren/Súdwest-Fryslân',
+    tekst: 'Complex van grotere en kleinere wateren en graslanden (circa 2.279 hectare) met her en der rietland en wilgenbosjes, ontstaan door vervening en windwerking. Belangrijk broed- en pleistergebied voor grauwe gans, kolgans en steltlopers als kemphaan en grutto, met dotterbloemhooiland en de noordse woelmuis als kenmerkende soorten.',
+    bron: 'https://www.natura2000.nl/gebieden/friesland/sneekermeergebied'
+  },
+  'deelen': {
+    ligging: 'Heerenveen',
+    tekst: 'Laagveenmoeras (circa 514 hectare), een van de weinige overgebleven restanten van een omvangrijk veencomplex, met petgaten, rietland, struweel en legakkers. Broedplaats van purperreiger, zwarte stern, bruine kiekendief en baardmannetje, en overwinteringsgebied voor tienduizenden grauwe en kolganzen.',
+    bron: 'https://www.natura2000.nl/gebieden/friesland/deelen'
+  },
+  'van-oordts-mersken': {
+    ligging: 'Opsterland',
+    tekst: 'Beekdallandschap (circa 842 hectare) in de benedenloop van de Boorne, op de overgang van zandgronden naar laagveen. Beschermd vanwege blauwgraslanden en dotterbloemhooilanden met de moerasviool, en als belangrijke ganzenpleisterplaats voor tienduizenden overwinterende ganzen en broedende wulpen en tureluurs.',
+    bron: 'https://www.natura2000.nl/gebieden/friesland/van-oordts-mersken'
+  },
+  'wijnjeterper-schar': {
+    ligging: 'Opsterland',
+    tekst: 'Reliëfrijk zandlandschap met veenzones langs de Boorne (circa 170 hectare) in Zuidoost-Fryslân. Beschermd vanwege goed ontwikkelde overgangen tussen blauwgrasland, heischraal grasland en vochtige heide, met soorten als blonde zegge en klokjesgentiaan, en broedende houtsnippen en wulpen aan de noordgrens van hun Nederlandse verspreidingsgebied.',
+    bron: 'https://www.natura2000.nl/gebieden/friesland/wijnjeterper-schar'
+  },
+  'alde-feanen': {
+    ligging: 'Leeuwarden/Smallingerland/Tytsjerksteradiel',
+    tekst: 'Laagveenmoeras (circa 2.124 hectare) tussen Leeuwarden en Drachten, met een netwerk van wateren en vaarten, rietland, moerasbos en zeggegrasland - een van de weinige overgebleven restanten van een omvangrijk veenwinningslandschap. Beschermd vanwege galigaanvegetatie en drijvend veenmos, de zeldzame veenorchis, broedende grote karekieten en baardmannetjes, en de noordse woelmuis.',
+    bron: 'https://www.natura2000.nl/gebieden/friesland/alde-feanen'
+  },
+  'groote-wielen': {
+    ligging: 'Ten noordoosten van Leeuwarden, Leeuwarden/Tytsjerksteradiel',
+    tekst: 'Meren- en moerasgebied (circa 604 hectare) op de overgang van zandgrond, veen en klei, met rietmoeras, graslanden en twee eendenkooien. Broed- en trekgebied voor grutto, kievit, kemphaan en wulp, met de noordse woelmuis en de meervleermuis als kenmerkende zoogdieren.',
+    bron: 'https://www.natura2000.nl/gebieden/friesland/groote-wielen'
+  },
+  'duinen-vlieland': {
+    ligging: 'Vlieland',
+    tekst: 'Duingebied met ingedijkte kwelders (circa 1.484 hectare) op het Waddeneiland Vlieland, met kraaihei-heide, grijze duinen en de Kroon\'s Polders als karakteristiek stelsel van ingedijkte valleien. Een van de belangrijkste Nederlandse groeiplaatsen van kraaiheihei, met de groenknolorchis in de vochtige duinvalleien en internationaal belangrijke zeevogelkolonies.',
+    bron: 'https://www.natura2000.nl/gebieden/friesland/duinen-vlieland'
+  },
+  'duinen-terschelling': {
+    ligging: 'Terschelling',
+    tekst: 'Goed ontwikkeld duinlandschap (circa 4.040 hectare) op het Waddeneiland Terschelling, met droge duingraslanden, heide, vochtige duinvalleien en wilgen- en berkenbos. Beschermd vanwege de groenknolorchis, broedende bruine en blauwe kiekendieven en velduilen, en een grote rijkdom aan mossen en korstmossen in de kalkarme duingraslanden.',
+    bron: 'https://www.natura2000.nl/gebieden/friesland/duinen-terschelling'
+  },
+  'duinen-ameland': {
+    ligging: 'Ameland',
+    tekst: 'Duingebied (circa 2.055 hectare) dat het hele Waddeneiland Ameland doorkruist, met grijze duinen, heide, duinvalleien en de Oerderplassen als zeldzame duinmeren. Belangrijkste Nederlandse broedgebied voor de duinpieper, met daarnaast broedende blauwe kiekendieven en uitgestrekte rietmoerassen rond de duinmeren.',
+    bron: 'https://www.natura2000.nl/gebieden/friesland/duinen-ameland'
+  },
+  'duinen-schiermonnikoog': {
+    ligging: 'Schiermonnikoog',
+    tekst: 'Gevarieerd duingebied (circa 833 hectare) op het kleinste bewoonde Waddeneiland, met goed ontwikkelde kalkrijke duinvalleien, de Westerplas als zoetwaterplas en bos. Broedplaats van circa 2.000 paar eidereenden en van kiekendieven, roerdompen en baardmannetjes, met zeldzame orchideeën in de duinvalleien.',
+    bron: 'https://www.natura2000.nl/gebieden/friesland/duinen-schiermonnikoog'
   }
 };

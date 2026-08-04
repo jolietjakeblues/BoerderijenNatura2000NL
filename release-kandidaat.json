@@ -1,11 +1,11 @@
 {
  "versielabel": null,
- "gegenereerdOp": "2026-08-04T08:21:36.572Z",
- "commit": "02b2ad3bd346f4b1b04e5d61c90c291cc2b0a863",
+ "gegenereerdOp": "2026-08-04T09:20:01.866Z",
+ "commit": "8b754190285b915a27222d0e96dc9253844faac2",
  "toelichting": "Dit bestand is een voorbereide kandidaat voor een dataset-release, geen gepubliceerde release zelf. Het legt het commit en de per-gebied aantallen/checksums vast op het moment van genereren; git tag en GitHub Release blijven een handmatige stap van de repo-eigenaar.",
- "totaalGebieden": 107,
- "totaalMonumenten": 5205,
- "totaalMetIndicatie": 905,
+ "totaalGebieden": 121,
+ "totaalMonumenten": 5442,
+ "totaalMetIndicatie": 951,
  "gebieden": [
   {
    "slug": "abdij-lilbosch-mariahoop",
@@ -24,6 +24,15 @@
    "ja": 3,
    "onbekend": 0,
    "sha256DataJson": "52ef7aacfc24b865af95d9dbb74e904143fd6eda79016bad11bbb4a4b3da9dbb"
+  },
+  {
+   "slug": "alde-feanen",
+   "naam": "Alde Feanen",
+   "peildatum": "2026-08-04",
+   "n": 21,
+   "ja": 8,
+   "onbekend": 0,
+   "sha256DataJson": "4ddeb2a34e7b0c7168753d0c6a91d6b790075f1b86be93d626e092bada70eb13"
   },
   {
    "slug": "bakkeveense-duinen",
@@ -179,6 +188,15 @@
    "sha256DataJson": "b5366c8fc2b9bf1e7a79aa7cf01ec2459b270738e5ec9cbd66c29b0e292b31a8"
   },
   {
+   "slug": "deelen",
+   "naam": "Deelen",
+   "peildatum": "2026-08-04",
+   "n": 9,
+   "ja": 4,
+   "onbekend": 0,
+   "sha256DataJson": "c2d8a4ff9168a78eb896a637ab5a1864da00f1fe13a95de9982396ed8d868d31"
+  },
+  {
    "slug": "deurnsche-peel-mariapeel",
    "naam": "Deurnsche Peel & Mariapeel",
    "peildatum": "2026-08-03",
@@ -215,6 +233,15 @@
    "sha256DataJson": "d9e084b996e79280cba67cfe331b71b2334e4f8c218c176a082027c6ab60b9a7"
   },
   {
+   "slug": "duinen-ameland",
+   "naam": "Duinen Ameland",
+   "peildatum": "2026-08-04",
+   "n": 9,
+   "ja": 0,
+   "onbekend": 0,
+   "sha256DataJson": "92f3b86a1389324a9ee67f1cb639b3136e4f42a39630ba5ae9eba2a3ba739620"
+  },
+  {
    "slug": "duinen-den-helder-callantsoog",
    "naam": "Duinen Den Helder-Callantsoog",
    "peildatum": "2026-08-04",
@@ -240,6 +267,33 @@
    "ja": 2,
    "onbekend": 0,
    "sha256DataJson": "d30134f73043065354a4bdf76a410bbef6f486eea73d57d8f80c228a83680f66"
+  },
+  {
+   "slug": "duinen-schiermonnikoog",
+   "naam": "Duinen Schiermonnikoog",
+   "peildatum": "2026-08-04",
+   "n": 0,
+   "ja": 0,
+   "onbekend": 0,
+   "sha256DataJson": "71b6b7f87b74b32ac88b6eaba75c1bd78efe78de5311a55e35a8378daf427481"
+  },
+  {
+   "slug": "duinen-terschelling",
+   "naam": "Duinen Terschelling",
+   "peildatum": "2026-08-04",
+   "n": 33,
+   "ja": 0,
+   "onbekend": 0,
+   "sha256DataJson": "c8c39daa15710f50f57dafa77ac8b9910ce5b77a22be4e7f1cc0552b90e82a9e"
+  },
+  {
+   "slug": "duinen-vlieland",
+   "naam": "Duinen Vlieland",
+   "peildatum": "2026-08-04",
+   "n": 0,
+   "ja": 0,
+   "onbekend": 0,
+   "sha256DataJson": "50882ddc17dde992ad3a39f23f0ca0ccc716e7abad6deb6dade0484ecf15b7d0"
   },
   {
    "slug": "eemmeer-gooimeer-zuidoever",
@@ -332,6 +386,15 @@
    "sha256DataJson": "bdd8aad34da3a877b30540e495af2b736502caaa21a033ec2d09f3061f5ccf37"
   },
   {
+   "slug": "groote-wielen",
+   "naam": "Groote Wielen",
+   "peildatum": "2026-08-04",
+   "n": 13,
+   "ja": 3,
+   "onbekend": 0,
+   "sha256DataJson": "3ea458b9e455d04a023d159218d921e89273f5e5ffa750d9fffb509ed9d8df2c"
+  },
+  {
    "slug": "haringvliet",
    "naam": "Haringvliet",
    "peildatum": "2026-08-04",
@@ -348,6 +411,15 @@
    "ja": 4,
    "onbekend": 0,
    "sha256DataJson": "b6e40ab00c1517512b50cf6dad324d428d61c97636978487efd011313d98fc01"
+  },
+  {
+   "slug": "ijsselmeer",
+   "naam": "IJsselmeer",
+   "peildatum": "2026-08-04",
+   "n": 71,
+   "ja": 12,
+   "onbekend": 0,
+   "sha256DataJson": "eb28b7d80291d2bc5dcfa1d0f85a922dd8c31a586fe579654caf8f5ac2d6c5d0"
   },
   {
    "slug": "ilperveld-varkensland-oostzanerveld-twiske",
@@ -647,6 +719,15 @@
    "sha256DataJson": "9a275bc586743a060e086011171e44a669e5ebad6a7a9a49c20e05ced567799e"
   },
   {
+   "slug": "oudegaasterbrekken-fluessen",
+   "naam": "Oudegaasterbrekken, Fluessen en omgeving",
+   "peildatum": "2026-08-04",
+   "n": 24,
+   "ja": 6,
+   "onbekend": 0,
+   "sha256DataJson": "5e2cef3445effb5a920670c8a73ff0f21a3f6fe942386db7bd58eac3cbcc158e"
+  },
+  {
    "slug": "oudeland-van-strijen",
    "naam": "Oudeland van Strijen",
    "peildatum": "2026-08-04",
@@ -701,6 +782,15 @@
    "sha256DataJson": "1c872c8e65dd1fafe88d33862ac74d0d3a10e4b8b011927f10572ae004d1c1ef"
   },
   {
+   "slug": "rottige-meenthe-brandemeer",
+   "naam": "Rottige Meenthe & Brandemeer",
+   "peildatum": "2026-08-04",
+   "n": 1,
+   "ja": 0,
+   "onbekend": 0,
+   "sha256DataJson": "f4eb481723e7f01b4a9415f841b0df0db6ed0155335b2d9d6005e0ed78a78a58"
+  },
+  {
    "slug": "sarsven-de-banen",
    "naam": "Sarsven en De Banen",
    "peildatum": "2026-08-03",
@@ -744,6 +834,15 @@
    "ja": 13,
    "onbekend": 2,
    "sha256DataJson": "50dd4d08d1625c1d6acd77611e8b19d399f506242d800dd5dee4dd34c2eb5b7a"
+  },
+  {
+   "slug": "sneekermeergebied",
+   "naam": "Sneekermeergebied",
+   "peildatum": "2026-08-04",
+   "n": 27,
+   "ja": 8,
+   "onbekend": 0,
+   "sha256DataJson": "6bb27442d345a46b2b7b7f09ff2c842c58ee2e5e6d9e75ce8e83975ff525a357"
   },
   {
    "slug": "solleveld-kapittelduinen",
@@ -798,6 +897,15 @@
    "ja": 6,
    "onbekend": 0,
    "sha256DataJson": "3bb709240f5883bd2b75c88c01787e57e22a224b049b5252fd18fc643afbf218"
+  },
+  {
+   "slug": "van-oordts-mersken",
+   "naam": "Van Oordt's Mersken",
+   "peildatum": "2026-08-04",
+   "n": 12,
+   "ja": 3,
+   "onbekend": 0,
+   "sha256DataJson": "08827269bc3beb97780c12c008ac29cad20306785756ea8c26c3e266de29ed2b"
   },
   {
    "slug": "veerse-meer",
@@ -881,6 +989,15 @@
    "sha256DataJson": "8dcfc56db3f44effae1d82144705e0bf1137c508bb496d0c42c5564df618057d"
   },
   {
+   "slug": "wijnjeterper-schar",
+   "naam": "Wijnjeterper Schar",
+   "peildatum": "2026-08-04",
+   "n": 7,
+   "ja": 0,
+   "onbekend": 0,
+   "sha256DataJson": "daa44b837c058d7d7489027e7439c33e60bc46a8a6c4293ac9964f922602d0e9"
+  },
+  {
    "slug": "willinks-weust",
    "naam": "Willinks Weust",
    "peildatum": "2026-08-03",
@@ -888,6 +1005,15 @@
    "ja": 3,
    "onbekend": 0,
    "sha256DataJson": "310b8580f622ded89f93226f2cfdefa1fcdfefb00577ba6e70b39ea41906bc64"
+  },
+  {
+   "slug": "witte-zwarte-brekken",
+   "naam": "Witte en Zwarte Brekken",
+   "peildatum": "2026-08-04",
+   "n": 10,
+   "ja": 2,
+   "onbekend": 0,
+   "sha256DataJson": "887e60d0e5b7f530f11fb4533302ff8bcc115da4104ea24df9c38df0a8cab796"
   },
   {
    "slug": "witterveld",

@@ -6,6 +6,28 @@ precieze wijzigingen per gebied: `git log`. Entries staan in omgekeerd-chronolog
 volgorde; een latere entry kan dus een eerdere entry corrigeren of vervangen. Waar dat
 kan verwarren, is dat expliciet benoemd.
 
+## Uitbreiding naar Fryslân (14 nieuwe gebieden)
+
+107 naar 121 verwerkte gebieden: heel Fryslân, zuid naar noord (zesde ronde), op Waddenzee en
+Noordzeekustzone na - beide bewust overgeslagen wegens omvang (bbox-schaal vergelijkbaar met de
+al eerder om die reden uitgestelde Veluwe). Nieuwe totalen: 5442 boerderijen, 951 met
+BAG-industriefunctie-indicatie, 55 niet te controleren (was 5205/905/55). Zie README.md voor de
+volledige lijst per gebied.
+
+Eerste ronde waarin gewerkt is met een eigen git-branch per provincie (`friesland`) in plaats van
+rechtstreeks op `main` - een bewuste workflowwijziging van de gebruiker, geen technische noodzaak.
+
+Drie gebieden die wél op de natura2000.nl-provinciepagina van Fryslân staan (Drents-Friese Wold &
+Leggelderveld, Fochteloërveen, Lauwersmeer) classificeren via de bestaande point-in-polygon-
+provincietoets als Drenthe of Groningen, en zijn daarom bewust **niet** in deze ronde meegenomen -
+consistent met de methode dat provincie een afgeleide, geen aangenomen eigenschap is. Ze blijven
+staan voor een latere Drenthe/Groningen-ronde.
+
+Eigen fout gemaakt en gecorrigeerd tijdens deze ronde: de eerste versie van de beschrijvingen voor
+Alde Feanen en Wijnjeterper Schar was geschreven zonder ze daadwerkelijk op natura2000.nl te hebben
+opgezocht (een kopieerfout tussen twee onderzoeksbatches). Beide alsnog opgezocht en de
+beschrijvingen herschreven op basis van de echte brontekst, vóór het bouwen van de HTML-pagina's.
+
 ## Uitbreiding naar Noord-Holland, de Noordzee-EEZ, en een gemist Limburgs gebied (22 nieuwe gebieden)
 
 85 naar 107 verwerkte gebieden: heel Noord-Holland, zuid naar noord (vijfde ronde), plus alle 4

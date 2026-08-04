@@ -18,10 +18,10 @@ gebied "toebehoort", en kan elk gebied apart geverifieerd worden voordat het vol
 toegevoegd. Provincie is in deze opzet een **weergavelaag** (achteraf bepaald via een
 point-in-polygon-toets tegen de officiële PDOK-provinciegrenzen), geen zoekgrens.
 
-## Status: 107 van de 162 Natura 2000-gebieden verwerkt
+## Status: 121 van de 162 Natura 2000-gebieden verwerkt
 
 Nederland telt 162 Natura 2000-gebieden (bron: PDOK/RVO, waarvan 4 mariene gebieden in de
-Exclusieve Economische Zone op de Noordzee). Hiervan zijn er tot nu toe 107 verwerkt, inclusief
+Exclusieve Economische Zone op de Noordzee). Hiervan zijn er tot nu toe 121 verwerkt, inclusief
 alle 4 mariene gebieden - die laatste vier tonen structureel 0 boerderijen, omdat er simpelweg
 geen rijksmonument binnen 5 km van open zee ligt, maar zijn voor de volledigheid van het
 landsdekkende overzicht toch meegenomen:
@@ -166,23 +166,54 @@ kandidaten bleken Vlakte van de Raan en Voordelta wél boerderijen binnen 5 km t
 
 **Totaal (107 gebieden): 5205 | 905 | 55**
 
+### Zesde ronde: Fryslân, zuid naar noord
+
+Twee gebieden bewust overgeslagen wegens omvang: Waddenzee en Noordzeekustzone (vergelijkbare
+bbox-omvang als de al eerder om die reden uitgestelde Veluwe). Drie grensgebieden die op de
+natura2000.nl-provinciepagina van Fryslân staan maar via de point-in-polygon-provincietoets als
+Drenthe of Groningen classificeren (Drents-Friese Wold & Leggelderveld, Fochteloërveen,
+Lauwersmeer) blijven voor een latere Drenthe/Groningen-ronde staan, consistent met de bestaande
+methode (provincie = point-in-polygon-uitkomst, niet de website-indeling).
+
+| Gebied | Provincie(s) | Boerderijen | BAG-industriefunctie-indicatie | BAG niet te controleren |
+|---|---|---:|---:|---:|
+| [IJsselmeer](gebieden/ijsselmeer.html) | Fryslân / Noord-Holland | 71 | 12 | 0 |
+| [Rottige Meenthe & Brandemeer](gebieden/rottige-meenthe-brandemeer.html) | Overijssel | 1 | 0 | 0 |
+| [Oudegaasterbrekken, Fluessen en omgeving](gebieden/oudegaasterbrekken-fluessen.html) | Fryslân | 24 | 6 | 0 |
+| [Witte en Zwarte Brekken](gebieden/witte-zwarte-brekken.html) | Fryslân | 10 | 2 | 0 |
+| [Deelen](gebieden/deelen.html) | Fryslân | 9 | 4 | 0 |
+| [Van Oordt's Mersken](gebieden/van-oordts-mersken.html) | Fryslân | 12 | 3 | 0 |
+| [Sneekermeergebied](gebieden/sneekermeergebied.html) | Fryslân | 27 | 8 | 0 |
+| [Wijnjeterper Schar](gebieden/wijnjeterper-schar.html) | Fryslân | 7 | 0 | 0 |
+| [Alde Feanen](gebieden/alde-feanen.html) | Fryslân | 21 | 8 | 0 |
+| [Groote Wielen](gebieden/groote-wielen.html) | Fryslân | 13 | 3 | 0 |
+| [Duinen Vlieland](gebieden/duinen-vlieland.html) | n.v.t. | 0 | 0 | 0 |
+| [Duinen Terschelling](gebieden/duinen-terschelling.html) | Fryslân | 33 | 0 | 0 |
+| [Duinen Ameland](gebieden/duinen-ameland.html) | Fryslân | 9 | 0 | 0 |
+| [Duinen Schiermonnikoog](gebieden/duinen-schiermonnikoog.html) | n.v.t. | 0 | 0 | 0 |
+
+**Totaal (121 gebieden): 5442 | 951 | 55**
+
 Let op: de totaaltelling is een **som van per-gebied cijfers**, geen aantal unieke monumenten
 landelijk - een monument dat dicht bij meerdere Natura 2000-gebieden ligt (bv. tussen Bekendelle en
 Korenburgerveen) telt terecht in beide gebiedspagina's mee. De kolom "BAG niet te controleren" is
 géén bevestigde NEE - zie Methode, punt 5.
 
-**Resterend: 55 gebieden**, allemaal landgebieden - alle 4 mariene EEZ-gebieden zijn inmiddels
-verwerkt. Eerste ronde gewerkt vanuit Gelderland (Achterhoek, IJssel, Nijmegen-Mook, Gelderse
-Vallei), met bewust een paar provinciegrensgevallen erbij, uitgebreid naar Groningen, Drenthe en
-Fryslân om de aanpak ook buiten het zuidoosten te valideren, en vervolgens met eerste, losse
-gebieden in Utrecht, Zuid-Holland, Noord-Brabant en Zuid-Limburg. Tweede ronde: heel Limburg en
-Zeeland, zuid naar noord (inclusief enkele grote wateren als Oosterschelde/Westerschelde/Grevelingen,
-die dankzij de 5&nbsp;km-marge rond hun oevers nog altijd relevante aantallen opleverden). Derde
-ronde: heel Noord-Brabant, zuid naar noord. Vierde ronde: heel Utrecht en Zuid-Holland, zuid naar
-noord. Vijfde ronde: heel Noord-Holland, zuid naar noord, plus de 4 mariene gebieden in de
-Noordzee-EEZ en Maas bij Eijsden (een gemist Limburgs gebied dat bij de provincietoets geen
-polygontreffer opleverde). Nog niet aangeraakt: Noord-Limburg als hoofdgebied, en de grote gebieden
-(Veluwe, Waddenzee) die vanwege hun omvang bewust nog niet zijn opgepakt.
+**Resterend: 41 gebieden.** Eerste ronde gewerkt vanuit Gelderland (Achterhoek, IJssel,
+Nijmegen-Mook, Gelderse Vallei), met bewust een paar provinciegrensgevallen erbij, uitgebreid naar
+Groningen, Drenthe en Fryslân om de aanpak ook buiten het zuidoosten te valideren, en vervolgens
+met eerste, losse gebieden in Utrecht, Zuid-Holland, Noord-Brabant en Zuid-Limburg. Tweede ronde:
+heel Limburg en Zeeland, zuid naar noord (inclusief enkele grote wateren als
+Oosterschelde/Westerschelde/Grevelingen, die dankzij de 5&nbsp;km-marge rond hun oevers nog altijd
+relevante aantallen opleverden). Derde ronde: heel Noord-Brabant, zuid naar noord. Vierde ronde:
+heel Utrecht en Zuid-Holland, zuid naar noord. Vijfde ronde: heel Noord-Holland, zuid naar noord,
+plus de 4 mariene gebieden in de Noordzee-EEZ en Maas bij Eijsden (een gemist Limburgs gebied dat
+bij de provincietoets geen polygontreffer opleverde). Zesde ronde: heel Fryslân, zuid naar noord
+(op Waddenzee en Noordzeekustzone na, bewust overgeslagen wegens omvang). Nog niet aangeraakt:
+Drenthe, Groningen en Noord-Limburg als hoofdgebied (inclusief de drie Friese grensgebieden die bij
+Drenthe/Groningen classificeren: Drents-Friese Wold & Leggelderveld, Fochteloërveen, Lauwersmeer),
+en de grote gebieden (Veluwe, Waddenzee, Noordzeekustzone) die vanwege hun omvang bewust nog niet
+zijn opgepakt.
 
 ## Methode per gebied
 
@@ -235,7 +266,7 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
 - **Volledig afstands-bucketschema** invoeren: erin / < 250 m / < 1 km / < 5 km / < 25 km / ≥ 25 km
   (nu alleen erin + ≤ 5 km). Bewust uitgesteld tot na de landsdekkende opbouw van de eerste ronde
   gebieden.
-- De resterende ~55 Natura 2000-gebieden landsdekkend toevoegen.
+- De resterende ~41 Natura 2000-gebieden landsdekkend toevoegen.
 - **Download-knop (CSV)** per gebiedspagina: monumentenlijst (nr, adres, provincie, afstand, functie,
   status) exporteren.
 - **Klikbare popup voor het Natura 2000-gebied zelf** op de kaart, met de gebiedsbeschrijving.

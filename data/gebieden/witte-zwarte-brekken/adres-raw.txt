@@ -1,0 +1,14 @@
+Gevonden: 10 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16785 | It Ges | 6 | 8606JK | Sneek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19140 | Uilenburg | 56 | 8651EL | IJlst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26260 | De Weide | 1 | 8604VL | Sneek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35066 | It Ges | 8 | 8606JK | Sneek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36793 | Tsjaerddyk | 49 | 8773KN | Folsgare
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40997 | Uilenburg | 12 | 8651EK | IJlst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51915 | Hege Wier | 23 | 8628EM | Goënga
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55746 | De Ruterpolderwei | 3 | 8651ND | IJlst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62345 | Plústerdyk | 9 | 8512AH | Broek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65388 | Nr | 39 | 8529MK | Koufurderrige

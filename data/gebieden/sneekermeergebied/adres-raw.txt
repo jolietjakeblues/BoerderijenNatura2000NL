@@ -1,0 +1,32 @@
+Gevonden: 28 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10807 | Boarnsterdyk | 78 | 8491KR | Akkrum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10807 | Boarnsterdyk | 80 | 8491KR | Akkrum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12106 | Syl | 5 | 8493LL | Terherne
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16785 | It Ges | 6 | 8606JK | Sneek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18187 | Leeuwarderweg | 12 | 8505AA | Snikzwaag
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26260 | De Weide | 1 | 8604VL | Sneek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26812 | Kapellewei | 1 | 8468MK | Haskerdijken
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27008 | Buorren | 5 | 8542AA | Terkaple
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28588 | Soarremoarre | 1 | 8494NA | Nes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29436 | Fjildwei | 17 | 8541AB | Akmarijp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30085 | Oenemawei | 28 | 8542AE | Terkaple
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31669 | Reinerswei | 7 | 9001ZL | Grou
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33312 | Oenemawei | 18 | 8542AE | Terkaple
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34795 | Leppedyk | 56 | 8491GM | Akkrum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35066 | It Ges | 8 | 8606JK | Sneek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35534 | Fjildwei | 9 | 8541AB | Akmarijp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36605 | Boarnsterdyk | 76 | 8491KR | Akkrum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36901 | Suorein | 1 | 9001ZM | Grou
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40941 | de Pôlle | 2 | 9012DA | Raerd
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47785 | Leppedyk | 52 | 8491GM | Akkrum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51915 | Hege Wier | 23 | 8628EM | Goënga
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55162 | Syl | 3 | 8493LL | Terherne
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58417 | Learewei | 20 | 9011XB | Jirnsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58489 | Heechein | 25 | 8491EL | Akkrum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59835 | Poppenwiersterdyk | 5 | 9012DN | Raerd
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62124 | Learewei | 20 | 9011XB | Jirnsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62345 | Plústerdyk | 9 | 8512AH | Broek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77156 | Rijksstraatweg | 50 | 8468ME | Haskerdijken
