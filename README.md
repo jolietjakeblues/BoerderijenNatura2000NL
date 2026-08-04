@@ -88,12 +88,7 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
 - Normaliseren voor vergelijking tussen gebieden (per 100 km², per km gebiedsrand, aandeel actief,
   verdeling over afstandsklassen) - nadrukkelijk als beschrijvende statistiek, niet als stikstofmaat.
 - Wijzigingsgeschiedenis/snapshots per peildatum (wat veranderde sinds de vorige versie).
-- Visuele scheiding tussen brongegevens, ruimtelijk afgeleide data en indicatieve classificatie
-  (kleurcodering), zodat RCE-feiten en zelf afgeleide indicaties niet even zeker overkomen.
 - Deelbare kaartweergaven via URL-parameters (`?gebied=…&afstand=…&bedrijfsindicatie=…`).
-- Toegankelijkheid buiten de kaart: kleurenblind-vriendelijke symbolen op de kaart zelf (de
-  uitklapbare tekstlijst bestaat al, zie CHANGELOG.md), en de kaartpunten focusbaar/toetsenbord-
-  bedienbaar maken (Leaflet ondersteunt dit, nog niet aangesloten op de bestaande klik-detailweergave).
 - Compacte "wat kun je hiermee wel/niet zeggen"-kaart prominent bij de opening.
 
 ### Bewust niet gepland
