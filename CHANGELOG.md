@@ -6,6 +6,32 @@ precieze wijzigingen per gebied: `git log`. Entries staan in omgekeerd-chronolog
 volgorde; een latere entry kan dus een eerdere entry corrigeren of vervangen. Waar dat
 kan verwarren, is dat expliciet benoemd.
 
+## Toetsenbordbediening van kaartpunten, en visuele scheiding afstand/BAG-indicatie
+
+Twee toegankelijkheidsverbeteringen op de gebiedspagina's, gericht op mensen die niet met een muis
+werken en mensen die kleur niet (goed) kunnen onderscheiden:
+
+- **Kaartpunten zijn nu met het toetsenbord bedienbaar.** Leaflet's `circleMarker` is standaard niet
+  focusbaar; het onderliggende SVG-element (`marker.getElement()`) krijgt nu alsnog `tabindex="0"`,
+  `role="button"` en een `aria-label` met adres, provincie, afstandsklasse en BAG-indicatiestatus.
+  Enter en spatie openen hetzelfde detailpaneel als een muisklik. Een **skip-link** vóór de kaart
+  (zichtbaar op focus) springt naar een anker ná de kaart, zodat toetsenbordgebruikers niet
+  honderden marker-tabstops hoeven te doorlopen bij gebieden met veel monumenten; de link ontbreekt
+  bewust bij gebieden zonder monumenten (`Dobj.n > 0`).
+- **Kleur en randstijl zijn nu twee aparte visuele kanalen.** Voorheen stond het onderscheid tussen
+  ruimtelijk afgeleide afstandsclassificatie (kleur) en indicatieve BAG-industriefunctie-indicatie
+  (voorheen alleen tekst/tooltip) niet in de legenda. De legenda is opgesplitst in twee gegroepeerde
+  blokken met eigen `<h4>`-koppen: kleur = afstand, randstijl = BAG-indicatie (effen navy rand = wel,
+  dubbele ring = deels, stippellijn grijs = niet te controleren, dunne rand = geen indicatie). Omdat
+  dit onderscheid via vorm (rand) én kleur loopt - niet via kleur alleen - blijft het bruikbaar voor
+  kleurenblinde gebruikers. `:focus-visible`-outline toegevoegd voor Leaflet's SVG-markers.
+
+Geverifieerd in een echte browser: Tab-navigatie tussen markers, Enter- én spatie-activatie, correcte
+aria-labels, skip-link aanwezig/afwezig naar gebiedsgrootte, en de daadwerkelijke SVG-randstijlen
+(`stroke`, `stroke-width`, `stroke-dasharray`) van de markers gecontroleerd tegen de vier statussen.
+Alle 24 unit tests en de bbox-regex-check slagen; `validate.mjs` geeft geen fouten op alle 160
+gebieden.
+
 ## XSS-hardening compleet gemaakt, en CSV-formule-injectiebescherming
 
 De eerdere `</script>`-injectiefix beschermde alleen het ingebedde JSON-blok; een audit van heel
