@@ -243,7 +243,7 @@
           <tr><td>7014</td><td>Baambrugge</td><td>3.917 m</td><td>Geen industriefunctie aangetroffen</td></tr>
           <tr><td>17381</td><td>Ankeveen</td><td>447 m</td><td>Geen industriefunctie aangetroffen</td></tr>
           <tr><td>514640</td><td>Abcoude</td><td>3.174 m</td><td>Industriefunctie aangetroffen (eenduidig)</td></tr>
-          <tr><td>17380</td><td>'s-Graveland</td><td>520 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>17380</td><td>&#39;s-Graveland</td><td>520 m</td><td>Geen industriefunctie aangetroffen</td></tr>
           <tr><td>26213</td><td>Loosdrecht</td><td>87 m</td><td>Geen industriefunctie aangetroffen</td></tr>
           <tr><td>26490</td><td>Maartensdijk</td><td>3.212 m</td><td>Geen industriefunctie aangetroffen</td></tr>
           <tr><td>26200</td><td>Loosdrecht</td><td>33 m</td><td>Industriefunctie aangetroffen (eenduidig)</td></tr>
@@ -254,7 +254,7 @@
           <tr><td>37517</td><td>Haarzuilens</td><td>4.755 m</td><td>Geen industriefunctie aangetroffen</td></tr>
           <tr><td>6783</td><td>Abcoude</td><td>3.809 m</td><td>Geen industriefunctie aangetroffen</td></tr>
           <tr><td>30132</td><td>Muiderberg</td><td>4.200 m</td><td>Geen industriefunctie aangetroffen</td></tr>
-          <tr><td>17332</td><td>'s-Graveland</td><td>1.164 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>17332</td><td>&#39;s-Graveland</td><td>1.164 m</td><td>Geen industriefunctie aangetroffen</td></tr>
           <tr><td>26194</td><td>Loosdrecht</td><td>38 m</td><td>Geen industriefunctie aangetroffen</td></tr>
           <tr><td>6984</td><td>Baambrugge</td><td>3.339 m</td><td>Industriefunctie aangetroffen bij een deel van de adressen</td></tr>
           <tr><td>26514</td><td>Westbroek</td><td>731 m</td><td>Geen industriefunctie aangetroffen</td></tr>
@@ -273,7 +273,7 @@
           <tr><td>530443</td><td>Weesp</td><td>2.857 m</td><td>Geen industriefunctie aangetroffen</td></tr>
           <tr><td>530442</td><td>Weesp</td><td>3.005 m</td><td>Industriefunctie aangetroffen (eenduidig)</td></tr>
           <tr><td>530447</td><td>Weesp</td><td>1.872 m</td><td>Geen industriefunctie aangetroffen</td></tr>
-          <tr><td>524073</td><td>'s-Graveland</td><td>1.782 m</td><td>Industriefunctie aangetroffen (eenduidig)</td></tr>
+          <tr><td>524073</td><td>&#39;s-Graveland</td><td>1.782 m</td><td>Industriefunctie aangetroffen (eenduidig)</td></tr>
           <tr><td>519624</td><td>Oud Zuilen</td><td>1.984 m</td><td>Geen industriefunctie aangetroffen</td></tr>
           <tr><td>511841</td><td>Loenersloot</td><td>2.531 m</td><td>Geen industriefunctie aangetroffen</td></tr>
           <tr><td>510530</td><td>Breukelen</td><td>1.255 m</td><td>Geen industriefunctie aangetroffen</td></tr>
@@ -282,7 +282,7 @@
           <tr><td>526632</td><td>Breukelen</td><td>877 m</td><td>Geen industriefunctie aangetroffen</td></tr>
           <tr><td>403068</td><td>Nieuwersluis</td><td>2.352 m</td><td>Geen industriefunctie aangetroffen</td></tr>
           <tr><td>524854</td><td>Tienhoven</td><td>46 m</td><td>Industriefunctie aangetroffen bij een deel van de adressen</td></tr>
-          <tr><td>17363</td><td>'s-Graveland</td><td>655 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>17363</td><td>&#39;s-Graveland</td><td>655 m</td><td>Geen industriefunctie aangetroffen</td></tr>
           <tr><td>530206</td><td>Muiden</td><td>4.575 m</td><td>Geen industriefunctie aangetroffen</td></tr>
           <tr><td>514613</td><td>Abcoude</td><td>4.852 m</td><td>Geen industriefunctie aangetroffen</td></tr>
           <tr><td>508262</td><td>Breukelen</td><td>932 m</td><td>Geen industriefunctie aangetroffen</td></tr>
@@ -335,6 +335,10 @@ const D = JSON.parse(document.getElementById('data').textContent);
 const META = JSON.parse(document.getElementById('meta').textContent);
 const $ = id => document.getElementById(id);
 const fmt = n => n.toLocaleString('nl-NL');
+// Escaping voor tekst die hier client-side via innerHTML of Leaflet-tooltips/-popups (die content
+// zelf ook als HTML renderen) wordt ingevoegd: adres-, functie- en plaatsnaamvelden komen uit BAG/
+// RCE, niet door ons zelf geschreven.
+const escHtml = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
 const KC = ['#7A1607','#D1401F','#E0703C','#E5B08E','#B7C7D2','#B7C7D2'];
 const KN = ['erin','<250 m','<1 km','<5 km','<25 km','\u226525 km'];
 let filterJa = false;
@@ -363,7 +367,7 @@ D.n2000.forEach(g => g.rings.forEach(ring => {
   }).addTo(n2000Layer);
   poly.bindTooltip('Klik voor gebiedsbeschrijving', { sticky: true });
   poly.bindPopup(
-    `<b>${META.gebied}</b><p style="margin-top:6px">${META.tekst}</p><p style="margin-top:6px"><a href="${META.bron}" target="_blank" rel="noopener" style="color:var(--blue-mid)">Bron: natura2000.nl &rarr;</a></p>`,
+    `<b>${escHtml(META.gebied)}</b><p style="margin-top:6px">${escHtml(META.tekst)}</p><p style="margin-top:6px"><a href="${escHtml(META.bron)}" target="_blank" rel="noopener" style="color:var(--blue-mid)">Bron: natura2000.nl &rarr;</a></p>`,
     { maxWidth: 320 }
   );
 }));
@@ -379,13 +383,13 @@ const STATUS_LABEL = {
 const detail = $('detail');
 function toonDetail(m){
   const adressenHtml = (m.addressen||[]).map((a,i)=>
-    `<dt>adres ${i+1}</dt><dd>${a.straat} ${a.huisnr}, ${a.postcode} ${a.woonplaats}${a.gebruiksdoel ? ', gebruiksdoel: '+a.gebruiksdoel : ', geen BAG-match'}</dd>`
+    `<dt>adres ${i+1}</dt><dd>${escHtml(a.straat)} ${escHtml(a.huisnr)}, ${escHtml(a.postcode)} ${escHtml(a.woonplaats)}${a.gebruiksdoel ? ', gebruiksdoel: '+escHtml(a.gebruiksdoel) : ', geen BAG-match'}</dd>`
   ).join('');
   detail.innerHTML = `<dl>
-    <dt>rijksmonumentnummer</dt><dd>${m.nr} (<a href="https://monumentenregister.cultureelerfgoed.nl/monumenten/${m.nr}" target="_blank" rel="noopener" style="color:var(--blue-mid)">Monumentenregister &rarr;</a>${m.rm ? ` &middot; <a href="${m.rm}" target="_blank" rel="noopener" style="color:var(--blue-mid)">RCE linked data &rarr;</a>` : ''})</dd>
-    <dt>oorspronkelijke functie</dt><dd>${m.functie||'onbekend'}</dd>
-    <dt>ligging</dt><dd>${m.erin ? 'binnen het Natura 2000-gebied' : `${fmt(m.afstandTotRand)} m van de gebiedsrand`} \u00b7 ${KN[m.k]}-klasse \u00b7 ${m.prov}</dd>
-    <dt>status</dt><dd>${STATUS_LABEL[m.status]||m.status}</dd>
+    <dt>rijksmonumentnummer</dt><dd>${escHtml(m.nr)} (<a href="https://monumentenregister.cultureelerfgoed.nl/monumenten/${encodeURIComponent(m.nr)}" target="_blank" rel="noopener" style="color:var(--blue-mid)">Monumentenregister &rarr;</a>${m.rm ? ` &middot; <a href="${escHtml(m.rm)}" target="_blank" rel="noopener" style="color:var(--blue-mid)">RCE linked data &rarr;</a>` : ''})</dd>
+    <dt>oorspronkelijke functie</dt><dd>${escHtml(m.functie||'onbekend')}</dd>
+    <dt>ligging</dt><dd>${m.erin ? 'binnen het Natura 2000-gebied' : `${fmt(m.afstandTotRand)} m van de gebiedsrand`} \u00b7 ${escHtml(KN[m.k])}-klasse \u00b7 ${escHtml(m.prov)}</dd>
+    <dt>status</dt><dd>${escHtml(STATUS_LABEL[m.status]||m.status)}</dd>
     ${adressenHtml}
     <dt>peildatum</dt><dd>2026-08-04</dd>
   </dl>`;
@@ -393,7 +397,11 @@ function toonDetail(m){
 }
 
 function csvVeld(v){
-  const s = String(v ?? '');
+  let s = String(v ?? '');
+  // Bescherm tegen CSV-/spreadsheetformule-injectie (OWASP): een veld dat begint met =, +, -, @,
+  // tab of CR wordt door Excel/Sheets/LibreOffice als formule geïnterpreteerd bij het openen. Een
+  // voorloop-apostrof dwingt platte tekst af zonder de zichtbare celwaarde te veranderen.
+  if (/^[=+\-@\t\r]/.test(s)) s = "'" + s;
   return /[",\n;]/.test(s) ? '"' + s.replace(/"/g,'""') + '"' : s;
 }
 function monumentenCsv(mons){
@@ -434,7 +442,7 @@ function renderMarkers(){
       marker.setStyle({color:'#8A8A8A', weight:1, dashArray:'2,2'});
     }
     marker.bindTooltip(
-      `rm ${m.nr} \u00b7 ${m.straat||''} ${m.huisnr||''}, ${m.wpl||''} \u00b7 ${m.prov} \u00b7 ${KN[m.k]} van Oostelijke Vechtplassen`+
+      `rm ${escHtml(m.nr)} \u00b7 ${escHtml(m.straat||'')} ${escHtml(m.huisnr||'')}, ${escHtml(m.wpl||'')} \u00b7 ${escHtml(m.prov)} \u00b7 ${escHtml(KN[m.k])} van ${escHtml(D.gebied)}`+
       (m.d>0 ? ` (${fmt(m.d)} m)` : '') + (m.ja ? ' \u00b7 BAG-industriefunctie-indicatie' : (m.bag!=='ok' ? ' \u00b7 BAG niet te controleren' : ''))
     );
     marker.on('click', ()=>toonDetail(m));
