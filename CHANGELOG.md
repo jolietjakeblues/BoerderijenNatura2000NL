@@ -6,6 +6,31 @@ precieze wijzigingen per gebied: `git log`. Entries staan in omgekeerd-chronolog
 volgorde; een latere entry kan dus een eerdere entry corrigeren of vervangen. Waar dat
 kan verwarren, is dat expliciet benoemd.
 
+## Uitbreiding naar Flevoland (6 nieuwe gebieden)
+
+121 naar 127 verwerkte gebieden: heel Flevoland, zuid naar noord (zevende ronde) - de resterende 6
+gebieden die niet al via een andere provincie waren meegenomen (IJsselmeer, Eemmeer & Gooimeer
+Zuidoever en De Wieden liepen al eerder mee). Nieuwe totalen: 5632 boerderijen, 989 met
+BAG-industriefunctie-indicatie, 60 niet te controleren (was 5442/951/55). Zie README.md voor de
+volledige lijst per gebied. Lepelaarplassen en Oostvaardersplassen leverden 0 boerderijen op binnen
+de 5&nbsp;km-grens, verklaarbaar door de jonge inpoldering rond Almere en Lelystad.
+
+Tweede ronde met een eigen git-branch per provincie (`flevoland`, na `friesland`). Tijdens het
+opzetten bleek de lokale `main` zeven commits achter te lopen op `origin/main` (de `friesland`-PR
+en een dependabot-config-PR waren op GitHub gemerged, maar nog niet lokaal opgehaald) - de
+`flevoland`-branch was per ongeluk vanaf de verouderde lokale `main` aangemaakt. Hersteld door de
+al gebouwde, nog niet gecommitte voortgang (Veluwerandmeren) te stashen, lokale `main`
+fast-forward te brengen naar `origin/main`, `flevoland` daarna op de bijgewerkte `main` te zetten,
+en de stash terug te zetten.
+
+`validate.mjs`'s manifest-sha256-verscheheidscontrole (toegevoegd tijdens de `friesland`-ronde)
+sloeg tijdens deze branch-correctie 97 keer aan: de git-operaties (`stash`/`checkout`/`reset
+--hard`) schreven bestaande brontekstbestanden stilzwijgend van LF naar CRLF terug
+(`core.autocrlf` op Windows), wat de eerder vastgelegde SHA-256-hashes in alle manifest.json's
+ongeldig maakte zonder dat de inhoud inhoudelijk was veranderd. Opgelost door alle manifesten
+opnieuw te genereren (`scripts/09-bouw-manifest.mjs` per gebied) - geen actie nodig in de
+pijplijnscripts zelf, want de check deed precies waarvoor hij bedoeld was.
+
 ## Uitbreiding naar Fryslân (14 nieuwe gebieden)
 
 107 naar 121 verwerkte gebieden: heel Fryslân, zuid naar noord (zesde ronde), op Waddenzee en
