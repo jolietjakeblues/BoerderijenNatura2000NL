@@ -18,6 +18,13 @@ const OUT = path.join(__dirname, '..', 'index.html');
 
 const provinciesGeoJSON = JSON.parse(fs.readFileSync(path.join(RAW_DIR, 'provincies.json'), 'utf-8'));
 
+// HTML-escaping voor tekst die hier direct in de opmaak (tekstinhoud én attributen) terechtkomt:
+// gebiedsnaam (landelijke WFS) en richtlijn-badge (RCE) zijn externe brondata, niet door ons zelf
+// geschreven. Zie ook scripts/06-build-gebied-html.mjs, dezelfde functie/toelichting.
+function esc(s) {
+  return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
 const slugs = fs.existsSync(GEBIEDEN_DIR)
   ? fs.readdirSync(GEBIEDEN_DIR).filter(f => fs.existsSync(path.join(GEBIEDEN_DIR, f, 'data.json')))
   : [];
@@ -61,18 +68,18 @@ function gcard(g) {
   const status = g.n === 0 ? 'Geen boerderijen gevonden' : null;
   const stikstofAttr = g.stikstofgevoelig === true ? 'ja' : g.stikstofgevoelig === false ? 'nee' : '';
   return `
-      <a class="gcard" href="${g.href}"
-        data-naam="${g.naam.toLowerCase()}"
-        data-richtlijn="${g.richtlijnBadge || ''}"
+      <a class="gcard" href="${esc(g.href)}"
+        data-naam="${esc(g.naam.toLowerCase())}"
+        data-richtlijn="${esc(g.richtlijnBadge || '')}"
         data-stikstof="${stikstofAttr}"
         data-n="${g.n}"
-        data-peildatum="${g.peildatum || ''}">
+        data-peildatum="${esc(g.peildatum || '')}">
         <div class="gcard-top">
           ${status ? `<span class="gcard-status">${status}</span>` : ''}
-          ${g.richtlijnBadge ? `<span class="badge-richtlijn">${g.richtlijnBadge}</span>` : ''}
+          ${g.richtlijnBadge ? `<span class="badge-richtlijn">${esc(g.richtlijnBadge)}</span>` : ''}
         </div>
-        <h3>${g.naam}</h3>
-        <p class="gcard-sub">${[g.ligging, g.provincies.join(' / ')].filter(Boolean).join(' &middot; ')}</p>
+        <h3>${esc(g.naam)}</h3>
+        <p class="gcard-sub">${[g.ligging && esc(g.ligging), g.provincies.length ? esc(g.provincies.join(' / ')) : ''].filter(Boolean).join(' &middot; ')}</p>
         <div class="gcard-stats">
           <span><b>${g.n}</b> boerderijen</span>
           <span><b>${g.ja}</b> industriefunctie-indicatie</span>
@@ -102,16 +109,16 @@ const jumpNav = provincieVolgorde.map(p =>
 const provincieSections = provincieVolgorde.map(p => {
   const lijst = provincieSecties.get(p);
   return `
-  <div class="card prov-sectie" id="prov-${provincieSlug(p)}" data-provincie="${p}">
-    <h2>${p} &middot; <span class="sectie-teller">${lijst.length} van ${lijst.length}</span> gebied${lijst.length === 1 ? '' : 'en'}</h2>
+  <div class="card prov-sectie" id="prov-${provincieSlug(p)}" data-provincie="${esc(p)}">
+    <h2>${esc(p)} &middot; <span class="sectie-teller">${lijst.length} van ${lijst.length}</span> gebied${lijst.length === 1 ? '' : 'en'}</h2>
     <div class="gebieden-grid">${lijst.map(gcard).join('\n')}
     </div>
   </div>`;
 }).join('\n');
 
 const richtlijnWaarden = [...new Set(gebieden.map(g => g.richtlijnBadge).filter(Boolean))].sort();
-const provincieOpties = provincieVolgorde.map(p => `<option value="${p}">${p}</option>`).join('\n      ');
-const richtlijnOpties = richtlijnWaarden.map(r => `<option value="${r}">${r}</option>`).join('\n      ');
+const provincieOpties = provincieVolgorde.map(p => `<option value="${esc(p)}">${esc(p)}</option>`).join('\n      ');
+const richtlijnOpties = richtlijnWaarden.map(r => `<option value="${esc(r)}">${esc(r)}</option>`).join('\n      ');
 
 const html = `<!DOCTYPE html>
 <html lang="nl">

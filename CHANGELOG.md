@@ -6,6 +6,47 @@ precieze wijzigingen per gebied: `git log`. Entries staan in omgekeerd-chronolog
 volgorde; een latere entry kan dus een eerdere entry corrigeren of vervangen. Waar dat
 kan verwarren, is dat expliciet benoemd.
 
+## XSS-hardening compleet gemaakt, en CSV-formule-injectiebescherming
+
+De eerdere `</script>`-injectiefix beschermde alleen het ingebedde JSON-blok; een audit van heel
+`scripts/06-build-gebied-html.mjs` vond twee bredere, nog open categorieën:
+
+- **Server-side gerenderde HTML zonder escaping.** Gebiedsnaam (landelijke WFS), richtlijn-label,
+  -gebiedsnummer, -sitecodes, en de monumententabel (rijksmonumentnummer, woonplaats) werden
+  rechtstreeks in de statische HTML geschreven, zonder HTML-escaping. Een nieuwe `esc()`-functie
+  (server-side) is nu toegepast op elk van deze plekken.
+- **Client-side `innerHTML`/Leaflet-tooltips en -popups zonder escaping.** `toonDetail()` (het
+  monumentdetailpaneel) zette BAG-adresvelden (straat, huisnummer, postcode, woonplaats,
+  gebruiksdoel) en de oorspronkelijke functie rechtstreeks in `innerHTML`; de kaartmarker-tooltips
+  en de nieuwe gebiedspopup deden hetzelfde (Leaflet rendert tooltip-/popup-content als HTML, niet
+  als platte tekst). Een nieuwe `escHtml()`-functie (client-side) is nu toegepast op alle
+  BAG/RCE-afkomstige velden op deze plekken. Bijvangst: de gebiedsnaam werd in de tooltip-opbouw
+  nog rechtstreeks als Node-side stringsplice ingevoegd (`${Dobj.gebied}` i.p.v. `\${D.gebied}`) -
+  dat is nu een veilige runtime-referentie naar de al JSON-geparste waarde, in lijn met hoe alle
+  andere velden op die regel al werkten.
+
+Geverifieerd met daadwerkelijke payloads (`<img src=x onerror=...>`, `</script><script>...</script>`,
+`<svg onload=...>`) door `toonDetail()`, de tooltip-opbouw en `esc()` zelf gehaald, in een echte
+browser: geen van de payloads komt als uitvoerbare tag terug, overal consequent ge-escaped naar
+`&lt;`/`&gt;`/etc. Bevestigd op echte data dat `esc()` een gebiedsnaam met een `&`
+("Zwin & Kievittepolder") correct naar `&amp;` omzet.
+
+**CSV-formule-injectie (OWASP CSV Injection).** De CSV-export quote'de al velden met komma's,
+aanhalingstekens en regeleinden correct, maar beschermde niet tegen spreadsheetformules: een
+BAG-adresveld dat toevallig begint met `=`, `+`, `-` of `@` zou door Excel/Sheets/LibreOffice bij
+het openen als formule geïnterpreteerd kunnen worden. `csvVeld()` zet nu een voorloop-apostrof voor
+een veld dat met een van die tekens (of tab/CR) begint, wat platte-tekstinterpretatie afdwingt
+zonder de zichtbare celwaarde te veranderen. Geverifieerd met `=cmd|"/c calc"!A0` en `@SUM(A1:A9)`
+als testinvoer.
+
+**Zelfde audit uitgebreid naar `scripts/07-build-landing-html.mjs`** (de landingspagina): dezelfde
+`esc()`-functie toegevoegd en toegepast op gebiedsnaam, richtlijn-badge, ligging en provincienaam,
+zowel in tekstinhoud als in `data-*`-attributen (`gcard()`, de provincie-sectiekoppen, en de
+filter-`<option>`-lijsten). Het client-side zoek-/filter-/sorteerscript in dit bestand gebruikte al
+uitsluitend `textContent` en `dataset`-vergelijkingen, nooit `innerHTML` - daar was dus niets te
+repareren. Herbouwd en in een browser getest: zoeken op een gebiedsnaam met een `&`
+("Drents-Friese Wold & Leggelderveld") werkt en toont correct, geen consolefouten.
+
 ## BRONNEN.md toegevoegd
 
 Nieuw overzicht van alle geraadpleegde bronnen: de brondata die de pijplijn programmatisch bevraagt

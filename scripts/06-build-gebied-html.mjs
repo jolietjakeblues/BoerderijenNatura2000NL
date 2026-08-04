@@ -28,6 +28,16 @@ function jsonScriptSafe(jsonString) {
 }
 const Dsafe = jsonScriptSafe(D);
 
+// HTML-escaping voor tekst die serverside (hier, tijdens het bouwen) direct in de HTML-opmaak
+// terechtkomt: gebiedsnaam (landelijke WFS), richtlijn-sitecodes en monumentvelden (rmnr,
+// woonplaats) zijn alle drie externe brondata, niet door ons zelf geschreven. Zonder dit zou
+// een `<` in zo'n veld hier al als HTML-markup gaan renderen, los van het losse
+// `</script>`-lek dat jsonScriptSafe hierboven afdekt (dat beschermt alleen het ingebedde
+// JSON-blok, niet deze rechtstreeks gerenderde HTML).
+function esc(s) {
+  return String(s ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+}
+
 const meta = GEBIEDEN_BESCHRIJVING[slug] || { tekst: '(nog geen beschrijving toegevoegd aan scripts/lib/gebieden-beschrijving.mjs)', bron: 'https://www.natura2000.nl/gebieden' };
 
 // Meld-een-fout-link: opent een vooringevulde GitHub issue (form-template), zodat een melder niet
@@ -84,9 +94,9 @@ const datakwaliteitCard = dk ? `
 function sitecodeTekst(r) {
   if (!r) return '';
   const vr = r.siteCodeVogelrichtlijn, hr = r.siteCodeHabitatrichtlijn;
-  if (vr && hr && vr === hr) return ` &middot; sitecode ${vr}`;
-  if (vr && hr) return ` &middot; VR-sitecode ${vr} &middot; HR-sitecode ${hr}`;
-  if (vr || hr) return ` &middot; sitecode ${vr || hr}`;
+  if (vr && hr && vr === hr) return ` &middot; sitecode ${esc(vr)}`;
+  if (vr && hr) return ` &middot; VR-sitecode ${esc(vr)} &middot; HR-sitecode ${esc(hr)}`;
+  if (vr || hr) return ` &middot; sitecode ${esc(vr || hr)}`;
   return '';
 }
 
@@ -95,7 +105,7 @@ const head = `<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>${Dobj.gebied} &middot; Boerderij-rijksmonumenten &amp; Natura 2000</title>
+<title>${esc(Dobj.gebied)} &middot; Boerderij-rijksmonumenten &amp; Natura 2000</title>
 <link rel="stylesheet"
   href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
   integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
@@ -166,12 +176,12 @@ const head = `<!DOCTYPE html>
   <p style="font-size:13px;margin-top:14px"><a href="../index.html" style="color:var(--blue-mid)">&larr; terug naar overzicht alle Natura 2000-gebieden</a></p>
   <header>
     <div class="eyebrow">RCE &times; Kadaster &times; Natura 2000</div>
-    <h1>${Dobj.gebied}</h1>
+    <h1>${esc(Dobj.gebied)}</h1>
     ${Dobj.richtlijn ? `<div class="richtlijn-row">
-      <span class="badge-richtlijn">${Dobj.richtlijn.label}</span>
-      <span class="richtlijn-meta">Natura 2000-gebied nr. ${Dobj.richtlijn.gebiedsnummer}${sitecodeTekst(Dobj.richtlijn)} &middot; stikstofgevoelig: ${Dobj.richtlijn.stikstofgevoelig ? 'ja' : 'nee'}</span>
+      <span class="badge-richtlijn">${esc(Dobj.richtlijn.label)}</span>
+      <span class="richtlijn-meta">Natura 2000-gebied nr. ${esc(Dobj.richtlijn.gebiedsnummer)}${sitecodeTekst(Dobj.richtlijn)} &middot; stikstofgevoelig: ${Dobj.richtlijn.stikstofgevoelig ? 'ja' : 'nee'}</span>
     </div>` : ''}
-    <p>${meta.tekst} <a href="${meta.bron}" style="color:var(--blue-mid)" target="_blank" rel="noopener">Bron: natura2000.nl &rarr;</a>${Dobj.richtlijn ? ` &middot; <a href="${Dobj.richtlijn.rceUris[0]}" style="color:var(--blue-mid)" target="_blank" rel="noopener">RCE linked data${Dobj.richtlijn.rceUris.length > 1 ? ' (1 van ' + Dobj.richtlijn.rceUris.length + ' richtlijndelen)' : ''} &rarr;</a>` : ''}${Dobj.richtlijn?.wikidata ? ` &middot; <a href="${Dobj.richtlijn.wikidata}" style="color:var(--blue-mid)" target="_blank" rel="noopener">Wikidata &rarr;</a>` : ''}</p>
+    <p>${esc(meta.tekst)} <a href="${esc(meta.bron)}" style="color:var(--blue-mid)" target="_blank" rel="noopener">Bron: natura2000.nl &rarr;</a>${Dobj.richtlijn ? ` &middot; <a href="${esc(Dobj.richtlijn.rceUris[0])}" style="color:var(--blue-mid)" target="_blank" rel="noopener">RCE linked data${Dobj.richtlijn.rceUris.length > 1 ? ' (1 van ' + Dobj.richtlijn.rceUris.length + ' richtlijndelen)' : ''} &rarr;</a>` : ''}${Dobj.richtlijn?.wikidata ? ` &middot; <a href="${esc(Dobj.richtlijn.wikidata)}" style="color:var(--blue-mid)" target="_blank" rel="noopener">Wikidata &rarr;</a>` : ''}</p>
     <p>Rijksmonumentale boerderijen binnen dit Natura 2000-gebied of binnen 5&nbsp;km
     van de gebiedsrand (een gekozen selectievenster, geen ecologische invloedssfeer), met een
     BAG-industriefunctie-indicatie op basis van BAG-gebruiksdoel (een aanwijzing, geen bewijs van
@@ -189,7 +199,7 @@ const head = `<!DOCTYPE html>
       <button class="chip" id="fJa" aria-pressed="false">Alleen BAG-industriefunctie-indicatie</button>
       <button class="chip" id="csvBtn" type="button">CSV downloaden &darr;</button>
     </div>`}
-    <div id="map" aria-label="Kaart van het Natura 2000-gebied ${Dobj.gebied} met rijksmonumentale boerderijen, met een OpenStreetMap-ondergrond"></div>
+    <div id="map" aria-label="Kaart van het Natura 2000-gebied ${esc(Dobj.gebied)} met rijksmonumentale boerderijen, met een OpenStreetMap-ondergrond"></div>
     <div class="legend">
       <span><i class="sq" style="background:rgba(94,125,70,.3);border:1px solid var(--n2k)"></i>Natura 2000 (klikbaar)</span>
       <span><i class="sw" style="background:var(--k0)"></i>erin</span>
@@ -213,7 +223,7 @@ const head = `<!DOCTYPE html>
       <table>
         <thead><tr><th>Rm-nr</th><th>Plaats</th><th>Afstand</th><th>Status</th></tr></thead>
         <tbody>
-          ${Dobj.mons.map(m => `<tr><td>${m.nr}</td><td>${m.wpl || '-'}</td><td>${m.erin ? 'binnen gebied' : fmtNL(m.afstandTotRand) + ' m'}</td><td>${STATUS_LABEL_STATIC[m.status] || m.status}</td></tr>`).join('\n          ')}
+          ${Dobj.mons.map(m => `<tr><td>${esc(m.nr)}</td><td>${esc(m.wpl || '-')}</td><td>${m.erin ? 'binnen gebied' : fmtNL(m.afstandTotRand) + ' m'}</td><td>${esc(STATUS_LABEL_STATIC[m.status] || m.status)}</td></tr>`).join('\n          ')}
         </tbody>
       </table>
     </details>` : ''}
@@ -252,6 +262,10 @@ const D = JSON.parse(document.getElementById('data').textContent);
 const META = JSON.parse(document.getElementById('meta').textContent);
 const $ = id => document.getElementById(id);
 const fmt = n => n.toLocaleString('nl-NL');
+// Escaping voor tekst die hier client-side via innerHTML of Leaflet-tooltips/-popups (die content
+// zelf ook als HTML renderen) wordt ingevoegd: adres-, functie- en plaatsnaamvelden komen uit BAG/
+// RCE, niet door ons zelf geschreven.
+const escHtml = s => String(s ?? '').replace(/[&<>"']/g, c => ({ '&':'&amp;', '<':'&lt;', '>':'&gt;', '"':'&quot;', "'":'&#39;' }[c]));
 const KC = ['#7A1607','#D1401F','#E0703C','#E5B08E','#B7C7D2','#B7C7D2'];
 const KN = ['erin','<250 m','<1 km','<5 km','<25 km','\\u226525 km'];
 let filterJa = false;
@@ -273,7 +287,7 @@ D.n2000.forEach(g => g.rings.forEach(ring => {
   }).addTo(n2000Layer);
   poly.bindTooltip('Klik voor gebiedsbeschrijving', { sticky: true });
   poly.bindPopup(
-    \`<b>\${META.gebied}</b><p style="margin-top:6px">\${META.tekst}</p><p style="margin-top:6px"><a href="\${META.bron}" target="_blank" rel="noopener" style="color:var(--blue-mid)">Bron: natura2000.nl &rarr;</a></p>\`,
+    \`<b>\${escHtml(META.gebied)}</b><p style="margin-top:6px">\${escHtml(META.tekst)}</p><p style="margin-top:6px"><a href="\${escHtml(META.bron)}" target="_blank" rel="noopener" style="color:var(--blue-mid)">Bron: natura2000.nl &rarr;</a></p>\`,
     { maxWidth: 320 }
   );
 }));
@@ -289,13 +303,13 @@ const STATUS_LABEL = {
 const detail = $('detail');
 function toonDetail(m){
   const adressenHtml = (m.addressen||[]).map((a,i)=>
-    \`<dt>adres \${i+1}</dt><dd>\${a.straat} \${a.huisnr}, \${a.postcode} \${a.woonplaats}\${a.gebruiksdoel ? ', gebruiksdoel: '+a.gebruiksdoel : ', geen BAG-match'}</dd>\`
+    \`<dt>adres \${i+1}</dt><dd>\${escHtml(a.straat)} \${escHtml(a.huisnr)}, \${escHtml(a.postcode)} \${escHtml(a.woonplaats)}\${a.gebruiksdoel ? ', gebruiksdoel: '+escHtml(a.gebruiksdoel) : ', geen BAG-match'}</dd>\`
   ).join('');
   detail.innerHTML = \`<dl>
-    <dt>rijksmonumentnummer</dt><dd>\${m.nr} (<a href="https://monumentenregister.cultureelerfgoed.nl/monumenten/\${m.nr}" target="_blank" rel="noopener" style="color:var(--blue-mid)">Monumentenregister &rarr;</a>\${m.rm ? \` &middot; <a href="\${m.rm}" target="_blank" rel="noopener" style="color:var(--blue-mid)">RCE linked data &rarr;</a>\` : ''})</dd>
-    <dt>oorspronkelijke functie</dt><dd>\${m.functie||'onbekend'}</dd>
-    <dt>ligging</dt><dd>\${m.erin ? 'binnen het Natura 2000-gebied' : \`\${fmt(m.afstandTotRand)} m van de gebiedsrand\`} \\u00b7 \${KN[m.k]}-klasse \\u00b7 \${m.prov}</dd>
-    <dt>status</dt><dd>\${STATUS_LABEL[m.status]||m.status}</dd>
+    <dt>rijksmonumentnummer</dt><dd>\${escHtml(m.nr)} (<a href="https://monumentenregister.cultureelerfgoed.nl/monumenten/\${encodeURIComponent(m.nr)}" target="_blank" rel="noopener" style="color:var(--blue-mid)">Monumentenregister &rarr;</a>\${m.rm ? \` &middot; <a href="\${escHtml(m.rm)}" target="_blank" rel="noopener" style="color:var(--blue-mid)">RCE linked data &rarr;</a>\` : ''})</dd>
+    <dt>oorspronkelijke functie</dt><dd>\${escHtml(m.functie||'onbekend')}</dd>
+    <dt>ligging</dt><dd>\${m.erin ? 'binnen het Natura 2000-gebied' : \`\${fmt(m.afstandTotRand)} m van de gebiedsrand\`} \\u00b7 \${escHtml(KN[m.k])}-klasse \\u00b7 \${escHtml(m.prov)}</dd>
+    <dt>status</dt><dd>\${escHtml(STATUS_LABEL[m.status]||m.status)}</dd>
     \${adressenHtml}
     <dt>peildatum</dt><dd>${Dobj.peildatum}</dd>
   </dl>\`;
@@ -303,7 +317,11 @@ function toonDetail(m){
 }
 
 function csvVeld(v){
-  const s = String(v ?? '');
+  let s = String(v ?? '');
+  // Bescherm tegen CSV-/spreadsheetformule-injectie (OWASP): een veld dat begint met =, +, -, @,
+  // tab of CR wordt door Excel/Sheets/LibreOffice als formule geïnterpreteerd bij het openen. Een
+  // voorloop-apostrof dwingt platte tekst af zonder de zichtbare celwaarde te veranderen.
+  if (/^[=+\\-@\\t\\r]/.test(s)) s = "'" + s;
   return /[",\\n;]/.test(s) ? '"' + s.replace(/"/g,'""') + '"' : s;
 }
 function monumentenCsv(mons){
@@ -344,7 +362,7 @@ function renderMarkers(){
       marker.setStyle({color:'#8A8A8A', weight:1, dashArray:'2,2'});
     }
     marker.bindTooltip(
-      \`rm \${m.nr} \\u00b7 \${m.straat||''} \${m.huisnr||''}, \${m.wpl||''} \\u00b7 \${m.prov} \\u00b7 \${KN[m.k]} van ${Dobj.gebied}\`+
+      \`rm \${escHtml(m.nr)} \\u00b7 \${escHtml(m.straat||'')} \${escHtml(m.huisnr||'')}, \${escHtml(m.wpl||'')} \\u00b7 \${escHtml(m.prov)} \\u00b7 \${escHtml(KN[m.k])} van \${escHtml(D.gebied)}\`+
       (m.d>0 ? \` (\${fmt(m.d)} m)\` : '') + (m.ja ? ' \\u00b7 BAG-industriefunctie-indicatie' : (m.bag!=='ok' ? ' \\u00b7 BAG niet te controleren' : ''))
     );
     marker.on('click', ()=>toonDetail(m));
