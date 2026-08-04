@@ -6,6 +6,33 @@ precieze wijzigingen per gebied: `git log`. Entries staan in omgekeerd-chronolog
 volgorde; een latere entry kan dus een eerdere entry corrigeren of vervangen. Waar dat
 kan verwarren, is dat expliciet benoemd.
 
+## Correctie: de CRLF/manifest-fix uit de Flevoland-ronde loste het probleem niet echt op
+
+De vorige entry hieronder claimde dat het opnieuw genereren van alle manifesten de
+CRLF/SHA-256-mismatch had opgelost. Dat klopte niet: de `flevoland`-branch faalde alsnog op
+CI (`Valideer data.json-bestanden`) met exact dezelfde 97 fouten, ondanks dat
+`node scripts/validate.mjs` lokaal groen was.
+
+**Werkelijke oorzaak**: dit project had geen `.gitattributes`, en op deze Windows-omgeving staat
+`core.autocrlf=true` globaal ingesteld. Git converteert daardoor tekstbestanden bij het uitchecken
+stilzwijgend naar CRLF in de working tree, maar normaliseert ze bij het committen terug naar LF
+voor opslag. `scripts/09-bouw-manifest.mjs` berekent SHA-256 over de working-tree-bytes (dus CRLF
+op Windows) - dat is een andere hash dan die van de daadwerkelijk gecommitte (LF-)inhoud die CI
+(Ubuntu, geen autocrlf) uitcheckt en opnieuw hasht. Geverifieerd door drie hashes naast elkaar te
+leggen voor hetzelfde bestand: de working-tree-hash, de in `manifest.json` vastgelegde hash (gelijk
+aan working-tree) en `git cat-file -p HEAD:<pad> | sha256sum` (de daadwerkelijk gecommitte hash) -
+de laatste weekt af van de eerste twee.
+
+**Fix**: `.gitattributes` toegevoegd (`* text=auto eol=lf`) zodat git voortaan altijd LF gebruikt in
+de working tree, ongeacht lokale `core.autocrlf`-instellingen. Vervolgens de hele working tree
+geforceerd opnieuw laten uitchecken (`git ls-files -z | xargs -0 rm -f && git checkout HEAD -- .`) -
+een gewone `git checkout HEAD -- .` bleek bestanden die git als "ongewijzigd" beschouwt stil over
+te slaan, ook met `--force`; alleen verwijderen-en-dan-uitchecken forceerde de daadwerkelijke
+herschrijving naar LF. Daarna alle manifesten opnieuw gegenereerd tegen de nu correcte
+LF-inhoud, en lokaal alle vier CI-stappen nagebootst (bbox-regex-zelftest, unittests,
+`validate.mjs`, en de hele gebiedenset herbouwen + `git diff --quiet` op `gebieden/` en
+`index.html`) om zeker te zijn dat de volgende push wél door CI komt.
+
 ## Uitbreiding naar Flevoland (6 nieuwe gebieden)
 
 121 naar 127 verwerkte gebieden: heel Flevoland, zuid naar noord (zevende ronde) - de resterende 6
