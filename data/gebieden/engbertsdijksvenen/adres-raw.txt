@@ -1,0 +1,15 @@
+Gevonden: 11 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16473 | Schotboersweg | 7 | 7678VK | Geesteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29587 | Vermolenweg | 24 | 7678TL | Geesteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35980 | Oosteinde | 296 | 7671AG | Vriezenveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37483 | Oosteinde | 237 | 7671AZ | Vriezenveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38239 | Bragersweg | 12 | 7678TH | Geesteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41158 | Westeinde | 342 | 7671CM | Vriezenveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41170 | Oosteinde | 327 | 7671BB | Vriezenveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42665 | Westeinde | 202 | 7671CH | Vriezenveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44767 | Gravenlandweg | 17 | 7675TB | Bruinehaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52815 | Oosteinde | 3 | 7671AR | Vriezenveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55430 | Oosteinde | 323 | 7671BB | Vriezenveen

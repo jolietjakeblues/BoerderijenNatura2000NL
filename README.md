@@ -18,10 +18,10 @@ gebied "toebehoort", en kan elk gebied apart geverifieerd worden voordat het vol
 toegevoegd. Provincie is in deze opzet een **weergavelaag** (achteraf bepaald via een
 point-in-polygon-toets tegen de officiële PDOK-provinciegrenzen), geen zoekgrens.
 
-## Status: 127 van de 162 Natura 2000-gebieden verwerkt
+## Status: 148 van de 162 Natura 2000-gebieden verwerkt
 
 Nederland telt 162 Natura 2000-gebieden (bron: PDOK/RVO, waarvan 4 mariene gebieden in de
-Exclusieve Economische Zone op de Noordzee). Hiervan zijn er tot nu toe 127 verwerkt, inclusief
+Exclusieve Economische Zone op de Noordzee). Hiervan zijn er tot nu toe 148 verwerkt, inclusief
 alle 4 mariene gebieden - die laatste vier tonen structureel 0 boerderijen, omdat er simpelweg
 geen rijksmonument binnen 5 km van open zee ligt, maar zijn voor de volledigheid van het
 landsdekkende overzicht toch meegenomen:
@@ -30,7 +30,7 @@ landsdekkende overzicht toch meegenomen:
 
 | Gebied | Provincie(s) | Boerderijen | BAG-industriefunctie-indicatie | BAG niet te controleren |
 |---|---|---:|---:|---:|
-| [Rijntakken – IJssel-traject](gebieden/rijntakken.html) | Gelderland / Overijssel | 241 | 49 | 3 |
+| [Rijntakken](gebieden/rijntakken.html)* | Gelderland / Utrecht / Overijssel / Noord-Brabant | 567 | 92 | 4 |
 | [Landgoederen Brummen](gebieden/landgoederen-brummen.html) | Gelderland | 59 | 10 | 0 |
 | [Willinks Weust](gebieden/willinks-weust.html) | Gelderland | 21 | 3 | 0 |
 | [Bekendelle](gebieden/bekendelle.html) | Gelderland | 25 | 2 | 0 |
@@ -55,6 +55,11 @@ landsdekkende overzicht toch meegenomen:
 | [Swalmdal](gebieden/swalmdal.html) | Limburg | 22 | 4 | 1 |
 | [Roerdal](gebieden/roerdal.html) | Limburg | 31 | 4 | 0 |
 | [Geleenbeekdal](gebieden/geleenbeekdal.html) | Limburg | 296 | 50 | 4 |
+
+\* Rijntakken is in de achtste ronde gecorrigeerd: de eerste verwerking dekte alleen het
+IJssel-traject (241 boerderijen), terwijl de landelijke WFS één samenhangende polygoon van circa
+23.047 hectare langs IJssel, Nederrijn, Waal én Lek aanhoudt. De cijfers in deze tabel zijn de
+gecorrigeerde, volledige cijfers; zie de achtste ronde voor toelichting.
 
 ### Tweede ronde: Limburg en Zeeland, zuid naar noord
 
@@ -196,10 +201,10 @@ methode (provincie = point-in-polygon-uitkomst, niet de website-indeling).
 
 ### Zevende ronde: Flevoland, zuid naar noord
 
-De grote randmeren rond Flevoland (IJsselmeer, Eemmeer & Gooimeer Zuidoever, De Wieden) waren al in
-eerdere rondes verwerkt via hun eigen provincietreffer; deze ronde voegt de resterende 6 gebieden
-toe die als Flevoland classificeren. Lepelaarplassen en Oostvaardersplassen leverden 0 boerderijen
-op binnen de 5&nbsp;km-grens - logisch voor jonge polder rond Almere en Lelystad, met weinig
+De grote randmeren rond Flevoland (IJsselmeer, Eemmeer & Gooimeer Zuidoever) waren al in eerdere
+rondes verwerkt via hun eigen provincietreffer; deze ronde voegt de resterende 6 gebieden toe die
+als Flevoland classificeren. Lepelaarplassen en Oostvaardersplassen leverden 0 boerderijen op
+binnen de 5&nbsp;km-grens - logisch voor jonge polder rond Almere en Lelystad, met weinig
 rijksmonumentale bebouwing uit de tijd van vóór de inpoldering.
 
 | Gebied | Provincie(s) | Boerderijen | BAG-industriefunctie-indicatie | BAG niet te controleren |
@@ -213,12 +218,51 @@ rijksmonumentale bebouwing uit de tijd van vóór de inpoldering.
 
 **Totaal (127 gebieden): 5632 | 989 | 60**
 
+### Achtste ronde: Overijssel, zuid naar noord, plus een Rijntakken-correctie en Arkemheen
+
+Overijssel was nooit als eigen ronde opgepakt en was daarmee de grootste resterende brok. Bij het
+scopen bleek daarnaast dat ons `rijntakken`-gebied in `data.json` was opgeslagen als "Rijntakken –
+IJssel-traject", wat niet exact overeenkwam met de naam in de landelijke WFS ("Rijntakken") - een
+check op alle 127 op dat moment verwerkte gebieden tegen de WFS-namen bevestigde dat dit de enige
+mismatch was. De landelijke polygoon bleek veel groter dan wat destijds verwerkt was: niet alleen
+het IJssel-traject, maar één samenhangend gebied langs IJssel, Nederrijn, Waal én Lek. Rijntakken is
+daarom volledig opnieuw gebouwd op de juiste, volledige naam (zelfde slug/URL, dus geen breaking
+change): van 241 naar 567 boerderijen. Arkemheen (bij Nijkerk, Gelderland) werd bij dezelfde
+scoping-check gevonden als klein, nooit opgepakt gebied vlak naast Veluwerandmeren en is in dezelfde
+ronde meegenomen.
+
+| Gebied | Provincie(s) | Boerderijen | BAG-industriefunctie-indicatie | BAG niet te controleren |
+|---|---|---:|---:|---:|
+| [Buurserzand & Haaksbergerveen](gebieden/buurserzand-haaksbergerveen.html) | Gelderland / Overijssel | 33 | 9 | 0 |
+| [Witte Veen](gebieden/witte-veen.html) | Overijssel | 15 | 6 | 0 |
+| [Aamsveen](gebieden/aamsveen.html) | Overijssel | 11 | 5 | 0 |
+| [Arkemheen](gebieden/arkemheen.html) | Gelderland / Utrecht | 31 | 6 | 1 |
+| [Lonnekermeer](gebieden/lonnekermeer.html) | Overijssel | 10 | 1 | 0 |
+| [Borkeld](gebieden/borkeld.html) | Overijssel | 20 | 0 | 0 |
+| [Landgoederen Oldenzaal](gebieden/landgoederen-oldenzaal.html) | Overijssel | 26 | 7 | 0 |
+| [Dinkelland](gebieden/dinkelland.html) | Overijssel | 28 | 7 | 0 |
+| [Sallandse Heuvelrug](gebieden/sallandse-heuvelrug.html) | Overijssel | 10 | 1 | 0 |
+| [Boetelerveld](gebieden/boetelerveld.html) | Overijssel | 5 | 0 | 0 |
+| [Lemselermaten](gebieden/lemselermaten.html) | Overijssel | 15 | 0 | 0 |
+| [Wierdense Veld](gebieden/wierdense-veld.html) | Overijssel | 15 | 1 | 0 |
+| [Achter de Voort, Agelerbroek & Voltherbroek](gebieden/achter-de-voort-agelerbroek-voltherbroek.html) | Overijssel | 35 | 2 | 1 |
+| [Bergvennen & Brecklenkampse Veld](gebieden/bergvennen-brecklenkampse-veld.html) | Overijssel | 10 | 0 | 0 |
+| [Springendal & Dal van de Mosbeek](gebieden/springendal-dal-van-de-mosbeek.html) | Overijssel | 43 | 5 | 1 |
+| [Engbertsdijksvenen](gebieden/engbertsdijksvenen.html) | Overijssel | 11 | 1 | 0 |
+| [Vecht- en Beneden-Reggegebied](gebieden/vecht-en-beneden-reggegebied.html) | Overijssel | 52 | 9 | 0 |
+| [Uiterwaarden Zwarte Water en Vecht](gebieden/uiterwaarden-zwarte-water-en-vecht.html) | Overijssel | 23 | 2 | 0 |
+| [Olde Maten & Veerslootslanden](gebieden/olde-maten-veerslootslanden.html) | Overijssel | 192 | 30 | 0 |
+| [De Wieden](gebieden/de-wieden.html) | Drenthe / Overijssel / Flevoland | 56 | 5 | 0 |
+| [Weerribben](gebieden/weerribben.html) | Overijssel | 20 | 1 | 0 |
+
+**Totaal (148 gebieden): 6619 | 1130 | 64**
+
 Let op: de totaaltelling is een **som van per-gebied cijfers**, geen aantal unieke monumenten
 landelijk - een monument dat dicht bij meerdere Natura 2000-gebieden ligt (bv. tussen Bekendelle en
 Korenburgerveen) telt terecht in beide gebiedspagina's mee. De kolom "BAG niet te controleren" is
 géén bevestigde NEE - zie Methode, punt 5.
 
-**Resterend: 35 gebieden.** Eerste ronde gewerkt vanuit Gelderland (Achterhoek, IJssel,
+**Resterend: 14 gebieden.** Eerste ronde gewerkt vanuit Gelderland (Achterhoek, IJssel,
 Nijmegen-Mook, Gelderse Vallei), met bewust een paar provinciegrensgevallen erbij, uitgebreid naar
 Groningen, Drenthe en Fryslân om de aanpak ook buiten het zuidoosten te valideren, en vervolgens
 met eerste, losse gebieden in Utrecht, Zuid-Holland, Noord-Brabant en Zuid-Limburg. Tweede ronde:
@@ -230,10 +274,11 @@ plus de 4 mariene gebieden in de Noordzee-EEZ en Maas bij Eijsden (een gemist Li
 bij de provincietoets geen polygontreffer opleverde). Zesde ronde: heel Fryslân, zuid naar noord
 (op Waddenzee en Noordzeekustzone na, bewust overgeslagen wegens omvang). Zevende ronde: heel
 Flevoland, zuid naar noord (de resterende 6 gebieden die niet al via een andere provincie
-meeliepen). Nog niet aangeraakt: Drenthe, Groningen en Noord-Limburg als hoofdgebied (inclusief de
-drie Friese grensgebieden die bij Drenthe/Groningen classificeren: Drents-Friese Wold &
-Leggelderveld, Fochteloërveen, Lauwersmeer), en de grote gebieden (Veluwe, Waddenzee,
-Noordzeekustzone) die vanwege hun omvang bewust nog niet zijn opgepakt.
+meeliepen). Achtste ronde: heel Overijssel, zuid naar noord, plus een correctie van Rijntakken (was
+onvolledig verwerkt) en Arkemheen. Resterend zijn nu alleen nog: bijna heel Drenthe (9 gebieden, op
+de vier validatiegebieden uit de eerste ronde na), Zuidlaardermeergebied en Lauwersmeer in
+Groningen, en de drie gebieden die vanwege hun omvang bewust nog niet zijn opgepakt (Veluwe,
+Waddenzee, Noordzeekustzone).
 
 ## Methode per gebied
 
@@ -286,7 +331,7 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
 - **Volledig afstands-bucketschema** invoeren: erin / < 250 m / < 1 km / < 5 km / < 25 km / ≥ 25 km
   (nu alleen erin + ≤ 5 km). Bewust uitgesteld tot na de landsdekkende opbouw van de eerste ronde
   gebieden.
-- De resterende ~35 Natura 2000-gebieden landsdekkend toevoegen.
+- De resterende ~14 Natura 2000-gebieden landsdekkend toevoegen.
 - **Download-knop (CSV)** per gebiedspagina: monumentenlijst (nr, adres, provincie, afstand, functie,
   status) exporteren.
 - **Klikbare popup voor het Natura 2000-gebied zelf** op de kaart, met de gebiedsbeschrijving.

@@ -1,0 +1,20 @@
+Gevonden: 16 resultaat/resultaten
+
+rm | rmnr | fNaam
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16473 | 35779 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29587 | 35781 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35980 | 38153 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37483 | 38150 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38239 | 35769 | Tuin
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38239 | 35769 | Hooischuur
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38239 | 35769 | Tuinheg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38239 | 35769 | Schuur(M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38239 | 35769 | Bakspieker
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38239 | 35769 | Boerderij(M1)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41158 | 38154 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41170 | 38152 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42665 | 507476 | Boerderij(M1)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44767 | 507480 | Boerderij(M1)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52815 | 507475 | Boerderij(M1)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55430 | 38151 | Boerderij (M)

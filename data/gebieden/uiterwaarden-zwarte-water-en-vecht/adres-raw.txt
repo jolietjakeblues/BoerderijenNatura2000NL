@@ -1,0 +1,27 @@
+Gevonden: 23 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10874 | Zalkerdijk | 39 | 8276AB | Zalk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23814 | Heinoseweg | 32 | 8026PD | Zwolle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26817 | Valkenbergweg | 2 | 8026RK | Zwolle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28477 | Rosengaardeweg | 4 | 7722PV | Dalfsen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30609 | Havezatherweg | 15 | 8066PB | Belt-Schutsloot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31074 | Vossersteeg | 43 | 7722RJ | Dalfsen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36155 | Ruitenborghweg | 13 | 7722PA | Dalfsen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39296 | Kadoelen | 25 | 8326BA | Sint Jansklooster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39636 | Nieuwe Deventerweg | 103 | 8014AE | Zwolle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48519 | Hessenweg | 8 | 7722PK | Dalfsen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56511 | Campherbeeklaan | 98 | 8024BZ | Zwolle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58557 | Korianderplein | 9 | 8042HM | Zwolle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60826 | De Mars | 19 | 8014BJ | Zwolle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68345 | Hessenweg | 4 | 7722PK | Dalfsen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69191 | Heinoseweg | 22 | 8026PC | Zwolle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69192 | Heinoseweg | 22 | 8026PC | Zwolle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69193 | Heinoseweg | 22 | 8026PC | Zwolle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70013 | Poppenallee | 37 | 7722KW | Dalfsen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75118 | Zwartewatersklooster | 9 | 8064PK | Zwartsluis
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77690 | Bosweg | 15 | 8017BR | Zwolle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78854 | Oppen Swolle | 5 | 8325PE | Vollenhove
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78855 | Oppen Swolle | 5 | 8325PE | Vollenhove
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78856 | Oppen Swolle | 5 | 8325PE | Vollenhove

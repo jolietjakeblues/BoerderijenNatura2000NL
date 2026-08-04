@@ -6,6 +6,32 @@ precieze wijzigingen per gebied: `git log`. Entries staan in omgekeerd-chronolog
 volgorde; een latere entry kan dus een eerdere entry corrigeren of vervangen. Waar dat
 kan verwarren, is dat expliciet benoemd.
 
+## Uitbreiding naar Overijssel, correctie van Rijntakken, en Arkemheen (21 nieuwe + 1 gecorrigeerd gebied)
+
+127 naar 148 verwerkte gebieden: heel Overijssel, zuid naar noord (achtste ronde), plus Arkemheen
+(Gelderland) en een correctie van Rijntakken. Nieuwe totalen: 6619 boerderijen, 1130 met
+BAG-industriefunctie-indicatie, 64 niet te controleren (was 5632/989/60). Zie README.md voor de
+volledige lijst per gebied.
+
+**Rijntakken-correctie**: bij het scopen van deze ronde is voor het eerst systematisch
+gecontroleerd of elk `data.json`-bestand zijn `gebied`-veld exact overeenkomt met een naam in de
+landelijke WFS (`naamN2K`). Van de 127 op dat moment verwerkte gebieden bleek alleen `rijntakken`
+niet exact te matchen: het was opgeslagen als "Rijntakken – IJssel-traject", terwijl de WFS één
+polygoon "Rijntakken" aanhoudt die veel groter is (circa 23.047 hectare langs IJssel, Nederrijn,
+Waal én Lek, in plaats van alleen het IJssel-traject rond Zutphen–Deventer–Zwolle). Rijntakken is
+volledig opnieuw gebouwd op de juiste naam (zelfde slug/URL): van 241 naar 567 boerderijen, van 3
+naar 4 provincies (Gelderland, Utrecht, Overijssel, en nu ook Noord-Brabant).
+
+**Correctie op een eerdere correctie**: de Flevoland-ronde-entry hieronder claimde dat De Wieden al
+eerder verwerkt was. Dat klopte niet - De Wieden was nog nooit gebouwd, en is nu alsnog toegevoegd
+als onderdeel van de Overijssel-ronde (56 boerderijen, verspreid over Drenthe, Overijssel en
+Flevoland).
+
+Eigen fout gemaakt en gecorrigeerd tijdens deze ronde (derde keer dat dit patroon optreedt, na
+Alde Feanen/Wijnjeterper Schar in de Friesland-ronde): de eerste versie van de beschrijvingen voor
+Wierdense Veld en Witte Veen was geschreven zonder ze op natura2000.nl te hebben opgezocht. Beide
+alsnog opgezocht en herschreven vóór het bouwen van de HTML-pagina's.
+
 ## Correctie: de CRLF/manifest-fix uit de Flevoland-ronde loste het probleem niet echt op
 
 De vorige entry hieronder claimde dat het opnieuw genereren van alle manifesten de
@@ -36,8 +62,10 @@ LF-inhoud, en lokaal alle vier CI-stappen nagebootst (bbox-regex-zelftest, unitt
 ## Uitbreiding naar Flevoland (6 nieuwe gebieden)
 
 121 naar 127 verwerkte gebieden: heel Flevoland, zuid naar noord (zevende ronde) - de resterende 6
-gebieden die niet al via een andere provincie waren meegenomen (IJsselmeer, Eemmeer & Gooimeer
-Zuidoever en De Wieden liepen al eerder mee). Nieuwe totalen: 5632 boerderijen, 989 met
+gebieden die niet al via een andere provincie waren meegenomen (IJsselmeer en Eemmeer & Gooimeer
+Zuidoever liepen al eerder mee). **Correctie (achtste ronde):** hier stond eerder ook "De Wieden"
+genoemd als al gedaan - dat klopte niet, De Wieden was nog nooit gebouwd en is alsnog toegevoegd in
+de Overijssel-ronde. Nieuwe totalen: 5632 boerderijen, 989 met
 BAG-industriefunctie-indicatie, 60 niet te controleren (was 5442/951/55). Zie README.md voor de
 volledige lijst per gebied. Lepelaarplassen en Oostvaardersplassen leverden 0 boerderijen op binnen
 de 5&nbsp;km-grens, verklaarbaar door de jonge inpoldering rond Almere en Lelystad.

@@ -1,0 +1,41 @@
+Gevonden: 37 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10557 | Zuid Rekkenseweg | 17 | 7157BL | Rekken
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11084 | Helmerstraat | 201 | 7546PD | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11563 | Alsteedseweg | 50 A | 7481RW | Haaksbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13175 | Eibergsestraat | 250 | 7481HP | Haaksbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15613 | Helmerstraat | 203 | 7546PD | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16519 | Zendvelderweg | 7 | 7481SH | Haaksbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17915 | Molenstraat | 96 | 7481GN | Haaksbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18370 | Eulderinkweg | 22 | 7547PR | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24812 | Hasseltweg | 19 | 7481VB | Haaksbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24812 | Hasseltweg | 19 a | 7481VB | Haaksbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25776 | Watermolenweg | 4 | 7481VL | Haaksbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27238 | Lankheterweg | 3 | 7481VM | Haaksbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29692 | Bommelaspad | 7 | 7481PD | Haaksbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33197 | Oldenkotseweg | 6 | 7157BV | Rekken
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33597 | Aaftinksweg | 17 | 7481VV | Haaksbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35532 | Lankheterweg | 4 | 7481VM | Haaksbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36337 | Altenavoetpad | 21 | 7554PW | Hengelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37122 | Hölterweg | 5 | 7157AG | Rekken
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37122 | Hölterweg | 7 | 7157AG | Rekken
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37324 | Alsteedseweg | 60 | 7481RZ | Haaksbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49595 | Laarveldsweg | 19 | 7481VR | Haaksbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51039 | Rekkense binnenweg | 39 | 7157CD | Rekken
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51953 | Looweg | 2 | 7152AL | Eibergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54088 | Weerninksweg | 10 | 7481VS | Haaksbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55600 | Bruninkslaan | 24 | 7544RP | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55600 | Bruninkslaan | 26 | 7544RP | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56855 | Rosinkweg | 40 | 7548RN | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58714 | Aaftinksweg | 8 | 7481VV | Haaksbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59228 | Rosinkweg | 9 | 7481TH | Haaksbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60079 | Haaksbergerweg | 12 A | 7481RR | Haaksbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61144 | Veddersweg | 15 | 7481VT | Haaksbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61356 | Helmerhoekweg | 45 | 7546RB | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66519 | Hölterweg | 1 | 7157AG | Rekken
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72299 | Enschedesestraat | 188 | 7481CT | Haaksbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72299 | Enschedesestraat | 190 | 7481CT | Haaksbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/76037 | Beckumerstraat | 51 | 7548BD | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/79983 | Stepelerveldweg | 50 | 7482SC | Haaksbergen

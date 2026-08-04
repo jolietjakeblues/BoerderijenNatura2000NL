@@ -1,0 +1,12 @@
+Gevonden: 8 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10028 | Buurtschapsweg | 2 | 8105SN | Luttenberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34368 | Holterweg | 50 | 8111NR | Heeten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34378 | Heetenseweg | 24 | 8111PZ | Heeten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34378 | Heetenseweg | 24 a | 8111PZ | Heeten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34378 | Heetenseweg | 26 | 8111PZ | Heeten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37004 | Deventerstraat | 64 | 8102GC | Raalte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77527 | Spekschateweg | 2 | 8111PP | Heeten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77527 | Spekschateweg | 4 | 8111PP | Heeten

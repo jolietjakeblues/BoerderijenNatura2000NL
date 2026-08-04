@@ -1,0 +1,14 @@
+Gevonden: 10 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11977 | Jonkershoesweg | 4 | 7635LM | Lattrop-Breklenkamp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12529 | Dorpsstraat | 1 | 7635NA | Lattrop-Breklenkamp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25490 | Damweg | 13 | 7634PC | Tilligte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28984 | Rammelbeekweg | 16 | 7591NP | Denekamp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36479 | Jonkershoesweg | 8 | 7635LM | Lattrop-Breklenkamp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49405 | Lubberdinksweg | 15 | 7591PB | Denekamp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52589 | Rotmanweg | 9 | 7635LC | Lattrop-Breklenkamp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58602 | Brookmanweg | 4 | 7635LE | Lattrop-Breklenkamp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58755 | Ootmarsumsestraat | 63 | 7591PR | Denekamp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61272 | Bergvennenweg | 7 | 7635NJ | Lattrop-Breklenkamp

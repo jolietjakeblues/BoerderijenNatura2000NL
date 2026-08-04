@@ -1,0 +1,14 @@
+Gevonden: 10 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10223 | Witbreuksweg | 204 | 7522PH | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14206 | Morshoekweg | 15 | 7552PE | Hengelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23168 | Drienerwoldeweg | 33 | 7552PC | Hengelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23792 | Hellerweg | 5 | 7547RK | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26321 | Langestraat | 35 | 7551DX | Hengelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31934 | Burgemeester Stroinkstraat | 320 | 7547RJ | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44422 | Burgemeester Stroinkstraat | 341 | 7547RH | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46236 | Snellenweg | 35 | 7524PR | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50851 | Twekkelerweg | 347 | 7554SC | Hengelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/76444 | Nieuwe Grensweg | 13 | 7561RX | Deurningen

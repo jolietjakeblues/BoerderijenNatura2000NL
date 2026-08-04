@@ -1,0 +1,24 @@
+Gevonden: 20 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12245 | Weversweg | 2 | 7642NT | Wierden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18732 | Hofmanstraat | 2 | 7447AS | Hellendoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21629 | Hexelseweg | 74 | 7645AM | Hoge Hexel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22153 | Klokkendijk | 10 | 7467PD | Notter
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27201 | Akkerwal | 4 | 7642NV | Wierden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27201 | Akkerwal | 6 | 7642NV | Wierden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27201 | Akkerwal | 8 | 7642NV | Wierden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32420 | Slagsweg | 1 | 7466PL | Zuna
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32420 | Slagsweg | 1 a | 7466PL | Zuna
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35437 | Zunaweg | 10 | 7466PR | Zuna
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35560 | Sluizendijk | 11 | 7642NA | Wierden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35560 | Sluizendijk | 13 | 7642NA | Wierden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42180 | Piksenweg | 5 | 7645BC | Hoge Hexel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43527 | Schuilenburgerweg | 52 | 7447RP | Hellendoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43527 | Schuilenburgerweg | 54 | 7447RP | Hellendoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47203 | Schuilenburgerweg | 46 | 7447RP | Hellendoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54412 | Nieuwe Twentseweg | 19 | 7447PM | Hellendoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54999 | Bussinkweg | 1 | 7467PT | Notter
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62331 | Oude Veerweg | 6 | 7461JH | Rijssen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74979 | Oude Zwolseweg | 6 | 7645AZ | Hoge Hexel

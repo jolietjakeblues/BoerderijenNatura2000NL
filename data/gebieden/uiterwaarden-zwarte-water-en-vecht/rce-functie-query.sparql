@@ -1,0 +1,10 @@
+PREFIX ceo: <https://linkeddata.cultureelerfgoed.nl/def/ceo#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+SELECT DISTINCT ?rm ?rmnr ?fNaam WHERE {
+  VALUES ?rm { <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10874> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23814> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26817> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28477> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30609> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31074> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36155> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39296> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39636> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48519> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56511> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58557> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60826> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68345> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69191> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69192> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69193> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70013> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75118> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77690> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78854> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78855> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78856> }
+  ?rm ceo:rijksmonumentnummer ?rmnr .
+  ?rm ceo:heeftOorspronkelijkeFunctie ?fObj .
+  ?fObj ceo:heeftFunctieNaam ?fC .
+  ?fC skos:prefLabel ?fNaam .
+  FILTER(lang(?fNaam) = "nl")
+}

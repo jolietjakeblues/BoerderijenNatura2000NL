@@ -1,0 +1,30 @@
+Gevonden: 26 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11084 | Helmerstraat | 201 | 7546PD | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11563 | Alsteedseweg | 50 A | 7481RW | Haaksbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15613 | Helmerstraat | 203 | 7546PD | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16519 | Zendvelderweg | 7 | 7481SH | Haaksbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25149 | Smalenbroeksweg | 17 A | 7542PG | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25149 | Smalenbroeksweg | 15 A | 7542PG | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25149 | Smalenbroeksweg | 17 B | 7542PG | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25149 | Smalenbroeksweg | 15 | 7542PG | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25149 | Smalenbroeksweg | 17 | 7542PG | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29692 | Bommelaspad | 7 | 7481PD | Haaksbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37324 | Alsteedseweg | 60 | 7481RZ | Haaksbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46937 | Holzikweg | 50 | 7542PD | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54834 | Stroinksweg | 83 | 7542PG | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54834 | Stroinksweg | 85 | 7542PG | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54834 | Stroinksweg | 88 | 7542PJ | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54834 | Stroinksweg | 90 | 7542PJ | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55600 | Bruninkslaan | 24 | 7544RP | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55600 | Bruninkslaan | 26 | 7544RP | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60079 | Haaksbergerweg | 12 A | 7481RR | Haaksbergen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61356 | Helmerhoekweg | 45 | 7546RB | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65329 | Berenbroeksweg | 38 | 7542PK | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65329 | Berenbroeksweg | 40 | 7542PK | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65330 | Berenbroeksweg | 38 | 7542PK | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65330 | Berenbroeksweg | 40 | 7542PK | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65331 | Berenbroeksweg | 38 | 7542PK | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65331 | Berenbroeksweg | 40 | 7542PK | Enschede

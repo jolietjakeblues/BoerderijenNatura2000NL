@@ -4,8 +4,8 @@
 // README sectie "Methode per gebied", punt 6.
 export const GEBIEDEN_BESCHRIJVING = {
   'rijntakken': {
-    ligging: 'Zutphen–Deventer–Zwolle',
-    tekst: 'Rivierengebied van circa 23.000 hectare langs de uiterwaarden van IJssel, Nederrijn, Waal en Lek, verspreid over Gelderland, Overijssel en Utrecht. Beschermd vanwege stroomdalgraslanden, ooibossen en moerasvegetatie langs de rivieren; het gebied kampt zelf met stikstofoverbelasting.',
+    ligging: 'Langs IJssel, Nederrijn en Waal, van Arnhem/Nijmegen tot Kampen/Zwolle',
+    tekst: 'Uitgestrekt rivierengebied (circa 23.047 hectare) langs de uiterwaarden van IJssel, Nederrijn en Waal, verdeeld over 34 gemeenten in Gelderland, Overijssel en Utrecht - een van de grootste Natura 2000-gebieden van Nederland. Beschermd vanwege stroomdalgraslanden, glanshaverhooilanden en hardhoutooibos die afhankelijk zijn van de natuurlijke overstromingsdynamiek van de rivieren; het gebied kampt zelf met stikstofoverbelasting.',
     bron: 'https://www.natura2000.nl/gebieden/gelderland/rijntakken'
   },
   'landgoederen-brummen': {
@@ -637,5 +637,110 @@ export const GEBIEDEN_BESCHRIJVING = {
     ligging: 'Grens Flevoland/Overijssel, tussen Noordoostpolder en Kampereiland',
     tekst: 'Groot, ondiep randmeer (circa 2.162 hectare) in de voormalige IJsseldelta, met rietmoeras in het zuiden, een kunstmatig vogeleiland en soortenrijke graslanden met wilde kievitsbloem. Broedplaats van purperreigers en grote karekieten, met tienduizenden overwinterende watervogels en herstellende kranswier- en fonteinkruidvegetatie na jaren van eutrofiëring.',
     bron: 'https://www.natura2000.nl/gebieden/overijssel/zwarte-meer'
+  },
+  'arkemheen': {
+    ligging: 'Nijkerk/Putten',
+    tekst: 'Laaggelegen poldergebied (circa 1.422 hectare) met graslanden en rietmoeras langs de Randmeren, met zilt veen in de ondergrond als overblijfsel van de vroegere Zuiderzee. Belangrijk broedgebied voor grutto\'s - een van de weinige weidevogelgebieden zonder negatieve trend - en overwinteringsgebied voor kleine en wilde zwanen, rietganzen en kolganzen.',
+    bron: 'https://www.natura2000.nl/gebieden/gelderland/arkemheen'
+  },
+  'aamsveen': {
+    ligging: 'Enschede, grens met Duitsland',
+    tekst: 'Hoogveenrestant op de overgang naar een beekdallandschap (circa 144 hectare) ten zuiden van Enschede, tegen de Duitse grens, met vochtige heide, berken- en elzenbroekbos langs de Glanerbeek. Beschermd vanwege hoogveenvogels als wulp en watersnip, en om zeldzame vlinders zoals het pimpernelblauwtje, naast adder, boomkikker en kamsalamander.',
+    bron: 'https://www.natura2000.nl/gebieden/overijssel/aamsveen'
+  },
+  'achter-de-voort-agelerbroek-voltherbroek': {
+    ligging: 'Dinkelland',
+    tekst: 'Drie loofbosgebieden (samen circa 323 hectare) in Noordoost-Twente, met goed ontwikkeld eiken-haagbeukenbos, elzenbroekbos en vochtige graslanden op een complexe geologische ondergrond. Het belangrijkste Twentse leefgebied van de kamsalamander, met de schedegeelster en andere kwelafhankelijke plantensoorten.',
+    bron: 'https://www.natura2000.nl/gebieden/overijssel/achter-de-voort-agelerbroek-voltherbroek'
+  },
+  'bergvennen-brecklenkampse-veld': {
+    ligging: 'Dinkelland, grens met Duitsland',
+    tekst: 'Vennen- en heidegebied (circa 133 hectare) in drie deelgebieden bij de Duitse grens, met een overgang van droge naar natte heide. Herbergt de grootste oppervlakte oevervegetatie met waterlobelia en oeverkruid van Nederland - een van de zeldzaamste plantengemeenschappen van het land, zeer gevoelig voor verzuring en vermesting.',
+    bron: 'https://www.natura2000.nl/gebieden/overijssel/bergvennen-brecklenkampse-veld'
+  },
+  'boetelerveld': {
+    ligging: 'Hellendoorn/Raalte',
+    tekst: 'Vochtig heidegebied (circa 171 hectare) ten zuidoosten van Raalte, met blauwgrasland, voedselarme vennen en jeneverbesstruweel op een vlakke zandbodem met ijzeroer in de ondergrond. Herbergt de laatste vochtige heide met gewone dophei van Salland, met orchideeën, zonnedauw en gentianen.',
+    bron: 'https://www.natura2000.nl/gebieden/overijssel/boetelerveld'
+  },
+  'borkeld': {
+    ligging: 'Hof van Twente',
+    tekst: 'Heide- en hoogveengebied (circa 493 hectare) met droge en natte heide, kalkarme vennen en jeneverbesstruweel op een voormalig hoogveen. Aangewezen vanwege uitgestrekte jeneverbesstruwelen (habitattype H5130) en zeldzame droge heidevarianten, met zandhagedis en broedende nachtzwaluwen en boompiepers.',
+    bron: 'https://www.natura2000.nl/gebieden/overijssel/borkeld'
+  },
+  'buurserzand-haaksbergerveen': {
+    ligging: 'Enschede/Haaksbergen',
+    tekst: 'Heide- en hoogveengebied (circa 1.243 hectare) in Oost-Twente, met actief en regenererend hoogveen, zwak gebufferde vennen en berken-eikenbos op voormalige veenwinningsgrond. Beschermd vanwege het pimpernelblauwtje, een grote populatie grote modderkruiper, en libellen als de gevlekte witsnuitlibel.',
+    bron: 'https://www.natura2000.nl/gebieden/overijssel/buurserzand-haaksbergerveen'
+  },
+  'de-wieden': {
+    ligging: 'Noordoostpolder/Staphorst/Steenwijkerland/Zwartewaterland, grens Flevoland/Overijssel',
+    tekst: 'Uitgestrekt laagveenmoeras (circa 9.018 hectare), het grootste en meest complete laagveenlandschap van Nederland, met open water, trilveen, veenmosrietland en broekbos. Ruim 20 hectare goed ontwikkeld trilveen herbergt de groenknolorchis, met grote populaties gevlekte witsnuitlibel, broedende roerdompen en purperreigers, en een herstellende otterpopulatie.',
+    bron: 'https://www.natura2000.nl/gebieden/overijssel/de-wieden'
+  },
+  'dinkelland': {
+    ligging: 'Dinkelland/Losser',
+    tekst: 'Beekdallandschap (circa 532 hectare) langs de Dinkel en zijbeken, met eiken-haagbeuk- en essen-vogelkersbos, beekbegeleidend grasland en droge en natte heide. Beschermd vanwege de schedegeelster - met de Dinkelvallei als verspreidingscentrum -, de rivierdonderpad, en broedende ijsvogels en grauwe klauwieren.',
+    bron: 'https://www.natura2000.nl/gebieden/overijssel/dinkelland'
+  },
+  'engbertsdijksvenen': {
+    ligging: 'Tussen Hardenberg en Almelo',
+    tekst: 'Hoogveenrestant (circa 998 hectare) tussen Hardenberg en Almelo, met een ongeschonden veenkern, vochtige heide en berkenbos. Beschermd vanwege actief en degraderend hoogveen met veenmossen, veenbes en zonnedauw, en als slaapplaats voor overwinterende wilde zwanen en rietganzen.',
+    bron: 'https://www.natura2000.nl/gebieden/overijssel/engbertsdijksvenen'
+  },
+  'landgoederen-oldenzaal': {
+    ligging: 'Oldenzaal/Losser/De Lutte',
+    tekst: 'Landgoederenlandschap (circa 578 hectare) op de Oldenzaalse stuwwal, met beuken-eikenbos, eiken-haagbeukenbos, bronbossen en een kleinschalig landschap van houtwallen en graslanden. Een van de meest optimale leefgebieden van de kamsalamander in Nederland, dankzij de afwisseling van poelen en dood hout in relatief droog bos.',
+    bron: 'https://www.natura2000.nl/gebieden/overijssel/landgoederen-oldenzaal'
+  },
+  'lemselermaten': {
+    ligging: 'Dinkelland, bij Weerselo',
+    tekst: 'Kleinschalig beekdallandschap (circa 55 hectare) aan de voet van de Oldenzaalse stuwwal, met een afwisseling van hooiland, beekbegeleidend bos en natte heide. De laatste groeiplaats van breed wollegras in Nederland, met zeldzame orchideeën in het kalkrijke kwelmoeras.',
+    bron: 'https://www.natura2000.nl/gebieden/overijssel/lemselermaten'
+  },
+  'lonnekermeer': {
+    ligging: 'Dinkelland/Enschede',
+    tekst: 'Twee afgegraven vennen (Groot en Klein Lonnekermeer, samen circa 105 hectare) omringd door heide en vochtige graslanden, met jong loof- en naaldbos. De grootste Nederlandse populatie van de gevlekte witsnuitlibel, met pioniervegetatie op voedselarme oevers en zeldzame planten als blonde zegge.',
+    bron: 'https://www.natura2000.nl/gebieden/overijssel/lonnekermeer'
+  },
+  'olde-maten-veerslootslanden': {
+    ligging: 'Staphorst/Zwartewaterland',
+    tekst: 'Laagveengebied (circa 795 hectare) met lange, smalle graslandpercelen omzoomd door elzen en een uitgebreid slotenpatroon. Een van de laatste grote restanten blauwgrasland in het laagveengebied, en een kerngebied voor de grote modderkruiper, met de zegge Carex buxbaumii als zeldzaamheid.',
+    bron: 'https://www.natura2000.nl/gebieden/overijssel/olde-maten-veerslootslanden'
+  },
+  'sallandse-heuvelrug': {
+    ligging: 'Hellendoorn/Rijssen-Holten',
+    tekst: 'Stuwwal van 14 kilometer lang (circa 2.217 hectare) met droge heide, jeneverbesstruweel en zwak gebufferde vennen op de flanken. Het laatste bolwerk van de korhoen in Nederland, met daarnaast broedende nachtzwaluwen en boompiepers en zeldzame zonnedauw- en veenmosvegetatie.',
+    bron: 'https://www.natura2000.nl/gebieden/overijssel/sallandse-heuvelrug'
+  },
+  'springendal-dal-van-de-mosbeek': {
+    ligging: 'Dinkelland/Tubbergen',
+    tekst: 'Erosiedalenlandschap (circa 1.225 hectare) op de Ootmarsumse stuwwal in Noordoost-Twente, met bronbossen, droge en natte heide, jeneverbesstruweel en hoogveenvegetatie gevoed door talrijke bronnen. Beschermd vanwege de beekprik, de laatst overgebleven Twentse populatie vliegend hert langs eeuwenoude eikenhoutwallen, en zeldzame planten als vetblad en veenorchis bij de Mosbeek.',
+    bron: 'https://www.natura2000.nl/gebieden/overijssel/springendal-dal-van-de-mosbeek'
+  },
+  'uiterwaarden-zwarte-water-en-vecht': {
+    ligging: 'Ten noorden van Zwolle, Zwartewaterland/Zwolle',
+    tekst: 'Uiterwaardengebied (circa 1.464 hectare) waar de Overijsselse Vecht samenkomt met het Zwarte Water, met een kleinschalige afwisseling van hooiland, struweel en rietmoeras. Samen met de Loire in Frankrijk een van de laatste plekken in Europa met een grote populatie wilde kievitsbloem, en broedgebied voor porseleinhoen en kwartelkoning.',
+    bron: 'https://www.natura2000.nl/gebieden/overijssel/uiterwaarden-zwarte-water-en-vecht'
+  },
+  'vecht-en-beneden-reggegebied': {
+    ligging: 'Hardenberg/Hellendoorn/Ommen/Twenterand',
+    tekst: 'Samengesteld rivier- en stuwwallandschap (circa 4.105 hectare) in Noord-Overijssel, waar de Vecht en de Regge door reliëfrijk zandterrein snijden - van hoogveen en stuifzand op de stuwwallen tot vochtige rivierdalgraslanden. Herbergt de grootste Nederlandse populatie ronde zonnedauw, een van de weinige groeiplaatsen van het korstmos Cetraria islandica, en stroomdalgraslanden met steenanjer.',
+    bron: 'https://www.natura2000.nl/gebieden/overijssel/vecht-en-beneden-reggegebied'
+  },
+  'weerribben': {
+    ligging: 'Steenwijkerland',
+    tekst: 'Deels afgegraven veengebied (circa 3.325 hectare) met een mozaïek van trekgaten en legakkers, rietmoeras en trilveen. Herbergt de grootste populatie noordse winterjuffer van Noordwest-Europa en de zeldzame venwitsnuitlibel, met het pimpernelblauwtje als kenmerkende dagvlinder.',
+    bron: 'https://www.natura2000.nl/gebieden/overijssel/weerribben'
+  },
+  'wierdense-veld': {
+    ligging: 'Tussen Nijverdal en Wierden, West-Twente',
+    tekst: 'Herstellend hoogveenlandschap (circa 419 hectare) tussen Nijverdal en Wierden, met een afwisseling van droge heide op zandruggen en natte heide in de laagtes. Beschermd vanwege regenererend hoogveen, broedende kemphanen en nachtzwaluwen, en zeldzame libellen zoals de venwitsnuitlibel; mogelijk toekomstig leefgebied voor het korhoen.',
+    bron: 'https://www.natura2000.nl/gebieden/overijssel/wierdense-veld'
+  },
+  'witte-veen': {
+    ligging: 'Ten zuiden van Enschede, Haaksbergen, grens met Duitsland',
+    tekst: 'Voormalig hoogveen (circa 290 hectare) op de zuidflank van de Oldenzaalse stuwwal bij Haaksbergen, met een veenkern omgeven door droge en natte heide, voedselarme vennen en berkenbos. Door vernatting keert de veenvorming terug, af te lezen aan uitbreidend wollegras; beschermt verder de noordse glazenmaker, kamsalamander en boomkikker.',
+    bron: 'https://www.natura2000.nl/gebieden/overijssel/witte-veen'
   }
 };

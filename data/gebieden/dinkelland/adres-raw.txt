@@ -1,0 +1,33 @@
+Gevonden: 29 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11040 | Bentheimerstraat | 15 A | 7587ND | de Lutte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15278 | Derkinkweg | 65 | 7535PG | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22891 | Loosteresweg | 1 | 7596MN | Rossum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23768 | Schukkinkweg | 15 | 7535PB | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23768 | Schukkinkweg | 15 A | 7535PB | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25111 | Glanerbrugdijk | 7 | 7582RC | Losser
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25839 | Denekamperdijk | 57 | 7581PX | Losser
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26951 | Wiggersweg | 1 | 7582RG | Losser
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28984 | Rammelbeekweg | 16 | 7591NP | Denekamp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40009 | Austiebergweg | 2 | 7588RC | Beuningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41201 | Schukkinkweg | 15 | 7535PB | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42011 | Lossersestraat | 277 | 7525PE | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42294 | Hanhofweg | 22 | 7587LL | de Lutte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43664 | Borgbosweg | 7 | 7588PN | Beuningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45204 | Mensmanweg | 1 | 7588PG | Beuningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48172 | Molterheurneweg | 6 | 7587LG | de Lutte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49405 | Lubberdinksweg | 15 | 7591PB | Denekamp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53645 | Bentheimerstraat | 16 | 7587NH | de Lutte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54366 | Lossersestraat | 170 | 7525PG | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54864 | Glanestraat | 7 | 7586RX | Overdinkel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56909 | Lutterzandweg | 17 | 7588PB | Beuningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58755 | Ootmarsumsestraat | 63 | 7591PR | Denekamp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59809 | Lutterzandweg | 15 | 7587LH | de Lutte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65317 | Dorpstraat | 47 | 7587AB | de Lutte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66354 | Schiphorstdijk | 4 | 7591PS | Denekamp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66355 | Molendijk | 28 | 7591PT | Denekamp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66356 | Molendijk | 26 | 7591PT | Denekamp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74560 | Lonneker Molenweg | 175 | 7525PB | Enschede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74572 | Paandersdijk | 10 | 7588PZ | Beuningen

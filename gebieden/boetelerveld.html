@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Boetelerveld &middot; Boerderij-rijksmonumenten &amp; Natura 2000</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+  :root{
+    --paper:#F4F7F8; --panel:#FFFFFF; --ink:#16324F; --ink-soft:#4A6579;
+    --blue-mid:#3E6C93; --alert:#D1401F; --line:#C9D6DE;
+    --n2k:#5E7D46; --n2k-bg:#E9F0E6; --n2k-text:#3B5230;
+    --k0:#7A1607; --k1:#D1401F; --k2:#E0703C; --k3:#E5B08E; --k4:#B7C7D2; --k5:#B7C7D2;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{background:var(--paper);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    line-height:1.5;padding:0 0 48px}
+  .wrap{max-width:760px;margin:0 auto;padding:0 16px}
+  .eyebrow{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--blue-mid);font-weight:600}
+  header{padding:18px 0 18px;border-bottom:2px solid var(--ink)}
+  h1{font-family:Palatino,"Palatino Linotype",Georgia,serif;font-size:27px;line-height:1.18;font-weight:700;margin-top:6px}
+  header p{margin-top:8px;font-size:14px;color:var(--ink-soft);
+    text-align:justify;-webkit-hyphens:auto;hyphens:auto}
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:16px 0}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:10px}
+  .stat .num{font-family:Palatino,Georgia,serif;font-size:20px;font-weight:700;line-height:1.05}
+  .stat.alert .num{color:var(--alert)}
+  .stat.neutral .num{color:var(--ink-soft)}
+  .stat .lbl{font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-soft);margin-top:3px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:14px;margin:14px 0}
+  .badge-richtlijn{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.04em;
+    text-transform:uppercase;padding:2px 8px;background:var(--n2k-bg);color:var(--n2k-text);border-radius:8px}
+  .richtlijn-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:8px}
+  .richtlijn-meta{font-size:12px;color:var(--ink-soft)}
+  .dk-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px}
+  .dk-item{background:var(--paper);border:1px solid var(--line);border-radius:2px;padding:8px 10px}
+  .dk-item b{font-family:Palatino,Georgia,serif;font-size:18px;display:block}
+  .dk-item span{font-size:11px;color:var(--ink-soft)}
+  .detail{display:none;font-size:12px;color:var(--ink)}
+  .detail.on{display:block}
+  .detail dl{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;margin-top:6px}
+  .detail dt{color:var(--ink-soft)}
+  .detail dd{margin:0}
+  .mon-list{margin-top:12px;font-size:12px}
+  .mon-list summary{cursor:pointer;color:var(--blue-mid);font-weight:600}
+  .mon-list table{width:100%;border-collapse:collapse;margin-top:8px;font-size:12px}
+  .mon-list th,.mon-list td{text-align:left;padding:4px 8px;border-bottom:1px solid var(--line)}
+  .mon-list th{color:var(--ink-soft);font-size:10px;letter-spacing:.04em;text-transform:uppercase}
+  .card h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue-mid);margin-bottom:8px}
+  #map{width:100%;height:480px;border:1px solid var(--line);border-radius:2px;background:var(--paper)}
+  .leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--ink);color:#fff}
+  .leaflet-popup-content{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:12px;margin:8px 10px}
+  .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:11px;color:var(--ink-soft);margin-top:8px}
+  .legend span{display:inline-flex;align-items:center;gap:5px}
+  .sw{width:9px;height:9px;border-radius:50%}
+  .sq{width:11px;height:11px;border-radius:2px}
+  .chips{display:flex;gap:8px;margin:10px 0 2px;flex-wrap:wrap}
+  .chip{padding:7px 12px;border:1.5px solid var(--ink);background:var(--panel);color:var(--ink);
+    font-size:12px;font-weight:600;cursor:pointer;border-radius:2px}
+  .chip.on{background:var(--ink);color:#fff}
+  .chip:focus-visible{outline:3px solid var(--alert);outline-offset:2px}
+  footer{margin-top:22px;font-size:12px;color:var(--ink-soft);border-top:1px solid var(--line);padding-top:14px}
+  footer p{margin-bottom:8px}
+  @media (max-width:480px){ h1{font-size:21px} .stats{grid-template-columns:repeat(3,1fr)} #map{height:360px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p style="font-size:13px;margin-top:14px"><a href="../index.html" style="color:var(--blue-mid)">&larr; terug naar overzicht alle Natura 2000-gebieden</a></p>
+  <header>
+    <div class="eyebrow">RCE &times; Kadaster &times; Natura 2000</div>
+    <h1>Boetelerveld</h1>
+    <div class="richtlijn-row">
+      <span class="badge-richtlijn">Habitatrichtlijn</span>
+      <span class="richtlijn-meta">Natura 2000-gebied nr. 41 &middot; sitecode NL2003009 &middot; stikstofgevoelig: ja</span>
+    </div>
+    <p>Vochtig heidegebied (circa 171 hectare) ten zuidoosten van Raalte, met blauwgrasland, voedselarme vennen en jeneverbesstruweel op een vlakke zandbodem met ijzeroer in de ondergrond. Herbergt de laatste vochtige heide met gewone dophei van Salland, met orchideeën, zonnedauw en gentianen. <a href="https://www.natura2000.nl/gebieden/overijssel/boetelerveld" style="color:var(--blue-mid)" target="_blank" rel="noopener">Bron: natura2000.nl &rarr;</a> &middot; <a href="https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/d29dc589-6199-4032-8063-4ab420d04361" style="color:var(--blue-mid)" target="_blank" rel="noopener">RCE linked data &rarr;</a> &middot; <a href="http://www.wikidata.org/entity/Q2796795" style="color:var(--blue-mid)" target="_blank" rel="noopener">Wikidata &rarr;</a></p>
+    <p>Rijksmonumentale boerderijen binnen dit Natura 2000-gebied of binnen 5&nbsp;km
+    van de gebiedsrand (een gekozen selectievenster, geen ecologische invloedssfeer), met een
+    BAG-industriefunctie-indicatie op basis van BAG-gebruiksdoel (een aanwijzing, geen bewijs van
+    actieve bedrijfsvoering).</p>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="card">
+    <h2>Kaart &middot; elk punt is een rijksmonumentale boerderij</h2>
+    <div class="chips">
+      <button class="chip on" id="fAll" aria-pressed="true">Alle 5</button>
+      <button class="chip" id="fJa" aria-pressed="false">Alleen BAG-industriefunctie-indicatie</button>
+    </div>
+    <div id="map" aria-label="Kaart van het Natura 2000-gebied Boetelerveld met rijksmonumentale boerderijen, met een OpenStreetMap-ondergrond"></div>
+    <div class="legend">
+      <span><i class="sq" style="background:rgba(94,125,70,.3);border:1px solid var(--n2k)"></i>Natura 2000</span>
+      <span><i class="sw" style="background:var(--k0)"></i>erin</span>
+      <span><i class="sw" style="background:var(--k1)"></i>&lt;250 m</span>
+      <span><i class="sw" style="background:var(--k2)"></i>&lt;1 km</span>
+      <span><i class="sw" style="background:var(--k3)"></i>&lt;5 km</span>
+    </div>
+    <p style="font-size:12px;color:var(--ink-soft);margin-top:8px">Klik op een punt voor details ("waarom staat
+    dit punt hier?"), beweeg eroverheen voor een korte hint. Sleep om te verschuiven, scroll of gebruik de
+    +/&minus;-knoppen om in te zoomen op de werkelijke ligging. Bij omrande punten (donkerblauw, effen) is
+    eenduidig een industriefunctie in de BAG aangetroffen. Een dubbele donkerblauwe rand betekent: wel
+    industriefunctie gevonden, maar niet bij alle adressen van dit monument eenduidig (zie klik-detail).
+    Een gestippelde grijze rand: kon niet in de BAG worden gecontroleerd (geen adres bekend of geen match
+    gevonden). Op basis van de BAG-koppeling is hierover geen uitspraak mogelijk, dit is geen bevestiging
+    van afwezige bedrijfsvoering. Kaartondergrond: &copy; <a href="https://carto.com/attributions" target="_blank" rel="noopener" style="color:var(--blue-mid)">CARTO</a>
+    &amp; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener" style="color:var(--blue-mid)">OpenStreetMap</a>-auteurs.</p>
+    <div class="detail" id="detail"></div>
+    <details class="mon-list">
+      <summary>Lijst van alle 5 monumenten (toetsenbord- en schermlezer-toegankelijk)</summary>
+      <table>
+        <thead><tr><th>Rm-nr</th><th>Plaats</th><th>Afstand</th><th>Status</th></tr></thead>
+        <tbody>
+          <tr><td>32266</td><td>Luttenberg</td><td>4.591 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>513677</td><td>Heeten</td><td>3.851 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>32278</td><td>Heeten</td><td>3.504 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>32263</td><td>Raalte</td><td>2.948 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+          <tr><td>513672</td><td>Heeten</td><td>4.852 m</td><td>Geen industriefunctie aangetroffen</td></tr>
+        </tbody>
+      </table>
+    </details>
+  </div>
+
+  
+  <div class="card">
+    <h2>Datakwaliteit &middot; peildatum 2026-08-04</h2>
+    <div class="dk-grid">
+      <div class="dk-item"><b>0</b><span>industriefunctie aangetroffen</span></div>
+      <div class="dk-item"><b>0</b><span>industriefunctie bij deel van adressen</span></div>
+      <div class="dk-item"><b>5</b><span>geen industriefunctie aangetroffen</span></div>
+      <div class="dk-item"><b>0</b><span>geen adres bekend in RCE</span></div>
+      <div class="dk-item"><b>0</b><span>geen match in BAG</span></div>
+      <div class="dk-item"><b>0</b><span>BAG-bevraging mislukt</span></div>
+      <div class="dk-item"><b>2</b><span>monumenten met meerdere adressen</span></div>
+    </div>
+  </div>
+
+  <footer>
+    <p><b>Methodiek.</b> Monumenten: RCE CHO-endpoint, rijksmonumenten met oorspronkelijke functie
+    Boerderij (M/M1), binnen 5&nbsp;km van of daadwerkelijk binnen het Natura 2000-gebied. Natura 2000-geometrie:
+    officiële landelijke WFS (service.pdok.nl/rvo/natura2000). Afstand: monumentpunt tot de daadwerkelijke
+    gebiedsrand. Provincie: point-in-polygon tegen de PDOK-bestuurlijke grenzen. BAG-industriefunctie-indicatie:
+    BAG-gebruiksdoel (open WFS bag:verblijfsobject), gematcht op postcode en huisnummer; industriefunctie
+    op een boerderijadres geldt als BAG-industriefunctie-indicatie: een aanwijzing, geen bewijs van
+    actieve agrarische bedrijfsvoering. Monumenten met uitsluitend woonfunctie zijn conservatief niet als
+    zodanig geteld; dat betekent een afwezige industriefunctie-aanwijzing, geen bevestiging dat er geen
+    bedrijf is. Monumenten zonder BAG-adres in RCE of zonder match in de BAG-zoekbox staan apart als
+    "BAG niet te controleren". Peildatum 2026-08-04.</p>
+    <p><b>Kanttekeningen.</b> Dit is een blootstellingskaart: er is g&eacute;&eacute;n emissiedata (AERIUS/RAV)
+    verwerkt. De industriefunctie-vlag is een indicatie, geen bewijs van actieve bedrijfsvoering of
+    stikstofuitstoot. Geen van de statuscategorie&euml;n op deze pagina is een uitspraak over daadwerkelijke
+    bedrijfsvoering, alleen over wat wel of niet in de BAG is aangetroffen.</p>
+  </footer>
+</div>
+<script id="data" type="application/json">{"gebied":"Boetelerveld","peildatum":"2026-08-04","n":5,"ja":0,"onbekend":0,"provCounts":{"Overijssel":5},"provJaCounts":{},"datakwaliteit":{"industrieAangetroffen":0,"industrieDeelsAangetroffen":0,"geenIndustrieAangetroffen":5,"geenAdres":0,"geenMatch":0,"bagMislukt":0,"meerdereAdressen":2},"bbox":[6.25724354858424,52.309200810278426,6.394483883423635,52.411998884840074],"n2000":[{"naam":"Boetelerveld","rings":[[[6.322166298570045,52.36869838561967],[6.320134836924434,52.36928704842277],[6.319833439298086,52.369374354510256],[6.317873370747368,52.36994318926912],[6.317510194603491,52.369497213660566],[6.316868505763394,52.368716342779145],[6.315267060391018,52.36921815061504],[6.315234296188206,52.369228447399635],[6.315083765042404,52.36927578228393],[6.315065136374979,52.369281636763795],[6.314374296817102,52.36949882096916],[6.314356328387931,52.36950451826202],[6.312897607486942,52.369966694962585],[6.3124613051232785,52.36966687453269],[6.312208717679538,52.369493319980464],[6.311812465747134,52.36920530816561],[6.311468576583376,52.36894326081665],[6.311958164751727,52.368807001692474],[6.31191686770257,52.36875054810049],[6.312062880285594,52.36871135000222],[6.311725508337853,52.368270205668864],[6.311038342721953,52.368440793872836],[6.310998622981473,52.368405830911534],[6.310583209042503,52.367958301750825],[6.31056562148393,52.36793935986223],[6.310515886924213,52.367885790326014],[6.310649759402926,52.36785069112656],[6.310361695335784,52.367361906427725],[6.311632530162807,52.36703326202944],[6.311626622048477,52.36702286395489],[6.311734495966992,52.36699437161151],[6.311359000007317,52.366336614657946],[6.31110696108295,52.36640420760766],[6.311092586312471,52.36636786209729],[6.310299518637206,52.36508116191667],[6.310400862781,52.36505649673352],[6.313656607268956,52.36422913125787],[6.314245851339247,52.364070592776756],[6.314954782930169,52.36389819314959],[6.315080301865102,52.36386687363224],[6.315039468275449,52.363845003915436],[6.314762236669473,52.363358412152586],[6.314585329916603,52.36300952838486],[6.313683907161656,52.363238797146586],[6.313265977332265,52.36256454146116],[6.314614165357097,52.362212772474315],[6.314614150918332,52.362211661649596],[6.314735668656438,52.36218102636961],[6.314743920945802,52.36122286573332],[6.315063506209049,52.36114633462831],[6.315609487078044,52.36101740284026],[6.317085687397019,52.36066801153274],[6.317376748845941,52.36059926639041],[6.317513145346537,52.360567020981165],[6.317822391534004,52.36049390727455],[6.31874882131851,52.36027984852975],[6.318820218093522,52.360260747240915],[6.319570713419804,52.36008273144171],[6.320645236460864,52.35983185256278],[6.3219222685472785,52.35952818803318],[6.322027441811993,52.35950317792397],[6.323156292152557,52.35923943770003],[6.326571162612408,52.35843019428264],[6.327275554739469,52.3582633150854],[6.327396411749867,52.35823467913559],[6.32751667737471,52.358205715198864],[6.32896017088243,52.35786572554383],[6.329000795443246,52.357856133522425],[6.330617897242282,52.35747399692743],[6.331681777856769,52.357224543659164],[6.332483732552713,52.35703314972046],[6.334547565986717,52.356545635944315],[6.3345916163960405,52.35653545009631],[6.335865594182224,52.35623789892255],[6.335945568377591,52.35622094489286],[6.336185813748297,52.35669456390285],[6.3361877139170195,52.356698294942355],[6.3365247666959865,52.35736273271893],[6.336929624604112,52.358160787542516],[6.336932720341031,52.35816693848188],[6.337421400851107,52.35913939344554],[6.3384163051559765,52.35922637662877],[6.3384249313767285,52.35930346466346],[6.338568617250177,52.36058794869252],[6.338568750667481,52.36058951336346],[6.3385688027156535,52.3605896127139],[6.338572009043032,52.36061826916347],[6.339162660155354,52.36171884327036],[6.339556049386735,52.36246229732875],[6.339843555888199,52.363054812833376],[6.340054384001476,52.36351390053753],[6.339694030084238,52.36361939753341],[6.338836804641949,52.36386434851145],[6.338386244244639,52.363993096271294],[6.335268922786079,52.36489939880755],[6.333434032005314,52.365438117677876],[6.332474140714211,52.365720279710615],[6.329200911987184,52.36667105499048],[6.325863922127224,52.36763134523516],[6.322166298570045,52.36869838561967]]]}],"mons":[{"nr":"32266","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10028","functie":"Jachtboerderij","wpl":"Luttenberg","straat":"Buurtschapsweg","huisnr":"2","prov":"Overijssel","k":3,"d":4591,"erin":false,"afstandTotRand":4591,"lon":6.379483883423635,"lat":52.39699888484007,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Buurtschapsweg","huisnr":"2","postcode":"8105SN","woonplaats":"Luttenberg","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Buurtschapsweg","huisnummer":2,"huisletter":"","postcode":"8105SN","gebruiksdoel":"woonfunctie"}]},{"nr":"513677","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34368","functie":"Boerderij","wpl":"Heeten","straat":"Holterweg","huisnr":"50","prov":"Overijssel","k":3,"d":3851,"erin":false,"afstandTotRand":3851,"lon":6.300588145264237,"lat":52.327472987466344,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Holterweg","huisnr":"50","postcode":"8111NR","woonplaats":"Heeten","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Holterweg","huisnummer":50,"huisletter":"","postcode":"8111NR","gebruiksdoel":"woonfunctie"}]},{"nr":"32278","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34378","functie":"Boerderij","wpl":"Heeten","straat":"Heetenseweg","huisnr":"24","prov":"Overijssel","k":3,"d":3504,"erin":false,"afstandTotRand":3504,"lon":6.274883193812335,"lat":52.34125877384431,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Heetenseweg","huisnr":"24","postcode":"8111PZ","woonplaats":"Heeten","gebruiksdoel":"woonfunctie"},{"straat":"Heetenseweg","huisnr":"24 a","postcode":"8111PZ","woonplaats":"Heeten","gebruiksdoel":"logiesfunctie"},{"straat":"Heetenseweg","huisnr":"26","postcode":"8111PZ","woonplaats":"Heeten","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Heetenseweg","huisnummer":24,"huisletter":"","postcode":"8111PZ","gebruiksdoel":"woonfunctie"},{"straat":"Heetenseweg","huisnummer":24,"huisletter":"a","postcode":"8111PZ","gebruiksdoel":"logiesfunctie"},{"straat":"Heetenseweg","huisnummer":26,"huisletter":"","postcode":"8111PZ","gebruiksdoel":"woonfunctie"}]},{"nr":"32263","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37004","functie":"Boerderij","wpl":"Raalte","straat":"Deventerstraat","huisnr":"64","prov":"Overijssel","k":3,"d":2948,"erin":false,"afstandTotRand":2948,"lon":6.27224354858424,"lat":52.380331654543724,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Deventerstraat","huisnr":"64","postcode":"8102GC","woonplaats":"Raalte","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Deventerstraat","huisnummer":64,"huisletter":"","postcode":"8102GC","gebruiksdoel":"woonfunctie"}]},{"nr":"513672","rm":"https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77527","functie":"Boerderij","wpl":"Heeten","straat":"Spekschateweg","huisnr":"2","prov":"Overijssel","k":3,"d":4852,"erin":false,"afstandTotRand":4852,"lon":6.277079786449919,"lat":52.32420081027843,"ja":false,"bag":"ok","status":"geen_industrie_aangetroffen","addressen":[{"straat":"Spekschateweg","huisnr":"2","postcode":"8111PP","woonplaats":"Heeten","gebruiksdoel":"woonfunctie"},{"straat":"Spekschateweg","huisnr":"4","postcode":"8111PP","woonplaats":"Heeten","gebruiksdoel":"woonfunctie"}],"matched":[{"straat":"Spekschateweg","huisnummer":2,"huisletter":"","postcode":"8111PP","gebruiksdoel":"woonfunctie"},{"straat":"Spekschateweg","huisnummer":4,"huisletter":"","postcode":"8111PP","gebruiksdoel":"woonfunctie"}]}],"richtlijn":{"gebiedsnummer":"41","label":"Habitatrichtlijn","badge":"HR","heeftGroeveOnderdeel":false,"siteCodeVogelrichtlijn":null,"siteCodeHabitatrichtlijn":"NL2003009","stikstofgevoelig":true,"natura2000Status":"Natura 2000-besluit 7 mei 2013","wikidata":"http://www.wikidata.org/entity/Q2796795","rceUris":["https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/d29dc589-6199-4032-8063-4ab420d04361"]}}</script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const D = JSON.parse(document.getElementById('data').textContent);
+const $ = id => document.getElementById(id);
+const fmt = n => n.toLocaleString('nl-NL');
+const KC = ['#7A1607','#D1401F','#E0703C','#E5B08E','#B7C7D2','#B7C7D2'];
+const KN = ['erin','<250 m','<1 km','<5 km','<25 km','\u226525 km'];
+let filterJa = false;
+
+$('stats').innerHTML = `
+  <div class="stat"><div class="num">${fmt(D.n)}</div><div class="lbl">rijksmonumentale boerderijen</div></div>
+  <div class="stat alert"><div class="num">${fmt(D.ja)}</div><div class="lbl">BAG-industriefunctie-indicatie</div></div>
+  <div class="stat neutral"><div class="num">${fmt(D.onbekend)}</div><div class="lbl">BAG niet te controleren</div></div>`;
+
+const map = L.map('map', { scrollWheelZoom: false });
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &copy; OpenStreetMap contributors',
+  maxZoom: 19
+}).addTo(map);
+const [bx0,by0,bx1,by1] = D.bbox;
+map.fitBounds([[by0,bx0],[by1,bx1]], { padding: [10,10] });
+
+const n2000Layer = L.layerGroup().addTo(map);
+D.n2000.forEach(g => g.rings.forEach(ring => {
+  L.polygon(ring.map(([lon,lat]) => [lat,lon]), {
+    color: '#5E7D46', weight: 1, fillColor: '#5E7D46', fillOpacity: 0.28, interactive: false
+  }).addTo(n2000Layer);
+}));
+
+const STATUS_LABEL = {
+  industrie_aangetroffen: 'Industriefunctie aangetroffen (eenduidig)',
+  industrie_deels_aangetroffen: 'Industriefunctie aangetroffen bij een deel van de adressen',
+  geen_industrie_aangetroffen: 'Geen industriefunctie aangetroffen',
+  geen_adres: 'BAG niet te controleren \u2014 geen adres bekend in RCE',
+  geen_match: 'BAG niet te controleren \u2014 geen match gevonden',
+  bag_mislukt: 'BAG niet te controleren \u2014 bevraging mislukt'
+};
+const detail = $('detail');
+function toonDetail(m){
+  const adressenHtml = (m.addressen||[]).map((a,i)=>
+    `<dt>adres ${i+1}</dt><dd>${a.straat} ${a.huisnr}, ${a.postcode} ${a.woonplaats}${a.gebruiksdoel ? ', gebruiksdoel: '+a.gebruiksdoel : ', geen BAG-match'}</dd>`
+  ).join('');
+  detail.innerHTML = `<dl>
+    <dt>rijksmonumentnummer</dt><dd>${m.nr} (<a href="https://monumentenregister.cultureelerfgoed.nl/monumenten/${m.nr}" target="_blank" rel="noopener" style="color:var(--blue-mid)">Monumentenregister &rarr;</a>${m.rm ? ` &middot; <a href="${m.rm}" target="_blank" rel="noopener" style="color:var(--blue-mid)">RCE linked data &rarr;</a>` : ''})</dd>
+    <dt>oorspronkelijke functie</dt><dd>${m.functie||'onbekend'}</dd>
+    <dt>ligging</dt><dd>${m.erin ? 'binnen het Natura 2000-gebied' : `${fmt(m.afstandTotRand)} m van de gebiedsrand`} \u00b7 ${KN[m.k]}-klasse \u00b7 ${m.prov}</dd>
+    <dt>status</dt><dd>${STATUS_LABEL[m.status]||m.status}</dd>
+    ${adressenHtml}
+    <dt>peildatum</dt><dd>2026-08-04</dd>
+  </dl>`;
+  detail.classList.add('on');
+}
+
+const monLayer = L.layerGroup().addTo(map);
+function renderMarkers(){
+  monLayer.clearLayers();
+  [...D.mons].sort((a,b)=>b.k-a.k).forEach(m=>{
+    if(filterJa && !m.ja) return;
+    const r = m.k<=1 ? 5 : m.k===2 ? 4.4 : 3.8;
+    const marker = L.circleMarker([m.lat,m.lon], { radius:r, fillColor:KC[m.k], fillOpacity:0.9, weight:1, color:KC[m.k] });
+    if(m.status==='industrie_deels_aangetroffen'){
+      marker.setStyle({color:'#16324F', weight:1.3});
+      L.circleMarker([m.lat,m.lon], { radius:r+2.2, fill:false, color:'#16324F', weight:1.3, interactive:false }).addTo(monLayer);
+    } else if(m.ja){
+      marker.setStyle({color:'#16324F', weight:1.3});
+    } else if(m.bag!=='ok'){
+      marker.setStyle({color:'#8A8A8A', weight:1, dashArray:'2,2'});
+    }
+    marker.bindTooltip(
+      `rm ${m.nr} \u00b7 ${m.straat||''} ${m.huisnr||''}, ${m.wpl||''} \u00b7 ${m.prov} \u00b7 ${KN[m.k]} van Boetelerveld`+
+      (m.d>0 ? ` (${fmt(m.d)} m)` : '') + (m.ja ? ' \u00b7 BAG-industriefunctie-indicatie' : (m.bag!=='ok' ? ' \u00b7 BAG niet te controleren' : ''))
+    );
+    marker.on('click', ()=>toonDetail(m));
+    marker.addTo(monLayer);
+  });
+}
+renderMarkers();
+
+if($('fAll')){
+  $('fAll').onclick=()=>{filterJa=false;$('fAll').classList.add('on');$('fAll').setAttribute('aria-pressed','true');$('fJa').classList.remove('on');$('fJa').setAttribute('aria-pressed','false');renderMarkers();};
+  $('fJa').onclick=()=>{filterJa=true;$('fJa').classList.add('on');$('fJa').setAttribute('aria-pressed','true');$('fAll').classList.remove('on');$('fAll').setAttribute('aria-pressed','false');renderMarkers();};
+}
+window.addEventListener('resize',()=>map.invalidateSize());
+</script>
+</body>
+</html>
