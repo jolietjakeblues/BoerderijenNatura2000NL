@@ -797,5 +797,10 @@ export const GEBIEDEN_BESCHRIJVING = {
     ligging: 'Het Hogeland/Noardeast-Fryslân/Westerkwartier, grens Groningen/Fryslân',
     tekst: 'Groot zoetwatermeer (circa 5.755 hectare), ontstaan na afsluiting van de Lauwerszee in 1969, met begraasde graslanden, rietvelden, struweel en bos langs de randen. Belangrijk broedgebied voor moerasvogels als roerdomp, bruine kiekendief en blauwborst, en de grootste Nederlandse groeiplaats van de honingorchis.',
     bron: 'https://www.natura2000.nl/gebieden/groningen/lauwersmeer'
+  },
+  'veluwe': {
+    ligging: 'Gelderland, 18 gemeenten waaronder Apeldoorn, Arnhem, Ede en Nunspeet',
+    tekst: 'Uitgestrekt stuwwallandschap (circa 88.436 hectare) uit de ijstijd, met droge bossen, circa 14.000 hectare heide, vennen en stuifzand - waaronder het Kootwijkerzand, het grootste actieve stuifzand van Europa. Herbergt internationaal zeldzame mossen, korstmossen, kevers en vlinders die van voedselarme bodem afhankelijk zijn, met beuken-eikenbos op oude bosgrond en kleine beekdalen met bijzondere natte vegetatie.',
+    bron: 'https://www.natura2000.nl/gebieden/gelderland/veluwe'
   }
 };
