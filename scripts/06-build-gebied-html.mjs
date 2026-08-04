@@ -16,6 +16,12 @@ const dir = path.join(__dirname, '..', 'data', 'gebieden', slug);
 const D = fs.readFileSync(path.join(dir, 'data.json'), 'utf-8');
 const Dobj = JSON.parse(D);
 const meta = GEBIEDEN_BESCHRIJVING[slug] || { tekst: '(nog geen beschrijving toegevoegd aan scripts/lib/gebieden-beschrijving.mjs)', bron: 'https://www.natura2000.nl/gebieden' };
+
+// Meld-een-fout-link: opent een vooringevulde GitHub issue (form-template), zodat een melder niet
+// zelf hoeft te typen welk gebied en welke pagina het betreft.
+const PAGES_BASE = 'https://jolietjakeblues.github.io/BoerderijenNatura2000NL';
+const feedbackUrl = 'https://github.com/jolietjakeblues/BoerderijenNatura2000NL/issues/new?' +
+  new URLSearchParams({ template: 'gebied-fout.yml', gebied: Dobj.gebied, pagina: `${PAGES_BASE}/gebieden/${slug}.html` }).toString();
 const provs = Object.keys(Dobj.provCounts);
 const multiProv = provs.length > 1;
 
@@ -217,6 +223,7 @@ const head = `<!DOCTYPE html>
     verwerkt. De industriefunctie-vlag is een indicatie, geen bewijs van actieve bedrijfsvoering of
     stikstofuitstoot. Geen van de statuscategorie&euml;n op deze pagina is een uitspraak over daadwerkelijke
     bedrijfsvoering, alleen over wat wel of niet in de BAG is aangetroffen.</p>
+    <p style="margin-top:10px"><a href="${feedbackUrl}" target="_blank" rel="noopener" style="color:var(--blue-mid)">Meld een mogelijke fout op deze pagina &rarr;</a></p>
   </footer>
 </div>
 <script id="meta" type="application/json">${JSON.stringify({ gebied: Dobj.gebied, tekst: meta.tekst, bron: meta.bron })}</script>
