@@ -1,7 +1,7 @@
 {
  "versielabel": null,
- "gegenereerdOp": "2026-08-04T12:02:42.835Z",
- "commit": "d84dbb13147c668ce68b886fd1e15b3b98106899",
+ "gegenereerdOp": "2026-08-04T13:39:03.258Z",
+ "commit": "7357901367b658c5a07faca1cd01cd5ea76ef217",
  "toelichting": "Dit bestand is een voorbereide kandidaat voor een dataset-release, geen gepubliceerde release zelf. Het legt het commit en de per-gebied aantallen/checksums vast op het moment van genereren; git tag en GitHub Release blijven een handmatige stap van de repo-eigenaar.",
  "totaalGebieden": 160,
  "totaalMonumenten": 7255,
