@@ -33,7 +33,7 @@ elke ronde): zie **[GEBIEDEN.md](GEBIEDEN.md)**.
 ## Methode per gebied
 
 1. **Monumenten**: RCE CHO-endpoint (linked data), rijksmonumenten met oorspronkelijke functie
-   "boerderij" (labels als "Boerderij (M)", "Boerderij(M1)";coderingen tussen haakjes worden
+   "boerderij" (labels als "Boerderij (M)", "Boerderij(M1)"; coderingen tussen haakjes worden
    afgeknipt), met puntgeometrie. Monumenten die RCE zelf niet meer als rijksmonument classificeert
    (`heeftJuridischeStatus` = "geen rijksmonument", bv. na sloop) worden bij de bron uitgesloten.
 2. **Natura 2000-geometrie**: officiële landelijke WFS (`service.pdok.nl/rvo/natura2000`).
@@ -66,7 +66,7 @@ elke ronde): zie **[GEBIEDEN.md](GEBIEDEN.md)**.
 
 Voor nu wordt alléén de klasse **"erin" + "≤ 5 km"** meegenomen (zie het TODO hieronder voor
 uitbreiding). Dat betekent dat een gebied als De Bruuk als "0 boerderijen" verschijnt, terwijl de
-dichtstbijzijnde boerderij daar in werkelijkheid op 5,6 km ligt;net buiten de huidige grens, niet
+dichtstbijzijnde boerderij daar in werkelijkheid op 5,6 km ligt; net buiten de huidige grens, niet
 omdat er niets in de buurt is.
 
 ### Waarom geen BAG API-key
