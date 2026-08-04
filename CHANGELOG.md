@@ -6,6 +6,19 @@ precieze wijzigingen per gebied: `git log`. Entries staan in omgekeerd-chronolog
 volgorde; een latere entry kan dus een eerdere entry corrigeren of vervangen. Waar dat
 kan verwarren, is dat expliciet benoemd.
 
+## Subresource Integrity (SRI) voor de Leaflet-CDN-referenties
+
+Elke gebiedspagina laadt Leaflet 1.9.4 (CSS + JS) van unpkg.com. `integrity`- en
+`crossorigin`-attributen toegevoegd op beide `<link>`/`<script>`-tags in
+`scripts/06-build-gebied-html.mjs`, zodat de browser de bestanden weigert als de CDN ooit andere
+inhoud levert dan verwacht (verminkte CDN, gecompromitteerde registry, MITM). De aangeleverde
+sha256-hashes zijn zelf geverifieerd door de daadwerkelijke bestanden van unpkg.com op te halen en
+lokaal opnieuw te hashen, vóórdat ze zijn overgenomen - ze kwamen overeen. Alle 160 gebiedspagina's
+herbouwd; per pagina verandert alleen de Leaflet-CDN-referentie (bevestigd via `git diff --stat`: 8
+toevoegingen, 2 verwijderingen per bestand, verder niets). Gecontroleerd in een echte browser
+(`.claude/launch.json`, Python `http.server`): Leaflet laadt en initialiseert (`L.version` =
+"1.9.4"), de kaarttegels renderen, geen SRI- of CORS-fouten in de console.
+
 ## CSV-downloadknop per gebiedspagina
 
 Elke gebiedspagina heeft nu een "CSV downloaden"-knop naast de bestaande filterknoppen (naast

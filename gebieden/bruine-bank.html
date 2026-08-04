@@ -4,7 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Bruine Bank &middot; Boerderij-rijksmonumenten &amp; Natura 2000</title>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin="" />
 <style>
   :root{
     --paper:#F4F7F8; --panel:#FFFFFF; --ink:#16324F; --ink-soft:#4A6579;
@@ -141,7 +144,10 @@
   </footer>
 </div>
 <script id="data" type="application/json">{"gebied":"Bruine Bank","peildatum":"2026-08-04","n":0,"ja":0,"onbekend":0,"provCounts":{},"provJaCounts":{},"datakwaliteit":{"industrieAangetroffen":0,"industrieDeelsAangetroffen":0,"geenIndustrieAangetroffen":0,"geenAdres":0,"geenMatch":0,"bagMislukt":0,"meerdereAdressen":0},"bbox":[2.929025827674473,52.28448415311872,3.516738072720931,52.79648801083689],"n2000":[{"naam":"Bruine Bank","rings":[[[3.3031830446487835,52.78127472098635],[3.2035266667585733,52.78148801083689],[3.19904720848318,52.748157547841444],[3.187878893991905,52.664831242702],[3.1818659354142422,52.61983519572918],[3.158400436829149,52.58150499241163],[3.107539920645574,52.4981784618344],[3.0568855842257845,52.41485202323676],[2.9985609692119515,52.35585286372401],[2.9745652599704355,52.33152534549814],[2.9440258276744733,52.300517791429954],[3.496710801700605,52.29948415311872],[3.501738072720931,52.742428657326904],[3.3031830446487835,52.78127472098635]]]}],"mons":[],"richtlijn":{"gebiedsnummer":"168","label":"Vogelrichtlijn","badge":"VR","heeftGroeveOnderdeel":false,"siteCodeVogelrichtlijn":"NL2021168","siteCodeHabitatrichtlijn":null,"stikstofgevoelig":false,"natura2000Status":"Natura 2000-besluit 9 december 2021","wikidata":"http://www.wikidata.org/entity/Q2392788","rceUris":["https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/b0286f7c-0a43-4e24-a511-d7e3190dfd2d"]}}</script>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""></script>
 <script>
 const D = JSON.parse(document.getElementById('data').textContent);
 const $ = id => document.getElementById(id);
