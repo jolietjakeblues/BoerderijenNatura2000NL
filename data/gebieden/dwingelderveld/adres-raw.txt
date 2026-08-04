@@ -1,0 +1,70 @@
+Gevonden: 66 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11257 | De Weijert | 2 | 7991BP | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12488 | Achterstraat | 14 | 7981AS | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15444 | Dwarsweg | 2 | 7975AT | Uffelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15671 | Lhee | 100 | 7991PK | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17347 | Brink | 3 | 7991CG | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17347 | Brink | 3 a | 7991CG | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17490 | Brink | 4 | 7991CG | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17490 | Brink | 4 B | 7991CG | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17817 | Westeinde | 51 | 7991RT | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21951 | Leggeloo | 38 | 7991PZ | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22755 | Lhee | 68 | 7991PJ | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22913 | Brink | 36 | 7991CJ | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23543 | Lhee | 67 | 7991PJ | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23752 | Westeinde | 49 | 7991RT | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23985 | Kerkweg | 1 | 7933TP | Pesse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24643 | Westeinde | 24 | 7991RV | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24643 | Westeinde | 24 a | 7991RV | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26819 | Leggeloo | 3 | 7991PW | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27065 | Lhee | 90 | 7991PK | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27229 | Terhorst | 7 | 9411TR | Beilen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30500 | Kerkdijk | 5 | 7964KA | Ansen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30500 | Grote Esweg | 1 | 7964KD | Ansen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31688 | Brink | 8 | 7991CG | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32320 | Brink | 12 | 7991CG | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32953 | Westeinde | 43 a | 7991RT | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32953 | Westeinde | 43 | 7991RT | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33155 | Brink | 52 | 7991CJ | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33188 | Leggeloo | 41 | 7991PZ | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35611 | Eursinge | 2 | 7935AB | Eursinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35683 | Brink | 51 | 7991CJ | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36660 | Leggeloo | 39 | 7991PZ | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39179 | Dorpsstraat | 5 | 7975AM | Uffelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42068 | Westeinde | 30 | 7991RV | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42173 | Eemster | 25 | 7991PS | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42330 | Hees | 36 | 7963PB | Ruinen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42535 | Dwingelerweg | 25 | 7964KJ | Ansen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43059 | Lhee | 71 | 7991PJ | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43546 | Rheebruggen | 10 | 7964KR | Ansen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46592 | Holtenweg | 2 | 7981NB | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47226 | Leggeloo | 5 | 7991PW | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51566 | Westeinde | 1 b | 7991RS | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51566 | Westeinde | 1 | 7991RS | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52758 | Kastanjelaan | 18 | 7981ND | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53283 | Kruisstraat | 2 A | 7981AR | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53283 | Kruisstraat | 2 B | 7981AR | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53283 | Kruisstraat | 2 C | 7981AR | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53861 | Leggeloo | 24 | 7991PW | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53861 | Leggeloo | 24 A | 7991PW | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54020 | Brink | 2 | 7991CG | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57965 | Dorpsstraat | 7 | 7975AM | Uffelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58864 | Hoofdstraat | 34 | 7981AA | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61230 | Lhee | 91 | 7991PK | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68054 | Brinkstraat | 1 | 7981BE | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68054 | Brink | 11 | 7981BZ | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68154 | Rheebruggen | 8 | 7964KR | Ansen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68770 | Rheebruggen | 6 | 7964KR | Ansen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71557 | Westeinde | 20 a | 7991RV | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71557 | Westeinde | 20 | 7991RV | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71564 | Hees | 34 | 7963PB | Ruinen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71881 | Westeinde | 59 | 7991RT | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72007 | Smeestraat | 12 | 7963AK | Ruinen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72612 | Hees | 21 | 7963PA | Ruinen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74945 | Lhee | 9 | 7991PE | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78040 | Anserweg | 8 | 7975PB | Uffelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78202 | Lheebroek | 6 | 7991PL | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78253 | Dwingelerweg | 9 | 7964KJ | Ansen

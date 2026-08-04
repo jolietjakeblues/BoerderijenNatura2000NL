@@ -1,0 +1,62 @@
+Gevonden: 58 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12562 | Lunsenhof | 20 | 9467PM | Anloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12752 | Groningerstraat | 17 | 9471AP | Zuidlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13058 | Meentweg | 15 | 9756TB | Glimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13797 | Zuidlaarderweg | 59 | 9479TH | Noordlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14015 | Schultestraat | 7 | 9481BC | Vries
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14080 | Telefoonstraat | 45 | 9471EL | Zuidlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14581 | Zuidlaarderweg | 46 | 9479TJ | Noordlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14674 | Zuiderstraat | 11 A | 9444PJ | Grolloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14674 | Zuiderstraat | 13 | 9444PJ | Grolloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15119 | Kloosterstraat | 6 | 9401KD | Assen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15119 | Kloosterstraat | 8 | 9401KD | Assen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15526 | Witterzomer | 1 | 9405VE | Assen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15795 | Gieselgeer | 3 | 9755TE | Onnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16354 | Oude Rijksweg | 3 | 9481BD | Vries
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16579 | Zuiderstraat | 15 | 9444PJ | Grolloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18963 | Middenstreek | 5 | 9444PG | Grolloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18971 | Anreep | 6 | 9404TE | Assen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19146 | Borgweg | 66 | 9469PJ | Schipborg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19812 | Hagenend | 3 | 9465TS | Anderen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20528 | Stationsstraat | 58 | 9463TJ | Eext
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21405 | Marsdijk | 5 | 9403TT | Assen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22604 | Zuinigstraat | 2 | 9479PM | Noordlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25331 | Deurze | 10 | 9457TB | Deurze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25331 | Deurze | 12 | 9457TB | Deurze
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26747 | Kerkbrink | 4 | 9467PH | Anloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30117 | Schutsweg | 42 | 9475PL | Midlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31473 | Dorpsweg | 2 | 9755PC | Onnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31902 | Zuidveld | 11 | 9755TK | Onnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33759 | Lageweg | 39 | 9479PA | Noordlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35131 | Gieterstraat | 2 | 9463PX | Eext
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36063 | Veenvoort | 3 | 9465TN | Anderen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37191 | Zuidveld | 10 | 9755TM | Onnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38425 | Kerkstraat | 5 | 9479PK | Noordlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38696 | Lutsborgsweg | 74 | 9752VX | Haren Gn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40104 | Rijksstraatweg | 364 | 9752CR | Haren Gn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40948 | Boerlaan | 18 | 9752VZ | Haren Gn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41110 | Zuidlaarderweg | 71 | 9479PR | Noordlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41832 | Lutsborgsweg | 68 | 9752VX | Haren Gn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42733 | Witterhaar | 11 | 9405VJ | Assen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46744 | Meentweg | 11 | 9756AN | Glimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47196 | Rijksstraatweg | 5 | 9756AA | Glimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48066 | Kerkstraat | 2 | 9462PS | Gasselte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50317 | Groningerstraat | 54 | 9475PC | Midlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50339 | Asserstraat | 10 | 9461GC | Gieten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51103 | Schutsweg | 40 | 9475PL | Midlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51864 | Markeweg | 2 | 9409TH | Loon
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52305 | Middenstraat | 1 | 9479PL | Noordlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53902 | Lageweg | 51 | 9479PB | Noordlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56122 | Lageweg | 14 | 9479PC | Noordlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56860 | Oosteinde | 1 | 9466PA | Gasteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59170 | Lutsborgsweg | 73 | 9752VT | Haren Gn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65940 | Lutsborgsweg | 69 | 9752VT | Haren Gn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67884 | Boermarkeweg | 11 | 9414VK | Hooghalen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68161 | Lemferdingerlaan | 7 | 9765AR | Paterswolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71102 | Meentweg | 26 | 9756TB | Glimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71102 | Meentweg | 30 | 9756TB | Glimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72554 | Hagenend | 2 | 9465TS | Anderen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/79726 | Dorpsweg | 55 | 9755PB | Onnen

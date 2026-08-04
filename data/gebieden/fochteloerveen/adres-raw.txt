@@ -1,0 +1,39 @@
+Gevonden: 35 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12798 | Asserstraat | 93 | 9335TA | Zuidvelde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14129 | Hoofdweg | 6 | 9337PA | Westervelde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15526 | Witterzomer | 1 | 9405VE | Assen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20547 | Asserstraat | 76 | 9335TC | Zuidvelde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22028 | Asserstraat | 87 A | 9335TA | Zuidvelde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22028 | Asserstraat | 87 | 9335TA | Zuidvelde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24403 | Tramweg | 71 | 9422BM | Smilde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29508 | Molenweg | 58 | 8431HS | Oosterwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35713 | Hoofdweg | 2 A | 9337PA | Westervelde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39497 | Tramweg | 14 | 9422BJ | Smilde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41379 | Industrieweg | 2 | 8426AA | Appelscha
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41938 | Asserstraat | 85 | 9335TA | Zuidvelde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42513 | Hoofdweg | 8 | 9337PA | Westervelde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42733 | Witterhaar | 11 | 9405VJ | Assen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45284 | Hoofdvaartsweg | 162 | 9406XE | Assen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45424 | Asserstraat | 89 | 9335TA | Zuidvelde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47134 | Schaapdijk | 3 | 9334TJ | Peest
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47572 | Boerestreek | 22 | 8426BP | Appelscha
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48005 | Asserstraat | 136 | 9336TB | Huis ter Heide
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51732 | Hoofdweg | 5 | 9337PA | Westervelde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52264 | Hoofdweg | 3 | 9337PA | Westervelde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53561 | Brink | 1 | 9335TG | Zuidvelde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55356 | Bruggelaan | 62 | 8426BH | Appelscha
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55414 | Brink | 2 | 9335TG | Zuidvelde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56147 | Asserstraat | 78 | 9335TC | Zuidvelde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66734 | Generaal van den Boschweg | 48 | 9341AD | Veenhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66737 | Generaal van den Boschweg | 46 | 9341AD | Veenhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66737 | Generaal van den Boschweg | 48 | 9341AD | Veenhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71068 | Hoofdweg | 13 | 9337PA | Westervelde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71915 | Esweg | 5 | 9341AW | Veenhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72305 | Generaal van den Boschweg | 20 | 9341AC | Veenhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73868 | Hospitaallaan | 48 | 9341AH | Veenhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74836 | Kerklaan | 56 | 9341AV | Veenhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75116 | Stoomweg | 3 | 9341TH | Veenhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75599 | Hoofdweg | 7 | 9337PA | Westervelde

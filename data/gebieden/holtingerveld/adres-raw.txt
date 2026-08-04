@@ -1,0 +1,123 @@
+Gevonden: 119 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10799 | Dorpsstraat | 3 | 7971CN | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12488 | Achterstraat | 14 | 7981AS | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14248 | Oosteinde | 18 | 8351HB | Wapserveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15133 | Hoofdweg | 118 | 8383EK | Nijensleek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15444 | Dwarsweg | 2 | 7975AT | Uffelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17817 | Westeinde | 51 | 7991RT | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17935 | Dorpsstraat | 4 | 7971CR | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17935 | Dorpsstraat | 6 | 7971CR | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20260 | van Helomaweg | 23 | 7971PW | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20761 | Kosterijstraat | 1 | 7971CK | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20932 | Dorpsstraat | 12 | 7971CR | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21868 | van Helomaweg | 27 | 7971PW | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22458 | Overcingelaan | 5 | 7971RC | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22913 | Brink | 36 | 7991CJ | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23359 | Dorpsstraat | 14 | 7971CR | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23752 | Westeinde | 49 | 7991RT | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24643 | Westeinde | 24 | 7991RV | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24643 | Westeinde | 24 a | 7991RV | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25779 | Dokter Larijweg | 41 | 7961NM | Ruinerwold
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28843 | Rijksweg NZ | 14 | 7971CX | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28843 | Rijksweg NZ | 14 k 3 | 7971CX | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28843 | Rijksweg NZ | 14 k 4 | 7971CX | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28843 | Rijksweg NZ | 14 k 5 | 7971CX | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28843 | Rijksweg NZ | 14 k 6 | 7971CX | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28843 | Rijksweg NZ | 14 k 8 | 7971CX | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28843 | Rijksweg NZ | 14 k 9 | 7971CX | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28843 | Rijksweg NZ | 14 k 11 | 7971CX | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28843 | Rijksweg NZ | 14 k 7 | 7971CX | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28843 | Rijksweg NZ | 14 k 10 | 7971CX | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28843 | Rijksweg NZ | 14 k 13 | 7971CX | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28843 | Rijksweg NZ | 14 k 1 | 7971CX | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28843 | Rijksweg NZ | 14 k 2 | 7971CX | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28843 | Rijksweg NZ | 14 k 12 | 7971CX | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30263 | Overcingelaan | 1 | 7971RC | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30500 | Kerkdijk | 5 | 7964KA | Ansen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30500 | Grote Esweg | 1 | 7964KD | Ansen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32953 | Westeinde | 43 a | 7991RT | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32953 | Westeinde | 43 | 7991RT | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36390 | Dokter Larijweg | 22 | 7961NL | Ruinerwold
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37721 | Dorpsstraat | 27 | 7971CP | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38676 | De Hoek | 5 | 8381BK | Vledder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39179 | Dorpsstraat | 5 | 7975AM | Uffelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39567 | Dokter Larijweg | 21 | 7961NL | Ruinerwold
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40520 | M.E. van der Meulenweg | 5 | 8382CC | Frederiksoord
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42042 | van Helomaweg | 31 | 7971PW | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42068 | Westeinde | 30 | 7991RV | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42208 | Boskampsbrugweg | 1 b | 7971CL | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42208 | Boskampsbrugweg | 1 a | 7971CL | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42208 | Boskampsbrugweg | 2 k 17 | 7971CL | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42208 | Boskampsbrugweg | 2 k 2 | 7971CL | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42208 | Boskampsbrugweg | 2 k 18 | 7971CL | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42208 | Boskampsbrugweg | 2 k 19 | 7971CL | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42208 | Boskampsbrugweg | 2 k 3 | 7971CL | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42208 | Boskampsbrugweg | 2 k 5 | 7971CL | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42208 | Boskampsbrugweg | 2 k 1 | 7971CL | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42208 | Boskampsbrugweg | 2 k 6 | 7971CL | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42208 | Boskampsbrugweg | 2 k 4 | 7971CL | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42208 | Boskampsbrugweg | 2 | 7971CL | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42304 | Dorpsstraat | 12 | 7971CR | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42535 | Dwingelerweg | 25 | 7964KJ | Ansen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42847 | Midden | 78 | 8351HJ | Wapserveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43546 | Rheebruggen | 10 | 7964KR | Ansen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45781 | van Helomaweg | 2 a | 7971PX | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45781 | van Helomaweg | 2 d | 7971PX | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45781 | van Helomaweg | 2 e | 7971PX | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45781 | van Helomaweg | 2 b | 7971PX | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45781 | van Helomaweg | 2 c | 7971PX | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45781 | van Helomaweg | 2 | 7971PX | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46077 | Kallenkote | 25 | 8345HB | Kallenkote
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46218 | Dokter Larijweg | 124 a | 7961NS | Ruinerwold
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46218 | Dokter Larijweg | 124 | 7961NS | Ruinerwold
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46592 | Holtenweg | 2 | 7981NB | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49294 | Dorpsstraat | 1 | 7971CN | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49795 | Dokter Larijweg | 72 a | 7961NN | Ruinerwold
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49795 | Dokter Larijweg | 72 | 7961NN | Ruinerwold
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51074 | Veenhuizerweg | 6 | 7983KV | Wapse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51106 | Dokter Larijweg | 121 | 7961NR | Ruinerwold
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51566 | Westeinde | 1 b | 7991RS | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51566 | Westeinde | 1 | 7991RS | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51805 | Raadhuislaan | 13 | 7971CT | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52065 | Eursingerlaan | 8 | 7971RE | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52758 | Kastanjelaan | 18 | 7981ND | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53277 | Dorpsstraat | 23 | 8381AM | Vledder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53277 | Dorpsstraat | 19 | 8381AM | Vledder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53277 | Dorpsstraat | 21 | 8381AM | Vledder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53283 | Kruisstraat | 2 A | 7981AR | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53283 | Kruisstraat | 2 B | 7981AR | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53283 | Kruisstraat | 2 C | 7981AR | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53475 | Rijksweg NZ | 7 | 7971CX | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55156 | Eursingerlaan | 5 | 7971RE | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55327 | Eursingerlaan | 1 | 7971RE | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56521 | Dorpsstraat | 30 | 7971CS | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56631 | Oosteinde | 10 | 8351HB | Wapserveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57307 | van Helomaweg | 25 | 7971PW | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57965 | Dorpsstraat | 7 | 7975AM | Uffelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58864 | Hoofdstraat | 34 | 7981AA | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59509 | Boskampsbrugweg | 15 | 7971CL | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59586 | van Helomaweg | 3 | 7971PW | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61157 | Eursingerlaan | 3 | 7971RE | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62073 | Rijksweg NZ | 12 | 7971CX | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62073 | Rijksweg NZ | 13 | 7971CX | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68054 | Brinkstraat | 1 | 7981BE | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68054 | Brink | 11 | 7981BZ | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68154 | Rheebruggen | 8 | 7964KR | Ansen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68444 | Dijkhuizen | 119 | 7961AJ | Ruinerwold
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68770 | Rheebruggen | 6 | 7964KR | Ansen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69317 | De Hoek | 12 | 8381BL | Vledder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70449 | Dijkhuizen | 107 | 7961AJ | Ruinerwold
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70450 | Dijkhuizen | 107 | 7961AJ | Ruinerwold
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71557 | Westeinde | 20 a | 7991RV | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71557 | Westeinde | 20 | 7991RV | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71881 | Westeinde | 59 | 7991RT | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72584 | Overcingelaan | 2 a | 7971RC | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72584 | Overcingelaan | 2 | 7971RC | Havelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73400 | Dokter Larijweg | 60 | 7961NM | Ruinerwold
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73402 | Dokter Larijweg | 60 | 7961NM | Ruinerwold
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73403 | Dokter Larijweg | 60 | 7961NM | Ruinerwold
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78040 | Anserweg | 8 | 7975PB | Uffelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78253 | Dwingelerweg | 9 | 7964KJ | Ansen

@@ -1,0 +1,20 @@
+Gevonden: 16 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12837 | Oostersebos | 13 | 7761PS | Schoonebeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22639 | Middendorp | 10 | 7761PP | Schoonebeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38005 | Oostersebos | 15 | 7761PS | Schoonebeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41923 | Europaweg | 12 | 7761AG | Schoonebeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43747 | Middendorp | 13 | 7761PP | Schoonebeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65882 | Oostersebos | 8 | 7761PS | Schoonebeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65883 | Oostersebos | 8 | 7761PS | Schoonebeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68294 | Oostersebos | 11 | 7761PS | Schoonebeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68295 | Oostersebos | 11 | 7761PS | Schoonebeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69423 | Oostersebos | 4 | 7761PS | Schoonebeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69424 | Oostersebos | 4 A | 7761PS | Schoonebeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69425 | Oostersebos | 4 | 7761PS | Schoonebeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69425 | Oostersebos | 4 B | 7761PS | Schoonebeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69665 | Oostersebos | 17 | 7761PS | Schoonebeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69666 | Oostersebos | 17 | 7761PS | Schoonebeek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69667 | Oostersebos | 17 | 7761PS | Schoonebeek
