@@ -1,0 +1,10 @@
+PREFIX ceo: <https://linkeddata.cultureelerfgoed.nl/def/ceo#>
+SELECT DISTINCT ?rm ?openbareRuimte ?huisnummer ?postcode ?woonplaats WHERE {
+  VALUES ?rm { <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11258> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22389> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31053> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37530> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44541> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45387> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46461> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55268> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70823> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70825> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70826> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71608> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77955> }
+  ?rm ceo:heeftBasisregistratieRelatie ?br .
+  ?br ceo:heeftBAGRelatie ?bag .
+  OPTIONAL { ?bag ceo:openbareRuimte ?openbareRuimte }
+  OPTIONAL { ?bag ceo:huisnummer ?huisnummer }
+  OPTIONAL { ?bag ceo:postcode ?postcode }
+  OPTIONAL { ?bag ceo:woonplaatsnaam ?woonplaats }
+}

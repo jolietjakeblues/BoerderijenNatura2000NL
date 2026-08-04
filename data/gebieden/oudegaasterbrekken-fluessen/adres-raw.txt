@@ -1,0 +1,32 @@
+Gevonden: 28 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12769 | Nieuwe Weide | 9 | 8713JD | Hindeloopen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19140 | Uilenburg | 56 | 8651EL | IJlst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20482 | Nr | 13 | 8553MP | Indijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20533 | Mardyk | 21 | 8581KG | Elahuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22248 | Munkedyk | 23 | 8611JP | Gaastmeer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35771 | Stinsenwei | 13 | 8571RH | Harich
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36793 | Tsjaerddyk | 49 | 8773KN | Folsgare
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37527 | Ooste | 61 | 8723EH | Koudum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38732 | Tuinen | 31 | 8713KM | Hindeloopen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39987 | Lange Leane | 14 | 8711HK | Workum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40716 | Tuinen | 17 | 8713KM | Hindeloopen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40997 | Uilenburg | 12 | 8651EK | IJlst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42027 | Buren | 5 | 8761PB | Ferwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45672 | Trekwei | 7 | 8711GR | Workum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48365 | Yntemapolder | 2 D | 8611JS | Gaastmeer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48365 | Yntemapolder | 2 C | 8611JS | Gaastmeer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48365 | Yntemapolder | 2 B | 8611JS | Gaastmeer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48365 | Yntemapolder | 2 A | 8611JS | Gaastmeer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48365 | Yntemapolder | 2 | 8611JS | Gaastmeer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48389 | Algeraburren | 1 | 8711BR | Workum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50804 | Nieuwstad | 49 | 8713JN | Hindeloopen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51317 | Nr | 15 | 8554RD | Ypecolsga
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54759 | Lorbuorren | 3 | 8571MT | Harich
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55746 | De Ruterpolderwei | 3 | 8651ND | IJlst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56583 | Tsjerkegrêft | 17 | 8771SJ | Nijland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61665 | 't Noard | 36 | 8721GC | Warns
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65388 | Nr | 39 | 8529MK | Koufurderrige
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78416 | Ursuladyk | 3 | 8724HR | It Heidenskip

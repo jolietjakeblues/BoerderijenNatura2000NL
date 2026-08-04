@@ -1,0 +1,10 @@
+PREFIX ceo: <https://linkeddata.cultureelerfgoed.nl/def/ceo#>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+SELECT DISTINCT ?rm ?rmnr ?fNaam WHERE {
+  VALUES ?rm { <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19113> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19478> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30186> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46098> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50371> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54056> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55241> }
+  ?rm ceo:rijksmonumentnummer ?rmnr .
+  ?rm ceo:heeftOorspronkelijkeFunctie ?fObj .
+  ?fObj ceo:heeftFunctieNaam ?fC .
+  ?fC skos:prefLabel ?fNaam .
+  FILTER(lang(?fNaam) = "nl")
+}

@@ -1,0 +1,14 @@
+Gevonden: 10 resultaat/resultaten
+
+rm | rmnr | fNaam
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16785 | 36881 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19140 | 39886 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26260 | 34080 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35066 | 42153 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36793 | 39764 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40997 | 39883 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51915 | 39770 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55746 | 39890 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62345 | 13226 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65388 | 515632 | Boerderij(M1)

@@ -1,0 +1,25 @@
+Gevonden: 21 resultaat/resultaten
+
+rm | rmnr | fNaam
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13484 | 35642 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16987 | 22887 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24724 | 35679 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28403 | 514879 | Boerderij(M1)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28588 | 35962 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36662 | 35651 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37814 | 35652 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38835 | 22918 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40826 | 35685 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47244 | 499279 | Boerderij(M1)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47407 | 22935 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50348 | 22933 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51305 | 35653 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52071 | 35681 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54876 | 512576 | Boerderij(M1)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60479 | 514882 | Boerderij(M1)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61691 | 35682 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68671 | 512534 | Boerderij(M1)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72357 | 506243 | Boerderij(M1)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72548 | 512557 | Boerderij(M1)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75697 | 512560 | Boerderij(M1)

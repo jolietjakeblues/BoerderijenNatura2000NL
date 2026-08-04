@@ -1,0 +1,11 @@
+Gevonden: 7 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19113 | Beetsterweg | 2 | 9244GC | Beetsterzwaag
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19478 | Van Harinxmaweg | 7 | 9244CJ | Beetsterzwaag
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30186 | 't West | 13 | 8435VL | Donkerbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46098 | Himrikerpaed | 4 | 8409JM | Hemrik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50371 | Boerestreek | 28 | 9211TV | Kortehemmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54056 | Poostweg | 2 | 9244BZ | Beetsterzwaag
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55241 | Himrikerpaed | 1 | 8409JM | Hemrik

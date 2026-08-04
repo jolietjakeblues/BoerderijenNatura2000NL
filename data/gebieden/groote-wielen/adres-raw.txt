@@ -1,0 +1,17 @@
+Gevonden: 13 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11258 | Symen Halbeswei | 9 | 9255LL | Tytsjerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22389 | Slachtedijk | 3 | 9256HG | Ryptsjerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31053 | Dekemawei | 1 | 9057LC | Jelsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37530 | Hjelburd | 7 | 9067DK | Readtsjerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44541 | Op 'e Terp | 7 | 9057RG | Jelsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45387 | Dekemawei | 3 | 9057LC | Jelsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46461 | Mearsterpaed | 4 | 9081AK | Lekkum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55268 | Wyns | 28 | 9091BD | Wyns
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70823 | Nieuwlandsweg | 14 | 9256XB | Ryptsjerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70825 | Nieuwlandsweg | 12 | 9256XB | Ryptsjerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70826 | Nieuwlandsweg | 12 | 9256XB | Ryptsjerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71608 | Haskedyk | 2 | 9057LB | Jelsum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77955 | Kaetsjemuoi-wei | 28 | 9063JK | Mûnein

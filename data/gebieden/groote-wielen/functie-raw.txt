@@ -1,0 +1,17 @@
+Gevonden: 13 resultaat/resultaten
+
+rm | rmnr | fNaam
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11258 | 512587 | Boerderij(M1)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22389 | 35678 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31053 | 24532 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37530 | 11690 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44541 | 24535 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45387 | 24533 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46461 | 24512 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55268 | 35689 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70823 | 452482 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70825 | 452480 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70826 | 452479 | Boerderij (M)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71608 | 515442 | Akkerbouwboerderij
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77955 | 512564 | Boerderij(M1)

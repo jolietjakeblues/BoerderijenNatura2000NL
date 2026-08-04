@@ -1,0 +1,39 @@
+Gevonden: 35 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10639 | Kathoek | 6 | 8895KX | Lies
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10961 | Kathoek | 3 | 8895KX | Lies
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11456 | Formerum | 8 | 8894KE | Formerum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13738 | Formerum | 103 | 8894KD | Formerum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15414 | Formerum Zuid | 8 | 8894KH | Formerum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16901 | Formerum Zuid | 7 | 8894KH | Formerum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23542 | Dorpsstraat | 51 | 8896JC | Hoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27173 | Lies | 14 | 8895KT | Lies
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27797 | Duinweg Hoorn | 36 | 8896KB | Hoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30604 | Lies | 13 A | 8895KP | Lies
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30605 | Dorpsstraat | 23 | 8896JA | Hoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31346 | Formerum | 81 | 8894KC | Formerum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34792 | Zuidkant | 3 | 8895KW | Lies
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35252 | Formerum Zuid | 10 | 8894KH | Formerum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35874 | Formerum | 77 | 8894KC | Formerum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37423 | Nieuwe Schoolpad | 4 | 8896KA | Hoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41532 | Westerburen | 8 | 8891GP | Midsland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44246 | Lijkweg | 3 | 8897HC | Oosterend
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44246 | Oosterend | 17 C | 8897HW | Oosterend
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45562 | Tuintjesweg | 4 | 8892HB | Striep
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45581 | Oosterburen | 40 | 8891GD | Midsland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49011 | Badweg Hoorn | 2 | 8896KC | Hoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50558 | Lies | 42 | 8895KT | Lies
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50835 | Duinweg Hoorn | 50 | 8896KB | Hoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51970 | Dorpsstraat | 94 | 8896JH | Hoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52604 | Kunneweg | 12 | 8896KD | Hoorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53465 | Formerum | 38 | 8894KG | Formerum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54108 | Lies | 27 | 8895KP | Lies
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54860 | Lijkweg | 6 | 8897HC | Oosterend
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54860 | Duinweg Oosterend | 16 | 8897HB | Oosterend
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55597 | Formerum Zuid | 6 | 8894KH | Formerum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57344 | Formerum Zuid | 3 | 8894KH | Formerum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60754 | Lijkweg | 4 | 8897HC | Oosterend
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61034 | Formerum Zuid | 13 | 8894KH | Formerum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61699 | Zuidkant | 1 | 8895KW | Lies

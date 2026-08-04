@@ -1,0 +1,17 @@
+Gevonden: 13 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10550 | Nesserweg | 1 | 9162ES | Ballum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18249 | van der Stratenweg | 1 a | 9163HS | Nes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18249 | Jan Jacobstraat | 2 | 9163HG | Nes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23117 | Torenstraat | 16 | 9163HE | Nes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23117 | Torenstraat | 14 | 9163HE | Nes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27681 | Gerrit Kosterweg | 8 | 9162EN | Ballum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36043 | Camminghastraat | 35 | 9162EK | Ballum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51914 | Oosterlaan | 16 a | 9161AC | Hollum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51914 | Oosterlaan | 16 b | 9161AC | Hollum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51914 | Oosterlaan | 16 | 9161AC | Hollum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53968 | Vermaningspad | 10 | 9163JD | Nes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56905 | Rixt van Doniastraat | 15 | 9163GP | Nes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58240 | Nesserweg | 7 | 9162ES | Ballum

@@ -1,0 +1,78 @@
+Gevonden: 74 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11299 | Lyklamawei | 4 | 8566JL | Nijemirdum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11761 | Jachthaven | 5 | 8556AM | Sloten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11837 | Dorpsstraat | 120 | 1693AJ | Wervershoof
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11837 | Dorpsstraat | 122 | 1693AJ | Wervershoof
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12261 | Dorpsweg | 82 | 1676GE | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12454 | Streekweg | 148 | 1616AM | Hoogkarspel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12725 | Zuiderweg | 1 | 1676GN | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12769 | Nieuwe Weide | 9 | 8713JD | Hindeloopen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13877 | Westeinde | 4 | 1674PP | Opperdoes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14713 | Jacobus Boomsmastraat | 16 | 8565GH | Sondel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15063 | Iwert | 10 | 8563AM | Wijckel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15409 | Dorpsweg | 85 | 1676GE | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16277 | Dorpsweg | 111 | 1676GH | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17686 | Achterom | 103 | 8556XR | Sloten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18604 | Stroeërweg | 29 | 1777NE | Hippolytushoef
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19440 | Dorpsweg | 118 | 1676GH | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22531 | Kerkbuurt | 19 | 8758LE | Allingawier
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24849 | Dorpsweg | 112 | 1676GH | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26350 | Dorpsweg | 78 | 1676GE | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26471 | Jacobus Boomsmastraat | 5 | 8565GE | Sondel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26570 | De Buurt | 1 | 1606AC | Venhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27393 | Dorpsweg | 84 | 1676GE | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28846 | Dorpsweg | 177 | 1676GL | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28981 | Dorpsweg | 205 | 1676GM | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29441 | Buren | 22 | 8756JP | Piaam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30592 | Dorpsweg | 81 | 1676GE | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30951 | Handvastwater | 46 | 1601PR | Enkhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31226 | Noorderdijkweg | 15 | 1771MJ | Wieringerwerf
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32569 | Stroeërweg | 7 | 1777ND | Hippolytushoef
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32677 | Dorpsweg | 108 | 1676GG | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33142 | Zuiderpad | 5 | 1674NK | Opperdoes
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33177 | Dorpsweg | 171 | 1676GL | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33412 | Dorpsweg | 162 | 1676GK | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33795 | Dorpsweg | 138 | 1676GJ | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36325 | Dorpsweg | 201 | 1676GM | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36676 | Dorpsweg | 79 | 1676GE | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37527 | Ooste | 61 | 8723EH | Koudum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38732 | Tuinen | 31 | 8713KM | Hindeloopen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39987 | Lange Leane | 14 | 8711HK | Workum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40354 | Dorpsweg | 119 | 1676GH | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40716 | Tuinen | 17 | 8713KM | Hindeloopen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41945 | Dorpsweg | 80 | 1676GE | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42027 | Buren | 5 | 8761PB | Ferwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42946 | Dorpsweg | 117 | 1676GH | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43274 | Dorpsweg | 69 | 1676GD | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43392 | Wijckelerweg | 171 | 8556XB | Sloten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45161 | Dorpsweg | 153 | 1676GK | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45672 | Trekwei | 7 | 8711GR | Workum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46599 | De Buurt | 11 | 1606AC | Venhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47992 | Beuckenswijkstraat | 11 | 8565GM | Sondel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48389 | Algeraburren | 1 | 8711BR | Workum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49789 | Zwaagdijk | 153 | 1684ND | Zwaagdijk-Oost
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50005 | Noordergracht | 33 | 1601PE | Enkhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50804 | Nieuwstad | 49 | 8713JN | Hindeloopen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52517 | Dorpsweg | 169 | 1676GL | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53393 | Baanweg | 96 | 8556XN | Sloten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53792 | Bangert | 28 | 1619GJ | Andijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55516 | Buren | 25 | 8756JP | Piaam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56040 | Beuckenswijkstraat | 8 | 8565GN | Sondel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56907 | Westerhaven | 26 | 1671CJ | Medemblik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56907 | Westerhaven | 25 | 1671CJ | Medemblik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57702 | Dorpsweg | 154 | 1676GK | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57795 | Stroeërweg | 39 | 1777NE | Hippolytushoef
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58752 | Zwaagdijk | 194 | 1682NP | Zwaagdijk-Oost
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59303 | Dijkweg | 296 | 1619JG | Andijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59310 | Dorpsweg | 74 A | 1676GD | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59310 | Dorpsweg | 74 | 1676GD | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59638 | Dorpsweg | 96 | 1676GG | Twisk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60113 | Handvastwater | 10 | 1601PR | Enkhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61665 | 't Noard | 36 | 8721GC | Warns
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61728 | Gaestdyk | 61 | 8522MZ | Tjerkgaast
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72288 | Spanjaardsdijk | 25 | 8556AK | Sloten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72289 | Spanjaardsdijk | 25 | 8556AK | Sloten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78416 | Ursuladyk | 3 | 8724HR | It Heidenskip

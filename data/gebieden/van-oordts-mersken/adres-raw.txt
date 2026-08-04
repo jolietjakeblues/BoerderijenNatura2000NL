@@ -1,0 +1,16 @@
+Gevonden: 12 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19113 | Beetsterweg | 2 | 9244GC | Beetsterzwaag
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19478 | Van Harinxmaweg | 7 | 9244CJ | Beetsterzwaag
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25434 | Dwersfeart | 11 | 8401BD | Gorredijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33060 | Boerestreek | 8 | 9211TV | Kortehemmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36428 | Beetsterweg | 13 | 9244GC | Beetsterzwaag
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46098 | Himrikerpaed | 4 | 8409JM | Hemrik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46391 | Sweachsterwei | 2 | 8408HE | Lippenhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50371 | Boerestreek | 28 | 9211TV | Kortehemmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54056 | Poostweg | 2 | 9244BZ | Beetsterzwaag
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55241 | Himrikerpaed | 1 | 8409JM | Hemrik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/76500 | Kerkepad West | 2 | 9244GD | Beetsterzwaag
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78948 | Beetsterweg | 16 | 9244GC | Beetsterzwaag
