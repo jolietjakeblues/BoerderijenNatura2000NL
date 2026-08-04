@@ -4,7 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Doggersbank &middot; Boerderij-rijksmonumenten &amp; Natura 2000</title>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin="" />
 <style>
   :root{
     --paper:#F4F7F8; --panel:#FFFFFF; --ink:#16324F; --ink-soft:#4A6579;
@@ -141,7 +144,10 @@
   </footer>
 </div>
 <script id="data" type="application/json">{"gebied":"Doggersbank","peildatum":"2026-08-04","n":0,"ja":0,"onbekend":0,"provCounts":{},"provJaCounts":{},"datakwaliteit":{"industrieAangetroffen":0,"industrieDeelsAangetroffen":0,"geenIndustrieAangetroffen":0,"geenAdres":0,"geenMatch":0,"bagMislukt":0,"meerdereAdressen":0},"bbox":[2.7482854237209113,54.36388562476994,4.275071282356709,55.660090376728874],"n2000":[{"naam":"Doggersbank","rings":[[[4.2600712823567095,55.36515303549785],[3.6357839681252977,55.645090376728874],[3.2522372037022644,55.48092663681721],[3.211226813938137,55.38193943668793],[3.083435443061095,55.080583850748944],[2.957047301967184,54.77044023785236],[2.8984606491610347,54.62043373605777],[2.7632854237209115,54.37888562476994],[4.2600712823567095,55.36515303549785]]]}],"mons":[],"richtlijn":{"gebiedsnummer":"164","label":"Habitatrichtlijn","badge":"HR","heeftGroeveOnderdeel":false,"siteCodeVogelrichtlijn":null,"siteCodeHabitatrichtlijn":"NL2008001","stikstofgevoelig":false,"natura2000Status":"Natura2000-besluit 16 juni 2016","wikidata":"http://www.wikidata.org/entity/Q108202543","rceUris":["https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/869bcbf1-99b0-474b-9877-300077d54757"]}}</script>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""></script>
 <script>
 const D = JSON.parse(document.getElementById('data').textContent);
 const $ = id => document.getElementById(id);

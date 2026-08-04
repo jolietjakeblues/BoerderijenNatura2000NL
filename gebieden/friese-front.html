@@ -4,7 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Friese Front &middot; Boerderij-rijksmonumenten &amp; Natura 2000</title>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin="" />
 <style>
   :root{
     --paper:#F4F7F8; --panel:#FFFFFF; --ink:#16324F; --ink-soft:#4A6579;
@@ -141,7 +144,10 @@
   </footer>
 </div>
 <script id="data" type="application/json">{"gebied":"Friese Front","peildatum":"2026-08-04","n":0,"ja":0,"onbekend":0,"provCounts":{},"provJaCounts":{},"datakwaliteit":{"industrieAangetroffen":0,"industrieDeelsAangetroffen":0,"geenIndustrieAangetroffen":0,"geenAdres":0,"geenMatch":0,"bagMislukt":0,"meerdereAdressen":0},"bbox":[4.1998379535823585,53.40037042131082,5.248299933812517,54.237279987164335],"n2000":[{"naam":"Friese Front","rings":[[[5.226707778396297,53.82852777208766],[5.233299933812518,54.222279987164335],[4.214837953582358,53.798931153511845],[4.216055429939914,53.41537042131082],[5.226707778396297,53.82852777208766]]]}],"mons":[],"richtlijn":{"gebiedsnummer":"166","label":"Vogelrichtlijn","badge":"VR","heeftGroeveOnderdeel":false,"siteCodeVogelrichtlijn":"NL2016166","siteCodeHabitatrichtlijn":null,"stikstofgevoelig":false,"natura2000Status":"Natura2000-besluit 16 juni 2016","wikidata":"http://www.wikidata.org/entity/Q99446945","rceUris":["https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/dae737f9-e2cf-46fd-a2ff-49c9dd018cd5"]}}</script>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""></script>
 <script>
 const D = JSON.parse(document.getElementById('data').textContent);
 const $ = id => document.getElementById(id);

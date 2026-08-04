@@ -4,7 +4,10 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Klaverbank &middot; Boerderij-rijksmonumenten &amp; Natura 2000</title>
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<link rel="stylesheet"
+  href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+  integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+  crossorigin="" />
 <style>
   :root{
     --paper:#F4F7F8; --panel:#FFFFFF; --ink:#16324F; --ink-soft:#4A6579;
@@ -141,7 +144,10 @@
   </footer>
 </div>
 <script id="data" type="application/json">{"gebied":"Klaverbank","peildatum":"2026-08-04","n":0,"ja":0,"onbekend":0,"provCounts":{},"provJaCounts":{},"datakwaliteit":{"industrieAangetroffen":0,"industrieDeelsAangetroffen":0,"geenIndustrieAangetroffen":0,"geenAdres":0,"geenMatch":0,"bagMislukt":0,"meerdereAdressen":0},"bbox":[2.7684837332593584,53.83312281708904,3.332763970117461,54.30746990725393],"n2000":[{"naam":"Klaverbank","rings":[[[3.316174933157668,54.091502420947855],[3.3177638183430576,54.27965168113431],[3.317763970117461,54.29246755772379],[2.9828547867158224,54.29246898731152],[2.7834837332593585,54.29246990725393],[2.8046584837850177,54.20690857646362],[2.8360850202057946,54.079665084780565],[2.8590905027512252,53.987329638798236],[2.8990606224965205,53.85209143988134],[3.0378333367109662,53.8507482015448],[3.1269920593153855,53.84989342268627],[3.3175756927633278,53.84812281708904],[3.316174933157668,54.091502420947855]]]}],"mons":[],"richtlijn":{"gebiedsnummer":"165","label":"Habitatrichtlijn","badge":"HR","heeftGroeveOnderdeel":false,"siteCodeVogelrichtlijn":null,"siteCodeHabitatrichtlijn":"NL2008002","stikstofgevoelig":false,"natura2000Status":"Natura2000-besluit 16 juni 2016","wikidata":"http://www.wikidata.org/entity/Q13744071","rceUris":["https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/179af68c-3739-4158-8e50-5945fd159c41"]}}</script>
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script
+  src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+  integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+  crossorigin=""></script>
 <script>
 const D = JSON.parse(document.getElementById('data').textContent);
 const $ = id => document.getElementById(id);
