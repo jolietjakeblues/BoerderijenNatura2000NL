@@ -1,0 +1,71 @@
+Gevonden: 67 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11257 | De Weijert | 2 | 7991BP | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12488 | Achterstraat | 14 | 7981AS | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14248 | Oosteinde | 18 | 8351HB | Wapserveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15133 | Hoofdweg | 118 | 8383EK | Nijensleek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15671 | Lhee | 100 | 7991PK | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16669 | M.A. van Naamen van Eemneslaan | 2 | 8384EA | Wilhelminaoord
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17347 | Brink | 3 | 7991CG | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17347 | Brink | 3 a | 7991CG | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17490 | Brink | 4 | 7991CG | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17490 | Brink | 4 B | 7991CG | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17817 | Westeinde | 51 | 7991RT | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21951 | Leggeloo | 38 | 7991PZ | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22755 | Lhee | 68 | 7991PJ | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22913 | Brink | 36 | 7991CJ | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23543 | Lhee | 67 | 7991PJ | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23752 | Westeinde | 49 | 7991RT | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24403 | Tramweg | 71 | 9422BM | Smilde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24643 | Westeinde | 24 | 7991RV | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24643 | Westeinde | 24 a | 7991RV | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26819 | Leggeloo | 3 | 7991PW | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27065 | Lhee | 90 | 7991PK | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29508 | Molenweg | 58 | 8431HS | Oosterwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31688 | Brink | 8 | 7991CG | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32320 | Brink | 12 | 7991CG | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32454 | Hoofdweg | 54 A | 8424PN | Elsloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32953 | Westeinde | 43 a | 7991RT | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32953 | Westeinde | 43 | 7991RT | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33155 | Brink | 52 | 7991CJ | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33188 | Leggeloo | 41 | 7991PZ | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35683 | Brink | 51 | 7991CJ | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36660 | Leggeloo | 39 | 7991PZ | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38676 | De Hoek | 5 | 8381BK | Vledder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40520 | M.E. van der Meulenweg | 5 | 8382CC | Frederiksoord
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41379 | Industrieweg | 2 | 8426AA | Appelscha
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42068 | Westeinde | 30 | 7991RV | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42173 | Eemster | 25 | 7991PS | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42847 | Midden | 78 | 8351HJ | Wapserveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43059 | Lhee | 71 | 7991PJ | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46592 | Holtenweg | 2 | 7981NB | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47226 | Leggeloo | 5 | 7991PW | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47572 | Boerestreek | 22 | 8426BP | Appelscha
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51074 | Veenhuizerweg | 6 | 7983KV | Wapse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51566 | Westeinde | 1 b | 7991RS | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51566 | Westeinde | 1 | 7991RS | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52758 | Kastanjelaan | 18 | 7981ND | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53277 | Dorpsstraat | 23 | 8381AM | Vledder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53277 | Dorpsstraat | 19 | 8381AM | Vledder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53277 | Dorpsstraat | 21 | 8381AM | Vledder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53283 | Kruisstraat | 2 A | 7981AR | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53283 | Kruisstraat | 2 B | 7981AR | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53283 | Kruisstraat | 2 C | 7981AR | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53861 | Leggeloo | 24 | 7991PW | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53861 | Leggeloo | 24 A | 7991PW | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54020 | Brink | 2 | 7991CG | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55356 | Bruggelaan | 62 | 8426BH | Appelscha
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56631 | Oosteinde | 10 | 8351HB | Wapserveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58864 | Hoofdstraat | 34 | 7981AA | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61230 | Lhee | 91 | 7991PK | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68054 | Brinkstraat | 1 | 7981BE | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68054 | Brink | 11 | 7981BZ | Diever
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69317 | De Hoek | 12 | 8381BL | Vledder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71557 | Westeinde | 20 a | 7991RV | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71557 | Westeinde | 20 | 7991RV | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71881 | Westeinde | 59 | 7991RT | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72496 | Koningin Wilhelminalaan | 33 | 8384GG | Wilhelminaoord
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74945 | Lhee | 9 | 7991PE | Dwingeloo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78202 | Lheebroek | 6 | 7991PL | Dwingeloo

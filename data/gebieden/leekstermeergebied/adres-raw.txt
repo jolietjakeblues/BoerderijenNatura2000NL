@@ -1,0 +1,43 @@
+Gevonden: 39 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10310 | Dorpsstraat | 6 | 9832PD | Den Horn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12044 | Roderweg | 22 | 9321TS | Peize
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12315 | Hoofdstraat | 38 | 9315PC | Roderwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12410 | Groningerweg | 38 | 9321TC | Peize
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12633 | Heerestraat | 2 | 9301AG | Roden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12633 | Brink | 15 A | 9301JK | Roden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12633 | Brink | 19 | 9301JK | Roden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12633 | Heerestraat | 2 A | 9301AG | Roden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12633 | Brink | 19 A | 9301JK | Roden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12633 | Brink | 15 | 9301JK | Roden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12633 | Brink | 17 | 9301JK | Roden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16822 | Hoofdstraat | 111 | 9355TC | Midwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17385 | Brink | 25 | 9301JK | Roden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17473 | De Horst | 21 | 9321VH | Peize
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18267 | Kerkstraat | 12 | 9321HB | Peize
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18826 | De Hoek | 1 | 9315TC | Roderwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19293 | Hoofdstraat | 27 | 9321CD | Peize
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19671 | Brink | 10 | 9301JL | Roden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22990 | Hogeweg | 7 | 9801TG | Zuidhorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29344 | Zuiderweg | 12 | 9801TD | Zuidhorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31807 | Weersterweg | 20 | 9832TE | Den Horn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33323 | Oosterweg | 7 | 9321AE | Peize
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35908 | Brink | 24 | 9301JL | Roden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36130 | Leegeweg | 40 | 9746TC | Groningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36235 | Aduarderdiepsterweg | 10 | 9745EL | Groningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40362 | Kerkstraat | 4 | 9321HB | Peize
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41260 | Hoofdstraat | 25 | 9321CD | Peize
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43461 | Diamantlaan | 94 | 9743BJ | Groningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46063 | Hoofdstraat | 3 | 9321CB | Peize
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46378 | Leegeweg | 36 | 9746TC | Groningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47928 | Spijkerzoom | 4 | 9301KD | Roden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48637 | Brinkweg | 2 | 9321HP | Peize
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48956 | Kerkstraat | 12 | 9321HB | Peize
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52357 | Oosterheerdtstraat | 7 | 9351BK | Leek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52744 | Hoofdstraat | 124 | 9355TD | Midwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56972 | Hoofdstraat | 27 | 9356AT | Tolbert
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62082 | Schipdijk | 1 | 9321TV | Peize
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66365 | Oosteinde | 1 | 9301ZP | Roden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/79427 | De Zulthe | 8 | 9301AV | Roden

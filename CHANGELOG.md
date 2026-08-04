@@ -6,6 +6,16 @@ precieze wijzigingen per gebied: `git log`. Entries staan in omgekeerd-chronolog
 volgorde; een latere entry kan dus een eerdere entry corrigeren of vervangen. Waar dat
 kan verwarren, is dat expliciet benoemd.
 
+## Uitbreiding naar Drenthe en Groningen (11 nieuwe gebieden)
+
+148 naar 159 verwerkte gebieden: heel Drenthe (op de vier gebieden uit de eerste, validatie-ronde
+na) en de twee resterende Groningse gebieden, zuid naar noord (negende ronde). Nieuwe totalen: 7031
+boerderijen, 1188 met BAG-industriefunctie-indicatie, 67 niet te controleren (was 6619/1130/64).
+Zie README.md voor de volledige lijst per gebied.
+
+Met deze ronde zijn alle "gewone" (niet bewust om hun omvang uitgestelde) Natura 2000-gebieden
+verwerkt. Resteren nog drie: Veluwe, Waddenzee en Noordzeekustzone.
+
 ## Uitbreiding naar Overijssel, correctie van Rijntakken, en Arkemheen (21 nieuwe + 1 gecorrigeerd gebied)
 
 127 naar 148 verwerkte gebieden: heel Overijssel, zuid naar noord (achtste ronde), plus Arkemheen

@@ -742,5 +742,60 @@ export const GEBIEDEN_BESCHRIJVING = {
     ligging: 'Ten zuiden van Enschede, Haaksbergen, grens met Duitsland',
     tekst: 'Voormalig hoogveen (circa 290 hectare) op de zuidflank van de Oldenzaalse stuwwal bij Haaksbergen, met een veenkern omgeven door droge en natte heide, voedselarme vennen en berkenbos. Door vernatting keert de veenvorming terug, af te lezen aan uitbreidend wollegras; beschermt verder de noordse glazenmaker, kamsalamander en boomkikker.',
     bron: 'https://www.natura2000.nl/gebieden/overijssel/witte-veen'
+  },
+  'bargerveen': {
+    ligging: 'Emmen',
+    tekst: 'Hoogveenrestant (circa 2.083 hectare) in het zuidoosten van Drenthe, het grootste hoogveenrestant van Nederland, met levend hoogveen, natte heide en gecompartimenteerd hersteld veen op voormalige afgravingen. Belangrijkste Nederlandse broedgebied van de klapekster, met broedende dodaars en nachtzwaluwen, en de belangrijkste overwinteringsplaats voor de taigarietgans.',
+    bron: 'https://www.natura2000.nl/gebieden/drenthe/bargerveen'
+  },
+  'mantingerzand': {
+    ligging: 'Midden-Drenthe, ten noordoosten van Hoogeveen',
+    tekst: 'Contrastrijk stuifzand- en heidelandschap (circa 780 hectare) met droge en natte heide, uitgestrekt jeneverbesstruweel en zwak gebufferde vennen. Herbergt zeldzame korstmos- en mosgemeenschappen op de zandbodem, twee alleen hier voorkomende loopkeversoorten, en het bedreigde pimpernelblauwtje.',
+    bron: 'https://www.natura2000.nl/gebieden/drenthe/mantingerzand'
+  },
+  'holtingerveld': {
+    ligging: 'Westerveld, ten noorden van Havelte',
+    tekst: 'Afwisselend heide- en bosgebied (circa 1.754 hectare) op de Havelterberg-stuwwal, met droge en natte heide, heischraal grasland, vennen en stuifzand. Beschermd vanwege soortenrijke heischrale graslanden en een zeldzame associatie van maanvaren en vleugeltjesbloem - elders alleen in de kustduinen - plus de na 40 jaar herontdekte grote geelgerande watertor.',
+    bron: 'https://www.natura2000.nl/gebieden/drenthe/holtingerveld'
+  },
+  'dwingelderveld': {
+    ligging: 'Tussen Beilen, Ruinen en Dwingelo',
+    tekst: 'Uitgestrekt heide- en vennengebied (circa 3.768 hectare) tussen Beilen, Ruinen en Dwingelo, met natte heide, hoogveenvennen, oude eikenbossen en stuifzand - ruim 45% bestaat uit bos. Herbergt de grootste aaneengesloten natte heide van Europa, met het veenbesblauwtje en de veenbesparelmoervlinder als kenmerkende, van veenplanten afhankelijke soorten.',
+    bron: 'https://www.natura2000.nl/gebieden/drenthe/dwingelderveld'
+  },
+  'mantingerbos': {
+    ligging: 'Midden-Drenthe',
+    tekst: 'Drie boscomplexen met graslanden langs het Oude Diep (samen circa 46 hectare), met beuken-eikenbos met hulst - sommige hulststruiken ouder dan 150 jaar. De enige plek in Nederland waar met zekerheid vaststaat dat er sinds de prehistorie ononderbroken bos heeft gestaan, met zeldzame epifytische korstmossen die verder vrijwel alleen op de Veluwe voorkomen.',
+    bron: 'https://www.natura2000.nl/gebieden/drenthe/mantingerbos'
+  },
+  'drents-friese-wold-leggelderveld': {
+    ligging: 'Midden-Drenthe/Ooststellingwerf/Westerveld, grens Drenthe/Fryslân',
+    tekst: 'Groot bos-, stuifzand- en heidegebied (circa 7.468 hectare) met dertien Habitatrichtlijn-habitattypen, van het Aekingerzand tot vochtige heide en zwak gebufferde vennen. Beschermd vanwege het pimpernelblauwtje, waterlobelia en valkruid, met broedende zwarte spechten, wespendieven en klapeksters.',
+    bron: 'https://www.natura2000.nl/gebieden/drenthe/drents-friese-wold-leggelderveld'
+  },
+  'fochteloerveen': {
+    ligging: 'Noordenveld/Ooststellingwerf, grens Drenthe/Fryslân',
+    tekst: 'Hoogveenrestant (circa 2.596 hectare) op de grens van Drenthe en Fryslân, het grootste nog aanwezige hoogveenlichaam van Nederland, met een actief groeiende kern en heide, vennen en bos aan de randen. Een van de grootste Nederlandse populaties veenhooibeestje, en sinds 2001 de enige plek in Nederland waar de kraanvogel weer met succes broedt.',
+    bron: 'https://www.natura2000.nl/gebieden/friesland/fochteloerveen'
+  },
+  'drentsche-aa-gebied': {
+    ligging: 'Aa en Hunze/Assen/Groningen/Midden-Drenthe/Tynaarlo, grens Drenthe/Groningen',
+    tekst: 'Een van de laatst gave beekdalsystemen van Nederland (circa 3.902 hectare) in Midden- en Noord-Drenthe, met meanderende beken, natte hooilanden, kwelmoerassen en oude eiken-berkenbossen (strubben en holten). Beschermd vanwege dotterbloemhooilanden, kalkmoeras en broedende kwartelkoningen en klapeksters, met rivierprik en de rivierdonderpad als kenmerkende vissoorten.',
+    bron: 'https://www.natura2000.nl/gebieden/drenthe/drentsche-aa-gebied'
+  },
+  'leekstermeergebied': {
+    ligging: 'Noordenveld/Westerkwartier, grens Drenthe/Groningen',
+    tekst: 'Overgangsgebied van het Drents plateau naar het laagveen (circa 1.543 hectare), met het Leekstermeer, rietoevers en wilgenhagen te midden van open veenweiden. Belangrijkste Vogelrichtlijngebied van de provincie voor overwinterende grauwe ganzen, smienten en slobeenden, en broedplaats van porseleinhoen en kwartelkoning.',
+    bron: 'https://www.natura2000.nl/gebieden/drenthe/leekstermeergebied'
+  },
+  'zuidlaardermeergebied': {
+    ligging: 'Groningen/Midden-Groningen/Tynaarlo, grens Drenthe/Groningen',
+    tekst: 'Natuurlijk, ondiep meer met aangrenzend veenweidegebied (circa 2.087 hectare), met rietmoeras en resten van vroegere veenwinning (petgaten). Beschermd vanwege broedende roerdompen en porseleinhoenen, overwinterende wilde zwanen en kolganzen, en veenmosrietland gevoed door kwelwater vanaf de Hondsrug.',
+    bron: 'https://www.natura2000.nl/gebieden/groningen/zuidlaardermeergebied'
+  },
+  'lauwersmeer': {
+    ligging: 'Het Hogeland/Noardeast-Fryslân/Westerkwartier, grens Groningen/Fryslân',
+    tekst: 'Groot zoetwatermeer (circa 5.755 hectare), ontstaan na afsluiting van de Lauwerszee in 1969, met begraasde graslanden, rietvelden, struweel en bos langs de randen. Belangrijk broedgebied voor moerasvogels als roerdomp, bruine kiekendief en blauwborst, en de grootste Nederlandse groeiplaats van de honingorchis.',
+    bron: 'https://www.natura2000.nl/gebieden/groningen/lauwersmeer'
   }
 };

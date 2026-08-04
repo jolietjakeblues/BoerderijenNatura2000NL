@@ -1,0 +1,10 @@
+Gevonden: 6 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28085 | Hoogeveenseweg | 21 | 9435TC | Bruntinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51965 | De Vledders | 8 | 9434TD | Eursinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56873 | Driftweg | 1 A | 7855PS | Meppen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56873 | Middendorpsstraat | 2 | 7855PR | Meppen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56963 | Hoogeveenseweg | 19 | 9435TC | Bruntinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71631 | De Vledders | 6 | 9434TD | Eursinge

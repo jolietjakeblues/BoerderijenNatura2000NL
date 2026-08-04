@@ -1,0 +1,31 @@
+Gevonden: 27 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10359 | Teenstraweg | 9 | 9885TA | Lauwerzijl
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11053 | Grutte Buorren | 7 | 9135PL | Morra
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13910 | Willem Loréweg | 24 | 9291MC | Kollum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14997 | Eyso de Wendtstraat | 4 | 9291ES | Kollum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19434 | Healbeamswei | 12 | 9133DP | Anjum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24904 | Zoutkamperweg | 1 | 9972TC | Niekerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26240 | Omgong | 8 | 9131KV | Ee
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26240 | Omgong | 7 | 9131KV | Ee
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30717 | Noorderweg | 3 | 9975VX | Vierhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37167 | Noorderweg | 1 | 9975VX | Vierhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38416 | Lytse Loane | 16 | 9131KT | Ee
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45347 | Ooster-Waarddijk | 1 | 9881TB | Kommerzijl
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47075 | Willem Loréweg | 18 | 9291MC | Kollum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48064 | De Singel | 4 | 9133NJ | Anjum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50650 | Ommelanderweg | 9 | 9978TC | Hornhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50650 | Ommelanderweg | 11 | 9978TC | Hornhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52092 | De Buorren | 2 | 9136PV | Paesens
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52827 | Balthasar Bekkerstrjitte | 17 | 9123JV | Metslawier
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52868 | Allemawei | 5 | 9294KT | Oudwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53625 | Skânserwei | 4 | 9133DV | Anjum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54414 | Willem Loréweg | 30 | 9291MC | Kollum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60146 | Teenstraweg | 7 | 9885TA | Lauwerzijl
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70222 | Vlakkeriet | 4 | 9966VJ | Zuurdijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71919 | Ommelanderweg | 38 | 9978TC | Hornhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72434 | Leensterweg | 54 | 9971EC | Ulrum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77280 | Electraweg | 24 | 9883TB | Zuurdijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77281 | Ewer | 17 | 9966VE | Zuurdijk

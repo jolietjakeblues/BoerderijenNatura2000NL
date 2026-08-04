@@ -1,0 +1,29 @@
+Gevonden: 25 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10637 | Dorpsstraat | 3 | 9441PD | Orvelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11184 | Zandhoeklaan | 23 | 9431BK | Westerbork
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15206 | Brugstraat | 4 | 9441PG | Orvelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28085 | Hoogeveenseweg | 21 | 9435TC | Bruntinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32797 | Brugstraat | 2 | 9441PG | Orvelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32928 | Flintenweg | 4 | 9441PC | Orvelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37647 | Zuidbrink | 13 | 9431AP | Westerbork
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37822 | Dorpsstraat | 10 | 9441PD | Orvelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39598 | Dorpsstraat | 1 A | 9441PD | Orvelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39598 | Dorpsstraat | 1 | 9441PD | Orvelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40788 | Schoolstraat | 2 | 9441PE | Orvelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42426 | Oosteinde | 8 | 9431AV | Westerbork
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43497 | Schoolstraat | 1 | 9441PE | Orvelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45546 | Schapendrift | 1 | 9441PJ | Orvelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51965 | De Vledders | 8 | 9434TD | Eursinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56900 | Schapendrift | 2 | 9441PJ | Orvelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56963 | Hoogeveenseweg | 19 | 9435TC | Bruntinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58021 | Dorpsstraat | 7 | 9441PD | Orvelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59557 | Dorpsstraat | 2 | 9441PD | Orvelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61090 | Flintenweg | 8 | 9441PC | Orvelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61438 | Melkwegje | 2 | 9441PH | Orvelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62229 | Flintenweg | 6 | 9441PC | Orvelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62371 | Flintenweg | 2 | 9441PC | Orvelte
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71631 | De Vledders | 6 | 9434TD | Eursinge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74404 | Schoolstraat | 3 | 9441PE | Orvelte

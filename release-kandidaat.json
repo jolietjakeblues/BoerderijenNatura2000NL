@@ -1,11 +1,11 @@
 {
  "versielabel": null,
- "gegenereerdOp": "2026-08-04T10:31:54.317Z",
- "commit": "2c5ea9cba357bd5fb8e55b5253d00c2eafee358c",
+ "gegenereerdOp": "2026-08-04T11:08:20.959Z",
+ "commit": "955a52e3b5564b51b72f6eeb2bd4d2b5a01e3ddd",
  "toelichting": "Dit bestand is een voorbereide kandidaat voor een dataset-release, geen gepubliceerde release zelf. Het legt het commit en de per-gebied aantallen/checksums vast op het moment van genereren; git tag en GitHub Release blijven een handmatige stap van de repo-eigenaar.",
- "totaalGebieden": 148,
- "totaalMonumenten": 6619,
- "totaalMetIndicatie": 1130,
+ "totaalGebieden": 159,
+ "totaalMonumenten": 7031,
+ "totaalMetIndicatie": 1188,
  "gebieden": [
   {
    "slug": "aamsveen",
@@ -69,6 +69,15 @@
    "ja": 1,
    "onbekend": 0,
    "sha256DataJson": "a175baea97ba6c7357038fce0b6c26f800cbf8de58875109713198efe1529d23"
+  },
+  {
+   "slug": "bargerveen",
+   "naam": "Bargerveen",
+   "peildatum": "2026-08-04",
+   "n": 15,
+   "ja": 4,
+   "onbekend": 0,
+   "sha256DataJson": "71e5514bd9b757317f038136eb9a6cf99ce890ad7506e4bf0b999f730f6312ec"
   },
   {
    "slug": "bekendelle",
@@ -305,6 +314,24 @@
    "sha256DataJson": "78d7451bbbdb8b50c5f531b39cdf8d12c4d695d306abff4b540b49eb7ebd89ba"
   },
   {
+   "slug": "drents-friese-wold-leggelderveld",
+   "naam": "Drents-Friese Wold & Leggelderveld",
+   "peildatum": "2026-08-04",
+   "n": 55,
+   "ja": 7,
+   "onbekend": 0,
+   "sha256DataJson": "6f9d7293aa88aceb928c8d622585cc2b8bd4e4174a0bd6e09328ed939f927ea0"
+  },
+  {
+   "slug": "drentsche-aa-gebied",
+   "naam": "Drentsche Aa-gebied",
+   "peildatum": "2026-08-04",
+   "n": 54,
+   "ja": 6,
+   "onbekend": 0,
+   "sha256DataJson": "5acb65ef425cfd380266f041ff60d009016d36fa8abd0794feddd7bd42eee4eb"
+  },
+  {
    "slug": "drouwenerzand",
    "naam": "Drouwenerzand",
    "peildatum": "2026-08-03",
@@ -377,6 +404,15 @@
    "sha256DataJson": "50882ddc17dde992ad3a39f23f0ca0ccc716e7abad6deb6dade0484ecf15b7d0"
   },
   {
+   "slug": "dwingelderveld",
+   "naam": "Dwingelderveld",
+   "peildatum": "2026-08-04",
+   "n": 55,
+   "ja": 5,
+   "onbekend": 0,
+   "sha256DataJson": "25436b58199b569c0f88e0f203c23da81b48c62b76d8362e2d0bb18fbe891220"
+  },
+  {
    "slug": "eemmeer-gooimeer-zuidoever",
    "naam": "Eemmeer & Gooimeer Zuidoever",
    "peildatum": "2026-08-04",
@@ -411,6 +447,15 @@
    "ja": 1,
    "onbekend": 0,
    "sha256DataJson": "aa63ca382ae8fcf51418e0b02b8be4fd563c0143beb7e06033435c0877e17eb7"
+  },
+  {
+   "slug": "fochteloerveen",
+   "naam": "Fochteloërveen",
+   "peildatum": "2026-08-04",
+   "n": 33,
+   "ja": 3,
+   "onbekend": 0,
+   "sha256DataJson": "7bffe709e4896338b6be47d7e1738250b4380a1932bb811bade4c4b0b0134368"
   },
   {
    "slug": "friese-front",
@@ -501,6 +546,15 @@
    "ja": 4,
    "onbekend": 0,
    "sha256DataJson": "b6e40ab00c1517512b50cf6dad324d428d61c97636978487efd011313d98fc01"
+  },
+  {
+   "slug": "holtingerveld",
+   "naam": "Holtingerveld",
+   "peildatum": "2026-08-04",
+   "n": 75,
+   "ja": 8,
+   "onbekend": 0,
+   "sha256DataJson": "83a11523f38cc3691cbf793253c0b6bfec56c125b661c9c0b936a544a7169eec"
   },
   {
    "slug": "ijsselmeer",
@@ -638,6 +692,24 @@
    "sha256DataJson": "2601aeef9f4e3383f9b1d055861e2b7fda315832ee5a216481ddb990847d9692"
   },
   {
+   "slug": "lauwersmeer",
+   "naam": "Lauwersmeer",
+   "peildatum": "2026-08-04",
+   "n": 25,
+   "ja": 10,
+   "onbekend": 1,
+   "sha256DataJson": "4255f018d0ca53cbfa3d48a8793ece12b1c7c458cfc7f4fa1e0bbfadf77dcf3b"
+  },
+  {
+   "slug": "leekstermeergebied",
+   "naam": "Leekstermeergebied",
+   "peildatum": "2026-08-04",
+   "n": 33,
+   "ja": 8,
+   "onbekend": 1,
+   "sha256DataJson": "43afcad39055620012407fbb10c2a1d3ab4843f3ff691f7f4ef42fa138b49934"
+  },
+  {
    "slug": "leenderbos-groote-heide-de-plateaux",
    "naam": "Leenderbos, Groote Heide & De Plateaux",
    "peildatum": "2026-08-03",
@@ -744,6 +816,24 @@
    "ja": 6,
    "onbekend": 0,
    "sha256DataJson": "e2314f7e4f5416098fe65da539f43f64454502233585ad23bfabd3433fd3e363"
+  },
+  {
+   "slug": "mantingerbos",
+   "naam": "Mantingerbos",
+   "peildatum": "2026-08-04",
+   "n": 24,
+   "ja": 3,
+   "onbekend": 1,
+   "sha256DataJson": "08f612d27a24474e84fa5d803ac09ae4285baf06d23db15869997ba88f3c307f"
+  },
+  {
+   "slug": "mantingerzand",
+   "naam": "Mantingerzand",
+   "peildatum": "2026-08-04",
+   "n": 5,
+   "ja": 0,
+   "onbekend": 0,
+   "sha256DataJson": "67e2db5d16d15fd65e957e2aa1eaba46bbb7256e55641a5b69979ecd471c5b09"
   },
   {
    "slug": "markermeer-ijmeer",
@@ -1311,6 +1401,15 @@
    "ja": 6,
    "onbekend": 0,
    "sha256DataJson": "a14caeeb57f153585071eba913cb67c85b3d693381921d6b3aaac510b4b8829a"
+  },
+  {
+   "slug": "zuidlaardermeergebied",
+   "naam": "Zuidlaardermeergebied",
+   "peildatum": "2026-08-04",
+   "n": 38,
+   "ja": 4,
+   "onbekend": 0,
+   "sha256DataJson": "fed4dca038e82c64b7c2624083d6e3d34d1a24c5c2625fea98b6824455a1f361"
   },
   {
    "slug": "zwanenwater-pettemerduinen",

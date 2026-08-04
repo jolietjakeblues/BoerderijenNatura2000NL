@@ -1,0 +1,43 @@
+Gevonden: 39 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12752 | Groningerstraat | 17 | 9471AP | Zuidlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13058 | Meentweg | 15 | 9756TB | Glimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13797 | Zuidlaarderweg | 59 | 9479TH | Noordlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14080 | Telefoonstraat | 45 | 9471EL | Zuidlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14581 | Zuidlaarderweg | 46 | 9479TJ | Noordlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15795 | Gieselgeer | 3 | 9755TE | Onnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22604 | Zuinigstraat | 2 | 9479PM | Noordlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30117 | Schutsweg | 42 | 9475PL | Midlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31473 | Dorpsweg | 2 | 9755PC | Onnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31902 | Zuidveld | 11 | 9755TK | Onnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33759 | Lageweg | 39 | 9479PA | Noordlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37191 | Zuidveld | 10 | 9755TM | Onnen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38425 | Kerkstraat | 5 | 9479PK | Noordlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38696 | Lutsborgsweg | 74 | 9752VX | Haren Gn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40104 | Rijksstraatweg | 364 | 9752CR | Haren Gn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40948 | Boerlaan | 18 | 9752VZ | Haren Gn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41110 | Zuidlaarderweg | 71 | 9479PR | Noordlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41832 | Lutsborgsweg | 68 | 9752VX | Haren Gn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43506 | Noorderstraat | 136 | 9611AN | Sappemeer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45838 | Rijksstraatweg | 10 | 9752AD | Haren Gn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46744 | Meentweg | 11 | 9756AN | Glimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47196 | Rijksstraatweg | 5 | 9756AA | Glimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48182 | Rijksstraatweg | 73 | 9752AC | Haren Gn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50317 | Groningerstraat | 54 | 9475PC | Midlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51103 | Schutsweg | 40 | 9475PL | Midlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52305 | Middenstraat | 1 | 9479PL | Noordlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53902 | Lageweg | 51 | 9479PB | Noordlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54767 | Dorpsstraat | 72 | 9474TC | Zuidlaarderveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55217 | Rijksweg West | 65 | 9608PB | Westerbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56122 | Lageweg | 14 | 9479PC | Noordlaren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59170 | Lutsborgsweg | 73 | 9752VT | Haren Gn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59966 | Hoornsedijk | 13 | 9752XJ | Haren Gn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65940 | Lutsborgsweg | 69 | 9752VT | Haren Gn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68161 | Lemferdingerlaan | 7 | 9765AR | Paterswolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70571 | Dorpsstraat | 138 | 9605PD | Kiel-Windeweer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71102 | Meentweg | 26 | 9756TB | Glimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71102 | Meentweg | 30 | 9756TB | Glimmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77341 | Nieuwe Compagnie | 1 | 9605PX | Kiel-Windeweer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/79726 | Dorpsweg | 55 | 9755PB | Onnen
