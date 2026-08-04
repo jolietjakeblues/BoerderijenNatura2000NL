@@ -607,5 +607,35 @@ export const GEBIEDEN_BESCHRIJVING = {
     ligging: 'Schiermonnikoog',
     tekst: 'Gevarieerd duingebied (circa 833 hectare) op het kleinste bewoonde Waddeneiland, met goed ontwikkelde kalkrijke duinvalleien, de Westerplas als zoetwaterplas en bos. Broedplaats van circa 2.000 paar eidereenden en van kiekendieven, roerdompen en baardmannetjes, met zeldzame orchideeën in de duinvalleien.',
     bron: 'https://www.natura2000.nl/gebieden/friesland/duinen-schiermonnikoog'
+  },
+  'veluwerandmeren': {
+    ligging: 'Grens Flevoland/Gelderland/Overijssel, van Elburg tot Zeewolde',
+    tekst: 'Vier ondiepe randmeren (Drontermeer, Veluwemeer, Wolderwijd, Nuldernauw; samen circa 6.166 hectare) tussen de Veluwe en Flevoland, met rietoevers en kunstmatige eilanden. Sinds midden jaren negentig begroeid met kranswieren en fonteinkruid over meer dan de helft van de bodem - een van de grootste groeiplaatsen van Europa - en van internationaal belang voor wintergasten als wilde zwaan, tafeleend en witoogeend.',
+    bron: 'https://www.natura2000.nl/gebieden/gelderland/veluwerandmeren'
+  },
+  'lepelaarplassen': {
+    ligging: 'Almere',
+    tekst: 'Kwelgevoed plassen- en moerasgebied (circa 356 hectare) bij Almere, ontstaan door zandwinning, met rietvelden, wilgenbos en open water. Beschermd vanwege broedende aalscholvers (jaarlijks meer dan 1.000 nesten) en lepelaars, en vormt een schakel in de natte ecologische as van Fryslân tot Zeeland.',
+    bron: 'https://www.natura2000.nl/gebieden/flevoland/lepelaarplassen'
+  },
+  'oostvaardersplassen': {
+    ligging: 'Lelystad',
+    tekst: 'Door dijken omsloten zoetwatermoeras (circa 5.477 hectare) bij Lelystad, met uitgestrekte ondiepe waterpartijen, eindeloze rietvelden en begraasde graslanden. Het belangrijkste zoetwatermoeras van Nederland, met broedende lepelaars, roerdompen, baardmannetjes en zeearenden, en een gevestigde beverpopulatie.',
+    bron: 'https://www.natura2000.nl/gebieden/flevoland/oostvaardersplassen'
+  },
+  'markermeer-ijmeer': {
+    ligging: 'Grens Flevoland/Noord-Holland',
+    tekst: 'Ondiep zoetwatermeer (circa 68.463 hectare) met een slibrijke bodem die door de wind makkelijk troebel wordt, met de Gouwzee en de kust bij Muiden als heldere uitzonderingen. In de Gouwzee ligt met ruim 500 hectare verreweg de grootste kranswiervegetatie van Nederland, van internationaal belang voor viseters als nonnetje en futen en voor kuifeenden en tafeleenden die op kranswier foerageren.',
+    bron: 'https://www.natura2000.nl/gebieden/flevoland/markermeer-ijmeer'
+  },
+  'ketelmeer-vossemeer': {
+    ligging: 'Grens Flevoland/Overijssel, tussen Dronten, Kampen en Noordoostpolder',
+    tekst: 'Ondiep zoetwatersysteem met kenmerken van zowel meer als rivier (circa 3.843 hectare), met zand- en slikbanken, rietvegetatie en eilanden - het Ketelmeer gemiddeld 2,9 meter diep en slibrijk, het ondiepere en zandigere Vossemeer. Beschermd vanwege moerasbroedvogels als de grote karekiet, tot 15.000 kuifeenden, meer dan 40 vissoorten en een zeldzaam veld van vinelfontkruid.',
+    bron: 'https://www.natura2000.nl/gebieden/flevoland/ketelmeer-vossemeer'
+  },
+  'zwarte-meer': {
+    ligging: 'Grens Flevoland/Overijssel, tussen Noordoostpolder en Kampereiland',
+    tekst: 'Groot, ondiep randmeer (circa 2.162 hectare) in de voormalige IJsseldelta, met rietmoeras in het zuiden, een kunstmatig vogeleiland en soortenrijke graslanden met wilde kievitsbloem. Broedplaats van purperreigers en grote karekieten, met tienduizenden overwinterende watervogels en herstellende kranswier- en fonteinkruidvegetatie na jaren van eutrofiëring.',
+    bron: 'https://www.natura2000.nl/gebieden/overijssel/zwarte-meer'
   }
 };

@@ -1,11 +1,11 @@
 {
  "versielabel": null,
- "gegenereerdOp": "2026-08-04T09:20:01.866Z",
- "commit": "8b754190285b915a27222d0e96dc9253844faac2",
+ "gegenereerdOp": "2026-08-04T09:38:36.504Z",
+ "commit": "57a761d22fb127721b9d7d7d96446fd744056d1b",
  "toelichting": "Dit bestand is een voorbereide kandidaat voor een dataset-release, geen gepubliceerde release zelf. Het legt het commit en de per-gebied aantallen/checksums vast op het moment van genereren; git tag en GitHub Release blijven een handmatige stap van de repo-eigenaar.",
- "totaalGebieden": 121,
- "totaalMonumenten": 5442,
- "totaalMetIndicatie": 951,
+ "totaalGebieden": 127,
+ "totaalMonumenten": 5632,
+ "totaalMetIndicatie": 989,
  "gebieden": [
   {
    "slug": "abdij-lilbosch-mariahoop",
@@ -458,6 +458,15 @@
    "sha256DataJson": "4496db1ef5c8f08232dff2de7385c49969ac729cda3c8befdd38a340be739c8f"
   },
   {
+   "slug": "ketelmeer-vossemeer",
+   "naam": "Ketelmeer & Vossemeer",
+   "peildatum": "2026-08-04",
+   "n": 7,
+   "ja": 5,
+   "onbekend": 0,
+   "sha256DataJson": "6fdc7f1f5331a1e353fcdcb9f97ee9d8ea29a2ef61758d784d53140567f6e607"
+  },
+  {
    "slug": "klaverbank",
    "naam": "Klaverbank",
    "peildatum": "2026-08-04",
@@ -539,6 +548,15 @@
    "sha256DataJson": "3b2306b4048f048752b0f58badf2bfed918b0155e436251418f262f9d6899983"
   },
   {
+   "slug": "lepelaarplassen",
+   "naam": "Lepelaarplassen",
+   "peildatum": "2026-08-04",
+   "n": 0,
+   "ja": 0,
+   "onbekend": 0,
+   "sha256DataJson": "ab4020c26a338276be9d72eda9cbfe3c8483527932a0fbe73bec83cdd91f70d9"
+  },
+  {
    "slug": "leudal",
    "naam": "Leudal",
    "peildatum": "2026-08-03",
@@ -609,6 +627,15 @@
    "ja": 6,
    "onbekend": 0,
    "sha256DataJson": "e2314f7e4f5416098fe65da539f43f64454502233585ad23bfabd3433fd3e363"
+  },
+  {
+   "slug": "markermeer-ijmeer",
+   "naam": "Markermeer & IJmeer",
+   "peildatum": "2026-08-04",
+   "n": 89,
+   "ja": 16,
+   "onbekend": 2,
+   "sha256DataJson": "40a09c9d5c7cbd37ae9293c07795f1df0a935721d5c77c9e2bbcb70610da70b9"
   },
   {
    "slug": "markiezaat",
@@ -708,6 +735,15 @@
    "ja": 19,
    "onbekend": 0,
    "sha256DataJson": "6032e4d6e03eacc440d0444545123aa1b1a819743fd9d8313ddd3b89ee3b809f"
+  },
+  {
+   "slug": "oostvaardersplassen",
+   "naam": "Oostvaardersplassen",
+   "peildatum": "2026-08-04",
+   "n": 0,
+   "ja": 0,
+   "onbekend": 0,
+   "sha256DataJson": "2d49c833ed4c326a25afb3201eba0efe8c3148cc4f75bfe726eadda54269380f"
   },
   {
    "slug": "oude-maas",
@@ -917,6 +953,15 @@
    "sha256DataJson": "b27757d121f237191cf53fe797fbce213f445a110640d32c229a0358ff00031d"
   },
   {
+   "slug": "veluwerandmeren",
+   "naam": "Veluwerandmeren",
+   "peildatum": "2026-08-04",
+   "n": 83,
+   "ja": 13,
+   "onbekend": 3,
+   "sha256DataJson": "b2d483d8b8e2a46c018d0a3825ddc3f55aebfc442671c8aff4d9ac0719e7e3c2"
+  },
+  {
    "slug": "vlakte-van-de-raan",
    "naam": "Vlakte van de Raan",
    "peildatum": "2026-08-04",
@@ -1086,6 +1131,15 @@
    "ja": 2,
    "onbekend": 0,
    "sha256DataJson": "a9d5e3ee3270898c01c01c533fd5327c1893c9a45f331b1a4b9a67128afb0bfa"
+  },
+  {
+   "slug": "zwarte-meer",
+   "naam": "Zwarte Meer",
+   "peildatum": "2026-08-04",
+   "n": 11,
+   "ja": 4,
+   "onbekend": 0,
+   "sha256DataJson": "692f9409f61478ab470bbc606111d18652beed9799025f9c7bb4cc64bdd30c28"
   },
   {
    "slug": "zwin-kievittepolder",

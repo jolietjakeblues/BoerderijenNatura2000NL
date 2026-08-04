@@ -6,6 +6,58 @@ precieze wijzigingen per gebied: `git log`. Entries staan in omgekeerd-chronolog
 volgorde; een latere entry kan dus een eerdere entry corrigeren of vervangen. Waar dat
 kan verwarren, is dat expliciet benoemd.
 
+## Correctie: de CRLF/manifest-fix uit de Flevoland-ronde loste het probleem niet echt op
+
+De vorige entry hieronder claimde dat het opnieuw genereren van alle manifesten de
+CRLF/SHA-256-mismatch had opgelost. Dat klopte niet: de `flevoland`-branch faalde alsnog op
+CI (`Valideer data.json-bestanden`) met exact dezelfde 97 fouten, ondanks dat
+`node scripts/validate.mjs` lokaal groen was.
+
+**Werkelijke oorzaak**: dit project had geen `.gitattributes`, en op deze Windows-omgeving staat
+`core.autocrlf=true` globaal ingesteld. Git converteert daardoor tekstbestanden bij het uitchecken
+stilzwijgend naar CRLF in de working tree, maar normaliseert ze bij het committen terug naar LF
+voor opslag. `scripts/09-bouw-manifest.mjs` berekent SHA-256 over de working-tree-bytes (dus CRLF
+op Windows) - dat is een andere hash dan die van de daadwerkelijk gecommitte (LF-)inhoud die CI
+(Ubuntu, geen autocrlf) uitcheckt en opnieuw hasht. Geverifieerd door drie hashes naast elkaar te
+leggen voor hetzelfde bestand: de working-tree-hash, de in `manifest.json` vastgelegde hash (gelijk
+aan working-tree) en `git cat-file -p HEAD:<pad> | sha256sum` (de daadwerkelijk gecommitte hash) -
+de laatste weekt af van de eerste twee.
+
+**Fix**: `.gitattributes` toegevoegd (`* text=auto eol=lf`) zodat git voortaan altijd LF gebruikt in
+de working tree, ongeacht lokale `core.autocrlf`-instellingen. Vervolgens de hele working tree
+geforceerd opnieuw laten uitchecken (`git ls-files -z | xargs -0 rm -f && git checkout HEAD -- .`) -
+een gewone `git checkout HEAD -- .` bleek bestanden die git als "ongewijzigd" beschouwt stil over
+te slaan, ook met `--force`; alleen verwijderen-en-dan-uitchecken forceerde de daadwerkelijke
+herschrijving naar LF. Daarna alle manifesten opnieuw gegenereerd tegen de nu correcte
+LF-inhoud, en lokaal alle vier CI-stappen nagebootst (bbox-regex-zelftest, unittests,
+`validate.mjs`, en de hele gebiedenset herbouwen + `git diff --quiet` op `gebieden/` en
+`index.html`) om zeker te zijn dat de volgende push wél door CI komt.
+
+## Uitbreiding naar Flevoland (6 nieuwe gebieden)
+
+121 naar 127 verwerkte gebieden: heel Flevoland, zuid naar noord (zevende ronde) - de resterende 6
+gebieden die niet al via een andere provincie waren meegenomen (IJsselmeer, Eemmeer & Gooimeer
+Zuidoever en De Wieden liepen al eerder mee). Nieuwe totalen: 5632 boerderijen, 989 met
+BAG-industriefunctie-indicatie, 60 niet te controleren (was 5442/951/55). Zie README.md voor de
+volledige lijst per gebied. Lepelaarplassen en Oostvaardersplassen leverden 0 boerderijen op binnen
+de 5&nbsp;km-grens, verklaarbaar door de jonge inpoldering rond Almere en Lelystad.
+
+Tweede ronde met een eigen git-branch per provincie (`flevoland`, na `friesland`). Tijdens het
+opzetten bleek de lokale `main` zeven commits achter te lopen op `origin/main` (de `friesland`-PR
+en een dependabot-config-PR waren op GitHub gemerged, maar nog niet lokaal opgehaald) - de
+`flevoland`-branch was per ongeluk vanaf de verouderde lokale `main` aangemaakt. Hersteld door de
+al gebouwde, nog niet gecommitte voortgang (Veluwerandmeren) te stashen, lokale `main`
+fast-forward te brengen naar `origin/main`, `flevoland` daarna op de bijgewerkte `main` te zetten,
+en de stash terug te zetten.
+
+`validate.mjs`'s manifest-sha256-verscheheidscontrole (toegevoegd tijdens de `friesland`-ronde)
+sloeg tijdens deze branch-correctie 97 keer aan: de git-operaties (`stash`/`checkout`/`reset
+--hard`) schreven bestaande brontekstbestanden stilzwijgend van LF naar CRLF terug
+(`core.autocrlf` op Windows), wat de eerder vastgelegde SHA-256-hashes in alle manifest.json's
+ongeldig maakte zonder dat de inhoud inhoudelijk was veranderd. Opgelost door alle manifesten
+opnieuw te genereren (`scripts/09-bouw-manifest.mjs` per gebied) - geen actie nodig in de
+pijplijnscripts zelf, want de check deed precies waarvoor hij bedoeld was.
+
 ## Uitbreiding naar Fryslân (14 nieuwe gebieden)
 
 107 naar 121 verwerkte gebieden: heel Fryslân, zuid naar noord (zesde ronde), op Waddenzee en

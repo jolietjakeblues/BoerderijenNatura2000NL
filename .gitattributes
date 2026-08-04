@@ -1,0 +1,7 @@
+# Forceer LF voor alle tekstbestanden, ongeacht lokale core.autocrlf-instellingen.
+# Zonder dit bestand converteert Windows (core.autocrlf=true) tekstbestanden stil naar
+# CRLF in de working tree; git normaliseert ze bij commit terug naar LF. Het gevolg:
+# manifest.json's sha256-hashes (berekend over de CRLF-working-tree-versie) komen dan
+# niet meer overeen met de daadwerkelijk gecommitte (LF-)inhoud, wat validate.mjs pas
+# op CI (Linux, geen autocrlf) laat opvallen. Zie CHANGELOG.md.
+* text=auto eol=lf

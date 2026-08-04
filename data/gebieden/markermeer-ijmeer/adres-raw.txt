@@ -1,0 +1,112 @@
+Gevonden: 108 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10176618 | 's-Gravelandseweg | 36 | 1381HK | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10666 | Dorpsweg Ransdorp | 113 | 1028BM | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10666 | Dorpsweg Ransdorp | 115 | 1028BM | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10832 | St. Annastraat | 20 | 1411PH | Naarden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11917 | Lange Muiderweg | 30 | 1382LA | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13945 | De Buurt | 62 A | 1606AH | Venhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13945 | De Buurt | 62 | 1606AH | Venhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13951 | Dorpsstraat | 14 | 1689EV | Zwaag
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14301 | 't Nopeind | 14 | 1027AE | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14776 | Grosthuizen | 53 | 1633EM | Avenhorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15387 | Oosterblokker | 103 | 1696BD | Oosterblokker
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15843 | Oude Gouw | 1 | 1687AJ | Wognum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17267 | Kerkstraat | 1 | 1687AL | Wognum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18235 | Gein-Zuid | 53 | 1391JH | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18276 | Naardermeer | 13 | 1412CV | Naarden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19252 | Oosterblokker | 57 | 1696BB | Oosterblokker
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20031 | Nieuwvaartje | 12 | 1135BJ | Edam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20804 | Middenlaan Zunderdorp | 17 | 1027AR | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21063 | Brink | 31 | 1399GX | Muiderberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21164 | Oosterblokker | 39 | 1696BB | Oosterblokker
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21430 | Utrechtseweg | 112 | 1381GT | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21614 | Westeinde | 276 | 1647MN | Berkhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22113 | Bloemendalergouw | 13 | 1028BH | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22476 | Hemmerbuurt | 99 | 1607CD | Hem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22608 | Westeinde | 3 | 1474HA | Oosthuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22859 | 's-Gravelandseweg | 50 | 1381HK | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22859 | 's-Gravelandseweg | 51 | 1381HK | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22939 | Oostdijk | 13 a | 1461DR | Zuidoostbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22939 | Oostdijk | 13 d | 1461DR | Zuidoostbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22939 | Oostdijk | 13 g | 1461DR | Zuidoostbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22939 | Oostdijk | 13 b | 1461DR | Zuidoostbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22939 | Oostdijk | 13 c | 1461DR | Zuidoostbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22939 | Oostdijk | 13 e | 1461DR | Zuidoostbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22939 | Oostdijk | 13 f | 1461DR | Zuidoostbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22939 | Oostdijk | 13 h | 1461DR | Zuidoostbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22939 | Oostdijk | 13 | 1461DR | Zuidoostbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23820 | Wijkergouw | 3 | 1023NV | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24626 | Westerblokker | 52 | 1695AJ | Blokker
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24925 | Herengracht | 75 | 1398AD | Muiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25220 | Bloemendalergouw | 26 | 1028BJ | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25261 | Oosterblokker | 71 | 1696BC | Oosterblokker
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25377 | Kerklaan | 8 | 1382AK | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25584 | Hemmerbuurt | 93 | 1607CD | Hem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26344 | Broekermeerdijk | 15 | 1151CZ | Broek in Waterland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26344 | Broekermeerdijk | 15 A | 1151CZ | Broek in Waterland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26570 | De Buurt | 1 | 1606AC | Venhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27095 | Durgerdammergouw | 2 A 2 | 1028BT | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27095 | Durgerdammergouw | 2 A 1 | 1028BT | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28057 | Grosthuizen | 52 | 1633EM | Avenhorn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28065 | Lange Stammerdijk | 12 | 1109BN | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28065 | Lange Stammerdijk | 14 | 1109BN | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29302 | Bobeldijk | 22 | 1647CE | Berkhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29336 | Beets | 86 | 1475JG | Beets
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30050 | Gein-Noord | 63 | 1391HW | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30779 | Dorpsweg | 98 | 1697KE | Schellinkhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30951 | Handvastwater | 46 | 1601PR | Enkhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31884 | Oosterweg E | 20 | 1481AP | Purmer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34767 | Gevangenpoortsteeg | 7 | 1135AD | Edam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35781 | Gooilandseweg | 7 | 1381HR | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35781 | Gooilandseweg | 7 A | 1381HR | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36840 | Utrechtseweg | 116 | 1381GT | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37131 | Gein-Zuid | 46 | 1391JH | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37279 | Oosteinde | 107 | 1647AG | Berkhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37955 | Lange Muiderweg | 16 | 1382LA | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41028 | Googweg | 10 | 1399ER | Muiderberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41467 | Oosterblokker | 31 | 1696BA | Oosterblokker
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42344 | Oosterweg E | 24 E | 1481AP | Purmer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42529 | 's-Gravelandseweg | 39 | 1381HK | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43022 | Hemmerbuurt | 7 | 1607CC | Hem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43659 | Gein-Noord | 64 | 1391HW | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45102 | 't Voorwerf | 13 | 1027AG | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45178 | Gein-Zuid | 44 | 1391JG | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45509 | 's-Gravelandseweg | 7 | 1381HH | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45830 | Dorpsweg | 67 A | 1631DH | Oudendijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45830 | Dorpsweg | 67 | 1631DH | Oudendijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46335 | Gein-Noord | 80 | 1391HZ | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46599 | De Buurt | 11 | 1606AC | Venhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46659 | Koggeweg | 1 | 1652PC | Zuidermeer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47326 | Dijkeinde | 1 | 1153PH | Zuiderwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48192 | 't Voorwerf | 1 | 1027AG | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49453 | Hemmerbuurt | 56 | 1607CK | Hem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50005 | Noordergracht | 33 | 1601PE | Enkhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51133 | Dorpsweg Ransdorp | 121 | 1028BM | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52452 | Leeteinde | 5 | 1151AJ | Broek in Waterland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52452 | Leeteinde | 5 A | 1151AJ | Broek in Waterland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52692 | Dorpsweg | 75 | 1697KD | Schellinkhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54708 | Westeinde | 11 | 1606CZ | Venhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54708 | Westeinde | 13 | 1606CZ | Venhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56973 | Zuidpolderweg | 8 | 1399VS | Muiderberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56973 | Zuidpolderweg | 10 | 1399VS | Muiderberg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57466 | Zesstedenweg | 214 | 1613KE | Grootebroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59068 | Beets | 15 | 1475JB | Beets
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59692 | Westerblokker | 39 | 1695AB | Blokker
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60054 | Middenweg | 2 | 1463HA | Noordbeemster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60113 | Handvastwater | 10 | 1601PR | Enkhuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61542 | Oude Gouw | 24 | 1687AJ | Wognum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61763 | Dorpsweg Ransdorp | 78 | 1028BR | Amsterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67993 | Zuidpolderweg | 3 | 1398PM | Muiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67994 | Noordpolderweg | 1 | 1398PE | Muiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67995 | Noordpolderweg | 4 | 1398PE | Muiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67996 | Noordpolderweg | 5 | 1398PE | Muiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68001 | 's-Gravelandseweg | 5 | 1381HH | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68002 | 's-Gravelandseweg | 4 | 1381HH | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68501 | Overdiemerweg | 13 | 1111PN | Diemen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68983 | 's-Gravelandseweg | 37 | 1381HK | Weesp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73572 | Leeteinde | 8 | 1151AK | Broek in Waterland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73890 | Westerblokker | 159 | 1695AE | Blokker
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/76634 | Weesperbinnenweg | 11 | 1398PC | Muiden

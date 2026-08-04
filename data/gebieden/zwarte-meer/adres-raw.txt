@@ -1,0 +1,15 @@
+Gevonden: 11 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18011 | Kadoelerweg | 14 | 8317PJ | Kraggenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20378 | Leeuwte | 43 | 8326AB | Sint Jansklooster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30609 | Havezatherweg | 15 | 8066PB | Belt-Schutsloot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39296 | Kadoelen | 25 | 8326BA | Sint Jansklooster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60164 | Frieseweg | 25 | 8267AD | Kampen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62277 | Leeuwte | 51 | 8326AB | Sint Jansklooster
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68266 | Zwartemeerweg | 46 | 8317PC | Kraggenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69132 | Kamperzandweg | 20 | 8307RJ | Ens
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78854 | Oppen Swolle | 5 | 8325PE | Vollenhove
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78855 | Oppen Swolle | 5 | 8325PE | Vollenhove
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78856 | Oppen Swolle | 5 | 8325PE | Vollenhove

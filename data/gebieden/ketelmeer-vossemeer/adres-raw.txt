@@ -1,0 +1,11 @@
+Gevonden: 7 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15001 | Oudestraat | 229 | 8261CN | Kampen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18685 | Schansdijk | 1 | 8263AZ | Kampen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31312 | Zwartendijk | 6 | 8265PD | Kampen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38778 | Oudestraat | 211 | 8261CM | Kampen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43095 | Kardoezenweg | 2 | 8263AW | Kampen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60164 | Frieseweg | 25 | 8267AD | Kampen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69132 | Kamperzandweg | 20 | 8307RJ | Ens

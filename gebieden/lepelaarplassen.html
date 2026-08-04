@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lepelaarplassen &middot; Boerderij-rijksmonumenten &amp; Natura 2000</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+<style>
+  :root{
+    --paper:#F4F7F8; --panel:#FFFFFF; --ink:#16324F; --ink-soft:#4A6579;
+    --blue-mid:#3E6C93; --alert:#D1401F; --line:#C9D6DE;
+    --n2k:#5E7D46; --n2k-bg:#E9F0E6; --n2k-text:#3B5230;
+    --k0:#7A1607; --k1:#D1401F; --k2:#E0703C; --k3:#E5B08E; --k4:#B7C7D2; --k5:#B7C7D2;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html{-webkit-text-size-adjust:100%}
+  body{background:var(--paper);color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;
+    line-height:1.5;padding:0 0 48px}
+  .wrap{max-width:760px;margin:0 auto;padding:0 16px}
+  .eyebrow{font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:var(--blue-mid);font-weight:600}
+  header{padding:18px 0 18px;border-bottom:2px solid var(--ink)}
+  h1{font-family:Palatino,"Palatino Linotype",Georgia,serif;font-size:27px;line-height:1.18;font-weight:700;margin-top:6px}
+  header p{margin-top:8px;font-size:14px;color:var(--ink-soft);
+    text-align:justify;-webkit-hyphens:auto;hyphens:auto}
+  .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin:16px 0}
+  .stat{background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:10px}
+  .stat .num{font-family:Palatino,Georgia,serif;font-size:20px;font-weight:700;line-height:1.05}
+  .stat.alert .num{color:var(--alert)}
+  .stat.neutral .num{color:var(--ink-soft)}
+  .stat .lbl{font-size:10px;letter-spacing:.05em;text-transform:uppercase;color:var(--ink-soft);margin-top:3px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:2px;padding:14px;margin:14px 0}
+  .badge-richtlijn{display:inline-block;font-size:10px;font-weight:700;letter-spacing:.04em;
+    text-transform:uppercase;padding:2px 8px;background:var(--n2k-bg);color:var(--n2k-text);border-radius:8px}
+  .richtlijn-row{display:flex;align-items:center;gap:8px;flex-wrap:wrap;margin-top:8px}
+  .richtlijn-meta{font-size:12px;color:var(--ink-soft)}
+  .dk-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:8px}
+  .dk-item{background:var(--paper);border:1px solid var(--line);border-radius:2px;padding:8px 10px}
+  .dk-item b{font-family:Palatino,Georgia,serif;font-size:18px;display:block}
+  .dk-item span{font-size:11px;color:var(--ink-soft)}
+  .detail{display:none;font-size:12px;color:var(--ink)}
+  .detail.on{display:block}
+  .detail dl{display:grid;grid-template-columns:auto 1fr;gap:2px 10px;margin-top:6px}
+  .detail dt{color:var(--ink-soft)}
+  .detail dd{margin:0}
+  .mon-list{margin-top:12px;font-size:12px}
+  .mon-list summary{cursor:pointer;color:var(--blue-mid);font-weight:600}
+  .mon-list table{width:100%;border-collapse:collapse;margin-top:8px;font-size:12px}
+  .mon-list th,.mon-list td{text-align:left;padding:4px 8px;border-bottom:1px solid var(--line)}
+  .mon-list th{color:var(--ink-soft);font-size:10px;letter-spacing:.04em;text-transform:uppercase}
+  .card h2{font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--blue-mid);margin-bottom:8px}
+  #map{width:100%;height:480px;border:1px solid var(--line);border-radius:2px;background:var(--paper)}
+  .leaflet-popup-content-wrapper,.leaflet-popup-tip{background:var(--ink);color:#fff}
+  .leaflet-popup-content{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;font-size:12px;margin:8px 10px}
+  .legend{display:flex;gap:12px;flex-wrap:wrap;font-size:11px;color:var(--ink-soft);margin-top:8px}
+  .legend span{display:inline-flex;align-items:center;gap:5px}
+  .sw{width:9px;height:9px;border-radius:50%}
+  .sq{width:11px;height:11px;border-radius:2px}
+  .chips{display:flex;gap:8px;margin:10px 0 2px;flex-wrap:wrap}
+  .chip{padding:7px 12px;border:1.5px solid var(--ink);background:var(--panel);color:var(--ink);
+    font-size:12px;font-weight:600;cursor:pointer;border-radius:2px}
+  .chip.on{background:var(--ink);color:#fff}
+  .chip:focus-visible{outline:3px solid var(--alert);outline-offset:2px}
+  footer{margin-top:22px;font-size:12px;color:var(--ink-soft);border-top:1px solid var(--line);padding-top:14px}
+  footer p{margin-bottom:8px}
+  @media (max-width:480px){ h1{font-size:21px} .stats{grid-template-columns:repeat(3,1fr)} #map{height:360px} }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <p style="font-size:13px;margin-top:14px"><a href="../index.html" style="color:var(--blue-mid)">&larr; terug naar overzicht alle Natura 2000-gebieden</a></p>
+  <header>
+    <div class="eyebrow">RCE &times; Kadaster &times; Natura 2000</div>
+    <h1>Lepelaarplassen</h1>
+    <div class="richtlijn-row">
+      <span class="badge-richtlijn">Vogelrichtlijn</span>
+      <span class="richtlijn-meta">Natura 2000-gebied nr. 79 &middot; sitecode NL2000007 &middot; stikstofgevoelig: nee</span>
+    </div>
+    <p>Kwelgevoed plassen- en moerasgebied (circa 356 hectare) bij Almere, ontstaan door zandwinning, met rietvelden, wilgenbos en open water. Beschermd vanwege broedende aalscholvers (jaarlijks meer dan 1.000 nesten) en lepelaars, en vormt een schakel in de natte ecologische as van Fryslân tot Zeeland. <a href="https://www.natura2000.nl/gebieden/flevoland/lepelaarplassen" style="color:var(--blue-mid)" target="_blank" rel="noopener">Bron: natura2000.nl &rarr;</a> &middot; <a href="https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/2ec75e33-3d38-4a24-ac1f-ea1b61328101" style="color:var(--blue-mid)" target="_blank" rel="noopener">RCE linked data &rarr;</a> &middot; <a href="http://www.wikidata.org/entity/Q2205659" style="color:var(--blue-mid)" target="_blank" rel="noopener">Wikidata &rarr;</a></p>
+    <p>Rijksmonumentale boerderijen binnen dit Natura 2000-gebied of binnen 5&nbsp;km
+    van de gebiedsrand (een gekozen selectievenster, geen ecologische invloedssfeer), met een
+    BAG-industriefunctie-indicatie op basis van BAG-gebruiksdoel (een aanwijzing, geen bewijs van
+    actieve bedrijfsvoering).</p>
+  </header>
+
+  <div class="stats" id="stats"></div>
+
+  <div class="card">
+    <h2>Kaart &middot; elk punt is een rijksmonumentale boerderij</h2>
+    <p style="font-size:13px;color:var(--ink-soft);margin-bottom:8px">Geen rijksmonumentale boerderijen gevonden binnen of tot 5&nbsp;km van dit gebied.</p>
+    <div id="map" aria-label="Kaart van het Natura 2000-gebied Lepelaarplassen met rijksmonumentale boerderijen, met een OpenStreetMap-ondergrond"></div>
+    <div class="legend">
+      <span><i class="sq" style="background:rgba(94,125,70,.3);border:1px solid var(--n2k)"></i>Natura 2000</span>
+      <span><i class="sw" style="background:var(--k0)"></i>erin</span>
+      <span><i class="sw" style="background:var(--k1)"></i>&lt;250 m</span>
+      <span><i class="sw" style="background:var(--k2)"></i>&lt;1 km</span>
+      <span><i class="sw" style="background:var(--k3)"></i>&lt;5 km</span>
+    </div>
+    <p style="font-size:12px;color:var(--ink-soft);margin-top:8px">Klik op een punt voor details ("waarom staat
+    dit punt hier?"), beweeg eroverheen voor een korte hint. Sleep om te verschuiven, scroll of gebruik de
+    +/&minus;-knoppen om in te zoomen op de werkelijke ligging. Bij omrande punten (donkerblauw, effen) is
+    eenduidig een industriefunctie in de BAG aangetroffen. Een dubbele donkerblauwe rand betekent: wel
+    industriefunctie gevonden, maar niet bij alle adressen van dit monument eenduidig (zie klik-detail).
+    Een gestippelde grijze rand: kon niet in de BAG worden gecontroleerd (geen adres bekend of geen match
+    gevonden). Op basis van de BAG-koppeling is hierover geen uitspraak mogelijk, dit is geen bevestiging
+    van afwezige bedrijfsvoering. Kaartondergrond: &copy; <a href="https://carto.com/attributions" target="_blank" rel="noopener" style="color:var(--blue-mid)">CARTO</a>
+    &amp; <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener" style="color:var(--blue-mid)">OpenStreetMap</a>-auteurs.</p>
+    <div class="detail" id="detail"></div>
+    
+  </div>
+
+  
+  <div class="card">
+    <h2>Datakwaliteit &middot; peildatum 2026-08-04</h2>
+    <div class="dk-grid">
+      <div class="dk-item"><b>0</b><span>industriefunctie aangetroffen</span></div>
+      <div class="dk-item"><b>0</b><span>industriefunctie bij deel van adressen</span></div>
+      <div class="dk-item"><b>0</b><span>geen industriefunctie aangetroffen</span></div>
+      <div class="dk-item"><b>0</b><span>geen adres bekend in RCE</span></div>
+      <div class="dk-item"><b>0</b><span>geen match in BAG</span></div>
+      <div class="dk-item"><b>0</b><span>BAG-bevraging mislukt</span></div>
+      <div class="dk-item"><b>0</b><span>monumenten met meerdere adressen</span></div>
+    </div>
+  </div>
+
+  <footer>
+    <p><b>Methodiek.</b> Monumenten: RCE CHO-endpoint, rijksmonumenten met oorspronkelijke functie
+    Boerderij (M/M1), binnen 5&nbsp;km van of daadwerkelijk binnen het Natura 2000-gebied. Natura 2000-geometrie:
+    officiële landelijke WFS (service.pdok.nl/rvo/natura2000). Afstand: monumentpunt tot de daadwerkelijke
+    gebiedsrand. Provincie: point-in-polygon tegen de PDOK-bestuurlijke grenzen. BAG-industriefunctie-indicatie:
+    BAG-gebruiksdoel (open WFS bag:verblijfsobject), gematcht op postcode en huisnummer; industriefunctie
+    op een boerderijadres geldt als BAG-industriefunctie-indicatie: een aanwijzing, geen bewijs van
+    actieve agrarische bedrijfsvoering. Monumenten met uitsluitend woonfunctie zijn conservatief niet als
+    zodanig geteld; dat betekent een afwezige industriefunctie-aanwijzing, geen bevestiging dat er geen
+    bedrijf is. Monumenten zonder BAG-adres in RCE of zonder match in de BAG-zoekbox staan apart als
+    "BAG niet te controleren". Peildatum 2026-08-04.</p>
+    <p><b>Kanttekeningen.</b> Dit is een blootstellingskaart: er is g&eacute;&eacute;n emissiedata (AERIUS/RAV)
+    verwerkt. De industriefunctie-vlag is een indicatie, geen bewijs van actieve bedrijfsvoering of
+    stikstofuitstoot. Geen van de statuscategorie&euml;n op deze pagina is een uitspraak over daadwerkelijke
+    bedrijfsvoering, alleen over wat wel of niet in de BAG is aangetroffen.</p>
+  </footer>
+</div>
+<script id="data" type="application/json">{"gebied":"Lepelaarplassen","peildatum":"2026-08-04","n":0,"ja":0,"onbekend":0,"provCounts":{},"provJaCounts":{},"datakwaliteit":{"industrieAangetroffen":0,"industrieDeelsAangetroffen":0,"geenIndustrieAangetroffen":0,"geenAdres":0,"geenMatch":0,"bagMislukt":0,"meerdereAdressen":0},"bbox":[5.171831796292453,52.384758381181264,5.242179491037418,52.43150418956234],"n2000":[{"naam":"Lepelaarplassen","rings":[[[5.222144976897917,52.416383580161416],[5.222134709529109,52.41639430052339],[5.2220294620778605,52.41650418956234],[5.22187419900541,52.41644443029463],[5.22188363756283,52.41637703709906],[5.2218499134239345,52.41636743981335],[5.221804486041634,52.41635473624179],[5.221749339907477,52.41636168194973],[5.221704496208211,52.41637763136597],[5.221671563415814,52.416400893505],[5.221593830516112,52.41642999411108],[5.221536646023001,52.41642935319691],[5.221474679525461,52.416417469358386],[5.221409646294205,52.416426928341764],[5.2213852497483995,52.416440936235674],[5.221162501321912,52.41643332224464],[5.220853870579354,52.41636098838],[5.220487605602655,52.41628520216294],[5.220293909055333,52.416247855442414],[5.220076778805092,52.41621244176199],[5.219515087551679,52.41613244511894],[5.219227898757218,52.41609945617493],[5.21916774269563,52.41609572002193],[5.21840841147098,52.416049701538064],[5.218209787567926,52.41604015006946],[5.217393402142908,52.41602072391723],[5.217057183473001,52.41601771358971],[5.2165831717653415,52.41601309982709],[5.216129132623766,52.41601075812978],[5.215986053668592,52.41600999034001],[5.214981286970891,52.41600487951528],[5.2133732132663715,52.41599325993063],[5.211758960256679,52.41597739601098],[5.210151029645056,52.41598848208531],[5.209346986314526,52.415984468489796],[5.209218398244619,52.41597837572784],[5.2085708665946875,52.41594791008488],[5.20850266363514,52.415946122837966],[5.208025563871724,52.415910292510226],[5.207934642478278,52.41590425718772],[5.2073699427830435,52.41583599576103],[5.207146633763026,52.41579773786092],[5.2070603342323745,52.415784409248964],[5.206953838180211,52.41576767410181],[5.206901509726496,52.415759449896306],[5.206823943353449,52.41574416435855],[5.206551128588607,52.415681959042274],[5.206309074462347,52.415622890035635],[5.206045464246855,52.41555592346769],[5.206011514900274,52.415546321361745],[5.205879701831761,52.41550303154095],[5.205562380969207,52.41537977102436],[5.205045296499768,52.4151905216149],[5.203678299366694,52.41468714650959],[5.202700628954128,52.41434333166116],[5.202026590894793,52.41409100705458],[5.20079569307084,52.41364550164148],[5.199989813272859,52.413341677751944],[5.199179686108093,52.41305322490861],[5.1989410346420035,52.412970797819774],[5.198895032517406,52.41294252007161],[5.198846949491339,52.41291039414039],[5.1986296914742045,52.41272800368284],[5.19852940971723,52.41264579608053],[5.19839767095805,52.41256610146876],[5.198228164455244,52.41249403883976],[5.197809508486332,52.4123446581094],[5.197658744334167,52.412302110856125],[5.1975938259542405,52.41228534047829],[5.197497421448845,52.41227749454155],[5.197270998960337,52.4122784131463],[5.1971410579822335,52.412269230598426],[5.197055152196512,52.41225755450329],[5.196963018136275,52.4122317669436],[5.196663694700932,52.41212231571125],[5.196075573026658,52.4118944530556],[5.194888778309916,52.411459214958946],[5.194074599049365,52.4111540553984],[5.1936957676339155,52.411012416614184],[5.193212236336476,52.41084368305684],[5.192282887514121,52.41051396453666],[5.191604727939181,52.41027183006665],[5.1905477541369915,52.40989060707178],[5.1895138341624865,52.40951454053869],[5.189019975861088,52.409318850607825],[5.187917135559753,52.408891375699014],[5.1873646574648875,52.408681477925725],[5.186872878774464,52.408493474987935],[5.18688982396394,52.40845504341676],[5.186959424414056,52.40836157512224],[5.186924789336246,52.40834618835787],[5.186969005808296,52.40829705203773],[5.186831796292453,52.40824708219229],[5.19034192212039,52.40435037564444],[5.194371934559453,52.399859055423214],[5.194400997693134,52.39987289948012],[5.1981366387496495,52.4010133684169],[5.198345160401583,52.4010432718041],[5.198784721721456,52.40099112329925],[5.2020224837339875,52.4001773776526],[5.202057213888108,52.40018346348343],[5.202404333920266,52.40024428230377],[5.202426695539069,52.40024820160513],[5.202659113368565,52.400290895265385],[5.20276479402861,52.40029934639487],[5.202767663768733,52.400299316711255],[5.20287243056827,52.40029823773896],[5.203020675938646,52.40028318058028],[5.20326613593217,52.40024609302334],[5.206416939328633,52.39982439602497],[5.206549373453316,52.399812941265395],[5.2068753823865,52.39978474087141],[5.207509795054309,52.399758381181265],[5.207942039816669,52.39976192298531],[5.208106964083296,52.39976724865104],[5.21018911563192,52.400466807120495],[5.210308294671494,52.40049641937866],[5.210900376074762,52.400697285777206],[5.210938668434322,52.40069258746766],[5.211138243739059,52.40049039866206],[5.211453803122174,52.40058468289174],[5.211488916437048,52.40059458893177],[5.221846086603131,52.40408056105056],[5.22325282623817,52.40455432262098],[5.223758680595125,52.40470522745873],[5.224156909460761,52.40479649158784],[5.224620312710641,52.40484513692494],[5.224631108100753,52.404845793464546],[5.224631961443325,52.404845910575986],[5.224707940474059,52.40485135171898],[5.225182347586868,52.40490424310147],[5.225333860882201,52.40491147328543],[5.225454628641132,52.404913320862846],[5.22555932988114,52.4049125130249],[5.22555929870046,52.40492104665485],[5.225764165320665,52.4049213262786],[5.2257677014047035,52.405070189089024],[5.225774049604765,52.40534403740216],[5.225739555883688,52.405420945284064],[5.225570679547306,52.40576617252222],[5.225542521959996,52.40580601897578],[5.22550844766618,52.405830686367835],[5.22548622454047,52.405942719861514],[5.225501503936719,52.406034580830536],[5.225539917036318,52.40651883707845],[5.225568984519404,52.40711008974436],[5.225598425819126,52.4075364754383],[5.225610455814683,52.40763704085316],[5.225634985528075,52.407711221540154],[5.225714925889981,52.40789051880824],[5.225792000325615,52.40803863793532],[5.2259002591836285,52.408198314357875],[5.225983470111145,52.40830094141366],[5.226218710924281,52.40852426587153],[5.226577550134232,52.408858976689615],[5.226624021524928,52.40889892286178],[5.226930185707326,52.40919648752067],[5.227013579412898,52.409312314990615],[5.227136914163891,52.40949672640755],[5.227173899821954,52.40961923161972],[5.227179491037418,52.40978803589187],[5.227172238446336,52.41007843672133],[5.227176266909792,52.41067920313933],[5.2271429304404435,52.41126110083682],[5.227083094487716,52.41155058558416],[5.2270359945638605,52.41168337013441],[5.226982581090168,52.411848443704734],[5.2268822313260905,52.412099958630854],[5.226875342945996,52.41211287066869],[5.226807571096186,52.41211277879503],[5.226685630332101,52.41242801101245],[5.226661336942217,52.412490807173455],[5.226470201433433,52.41274565865047],[5.226339459956929,52.412891528277065],[5.226217728456957,52.413022524868424],[5.225678807714061,52.41356946676545],[5.225622781890541,52.41363005605344],[5.2248791501760925,52.414385393893895],[5.223494397821403,52.41579115606375],[5.223385457563572,52.415874702401716],[5.223270350554727,52.41594840953792],[5.223170959704927,52.41599573661838],[5.223080811478541,52.41602791269649],[5.222925408572437,52.4160684193852],[5.22287805728085,52.416079025382096],[5.222561774204704,52.41614964441487],[5.222409498958121,52.41621206275353],[5.222285000337897,52.41628013862909],[5.222144976897917,52.416383580161416]]]}],"mons":[],"richtlijn":{"gebiedsnummer":"79","label":"Vogelrichtlijn","badge":"VR","heeftGroeveOnderdeel":false,"siteCodeVogelrichtlijn":"NL2000007","siteCodeHabitatrichtlijn":null,"stikstofgevoelig":false,"natura2000Status":"Natura 2000-besluit 2010","wikidata":"http://www.wikidata.org/entity/Q2205659","rceUris":["https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/2ec75e33-3d38-4a24-ac1f-ea1b61328101"]}}</script>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+const D = JSON.parse(document.getElementById('data').textContent);
+const $ = id => document.getElementById(id);
+const fmt = n => n.toLocaleString('nl-NL');
+const KC = ['#7A1607','#D1401F','#E0703C','#E5B08E','#B7C7D2','#B7C7D2'];
+const KN = ['erin','<250 m','<1 km','<5 km','<25 km','\u226525 km'];
+let filterJa = false;
+
+$('stats').innerHTML = `
+  <div class="stat"><div class="num">${fmt(D.n)}</div><div class="lbl">rijksmonumentale boerderijen</div></div>
+  <div class="stat alert"><div class="num">${fmt(D.ja)}</div><div class="lbl">BAG-industriefunctie-indicatie</div></div>
+  <div class="stat neutral"><div class="num">${fmt(D.onbekend)}</div><div class="lbl">BAG niet te controleren</div></div>`;
+
+const map = L.map('map', { scrollWheelZoom: false });
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+  attribution: '&copy; <a href="https://carto.com/attributions">CARTO</a> &copy; OpenStreetMap contributors',
+  maxZoom: 19
+}).addTo(map);
+const [bx0,by0,bx1,by1] = D.bbox;
+map.fitBounds([[by0,bx0],[by1,bx1]], { padding: [10,10] });
+
+const n2000Layer = L.layerGroup().addTo(map);
+D.n2000.forEach(g => g.rings.forEach(ring => {
+  L.polygon(ring.map(([lon,lat]) => [lat,lon]), {
+    color: '#5E7D46', weight: 1, fillColor: '#5E7D46', fillOpacity: 0.28, interactive: false
+  }).addTo(n2000Layer);
+}));
+
+const STATUS_LABEL = {
+  industrie_aangetroffen: 'Industriefunctie aangetroffen (eenduidig)',
+  industrie_deels_aangetroffen: 'Industriefunctie aangetroffen bij een deel van de adressen',
+  geen_industrie_aangetroffen: 'Geen industriefunctie aangetroffen',
+  geen_adres: 'BAG niet te controleren \u2014 geen adres bekend in RCE',
+  geen_match: 'BAG niet te controleren \u2014 geen match gevonden',
+  bag_mislukt: 'BAG niet te controleren \u2014 bevraging mislukt'
+};
+const detail = $('detail');
+function toonDetail(m){
+  const adressenHtml = (m.addressen||[]).map((a,i)=>
+    `<dt>adres ${i+1}</dt><dd>${a.straat} ${a.huisnr}, ${a.postcode} ${a.woonplaats}${a.gebruiksdoel ? ', gebruiksdoel: '+a.gebruiksdoel : ', geen BAG-match'}</dd>`
+  ).join('');
+  detail.innerHTML = `<dl>
+    <dt>rijksmonumentnummer</dt><dd>${m.nr} (<a href="https://monumentenregister.cultureelerfgoed.nl/monumenten/${m.nr}" target="_blank" rel="noopener" style="color:var(--blue-mid)">Monumentenregister &rarr;</a>${m.rm ? ` &middot; <a href="${m.rm}" target="_blank" rel="noopener" style="color:var(--blue-mid)">RCE linked data &rarr;</a>` : ''})</dd>
+    <dt>oorspronkelijke functie</dt><dd>${m.functie||'onbekend'}</dd>
+    <dt>ligging</dt><dd>${m.erin ? 'binnen het Natura 2000-gebied' : `${fmt(m.afstandTotRand)} m van de gebiedsrand`} \u00b7 ${KN[m.k]}-klasse \u00b7 ${m.prov}</dd>
+    <dt>status</dt><dd>${STATUS_LABEL[m.status]||m.status}</dd>
+    ${adressenHtml}
+    <dt>peildatum</dt><dd>2026-08-04</dd>
+  </dl>`;
+  detail.classList.add('on');
+}
+
+const monLayer = L.layerGroup().addTo(map);
+function renderMarkers(){
+  monLayer.clearLayers();
+  [...D.mons].sort((a,b)=>b.k-a.k).forEach(m=>{
+    if(filterJa && !m.ja) return;
+    const r = m.k<=1 ? 5 : m.k===2 ? 4.4 : 3.8;
+    const marker = L.circleMarker([m.lat,m.lon], { radius:r, fillColor:KC[m.k], fillOpacity:0.9, weight:1, color:KC[m.k] });
+    if(m.status==='industrie_deels_aangetroffen'){
+      marker.setStyle({color:'#16324F', weight:1.3});
+      L.circleMarker([m.lat,m.lon], { radius:r+2.2, fill:false, color:'#16324F', weight:1.3, interactive:false }).addTo(monLayer);
+    } else if(m.ja){
+      marker.setStyle({color:'#16324F', weight:1.3});
+    } else if(m.bag!=='ok'){
+      marker.setStyle({color:'#8A8A8A', weight:1, dashArray:'2,2'});
+    }
+    marker.bindTooltip(
+      `rm ${m.nr} \u00b7 ${m.straat||''} ${m.huisnr||''}, ${m.wpl||''} \u00b7 ${m.prov} \u00b7 ${KN[m.k]} van Lepelaarplassen`+
+      (m.d>0 ? ` (${fmt(m.d)} m)` : '') + (m.ja ? ' \u00b7 BAG-industriefunctie-indicatie' : (m.bag!=='ok' ? ' \u00b7 BAG niet te controleren' : ''))
+    );
+    marker.on('click', ()=>toonDetail(m));
+    marker.addTo(monLayer);
+  });
+}
+renderMarkers();
+
+if($('fAll')){
+  $('fAll').onclick=()=>{filterJa=false;$('fAll').classList.add('on');$('fAll').setAttribute('aria-pressed','true');$('fJa').classList.remove('on');$('fJa').setAttribute('aria-pressed','false');renderMarkers();};
+  $('fJa').onclick=()=>{filterJa=true;$('fJa').classList.add('on');$('fJa').setAttribute('aria-pressed','true');$('fAll').classList.remove('on');$('fAll').setAttribute('aria-pressed','false');renderMarkers();};
+}
+window.addEventListener('resize',()=>map.invalidateSize());
+</script>
+</body>
+</html>
