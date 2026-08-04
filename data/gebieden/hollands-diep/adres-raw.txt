@@ -1,0 +1,37 @@
+Gevonden: 33 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19860 | Helsedijk | 65 a | 4794SB | Heijningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19860 | Helsedijk | 65 | 4794SB | Heijningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22401 | Tonsedijk | 16 | 4793SC | Fijnaart
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25268 | Boomdijk | 14 | 3286LE | Klaaswaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25592 | Streeplandsedijk | 2 | 4926PK | Lage Zwaluwe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29934 | Kooilandsedijk | 33 | 3291LG | Strijen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31515 | Molendijk | 2 | 3284LJ | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35674 | Middelsluissedijk OZ | 11 | 3281LC | Numansdorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37459 | Zuid-Kavelsedijk | 3 | 3291LX | Strijen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38675 | Oostdijk | 12 | 4797SC | Willemstad
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45816 | Noordlangeweg | 4 | 4797SE | Willemstad
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46222 | Oudemolensedijk | 20 | 4793TH | Fijnaart
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50208 | Stadsedijk | 151 | 4794RL | Heijningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52473 | Steenpad | 3 | 4797SG | Willemstad
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53085 | Oostdijk | 18 | 4797SC | Willemstad
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54435 | Kraaiendijk | 12 | 4794SE | Heijningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54435 | Kraaiendijk | 14 | 4794SE | Heijningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 23 A | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 25 A | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 21 A | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 25 B | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 27 A | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 27 B | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 1 | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 5 | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 17 | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 19 | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 21 | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 23 | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 25 | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 27 | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59051 | Schaweg | 13 | 3293LA | Mookhoek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68006 | Land van Esseweg | 6 | 3291LJ | Strijen

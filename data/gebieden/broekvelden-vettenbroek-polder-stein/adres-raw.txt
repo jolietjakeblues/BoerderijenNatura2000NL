@@ -1,0 +1,92 @@
+Gevonden: 88 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10443 | West-Vlisterdijk | 19 | 2855AH | Vlist
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11277 | Provincialeweg | 25 | 2851EA | Haastrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11277 | Provincialeweg | 25 A | 2851EJ | Haastrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11689 | Zuidzijde | 27 | 2411RR | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11757 | Hekendorpse Buurt | 75 | 3467PB | Hekendorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11757 | Hekendorpse Buurt | 71 | 3467PB | Hekendorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11757 | Hekendorpse Buurt | 73 | 3467PB | Hekendorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13046 | Weijland | 24 | 2415BB | Nieuwerbrug aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14197 | Hekendorpse Buurt | 9 | 3467PA | Hekendorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14340 | Hoenkoopse Buurtweg | 87 | 3421GC | Oudewater
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15430 | Buitenkerk | 61 | 2411PC | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15692 | 's-Gravenbroekseweg | 21 | 2811GB | Reeuwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17208 | West-Vlisterdijk | 23 | 2855AH | Vlist
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17511 | Steinsedijk | 45 | 2851LC | Haastrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17559 | Oost-Vlisterdijk | 19 | 2855AC | Vlist
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17694 | Hekendorpse Buurt | 51 | 3467PB | Hekendorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17950 | Goejanverwelle | 33 | 3467PN | Hekendorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18427 | Noordzijde | 130 | 2411RG | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19716 | Hoenkoopse Buurtweg | 25 | 3421GA | Oudewater
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20807 | Weijland | 26 | 2415BB | Nieuwerbrug aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20812 | Dammekant | 2 | 2411CD | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21207 | Bloemendaalseweg | 39 | 2803AW | Gouda
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23031 | West-Vlisterdijk | 32 | 2855AJ | Vlist
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23651 | Laageind | 41 | 3465KH | Driebruggen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24923 | Weijland | 20 | 2415BB | Nieuwerbrug aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24959 | Steinsedijk | 47 | 2851LC | Haastrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25671 | West-Vlisterdijk | 18 | 2855AH | Vlist
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28502 | Hekendorpse Buurt | 67 | 3467PB | Hekendorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29848 | Hoenkoopse Buurtweg | 51 | 3421GB | Oudewater
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29904 | Ruige Weide | 43 | 3421TH | Oudewater
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30580 | Kromme Haven | 12 | 3421BK | Oudewater
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30580 | Kromme Haven | 11 | 3421BK | Oudewater
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31172 | Bloemendaalseweg | 56 | 2804AB | Gouda
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31172 | Bloemendaalseweg | 58 | 2804AB | Gouda
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31299 | Bloemendaalseweg | 50 | 2804AB | Gouda
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31349 | Bloemendaalseweg | 68 | 2804AB | Gouda
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31627 | Beijerscheweg | 75 | 2821NE | Stolwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32045 | Zuidzijde | 50 | 2411RS | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32135 | Noordzijde | 14 | 2411RA | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33691 | Provincialeweg Oost | 63 | 2851AB | Haastrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33691 | Provincialeweg Oost | 65 | 2851AB | Haastrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34603 | Bloemendaalseweg | 32 | 2804AB | Gouda
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35067 | Laageind | 11 | 3465KG | Driebruggen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35858 | Provincialeweg West | 21 | 2851EH | Haastrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35990 | 's-Gravenbroekseweg | 19 | 2811GB | Reeuwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36542 | Hoenkoopse Buurtweg | 99 | 3421GC | Oudewater
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37434 | Westeinde | 13 | 3466NK | Waarder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37752 | Bloemendaalseweg | 46 | 2804AB | Gouda
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37766 | Oost-Vlisterdijk | 5 a | 2855AC | Vlist
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37766 | Oost-Vlisterdijk | 5 | 2855AC | Vlist
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39294 | Westeinde | 31 | 3466NK | Waarder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39620 | Provincialeweg Oost | 15 | 2851AA | Haastrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40440 | Westeinde | 21 | 3466NK | Waarder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40730 | Dammekant | 22 | 2411CD | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41472 | Bovenkerkseweg | 51 | 2821XT | Stolwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42272 | Goejanverwelle | 11 | 3467PN | Hekendorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43810 | Steinsedijk | 37 | 2851LB | Haastrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44454 | Westeinde | 43 | 3466NL | Waarder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44487 | Provincialeweg Oost | 87 | 2851AC | Haastrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45165 | Provincialeweg Oost | 57 | 2851AB | Haastrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45291 | Hekendorpse Buurt | 21 | 3467PA | Hekendorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46155 | Weijland | 9 | 2415BA | Nieuwerbrug aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46896 | Hoenkoopse Buurtweg | 27 | 3421GA | Oudewater
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48758 | Bloemendaalseweg | 75 | 2803AW | Gouda
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48803 | Dammekant | 38 | 2411CE | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49417 | Provincialeweg Oost | 91 | 2851AC | Haastrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49869 | Oost-Vlisterdijk | 21 | 2855AC | Vlist
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51066 | Noordzijde | 134 e | 2411RG | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51066 | Noordzijde | 134 d | 2411RG | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51066 | Noordzijde | 134 f | 2411RG | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51816 | De Groendijck | 39 | 3466NJ | Waarder
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52098 | De Groendijck | 2 | 3465JB | Driebruggen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52216 | West-Vlisterdijk | 37 | 2855AJ | Vlist
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53133 | Oud Reeuwijkseweg | 29 | 2811KC | Reeuwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53469 | Provincialeweg Oost | 85 | 2851AC | Haastrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54979 | Hoogeind | 34 | 3465HC | Driebruggen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55817 | Graaf Florisweg | 4 | 2415AB | Nieuwerbrug aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56322 | Provincialeweg West | 33 | 2851EJ | Haastrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56976 | West-Vlisterdijk | 41 | 2855AJ | Vlist
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59447 | Provincialeweg West | 23 a | 2851EH | Haastrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59911 | West-Vlisterdijk | 9 | 2855AH | Vlist
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60213 | Zuidzijde | 71 | 2411RT | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60228 | Middelblok | 209 | 2831BN | Gouderak
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60566 | Bloemendaalseweg | 43 | 2803AW | Gouda
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61312 | Dammekant | 28 a | 2411CD | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61312 | Dammekant | 28 | 2411CD | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66097 | Reijerskoop | 196 | 2771BT | Boskoop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66325 | Lecksdijk | 22 | 2811NK | Reeuwijk

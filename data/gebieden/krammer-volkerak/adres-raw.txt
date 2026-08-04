@@ -1,0 +1,21 @@
+Gevonden: 17 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11114 | Schaapsweg | 25 | 3256KA | Achthuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19860 | Helsedijk | 65 a | 4794SB | Heijningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19860 | Helsedijk | 65 | 4794SB | Heijningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23315 | Oudelandsedijk | 11 | 3255LN | Oude-Tonge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45816 | Noordlangeweg | 4 | 4797SE | Willemstad
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46384 | Voorstraat | 36 | 3258BA | Den Bommel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46588 | Pelsendijk | 12 a | 4681SG | Nieuw-Vossemeer
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49916 | Groeneweg | 2 | 3258LG | Den Bommel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50208 | Stadsedijk | 151 | 4794RL | Heijningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51893 | Mariaweg | 6 | 4671PP | Dinteloord
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52473 | Steenpad | 3 | 4797SG | Willemstad
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54435 | Kraaiendijk | 12 | 4794SE | Heijningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54435 | Kraaiendijk | 14 | 4794SE | Heijningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59252 | Noordzeedijk | 120 | 4671TL | Dinteloord
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59982 | Tonisseweg | 1 | 3255LT | Oude-Tonge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60297 | Slobbegorsedijk | 7 | 4794RS | Heijningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71284 | Tolsedijk | 10 | 4681SV | Nieuw-Vossemeer

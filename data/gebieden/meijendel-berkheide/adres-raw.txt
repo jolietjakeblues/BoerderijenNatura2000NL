@@ -1,0 +1,94 @@
+Gevonden: 90 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10876 | Generaal Spoorlaan | 24 | 2252TA | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10901 | Raaphorstlaan | 4 | 2245BE | Wassenaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13390 | Woelwijklaan | 11 | 2252AM | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13495 | Oostdorperweg | 201 | 2241BG | Wassenaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14002 | Veursestraatweg | 288 | 2265CL | Leidschendam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15085 | Oostdorperweg | 206 | 2241BG | Wassenaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15137 | Rijksstraatweg | 167 | 2245AA | Wassenaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15137 | Rijksstraatweg | 169 | 2245AA | Wassenaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17048 | Persijnlaan | 12 | 2245CJ | Wassenaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17048 | Persijnlaan | 14 | 2245CJ | Wassenaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17437 | Raaphorstlaan | 1 | 2245BE | Wassenaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17708 | Veursestraatweg | 207 | 2264EH | Leidschendam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17708 | Veursestraatweg | 209 | 2264EH | Leidschendam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18350 | Wassenaarseweg | 85 | 2223LA | Katwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19605 | Laan van Koot | 20 | 2244AV | Wassenaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21488 | Noortheylaan | 1 | 2263KD | Leidschendam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21844 | Haarlemmerstraatweg | 2 | 2343LB | Oegstgeest
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24145 | Molenlaan | 3 | 2251CA | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24323 | Raaphorstlaan | 3 | 2245BE | Wassenaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24456 | Voorschoterweg | 52 | 2235SH | Valkenburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25114 | Molenlaan | 5 | 2251CA | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25216 | Moleneind | 35 | 2231HB | Rijnsburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27488 | Terweeweg | 53 | 2341CN | Oegstgeest
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28016 | Het Kerkehout | 103 | 2245XP | Wassenaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28384 | Koningin Julianaweg | 116 | 2264BE | Leidschendam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28384 | Koningin Julianaweg | 118 | 2264BE | Leidschendam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28384 | Koningin Julianaweg | 120 | 2264BE | Leidschendam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29216 | Haagse Schouwweg | 14 | 2332KG | Leiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30392 | Essenlaan | 3 | 2251AS | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30392 | Essenlaan | 5 | 2251AS | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30392 | Essenlaan | 7 | 2251AS | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30421 | Lindepad | 1 | 2251PK | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30421 | Lindepad | 3 | 2251PK | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32194 | Vliet en Wegen | 1 | 2251AJ | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32194 | Vliet en Wegen | 3 | 2251AJ | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33310 | Ultramarijnhof | 8 | 2272JR | Voorburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33310 | Essepad | 6 | 2272JS | Voorburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33615 | Oostdorperweg | 210 | 2241BG | Wassenaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35209 | Veurselaan | 105 | 2272AT | Voorburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36125 | Veurseweg | 352 | 2252AJ | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36125 | Veurseweg | 350 | 2252AJ | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36442 | Oude Adegeesterlaan | 1 | 2252KZ | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37960 | Rijksstraatweg | 269 | 2245AB | Wassenaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38357 | Valkenburgseweg | 10 | 2331AB | Leiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38593 | Voorstraat | 33 | 2251BM | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41211 | Moleneind | 12 | 2231HA | Rijnsburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41250 | Rijksstraatweg | 191 | 2245AA | Wassenaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42835 | Oostdorperweg | 208 | 2241BG | Wassenaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44502 | Zijdelaan | 20 | 2594BV | 's-Gravenhage
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44565 | Ter Wadding | 20 A | 2253LX | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44565 | Leidseweg | 519 | 2253JJ | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44885 | Moleneind | 17 | 2231HA | Rijnsburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46415 | Hoge Morsweg | 138 M | 2332HN | Leiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46415 | Hoge Morsweg | 138 N | 2332HN | Leiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46415 | Hoge Morsweg | 138 P | 2332HN | Leiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46415 | Hoge Morsweg | 138 R | 2332HN | Leiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46415 | Hoge Morsweg | 138 S | 2332HN | Leiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46415 | Hoge Morsweg | 138 T | 2332HN | Leiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46415 | Hoge Morsweg | 138 V | 2332HN | Leiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46415 | Hoge Morsweg | 138 W | 2332HN | Leiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46415 | Hoge Morsweg | 138 X | 2332HN | Leiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46415 | Hoge Morsweg | 138 Y | 2332HN | Leiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46415 | Hoge Morsweg | 138 Z | 2332HN | Leiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48589 | Deijlerweg | 153 | 2241AE | Wassenaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49368 | Voorstraat | 31 | 2251BM | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49621 | Veurseweg | 125 | 2251AB | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50745 | Oostdorperweg | 197 | 2241BG | Wassenaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50745 | Oostdorperweg | 197 A | 2241BG | Wassenaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50910 | Kniplaan | 3 | 2251AK | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51718 | Kazernestraat | 50 | 2514CV | 's-Gravenhage
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52021 | Zijdeweg | 56 | 2245BZ | Wassenaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52492 | Bachlaan | 20 | 2253BA | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52492 | Bachlaan | 22 | 2253BA | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52806 | Oosteinde | 193 | 2271EE | Voorburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53405 | Groene Maredijk | 94 | 2334CT | Leiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53405 | Groene Maredijk | 96 | 2334CT | Leiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53405 | Groene Maredijk | 98 | 2334CT | Leiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55551 | Haagwijk | 4 | 2251AH | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55551 | Haagwijk | 6 | 2251AH | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57820 | de Voscuyl | 17 | 2341BJ | Oegstgeest
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58762 | Veurseweg | 215 | 2251AC | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58904 | Donklaan | 80 A | 2254AD | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59743 | Voorstraat | 11 | 2251BL | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59743 | Kerkpad | 2 | 2251CN | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59743 | Kerkpad | 4 | 2251CN | Voorschoten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66086 | Buurtweg | 40 | 2244AE | Wassenaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68259 | Gang | 14 | 2242KD | Wassenaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68312 | Rijksstraatweg | 225 | 2245AB | Wassenaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69409 | Meijendelseweg | 38 | 2243GN | Wassenaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75726 | Veurseweg | 290 | 2252AJ | Voorschoten

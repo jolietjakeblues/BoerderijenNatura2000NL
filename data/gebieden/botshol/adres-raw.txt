@@ -1,0 +1,58 @@
+Gevonden: 54 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12877 | Kleiweg | 27 | 1396HW | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13471 | Herenweg | 209 | 3645DL | Vinkeveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14320 | Rijksstraatweg | 228 | 3634AN | Loenersloot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15171 | Heinkuitenstraat | 32 | 1391VP | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15171 | Heinkuitenstraat | 34 | 1391VP | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15249 | Dwarskade | 2 | 1391HS | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15553 | Oude Dijk | 3 | 1391KP | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17245 | Rondehoep Oost | 8 B | 1191KA | Ouderkerk aan de Amstel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17245 | Rondehoep Oost | 8 | 1191KA | Ouderkerk aan de Amstel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20001 | Botsholsedwarsweg | 13 | 3646AJ | Waverveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24061 | Holendrechterweg | 53 | 1191KX | Ouderkerk aan de Amstel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28054 | Rijksstraatweg | 155 | 1396JK | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28941 | Dorpsstraat | 1 | 1191BG | Ouderkerk aan de Amstel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29884 | Oude Dijk | 4 | 1391KP | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29884 | Oude Dijk | 5 | 1391KP | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32023 | Rondehoep West | 41 | 1191KL | Ouderkerk aan de Amstel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32318 | Botsholsedwarsweg | 25 | 3646AJ | Waverveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32917 | Waver | 34 | 1191KH | Ouderkerk aan de Amstel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34420 | Rijksstraatweg | 23 | 1396JC | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36864 | Rijksstraatweg | 202 | 3634AN | Loenersloot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36864 | Rijksstraatweg | 204 | 3634AN | Loenersloot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37821 | Waver | 29 | 1191KH | Ouderkerk aan de Amstel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38624 | Amsteldijk Zuid | 91 | 1186VG | Amstelveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43335 | Gein-Zuid | 12 | 1391GT | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44580 | Winkeldijk | 1 | 1391HK | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45043 | Gein-Noord | 35 | 1391HA | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48096 | Holendrechterweg | 8 | 1191KT | Ouderkerk aan de Amstel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49350 | Binnenweg | 18 A | 1396KM | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49739 | De Horn | 4 | 1396HT | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50884 | Voordijk | 39 | 1391VW | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50884 | Voordijk | 38 | 1391VW | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50884 | Meerweg | 6 | 1391HH | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50939 | Donkervlietse Binnenweg | 5 | 1396LN | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51845 | Rijksstraatweg | 8 | 1396JL | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51845 | Rijksstraatweg | 10 | 1396JL | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52259 | Rijksstraatweg | 25 | 1396JD | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53194 | Rijksstraatweg | 6 A | 1396JL | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53207 | Winkeldijk | 29 A | 1391HM | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53450 | Winkeldijk | 15 | 1391HL | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54529 | Winkeldijk | 27 | 1391HL | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54529 | Winkeldijk | 28 | 1391HL | Abcoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55364 | Slotlaan | 8 | 3634AP | Loenersloot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57567 | Binnenweg | 10 | 1396KM | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57567 | Binnenweg | 12 | 1396KM | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59438 | Rondehoep West | 40 | 1191KL | Ouderkerk aan de Amstel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59438 | Rondehoep West | 40 A | 1191KL | Ouderkerk aan de Amstel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60579 | Waver | 3 | 1191KE | Ouderkerk aan de Amstel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61326 | Rondehoep Oost | 13 | 1191KB | Ouderkerk aan de Amstel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66818 | Rijksstraatweg | 87 | 1396JG | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66818 | Rijksstraatweg | 87 A | 1396JG | Baambrugge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70386 | Demmerik | 55 | 3645EB | Vinkeveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70590 | Rijksstraatweg | 207 | 3634AL | Loenersloot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70590 | Rijksstraatweg | 207 a | 3634AL | Loenersloot
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/76846 | Stationsstraat | 28 | 1391GP | Abcoude

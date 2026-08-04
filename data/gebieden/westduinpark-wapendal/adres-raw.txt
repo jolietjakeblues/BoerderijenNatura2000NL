@@ -1,0 +1,8 @@
+Gevonden: 4 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23796 | Van Vredenburchweg | 162 | 2284TT | Rijswijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51718 | Kazernestraat | 50 | 2514CV | 's-Gravenhage
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70720 | Van Vredenburchweg | 158 | 2284TT | Rijswijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71259 | Hollewatering | 26 | 2295LW | Kwintsheul

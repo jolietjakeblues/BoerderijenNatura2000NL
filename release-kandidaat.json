@@ -1,11 +1,11 @@
 {
  "versielabel": null,
- "gegenereerdOp": "2026-08-03T20:01:27.695Z",
- "commit": "11a4da2557003c9927ad1a7264fa18263806b2af",
+ "gegenereerdOp": "2026-08-04T07:25:53.562Z",
+ "commit": "94eda21e1510c5519adbb3af994414e33a1a0795",
  "toelichting": "Dit bestand is een voorbereide kandidaat voor een dataset-release, geen gepubliceerde release zelf. Het legt het commit en de per-gebied aantallen/checksums vast op het moment van genereren; git tag en GitHub Release blijven een handmatige stap van de repo-eigenaar.",
- "totaalGebieden": 66,
- "totaalMonumenten": 3684,
- "totaalMetIndicatie": 570,
+ "totaalGebieden": 85,
+ "totaalMonumenten": 4483,
+ "totaalMetIndicatie": 753,
  "gebieden": [
   {
    "slug": "abdij-lilbosch-mariahoop",
@@ -62,6 +62,15 @@
    "sha256DataJson": "0eb352b548f4c781400b32f7b4d451657d840aaf44f33685e1c27ee5442376b8"
   },
   {
+   "slug": "boezems-kinderdijk",
+   "naam": "Boezems Kinderdijk",
+   "peildatum": "2026-08-04",
+   "n": 49,
+   "ja": 8,
+   "onbekend": 0,
+   "sha256DataJson": "f4dff8e8007b3c20f905c4f982009aeb6c2182c67462b1cdff11fa01d4bc1c2a"
+  },
+  {
    "slug": "boschhuizerbergen",
    "naam": "Boschhuizerbergen",
    "peildatum": "2026-08-03",
@@ -71,6 +80,15 @@
    "sha256DataJson": "023dcfd584fd77157ed0a478b3d4fb19453a6ba5fc062a3a5e01349a328c0c6a"
   },
   {
+   "slug": "botshol",
+   "naam": "Botshol",
+   "peildatum": "2026-08-04",
+   "n": 42,
+   "ja": 13,
+   "onbekend": 0,
+   "sha256DataJson": "813c6cda99ed4762ab081f13448a737d1e1e569a8cb83480c5839231b01eb012"
+  },
+  {
    "slug": "brabantse-wal",
    "naam": "Brabantse Wal",
    "peildatum": "2026-08-03",
@@ -78,6 +96,15 @@
    "ja": 1,
    "onbekend": 0,
    "sha256DataJson": "e69aaa6870e83ac578a978508d15bbce3677f36a5c3fc7287454674e9e0ceab0"
+  },
+  {
+   "slug": "broekvelden-vettenbroek-polder-stein",
+   "naam": "Broekvelden, Vettenbroek & Polder Stein",
+   "peildatum": "2026-08-04",
+   "n": 78,
+   "ja": 33,
+   "onbekend": 0,
+   "sha256DataJson": "59aca0862da7cff89759fe650e08379c7ea643a3e9f943012640f36908962193"
   },
   {
    "slug": "brunssummerheide",
@@ -107,6 +134,15 @@
    "sha256DataJson": "81acc48d0b2073684a01558a80decb1df963ca5d41a9313bb9fd5425e4fed44a"
   },
   {
+   "slug": "coepelduynen",
+   "naam": "Coepelduynen",
+   "peildatum": "2026-08-04",
+   "n": 12,
+   "ja": 1,
+   "onbekend": 1,
+   "sha256DataJson": "0cff4b1df82a8f6ba88e140d8a5cd1819ed134abda9a070405724333b155321f"
+  },
+  {
    "slug": "de-bruuk",
    "naam": "De Bruuk",
    "peildatum": "2026-08-03",
@@ -114,6 +150,15 @@
    "ja": 0,
    "onbekend": 0,
    "sha256DataJson": "0d313e15df18875bf7b8f19f5568651e721f30c40230b09b829c3e78842d314a"
+  },
+  {
+   "slug": "de-wilck",
+   "naam": "De Wilck",
+   "peildatum": "2026-08-04",
+   "n": 73,
+   "ja": 18,
+   "onbekend": 0,
+   "sha256DataJson": "b5366c8fc2b9bf1e7a79aa7cf01ec2459b270738e5ec9cbd66c29b0e292b31a8"
   },
   {
    "slug": "deurnsche-peel-mariapeel",
@@ -125,6 +170,15 @@
    "sha256DataJson": "69a2001728f773a611280d4112e197f4d5d68c7daec6de870df5cabfc283625d"
   },
   {
+   "slug": "donkse-laagten",
+   "naam": "Donkse Laagten",
+   "peildatum": "2026-08-04",
+   "n": 61,
+   "ja": 8,
+   "onbekend": 0,
+   "sha256DataJson": "78d7451bbbdb8b50c5f531b39cdf8d12c4d695d306abff4b540b49eb7ebd89ba"
+  },
+  {
    "slug": "drouwenerzand",
    "naam": "Drouwenerzand",
    "peildatum": "2026-08-03",
@@ -132,6 +186,15 @@
    "ja": 2,
    "onbekend": 0,
    "sha256DataJson": "d9e084b996e79280cba67cfe331b71b2334e4f8c218c176a082027c6ab60b9a7"
+  },
+  {
+   "slug": "duinen-goeree-kwade-hoek",
+   "naam": "Duinen Goeree & Kwade Hoek",
+   "peildatum": "2026-08-04",
+   "n": 4,
+   "ja": 2,
+   "onbekend": 0,
+   "sha256DataJson": "d30134f73043065354a4bdf76a410bbef6f486eea73d57d8f80c228a83680f66"
   },
   {
    "slug": "elperstroomgebied",
@@ -197,6 +260,24 @@
    "sha256DataJson": "bdd8aad34da3a877b30540e495af2b736502caaa21a033ec2d09f3061f5ccf37"
   },
   {
+   "slug": "haringvliet",
+   "naam": "Haringvliet",
+   "peildatum": "2026-08-04",
+   "n": 42,
+   "ja": 18,
+   "onbekend": 0,
+   "sha256DataJson": "aba589cabaaef1063fc65e26da6185b49b915169181e4d3145a7b5fb82db2259"
+  },
+  {
+   "slug": "hollands-diep",
+   "naam": "Hollands Diep",
+   "peildatum": "2026-08-04",
+   "n": 18,
+   "ja": 4,
+   "onbekend": 0,
+   "sha256DataJson": "b6e40ab00c1517512b50cf6dad324d428d61c97636978487efd011313d98fc01"
+  },
+  {
    "slug": "kampina-oisterwijkse-vennen",
    "naam": "Kampina & Oisterwijkse Vennen",
    "peildatum": "2026-08-03",
@@ -240,6 +321,15 @@
    "ja": 3,
    "onbekend": 0,
    "sha256DataJson": "93f9276dcfc0cbbeb181eb4fdd4d86ee904afe69337037a0eec78052d754cd48"
+  },
+  {
+   "slug": "krammer-volkerak",
+   "naam": "Krammer-Volkerak",
+   "peildatum": "2026-08-04",
+   "n": 15,
+   "ja": 4,
+   "onbekend": 0,
+   "sha256DataJson": "a50d307f03b933a3def378aa6ffd99474e9a5ac995871062f200aa69cdce4812"
   },
   {
    "slug": "kunderberg",
@@ -296,6 +386,15 @@
    "sha256DataJson": "0d346d7f293cf06c5cde980c4b9861489d3809a8437546894287b63ed88c7bf7"
   },
   {
+   "slug": "lingegebied-diefdijk-zuid",
+   "naam": "Lingegebied & Diefdijk-Zuid",
+   "peildatum": "2026-08-04",
+   "n": 76,
+   "ja": 12,
+   "onbekend": 0,
+   "sha256DataJson": "ad3f721cbe5c6a58e0cf3c58eeab8d45e2abca3402ef3ffdce408764f4ffba62"
+  },
+  {
    "slug": "loevestein-pompveld-kornsche-boezem",
    "naam": "Loevestein, Pompveld & Kornsche Boezem",
    "peildatum": "2026-08-03",
@@ -341,6 +440,15 @@
    "sha256DataJson": "649609ac2dffd575e66120b72dc934060554872c14a7f4703b5edecafa136e2a"
   },
   {
+   "slug": "meijendel-berkheide",
+   "naam": "Meijendel & Berkheide",
+   "peildatum": "2026-08-04",
+   "n": 61,
+   "ja": 8,
+   "onbekend": 0,
+   "sha256DataJson": "d61e380030ddc45d25adfec848c8375c4a7ec582f379d00832812e29dfab2434"
+  },
+  {
    "slug": "meinweg",
    "naam": "Meinweg",
    "peildatum": "2026-08-03",
@@ -348,6 +456,15 @@
    "ja": 1,
    "onbekend": 1,
    "sha256DataJson": "5cf01edffaa00f49a6adf5f9434d6d6e997f1361ac36b48080efab65af7b44d6"
+  },
+  {
+   "slug": "nieuwkoopse-plassen-de-haeck",
+   "naam": "Nieuwkoopse Plassen & De Haeck",
+   "peildatum": "2026-08-04",
+   "n": 37,
+   "ja": 8,
+   "onbekend": 1,
+   "sha256DataJson": "aa76b0387cc9bd78cd9d2434b1c4e4c074b4d24d4b7388691fe6f22cfb07d710"
   },
   {
    "slug": "noorbeemden-hoogbos",
@@ -384,6 +501,24 @@
    "ja": 19,
    "onbekend": 0,
    "sha256DataJson": "6032e4d6e03eacc440d0444545123aa1b1a819743fd9d8313ddd3b89ee3b809f"
+  },
+  {
+   "slug": "oude-maas",
+   "naam": "Oude Maas",
+   "peildatum": "2026-08-04",
+   "n": 60,
+   "ja": 22,
+   "onbekend": 0,
+   "sha256DataJson": "9a275bc586743a060e086011171e44a669e5ebad6a7a9a49c20e05ced567799e"
+  },
+  {
+   "slug": "oudeland-van-strijen",
+   "naam": "Oudeland van Strijen",
+   "peildatum": "2026-08-04",
+   "n": 28,
+   "ja": 13,
+   "onbekend": 0,
+   "sha256DataJson": "b98aa77965d7b1a61d22c13d3314c800d522093878561587d2214dc5a6490e4e"
   },
   {
    "slug": "regte-heide-riels-laag",
@@ -449,6 +584,15 @@
    "sha256DataJson": "50dd4d08d1625c1d6acd77611e8b19d399f506242d800dd5dee4dd34c2eb5b7a"
   },
   {
+   "slug": "solleveld-kapittelduinen",
+   "naam": "Solleveld & Kapittelduinen",
+   "peildatum": "2026-08-04",
+   "n": 9,
+   "ja": 0,
+   "onbekend": 0,
+   "sha256DataJson": "157c2bb3f7b4127fc2b035c3fa5a8af6fbb257a59fce86708b80404b77733e93"
+  },
+  {
    "slug": "stelkampsveld",
    "naam": "Stelkampsveld",
    "peildatum": "2026-08-03",
@@ -474,6 +618,15 @@
    "ja": 4,
    "onbekend": 1,
    "sha256DataJson": "2218f615b64458dc1454ab53ee4e014ee6e8b60b9906003862384bf29bb893a7"
+  },
+  {
+   "slug": "uiterwaarden-lek",
+   "naam": "Uiterwaarden Lek",
+   "peildatum": "2026-08-04",
+   "n": 121,
+   "ja": 10,
+   "onbekend": 1,
+   "sha256DataJson": "1d8b5b9812a5b5c189f20951071a77e912943d6fc6f121e860435429647d3b2f"
   },
   {
    "slug": "ulvenhoutse-bos",
@@ -512,6 +665,15 @@
    "sha256DataJson": "622100942709e67f98bdb32267ae719415440deef50313df127506545081b816"
   },
   {
+   "slug": "voornes-duin",
+   "naam": "Voornes Duin",
+   "peildatum": "2026-08-04",
+   "n": 9,
+   "ja": 1,
+   "onbekend": 0,
+   "sha256DataJson": "2ada8975b2c6204836b853366a654736c5f17896bbca59c368e5d9570f3dd0db"
+  },
+  {
    "slug": "weerter-budelerbergen-ringselven",
    "naam": "Weerter- en Budelerbergen & Ringselven",
    "peildatum": "2026-08-03",
@@ -519,6 +681,15 @@
    "ja": 0,
    "onbekend": 0,
    "sha256DataJson": "f0af618e4dab9a2c87935283082c75cd97334b5453cc1ac60a9baef47b33865b"
+  },
+  {
+   "slug": "westduinpark-wapendal",
+   "naam": "Westduinpark & Wapendal",
+   "peildatum": "2026-08-04",
+   "n": 4,
+   "ja": 0,
+   "onbekend": 0,
+   "sha256DataJson": "935fdefabfda610837a808bf2abd09bde0cd5a6961d87e3d0fbfc4c72e31c23b"
   },
   {
    "slug": "westerschelde-saeftinghe",

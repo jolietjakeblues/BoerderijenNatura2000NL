@@ -1,0 +1,77 @@
+Gevonden: 73 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10722 | Arent van Lierstraat | 26 A | 3297AB | Puttershoek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10722 | Arent van Lierstraat | 26 | 3297AB | Puttershoek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11140 | Groeneweg | 18 | 3297LA | Puttershoek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12016 | Kwakscheweg | 6 | 3261LG | Oud-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12922 | Zwanegatsedijk | 3 | 3299LT | Maasdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13005 | Dorpsdijk | 16 | 3161KE | Rhoon
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13328 | Achterzeedijk | 48 | 2992SC | Barendrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13522 | Hoflaan | 1 | 3271BD | Mijnsheerenland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14412 | Develweg | 1 | 2995XC | Heerjansdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15010 | Raadhuislaan | 7 | 3271BS | Mijnsheerenland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16771 | Voordijk | 388 | 2993BB | Barendrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18136 | Dorpsstraat | 177 | 2992AA | Barendrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19191 | Achterambachtseweg | 6 | 3342LB | Hendrik-Ido-Ambacht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20571 | Lindtsedijk | 13 | 2995XL | Heerjansdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21710 | Arent van Lierstraat | 11 | 3297AA | Puttershoek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21710 | Arent van Lierstraat | 11 A | 3297AA | Puttershoek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22504 | Carnisseweg | 54 | 2993AE | Barendrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23196 | Voordijk | 412 | 2993BC | Barendrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23196 | Voordijk | 414 | 2993BC | Barendrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24358 | Ring | 604 | 3195XT | Pernis Rotterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27583 | Ring | 16 | 3195XN | Pernis Rotterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27583 | Ring | 20 | 3195XN | Pernis Rotterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27583 | Ring | 24 | 3195XN | Pernis Rotterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27583 | Ring | 28 | 3195XN | Pernis Rotterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29304 | Voorweg | 2 | 2988CG | Ridderkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30132 | Kapelburg | 296 | 3085HV | Rotterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30620 | Develsluis | 34 | 2995XB | Heerjansdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30620 | Develsluis | 36 | 2995XB | Heerjansdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30864 | Arent van Lierstraat | 18 | 3297AA | Puttershoek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31054 | Molendijk | 7 | 3161KJ | Rhoon
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32616 | 1e Kruisweg | 35 | 3261LL | Oud-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32956 | Waalweg | 39 | 2988CH | Ridderkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33098 | Noldijk | 41 | 2988CD | Ridderkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35536 | Kerkstraat | 25 | 3171GD | Poortugaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38018 | Steenenstraat | 2 | 3262JM | Oud-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38359 | Brabersweg | 4 | 3271LD | Mijnsheerenland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38607 | Rijksstraatweg | 67 | 2988BB | Ridderkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38607 | Rijksstraatweg | 69 | 2988BB | Ridderkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38925 | Dorpsstraat | 168 | 2992AB | Barendrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39733 | Veerweg | 3 | 3161EX | Rhoon
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39862 | Dorpsstraat | 13 | 3274BB | Heinenoord
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43271 | Korte Schenkeldijk | 4 | 3207LA | Spijkenisse
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45774 | Kromme Zandweg | 112 A | 3084ND | Rotterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45774 | Kromme Zandweg | 114 | 3084ND | Rotterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45774 | Kromme Zandweg | 112 B | 3084ND | Rotterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45774 | Kromme Zandweg | 110 | 3084ND | Rotterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45991 | Noldijk | 126 | 2991VL | Barendrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46524 | Smidsweg | 18 | 3273LK | Westmaas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48078 | Hoflaan | 7 | 3271BD | Mijnsheerenland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49207 | Dorpsstraat | 79 | 3274BC | Heinenoord
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49241 | Rijksstraatweg | 65 | 2988BB | Ridderkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50362 | Gorzenweg | 1 | 3274LL | Heinenoord
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50676 | Oudeweg | 4 | 3161ES | Rhoon
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51979 | Aaldijk | 1 | 3205LG | Hekelingen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53310 | Ziedewijdsedijk | 63 | 2991VP | Barendrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53537 | Het Weegje | 17 | 3161EZ | Rhoon
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53822 | Dorpsstraat | 63 | 3274BC | Heinenoord
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55892 | Noldijk | 181 | 2991VJ | Barendrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55892 | Noldijk | 183 | 2991VJ | Barendrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56824 | Oud Pernisseweg | 1 | 3195AT | Pernis Rotterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56824 | Ring | 210 | 3195XR | Pernis Rotterdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58128 | Hoeksedijk | 58 | 3299AH | Maasdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59010 | Kreekkant | 5 | 3264LW | Nieuw-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60195 | Krommeweg | 1 | 2988CB | Ridderkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61690 | Waalweg | 47 | 2988CH | Ridderkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61819 | Achterambachtseweg | 12 | 3342LB | Hendrik-Ido-Ambacht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68183 | Kromme Elleboog | 1 | 3299LK | Maasdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69461 | Werkersdijk | 25 | 3161BL | Rhoon
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73685 | Dorpsstraat-Oost | 27 | 2991CR | Barendrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73686 | Dorpsstraat-Oost | 27 | 2991CR | Barendrecht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74925 | Rijsdijk | 109 | 3161EV | Rhoon
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78324 | Rijsdijk | 104 | 3161EW | Rhoon
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/79686 | Voordijk | 464 | 2993BD | Barendrecht

@@ -1,0 +1,67 @@
+Gevonden: 63 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10898 | Lagendijk | 88 | 2981EN | Ridderkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13248 | IJsseldijk | 218 | 2924AZ | Krimpen aan den IJssel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13248 | IJsseldijk | 220 | 2924AZ | Krimpen aan den IJssel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13476 | Voorstraat | 212 | 2941EZ | Lekkerkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14024 | Oosteinde | 15 | 2969AS | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14232 | IJsseldijk | 222 | 2924AZ | Krimpen aan den IJssel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14733 | Lekdijk | 63 | 2957CC | Nieuw-Lekkerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15216 | Benedenrijweg | 69 | 2983GA | Ridderkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15926 | Opperduit | 308 | 2941AP | Lekkerkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16036 | Opperduit | 452 | 2941AT | Lekkerkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16171 | Opperduit | 360 | 2941AR | Lekkerkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16320 | Lagendijk | 60 | 2981EM | Ridderkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16577 | Noordzijde | 20 | 2969AP | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16591 | Oosteinde | 58 | 2969AV | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16591 | Oosteinde | 59 | 2969AV | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19191 | Achterambachtseweg | 6 | 3342LB | Hendrik-Ido-Ambacht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25450 | Opperduit | 482 | 2941AT | Lekkerkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26959 | Kerkstraat | 6 | 3341LE | Hendrik-Ido-Ambacht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26959 | Kerkstraat | 8 | 3341LE | Hendrik-Ido-Ambacht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27426 | IJsseldijk-West | 71 | 2935AR | Ouderkerk aan den IJssel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29304 | Voorweg | 2 | 2988CG | Ridderkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30190 | Kerkstraat | 34 | 3341LE | Hendrik-Ido-Ambacht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30190 | Kerkstraat | 36 | 3341LE | Hendrik-Ido-Ambacht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31813 | Opperduit | 352 | 2941AR | Lekkerkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32494 | IJsseldijk-West | 73 | 2935AR | Ouderkerk aan den IJssel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32939 | Lagendijk | 78 | 2981EN | Ridderkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32956 | Waalweg | 39 | 2988CH | Ridderkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33693 | Benedenrijweg | 67 A | 2983GA | Ridderkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33693 | Benedenrijweg | 67 | 2983GA | Ridderkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33844 | Opperduit | 372 a | 2941AR | Lekkerkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35910 | Dorpsstraat | 58 | 2969AD | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35910 | Dorpsstraat | 59 | 2969AD | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35910 | Dorpsstraat | 59 A | 2969AD | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38607 | Rijksstraatweg | 67 | 2988BB | Ridderkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38607 | Rijksstraatweg | 69 | 2988BB | Ridderkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39131 | IJsseldijk | 312 | 2922BM | Krimpen aan den IJssel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43554 | Oosteinde | 14 | 2969AS | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43972 | Oosteinde | 20 | 2969AS | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45055 | Kerkstraat | 175 | 2951GJ | Alblasserdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45055 | Kerkstraat | 175 A | 2951GJ | Alblasserdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45789 | IJsseldijk | 134 | 2924AT | Krimpen aan den IJssel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46336 | Oost Kinderdijk | 301 | 2953CM | Alblasserdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46336 | Oost Kinderdijk | 305 | 2953CM | Alblasserdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46995 | Oosteinde | 22 | 2969AS | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49241 | Rijksstraatweg | 65 | 2988BB | Ridderkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51631 | Westeinde | 3 | 2969BK | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53094 | Peperstraat | 48 | 2969AZ | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53326 | Lagendijk | 103 | 2981EK | Ridderkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54937 | Achterambachtseweg | 37 | 3342LA | Hendrik-Ido-Ambacht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55635 | Benedenrijweg | 13 | 2981EB | Ridderkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55635 | Kerksteeg | 2 | 2981EJ | Ridderkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56600 | Westeinde | 4 a | 2969BK | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56600 | Westeinde | 4 | 2969BK | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56941 | Opperduit | 446 | 2941AS | Lekkerkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57665 | Oosteinde | 18 | 2969AS | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57665 | Oosteinde | 19 | 2969AS | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57675 | Peperstraat | 44 | 2969AZ | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58671 | Westeinde | 2 | 2969BK | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58671 | Westeinde | 1 | 2969BK | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61690 | Waalweg | 47 | 2988CH | Ridderkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61819 | Achterambachtseweg | 12 | 3342LB | Hendrik-Ido-Ambacht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68454 | IJsseldijk | 296 | 2922BM | Krimpen aan den IJssel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70374 | Kortland | 51 | 2954LC | Alblasserdam

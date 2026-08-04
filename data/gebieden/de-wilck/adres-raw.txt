@@ -1,0 +1,97 @@
+Gevonden: 93 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10218 | Rijndijk | 107 A | 2394AE | Hazerswoude-Rijndijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10218 | Rijndijk | 107 B | 2394AE | Hazerswoude-Rijndijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10218 | Rijndijk | 107 | 2394AE | Hazerswoude-Rijndijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10836 | Lagewaard | 53 | 2396AW | Koudekerk aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12132 | Weipoortseweg | 54 | 2381NE | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12648 | Dorpsstraat | 17 | 2396HA | Koudekerk aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13126 | Weipoortseweg | 76 | 2381NH | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13217 | Hoofdstraat | 42 | 2351AL | Leiderdorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13789 | Achthovenerweg | 25 | 2351AX | Leiderdorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13789 | Achthovenerweg | 27 | 2351AX | Leiderdorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15446 | Heerewegh | 34 | 2731BM | Benthuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15493 | Rijndijk | 207 | 2394CC | Hazerswoude-Rijndijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15493 | Rijndijk | 203 | 2394CC | Hazerswoude-Rijndijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16926 | Weipoortseweg | 32 | 2381NC | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17464 | Laan van Oud Raadwijk | 4 | 2381EW | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17464 | Laan van Oud Raadwijk | 4 a | 2381EW | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20510 | Watertje | 40 | 2381EJ | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21329 | Rijndijk | 253 | 2394CE | Hazerswoude-Rijndijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22115 | Hondsdijk | 59 | 2396HK | Koudekerk aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23097 | Rijndijk | 123 A | 2394AG | Hazerswoude-Rijndijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23097 | Rijndijk | 123 B | 2394AG | Hazerswoude-Rijndijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23097 | Rijndijk | 123 | 2394AG | Hazerswoude-Rijndijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25708 | Dorpsstraat | 1 | 2396HA | Koudekerk aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25876 | Hoofdstraat | 31 | 2351AA | Leiderdorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26017 | Weipoortseweg | 67 | 2381NG | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26650 | Vlietweg | 82 A | 2323LG | Leiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26650 | Vlietweg | 82 | 2323LG | Leiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26786 | Weipoortseweg | 96 | 2381NJ | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28228 | Hoorn | 418 | 2404HL | Alphen aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30346 | Vlietweg | 80 | 2323LG | Leiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32412 | Achthovenerweg | 7 | 2351AX | Leiderdorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33511 | Dorpsstraat | 46 | 2381EP | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33995 | Westeinde | 18 | 2391JB | Hazerswoude-Dorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34205 | Watertje | 38 | 2381EJ | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34344 | Rijndijk | 259 | 2394CE | Hazerswoude-Rijndijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34741 | Lagewaard | 47 | 2396AW | Koudekerk aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34983 | Lagewaard | 20 | 2396AV | Koudekerk aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35998 | Hoofdstraat | 24 | 2351AK | Leiderdorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38899 | Achthovenerweg | 13 | 2351AX | Leiderdorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38899 | Achthovenerweg | 15 | 2351AX | Leiderdorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39809 | Hoorn | 420 | 2404HL | Alphen aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40964 | Rijndijk | 265 A | 2394CE | Hazerswoude-Rijndijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40964 | Rijndijk | 265 | 2394CE | Hazerswoude-Rijndijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41758 | Weipoortseweg | 83 | 2381NH | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41758 | Weipoortseweg | 83 A | 2381NH | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41758 | Weipoortseweg | 83 D | 2381NH | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41758 | Weipoortseweg | 83 C | 2381NH | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42022 | Achthovenerweg | 49 A | 2351AX | Leiderdorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43309 | Weipoortseweg | 52 | 2381NE | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44804 | Lagewaard | 24 | 2396AV | Koudekerk aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44804 | Lagewaard | 25 | 2396AV | Koudekerk aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46131 | Rijndijk | 69 A | 2394AD | Hazerswoude-Rijndijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46760 | Rijndijk | 71 A | 2394AD | Hazerswoude-Rijndijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47553 | Doespolderkade | 6 | 2355CE | Hoogmade
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47965 | Hondsdijk | 25 | 2396HJ | Koudekerk aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49903 | Rijndijk | 49 | 2394AC | Hazerswoude-Rijndijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49903 | Rijndijk | 51 | 2394AC | Hazerswoude-Rijndijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51177 | Rijndijk | 199 | 2394CC | Hazerswoude-Rijndijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51177 | Rijndijk | 201 | 2394CC | Hazerswoude-Rijndijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51388 | Zuidbuurtseweg | 32 | 2381LG | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51760 | Oosteinde | 21 | 2266HJ | Leidschendam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52640 | Vlietweg | 7 | 2323LA | Leiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52984 | Hoge Rijndijk | 169 | 2382AH | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53064 | Achthovenerweg | 9 | 2351AX | Leiderdorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53064 | Achthovenerweg | 11 | 2351AX | Leiderdorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53626 | Weipoortseweg | 1 | 2381NA | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53745 | Weipoortseweg | 2 | 2381NA | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53745 | Weipoortseweg | 3 | 2381NA | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53811 | Zuidbuurtseweg | 44 | 2381LG | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55263 | Westeindseweg | 6 | 2381EA | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56013 | Gemeneweg | 20 | 2391NB | Hazerswoude-Dorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56057 | Vlietweg | 44 | 2323LC | Leiden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56258 | Lagewaard | 75 | 2396AZ | Koudekerk aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57159 | Lagewaard | 69 | 2396AX | Koudekerk aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57875 | Weipoortseweg | 97 | 2381NJ | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58853 | Hoorn | 428 | 2404HL | Alphen aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68548 | Achthovenerweg | 43 | 2351AX | Leiderdorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68563 | Weipoortseweg | 72 A | 2381NG | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68600 | Hoogeveenseweg | 14 | 2391NR | Hazerswoude-Dorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69045 | Weipoortseweg | 69 A | 2381NG | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69045 | Weipoortseweg | 69 B | 2381NG | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69045 | Weipoortseweg | 69 | 2381NG | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69582 | Hondsdijk | 39 | 2396HK | Koudekerk aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73077 | Hondsdijk | 69 | 2396HK | Koudekerk aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73971 | Achthovenerweg | 60 | 2351AZ | Leiderdorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75807 | Dorpsstraat | 51 | 2396HC | Koudekerk aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/76566 | Weipoortseweg | 55 | 2381NE | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/76567 | Weipoortseweg | 55 | 2381NE | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77977 | Weipoortseweg | 90 | 2381NJ | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77978 | Weipoortseweg | 90 | 2381NJ | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77979 | Weipoortseweg | 90 A | 2381NJ | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77980 | Weipoortseweg | 90 | 2381NJ | Zoeterwoude
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/79197 | Voorweg | 73 | 2391AC | Hazerswoude-Dorp

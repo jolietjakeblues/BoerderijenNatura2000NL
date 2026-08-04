@@ -6,6 +6,16 @@ precieze wijzigingen per gebied: `git log`. Entries staan in omgekeerd-chronolog
 volgorde; een latere entry kan dus een eerdere entry corrigeren of vervangen. Waar dat
 kan verwarren, is dat expliciet benoemd.
 
+## Uitbreiding naar Utrecht en Zuid-Holland (19 nieuwe gebieden)
+
+66 naar 85 verwerkte gebieden: heel Utrecht en heel Zuid-Holland, zuid naar noord (vierde ronde).
+Nieuwe totalen: 4483 boerderijen, 753 met BAG-industriefunctie-indicatie, 46 niet te controleren
+(was 3684/570/43). Zie README.md voor de volledige lijst per gebied. Net als de vorige ronde
+volledig gebouwd met `scripts/bouw-gebied-compleet.mjs`. Meerdere gebieden in dit deel van het land
+liggen over drie of vier provincies verspreid (bv. Lingegebied & Diefdijk-Zuid: Gelderland, Utrecht,
+Zuid-Holland én Noord-Brabant) - de bestaande provincie-als-weergavelaag-aanpak had daar geen
+aanpassing voor nodig.
+
 ## Uitbreiding naar Noord-Brabant (13 nieuwe gebieden)
 
 53 naar 66 verwerkte gebieden: heel Noord-Brabant, zuid naar noord (derde ronde na

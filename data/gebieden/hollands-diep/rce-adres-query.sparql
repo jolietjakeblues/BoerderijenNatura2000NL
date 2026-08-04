@@ -1,0 +1,10 @@
+PREFIX ceo: <https://linkeddata.cultureelerfgoed.nl/def/ceo#>
+SELECT DISTINCT ?rm ?openbareRuimte ?huisnummer ?postcode ?woonplaats WHERE {
+  VALUES ?rm { <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19860> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22401> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25268> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25592> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29934> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31515> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35674> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37459> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38675> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45816> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46222> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50208> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52473> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53085> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54435> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59051> <https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68006> }
+  ?rm ceo:heeftBasisregistratieRelatie ?br .
+  ?br ceo:heeftBAGRelatie ?bag .
+  OPTIONAL { ?bag ceo:openbareRuimte ?openbareRuimte }
+  OPTIONAL { ?bag ceo:huisnummer ?huisnummer }
+  OPTIONAL { ?bag ceo:postcode ?postcode }
+  OPTIONAL { ?bag ceo:woonplaatsnaam ?woonplaats }
+}

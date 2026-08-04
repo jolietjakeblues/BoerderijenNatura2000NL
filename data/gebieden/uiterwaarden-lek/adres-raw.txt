@@ -1,0 +1,179 @@
+Gevonden: 175 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10369 | Lekdijk West | 48 | 3411MX | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10369 | Lekdijk West | 47 | 3411MX | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10369 | Lekdijk West | 47 A | 3411MX | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10767 | Benschopperstraat | 26 | 3401DH | IJsselstein
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10812 | Noordzijde | 12 | 2977AD | Goudriaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11062 | Lopikerweg West | 6 | 3411AL | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11384 | Benedeneind NZ | 416 | 3405CD | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11482 | Dorp | 128 | 3405BG | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12150 | Dorp | 227 | 3405BE | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12684 | Noordzijde | 73 | 2977XB | Goudriaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12739 | Zuidzijde | 165 | 2977AM | Goudriaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12739 | Zuidzijde | 165 A | 2977AM | Goudriaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12886 | Lakerveld | 189 | 4128LH | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13061 | Lopikerweg oost | 107 A | 3411LW | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13061 | Lopikerweg oost | 107 | 3411LW | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13210 | Benedendamsestraat | 9 | 4233EN | Ameide
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13475 | Benedeneind NZ | 432 | 3405CD | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14665 | Benedeneind ZZ | 311 | 3405CL | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14742 | Noordzijdseweg | 183 | 3415RC | Polsbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14948 | Lopikerweg Oost | 146 | 3412KG | Lopikerkapel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14948 | Lopikerweg Oost | 147 | 3412KC | Lopikerkapel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14948 | Lopikerweg Oost | 148 | 3412KG | Lopikerkapel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15259 | Benedeneind ZZ | 419 | 3405CP | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15259 | Benedeneind ZZ | 419 A | 3405CP | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15901 | Boveneind NZ | 82 | 3405AK | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16174 | Boveneind NZ | 66 | 3405AJ | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16871 | Dorp | 65 | 3405BA | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16871 | Dorp | 67 | 3405BA | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17314 | Hei- en Boeicopseweg | 134 | 4126RM | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17314 | Hei- en Boeicopseweg | 136 | 4126RM | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17314 | Hei- en Boeicopseweg | 138 | 4126RM | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18211 | Dorp | 119 | 3405BB | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18441 | Dorp | 304 | 3405BL | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18441 | Dorp | 304 A | 3405BL | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18587 | Noordzijdseweg | 143 | 3415RB | Polsbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19532 | Lopikerweg oost | 101 B | 3411LW | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19532 | Laanwijk | 2 | 3411LT | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19532 | Laanwijk | 1 | 3411LT | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19532 | Lopikerweg Oost | 102 | 3411LW | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20069 | Noordzijde | 120 | 4225PM | Noordeloos
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20087 | Boveneind ZZ | 3 | 3405AM | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20257 | Benedeneind ZZ | 417 | 3405CP | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20434 | Benedeneind ZZ | 249 | 3405CJ | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20434 | Benedeneind ZZ | 251 | 3405CJ | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20768 | Benedeneind NZ | 400 | 3405CC | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21151 | Lopikerweg Oost | 129 A | 3412KC | Lopikerkapel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21339 | Achthoven | 45 | 4128LW | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21741 | Dorp | 183 | 3405BC | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22092 | Lopikerweg West | 33 | 3411AN | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22099 | Lekdijk | 122 | 2967GG | Langerak
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22099 | Lekdijk | 121 | 2967GG | Langerak
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23319 | Lakerveld | 145 | 4128LH | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23604 | Lopikerweg west | 59 A | 3411AP | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23604 | Lopikerweg West | 60 | 3411AP | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23930 | Lopikerweg oost | 130 B | 3412KG | Lopikerkapel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23930 | Lopikerweg Oost | 130 | 3412KG | Lopikerkapel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24002 | Benedendamsestraat | 11 | 4233EN | Ameide
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24719 | Noordzijdseweg | 189 | 3415RC | Polsbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24894 | Zuidzijdseweg | 198 | 3415PT | Polsbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25555 | Benedeneind NZ | 358 | 3405CC | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25555 | Benedeneind NZ | 360 | 3405CC | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25777 | Noordzijde | 53 | 4225PJ | Noordeloos
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26157 | Benedeneind NZ | 470 | 3405CG | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26157 | Benedeneind NZ | 472 | 3405CG | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26304 | Lopikerweg Oost | 197 | 3412KE | Lopikerkapel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26427 | Dorp | 260 | 3405BK | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26427 | Dorp | 260 A | 3405BK | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26925 | Kortenhoevenseweg | 43 C | 4128CM | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26925 | Kortenhoevenseweg | 43 A | 4128CM | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26925 | Kortenhoevenseweg | 43 E | 4128CM | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26925 | Kortenhoevenseweg | 43 B | 4128CM | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26925 | Kortenhoevenseweg | 43 D | 4128CM | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26925 | Kortenhoevenseweg | 41 | 4128CM | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26925 | Kortenhoevenseweg | 43 | 4128CM | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27194 | Noordzijdseweg | 185 | 3415RC | Polsbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27461 | Zuidzijde | 100 | 2977XD | Goudriaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28157 | Benedeneind NZ | 430 | 3405CD | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28533 | Cabauwsekade | 22 | 3411EB | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29687 | Hei- en Boeicopseweg | 143 | 4126RH | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29887 | Lopikerweg Oost | 88 | 3411JH | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30639 | Binnenhaven | 30 | 2965AC | Nieuwpoort
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30743 | Noordzijdseweg | 221 | 3415RE | Polsbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31019 | Lopikerweg west | 88 A | 3411AS | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31019 | Lopikerweg West | 88 | 3411AS | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31887 | Noordzijde | 55 | 2977XA | Goudriaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32192 | Dorp | 233 | 3405BE | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32710 | Zouwendijk | 117 | 4231CD | Meerkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32738 | Haven | 73 | 2871CL | Schoonhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33637 | Noordzijdseweg | 177 | 3415RC | Polsbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36356 | Zuidzijde | 118 | 2977XD | Goudriaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36356 | Zuidzijde | 119 | 2977XD | Goudriaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36382 | Zouwendijk | 79 a | 4231CB | Meerkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36382 | Zouwendijk | 79 | 4231CB | Meerkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36813 | Noordzijde | 118 | 4225PM | Noordeloos
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38110 | Dorp | 122 | 3405BG | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39214 | Noordzijde | 57 | 2977XA | Goudriaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40597 | Kapelsepad | 42 | 3412KM | Lopikerkapel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40757 | Benedeneind ZZ | 301 | 3405CK | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40942 | Lekdijk Oost | 5 | 3411MN | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42290 | Tiendweg | 32 | 2871AC | Schoonhoven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43514 | Lopikerweg west | 91 | 3411AT | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43732 | Cabauwsekade | 82 A | 3411EG | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43732 | Cabauwsekade | 83 | 3411EG | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44377 | Dorp | 244 | 3405BK | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45048 | De Laak | 27 | 4128CA | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45900 | Lopikerweg West | 56 | 3411AP | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46243 | Botersloot | 70 | 4225PS | Noordeloos
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46258 | Noordzijdseweg | 163 | 3415RC | Polsbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46339 | Binnenhaven | 24 | 2965AC | Nieuwpoort
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47185 | Binnenhaven | 33 | 2965AB | Nieuwpoort
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48561 | Benedeneind ZZ | 279 | 3405CJ | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48945 | Cabauwsekade | 89 | 3411EG | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48945 | Cabauwsekade | 89 A | 3411EG | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49306 | Noordzijdseweg | 203 | 3415RD | Polsbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49306 | Noordzijdseweg | 203 A | 3415RD | Polsbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49428 | Achthoven | 40 | 4128LW | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49428 | Achthoven | 41 | 4128LW | Lexmond
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49579 | Prinsengracht | 26 | 4233EW | Ameide
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50154 | Benedeneind NZ | 408 | 3405CD | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50227 | Zuidzijdseweg | 168 | 3415PT | Polsbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50400 | Noordzijde | 95 | 4225PL | Noordeloos
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50400 | Noordzijde | 95 A | 4225PL | Noordeloos
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51717 | Lekdijk west | 26 A | 3411MV | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51717 | Lekdijk West | 26 | 3411MV | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51861 | Dorp | 290 | 3405BL | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52180 | Lekdijk Oost | 4 | 3411MN | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53799 | Zuidzijde | 84 | 2977XC | Goudriaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53799 | Zuidzijde | 85 | 2977XC | Goudriaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53867 | Zuidzijde | 124 | 2977XE | Goudriaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53867 | Zuidzijde | 123 | 2977XE | Goudriaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53867 | Zuidzijde | 123 A | 2977XE | Goudriaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54293 | Lekdijk West | 28 | 3411MV | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54541 | Noordzijdseweg | 137 | 3415RB | Polsbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54541 | Noordzijdseweg | 137 A | 3415RB | Polsbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55334 | Lopikerweg West | 65 | 3411AR | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55873 | Lekdijk | 14 | 4235VK | Tienhoven aan de Lek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55873 | Lekdijk | 13 | 4235VK | Tienhoven aan de Lek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55926 | Benedeneind NZ | 316 | 3405CB | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56108 | Benedeneind ZZ | 339 | 3405CL | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57036 | Lekdijk | 96 | 2967GE | Langerak
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57036 | Lekdijk | 96 A | 2967GE | Langerak
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57522 | Noordzijde | 54 | 4225PJ | Noordeloos
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57522 | Noordzijde | 55 | 4225PJ | Noordeloos
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57534 | Benedeneind ZZ | 269 B | 3405CJ | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57534 | Benedeneind ZZ | 269 | 3405CJ | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57761 | Hei- en Boeicopseweg | 168 | 4126RM | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57839 | Noordzijde | 58 | 4225PJ | Noordeloos
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57839 | Noordzijde | 59 | 4225PJ | Noordeloos
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57918 | Zuidzijde | 98 | 2977XC | Goudriaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57918 | Zuidzijde | 99 | 2977XC | Goudriaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57918 | Zuidzijde | 97 | 2977XC | Goudriaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58008 | Lekdijk West | 67 | 3411MZ | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58407 | Cabauwsekade | 18 | 3411EB | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58407 | Cabauwsekade | 17 C | 3411EA | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58562 | Benedeneind NZ | 414 | 3405CD | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59145 | Noordzijde | 60 C | 2977XB | Goudriaan
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59440 | Lopikerweg west | 37 A | 3411AN | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59440 | Lopikerweg West | 37 | 3411AN | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60309 | Noordzijdseweg | 201 | 3415RD | Polsbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60309 | Noordzijdseweg | 201 A | 3415RD | Polsbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60368 | Hei- en Boeicopseweg | 163 | 4126RH | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60627 | Cabauwsekade | 14 | 3411EA | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60627 | Cabauwsekade | 15 | 3411EA | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60657 | Botersloot | 1 | 4225PR | Noordeloos
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61282 | Lekdijk west | 38 | 3411MV | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61357 | Lopikerweg Oost | 122 | 3411LZ | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61357 | Lopikerweg Oost | 122 A | 3411LZ | Lopik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61435 | Benedeneind NZ | 336 | 3405CB | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61840 | Benedeneind ZZ | 335 | 3405CL | Benschop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68299 | Hoogstraat | 79 | 2965AK | Nieuwpoort
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68299 | Hoogstraat | 79 A | 2965AK | Nieuwpoort
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75958 | Helsdingse Achterweg | 22 | 4133NC | Vianen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75964 | Hogewaard | 2 | 4235VS | Tienhoven aan de Lek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75964 | Hogewaard | 4 | 4235VS | Tienhoven aan de Lek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31887 | Noordzijde | 56 |  | Goudriaan

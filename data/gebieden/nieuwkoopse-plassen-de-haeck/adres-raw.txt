@@ -1,0 +1,43 @@
+Gevonden: 39 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10998 | Voorweg | 5 | 2431AL | Noorden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11689 | Zuidzijde | 27 | 2411RR | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13046 | Weijland | 24 | 2415BB | Nieuwerbrug aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15430 | Buitenkerk | 61 | 2411PC | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18427 | Noordzijde | 130 | 2411RG | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19734 | Noordenseweg | 38 | 2421XX | Nieuwkoop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20807 | Weijland | 26 | 2415BB | Nieuwerbrug aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20812 | Dammekant | 2 | 2411CD | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21126 | Teckop | 20 | 3471HH | Kamerik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23070 | Steekterweg | 49 | 2407BE | Alphen aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24923 | Weijland | 20 | 2415BB | Nieuwerbrug aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26124 | Teckop | 17 | 3471HG | Kamerik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30181 | Teckop | 23 | 3471HG | Kamerik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30259 | Veldhuis | 2 | 3648AX | Wilnis
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32045 | Zuidzijde | 50 | 2411RS | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32135 | Noordzijde | 14 | 2411RA | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32633 | Lindenhovestraat | 2 | 2471XK | Zwammerdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34746 | Teckop | 9 | 3471HG | Kamerik
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35787 | Zuideinde | 12 | 2445AV | Aarlanderveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37556 | Zuideinde | 10 | 2445AV | Aarlanderveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37933 | Simon van Capelweg | 30 | 2431AG | Noorden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38336 | Zuideinde | 69 | 2445AT | Aarlanderveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38378 | Kortsteekterweg | 44 | 2407AH | Alphen aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38388 | Lindenhovestraat | 12 | 2471XK | Zwammerdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39602 | Rietveld | 128 | 3443XE | Woerden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40730 | Dammekant | 22 | 2411CD | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45746 | Zuideinde | 30 | 2445AW | Aarlanderveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46155 | Weijland | 9 | 2415BA | Nieuwerbrug aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48803 | Dammekant | 38 | 2411CE | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51066 | Noordzijde | 134 e | 2411RG | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51066 | Noordzijde | 134 d | 2411RG | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51066 | Noordzijde | 134 f | 2411RG | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55817 | Graaf Florisweg | 4 | 2415AB | Nieuwerbrug aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58634 | Kortsteekterweg | 30 | 2407AG | Alphen aan den Rijn
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60213 | Zuidzijde | 71 | 2411RT | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60311 | Oudhuijzerweg | 42 | 3648AC | Wilnis
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61312 | Dammekant | 28 a | 2411CD | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61312 | Dammekant | 28 | 2411CD | Bodegraven
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/79128 | Dorpsstraat | 121 | 2421AX | Nieuwkoop

@@ -332,5 +332,100 @@ export const GEBIEDEN_BESCHRIJVING = {
     ligging: 'Altena/Zaltbommel, grens Gelderland/Noord-Brabant',
     tekst: 'Drie deelgebieden (samen circa 750 hectare) rond de Merwede, met binnendijks moeras, grienden en vochtige graslanden, en buitendijks stroomdalgrasland langs de rivier. Beschermd vanwege een grote populatie grote modderkruiper en de meest westelijke rivierengebied-populatie kamsalamander.',
     bron: 'https://www.natura2000.nl/gebieden/gelderland/loevestein-pompveld-kornsche-boezem'
+  },
+  'krammer-volkerak': {
+    ligging: 'Grens Zeeland/Noord-Brabant/Zuid-Holland, tussen Goeree-Overflakkee en Tholen',
+    tekst: 'Voormalige zeearm, nu een zoetwatermeer met vaste waterstand (circa 6.081 hectare), met een diepe vaargeul en glooiende, deels droogvallende platen. Broedplaats van lepelaars sinds 1997, en belangrijk voor overwinterende nonnetjes en andere duikeenden.',
+    bron: 'https://www.natura2000.nl/gebieden/zeeland/krammer-volkerak'
+  },
+  'hollands-diep': {
+    ligging: 'Tussen Biesbosch en Haringvliet, grens Zuid-Holland/Noord-Brabant',
+    tekst: 'Voormalig zoutwatergetijdengebied (circa 4.225 hectare), sinds de afsluiting van het Haringvliet in 1970 zoet, met wilgenvloedbossen, rietland en natte graslanden. Rust- en foerageergebied voor ganzen en eenden, met de noordse woelmuis in de natte graslanden en een doortrekroute voor rivierprik, zeeprik en fint.',
+    bron: 'https://www.natura2000.nl/gebieden/noord-brabant/hollands-diep'
+  },
+  'oudeland-van-strijen': {
+    ligging: 'Hoeksche Waard',
+    tekst: 'Open polderlandschap (circa 1.568 hectare) in de Hoeksche Waard, met oude graslanden en sloten op kleigrond. Belangrijk overwinteringsgebied voor duizenden rotganzen en grauwe ganzen, met een opvallende populatie dwerggans en doortrekkende goudplevieren.',
+    bron: 'https://www.natura2000.nl/gebieden/zuid-holland/oudeland-van-strijen'
+  },
+  'haringvliet': {
+    ligging: 'Goeree-Overflakkee/Hoeksche Waard/Nissewaard/Voorne aan Zee',
+    tekst: 'Voormalige zeearm (circa 11.196 hectare) met slikken, schorren en rietland langs de oevers, met het eiland Tiengemeten in het midden. Belangrijk broedgebied voor sterns, plevieren en meeuwen, rust- en foerageergebied voor ganzen, en leefgebied voor de noordse woelmuis.',
+    bron: 'https://www.natura2000.nl/gebieden/zuid-holland/haringvliet'
+  },
+  'duinen-goeree-kwade-hoek': {
+    ligging: 'Goeree-Overflakkee',
+    tekst: 'Kustgebied (circa 1.624 hectare) met spontaan gevormde jonge duintjes, slikken en schorren met kronkelende kreken, en oudere, glooiende binnenduinen. Beschermd vanwege zeldzame heischrale duingraslanden met orchideeën, en de noordse woelmuis en nauwe korfslak.',
+    bron: 'https://www.natura2000.nl/gebieden/zuid-holland/duinen-goeree-kwade-hoek'
+  },
+  'oude-maas': {
+    ligging: 'Albrandswaard/Barendrecht/Hoeksche Waard/Nissewaard/Rotterdam',
+    tekst: 'Zoetwatergetijdengebied (circa 474 hectare), het enige overgebleven zoetwatergetijdengebied van Nederland, met wilgenvloedbossen, rietland en zeggevelden. Herbergt de grootste Noordwest-Europese populatie zomerklokje en de noordse woelmuis.',
+    bron: 'https://www.natura2000.nl/gebieden/zuid-holland/oude-maas'
+  },
+  'voornes-duin': {
+    ligging: 'Oostvoorne, Rotterdam/Voorne aan Zee',
+    tekst: 'Kalkrijk duingebied (circa 1.432 hectare) bij Oostvoorne, met duinvalleien, twee grote duinmeren, moeras, bos en schorren langs het Brielse Gat. Met 715 inheemse plantensoorten een van de soortenrijkste gebieden van Nederland, met de nauwe korfslak, de noordse woelmuis en een grote aalscholverkolonie.',
+    bron: 'https://www.natura2000.nl/gebieden/zuid-holland/voornes-duin'
+  },
+  'boezems-kinderdijk': {
+    ligging: 'Alblasserdam/Molenlanden',
+    tekst: 'Boezemgebied (circa 331 hectare) met open water, riet- en zeggemoeras, grienden en de historische Kinderdijkse molens. Broedplaats van purperreigers en zwarte sterns, en een van de grootste Nederlandse populaties van de zeggekorfslak.',
+    bron: 'https://www.natura2000.nl/gebieden/zuid-holland/boezems-kinderdijk'
+  },
+  'donkse-laagten': {
+    ligging: 'Molenlanden, tussen Bleskensgraaf en Streefkerk',
+    tekst: 'Nat polderlandschap (circa 190 hectare) ten zuiden van de Lek, met blauwgrasland en dotterbloemhooiland. Sinds 1983 natuurgebied, aangewezen als foerageer- en slaapplaats voor de kolgans, met tot 25.000 overwinterende vogels.',
+    bron: 'https://www.natura2000.nl/gebieden/zuid-holland/donkse-laagten'
+  },
+  'lingegebied-diefdijk-zuid': {
+    ligging: 'Gorinchem/Molenlanden/Vijfheerenlanden/West Betuwe, grens Gelderland/Utrecht/Zuid-Holland',
+    tekst: "Drie deelgebieden (samen circa 750 hectare) langs de Linge bij Leerdam, met grienden, rietland en voormalige kleiputten die zijn dichtgegroeid tot kalkmoeras. De Put van Bullee geldt als referentiegebied voor een orchideeënrijk kalkmoerastype; verder een kwetsbare, geïsoleerde populatie kamsalamander.",
+    bron: 'https://www.natura2000.nl/gebieden/gelderland/lingegebied-diefdijk-zuid'
+  },
+  'uiterwaarden-lek': {
+    ligging: 'Lopik/Vijfheerenlanden, tussen Vianen en Schoonhoven',
+    tekst: 'Vier verspreide uiterwaarden (samen circa 148 hectare) langs de Lek tussen Vianen en Schoonhoven. Herbergt de best ontwikkelde stroomdalgraslanden langs de Lek, met warmteminnende planten en op de Luistenbuul de grootste Nederlandse groeiplaats van het mos Entodon concinnus.',
+    bron: 'https://www.natura2000.nl/gebieden/utrecht/uiterwaarden-lek'
+  },
+  'solleveld-kapittelduinen': {
+    ligging: 'Den Haag/Rotterdam/Westland, tussen Den Haag en Hoek van Holland',
+    tekst: "Duingebied (circa 827 hectare) tussen Den Haag en Hoek van Holland: oudere duinen met heide in Solleveld, jongere duinen met valleien en moeras in de Kapittelduinen. Broedende sprinkhaanzangers en Cetti's zangers, en meer dan honderd overwinterende vleermuizen in de bunkers van het Staelduinse Bos.",
+    bron: 'https://www.natura2000.nl/gebieden/zuid-holland/solleveld-kapittelduinen'
+  },
+  'broekvelden-vettenbroek-polder-stein': {
+    ligging: 'Bodegraven-Reeuwijk, ten westen van Gouda',
+    tekst: 'Veenweidepolder met plassen (circa 696 hectare) in het Groene Hart, ten westen van Gouda, ontstaan door vroegere turfwinning. Een van de laatste grote groeiplaatsen van de wilde kievitsbloem in West-Nederland, en belangrijk overwinteringsgebied voor smienten en wilde zwanen.',
+    bron: 'https://www.natura2000.nl/gebieden/zuid-holland/broekvelden-vettenbroek-polder-stein'
+  },
+  'westduinpark-wapendal': {
+    ligging: 'Den Haag, tussen Kijkduin en Scheveningen',
+    tekst: 'Duingebied (circa 246 hectare) in Den Haag, tussen Kijkduin en Scheveningen, met jonge en oude droge duinen, duinbos en in Wapendal droge heide. Een van de laatst overgebleven stukken van het oorspronkelijke, 5.000 jaar oude duinlandschap, met zeldzame zeedorpenplanten als blauwe bremraap en wondklaver.',
+    bron: 'https://www.natura2000.nl/gebieden/zuid-holland/westduinpark-wapendal'
+  },
+  'de-wilck': {
+    ligging: 'Alphen aan den Rijn, tussen Zoetermeer en Alphen aan den Rijn',
+    tekst: "Veenweidegebied (circa 116 hectare) tussen Zoetermeer en Alphen aan den Rijn, met bloemrijke dotterbloemgraslanden. Oorspronkelijk aangewezen voor de kleine zwaan; nu vooral van belang voor broedende grutto's (rond de 70 paar per jaar) en andere weidevogels.",
+    bron: 'https://www.natura2000.nl/gebieden/zuid-holland/de-wilck'
+  },
+  'nieuwkoopse-plassen-de-haeck': {
+    ligging: 'Alphen aan den Rijn/Nieuwkoop/Woerden, grens Utrecht/Zuid-Holland',
+    tekst: 'Veenplassengebied (circa 2.008 hectare) op de grens van Utrecht en Zuid-Holland, restant van een uitgestrekt hoogveenlandschap, met trilveen, veenmosrietland en open water. Broedplaats van circa 120 paar purperreigers, en een van de drie grootste Noordwest-Europese kraamkolonies vleermuizen.',
+    bron: 'https://www.natura2000.nl/gebieden/zuid-holland/nieuwkoopse-plassen-de-haeck'
+  },
+  'meijendel-berkheide': {
+    ligging: 'Den Haag/Katwijk/Wassenaar',
+    tekst: 'Duingebied (circa 2.878 hectare) tussen Den Haag en Katwijk, met paraboolduinen, duingraslanden, struweel en binnenduinbos. Beschermd vanwege soortenrijke duingraslanden met zeldzame paardenbloemsoorten en gentianen, vochtige duinvalleien met orchideeën, en vleermuizen die overwinteren in bunkers uit de Tweede Wereldoorlog.',
+    bron: 'https://www.natura2000.nl/gebieden/zuid-holland/meijendel-berkheide'
+  },
+  'coepelduynen': {
+    ligging: 'Tussen Katwijk en Noordwijk',
+    tekst: 'Smalle strook kalkrijke jonge duinen (circa 188 hectare) tussen Katwijk en Noordwijk, met een fijnmazig mozaïek van open en gesloten duingrasland. Beschermd vanwege grijze duinen met zeldzame planten als kegelsilene en in topjaren duizenden exemplaren welriekende nachtorchis.',
+    bron: 'https://www.natura2000.nl/gebieden/zuid-holland/coepelduynen'
+  },
+  'botshol': {
+    ligging: 'De Ronde Venen',
+    tekst: 'Licht brak laagveengebied (circa 218 hectare) met twee grote plassen (Grote en Kleine Wije), rietland, bos en struweel, ontstaan door vroegere veenwinning. Een van de belangrijkste Nederlandse groeiplaatsen van kranswiervegetatie en galigaanmoeras, met broedende purperreigers en lepelaars.',
+    bron: 'https://www.natura2000.nl/gebieden/utrecht/botshol'
   }
 };

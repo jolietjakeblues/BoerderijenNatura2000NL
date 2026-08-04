@@ -1,0 +1,92 @@
+Gevonden: 88 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10771 | Nieuwe Veer | 81 | 2959AM | Streefkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11483 | Benedenberg | 83 | 2861LD | Bergambacht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12363 | Abbekesdoel | 43 | 2971VB | Bleskensgraaf ca
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12617 | Graafdijk-oost | 12 | 2973XA | Molenaarsgraaf
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13071 | Benedenberg | 64 | 2861LH | Bergambacht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13071 | Benedenberg | 66 | 2861LH | Bergambacht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13476 | Voorstraat | 212 | 2941EZ | Lekkerkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14024 | Oosteinde | 15 | 2969AS | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14130 | Bergstoep | 14 A | 2959AA | Streefkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14130 | Bergstoep | 14 | 2959AA | Streefkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14546 | Graafdijk-west | 28 | 2973XE | Molenaarsgraaf
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14546 | Graafdijk-west | 28 A | 2973XE | Molenaarsgraaf
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14733 | Lekdijk | 63 | 2957CC | Nieuw-Lekkerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15397 | Bergstoep | 12 | 2959AA | Streefkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15926 | Opperduit | 308 | 2941AP | Lekkerkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16036 | Opperduit | 452 | 2941AT | Lekkerkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16171 | Opperduit | 360 | 2941AR | Lekkerkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16577 | Noordzijde | 20 | 2969AP | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16591 | Oosteinde | 58 | 2969AV | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16591 | Oosteinde | 59 | 2969AV | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17487 | Graafdijk-oost | 6 | 2973XA | Molenaarsgraaf
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17537 | Graafdijk-west | 10 | 2973XD | Molenaarsgraaf
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17537 | Graafdijk-west | 11 | 2973XD | Molenaarsgraaf
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20026 | Hoofdstraat | 20 | 2861AP | Bergambacht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22051 | Hoofdstraat | 4 | 2861AP | Bergambacht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25072 | Bergstoep | 80 | 2959AD | Streefkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25072 | Bergstoep | 79 | 2959AD | Streefkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25450 | Opperduit | 482 | 2941AT | Lekkerkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29003 | Hofwegen | 50 | 2971XB | Bleskensgraaf ca
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31046 | Bergstoep | 13 | 2959AA | Streefkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31813 | Opperduit | 352 | 2941AR | Lekkerkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32430 | Gijbelandsedijk | 16 | 2974VC | Brandwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33844 | Opperduit | 372 a | 2941AR | Lekkerkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35910 | Dorpsstraat | 58 | 2969AD | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35910 | Dorpsstraat | 59 | 2969AD | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35910 | Dorpsstraat | 59 A | 2969AD | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38530 | B | 34 D | 2975BH | Ottoland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38530 | B | 34 C | 2975BH | Ottoland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38530 | B | 34 B | 2975BH | Ottoland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38530 | B | 34 A | 2975BH | Ottoland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38530 | B | 34 | 2975BH | Ottoland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38530 | B | 30 | 2975BH | Ottoland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38530 | B | 32 | 2975BH | Ottoland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40568 | Abbekesdoel | 2 | 2971VA | Bleskensgraaf ca
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42184 | Bergstoep | 28 | 2959AB | Streefkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42184 | Bergstoep | 27 | 2959AB | Streefkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43115 | Gijbelandsedijk | 12 | 2974VC | Brandwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43115 | Gijbelandsedijk | 12 A | 2974VC | Brandwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43139 | Brandwijksedijk | 48 | 2974LD | Brandwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43139 | Brandwijksedijk | 47 | 2974LD | Brandwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43554 | Oosteinde | 14 | 2969AS | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43907 | Graafdijk-oost | 1 | 2973XA | Molenaarsgraaf
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43972 | Oosteinde | 20 | 2969AS | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46995 | Oosteinde | 22 | 2969AS | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48466 | Nieuwe Veer | 83 | 2959AM | Streefkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49118 | Benedenberg | 42 | 2861LG | Bergambacht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49441 | Gijbelandsedijk | 17 | 2974VC | Brandwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50666 | Graafdijk-oost | 16 | 2973XA | Molenaarsgraaf
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50666 | Graafdijk-oost | 16 a | 2973XA | Molenaarsgraaf
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51631 | Westeinde | 3 | 2969BK | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52814 | Gijbelandsedijk | 39 | 2974VD | Brandwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53094 | Peperstraat | 48 | 2969AZ | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53581 | Graafdijk-west | 29 | 2973XE | Molenaarsgraaf
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53581 | Graafdijk-west | 29 b | 2973XE | Molenaarsgraaf
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54583 | Bergstoep | 30 | 2959AB | Streefkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54583 | Bergstoep | 29 | 2959AB | Streefkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55006 | Heulenslag | 1 | 2971VE | Bleskensgraaf ca
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55006 | Heulenslag | 2 | 2971VE | Bleskensgraaf ca
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55464 | Graafdijk-oost | 24 | 2973XB | Molenaarsgraaf
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55464 | Graafdijk-oost | 24 B | 2973XB | Molenaarsgraaf
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55496 | Graafdijk-west | 4 | 2973XD | Molenaarsgraaf
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55496 | Graafdijk-west | 3 | 2973XD | Molenaarsgraaf
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56600 | Westeinde | 4 a | 2969BK | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56600 | Westeinde | 4 | 2969BK | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56941 | Opperduit | 446 | 2941AS | Lekkerkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57665 | Oosteinde | 18 | 2969AS | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57665 | Oosteinde | 19 | 2969AS | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57675 | Peperstraat | 44 | 2969AZ | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58135 | Graafdijk-oost | 51 | 2973XC | Molenaarsgraaf
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58671 | Westeinde | 2 | 2969BK | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58671 | Westeinde | 1 | 2969BK | Oud-Alblas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59659 | Lekdijk | 91 | 2865LC | Ammerstol
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61726 | Tussenlanen | 11 | 2861CB | Bergambacht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61726 | Tussenlanen | 13 | 2861CB | Bergambacht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70374 | Kortland | 51 | 2954LC | Alblasserdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70915 | Benedenberg | 94 | 2861LH | Bergambacht
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75367 | Achterland | 3 | 2964LA | Groot-Ammers
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75369 | Achterland | 3 | 2964LA | Groot-Ammers

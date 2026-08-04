@@ -1,0 +1,8 @@
+Gevonden: 4 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28121 | Tussenweg | 4 | 3222EN | Hellevoetsluis
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42651 | Achterstraat | 3 | 3252AB | Goedereede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60930 | Bosweg | 2 | 3253XA | Ouddorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69137 | Oostdijkseweg | 81 | 3252LM | Goedereede

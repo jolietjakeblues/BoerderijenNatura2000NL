@@ -1,0 +1,35 @@
+Gevonden: 31 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10722 | Arent van Lierstraat | 26 A | 3297AB | Puttershoek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10722 | Arent van Lierstraat | 26 | 3297AB | Puttershoek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11095 | Molendijk | 61 | 3286BG | Klaaswaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11140 | Groeneweg | 18 | 3297LA | Puttershoek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12922 | Zwanegatsedijk | 3 | 3299LT | Maasdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13522 | Hoflaan | 1 | 3271BD | Mijnsheerenland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15010 | Raadhuislaan | 7 | 3271BS | Mijnsheerenland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21710 | Arent van Lierstraat | 11 | 3297AA | Puttershoek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21710 | Arent van Lierstraat | 11 A | 3297AA | Puttershoek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25268 | Boomdijk | 14 | 3286LE | Klaaswaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28343 | Kreupeleweg | 42 | 3286BC | Klaaswaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28343 | Kreupeleweg | 40 | 3286BC | Klaaswaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28548 | Molendijk | 144 a | 3286BK | Klaaswaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29418 | Oud-Cromstrijensedijk WZ | 120 | 3286BV | Klaaswaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29934 | Kooilandsedijk | 33 | 3291LG | Strijen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30864 | Arent van Lierstraat | 18 | 3297AA | Puttershoek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32616 | 1e Kruisweg | 35 | 3261LL | Oud-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35674 | Middelsluissedijk OZ | 11 | 3281LC | Numansdorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37459 | Zuid-Kavelsedijk | 3 | 3291LX | Strijen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38359 | Brabersweg | 4 | 3271LD | Mijnsheerenland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39862 | Dorpsstraat | 13 | 3274BB | Heinenoord
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46524 | Smidsweg | 18 | 3273LK | Westmaas
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48078 | Hoflaan | 7 | 3271BD | Mijnsheerenland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49017 | Noord Voorstraat | 23 | 3295BL | 's-Gravendeel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50362 | Gorzenweg | 1 | 3274LL | Heinenoord
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52831 | Langestraat | 21 | 3295BJ | 's-Gravendeel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53822 | Dorpsstraat | 63 | 3274BC | Heinenoord
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58128 | Hoeksedijk | 58 | 3299AH | Maasdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59051 | Schaweg | 13 | 3293LA | Mookhoek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68006 | Land van Esseweg | 6 | 3291LJ | Strijen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68183 | Kromme Elleboog | 1 | 3299LK | Maasdam

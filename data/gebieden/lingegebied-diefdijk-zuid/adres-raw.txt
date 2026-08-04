@@ -1,0 +1,108 @@
+Gevonden: 104 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11355 | Zuiderlingedijk | 133 | 4211BC | Spijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11355 | Zuiderlingedijk | 131 | 4211BC | Spijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11577 | Hoogeind | 17 | 4143LW | Leerdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11634 | Oudendijk | 5 | 4163LG | Oosterwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11634 | Oudendijk | 7 | 4163LG | Oosterwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11978 | Voorstraat | 5 | 4153AH | Beesd
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11978 | Voorstraat | 7 | 4153AH | Beesd
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12042 | Lingedijk | 137 | 4163LJ | Oosterwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12166 | Hoogeind | 19 | 4143LW | Leerdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12463 | Hei- en Boeicopseweg | 40 | 4126RJ | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12541 | Dorpsweg | 125 | 4223NH | Hoornaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12567 | Lingedijk | 175 | 4163LK | Oosterwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12989 | Zuiderlingedijk | 79 | 4211BA | Spijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13190 | Lingedijk | 197 | 4163LK | Oosterwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14332 | Lingedijk | 82 | 4151CN | Acquoy
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14537 | Hei- en Boeicopseweg | 57 | 4126RE | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14537 | Hei- en Boeicopseweg | 59 | 4126RE | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15277 | Overboeicop | 42 | 4145NR | Schoonrewoerd
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16179 | Hei- en Boeicopseweg | 21 | 4126RD | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16179 | Hei- en Boeicopseweg | 23 | 4126RD | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19115 | Smalzijde | 23 | 4243JP | Nieuwland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19200 | Havendijk | 23 | 4153AW | Beesd
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19655 | Schoolstraat | 18 | 4241XA | Arkel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19853 | Achterdijk | 15 | 4241TG | Arkel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21311 | Lekdijk | 15 | 4121KG | Everdingen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21666 | Hei- en Boeicopseweg | 65 | 4126RE | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21910 | Dorpsweg | 2 | 4245KP | Leerbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23875 | Dorpsdijk | 41 | 4156AM | Rumpt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24189 | Hei- en Boeicopseweg | 24 | 4126RJ | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25385 | Lingedijk | 84 | 4151CN | Acquoy
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25385 | Lingedijk | 86 | 4151CN | Acquoy
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27180 | Goilberdingerdijk | 37 | 4105LB | Culemborg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27180 | Goilberdingerdijk | 38 | 4105LB | Culemborg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28018 | Recht van Ter Leede | 2 | 4245KB | Leerbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28018 | Recht van Ter Leede | 4 | 4245KB | Leerbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28018 | Recht van Ter Leede | 2 A | 4245KB | Leerbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28018 | Recht van Ter Leede | 2 B | 4245KB | Leerbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28018 | Recht van Ter Leede | 3 | 4245KB | Leerbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28102 | Smalzijde | 24 | 4243JP | Nieuwland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28770 | Voorstraat | 103 | 4153AK | Beesd
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28770 | Voorstraat | 105 | 4153AK | Beesd
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31582 | Lekdijk | 48 | 3998NJ | Schalkwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31582 | Lekdijk | 50 | 3998NJ | Schalkwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31712 | Nieuwe Steeg | 2 | 4151CR | Acquoy
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31712 | Lingedijk | 22 | 4151EE | Acquoy
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31751 | Middenstraat | 42 | 4153AD | Beesd
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31751 | Middenstraat | 44 | 4153AD | Beesd
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35423 | Dorpsweg | 55 | 4223NC | Hoornaar
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36650 | Middenstraat | 26 | 4153AD | Beesd
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36650 | Middenstraat | 28 | 4153AD | Beesd
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36993 | Zuiderlingedijk | 135 | 4211BC | Spijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39728 | Lekdijk | 47 | 4121KH | Everdingen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39728 | Lekdijk | 47 A | 4121KH | Everdingen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41084 | Hei- en Boeicopseweg | 11 | 4126RD | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41084 | Hei- en Boeicopseweg | 13 | 4126RD | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42464 | Landpoortstraat | 18 | 4285AS | Woudrichem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43697 | Polderdijk | 5 a | 4156JG | Rumpt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43697 | Polderdijk | 5 | 4156JG | Rumpt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43803 | Dorpsweg | 55 | 4221LG | Hoogblokland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45628 | Lingedijk | 155 | 4163LJ | Oosterwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45628 | Lingedijk | 157 | 4163LJ | Oosterwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45944 | Hei- en Boeicopseweg | 12 | 4126RJ | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45944 | Hei- en Boeicopseweg | 14 | 4126RJ | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46012 | Dorpsweg | 71 | 4221LH | Hoogblokland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46394 | Lekdijk | 5 | 4121KG | Everdingen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46715 | Hei- en Boeicopseweg | 26 | 4126RJ | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46715 | Hei- en Boeicopseweg | 28 | 4126RJ | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46783 | Klinkert | 1 | 4241TD | Arkel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47117 | Dorpsweg | 42 | 4221LG | Hoogblokland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47982 | Zuiderlingedijk | 51 | 4211BA | Spijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48284 | Diefdijk | 23 | 4121KN | Everdingen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48949 | Diefdijk | 45 | 4143MG | Leerdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49099 | Maasdijk | 51 | 4284VC | Rijswijk (NB)
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49107 | Voorstraat | 117 | 4153AK | Beesd
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49787 | Lekdijk | 13 | 4121KG | Everdingen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50437 | Zuiderlingedijk | 89 | 4211BB | Spijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50740 | Lingedijk | 122 | 4151CP | Acquoy
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50865 | Hei- en Boeicopseweg | 55 | 4126RE | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51134 | Dorpsstraat | 26 | 4145KC | Schoonrewoerd
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52052 | Overheicop | 62 | 4145KV | Schoonrewoerd
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52228 | Vissersdijk | 8 | 4285AN | Woudrichem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52964 | Lingedijk | 111 | 4247EH | Kedichem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53197 | Zuiderlingedijk | 39 | 4161BM | Heukelum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53386 | Kerkeind | 24 | 4241XC | Arkel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53386 | Kerkeind | 23 | 4241XC | Arkel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53386 | Kerkeind | 23 A | 4241XC | Arkel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55255 | Kerkeind | 20 | 4241XB | Arkel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55333 | Overheicop | 35 | 4143KW | Leerdam
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55456 | Zuiderlingedijk | 141 | 4211BD | Spijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55790 | Hei- en Boeicopseweg | 80 | 4126RK | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55790 | Hei- en Boeicopseweg | 82 | 4126RK | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56232 | Bazeldijk | 69 | 4221XZ | Hoogblokland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56531 | Groenewal | 34 | 4161CM | Heukelum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56531 | Groenewal | 35 | 4161CM | Heukelum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57477 | Lekdijk | 84 | 4124KE | Hagestein
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57477 | Lekdijk | 86 | 4124KE | Hagestein
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60100 | Middenstraat | 15 | 4156AG | Rumpt
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60403 | Hei- en Boeicopseweg | 73 | 4126RE | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60682 | Lingedijk | 153 | 4163LJ | Oosterwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61270 | Hei- en Boeicopseweg | 92 | 4126RL | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61270 | Hei- en Boeicopseweg | 94 | 4126RL | Hei- en Boeicop
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61501 | Flegelstraat | 1 | 5306AW | Brakel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61663 | Lingedijk | 199 | 4163LK | Oosterwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67787 | Marienwaerdt Notendijk | 1 | 4153RN | Beesd

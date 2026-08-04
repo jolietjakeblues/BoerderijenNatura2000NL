@@ -1,0 +1,18 @@
+Gevonden: 14 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22123 | Kruisweg | 21 | 2671JX | Naaldwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22123 | Middel Broekweg | 1 | 2671ME | Naaldwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22123 | Middel Broekweg | 5 | 2671ME | Naaldwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26949 | Heulweg | 18 | 2291BZ | Wateringen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29312 | Peppellaan | 1 | 2691NG | 's-Gravenzande
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29312 | Peppellaan | 2 | 2691NG | 's-Gravenzande
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33088 | Heulweg | 29 | 2295KA | Kwintsheul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33088 | Heulweg | 31 | 2295KA | Kwintsheul
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41679 | Wateringseweg | 22 | 2685SR | Poeldijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42515 | Hoflaan | 1 | 2291CP | Wateringen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53518 | De Bruidsbogerd | 11 | 2671DK | Naaldwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56001 | Plaats | 2 | 2675CJ | Honselersdijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56001 | Plaats | 4 | 2675CJ | Honselersdijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71259 | Hollewatering | 26 | 2295LW | Kwintsheul

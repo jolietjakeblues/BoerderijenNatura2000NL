@@ -1,0 +1,1 @@
+110|https://linkeddata.cultureelerfgoed.nl/rce/natura2000/id/45dc7b90-bb4e-4bc9-a962-d5d621795c1d|VR|alleen Vogelrichtlijn gebied|NL9802103|-|false|Natura 2000-besluit 2010, wijzigingsbesluit 17 april 2015|http://www.wikidata.org/entity/Q49629517

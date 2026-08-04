@@ -1,0 +1,16 @@
+Gevonden: 12 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18350 | Wassenaarseweg | 85 | 2223LA | Katwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21844 | Haarlemmerstraatweg | 2 | 2343LB | Oegstgeest
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22844 | Iris | 4 | 2215JZ | Voorhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25216 | Moleneind | 35 | 2231HB | Rijnsburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41211 | Moleneind | 12 | 2231HA | Rijnsburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43831 | Hoofdstraat | 18 | 2202GD | Noordwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44885 | Moleneind | 17 | 2231HA | Rijnsburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57820 | de Voscuyl | 17 | 2341BJ | Oegstgeest
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60290 | Krokus | 38 | 2215SW | Voorhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60290 | Krokus | 40 | 2215SW | Voorhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61239 | Jacoba van Beierenweg | 136 | 2215KX | Voorhout
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78475 | van den Berch van Heemstedeweg | 3 | 2215RK | Voorhout

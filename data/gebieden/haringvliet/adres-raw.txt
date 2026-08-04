@@ -1,0 +1,63 @@
+Gevonden: 59 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11114 | Schaapsweg | 25 | 3256KA | Achthuizen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12592 | Gemeenlandsedijk Zuid | 33 | 3216AH | Abbenbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15115 | Molendijk | 73 | 3267AL | Goudswaard
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18822 | Achterweg | 8 | 3267LG | Goudswaard
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19860 | Helsedijk | 65 a | 4794SB | Heijningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19860 | Helsedijk | 65 | 4794SB | Heijningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19973 | Oudendijk | 1 | 3267LR | Goudswaard
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21990 | Nieuwe Veerdam | 3 | 3214LT | Zuidland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23315 | Oudelandsedijk | 11 | 3255LN | Oude-Tonge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23370 | Kleiburgseweg | 1 | 3245NC | Sommelsdijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/27163 | Ringdijk | 12 | 3211LG | Geervliet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28121 | Tussenweg | 4 | 3222EN | Hellevoetsluis
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29418 | Oud-Cromstrijensedijk WZ | 120 | 3286BV | Klaaswaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31219 | Kraaijerdijk | 23 | 3248LC | Melissant
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31515 | Molendijk | 2 | 3284LJ | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35674 | Middelsluissedijk OZ | 11 | 3281LC | Numansdorp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39194 | Nieuwendijk | 8 | 3284KR | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41934 | Korteweegje | 28 | 3247BJ | Dirksland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42003 | Kraaijerdijk | 31 | 3248LC | Melissant
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42651 | Achterstraat | 3 | 3252AB | Goedereede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45061 | Tweede Weg | 1 | 3248LN | Melissant
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45061 | Tweede Weg | 1 b | 3248LN | Melissant
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45061 | Tweede Weg | 1 a | 3248LN | Melissant
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45816 | Noordlangeweg | 4 | 4797SE | Willemstad
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46384 | Voorstraat | 36 | 3258BA | Den Bommel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48071 | Zeedijk | 5 | 3243LG | Stad aan 't Haringvliet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49692 | Kerkweg | 7 | 3214VB | Zuidland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49916 | Groeneweg | 2 | 3258LG | Den Bommel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50208 | Stadsedijk | 151 | 4794RL | Heijningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51485 | Molendijk | 100 | 3267AM | Goudswaard
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51979 | Aaldijk | 1 | 3205LG | Hekelingen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52473 | Steenpad | 3 | 4797SG | Willemstad
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54435 | Kraaiendijk | 12 | 4794SE | Heijningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54435 | Kraaiendijk | 14 | 4794SE | Heijningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 23 A | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 25 A | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 21 A | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 25 B | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 27 A | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 27 B | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 1 | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 5 | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 17 | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 19 | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 21 | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 23 | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 25 | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/55005 | Dorpzigt | 27 | 3284CA | Zuid-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56303 | Voorstraat | 20 A | 3265BV | Piershil
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57520 | Kokseweg | 4 | 3245LA | Sommelsdijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59010 | Kreekkant | 5 | 3264LW | Nieuw-Beijerland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59274 | Breeweg | 2 | 3222LA | Hellevoetsluis
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59982 | Tonisseweg | 1 | 3255LT | Oude-Tonge
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69137 | Oostdijkseweg | 81 | 3252LM | Goedereede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70718 | Kerkweg | 3 | 3214VB | Zuidland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72739 | Schoutsweg | 2 | 3214LM | Zuidland
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74139 | Gebrokendijk | 6 | 3267LK | Goudswaard
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75299 | Oudendijk | 36 | 3267LS | Goudswaard
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78719 | Geerweg | 6 | 3241LC | Middelharnis
