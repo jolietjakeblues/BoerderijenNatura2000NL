@@ -15,6 +15,19 @@ if (!slug) { console.error('Gebruik: node scripts/06-build-gebied-html.mjs <slug
 const dir = path.join(__dirname, '..', 'data', 'gebieden', slug);
 const D = fs.readFileSync(path.join(dir, 'data.json'), 'utf-8');
 const Dobj = JSON.parse(D);
+
+// JSON wordt in <script type="application/json">-elementen ingebed (dit databundel-blok
+// en het losse meta-blok verderop). Encodeer HTML-significante tekens zodat brondata het
+// script-element nooit voortijdig kan afsluiten (OWASP: geen externe waarden in een
+// scriptcontext zonder contextafhankelijke encoding).
+function jsonScriptSafe(jsonString) {
+  return jsonString
+    .replace(/</g, '\\u003c')
+    .replace(/>/g, '\\u003e')
+    .replace(/&/g, '\\u0026');
+}
+const Dsafe = jsonScriptSafe(D);
+
 const meta = GEBIEDEN_BESCHRIJVING[slug] || { tekst: '(nog geen beschrijving toegevoegd aan scripts/lib/gebieden-beschrijving.mjs)', bron: 'https://www.natura2000.nl/gebieden' };
 
 // Meld-een-fout-link: opent een vooringevulde GitHub issue (form-template), zodat een melder niet
@@ -226,7 +239,7 @@ const head = `<!DOCTYPE html>
     <p style="margin-top:10px"><a href="${feedbackUrl}" target="_blank" rel="noopener" style="color:var(--blue-mid)">Meld een mogelijke fout op deze pagina &rarr;</a></p>
   </footer>
 </div>
-<script id="meta" type="application/json">${JSON.stringify({ gebied: Dobj.gebied, tekst: meta.tekst, bron: meta.bron })}</script>
+<script id="meta" type="application/json">${jsonScriptSafe(JSON.stringify({ gebied: Dobj.gebied, tekst: meta.tekst, bron: meta.bron }))}</script>
 <script id="data" type="application/json">`;
 
 const tail = `</script>
@@ -353,5 +366,5 @@ window.addEventListener('resize',()=>map.invalidateSize());
 const headFilled = head.replace('__D_N__', Dobj.n);
 const OUT = path.join(__dirname, '..', 'gebieden', `${slug}.html`);
 fs.mkdirSync(path.dirname(OUT), { recursive: true });
-fs.writeFileSync(OUT, headFilled + D + tail);
+fs.writeFileSync(OUT, headFilled + Dsafe + tail);
 console.log('written', OUT, 'bytes', fs.statSync(OUT).size);

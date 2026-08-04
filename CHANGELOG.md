@@ -6,6 +6,48 @@ precieze wijzigingen per gebied: `git log`. Entries staan in omgekeerd-chronolog
 volgorde; een latere entry kan dus een eerdere entry corrigeren of vervangen. Waar dat
 kan verwarren, is dat expliciet benoemd.
 
+## BRONNEN.md toegevoegd
+
+Nieuw overzicht van alle geraadpleegde bronnen: de brondata die de pijplijn programmatisch bevraagt
+(RCE CHO-endpoint, RCE Natura 2000-graph, drie PDOK-WFS'en, Rijksmonumentenregister), en de
+achtergrond- en verificatiebronnen die zijn gebruikt om Natura 2000 als landelijk stelsel te
+begrijpen en losse bevindingen te controleren (natura2000.nl, de RVO-overzichtskaart en -PDF,
+Wikipedia, RCE linked data, rwsnatura2000.nl). Vanuit README.md gelinkt.
+
+## README opgesplitst: bouwgeschiedenis naar GEBIEDEN.md
+
+README.md was 430 regels, waarvan 307 (71%) de tien ronde-tabellen met per-gebied cijfers waren -
+gedetailleerde bouwgeschiedenis, niet iets dat een lezer moet doornemen om te begrijpen wat het
+project is. Alle ronde-tabellen (inclusief de toelichtingen per ronde en de "Resterend"-paragraaf)
+zijn ongewijzigd verplaatst naar het nieuwe [GEBIEDEN.md](GEBIEDEN.md). README.md houdt alleen een
+korte statusregel met de huidige totalen en een link naar GEBIEDEN.md. "Methode per gebied" (de
+methodologie-uitleg) bleef in README.md staan - dat is geen bouwlogboek maar de uitleg die het
+project interpreteerbaar maakt. Kruisverwijzingen tussen de twee bestanden (bv. "Bewust niet
+gepland", "Methode per gebied") zijn omgezet naar expliciete `README.md#anker`-links.
+
+## `</script>`-injectiebescherming voor de ingebedde JSON
+
+De gebiedspagina's bedden `data.json` rechtstreeks in als tekst binnen een
+`<script type="application/json">`-element. HTML-parsing houdt rekening met de letterlijke tekst
+`</script>`, ook binnen zo'n element met `type="application/json"` - een gemanipuleerde adres-,
+functie- of plaatsnaam met die tekenreeks zou het scriptblok voortijdig kunnen afsluiten en nieuwe
+HTML kunnen introduceren (OWASP: [XSS Prevention Cheat
+Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html)).
+De drie HTML-significante tekens worden nu vóór het inbedden vervangen door hun JavaScript
+Unicode-escape (kleiner-dan, groter-dan en ampersand elk als `\u00XX`-notatie), zodat een letterlijke
+`</script>`-tekenreeks nooit meer in de brontekst van het scriptblok kan voorkomen. `JSON.parse()`
+zet dit in de browser weer terug naar de oorspronkelijke tekens, dus de zichtbare data verandert
+niet. Dezelfde bescherming ook toegepast op het losse `meta`-JSON-blok (gebiedsnaam + beschrijving
+voor de klikbare kaartpopup) - dat viel buiten de oorspronkelijke aangeleverde patch, maar is exact
+dezelfde kwetsbaarheidsklasse in hetzelfde bestand.
+
+Geverifieerd met een gerichte test: een synthetische `</script><script>alert(...)</script>`-waarde
+door de escape-functie gehaald bevat na escaping geen letterlijke `</script>` meer, en
+`JSON.parse()` op het resultaat geeft de oorspronkelijke waarde exact terug. 37 van de 160
+gebiedspagina's laten een daadwerkelijke bytewijziging zien (die met een `&` in de gebiedsnaam,
+zoals "Zwin & Kievittepolder"); de overige 123 hadden geen enkel HTML-significant teken in hun data
+en zijn dus byte-identiek gebleven.
+
 ## Correctie-/feedbackknop ("Meld een mogelijke fout")
 
 Elke gebiedspagina heeft nu onderaan een "Meld een mogelijke fout op deze pagina"-link. Gekozen voor
