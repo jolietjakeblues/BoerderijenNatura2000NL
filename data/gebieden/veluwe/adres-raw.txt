@@ -1,0 +1,258 @@
+Gevonden: 254 resultaat/resultaten
+
+rm | openbareRuimte | huisnummer | postcode | woonplaats
+------------------------------------------------------------
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10433 | Lunterseweg | 80 | 6718WH | Ede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10459 | Heiligegeeststeeg | 3 | 6981AW | Doesburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10717 | Bovenstraatweg | 61 A | 8096PD | Oldebroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/10717 | Bovenstraatweg | 61 | 8096PD | Oldebroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11012 | Zuiderzeestraatweg | 59 | 3849AB | Hierden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/11995 | Smeesteeg | 4 | 8081EN | Elburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12517 | Ganzenebbeweg | 6 | 8171LL | Vaassen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/12787 | 5 Mei Plein | 13 | 6701DW | Wageningen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13520 | Mr J H Schoberlaan | 1 | 3881NB | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13578 | Sprielderweg | 205 | 3852MK | Ermelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13800 | Kerkweg | 15 | 8193KJ | Vorchten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13989 | Vierhouterweg | 2 a | 8075BJ | Elspeet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13989 | Vierhouterweg | 2 b | 8075BJ | Elspeet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/13989 | Apeldoornseweg | 13 | 8075BM | Elspeet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/14978 | Hoge Boeschoterweg | 69 | 3886PP | Garderen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15007 | Binnenweg | 32 | 6955AX | Ellecom
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15140 | Vlijtweg | 31 | 8161CC | Epe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15317 | Dorpsstraat | 34 | 6741AL | Lunteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15477 | Arnhemse Karweg | 6 | 3881NG | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15786 | Bredeweg | 71 | 6668AS | Randwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15786 | Bredeweg | 69 a | 6668AS | Randwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15786 | Bredeweg | 69 | 6668AS | Randwijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15950 | Stationsstraat | 92 | 3881AG | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/15950 | Stationsstraat | 94 | 3881AG | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16281 | Wittensteinse allee | 18 | 8097RM | Oosterwolde Gld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16281 | Wittensteinse allee | 18 A | 8097RM | Oosterwolde Gld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16492 | Spankerenseweg | 1 | 6974BA | Leuvenheim
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16753 | Zuiderzeestraatweg | 139 | 3849AD | Hierden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/16967 | Kanaaldijk | 85 | 8191LZ | Wapenveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17189 | Zuiderzeestraatweg | 316 | 8096CL | Oldebroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17233 | Brouwersteeg | 2 A | 8081EK | Elburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17351 | Zuiderzeestraatweg | 80 | 3849AJ | Hierden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17351 | Zuiderzeestraatweg | 78 | 3849AJ | Hierden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/17984 | Nieuwstraat | 13 | 6981AH | Doesburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18362 | Bovenheigraaf | 102 A | 8095PD | 't Loo Oldebroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18362 | Bovenheigraaf | 102 | 8095PD | 't Loo Oldebroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18504 | Gortelseweg | 73 | 8166JR | Emst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18698 | Molenweg | 102 | 8071TG | Nunspeet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/18772 | Zuideinde West | 36 | 8278AR | Kamperveen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19171 | Woesterbergweg | 2 C | 8162RD | Epe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19463 | Ridderstraat | 14 | 8051EH | Hattem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/19962 | Zwolseweg | 405 | 7345AE | Wenum Wiesel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20445 | Eperweg | 5 | 8084RB | 't Harde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20910 | Hamersestraat | 53 | 6931EW | Westervoort
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20910 | Hamersestraat | 53 a | 6931EW | Westervoort
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/20910 | Hamersestraat | 53 b | 6931EW | Westervoort
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21152 | Hoge Boeschoterweg | 76 | 3886PR | Garderen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21680 | Le Chevalierlaan | 15 | 8162PD | Epe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/21822 | Kosterstraat | 27 | 6981CG | Doesburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22333 | Krommesteeg | 39 | 6721MT | Bennekom
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22742 | Kleine Mheenweg | 10 | 3849BM | Hierden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22750 | Dellenweg | 1 | 8161AH | Epe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22840 | Wezenland | 34 | 8071SZ | Nunspeet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22894 | Oosteinderweg | 83 | 8072PB | Nunspeet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22894 | Oosteinderweg | 85 | 8072PB | Nunspeet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22933 | Baltussenweg | 37 | 6665AB | Driel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22952 | Zuiderwalstraat | 5 A | 8081CD | Elburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22952 | Zuiderwalstraat | 4 | 8081CD | Elburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/22952 | Zuiderwalstraat | 5 | 8081CD | Elburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23218 | Putterbrink | 1 | 3881LK | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23288 | Zuiderveldweg | 4 | 3881LJ | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23375 | Zuiderzeestraatweg West | 154 | 8085AK | Doornspijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23375 | Zuiderzeestraatweg West | 154 A | 8085AK | Doornspijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23443 | Harderwijkerweg | 71 | 8071EN | Nunspeet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23503 | Oude Hogeweg | 22 | 8085PA | Doornspijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23503 | Oude Hogeweg | 20 | 8085PA | Doornspijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/23781 | Zuiderzeestraatweg | 38 | 3849AG | Hierden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24252 | Eperweg | 27 | 8162RZ | Epe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24252 | Eperweg | 27 A | 8162RZ | Epe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24653 | Mheenbroekweg | 12 | 3849PC | Hierden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/24947 | Zuiderzeestraatweg | 130 | 3849AK | Hierden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25352 | Beekweg | 13 A | 3881LG | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25352 | Beekweg | 13 | 3881LG | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25562 | Harnsedijkje | 2 A | 6721MX | Bennekom
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/25956 | Lebretshoeveweg | 2 | 6877AA | Deelen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26049 | Molenstraat | 20 | 6672LA | Hemmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26374 | Dijkhuizerweg | 29 | 8161NT | Epe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26468 | Imbosch | 2 | 6961LJ | Rozendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26498 | Eperweg | 14 | 8167LH | Oene
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26498 | Eperweg | 16 | 8167LH | Oene
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26883 | Ellestraat | 54 | 8081GG | Elburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/26883 | Westerwalstraat | 34 | 8081CC | Elburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28270 | IJsseldijk | 9 | 8194LA | Veessen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28449 | Lunterseweg | 40 | 6718WE | Ede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28663 | Driehoek | 32 | 6711DJ | Ede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/28664 | Westerwalstraat | 18 | 8081CC | Elburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29178 | Onze Lieve Vrouwestraat | 85 | 6666AK | Heteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29350 | Binnenweg | 61 | 6955AW | Ellecom
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29373 | Bovenstraatweg | 6 | 8096PE | Oldebroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/29636 | Postweg | 64 | 6741BC | Lunteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30438 | Zuiderzeestraatweg | 98 | 3849AJ | Hierden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/30847 | Jachthuisweg | 1 | 3888MK | Uddel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31180 | Groot Hellerweg | 8 | 3882ME | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31205 | Diepesteeg | 23 | 6994CC | De Steeg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31645 | Bosbeekweg | 23 | 6721MH | Bennekom
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31839 | Niersenseweg | 21 | 8171RE | Vaassen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31868 | Beulekampersteeg | 54 | 3882LK | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/31882 | Kerkweg | 18 | 8193KK | Vorchten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32127 | Bovenstraatweg | 80 | 8096PG | Oldebroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32273 | Hogenbrinkweg | 26 | 8096RT | Oldebroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32474 | Schootbruggeweg | 1 | 8085RV | Doornspijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32516 | Hoge Boeschoterweg | 84 | 3886PR | Garderen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32516 | Hoge Boeschoterweg | 80 | 3886PR | Garderen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32516 | Hoge Boeschoterweg | 78 | 3886PR | Garderen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32552 | Molenweg | 93 | 8071TJ | Nunspeet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32552 | Molenweg | 95 | 8071TJ | Nunspeet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/32810 | Koningsweg | 54 | 3886KD | Garderen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33022 | Eperweg | 1 | 8084RB | 't Harde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33332 | Klein Cannenburgh | 24 | 7345DV | Wenum Wiesel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33474 | Garderenseweg | 11 | 3852NE | Ermelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33972 | Kernhemseweg | 3 | 6718ZB | Ede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/33972 | Kernhemseweg | 5 | 6718ZB | Ede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34015 | Plaggeweg | 26 | 8076PM | Vierhouten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34242 | Bloemsteeg | 5 | 8081CX | Elburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/34715 | Bisschopweg | 37 | 6741LC | Lunteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35079 | Marledijk | 33 | 8198KP | Marle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35121 | Hannesstraatje | 4 | 6843NV | Arnhem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35121 | Hannesstraatje | 2 A | 6843NV | Arnhem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35121 | Hannesstraatje | 2 | 6843NV | Arnhem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35898 | Niersenseweg | 42 | 8171RG | Vaassen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/35967 | Huddingweg | 18 | 3882LW | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36018 | Nunspeterweg | 74 | 8075AC | Elspeet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/36803 | Veesser Enkweg | 10 | 8194LL | Veessen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37263 | Heegderweg | 56 | 3888MD | Uddel
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37393 | Harderwijkerweg | 397 | 8077RG | Hulshorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/37847 | Boelenhamsestraat | 9 | 6672MC | Hemmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38047 | Niersenseweg | 40 | 8171RG | Vaassen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38217 | Zwaluwenburg | 1 | 8084PD | 't Harde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38532 | Snodenhoeksestraat | 20 | 6661ND | Elst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/38957 | Buitensingel | 62 | 6955BN | Ellecom
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39636 | Nieuwe Deventerweg | 103 | 8014AE | Zwolle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39749 | Achterstraat | 30 | 8051GC | Hattem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39981 | Molenpad | 1 | 6672LG | Hemmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/39981 | Molenpad | 1 A | 6672LG | Hemmen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40049 | Dorpsweg | 78 | 6956AR | Spankeren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40054 | Veldhoefweg | 5 | 3882LS | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40491 | Hanendorperweg | 113 | 8166JH | Emst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/40993 | Wachtelenbergweg | 9 | 8162XC | Epe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41184 | Grevenhofsweg | 2 | 3849NB | Hierden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41800 | Molenbelt | 2 | 8051EV | Hattem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41839 | Burgweg | 1 | 8162ZG | Epe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/41906 | Hoge Valkseweg | 66 | 6741GN | Lunteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42641 | Zuiderzeestraatweg | 72 | 3849AH | Hierden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42681 | Postweg | 2 | 3881EC | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/42825 | Ellestraat | 10 | 8081GE | Elburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43001 | Ledderweg | 11 | 8161SZ | Epe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43236 | Groteweg | 115 | 8191JV | Wapenveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43410 | Hanendorperweg | 62 | 8166JH | Emst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43434 | Zuiderzeestraatweg West | 139 B | 8085AD | Doornspijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43434 | Zuiderzeestraatweg West | 139 C | 8085AD | Doornspijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/43856 | Meulunterseweg | 7 | 6741HL | Lunteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44419 | Zuiderzeestraatweg | 159 | 3849AE | Hierden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44476 | Zwarteweg | 50 | 8097PW | Oosterwolde Gld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44701 | Staverdenseweg | 3 | 8075AN | Elspeet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44923 | Putterbrink | 2 | 3881LK | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/44923 | Putterbrink | 4 | 3881LK | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/45948 | Schiksweg | 8 | 8085PD | Doornspijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46628 | Niersenseweg | 17 | 8171RE | Vaassen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46682 | Smeesteeg | 4 A | 8081EN | Elburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46798 | Hanendorperweg | 115 | 8166JH | Emst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/46944 | Bockhorstweg | 8 | 6956CA | Spankeren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/47501 | Wittensteinse allee | 24 | 8097RM | Oosterwolde Gld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48032 | Kerkweg | 13 | 8193KJ | Vorchten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48036 | Garderenseweg | 180 | 3852NM | Ermelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48089 | Emmerweg | 8 | 7221LA | Steenderen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/48599 | Avervoordseweg | 9 | 7396PE | Terwolde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49827 | Kerkweg | 36 | 8193KL | Vorchten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/49991 | Oude Harderwijkerweg | 59 | 8085PE | Doornspijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50657 | Oude Bovendwarsweg | 35 | 8084JD | 't Harde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50777 | Westerwalstraat | 28 | 8081CC | Elburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/50828 | Oranjeweg | 119 | 8166JB | Emst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/51247 | Eperweg | 3 | 8084RB | 't Harde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52293 | Schouwenburg | 1 | 8084PE | 't Harde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/52503 | Kernhemseweg | 6 | 6718ZB | Ede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53278 | Dorpsstraat | 15 B | 6666AG | Heteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/53907 | Uddelermeerweg | 90 | 3852NT | Ermelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54082 | Zuiderzeestraatweg West | 111 | 8085AC | Doornspijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54209 | Bennekomseweg | 160 | 6871KJ | Renkum
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/54647 | De Genestetlaan | 20 | 6891CS | Rozendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56152 | Westerwalstraat | 20 | 8081CC | Elburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56391 | Houtweg | 2 A | 8167PL | Oene
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56391 | Houtweg | 2 | 8167PL | Oene
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/56758 | Vaassenseweg | 30 | 7397NL | Nijbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57445 | Middendijk | 63 | 7397ND | Nijbroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/57833 | Kleine Mheenweg | 5 | 3849BM | Hierden
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58225 | Dalenk | 22 | 7371DE | Loenen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58287 | Wolweg | 6 | 3776LP | Stroe
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58521 | Honingsveldweg | 10 | 8081LP | Elburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/58730 | Bovenstraatweg | 10 A | 8096PE | Oldebroek
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/59633 | Hanendorperweg | 117 | 8166JH | Emst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60462 | Harderwijkerweg | 411 | 8077RH | Hulshorst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60611 | Arnhemsestraat | 159 | 6974LD | Leuvenheim
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/60974 | Smeesteeg | 25 | 8081EM | Elburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61116 | Hanendorperweg | 119 | 8166JH | Emst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61128 | Slijpkruikweg | 54 | 6712DL | Ede
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/61170 | Laarstraat | 24 | 8166GS | Emst
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62052 | Zutphensestraatweg | 15 | 6953CG | Dieren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/62052 | Vingerhoed | 76 | 6953BW | Dieren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65484 | Havikerwaard | 51 a | 6994JH | De Steeg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65484 | Havikerwaard | 51 | 6994JH | De Steeg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65691 | Zuiderzeestraatweg Oost | 1 | 8081LA | Elburg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65694 | Zwaluwenburg | 2 | 8084PD | 't Harde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65695 | Zwaluwenburg | 7 | 8084PD | 't Harde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/65696 | Zwaluwenburg | 3 | 8084PD | 't Harde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66212 | Oude Harderwijkerweg | 28 | 8085PH | Doornspijk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66531 | Barneveldseweg | 19 | 6741LH | Lunteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66722 | de Pinkenberg | 7 | 6891DM | Rozendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/66723 | Kluizenaarsweg | 5 | 6891DN | Rozendaal
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67201 | Zuiderzeestraatweg | 446 | 8091PB | Wezep
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67202 | Zuiderzeestraatweg | 444 | 8091PB | Wezep
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67317 | Alteveerselaan | 24 | 6881AW | Velp
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67374 | Bonenburgerlaan | 45 | 8181HC | Heerde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/67385 | Veldweg | 1 | 8015PP | Zwolle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68425 | Staverdenseweg | 270 | 3852NW | Ermelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68545 | Elspeterweg | 42 | 8171EV | Vaassen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/68664 | Veldstraat | 57 | 6671BW | Zetten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69614 | Oversteeg | 45 | 6994AS | De Steeg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69617 | Eikenstraat | 3 | 6955JB | Ellecom
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/69619 | Landgoed Middachten | 5 | 6994JC | De Steeg
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/70452 | Vollenhofsweg | 3 | 8091PH | Wezep
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71254 | Postweg | 115 | 6741MH | Lunteren
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/71596 | Woudweg | 22 | 3862PN | Nijkerk
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72344 | Diependalseweg | 4 | 6813GE | Arnhem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72346 | Amsterdamseweg | 453 | 6816VJ | Arnhem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72435 | Vosbergerweg | 37 | 8181JK | Heerde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72435 | Vosbergerweg | 39 | 8181JK | Heerde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72437 | Vosbergerweg | 34 | 8181JJ | Heerde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/72438 | Vosbergerweg | 34 | 8181JJ | Heerde
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/73921 | Overweg | 1 | 8191KB | Wapenveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/74937 | Uddelermeerweg | 242 | 3852NT | Ermelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75376 | Emmerweg | 12 A | 7221LA | Steenderen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75376 | Emmerweg | 12 | 7221LA | Steenderen
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75885 | Plakkewegje | 13 | 8071SW | Nunspeet
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/75970 | Harderwijkerweg | 3 | 6816VA | Arnhem
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/76089 | Garderenseweg | 15 | 3852NE | Ermelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/76457 | Allee | 40 | 3852PM | Ermelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77084 | Putterweg | 232 | 3851VG | Ermelo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77639 | Kiefveldersteeg | 11 | 3882RG | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77690 | Bosweg | 15 | 8017BR | Zwolle
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77858 | Oostendorperstraatweg | 67 | 8097PL | Oosterwolde Gld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77859 | Oostendorperstraatweg | 73 A | 8097PL | Oosterwolde Gld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77859 | Oostendorperstraatweg | 73 | 8097PL | Oosterwolde Gld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77860 | Oostendorperstraatweg | 71 A | 8097PL | Oosterwolde Gld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/77860 | Oostendorperstraatweg | 71 | 8097PL | Oosterwolde Gld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78493 | Bingerdenseweg | 10 | 6986CE | Angerlo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78494 | Bingerdenseweg | 10 | 6986CE | Angerlo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78495 | Bingerdenseweg | 10 | 6986CE | Angerlo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78496 | Mariëndaalseweg | 16 | 6986CB | Angerlo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78497 | Bingerdenseweg | 17 | 6986CE | Angerlo
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78803 | Beulekampersteeg | 43 | 3882LJ | Putten
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78890 | Kanaaldijk | 63 | 8191LW | Wapenveld
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78931 | Kerkallee | 2 | 6955JA | Ellecom
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/78932 | Kerkallee | 2 | 6955JA | Ellecom
+https://linkeddata.cultureelerfgoed.nl/cho-kennis/id/rijksmonument/79689 | Stoopschaarweg | 9 | 8081PE | Elburg

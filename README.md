@@ -18,13 +18,14 @@ gebied "toebehoort", en kan elk gebied apart geverifieerd worden voordat het vol
 toegevoegd. Provincie is in deze opzet een **weergavelaag** (achteraf bepaald via een
 point-in-polygon-toets tegen de officiële PDOK-provinciegrenzen), geen zoekgrens.
 
-## Status: 159 van de 162 Natura 2000-gebieden verwerkt
+## Status: 160 van de 162 Natura 2000-gebieden verwerkt
 
 Nederland telt 162 Natura 2000-gebieden (bron: PDOK/RVO, waarvan 4 mariene gebieden in de
-Exclusieve Economische Zone op de Noordzee). Hiervan zijn er tot nu toe 159 verwerkt, inclusief
+Exclusieve Economische Zone op de Noordzee). Hiervan zijn er tot nu toe 160 verwerkt, inclusief
 alle 4 mariene gebieden - die laatste vier tonen structureel 0 boerderijen, omdat er simpelweg
 geen rijksmonument binnen 5 km van open zee ligt, maar zijn voor de volledigheid van het
-landsdekkende overzicht toch meegenomen:
+landsdekkende overzicht toch meegenomen. De resterende 2 (Waddenzee, Noordzeekustzone) zijn een
+bewuste, beargumenteerde uitzondering - zie "Bewust niet gepland" verderop:
 
 ### Eerste ronde (Gelderland/Achterhoek/IJssel en validatieprovincies)
 
@@ -281,28 +282,49 @@ de bestaande provincie-als-weergavelaag-aanpak.
 
 **Totaal (159 gebieden): 7031 | 1188 | 67**
 
+### Tiende ronde: Veluwe
+
+Het laatste grote, bewust uitgestelde gebied. Een verkennende telling gaf circa 1.189
+kandidaat-boerderijen binnen de ruime bbox-marge, maar de daadwerkelijke Veluwe-polygoon is extreem
+gefragmenteerd (1.901 losse ringen in de landelijke WFS, vermoedelijk uitgesneden dorpskernen en
+erven middenin het bos) - na de precieze "erin of ≤5&nbsp;km"-classificatie bleven er 224 over, veel
+minder dan de ruwe schatting deed vermoeden. Puntclassificatie tegen zo'n gefragmenteerde polygoon
+bleek geen performanceprobleem (1.200 test-classificaties in 616&nbsp;ms). Een bbox-overlaptoets
+tegen alle al gebouwde gebieden bevestigde vooraf dat de overlap beperkt zou blijven tot directe
+buren (Arkemheen, Binnenveld, Landgoederen Brummen, Rijntakken, Veluwerandmeren) - in tegenstelling
+tot Waddenzee en Noordzeekustzone, zie "Bewust niet gepland".
+
+| Gebied | Provincie(s) | Boerderijen | BAG-industriefunctie-indicatie | BAG niet te controleren |
+|---|---|---:|---:|---:|
+| [Veluwe](gebieden/veluwe.html) | Gelderland / Overijssel | 224 | 37 | 10 |
+
+**Totaal (160 gebieden): 7255 | 1225 | 77**
+
 Let op: de totaaltelling is een **som van per-gebied cijfers**, geen aantal unieke monumenten
 landelijk - een monument dat dicht bij meerdere Natura 2000-gebieden ligt (bv. tussen Bekendelle en
 Korenburgerveen) telt terecht in beide gebiedspagina's mee. De kolom "BAG niet te controleren" is
 géén bevestigde NEE - zie Methode, punt 5.
 
-**Resterend: 3 gebieden - alle drie bewust uitgesteld wegens omvang.** Eerste ronde gewerkt vanuit
-Gelderland (Achterhoek, IJssel, Nijmegen-Mook, Gelderse Vallei), met bewust een paar
-provinciegrensgevallen erbij, uitgebreid naar Groningen, Drenthe en Fryslân om de aanpak ook buiten
-het zuidoosten te valideren, en vervolgens met eerste, losse gebieden in Utrecht, Zuid-Holland,
-Noord-Brabant en Zuid-Limburg. Tweede ronde: heel Limburg en Zeeland, zuid naar noord (inclusief
-enkele grote wateren als Oosterschelde/Westerschelde/Grevelingen, die dankzij de 5&nbsp;km-marge
-rond hun oevers nog altijd relevante aantallen opleverden). Derde ronde: heel Noord-Brabant, zuid
-naar noord. Vierde ronde: heel Utrecht en Zuid-Holland, zuid naar noord. Vijfde ronde: heel
-Noord-Holland, zuid naar noord, plus de 4 mariene gebieden in de Noordzee-EEZ en Maas bij Eijsden
-(een gemist Limburgs gebied dat bij de provincietoets geen polygontreffer opleverde). Zesde ronde:
-heel Fryslân, zuid naar noord (op Waddenzee en Noordzeekustzone na, bewust overgeslagen wegens
-omvang). Zevende ronde: heel Flevoland, zuid naar noord (de resterende 6 gebieden die niet al via
-een andere provincie meeliepen). Achtste ronde: heel Overijssel, zuid naar noord, plus een
-correctie van Rijntakken (was onvolledig verwerkt) en Arkemheen. Negende ronde: heel Drenthe (op de
-vier validatiegebieden uit de eerste ronde na) en de twee resterende Groningse gebieden. Daarmee
-zijn alle "gewone" gebieden verwerkt; resteren nog drie gebieden die vanwege hun omvang bewust
-uitgesteld zijn: Veluwe, Waddenzee en Noordzeekustzone.
+**Resterend: 2 gebieden, allebei een bewuste, beargumenteerde uitzondering (zie "Bewust niet
+gepland").** Eerste ronde gewerkt vanuit Gelderland (Achterhoek, IJssel, Nijmegen-Mook, Gelderse
+Vallei), met bewust een paar provinciegrensgevallen erbij, uitgebreid naar Groningen, Drenthe en
+Fryslân om de aanpak ook buiten het zuidoosten te valideren, en vervolgens met eerste, losse
+gebieden in Utrecht, Zuid-Holland, Noord-Brabant en Zuid-Limburg. Tweede ronde: heel Limburg en
+Zeeland, zuid naar noord (inclusief enkele grote wateren als
+Oosterschelde/Westerschelde/Grevelingen, die dankzij de 5&nbsp;km-marge rond hun oevers nog altijd
+relevante aantallen opleverden). Derde ronde: heel Noord-Brabant, zuid naar noord. Vierde ronde:
+heel Utrecht en Zuid-Holland, zuid naar noord. Vijfde ronde: heel Noord-Holland, zuid naar noord,
+plus de 4 mariene gebieden in de Noordzee-EEZ en Maas bij Eijsden (een gemist Limburgs gebied dat
+bij de provincietoets geen polygontreffer opleverde). Zesde ronde: heel Fryslân, zuid naar noord.
+Zevende ronde: heel Flevoland, zuid naar noord (de resterende 6 gebieden die niet al via een andere
+provincie meeliepen). Achtste ronde: heel Overijssel, zuid naar noord, plus een correctie van
+Rijntakken (was onvolledig verwerkt) en Arkemheen. Negende ronde: heel Drenthe (op de vier
+validatiegebieden uit de eerste ronde na) en de twee resterende Groningse gebieden. Tiende ronde:
+Veluwe - qua oppervlakte het grootste gebied van het project (88.436 hectare), maar dankzij de sterk
+gefragmenteerde polygoon met slechts 224 boerderijen binnen bereik. Daarmee zijn alle gebieden
+verwerkt op twee na: Waddenzee en Noordzeekustzone, bewust buiten scope gehouden omdat ze qua
+oppervlakte vrijwel de hele Nederlandse kust bestrijken en dus grotendeels overlappen met tientallen
+al gebouwde, specifiekere kustgebieden.
 
 ## Methode per gebied
 
@@ -355,8 +377,6 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
 - **Volledig afstands-bucketschema** invoeren: erin / < 250 m / < 1 km / < 5 km / < 25 km / ≥ 25 km
   (nu alleen erin + ≤ 5 km). Bewust uitgesteld tot na de landsdekkende opbouw van de eerste ronde
   gebieden.
-- De laatste 3 Natura 2000-gebieden (Veluwe, Waddenzee, Noordzeekustzone) alsnog aanpakken, of
-  bewust definitief buiten scope houden.
 - **Download-knop (CSV)** per gebiedspagina: monumentenlijst (nr, adres, provincie, afstand, functie,
   status) exporteren.
 - **Klikbare popup voor het Natura 2000-gebied zelf** op de kaart, met de gebiedsbeschrijving.
@@ -380,6 +400,15 @@ sleutelloze PDOK BAG-WFS (`service.pdok.nl/lv/bag/wfs/v2_0`) gebruikt, die hetze
   [Rijksmonumentenregister](https://monumentenregister.cultureelerfgoed.nl/monumenten/) op
   `/monumenten/{rijksmonumentnummer}`. Een eigen versie daarnaast zou alleen een tweede, mogelijk
   verouderende bron toevoegen.
+- **Waddenzee en Noordzeekustzone.** Beide zijn kuststroken die vrijwel de volledige Nederlandse
+  Noordzee-/Waddenkust bestrijken. Een verkennende telling (kandidaten binnen de bbox+marge, vóór de
+  precieze 5&nbsp;km-classificatie) leverde circa 1.300 respectievelijk circa 1.900 kandidaat-
+  boerderijen op, en een bbox-overlaptoets liet zien dat beide gebieden overlappen met tientallen
+  al gebouwde gebieden (vrijwel elk duingebied van Texel tot Zeeland, plus de kustgebieden van
+  Fryslân en Groningen). Bouwen zou een zeer grote pagina opleveren die grotendeels dezelfde
+  boerderijen dubbel toont die al op specifiekere, betekenisvollere gebiedspagina's staan - weinig
+  extra inzicht voor veel extra gewicht. Veluwe (het derde grote gebied) week hier bewust van af en
+  is wél gebouwd: die overlapt slechts met een handvol directe buurgebieden.
 
 ## Kanttekeningen
 

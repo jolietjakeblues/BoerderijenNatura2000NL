@@ -6,6 +6,36 @@ precieze wijzigingen per gebied: `git log`. Entries staan in omgekeerd-chronolog
 volgorde; een latere entry kan dus een eerdere entry corrigeren of vervangen. Waar dat
 kan verwarren, is dat expliciet benoemd.
 
+## Veluwe toegevoegd; Waddenzee en Noordzeekustzone bewust definitief buiten scope
+
+159 naar 160 verwerkte gebieden: Veluwe (tiende ronde), het laatste van de drie bewust uitgestelde
+grote gebieden. Nieuwe totalen: 7255 boerderijen, 1225 met BAG-industriefunctie-indicatie, 77 niet
+te controleren (was 7031/1188/67). Zie README.md voor het gebied.
+
+**Onderzoek vooraf** naar de drie resterende grote gebieden (Veluwe, Waddenzee, Noordzeekustzone):
+een verkennende COUNT-query tegen het RCE-endpoint (kandidaten binnen de bbox+0,15°-marge, vóór
+precieze 5&nbsp;km-classificatie) gaf circa 1.189 (Veluwe), 1.317 (Waddenzee) en 1.919
+(Noordzeekustzone) kandidaten. Een bbox-overlaptoets tegen alle 159 op dat moment gebouwde gebieden
+liet zien dat Veluwe slechts met een handvol directe buurgebieden overlapt, tegenover 29
+(Waddenzee) en 42 (Noordzeekustzone) - vrijwel elk duingebied van Texel tot Zeeland dat in eerdere
+rondes al apart gebouwd is. Op basis daarvan is besloten: Veluwe bouwen, Waddenzee en
+Noordzeekustzone bewust definitief buiten scope houden (verplaatst van "nog te doen" naar "bewust
+niet gepland" in README.md) - de overlap met al gepubliceerde, specifiekere gebiedspagina's zou te
+groot zijn voor de extra paginaomvang die het zou kosten.
+
+**Veluwe zelf viel uiteindelijk fors kleiner uit dan de kandidatentelling deed vermoeden**: de
+polygoon in de landelijke WFS bleek extreem gefragmenteerd (1.901 losse ringen, vermoedelijk
+uitgesneden dorpskernen en erven middenin het bos), en na de precieze "erin of
+≤5&nbsp;km"-classificatie bleven er 224 boerderijen over. Voor de zekerheid vooraf een
+performancetest gedraaid (1.200 puntclassificaties tegen die 1.901 ringen: 616&nbsp;ms) - geen
+technisch probleem gebleken.
+
+**Bijvangst**: bij het navragen van deze bevindingen bleek er een tweede, apart RCE
+SPARQL-endpoint te bestaan (`https://api.linkeddata.cultureelerfgoed.nl/datasets/rce/natura2000/sparql`,
+~10.466 triples, bevat Natura2000-gebiedsnamen) dat de pijplijn nooit heeft gebruikt - de huidige
+richtlijndata komt via een `GRAPH`-filter op het veel grotere `cho`-endpoint. Nog niet onderzocht of
+overstappen zin heeft; apart genoteerd voor een latere sessie.
+
 ## Uitbreiding naar Drenthe en Groningen (11 nieuwe gebieden)
 
 148 naar 159 verwerkte gebieden: heel Drenthe (op de vier gebieden uit de eerste, validatie-ronde
